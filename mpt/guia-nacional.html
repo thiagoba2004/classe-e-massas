@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Guia Nacional do Bancário | Classe e Massas</title>
+
+  <meta name="description" content="Guia prático para bancários documentarem possíveis irregularidades no processo de informação, discussão e deliberação de CCT e ACT.">
+
+  <meta property="og:title" content="Guia Nacional do Bancário | Classe e Massas">
+  <meta property="og:description" content="Antes de denunciar, descubra o que aconteceu. Documente, compare e preserve as provas.">
+  <meta property="og:type" content="article">
+
+  <link rel="stylesheet" href="../css/style.css">
+
+  <style>
+    .guide-page {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 42px 20px 70px;
+    }
+
+    .guide-hero {
+      padding: 24px 0 36px;
+      border-bottom: 1px solid rgba(127,127,127,.28);
+    }
+
+    .guide-kicker {
+      margin-bottom: 12px;
+      font-size: .82rem;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .guide-hero h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2.1rem, 6vw, 3.8rem);
+      line-height: 1.03;
+    }
+
+    .guide-dek {
+      max-width: 720px;
+      margin: 0;
+      font-size: 1.25rem;
+      line-height: 1.45;
+      font-weight: 600;
+    }
+
+    .guide-content {
+      font-size: 1.06rem;
+      line-height: 1.75;
+    }
+
+    .guide-content h2 {
+      margin-top: 52px;
+      margin-bottom: 14px;
+      font-size: clamp(1.55rem, 4vw, 2.15rem);
+      line-height: 1.15;
+    }
+
+    .guide-content h3 {
+      margin-top: 32px;
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+    }
+
+    .guide-content ul,
+    .guide-content ol {
+      padding-left: 24px;
+    }
+
+    .guide-content li {
+      margin-bottom: 8px;
+    }
+
+    .guide-box {
+      margin: 28px 0;
+      padding: 22px;
+      border: 1px solid rgba(127,127,127,.3);
+      border-radius: 12px;
+      background: rgba(127,127,127,.06);
+    }
+
+    .guide-box h3 {
+      margin-top: 0;
+    }
+
+    .guide-warning {
+      border-left: 5px solid currentColor;
+      border-radius: 0 10px 10px 0;
+    }
+
+    .guide-question {
+      margin: 28px 0;
+      padding: 22px;
+      border-left: 5px solid currentColor;
+      font-size: 1.12rem;
+      font-weight: 700;
+      line-height: 1.6;
+    }
+
+    .guide-table-wrap {
+      overflow-x: auto;
+      margin: 24px 0;
+    }
+
+    .guide-table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 620px;
+      font-size: .95rem;
+    }
+
+    .guide-table th,
+    .guide-table td {
+      padding: 12px;
+      border: 1px solid rgba(127,127,127,.3);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .guide-table th {
+      font-weight: 800;
+    }
+
+    .robust-list {
+      list-style: none;
+      padding-left: 0 !important;
+      counter-reset: robust;
+    }
+
+    .robust-list li {
+      counter-increment: robust;
+      padding: 16px 0 16px 48px;
+      position: relative;
+      border-bottom: 1px solid rgba(127,127,127,.2);
+    }
+
+    .robust-list li::before {
+      content: counter(robust);
+      position: absolute;
+      left: 0;
+      top: 14px;
+      width: 32px;
+      height: 32px;
+      border: 2px solid currentColor;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      font-weight: 800;
+    }
+
+    .guide-level {
+      margin: 16px 0;
+      padding: 18px 20px;
+      border-left: 4px solid currentColor;
+      background: rgba(127,127,127,.06);
+    }
+
+    .guide-level strong {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .guide-checklist {
+      list-style: none;
+      padding-left: 0 !important;
+    }
+
+    .guide-checklist li {
+      padding-left: 30px;
+      position: relative;
+    }
+
+    .guide-checklist li::before {
+      content: "□";
+      position: absolute;
+      left: 2px;
+      font-weight: 800;
+    }
+
+    .guide-final {
+      margin-top: 56px;
+      padding: 30px 0;
+      border-top: 2px solid currentColor;
+      border-bottom: 2px solid currentColor;
+      text-align: center;
+    }
+
+    .guide-final strong {
+      display: block;
+      margin-bottom: 12px;
+      font-size: clamp(1.5rem, 4vw, 2.1rem);
+      text-transform: uppercase;
+    }
+
+    .guide-nav {
+      margin-top: 38px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .guide-button {
+      display: inline-block;
+      padding: 12px 16px;
+      border: 2px solid currentColor;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 800;
+    }
+
+    @media (max-width: 700px) {
+      .guide-page {
+        padding: 24px 18px 52px;
+      }
+
+      .guide-hero {
+        padding-top: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="bar">
+    <div class="brand">
+      <a href="../index.html">Classe e Massas</a>
+    </div>
+
+    <div class="nav">
+      <a href="index.html">Modelo Nacional</a>
+      <a href="../index.html">Início</a>
+    </div>
+  </div>
+</header>
+
+<main class="guide-page">
+
+  <section class="guide-hero">
+    <div class="guide-kicker">
+      Modelo Nacional de Denúncia ao MPT
+    </div>
+
+    <h1>Guia Nacional do Bancário</h1>
+
+    <p class="guide-dek">
+      Como documentar e denunciar possíveis irregularidades na aprovação
+      de Convenção ou Acordo Coletivo de Trabalho
+    </p>
+  </section>
+
+  <article class="guide-content">
+
+    <div class="guide-box guide-warning">
+      <h3>Antes de começar</h3>
+
+      <p>
+        Este Guia não parte da conclusão de que determinada assembleia
+        foi ilegal, fraudulenta ou nula.
+      </p>
+
+      <p>
+        Seu objetivo é ajudar o trabalhador a descobrir
+        <strong>o que efetivamente aconteceu</strong>, preservar as
+        provas e, somente depois, avaliar se existem elementos que
+        justifiquem uma representação ao Ministério Público do Trabalho.
+      </p>
+    </div>
+
+    <h2>1. Primeiro descubra: o que exatamente estava sendo votado?</h2>
+
+    <p>
+      Essa é uma das perguntas mais importantes de todo o processo.
+    </p>
+
+    <p>
+      Durante uma negociação coletiva podem existir documentos
+      diferentes em momentos diferentes. Não trate todos eles como se
+      fossem a mesma coisa.
+    </p>
+
+    <h3>Proposta negocial</h3>
+
+    <p>
+      É o conjunto de condições apresentado durante a negociação:
+      reajuste, PLR, benefícios, jornada, cláusulas sociais, garantias,
+      condições específicas e outros pontos.
+    </p>
+
+    <h3>Minuta</h3>
+
+    <p>
+      É uma redação provisória destinada a transformar as condições
+      negociadas em cláusulas jurídicas.
+    </p>
+
+    <h3>CCT ou ACT definitivo</h3>
+
+    <p>
+      É o instrumento coletivo efetivamente celebrado.
+    </p>
+
+    <div class="guide-question">
+      Pergunta central: qual era exatamente o objeto submetido à
+      deliberação e quais documentos materializavam esse objeto naquele
+      momento?
+    </div>
+
+    <p>
+      Não presuma que uma minuta completa já existia. Descubra primeiro.
+    </p>
+
+    <h2>2. Guarde a convocação da assembleia</h2>
+
+    <p>
+      Preserve o edital, comunicado ou mensagem utilizada para convocar
+      os trabalhadores.
+    </p>
+
+    <p>Procure registrar:</p>
+
+    <ul>
+      <li>nome da entidade sindical;</li>
+      <li>data da convocação;</li>
+      <li>data e horário da assembleia;</li>
+      <li>horário de início e encerramento da votação;</li>
+      <li>se a assembleia era presencial, virtual ou híbrida;</li>
+      <li>plataforma utilizada;</li>
+      <li>pauta divulgada;</li>
+      <li>quem poderia participar;</li>
+      <li>texto exato da pergunta submetida à votação.</li>
+    </ul>
+
+    <div class="guide-box">
+      <strong>Dica de prova:</strong>
+      ao fazer capturas de tela, preserve sempre que possível a data,
+      o horário, o endereço da página e o contexto da publicação.
+      Evite recortes tão estreitos que impeçam identificar a origem da
+      informação.
+    </div>
+
+    <h2>3. Descubra o que foi informado antes do voto</h2>
+
+    <p>
+      Reúna tudo aquilo que a entidade sindical apresentou aos
+      trabalhadores antes e durante a votação.
+    </p>
+
+    <p>Por exemplo:</p>
+
+    <ul>
+      <li>boletins;</li>
+      <li>resumos;</li>
+      <li>tabelas;</li>
+      <li>cards;</li>
+      <li>vídeos;</li>
+      <li>lives;</li>
+      <li>apresentações;</li>
+      <li>mensagens de WhatsApp ou Telegram;</li>
+      <li>publicações no site;</li>
+      <li>postagens em redes sociais;</li>
+      <li>proposta escrita;</li>
+      <li>minuta;</li>
+      <li>texto integral disponibilizado.</li>
+    </ul>
+
+    <p>
+      Não descarte um material apenas porque ele é resumido.
+      Um bom resumo pode ser informativamente útil.
+    </p>
+
+    <p>
+      A pergunta relevante será se os materiais fornecidos permitiam
+      compreender os aspectos materialmente importantes da proposta.
+    </p>
+
+    <h2>4. Houve espaço real para discussão?</h2>
+
+    <p>
+      Registre se houve plenária, reunião, transmissão ao vivo ou outro
+      espaço de discussão antes da votação.
+    </p>
+
+    <p>Procure responder:</p>
+
+    <ul>
+      <li>os trabalhadores puderam falar?</li>
+      <li>puderam fazer perguntas?</li>
+      <li>houve respostas?</li>
+      <li>existia limitação de tempo?</li>
+      <li>quantas pessoas puderam se manifestar?</li>
+      <li>houve possibilidade de posições favoráveis e contrárias?</li>
+      <li>foram apresentados documentos durante o debate?</li>
+    </ul>
+
+    <p>
+      Uma votação longa não demonstra, por si só, que houve deliberação
+      adequada. Da mesma forma, uma limitação de tempo não demonstra,
+      isoladamente, irregularidade.
+    </p>
+
+    <p>
+      O contexto precisa ser reconstruído.
+    </p>
+
+    <h2>5. Peça formalmente acesso ao conteúdo</h2>
+
+    <p>
+      Se você não recebeu informações ou documentos que considera
+      necessários para compreender o objeto da votação, solicite-os
+      formalmente à entidade sindical.
+    </p>
+
+    <p>
+      Faça um pedido objetivo. Evite acusações antecipadas.
+    </p>
+
+    <div class="guide-box">
+      <h3>Exemplo</h3>
+
+      <p>
+        “Solicito acesso ao conteúdo completo da proposta submetida à
+        deliberação da categoria, inclusive eventual documento ou minuta
+        que materialize as condições negociadas, caso já existente e
+        disponível à entidade.”
+      </p>
+    </div>
+
+    <p>Preserve:</p>
+
+    <ul>
+      <li>a mensagem enviada;</li>
+      <li>data e horário;</li>
+      <li>comprovante de entrega;</li>
+      <li>eventual resposta;</li>
+      <li>documentos encaminhados em resposta.</li>
+    </ul>
+
+    <p>
+      Não afirme que o sindicato possuía determinado documento se você
+      ainda não possui elementos para demonstrá-lo.
+    </p>
+
+    <h2>6. Construa a cronologia</h2>
+
+    <p>
+      A sequência dos acontecimentos pode ser mais importante do que
+      longas discussões abstratas.
+    </p>
+
+    <div class="guide-table-wrap">
+      <table class="guide-table">
+        <thead>
+          <tr>
+            <th>Evento</th>
+            <th>Data</th>
+            <th>Hora</th>
+            <th>Prova</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Convocação da assembleia</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Divulgação da proposta</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Plenária ou debate</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Pedido de acesso ao conteúdo</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Resposta da entidade</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Início da votação</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Divulgação de documento integral</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Encerramento da votação</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Divulgação do resultado</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Assinatura da CCT ou ACT</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>7. Compare o antes e o depois</h2>
+
+    <p>
+      Se posteriormente foi disponibilizado o instrumento completo,
+      compare-o com aquilo que havia sido informado antes da votação.
+    </p>
+
+    <div class="guide-table-wrap">
+      <table class="guide-table">
+        <thead>
+          <tr>
+            <th>Tema ou cláusula</th>
+            <th>O que foi informado antes</th>
+            <th>O que consta depois</th>
+            <th>Diferença relevante?</th>
+            <th>Prova</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Exemplo: PLR</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Exemplo: reajuste</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Exemplo: benefício</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>
+      Atenção: diferença de redação não significa necessariamente
+      diferença material.
+    </p>
+
+    <p>
+      Procure identificar mudanças ou informações capazes de alterar a
+      compreensão sobre direitos, obrigações, valores, condições,
+      exceções, limitações ou consequências da proposta.
+    </p>
+
+    <h2>8. Faça o Teste de Robustez</h2>
+
+    <p>
+      Antes de elaborar uma representação, responda com sinceridade às
+      perguntas abaixo.
+    </p>
+
+    <ol class="robust-list">
+      <li>Sei exatamente qual era o objeto submetido à votação?</li>
+
+      <li>
+        Sei quais documentos existiam antes do encerramento da votação?
+      </li>
+
+      <li>
+        Tenho prova de que a entidade sindical possuía eventual
+        documento mais completo?
+      </li>
+
+      <li>
+        Tenho cópia do material efetivamente apresentado à categoria?
+      </li>
+
+      <li>
+        Houve pedido de acesso a informações ou documentos adicionais?
+      </li>
+
+      <li>Tenho prova desse pedido e da resposta recebida?</li>
+
+      <li>
+        Houve oportunidade efetiva de perguntas, manifestações e
+        discussão?
+      </li>
+
+      <li>
+        Tenho registro do texto exato da pergunta colocada em votação?
+      </li>
+
+      <li>
+        Comparei o que foi informado antes com o instrumento conhecido
+        posteriormente?
+      </li>
+
+      <li>
+        Encontrei diferenças materialmente relevantes, e não apenas
+        diferenças de redação?
+      </li>
+
+      <li>
+        Consigo organizar os acontecimentos em uma cronologia
+        documental?
+      </li>
+
+      <li>
+        Consigo separar aquilo que posso provar daquilo que apenas
+        suspeito?
+      </li>
+    </ol>
+
+    <h2>9. Como interpretar o resultado</h2>
+
+    <p>
+      Este teste não calcula “percentual de ilegalidade” e não substitui
+      análise jurídica.
+    </p>
+
+    <div class="guide-level">
+      <strong>Poucos indícios</strong>
+      O material disponível pode indicar que a hipótese específica de
+      insuficiência informacional é fraca. Isso não exclui outros tipos
+      de irregularidade.
+    </div>
+
+    <div class="guide-level">
+      <strong>Informações insuficientes</strong>
+      Ainda existem fatos essenciais desconhecidos. O melhor caminho é
+      procurar documentos antes de formular conclusões.
+    </div>
+
+    <div class="guide-level">
+      <strong>Indícios relevantes</strong>
+      Existem fatos que merecem organização documental e análise mais
+      cuidadosa.
+    </div>
+
+    <div class="guide-level">
+      <strong>Indícios mais fortes</strong>
+      A existência comprovada de documento relevante não disponibilizado,
+      pedidos de acesso frustrados e diferenças materiais posteriormente
+      descobertas podem fortalecer significativamente a pertinência de
+      investigação.
+    </div>
+
+    <h2>10. Preserve as provas</h2>
+
+    <p>
+      Organize os documentos de forma simples e cronológica.
+    </p>
+
+    <p>Por exemplo:</p>
+
+    <ul>
+      <li><strong>Documento 01</strong> — Edital de convocação;</li>
+      <li><strong>Documento 02</strong> — Comunicado sobre a proposta;</li>
+      <li><strong>Documento 03</strong> — Captura da plataforma de votação;</li>
+      <li><strong>Documento 04</strong> — Pedido de acesso;</li>
+      <li><strong>Documento 05</strong> — Resposta da entidade;</li>
+      <li><strong>Documento 06</strong> — Instrumento posteriormente divulgado;</li>
+      <li><strong>Documento 07</strong> — Tabela comparativa.</li>
+    </ul>
+
+    <p>
+      Preserve os arquivos originais sempre que possível.
+    </p>
+
+    <p>
+      Não altere capturas de tela para eliminar informações que
+      contrariem sua própria hipótese. Uma representação séria deve
+      apresentar o contexto de maneira fiel.
+    </p>
+
+    <h2>11. Cuidado com as palavras</h2>
+
+    <p>
+      Evite transformar suspeitas em fatos.
+    </p>
+
+    <p>
+      Palavras como <strong>fraude</strong>, <strong>crime</strong>,
+      <strong>dolo</strong>, <strong>má-fé</strong> e
+      <strong>falsificação</strong> possuem significado grave.
+    </p>
+
+    <p>
+      Se você não possui prova suficiente, descreva o acontecimento em
+      vez de atribuir intenção.
+    </p>
+
+    <div class="guide-box">
+      <p><strong>Em vez de:</strong></p>
+
+      <p>“A direção fraudou deliberadamente a assembleia.”</p>
+
+      <p><strong>Prefira:</strong></p>
+
+      <p>
+        “O documento anexado somente foi disponibilizado após o
+        encerramento da votação, conforme registros de data e horário
+        apresentados nos Documentos 04 e 05.”
+      </p>
+    </div>
+
+    <p>
+      O fato comprovado costuma ser juridicamente mais útil do que o
+      adjetivo.
+    </p>
+
+    <h2>12. O que diz a lei?</h2>
+
+    <p>
+      Os arts. 612 e 615 da Consolidação das Leis do Trabalho atribuem
+      relevância à deliberação em Assembleia Geral nas hipóteses ali
+      disciplinadas.
+    </p>
+
+    <p>
+      Isso não significa que esses artigos estabeleçam um prazo geral
+      de 24 ou 48 horas para divulgação prévia de uma minuta.
+    </p>
+
+    <p>
+      O projeto <strong>Modelo Nacional de Denúncia ao MPT</strong>
+      não cria esse prazo.
+    </p>
+
+    <p>
+      A questão jurídica investigada é mais cuidadosa:
+      <strong>houve condições efetivas para que os trabalhadores
+      conhecessem, discutissem e deliberassem sobre o objeto que lhes
+      foi submetido?</strong>
+    </p>
+
+    <h2>13. Assembleia virtual não é o problema</h2>
+
+    <p>
+      Uma assembleia realizada pela internet não é, por esse simples
+      fato, irregular.
+    </p>
+
+    <p>
+      Os meios telemáticos podem ampliar enormemente a participação dos
+      trabalhadores.
+    </p>
+
+    <p>
+      O que deve ser analisado são as condições concretas de
+      participação, informação, discussão e decisão.
+    </p>
+
+    <h2>14. Um resumo também não é automaticamente insuficiente</h2>
+
+    <p>
+      Resumos podem facilitar a compreensão de instrumentos coletivos
+      extensos.
+    </p>
+
+    <p>
+      O problema não é simplesmente a existência de um resumo.
+    </p>
+
+    <p>
+      Pergunte:
+      <strong>ele apresentava os elementos materialmente relevantes
+      para a decisão?</strong>
+    </p>
+
+    <p>
+      E, se havia documento mais completo já existente:
+      <strong>por que ele não foi disponibilizado e que informações
+      adicionais continha?</strong>
+    </p>
+
+    <h2>15. Por que procurar o Ministério Público do Trabalho?</h2>
+
+    <p>
+      A Lei Complementar nº 75/1993 atribui ao Ministério Público do
+      Trabalho instrumentos de atuação para a proteção de interesses
+      coletivos e dos direitos sociais dos trabalhadores.
+    </p>
+
+    <p>
+      A própria classificação temática institucional do MPT contempla
+      vícios no processo de negociação coletiva e irregularidades em
+      assembleias sindicais.
+    </p>
+
+    <p>
+      Apresentar uma representação não significa exigir que o MPT
+      concorde previamente com a conclusão do denunciante.
+    </p>
+
+    <p>
+      Significa apresentar fatos e documentos para que a instituição
+      avalie se existe fundamento para investigação e eventual adoção
+      das medidas juridicamente cabíveis.
+    </p>
+
+    <h2>16. O que pedir ao MPT?</h2>
+
+    <p>
+      O pedido principal deve ser de <strong>investigação</strong>.
+    </p>
+
+    <p>Entre as questões que podem ser apresentadas:</p>
+
+    <ul>
+      <li>qual era o objeto efetivamente submetido à votação;</li>
+      <li>quais documentos existiam naquele momento;</li>
+      <li>quando esses documentos chegaram à entidade sindical;</li>
+      <li>quais informações foram fornecidas aos trabalhadores;</li>
+      <li>se houve pedidos de acesso;</li>
+      <li>como funcionaram os espaços de discussão;</li>
+      <li>
+        se existem diferenças materiais entre o que foi informado e o
+        que posteriormente foi celebrado;
+      </li>
+      <li>
+        se o procedimento observou as normas aplicáveis e o estatuto da
+        entidade.
+      </li>
+    </ul>
+
+    <p>
+      Não peça ao MPT para escolher se a categoria deveria votar
+      “sim” ou “não”.
+    </p>
+
+    <p>
+      A questão é outra:
+      <strong>investigar se a decisão atribuída à categoria foi formada
+      em condições juridicamente adequadas.</strong>
+    </p>
+
+    <h2>17. A medida deve ser proporcional</h2>
+
+    <p>
+      Nem toda irregularidade precisa produzir a mesma consequência.
+    </p>
+
+    <p>
+      Dependendo dos fatos, podem ser avaliadas medidas preventivas,
+      recomendações, compromissos de adequação, providências
+      extrajudiciais ou outras medidas cabíveis.
+    </p>
+
+    <p>
+      A nulidade de uma deliberação ou instrumento não deve ser tratada
+      como consequência automática.
+    </p>
+
+    <h2>18. Checklist final antes da representação</h2>
+
+    <ul class="guide-checklist">
+      <li>Tenho o edital de convocação.</li>
+      <li>Tenho registro da pergunta submetida à votação.</li>
+      <li>Guardei os materiais apresentados antes do voto.</li>
+      <li>Registrei a existência ou inexistência de espaço de debate.</li>
+      <li>Guardei meus pedidos de informação.</li>
+      <li>Guardei as respostas recebidas.</li>
+      <li>Construí uma cronologia.</li>
+      <li>Comparei o antes e o depois.</li>
+      <li>Identifiquei diferenças realmente materiais.</li>
+      <li>Separei fatos comprovados de suspeitas.</li>
+      <li>Numerei os documentos.</li>
+      <li>Preservei os arquivos originais.</li>
+      <li>Consultei o estatuto sindical, quando disponível.</li>
+      <li>Tenho os dados da entidade que será mencionada.</li>
+      <li>Evitei acusações que não consigo provar.</li>
+    </ul>
+
+    <h2>19. A regra metodológica mais importante</h2>
+
+    <div class="guide-question">
+      Não parta da conclusão para procurar provas.<br>
+      Parta das provas para descobrir a conclusão.
+    </div>
+
+    <p>
+      Essa regra protege o trabalhador, fortalece a representação e
+      aumenta a credibilidade do material apresentado.
+    </p>
+
+    <div class="guide-final">
+      <strong>Documente. Compare. Prove.</strong>
+
+      <p>
+        A categoria não precisa que alguém decida por ela.<br>
+        Precisa ter condições reais de decidir por si própria.
+      </p>
+    </div>
+
+    <div class="guide-nav">
+      <a class="guide-button" href="index.html">
+        ← Modelo Nacional
+      </a>
+
+      <a class="guide-button" href="modelo-representacao.html">
+        Próximo: Modelo de Representação →
+      </a>
+    </div>
+
+  </article>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    Classe e Massas • 2026
+  </div>
+</footer>
+
+</body>
+</html>
