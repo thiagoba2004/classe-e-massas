@@ -1,0 +1,12 @@
+*{box-sizing:border-box}html{font-size:18px}body{margin:0;background:#f5f1e8;color:#191919;font-family:Georgia,'Times New Roman',serif;line-height:1.72}
+header{border-bottom:1px solid #222;background:#f5f1e8}.bar{max-width:1050px;margin:auto;padding:18px 24px;display:flex;justify-content:space-between;align-items:center}
+.brand{font-family:Arial,sans-serif;font-weight:900;letter-spacing:.06em;text-transform:uppercase}.brand a,.nav a{color:#111;text-decoration:none}.nav{font:700 .8rem Arial,sans-serif;text-transform:uppercase}
+main{max-width:820px;margin:auto;padding:58px 24px 80px}.kicker{font:800 .75rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.12em}
+h1{font-size:3.35rem;line-height:1.02;margin:.25em 0 .2em} .dek{font-size:1.35rem;line-height:1.35;margin:0 0 1.2em}
+.meta{font: .78rem Arial,sans-serif;border-top:1px solid #222;border-bottom:1px solid #222;padding:12px 0;margin:28px 0 42px}
+h2{font:900 1.35rem Arial,sans-serif;text-transform:uppercase;line-height:1.15;margin:2.5em 0 .8em}
+p{margin:0 0 1.15em}.manifesto{font-family:Arial,sans-serif;font-weight:900;font-size:1.15rem;line-height:1.35;margin:.4em 0}
+footer{border-top:1px solid #222;padding:30px 24px;text-align:center;font: .75rem Arial,sans-serif}
+.home-card{border-top:5px solid #111;padding-top:20px}.home-card h2{text-transform:none;font-family:Georgia,serif;font-size:2.4rem;margin:.2em 0}
+.button{display:inline-block;background:#111;color:#fff;text-decoration:none;padding:12px 18px;font:700 .8rem Arial,sans-serif;text-transform:uppercase}
+@media(max-width:600px){html{font-size:17px}h1{font-size:2.5rem}.dek{font-size:1.18rem}main{padding-top:38px}.bar{padding:15px 18px}}
