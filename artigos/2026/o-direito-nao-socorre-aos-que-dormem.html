@@ -372,6 +372,18 @@
 
 <footer>Classe e Massas • 2026</footer>
 
-<!-- Cloudflare Web Analytics --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"b52dc49a42864dd8b7e11ae04f41e937"}'></script><!-- End Cloudflare Web Analytics -->
+<!-- Cloudflare Web Analytics -->
+<script>
+if (localStorage.getItem("classe_e_massas_admin") !== "1") {
+  const script = document.createElement("script");
+  script.type = "module";
+  script.src = "https://static.cloudflareinsights.com/beacon.min.js";
+  script.dataset.cfBeacon = JSON.stringify({
+    token: "b52dc49a42864dd8b7e11ae04f41e937"
+  });
+  document.head.appendChild(script);
+}
+</script>
+<!-- End Cloudflare Web Analytics -->
 </body>
 </html>
