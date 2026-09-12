@@ -1,0 +1,53 @@
+name: Generate MPT BB Bahia downloads
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'mpt/modelo-bb-bahia-greve-2026.html'
+      - 'tools/generate_mpt_bb_bahia_downloads.py'
+      - '.github/workflows/generate-mpt-bb-bahia-downloads.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install python-docx beautifulsoup4
+          sudo apt-get update
+          sudo apt-get install -y libreoffice-writer fonts-liberation
+
+      - name: Generate DOCX
+        run: python tools/generate_mpt_bb_bahia_downloads.py
+
+      - name: Generate PDF
+        run: |
+          libreoffice --headless --convert-to pdf --outdir mpt/downloads mpt/downloads/Modelo_Denuncia_MPT_BB_Bahia_Greve_2026.docx
+          test -s mpt/downloads/Modelo_Denuncia_MPT_BB_Bahia_Greve_2026.pdf
+
+      - name: Commit downloads
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add mpt/downloads/Modelo_Denuncia_MPT_BB_Bahia_Greve_2026.docx
+          git add mpt/downloads/Modelo_Denuncia_MPT_BB_Bahia_Greve_2026.pdf
+          if git diff --cached --quiet; then
+            echo 'No generated changes.'
+          else
+            git commit -m 'Atualiza downloads DOCX e PDF do modelo MPT BB Bahia [skip ci]'
+            git push
+          fi
