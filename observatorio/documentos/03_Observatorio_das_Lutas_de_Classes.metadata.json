@@ -5,8 +5,8 @@
   "escopo": "Observatório das Lutas de Classes",
   "colecao": "Documentos Canônicos do Observatório Classe e Massas",
   "ordem_colecao": 3,
-  "versao": "1.0",
-  "data": "2026-09-11",
+  "versao": "1.1",
+  "data": "2026-09-12",
   "status": "aprovado",
   "fonte_canonica": "03_Observatorio_das_Lutas_de_Classes.md",
   "publicacao_derivada": "03_Observatorio_das_Lutas_de_Classes.html",
@@ -64,7 +64,15 @@
     },
     {
       "nivel": 1,
-      "titulo": "9. Critério de sucesso"
+      "titulo": "9. Estado nos conflitos de classe"
+    },
+    {
+      "nivel": 1,
+      "titulo": "10. Critério de sucesso"
+    },
+    {
+      "nivel": 1,
+      "titulo": "11. Histórico de versões"
     }
   ],
   "migracao": {
@@ -77,7 +85,16 @@
     ],
     "equivalencia_substantiva_verificada": true,
     "alteracao_de_conteudo": false,
-    "observacao": "Normalização restrita à hierarquia dos títulos e à geração dos formatos derivados."
+    "observacao": "A migração inicial preservou integralmente o conteúdo do DOCX. A versão atual contém revisão canônica posterior registrada separadamente.",
+    "versao_resultante_inicial": "1.0"
   },
-  "repositorio": "https://github.com/thiagoba2004/classe-e-massas"
+  "repositorio": "https://github.com/thiagoba2004/classe-e-massas",
+  "revisao_canonica": {
+    "versao_anterior": "1.0",
+    "versao_atual": "1.1",
+    "data": "2026-09-12",
+    "tipo": "complementar",
+    "decisao": "Incorporação sistemática dos múltiplos papéis do Estado nas lutas de classes.",
+    "aprovacao_humana": true
+  }
 }

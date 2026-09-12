@@ -5,8 +5,8 @@
   "escopo": "Arquitetura Pública, Método Comum e Governança",
   "colecao": "Documentos Canônicos do Observatório Classe e Massas",
   "ordem_colecao": 6,
-  "versao": "1.0",
-  "data": "2026-09-11",
+  "versao": "2.0",
+  "data": "2026-09-12",
   "status": "aprovado",
   "fonte_canonica": "06_Arquitetura_Publica_Metodo_e_Governanca.md",
   "publicacao_derivada": "06_Arquitetura_Publica_Metodo_e_Governanca.html",
@@ -36,7 +36,7 @@
     },
     {
       "nivel": 1,
-      "titulo": "2. Quatro portas públicas"
+      "titulo": "2. Cinco portas públicas"
     },
     {
       "nivel": 1,
@@ -73,6 +73,10 @@
     {
       "nivel": 1,
       "titulo": "11. Critério de sucesso"
+    },
+    {
+      "nivel": 1,
+      "titulo": "12. Histórico de versões"
     }
   ],
   "migracao": {
@@ -85,7 +89,16 @@
     ],
     "equivalencia_substantiva_verificada": true,
     "alteracao_de_conteudo": false,
-    "observacao": "Normalização restrita à hierarquia dos títulos e à geração dos formatos derivados."
+    "observacao": "A migração inicial preservou integralmente o conteúdo do DOCX. A versão atual contém revisão canônica posterior registrada separadamente.",
+    "versao_resultante_inicial": "1.0"
   },
-  "repositorio": "https://github.com/thiagoba2004/classe-e-massas"
+  "repositorio": "https://github.com/thiagoba2004/classe-e-massas",
+  "revisao_canonica": {
+    "versao_anterior": "1.0",
+    "versao_atual": "2.0",
+    "data": "2026-09-12",
+    "tipo": "estrutural",
+    "decisao": "Incorporação do Estado como quinta porta pública e adequação da cadeia documental a Markdown, HTML e JSON/JSONL.",
+    "aprovacao_humana": true
+  }
 }

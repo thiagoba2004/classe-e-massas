@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR">
 <head>
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
@@ -56,7 +56,7 @@ PÚBLICA, MÉTODO COMUM E GOVERNANÇA</a></li>
 </ul></li>
 <li><a href="#1-função-canônica" id="toc-1-função-canônica">1. Função
 canônica</a></li>
-<li><a href="#2-quatro-portas-públicas" id="toc-2-quatro-portas-públicas">2. Quatro portas públicas</a></li>
+<li><a href="#2-cinco-portas-públicas" id="toc-2-cinco-portas-públicas">2. Cinco portas públicas</a></li>
 <li><a href="#3-três-camadas-internas" id="toc-3-três-camadas-internas">3. Três camadas internas</a></li>
 <li><a href="#4-entidades-comuns-de-dados" id="toc-4-entidades-comuns-de-dados">4. Entidades comuns de
 dados</a></li>
@@ -68,6 +68,7 @@ dados</a></li>
 colaboradores</a></li>
 <li><a href="#10-decisões-ainda-abertas" id="toc-10-decisões-ainda-abertas">10. Decisões ainda abertas</a></li>
 <li><a href="#11-critério-de-sucesso" id="toc-11-critério-de-sucesso">11. Critério de sucesso</a></li>
+<li><a href="#12-histórico-de-versões" id="toc-12-histórico-de-versões">12. Histórico de versões</a></li>
 </ul>
 </nav>
 <h1 id="classe-e-massas">CLASSE E MASSAS</h1>
@@ -85,11 +86,11 @@ Canônico de Portais, Dados e Implantação</h3>
 <tbody>
 <tr class="odd">
 <td><strong>Versão</strong></td>
-<td>1.0</td>
+<td>2.0</td>
 </tr>
 <tr class="even">
 <td><strong>Data</strong></td>
-<td>11 de setembro de 2026</td>
+<td>12 de setembro de 2026</td>
 </tr>
 <tr class="odd">
 <td><strong>Status</strong></td>
@@ -100,15 +101,15 @@ Canônico de Portais, Dados e Implantação</h3>
 <p><strong>Pesquisar. Estudar. Compreender. Organizar.
 Lutar.</strong></p>
 <h1 id="1-função-canônica">1. Função canônica</h1>
-<p>Consolida a arquitetura pública CLASSE | CAPITAL | ORGANIZAÇÕES |
-LUTAS, a camada interna de dados e as regras de continuidade do
-Observatório Classe e Massas.</p>
+<p>Consolida a arquitetura pública CLASSE | CAPITAL | ESTADO |
+ORGANIZAÇÕES | LUTAS, a camada interna de dados e as regras de
+continuidade do Observatório Classe e Massas.</p>
 <p><strong>Regra de interpretação.</strong> As regras técnicas do
 documento bancário de Arquitetura v2.0 permanecem válidas e devem ser
 generalizadas. Este documento não congela prematuramente schemas ainda
 abertos; define contratos políticos e metodológicos que qualquer
 implementação deve respeitar.</p>
-<h1 id="2-quatro-portas-públicas">2. Quatro portas públicas</h1>
+<h1 id="2-cinco-portas-públicas">2. Cinco portas públicas</h1>
 <table>
 <thead>
 <tr class="header">
@@ -129,35 +130,49 @@ implementação deve respeitar.</p>
 <td>empresas, grupos, propriedade, associações patronais</td>
 </tr>
 <tr class="odd">
+<td>ESTADO</td>
+<td>Quem exerce o poder político-institucional e como intervém nas
+relações de classe?</td>
+<td>entes, poderes, governos, órgãos, entidades, orçamento, políticas e
+coerção</td>
+</tr>
+<tr class="even">
 <td>ORGANIZAÇÕES</td>
 <td>Como interesses se tornam representação e decisão?</td>
 <td>sindicatos, movimentos, direções, eleições, assembleias</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>LUTAS</td>
 <td>Onde os antagonismos se tornam ação e resultado?</td>
 <td>greves, campanhas, conflitos, conquistas e derrotas</td>
 </tr>
 </tbody>
 </table>
-<p>Observatórios setoriais atravessam as quatro portas; não formam silos
-paralelos.</p>
+<p>Observatórios setoriais atravessam as cinco portas; não formam silos
+paralelos. O Estado constitui uma porta analítica própria, mas não uma
+classe social: deverá ser relacionado às classes, ao capital, às
+organizações e às lutas sem ser reduzido a nenhuma delas.</p>
 <h1 id="3-três-camadas-internas">3. Três camadas internas</h1>
 <ol type="1">
 <li><p>Fontes originais preservadas, identificadas e
 versionadas.</p></li>
 <li><p>Dados estruturados em JSONL, com identificadores estáveis, datas,
 proveniência e estado documental.</p></li>
-<li><p>Documentos canônicos em HTML e produtos analíticos
-rastreáveis.</p></li>
+<li><p>Documentos canônicos em Markdown, publicações derivadas em HTML e
+produtos analíticos rastreáveis.</p></li>
 </ol>
-<p>Cadeia obrigatória: FONTE ORIGINAL → REGISTRO JSONL → DOCUMENTO
-CANÔNICO HTML → ANÁLISE, MAPA, PAINEL OU ARTIGO.</p>
+<p>Cadeia obrigatória: FONTE ORIGINAL → REGISTRO JSON/JSONL → DOCUMENTO
+CANÔNICO MARKDOWN → PUBLICAÇÃO HTML → ANÁLISE, MAPA, PAINEL OU
+ARTIGO.</p>
 <h1 id="4-entidades-comuns-de-dados">4. Entidades comuns de dados</h1>
 <ul>
 <li><p>pessoas e papéis públicos;</p></li>
-<li><p>organizações de trabalhadores, empresas, grupos, órgãos estatais
-e associações patronais;</p></li>
+<li><p>organizações de trabalhadores, empresas, grupos e associações
+patronais;</p></li>
+<li><p>Estado, entes federativos, poderes, governos, órgãos, entidades,
+autoridades e empresas estatais;</p></li>
+<li><p>normas, políticas públicas, orçamentos, tributos, gastos,
+decisões e atos de coerção;</p></li>
 <li><p>territórios, estabelecimentos, setores e cadeias;</p></li>
 <li><p>fontes, versões, trechos e proveniência;</p></li>
 <li><p>mandatos, filiações, eleições, assembleias e delegações;</p></li>
@@ -210,6 +225,9 @@ registro.</p></li>
 explícita.</p></li>
 <li><p>Git preserva a trilha técnica; documentos canônicos preservam a
 decisão política e metodológica.</p></li>
+<li><p>Markdown fixa a fonte textual oficial; HTML publica seu conteúdo;
+JSON e JSONL estruturam metadados, entidades, relações e
+séries.</p></li>
 <li><p>O site publica apenas produtos aprovados, sem confundir
 infraestrutura de pesquisa com produto editorial.</p></li>
 </ul>
@@ -241,13 +259,13 @@ patronal</td>
 </tr>
 <tr class="even">
 <td>3</td>
-<td>Quatro portais</td>
+<td>Cinco portais</td>
 <td>criar navegação e páginas institucionais</td>
 </tr>
 <tr class="odd">
 <td>4</td>
 <td>Mapas integrados</td>
-<td>conectar trabalho, capital, organizações e lutas</td>
+<td>conectar trabalho, capital, Estado, organizações e lutas</td>
 </tr>
 <tr class="even">
 <td>5</td>
@@ -274,14 +292,18 @@ sem definição metodológica.</p>
 <h1 id="9-mandato-aos-agentes-e-colaboradores">9. Mandato aos agentes e
 colaboradores</h1>
 <p>Ler a documentação canônica antes de alterar a arquitetura; não
-inventar dado ausente; preservar as distinções entre classe,
-organização, direção e luta; manter o núcleo bancário funcionando
-durante a ampliação; registrar decisões suficientes para que a
-continuidade não dependa da memória de uma conversa.</p>
+inventar dado ausente; preservar as distinções entre classe, capital,
+Estado, governo, Administração Pública, organização, direção e luta;
+manter o núcleo bancário funcionando durante a ampliação; registrar
+decisões suficientes para que a continuidade não dependa da memória de
+uma conversa.</p>
 <h1 id="10-decisões-ainda-abertas">10. Decisões ainda abertas</h1>
 <ul>
 <li><p>Schemas definitivos e convenções nacionais de
 identificadores.</p></li>
+<li><p>Schema do Estado e regras de identificação de entes, poderes,
+governos, órgãos, entidades, autoridades, políticas, orçamentos e
+empresas estatais.</p></li>
 <li><p>Política final de publicação versus infraestrutura
 reservada.</p></li>
 <li><p>Governança coletiva futura e papéis editoriais.</p></li>
@@ -292,9 +314,33 @@ reservada.</p></li>
 <h1 id="11-critério-de-sucesso">11. Critério de sucesso</h1>
 <p>O sistema será bem-sucedido quando qualquer afirmação puder ser
 rastreada, qualquer setor puder ser incorporado sem improvisação, as
-quatro dimensões puderem ser relacionadas e o conhecimento produzido
+cinco dimensões puderem ser relacionadas e o conhecimento produzido
 fortalecer a capacidade autônoma de compreensão, organização e luta dos
 trabalhadores.</p>
-<footer class="canonical-footer">Documento canônico 1.0 • Fonte textual oficial: <a href="06_Arquitetura_Publica_Metodo_e_Governanca.md">Markdown</a> • Publicação derivada em HTML.</footer><!-- Cloudflare Web Analytics --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"b52dc49a42864dd8b7e11ae04f41e937"}'></script><!-- End Cloudflare Web Analytics -->
+<h1 id="12-histórico-de-versões">12. Histórico de versões</h1>
+<table>
+<thead>
+<tr class="header">
+<th><strong>Versão</strong></th>
+<th><strong>Data</strong></th>
+<th><strong>Decisão</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1.0</td>
+<td>11/09/2026</td>
+<td>Instituição da arquitetura de quatro portas públicas e das camadas
+internas do projeto.</td>
+</tr>
+<tr class="even">
+<td>2.0</td>
+<td>12/09/2026</td>
+<td>Incorporação do Estado como quinta porta pública e adequação da
+cadeia documental a Markdown, HTML e JSON/JSONL.</td>
+</tr>
+</tbody>
+</table>
+<footer class="canonical-footer">Documento canônico 2.0 • Fonte textual oficial: <a href="06_Arquitetura_Publica_Metodo_e_Governanca.md">Markdown</a> • Publicação derivada em HTML.</footer><!-- Cloudflare Web Analytics --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"b52dc49a42864dd8b7e11ae04f41e937"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>

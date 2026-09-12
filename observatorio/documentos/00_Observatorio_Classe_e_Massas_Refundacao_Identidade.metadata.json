@@ -5,8 +5,8 @@
   "escopo": "Observatório Classe e Massas",
   "colecao": "Documentos Canônicos do Observatório Classe e Massas",
   "ordem_colecao": 0,
-  "versao": "3.0",
-  "data": "2026-09-11",
+  "versao": "3.1",
+  "data": "2026-09-12",
   "status": "aprovado",
   "fonte_canonica": "00_Observatorio_Classe_e_Massas_Refundacao_Identidade.md",
   "publicacao_derivada": "00_Observatorio_Classe_e_Massas_Refundacao_Identidade.html",
@@ -64,7 +64,15 @@
     },
     {
       "nivel": 1,
-      "titulo": "9. Regra de preservação"
+      "titulo": "9. Estado como dimensão própria"
+    },
+    {
+      "nivel": 1,
+      "titulo": "10. Regra de preservação"
+    },
+    {
+      "nivel": 1,
+      "titulo": "11. Histórico de versões"
     }
   ],
   "migracao": {
@@ -77,7 +85,16 @@
     ],
     "equivalencia_substantiva_verificada": true,
     "alteracao_de_conteudo": false,
-    "observacao": "Normalização restrita à hierarquia dos títulos e à geração dos formatos derivados."
+    "observacao": "A migração inicial preservou integralmente o conteúdo do DOCX. A versão atual contém revisão canônica posterior registrada separadamente.",
+    "versao_resultante_inicial": "3.0"
   },
-  "repositorio": "https://github.com/thiagoba2004/classe-e-massas"
+  "repositorio": "https://github.com/thiagoba2004/classe-e-massas",
+  "revisao_canonica": {
+    "versao_anterior": "3.0",
+    "versao_atual": "3.1",
+    "data": "2026-09-12",
+    "tipo": "complementar",
+    "decisao": "Reconhecimento do Estado como dimensão analítica própria e adoção de cinco portais públicos.",
+    "aprovacao_humana": true
+  }
 }

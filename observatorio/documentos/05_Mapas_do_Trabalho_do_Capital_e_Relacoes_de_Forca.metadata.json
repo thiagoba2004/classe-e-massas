@@ -2,11 +2,11 @@
   "documento_id": "ocm-05-mapas-trabalho-capital-relacoes-forca",
   "titulo": "Documento Canônico do Programa Integrado de Pesquisa",
   "projeto": "Classe e Massas / Observatório Classe e Massas",
-  "escopo": "Mapas do Trabalho, do Capital e das Relações de Força",
+  "escopo": "Mapas do Trabalho, do Capital, do Estado e das Relações de Força",
   "colecao": "Documentos Canônicos do Observatório Classe e Massas",
   "ordem_colecao": 5,
-  "versao": "1.0",
-  "data": "2026-09-11",
+  "versao": "2.0",
+  "data": "2026-09-12",
   "status": "aprovado",
   "fonte_canonica": "05_Mapas_do_Trabalho_do_Capital_e_Relacoes_de_Forca.md",
   "publicacao_derivada": "05_Mapas_do_Trabalho_do_Capital_e_Relacoes_de_Forca.html",
@@ -24,7 +24,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "MAPAS DO TRABALHO, DO CAPITAL E DAS RELAÇÕES DE FORÇA"
+      "titulo": "MAPAS DO TRABALHO, DO CAPITAL, DO ESTADO E DAS RELAÇÕES DE FORÇA"
     },
     {
       "nivel": 3,
@@ -44,27 +44,35 @@
     },
     {
       "nivel": 1,
-      "titulo": "4. Relações de força"
+      "titulo": "4. Mapa do Estado"
     },
     {
       "nivel": 1,
-      "titulo": "5. Matriz relacional"
+      "titulo": "5. Relações de força"
     },
     {
       "nivel": 1,
-      "titulo": "6. Escalas"
+      "titulo": "6. Matriz relacional"
     },
     {
       "nivel": 1,
-      "titulo": "7. Perguntas estratégicas"
+      "titulo": "7. Escalas"
     },
     {
       "nivel": 1,
-      "titulo": "8. Cautelas metodológicas"
+      "titulo": "8. Perguntas estratégicas"
     },
     {
       "nivel": 1,
-      "titulo": "9. Produtos"
+      "titulo": "9. Cautelas metodológicas"
+    },
+    {
+      "nivel": 1,
+      "titulo": "10. Produtos"
+    },
+    {
+      "nivel": 1,
+      "titulo": "11. Histórico de versões"
     }
   ],
   "migracao": {
@@ -77,7 +85,17 @@
     ],
     "equivalencia_substantiva_verificada": true,
     "alteracao_de_conteudo": false,
-    "observacao": "Normalização restrita à hierarquia dos títulos e à geração dos formatos derivados."
+    "observacao": "A migração inicial preservou integralmente o conteúdo do DOCX. A versão atual contém revisão canônica posterior registrada separadamente.",
+    "versao_resultante_inicial": "1.0"
   },
-  "repositorio": "https://github.com/thiagoba2004/classe-e-massas"
+  "repositorio": "https://github.com/thiagoba2004/classe-e-massas",
+  "titulo_anterior_do_escopo": "Mapas do Trabalho, do Capital e das Relações de Força",
+  "revisao_canonica": {
+    "versao_anterior": "1.0",
+    "versao_atual": "2.0",
+    "data": "2026-09-12",
+    "tipo": "estrutural",
+    "decisao": "Criação do Mapa do Estado e integração autônoma do poder político-institucional às relações de força.",
+    "aprovacao_humana": true
+  }
 }
