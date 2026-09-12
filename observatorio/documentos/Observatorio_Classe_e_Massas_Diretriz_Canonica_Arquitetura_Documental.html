@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Diretriz Canônica de Arquitetura Documental — Observatório Classe e Massas</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <style>
+  :root{--ink:#17243a;--red:#a52b2a;--muted:#5c6673;--line:#dce3eb;--paper:#fff;--pale:#eef2f6}
+  *{box-sizing:border-box}body{max-width:980px;margin:0 auto;padding:56px 34px 90px;background:var(--paper);color:#20242a;font-family:Georgia,"Times New Roman",serif;line-height:1.65;font-size:18px}
+  h1,h2,h3{font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.2}h1{font-size:2.45rem;margin:.3rem 0 1rem}h2{font-size:1.55rem;margin-top:2.2rem}h3{font-size:1.13rem;margin-top:1.5rem;color:var(--red)}
+  p,li{max-width:78ch}blockquote{margin:1.6rem 0;padding:1rem 1.3rem;border-left:5px solid var(--red);background:var(--pale);font-weight:700;color:var(--ink)}
+  table{width:100%;border-collapse:collapse;margin:1.4rem 0;font-size:.93rem}th{background:var(--ink);color:#fff;text-align:left}th,td{border:1px solid #aeb8c4;padding:.7rem;vertical-align:top}tr:nth-child(even) td{background:var(--pale)}
+  code{font-family:"Courier New",monospace;background:var(--pale);padding:.08rem .3rem;border-radius:3px}pre{overflow:auto;background:#111827;color:#eef2f7;padding:1rem 1.2rem;border-radius:6px;line-height:1.45}
+  strong{color:var(--ink)}a{color:#0b5dab}@media(max-width:640px){body{font-size:16px;padding:32px 18px 64px}h1{font-size:2rem}table{font-size:.82rem}}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Diretriz Canônica de Arquitetura Documental —
+Observatório Classe e Massas</h1>
+</header>
+<h1 id="observatório-classe-e-massas">OBSERVATÓRIO CLASSE E MASSAS</h1>
+<h2
+id="diretriz-canônica-de-arquitetura-documental-formatos-e-fonte-de-verdade">Diretriz
+Canônica de Arquitetura Documental, Formatos e Fonte de Verdade</h2>
+<p><strong>Versão:</strong> 1.0<br />
+<strong>Data:</strong> 12 de setembro de 2026<br />
+<strong>Status:</strong> APROVADO<br />
+<strong>Projeto:</strong> Classe e Massas / Observatório Classe e
+Massas<br />
+<strong>Natureza:</strong> diretriz metodológica, editorial e
+computacional permanente</p>
+<blockquote>
+<p>Pesquisar. Estudar. Compreender. Organizar. Lutar.</p>
+</blockquote>
+<h2 id="1-função-deste-documento">1. Função deste documento</h2>
+<p>Esta diretriz estabelece quais formatos de arquivo devem ser
+utilizados pelo Observatório Classe e Massas, qual função pertence a
+cada formato e onde reside a fonte oficial de cada tipo de conhecimento
+produzido pelo projeto.</p>
+<p>Seu objetivo é impedir que textos, dados e páginas públicas se
+multipliquem como versões independentes e contraditórias. A arquitetura
+deve permitir continuidade por pesquisadores, militantes, modelos de
+inteligência artificial e agentes de programação sem depender da memória
+das conversas que originaram cada decisão.</p>
+<p>Esta diretriz altera expressamente as disposições anteriores que
+atribuíam ao DOCX função canônica ou institucional. Preserva, contudo,
+os princípios já aprovados de rastreabilidade, versionamento, separação
+entre evidência, dado e interpretação, preservação das fontes e
+publicação dos resultados no site Classe e Massas.</p>
+<h2 id="2-decisão-metodológica-central">2. Decisão metodológica
+central</h2>
+<p>O Observatório adotará três famílias principais de formatos:</p>
+<ol type="1">
+<li><strong>Markdown (<code>.md</code>)</strong> para documentos
+canônicos em linguagem humana;</li>
+<li><strong>HTML (<code>.html</code>)</strong> para publicação no site
+Classe e Massas;</li>
+<li><strong>JSON e JSON Lines (<code>.json</code> e
+<code>.jsonl</code>)</strong> para metadados, registros, relações e
+séries estruturadas.</li>
+</ol>
+<p>O formato DOCX deixa de ser formato canônico do Observatório. Poderá
+existir apenas como legado histórico ou exportação excepcional destinada
+a uma finalidade externa específica.</p>
+<p>A decisão pode ser resumida na seguinte regra:</p>
+<blockquote>
+<p><strong>Markdown fixa o texto oficial; JSON e JSONL fixam os dados
+estruturados; HTML publica os resultados.</strong></p>
+</blockquote>
+<h2 id="3-o-que-é-um-documento-canônico">3. O que é um documento
+canônico</h2>
+<p>Documento canônico é o artefato editorial primário que fixa, em
+linguagem humana, uma decisão, identidade, objeto, conceito,
+classificação, método, regra de validação, limite de inferência ou
+programa de pesquisa do Observatório.</p>
+<p>Um documento canônico pode conter:</p>
+<ul>
+<li>texto argumentativo;</li>
+<li>definições e distinções conceituais;</li>
+<li>perguntas de pesquisa;</li>
+<li>critérios de inclusão e exclusão;</li>
+<li>classificações e tipologias;</li>
+<li>tabelas explicativas;</li>
+<li>exemplos de aplicação;</li>
+<li>regras de codificação;</li>
+<li>decisões metodológicas ratificadas;</li>
+<li>referências às fontes;</li>
+<li>relações de precedência;</li>
+<li>histórico de versões.</li>
+</ul>
+<p>O documento canônico não se confunde com o banco de dados. Arquivos
+JSON, JSONL, dicionários de dados, schemas, tabelas, índices e registros
+observacionais são artefatos estruturados que executam ou documentam o
+método, mas não substituem a formulação humana que o define.</p>
+<h2 id="4-matriz-canônica-dos-formatos">4. Matriz canônica dos
+formatos</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Formato</th>
+<th>Função principal</th>
+<th>Condição no sistema</th>
+<th>Edição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>.md</code></td>
+<td>Texto institucional, metodológico e analítico</td>
+<td>Fonte canônica textual</td>
+<td>Editado diretamente</td>
+</tr>
+<tr class="even">
+<td><code>.html</code></td>
+<td>Página pública no site Classe e Massas</td>
+<td>Representação publicada e derivada</td>
+<td>Gerado ou sincronizado a partir do Markdown</td>
+</tr>
+<tr class="odd">
+<td><code>.json</code></td>
+<td>Metadados, catálogos, configurações, entidades e schemas</td>
+<td>Fonte canônica de objetos estruturados</td>
+<td>Editado ou gerado sob schema</td>
+</tr>
+<tr class="even">
+<td><code>.jsonl</code></td>
+<td>Registros históricos, eventos e grandes séries</td>
+<td>Fonte canônica de observações estruturadas</td>
+<td>Acrescido e validado registro a registro</td>
+</tr>
+<tr class="odd">
+<td><code>.docx</code></td>
+<td>Legado ou exportação excepcional</td>
+<td>Não canônico</td>
+<td>Não utilizado como fonte de atualização</td>
+</tr>
+<tr class="even">
+<td><code>.pdf</code></td>
+<td>Preservação de fonte ou exportação de leitura</td>
+<td>Não canônico, salvo quando for a própria fonte original</td>
+<td>Não utilizado como fonte de atualização</td>
+</tr>
+<tr class="odd">
+<td>formato original</td>
+<td>Documento recebido de fonte externa</td>
+<td>Evidência primária preservada</td>
+<td>Imutável; nova versão é novo arquivo</td>
+</tr>
+</tbody>
+</table>
+<h2 id="5-markdown-como-fonte-canônica-textual">5. Markdown como fonte
+canônica textual</h2>
+<h3 id="51-função">5.1 Função</h3>
+<p>O Markdown será a fonte oficial dos documentos de fundação,
+diretrizes, metodologias, programas de pesquisa, dossiês narrativos e
+demais formulações destinadas à leitura humana.</p>
+<h3 id="52-razões-metodológicas">5.2 Razões metodológicas</h3>
+<p>O Markdown é adotado porque:</p>
+<ul>
+<li>contém texto legível sem depender de programa proprietário;</li>
+<li>pode ser interpretado diretamente por modelos de inteligência
+artificial;</li>
+<li>permite comparação precisa de alterações no Git;</li>
+<li>favorece revisão humana linha a linha;</li>
+<li>pode ser editado no Termux, no Notebook, no Codex e em editores
+comuns;</li>
+<li>permite conversão automatizada para HTML;</li>
+<li>reduz códigos ocultos, formatação opaca e extrações
+defeituosas;</li>
+<li>permanece portátil e recuperável no longo prazo.</li>
+</ul>
+<h3 id="53-regra-de-autoridade">5.3 Regra de autoridade</h3>
+<p>Quando houver divergência entre o conteúdo de um arquivo Markdown e
+sua página HTML derivada, prevalecerá o Markdown da versão validada e
+publicada no repositório.</p>
+<p>Toda mudança de conteúdo deve começar no Markdown. É proibido
+corrigir apenas o HTML quando a alteração modificar o sentido do
+documento.</p>
+<h3 id="54-estrutura-mínima">5.4 Estrutura mínima</h3>
+<p>Todo documento canônico em Markdown deverá registrar, no próprio
+texto ou em metadados JSON relacionados:</p>
+<ul>
+<li>identificador estável;</li>
+<li>título;</li>
+<li>versão;</li>
+<li>data de aprovação ou revisão;</li>
+<li>status;</li>
+<li>função;</li>
+<li>documentos que complementa, altera ou supera;</li>
+<li>histórico das mudanças relevantes.</li>
+</ul>
+<h2 id="6-html-como-publicação-oficial-no-site">6. HTML como publicação
+oficial no site</h2>
+<h3 id="61-função">6.1 Função</h3>
+<p>O HTML será a forma pública dos documentos no site Classe e Massas.
+Deve oferecer leitura acessível, identidade visual, navegação, sumário,
+referências, conexões com outros documentos e integração com mapas,
+tabelas e painéis.</p>
+<h3 id="62-natureza-derivada">6.2 Natureza derivada</h3>
+<p>O HTML não constitui uma segunda fonte textual autônoma. Ele
+representa publicamente o conteúdo aprovado no Markdown.</p>
+<p>Elementos próprios da publicação — cabeçalho, menus, rodapé, classes
+CSS, metadados sociais, analytics e componentes de navegação — podem
+existir apenas no HTML ou nos templates do site. O conteúdo substantivo,
+porém, deve continuar rastreável até o Markdown.</p>
+<h3 id="63-regra-contra-divergência">6.3 Regra contra divergência</h3>
+<p>Não será admitida a manutenção manual de dois textos independentes,
+um em Markdown e outro em HTML. O fluxo de publicação deverá gerar,
+converter ou verificar o HTML a partir da fonte canônica.</p>
+<p>Cada página deverá informar, sempre que possível:</p>
+<ul>
+<li>versão publicada;</li>
+<li>data de atualização;</li>
+<li>identificador do documento;</li>
+<li>link para a fonte Markdown;</li>
+<li>link para dados estruturados relacionados;</li>
+<li>situação metodológica dos resultados apresentados.</li>
+</ul>
+<h2 id="7-json-como-memória-de-objetos-estruturados">7. JSON como
+memória de objetos estruturados</h2>
+<h3 id="71-função">7.1 Função</h3>
+<p>O JSON será utilizado quando o conteúdo puder ser representado como
+um objeto estruturado ou conjunto limitado de objetos relacionados.</p>
+<p>São usos próprios do JSON:</p>
+<ul>
+<li>catálogo dos documentos canônicos;</li>
+<li>metadados editoriais;</li>
+<li>cadastros de organizações, empresas, sindicatos e territórios;</li>
+<li>configurações de geração;</li>
+<li>dicionários de dados;</li>
+<li>schemas de validação;</li>
+<li>índices de fontes;</li>
+<li>relações entre documentos;</li>
+<li>resultados consolidados de tamanho controlável.</li>
+</ul>
+<h3 id="72-requisitos">7.2 Requisitos</h3>
+<p>Todo conjunto JSON relevante deverá possuir definição de campos,
+identificadores estáveis, indicação de versão e procedimento de
+validação. Um campo não poderá assumir sentidos diferentes entre
+observatórios setoriais sem extensão formalmente documentada.</p>
+<p>JSON não deve ser usado para imitar prosa longa. Conceitos,
+argumentos e justificativas pertencem ao documento Markdown; fatos e
+relações estruturáveis pertencem ao JSON ou JSONL.</p>
+<h2 id="8-json-lines-como-memória-histórica-e-comparativa">8. JSON Lines
+como memória histórica e comparativa</h2>
+<h3 id="81-função">8.1 Função</h3>
+<p>O JSON Lines, identificado pela extensão <code>.jsonl</code>, será
+utilizado para coleções extensas de registros independentes,
+especialmente quando houver crescimento contínuo, análise temporal ou
+comparação nacional.</p>
+<p>São usos próprios do JSONL:</p>
+<ul>
+<li>assembleias;</li>
+<li>eleições;</li>
+<li>mandatos e diretorias;</li>
+<li>congressos e delegações;</li>
+<li>negociações coletivas;</li>
+<li>instrumentos coletivos;</li>
+<li>greves e eventos de luta;</li>
+<li>publicações sindicais;</li>
+<li>indicadores por período;</li>
+<li>registros de alterações territoriais;</li>
+<li>relações históricas entre organizações, empresas e grupos
+econômicos.</li>
+</ul>
+<h3 id="82-razões-para-não-concentrar-tudo-em-um-único-json">8.2 Razões
+para não concentrar tudo em um único JSON</h3>
+<p>Em JSONL, cada linha constitui uma unidade autônoma. Isso permite
+acrescentar, validar, comparar, filtrar e corrigir registros sem
+reescrever um grande arquivo composto por uma única matriz. Também reduz
+conflitos no Git e facilita processamento por scripts e modelos de
+inteligência artificial.</p>
+<h3 id="83-unidade-de-observação">8.3 Unidade de observação</h3>
+<p>Cada linha deverá conter, conforme o schema aplicável:</p>
+<ul>
+<li>identificador do registro;</li>
+<li>identificadores das entidades relacionadas;</li>
+<li>período ou data;</li>
+<li>fonte e localização da evidência;</li>
+<li>estado epistemológico;</li>
+<li>data de coleta ou revisão;</li>
+<li>observações metodológicas necessárias.</li>
+</ul>
+<h2 id="9-fontes-originais">9. Fontes originais</h2>
+<p>A adoção de Markdown, HTML e JSON não autoriza converter, substituir
+ou eliminar as fontes externas.</p>
+<p>Estatutos, atas, editais, convenções, acordos, balanços, jornais,
+imagens, gravações, planilhas, páginas arquivadas, decisões judiciais e
+demais evidências devem ser preservados no formato em que foram
+obtidos.</p>
+<p>Regras permanentes:</p>
+<ul>
+<li>a fonte original não será sobrescrita;</li>
+<li>uma nova versão será armazenada como novo arquivo ou nova versão
+identificada;</li>
+<li>conversões destinadas à pesquisa serão tratadas como derivados;</li>
+<li>texto extraído por OCR não substituirá a imagem ou o PDF de
+origem;</li>
+<li>todo dado relevante deverá apontar para a fonte que o sustenta;</li>
+<li>ausência de fonte pública não será preenchida por
+plausibilidade.</li>
+</ul>
+<h2 id="10-cadeia-canônica-de-produção-do-conhecimento">10. Cadeia
+canônica de produção do conhecimento</h2>
+<p>A cadeia geral do Observatório passa a ser:</p>
+<pre class="text"><code>FONTE ORIGINAL PRESERVADA
+        ↓
+REGISTRO E METADADOS — JSON/JSONL
+        ↓
+DOCUMENTO CANÔNICO — MARKDOWN
+        ↓
+PUBLICAÇÃO — HTML
+        ↓
+ANÁLISE, MAPA, PAINEL, DOSSIÊ OU ARTIGO</code></pre>
+<p>Nem toda fonte produzirá imediatamente todas as camadas. Entretanto,
+qualquer afirmação pública relevante deverá possuir uma trilha que
+permita reconstruir sua origem, seu tratamento e sua condição
+documental.</p>
+<h2 id="11-estados-epistemológicos">11. Estados epistemológicos</h2>
+<p>Dados e afirmações deverão ser classificados, quando aplicável,
+segundo estados controlados:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Estado</th>
+<th>Significado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>hipótese</td>
+<td>proposição que orienta a investigação e não pode ser publicada como
+constatação</td>
+</tr>
+<tr class="even">
+<td>estimativa</td>
+<td>cálculo dependente de premissas, método e margem de incerteza
+explícitos</td>
+</tr>
+<tr class="odd">
+<td>provisório</td>
+<td>dado documentado ainda sujeito a validação adicional</td>
+</tr>
+<tr class="even">
+<td>comprovado</td>
+<td>afirmação sustentada por fonte adequada ao conteúdo declarado</td>
+</tr>
+<tr class="odd">
+<td>controvertido</td>
+<td>situação em que fontes relevantes ou interpretações fundamentadas
+divergem</td>
+</tr>
+<tr class="even">
+<td>desconhecido</td>
+<td>inexistência de base suficiente; o campo não será preenchido por
+inferência plausível</td>
+</tr>
+</tbody>
+</table>
+<p>O estado epistemológico pertence ao registro estruturado e deve
+aparecer na publicação sempre que sua omissão puder induzir o leitor a
+considerar hipótese ou estimativa como fato.</p>
+<h2 id="12-organização-recomendada-no-repositório">12. Organização
+recomendada no repositório</h2>
+<pre class="text"><code>observatorio/
+├── documentos/
+│   ├── canonicos/          # fontes oficiais em Markdown
+│   ├── publicados/         # HTML derivado para o site
+│   └── legado-docx/        # documentos históricos preservados
+├── dados/
+│   ├── catalogos/          # JSON
+│   ├── entidades/          # JSON
+│   └── series/             # JSONL
+├── esquemas/               # JSON Schema e dicionários
+├── fontes/                 # documentos originais imutáveis
+├── templates/              # estrutura visual e conversão para HTML
+├── scripts/                # geração, validação e comparação
+└── relatorios/             # resultados derivados aprovados</code></pre>
+<p>Essa árvore é uma orientação conceitual. Sua implementação física
+deverá respeitar a estrutura já existente no repositório e ser executada
+por migração documentada, sem apagar caminhos históricos
+silenciosamente.</p>
+<h2 id="13-versionamento-e-fonte-de-verdade">13. Versionamento e fonte
+de verdade</h2>
+<p>O repositório GitHub <code>thiagoba2004/classe-e-massas</code> será a
+fonte compartilhada de versionamento do projeto.</p>
+<p>Regras:</p>
+<ol type="1">
+<li>mudanças substantivas começam no arquivo canônico
+correspondente;</li>
+<li>mudanças relevantes recebem commit descritivo;</li>
+<li>o HTML publicado deve corresponder à versão Markdown aprovada;</li>
+<li>arquivos JSON e JSONL devem ser validados antes de agregações ou
+publicação;</li>
+<li>mudanças de schema exigem avaliação de compatibilidade
+histórica;</li>
+<li>fontes originais e versões anteriores não serão eliminadas para
+simplificar a árvore;</li>
+<li>toda correção preservará a possibilidade de auditar o estado
+anterior pelo Git ou pelo acervo histórico;</li>
+<li>nenhuma conversa com IA será tratada como repositório final de uma
+decisão.</li>
+</ol>
+<h2 id="14-regras-para-trabalho-com-inteligência-artificial">14. Regras
+para trabalho com inteligência artificial</h2>
+<p>Ao trabalhar com o Observatório, modelos de IA e agentes deverão:</p>
+<ul>
+<li>ler primeiro os documentos Markdown aplicáveis;</li>
+<li>consultar schemas e dados JSON/JSONL antes de comparar
+entidades;</li>
+<li>distinguir texto normativo, dado observado, cálculo, hipótese e
+interpretação;</li>
+<li>não extrair conclusões quantitativas apenas de prosa quando houver
+dado estruturado;</li>
+<li>não preencher campos desconhecidos com estimativas silenciosas;</li>
+<li>indicar incompatibilidades de conceito, período, território ou
+denominador;</li>
+<li>manter a rastreabilidade até as fontes;</li>
+<li>propor mudanças estruturais antes de implementá-las;</li>
+<li>atualizar a fonte Markdown antes do HTML substantivo;</li>
+<li>validar JSON e JSONL após qualquer alteração;</li>
+<li>registrar decisões duráveis no repositório, e não apenas na
+conversa.</li>
+</ul>
+<h2 id="15-situação-do-docx-e-do-pdf">15. Situação do DOCX e do PDF</h2>
+<h3 id="151-perda-da-função-canônica">15.1 Perda da função canônica</h3>
+<p>DOCX não é adequado como fonte principal do Observatório porque é um
+pacote binário de arquivos XML, produz diferenças pouco inteligíveis no
+Git, exige extração para análise, contém formatação e metadados que
+podem interferir na leitura e dificulta automação transparente.</p>
+<p>PDF também não será fonte canônica textual porque privilegia a
+aparência final, fragmenta frequentemente a extração e não é apropriado
+para edição ou comparação de versões.</p>
+<h3 id="152-usos-residuais">15.2 Usos residuais</h3>
+<p>DOCX ou PDF poderão ser produzidos quando houver finalidade externa
+concreta, como:</p>
+<ul>
+<li>formulário ou modelo jurídico destinado a preenchimento por
+terceiros;</li>
+<li>documento para protocolo em sistema que exija determinado
+formato;</li>
+<li>versão diagramada para impressão;</li>
+<li>arquivo de circulação solicitado por usuário ou entidade;</li>
+<li>preservação de documento recebido originalmente nesses
+formatos.</li>
+</ul>
+<p>Nessas hipóteses, o arquivo será uma exportação ou fonte externa, não
+a origem da verdade canônica.</p>
+<h3 id="153-preservação-do-legado">15.3 Preservação do legado</h3>
+<p>Os dois documentos canônicos bancários de 7 de setembro de 2026 e
+quaisquer DOCX já produzidos não serão apagados. Eles registram uma
+etapa histórica da arquitetura. Após a migração de seu conteúdo para
+Markdown e HTML, deverão ser classificados como legado e acompanhados de
+indicação clara de que não constituem a versão ativa.</p>
+<h2 id="16-migração-dos-documentos-existentes">16. Migração dos
+documentos existentes</h2>
+<p>A migração seguirá esta ordem:</p>
+<ol type="1">
+<li>inventariar os documentos existentes e atribuir identificadores
+estáveis;</li>
+<li>converter o conteúdo integral para Markdown, preservando títulos,
+tabelas e relações de precedência;</li>
+<li>revisar a conversão humana e metodologicamente;</li>
+<li>registrar metadados e relações em um catálogo JSON;</li>
+<li>produzir o HTML correspondente segundo o padrão visual do Classe e
+Massas;</li>
+<li>verificar equivalência substantiva entre Markdown e HTML;</li>
+<li>publicar as páginas aprovadas;</li>
+<li>mover ou classificar os DOCX como legado sem apagar seu
+histórico;</li>
+<li>registrar a migração em commit próprio.</li>
+</ol>
+<p>Os sete novos documentos aprovados em 11 de setembro de 2026 deverão
+ser convertidos antes de ingressarem no repositório como documentos
+canônicos ativos. Seus DOCX poderão ser preservados como registro de
+elaboração, mas não serão utilizados como fonte futura de
+atualização.</p>
+<h2 id="17-precedência-e-relação-com-documentos-anteriores">17.
+Precedência e relação com documentos anteriores</h2>
+<p>Esta diretriz complementa os documentos de Fundação, Refundação,
+Observatórios Setoriais e Arquitetura Geral.</p>
+<p>Em matéria de formatos, fonte de verdade, fluxo Markdown–HTML, função
+de JSON/JSONL e condição de DOCX/PDF, esta diretriz prevalece sobre
+disposições incompatíveis dos documentos anteriores.</p>
+<p>Permanecem válidas as regras anteriores sobre:</p>
+<ul>
+<li>objeto e horizonte estratégico;</li>
+<li>independência de classe;</li>
+<li>democracia sindical e soberania das assembleias;</li>
+<li>unidade da classe trabalhadora;</li>
+<li>preservação de fontes;</li>
+<li>rastreabilidade;</li>
+<li>distinção entre fato, hipótese, estimativa e interpretação;</li>
+<li>validação antes da publicação;</li>
+<li>expansão gradual a partir do núcleo bancário;</li>
+<li>aprovação humana de mudanças estruturais.</li>
+</ul>
+<h2 id="18-mandato-permanente">18. Mandato permanente</h2>
+<p>O Observatório Classe e Massas deverá produzir conhecimento
+cumulativo, auditável e utilizável pela classe trabalhadora. Sua
+arquitetura documental deve servir simultaneamente à leitura humana, à
+análise por inteligência artificial, à comparação histórica, à
+publicação pública e à ação coletiva.</p>
+<p>Nenhuma conveniência momentânea de edição poderá criar múltiplas
+fontes concorrentes, apagar a memória histórica ou romper a ligação
+entre documento, dado e evidência.</p>
+<p><strong>Regra final:</strong></p>
+<blockquote>
+<p><strong>Escrever em Markdown. Estruturar em JSON e JSONL. Publicar em
+HTML. Preservar as fontes. Versionar no Git.</strong></p>
+</blockquote>
+<h2 id="19-histórico-de-versões">19. Histórico de versões</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Versão</th>
+<th>Data</th>
+<th>Decisão</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1.0</td>
+<td>12/09/2026</td>
+<td>Institui Markdown como fonte canônica textual, HTML como publicação
+derivada, JSON/JSONL como memória estruturada e DOCX/PDF como legado ou
+exportação excepcional.</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
