@@ -15,438 +15,136 @@
   <link rel="stylesheet" href="../css/style.css">
 
   <style>
-    .mpt-page {
-      max-width: 980px;
-      margin: 0 auto;
-      padding: 42px 20px 70px;
-    }
-
-    .mpt-hero {
-      text-align: center;
-      padding: 32px 0 42px;
-    }
-
-    .mpt-kicker {
-      margin-bottom: 12px;
-      font-size: .82rem;
-      font-weight: 800;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
-
-    .mpt-hero h1 {
-      margin: 0 auto 14px;
-      max-width: 850px;
-      font-size: clamp(2rem, 6vw, 4rem);
-      line-height: 1.02;
-    }
-
-    .mpt-hero h2 {
-      margin: 0 auto 24px;
-      max-width: 760px;
-      font-size: clamp(1.25rem, 3vw, 1.8rem);
-      line-height: 1.25;
-      font-weight: 600;
-    }
-
-    .mpt-intro {
-      max-width: 760px;
-      margin: 0 auto;
-      font-size: 1.08rem;
-      line-height: 1.75;
-      text-align: left;
-    }
-
-    .mpt-intro strong {
-      font-weight: 800;
-    }
-
-    .mpt-section {
-      margin-top: 54px;
-    }
-
-    .mpt-section > h2 {
-      margin-bottom: 10px;
-      font-size: clamp(1.6rem, 4vw, 2.35rem);
-    }
-
-    .mpt-section-lead {
-      max-width: 760px;
-      margin-top: 0;
-      line-height: 1.7;
-    }
-
-    .mpt-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 18px;
-      margin-top: 28px;
-    }
-
-    .mpt-card {
-      border: 1px solid rgba(127,127,127,.28);
-      border-radius: 14px;
-      padding: 24px;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .mpt-card-number {
-      font-size: .78rem;
-      font-weight: 800;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
-
-    .mpt-card h3 {
-      margin: 10px 0 12px;
-      font-size: 1.35rem;
-      line-height: 1.2;
-    }
-
-    .mpt-card p {
-      margin: 0 0 22px;
-      line-height: 1.65;
-      flex-grow: 1;
-    }
-
-    .mpt-button {
-      display: inline-block;
-      padding: 12px 16px;
-      border: 2px solid currentColor;
-      border-radius: 8px;
-      font-weight: 800;
-      text-decoration: none;
-      text-align: center;
-    }
-
-    .mpt-warning {
-      margin-top: 48px;
-      padding: 24px;
-      border-left: 5px solid currentColor;
-      background: rgba(127,127,127,.08);
-    }
-
-    .mpt-warning h2 {
-      margin-top: 0;
-      font-size: 1.35rem;
-    }
-
-    .mpt-warning p:last-child {
-      margin-bottom: 0;
-    }
-
-    .mpt-flow {
-      margin: 28px 0 0;
-      padding: 0;
-      list-style: none;
-      counter-reset: passos;
-      max-width: 780px;
-    }
-
-    .mpt-flow li {
-      counter-increment: passos;
-      position: relative;
-      margin: 0;
-      padding: 18px 18px 18px 58px;
-      border-bottom: 1px solid rgba(127,127,127,.25);
-      line-height: 1.55;
-    }
-
-    .mpt-flow li::before {
-      content: counter(passos);
-      position: absolute;
-      left: 10px;
-      top: 15px;
-      width: 32px;
-      height: 32px;
-      border: 2px solid currentColor;
-      border-radius: 50%;
-      display: grid;
-      place-items: center;
-      font-weight: 800;
-    }
-
-    .mpt-thesis {
-      margin-top: 28px;
-      padding: 24px;
-      border: 1px solid rgba(127,127,127,.28);
-      border-radius: 12px;
-      font-size: 1.08rem;
-      line-height: 1.7;
-    }
-
-    .mpt-coming {
-      margin-top: 20px;
-      font-size: .95rem;
-      opacity: .78;
-    }
-
-    .mpt-final {
-      margin-top: 60px;
-      padding-top: 34px;
-      border-top: 2px solid currentColor;
-      text-align: center;
-    }
-
-    .mpt-final strong {
-      display: block;
-      margin-bottom: 8px;
-      font-size: 1.35rem;
-    }
+    .mpt-page { max-width: 980px; margin: 0 auto; padding: 42px 20px 70px; }
+    .mpt-hero { text-align: center; padding: 32px 0 42px; }
+    .mpt-kicker { margin-bottom: 12px; font-size: .82rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+    .mpt-hero h1 { margin: 0 auto 14px; max-width: 850px; font-size: clamp(2rem, 6vw, 4rem); line-height: 1.02; }
+    .mpt-hero h2 { margin: 0 auto 24px; max-width: 760px; font-size: clamp(1.25rem, 3vw, 1.8rem); line-height: 1.25; font-weight: 600; }
+    .mpt-intro { max-width: 760px; margin: 0 auto; font-size: 1.08rem; line-height: 1.75; text-align: left; }
+    .mpt-intro strong { font-weight: 800; }
+    .mpt-section { margin-top: 54px; }
+    .mpt-section > h2 { margin-bottom: 10px; font-size: clamp(1.6rem, 4vw, 2.35rem); }
+    .mpt-section-lead { max-width: 760px; margin-top: 0; line-height: 1.7; }
+    .mpt-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-top: 28px; }
+    .mpt-card { border: 1px solid rgba(127,127,127,.28); border-radius: 14px; padding: 24px; display: flex; flex-direction: column; }
+    .mpt-card-number { font-size: .78rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+    .mpt-card h3 { margin: 10px 0 12px; font-size: 1.35rem; line-height: 1.2; }
+    .mpt-card p { margin: 0 0 22px; line-height: 1.65; flex-grow: 1; }
+    .mpt-button { display: inline-block; padding: 12px 16px; border: 2px solid currentColor; border-radius: 8px; font-weight: 800; text-decoration: none; text-align: center; }
+    .mpt-card-actions { display: grid; gap: 8px; }
+    .mpt-download-button { font-size: .92rem; }
+    .mpt-warning { margin-top: 48px; padding: 24px; border-left: 5px solid currentColor; background: rgba(127,127,127,.08); }
+    .mpt-warning h2 { margin-top: 0; font-size: 1.35rem; }
+    .mpt-warning p:last-child { margin-bottom: 0; }
+    .mpt-flow { margin: 28px 0 0; padding: 0; list-style: none; counter-reset: passos; max-width: 780px; }
+    .mpt-flow li { counter-increment: passos; position: relative; margin: 0; padding: 18px 18px 18px 58px; border-bottom: 1px solid rgba(127,127,127,.25); line-height: 1.55; }
+    .mpt-flow li::before { content: counter(passos); position: absolute; left: 10px; top: 15px; width: 32px; height: 32px; border: 2px solid currentColor; border-radius: 50%; display: grid; place-items: center; font-weight: 800; }
+    .mpt-thesis { margin-top: 28px; padding: 24px; border: 1px solid rgba(127,127,127,.28); border-radius: 12px; font-size: 1.08rem; line-height: 1.7; }
+    .mpt-coming { margin-top: 20px; font-size: .95rem; opacity: .78; }
+    .mpt-final { margin-top: 60px; padding-top: 34px; border-top: 2px solid currentColor; text-align: center; }
+    .mpt-final strong { display: block; margin-bottom: 8px; font-size: 1.35rem; }
 
     @media (max-width: 760px) {
-      .mpt-page {
-        padding: 24px 18px 54px;
-      }
-
-      .mpt-hero {
-        padding-top: 20px;
-      }
-
-      .mpt-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .mpt-card {
-        padding: 21px;
-      }
+      .mpt-page { padding: 24px 18px 54px; }
+      .mpt-hero { padding-top: 20px; }
+      .mpt-grid { grid-template-columns: 1fr; }
+      .mpt-card { padding: 21px; }
     }
   </style>
 </head>
 
 <body>
-
 <header>
   <div class="bar">
-    <div class="brand">
-      <a href="../index.html">Classe e Massas</a>
-    </div>
-
-    <div class="nav">
-      <a href="../index.html">Início</a>
-    </div>
+    <div class="brand"><a href="../index.html">Classe e Massas</a></div>
+    <div class="nav"><a href="../index.html">Início</a></div>
   </div>
 </header>
 
 <main class="mpt-page">
-
   <section class="mpt-hero">
-
-    <div class="mpt-kicker">
-      Campanha Salarial dos Bancários • 2026
-    </div>
-
+    <div class="mpt-kicker">Campanha Salarial dos Bancários • 2026</div>
     <h1>Modelo Nacional de Denúncia ao MPT</h1>
-
     <h2>Você sabia exatamente o que estava aprovando?</h2>
-
     <div class="mpt-intro">
-      <p>
-        A negociação coletiva pode alterar salários, benefícios, jornada,
-        PLR e outras condições de trabalho de milhares de bancários.
-      </p>
-
-      <p>
-        Se a categoria é chamada a votar, uma questão é fundamental:
-        <strong>os trabalhadores tiveram condições reais de conhecer,
-        discutir e deliberar sobre aquilo que estavam aprovando ou
-        rejeitando?</strong>
-      </p>
-
-      <p>
-        O <strong>Classe e Massas</strong> disponibiliza gratuitamente
-        instrumentos para documentar os fatos, avaliar as provas e,
-        quando houver elementos suficientes, apresentar representação
-        ao Ministério Público do Trabalho.
-      </p>
+      <p>A negociação coletiva pode alterar salários, benefícios, jornada, PLR e outras condições de trabalho de milhares de bancários.</p>
+      <p>Se a categoria é chamada a votar, uma questão é fundamental: <strong>os trabalhadores tiveram condições reais de conhecer, discutir e deliberar sobre aquilo que estavam aprovando ou rejeitando?</strong></p>
+      <p>O <strong>Classe e Massas</strong> disponibiliza gratuitamente instrumentos para documentar os fatos, avaliar as provas e, quando houver elementos suficientes, apresentar representação ao Ministério Público do Trabalho.</p>
     </div>
-
   </section>
 
   <section class="mpt-section">
-
     <h2>Escolha por onde começar</h2>
-
-    <p class="mpt-section-lead">
-      Você não precisa conhecer Direito do Trabalho para começar.
-      Primeiro entenda os fatos. Depois organize as provas. Somente então
-      avalie se há elementos para uma representação.
-    </p>
+    <p class="mpt-section-lead">Você não precisa conhecer Direito do Trabalho para começar. Primeiro entenda os fatos. Depois organize as provas. Somente então avalie se há elementos para uma representação.</p>
 
     <div class="mpt-grid">
-
       <article class="mpt-card">
         <div class="mpt-card-number">1 • Quero entender</div>
-
         <h3>Guia Nacional do Bancário</h3>
-
-        <p>
-          Aprenda a identificar a proposta, preservar documentos,
-          construir a cronologia e comparar o que foi informado com
-          aquilo que posteriormente foi assinado.
-        </p>
-
-        <a class="mpt-button" href="guia-nacional.html">
-          Ler o Guia
-        </a>
+        <p>Aprenda a identificar a proposta, preservar documentos, construir a cronologia e comparar o que foi informado com aquilo que posteriormente foi assinado.</p>
+        <a class="mpt-button" href="guia-nacional.html">Ler o Guia</a>
       </article>
 
       <article class="mpt-card">
         <div class="mpt-card-number">2 • Quero denunciar</div>
-
         <h3>Modelo Nacional de Representação</h3>
-
-        <p>
-          Um modelo para apresentar fatos e documentos ao Ministério
-          Público do Trabalho sem transformar suspeitas em acusações
-          que as provas não sustentem.
-        </p>
-
-        <a class="mpt-button" href="modelo-representacao.html">
-          Abrir o Modelo
-        </a>
+        <p>Um modelo para apresentar fatos e documentos ao Ministério Público do Trabalho sem transformar suspeitas em acusações que as provas não sustentem.</p>
+        <a class="mpt-button" href="modelo-representacao.html">Abrir o Modelo</a>
       </article>
 
       <article class="mpt-card">
         <div class="mpt-card-number">3 • Quero conferir</div>
-
         <h3>Nota Técnico-Jurídica nº 01/2026</h3>
-
-        <p>
-          Consulte a fundamentação legal, jurisprudencial, institucional
-          e doutrinária e veja onde termina a norma expressa e onde
-          começa a tese interpretativa.
-        </p>
-
-        <a class="mpt-button" href="nota-tecnico-juridica.html">
-          Ler a Nota Técnica
-        </a>
+        <p>Consulte a fundamentação legal, jurisprudencial, institucional e doutrinária e veja onde termina a norma expressa e onde começa a tese interpretativa.</p>
+        <a class="mpt-button" href="nota-tecnico-juridica.html">Ler a Nota Técnica</a>
       </article>
 
       <article class="mpt-card">
         <div class="mpt-card-number">4 • Caso concreto • BB Bahia</div>
-
         <h3>Greve e possível retaliação econômica</h3>
-
-        <p>
-          Modelo específico de Notícia de Fato sobre possível tratamento
-          econômico diferenciado das bases que permaneceram em greve,
-          liberdade sindical e formação informada da vontade coletiva.
-        </p>
-
-        <a class="mpt-button" href="modelo-bb-bahia-greve-2026.html">
-          Abrir o Modelo Específico
-        </a>
+        <p>Modelo específico de Notícia de Fato sobre possível tratamento econômico diferenciado das bases que permaneceram em greve, liberdade sindical e formação informada da vontade coletiva.</p>
+        <div class="mpt-card-actions">
+          <a class="mpt-button" href="modelo-bb-bahia-greve-2026.html">Abrir o Modelo Específico</a>
+          <a class="mpt-button mpt-download-button" href="downloads/Modelo_Denuncia_MPT_BB_Bahia_Greve_2026.docx" download>Baixar DOCX editável</a>
+          <a class="mpt-button mpt-download-button" href="downloads/Modelo_Denuncia_MPT_BB_Bahia_Greve_2026.pdf" download>Baixar PDF</a>
+        </div>
       </article>
-
     </div>
-
   </section>
 
   <aside class="mpt-warning">
-
     <h2>Importante: este projeto não declara sua assembleia automaticamente ilegal</h2>
-
-    <p>
-      Não afirmamos existir regra legal geral que obrigue a
-      disponibilização da íntegra de toda proposta ou minuta com
-      antecedência fixa de 24, 48 horas ou qualquer outro período.
-    </p>
-
-    <p>
-      Também não afirmamos que assembleias virtuais sejam ilegais,
-      que todo resumo seja insuficiente ou que a ausência de determinado
-      documento produza automaticamente a nulidade da deliberação.
-    </p>
-
-    <p>
-      O objetivo é permitir que <strong>fatos concretos sejam
-      documentados, comparados e, quando pertinente, submetidos à
-      apreciação do Ministério Público do Trabalho.</strong>
-    </p>
-
+    <p>Não afirmamos existir regra legal geral que obrigue a disponibilização da íntegra de toda proposta ou minuta com antecedência fixa de 24, 48 horas ou qualquer outro período.</p>
+    <p>Também não afirmamos que assembleias virtuais sejam ilegais, que todo resumo seja insuficiente ou que a ausência de determinado documento produza automaticamente a nulidade da deliberação.</p>
+    <p>O objetivo é permitir que <strong>fatos concretos sejam documentados, comparados e, quando pertinente, submetidos à apreciação do Ministério Público do Trabalho.</strong></p>
   </aside>
 
   <section class="mpt-section">
-
     <h2>Entenda a tese em 60 segundos</h2>
-
     <ol class="mpt-flow">
       <li>A negociação coletiva produz uma proposta.</li>
-
       <li>A categoria é chamada a deliberar sobre determinado objeto.</li>
-
-      <li>
-        Para formar sua decisão, os trabalhadores precisam compreender
-        materialmente aquilo que está sendo submetido à votação.
-      </li>
-
-      <li>
-        A assembleia é um dos espaços pelos quais essa vontade coletiva
-        é formada e manifestada.
-      </li>
-
-      <li>
-        A CCT ou o ACT resultante pode produzir efeitos jurídicos
-        relevantes sobre toda a categoria abrangida.
-      </li>
-
-      <li>
-        Se informações ou documentos materialmente relevantes já
-        existentes não chegaram aos trabalhadores, pode ser pertinente
-        investigar se as condições de discussão e deliberação foram
-        comprometidas.
-      </li>
+      <li>Para formar sua decisão, os trabalhadores precisam compreender materialmente aquilo que está sendo submetido à votação.</li>
+      <li>A assembleia é um dos espaços pelos quais essa vontade coletiva é formada e manifestada.</li>
+      <li>A CCT ou o ACT resultante pode produzir efeitos jurídicos relevantes sobre toda a categoria abrangida.</li>
+      <li>Se informações ou documentos materialmente relevantes já existentes não chegaram aos trabalhadores, pode ser pertinente investigar se as condições de discussão e deliberação foram comprometidas.</li>
     </ol>
-
-    <div class="mpt-thesis">
-      <strong>Esta é uma tese interpretativa.</strong>
-      Não é uma regra automática de nulidade. Cada situação depende
-      dos fatos, dos documentos, do estatuto sindical, das normas
-      aplicáveis e da análise da autoridade competente.
-    </div>
-
+    <div class="mpt-thesis"><strong>Esta é uma tese interpretativa.</strong> Não é uma regra automática de nulidade. Cada situação depende dos fatos, dos documentos, do estatuto sindical, das normas aplicáveis e da análise da autoridade competente.</div>
   </section>
 
   <section class="mpt-section">
-
     <h2>Não comece pela acusação. Comece pelas provas.</h2>
-
-    <p class="mpt-section-lead">
-      A pergunta inicial não deve ser apenas “o sindicato publicou a
-      CCT?”. É preciso reconstruir o processo:
-      <strong>o que existia, o que foi recebido, o que foi divulgado,
-      o que foi votado, o que foi considerado aprovado e o que foi
-      finalmente assinado.</strong>
-    </p>
-
-    <p class="mpt-coming">
-      Em breve esta página também disponibilizará o Teste de Robustez,
-      uma ferramenta para construção da cronologia e um comparador de
-      informações e cláusulas.
-    </p>
-
+    <p class="mpt-section-lead">A pergunta inicial não deve ser apenas “o sindicato publicou a CCT?”. É preciso reconstruir o processo: <strong>o que existia, o que foi recebido, o que foi divulgado, o que foi votado, o que foi considerado aprovado e o que foi finalmente assinado.</strong></p>
+    <p class="mpt-coming">Em breve esta página também disponibilizará o Teste de Robustez, uma ferramenta para construção da cronologia e um comparador de informações e cláusulas.</p>
   </section>
 
   <section class="mpt-final">
-
     <strong>Documente. Compare. Prove.</strong>
-
-    <p>
-      A categoria não precisa que alguém decida por ela.<br>
-      Precisa ter condições reais de decidir por si própria.
-    </p>
-
+    <p>A categoria não precisa que alguém decida por ela.<br>Precisa ter condições reais de decidir por si própria.</p>
   </section>
-
 </main>
 
-<footer>
-  <div class="footer-inner">
-    Classe e Massas • 2026
-  </div>
-</footer>
+<footer><div class="footer-inner">Classe e Massas • 2026</div></footer>
 
 <!-- Cloudflare Web Analytics -->
 <script>
@@ -454,9 +152,7 @@ if (localStorage.getItem("classe_e_massas_admin") !== "1") {
   const script = document.createElement("script");
   script.type = "module";
   script.src = "https://static.cloudflareinsights.com/beacon.min.js";
-  script.dataset.cfBeacon = JSON.stringify({
-    token: "b52dc49a42864dd8b7e11ae04f41e937"
-  });
+  script.dataset.cfBeacon = JSON.stringify({ token: "b52dc49a42864dd8b7e11ae04f41e937" });
   document.head.appendChild(script);
 }
 </script>
