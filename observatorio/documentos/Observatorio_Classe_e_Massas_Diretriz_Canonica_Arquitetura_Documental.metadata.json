@@ -1,0 +1,38 @@
+{
+  "documento_id": "ocm-diretriz-arquitetura-documental",
+  "titulo": "Diretriz Canônica de Arquitetura Documental, Formatos e Fonte de Verdade",
+  "projeto": "Classe e Massas / Observatório Classe e Massas",
+  "versao": "1.0",
+  "data": "2026-09-12",
+  "status": "aprovado",
+  "natureza": [
+    "metodologica",
+    "editorial",
+    "computacional"
+  ],
+  "fonte_canonica": "Observatorio_Classe_e_Massas_Diretriz_Canonica_Arquitetura_Documental.md",
+  "publicacao_derivada": "Observatorio_Classe_e_Massas_Diretriz_Canonica_Arquitetura_Documental.html",
+  "formatos_principais": {
+    "texto_canonico": "md",
+    "publicacao": "html",
+    "objetos_estruturados": "json",
+    "series_estruturadas": "jsonl"
+  },
+  "formatos_nao_canonicos": [
+    "docx",
+    "pdf"
+  ],
+  "regra_resumo": "Escrever em Markdown. Estruturar em JSON e JSONL. Publicar em HTML. Preservar as fontes. Versionar no Git.",
+  "precedencia": {
+    "escopo": "formatos, fonte de verdade, fluxo documental e publicação",
+    "regra": "prevalece sobre disposições incompatíveis dos documentos anteriores"
+  },
+  "repositorio": "https://github.com/thiagoba2004/classe-e-massas",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-09-12",
+      "decisao": "Instituição da nova arquitetura documental baseada em Markdown, HTML e família JSON."
+    }
+  ]
+}
