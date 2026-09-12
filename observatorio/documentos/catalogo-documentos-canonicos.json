@@ -1,0 +1,153 @@
+{
+  "catalogo_id": "ocm-catalogo-documentos-canonicos",
+  "titulo": "Catálogo dos Documentos Canônicos do Observatório Classe e Massas",
+  "versao": "1.0",
+  "data_atualizacao": "2026-09-12",
+  "status": "ativo",
+  "arquitetura_publica": [
+    "classe",
+    "capital",
+    "estado",
+    "organizacoes",
+    "lutas"
+  ],
+  "regra_formatos": {
+    "texto_oficial": "md",
+    "publicacao": "html",
+    "metadados": "json"
+  },
+  "grupos": [
+    {
+      "grupo_id": "fundacao-metodo",
+      "titulo": "Fundação e método",
+      "documentos": [
+        {
+          "documento_id": "ocm-00-refundacao-identidade",
+          "titulo": "Documento Canônico de Refundação, Identidade e Horizonte Estratégico",
+          "versao": "3.1",
+          "data": "2026-09-12",
+          "status": "aprovado",
+          "html": "00_Observatorio_Classe_e_Massas_Refundacao_Identidade.html",
+          "markdown": "00_Observatorio_Classe_e_Massas_Refundacao_Identidade.md",
+          "metadados": "00_Observatorio_Classe_e_Massas_Refundacao_Identidade.metadata.json"
+        },
+        {
+          "documento_id": "ocm-diretriz-arquitetura-documental",
+          "titulo": "Diretriz Canônica de Arquitetura Documental, Formatos e Fonte de Verdade",
+          "versao": "1.0",
+          "data": "2026-09-12",
+          "status": "aprovado",
+          "html": "Observatorio_Classe_e_Massas_Diretriz_Canonica_Arquitetura_Documental.html",
+          "markdown": "Observatorio_Classe_e_Massas_Diretriz_Canonica_Arquitetura_Documental.md",
+          "metadados": "Observatorio_Classe_e_Massas_Diretriz_Canonica_Arquitetura_Documental.metadata.json"
+        }
+      ]
+    },
+    {
+      "grupo_id": "dimensoes-pesquisa",
+      "titulo": "Dimensões de pesquisa",
+      "documentos": [
+        {
+          "documento_id": "ocm-01-classe-trabalhadora",
+          "titulo": "Documento Canônico de Objeto, Perguntas e Programa de Pesquisa",
+          "escopo": "Observatório da Classe Trabalhadora",
+          "versao": "1.1",
+          "data": "2026-09-12",
+          "status": "aprovado",
+          "html": "01_Observatorio_da_Classe_Trabalhadora.html",
+          "markdown": "01_Observatorio_da_Classe_Trabalhadora.md",
+          "metadados": "01_Observatorio_da_Classe_Trabalhadora.metadata.json"
+        },
+        {
+          "documento_id": "ocm-02-movimento-trabalhadores",
+          "titulo": "Documento Canônico de Organizações, Direções e Democracia",
+          "escopo": "Observatório do Movimento dos Trabalhadores",
+          "versao": "1.0",
+          "data": "2026-09-11",
+          "status": "aprovado",
+          "html": "02_Observatorio_do_Movimento_dos_Trabalhadores.html",
+          "markdown": "02_Observatorio_do_Movimento_dos_Trabalhadores.md",
+          "metadados": "02_Observatorio_do_Movimento_dos_Trabalhadores.metadata.json"
+        },
+        {
+          "documento_id": "ocm-03-lutas-de-classes",
+          "titulo": "Documento Canônico de Conflitos, Mobilização e Resultados",
+          "escopo": "Observatório das Lutas de Classes",
+          "versao": "1.1",
+          "data": "2026-09-12",
+          "status": "aprovado",
+          "html": "03_Observatorio_das_Lutas_de_Classes.html",
+          "markdown": "03_Observatorio_das_Lutas_de_Classes.md",
+          "metadados": "03_Observatorio_das_Lutas_de_Classes.metadata.json"
+        }
+      ]
+    },
+    {
+      "grupo_id": "arquitetura-integrada",
+      "titulo": "Arquitetura integrada",
+      "documentos": [
+        {
+          "documento_id": "ocm-04-rede-setorial-nucleo-bancario",
+          "titulo": "Documento Canônico de Expansão e Núcleo Experimental Bancário",
+          "versao": "1.0",
+          "data": "2026-09-11",
+          "status": "aprovado",
+          "html": "04_Rede_de_Observatorios_Setoriais_e_Nucleo_Bancario.html",
+          "markdown": "04_Rede_de_Observatorios_Setoriais_e_Nucleo_Bancario.md",
+          "metadados": "04_Rede_de_Observatorios_Setoriais_e_Nucleo_Bancario.metadata.json"
+        },
+        {
+          "documento_id": "ocm-05-mapas-trabalho-capital-relacoes-forca",
+          "titulo": "Documento Canônico do Programa Integrado de Pesquisa",
+          "escopo": "Mapas do Trabalho, do Capital, do Estado e das Relações de Força",
+          "versao": "2.0",
+          "data": "2026-09-12",
+          "status": "aprovado",
+          "html": "05_Mapas_do_Trabalho_do_Capital_e_Relacoes_de_Forca.html",
+          "markdown": "05_Mapas_do_Trabalho_do_Capital_e_Relacoes_de_Forca.md",
+          "metadados": "05_Mapas_do_Trabalho_do_Capital_e_Relacoes_de_Forca.metadata.json"
+        },
+        {
+          "documento_id": "ocm-06-arquitetura-publica-metodo-governanca",
+          "titulo": "Documento Canônico de Portais, Dados e Implantação",
+          "versao": "2.0",
+          "data": "2026-09-12",
+          "status": "aprovado",
+          "html": "06_Arquitetura_Publica_Metodo_e_Governanca.html",
+          "markdown": "06_Arquitetura_Publica_Metodo_e_Governanca.md",
+          "metadados": "06_Arquitetura_Publica_Metodo_e_Governanca.metadata.json"
+        }
+      ]
+    },
+    {
+      "grupo_id": "nucleo-bancario",
+      "titulo": "Núcleo experimental bancário",
+      "documentos": [
+        {
+          "documento_id": "omsb-documento-canonico-fundacao",
+          "titulo": "Documento Canônico de Fundação, Objeto, Método e Programa de Pesquisa",
+          "versao": "1.0",
+          "data": "2026-09-07",
+          "status": "aprovado",
+          "html": "Observatorio_Movimento_Sindical_Bancario_Documento_Canonico_Fundacao.html",
+          "markdown": "Observatorio_Movimento_Sindical_Bancario_Documento_Canonico_Fundacao.md",
+          "metadados": "Observatorio_Movimento_Sindical_Bancario_Documento_Canonico_Fundacao.metadata.json",
+          "legado_docx": "Observatorio_Movimento_Sindical_Bancario_Documento_Canonico_Fundacao.docx"
+        },
+        {
+          "documento_id": "omsb-diretriz-arquitetura-dados-codex",
+          "titulo": "Diretriz Canônica de Arquitetura, Dados e Execução no Codex",
+          "versao": "2.0",
+          "data": "2026-09-07",
+          "status": "aprovado",
+          "html": "Observatorio_Movimento_Sindical_Bancario_Diretriz_Canonica_Arquitetura_Codex.html",
+          "markdown": "Observatorio_Movimento_Sindical_Bancario_Diretriz_Canonica_Arquitetura_Codex.md",
+          "metadados": "Observatorio_Movimento_Sindical_Bancario_Diretriz_Canonica_Arquitetura_Codex.metadata.json",
+          "legado_docx": "Observatorio_Movimento_Sindical_Bancario_Diretriz_Canonica_Arquitetura_Codex.docx"
+        }
+      ]
+    }
+  ],
+  "total_documentos": 10,
+  "repositorio": "https://github.com/thiagoba2004/classe-e-massas"
+}
