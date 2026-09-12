@@ -2,7 +2,7 @@
 
 ## Diretriz Canônica de Arquitetura Documental, Formatos e Fonte de Verdade
 
-**Versão:** 1.0  
+**Versão:** 1.1  
 **Data:** 12 de setembro de 2026  
 **Status:** APROVADO  
 **Projeto:** Classe e Massas / Observatório Classe e Massas  
@@ -124,9 +124,9 @@ Cada página deverá informar, sempre que possível:
 - versão publicada;
 - data de atualização;
 - identificador do documento;
-- link para a fonte Markdown;
-- link para dados estruturados relacionados;
 - situação metodológica dos resultados apresentados.
+
+As fontes Markdown e os dados estruturados permanecem no repositório para versionamento, auditoria e processamento técnico, mas não integram a navegação pública do site. O catálogo e as páginas públicas oferecem somente as versões HTML destinadas à leitura.
 
 ## 7. JSON como memória de objetos estruturados
 
@@ -362,4 +362,5 @@ Nenhuma conveniência momentânea de edição poderá criar múltiplas fontes co
 | Versão | Data | Decisão |
 |---|---|---|
 | 1.0 | 12/09/2026 | Institui Markdown como fonte canônica textual, HTML como publicação derivada, JSON/JSONL como memória estruturada e DOCX/PDF como legado ou exportação excepcional. |
+| 1.1 | 12/09/2026 | Separa a publicação pública em HTML dos arquivos Markdown e JSON mantidos no repositório, retirando estes últimos da navegação do site. |
 

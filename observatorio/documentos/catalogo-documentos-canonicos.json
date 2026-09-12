@@ -1,7 +1,7 @@
 {
   "catalogo_id": "ocm-catalogo-documentos-canonicos",
   "titulo": "Catálogo dos Documentos Canônicos do Observatório Classe e Massas",
-  "versao": "1.0",
+  "versao": "1.1",
   "data_atualizacao": "2026-09-12",
   "status": "ativo",
   "arquitetura_publica": [
@@ -34,7 +34,7 @@
         {
           "documento_id": "ocm-diretriz-arquitetura-documental",
           "titulo": "Diretriz Canônica de Arquitetura Documental, Formatos e Fonte de Verdade",
-          "versao": "1.0",
+          "versao": "1.1",
           "data": "2026-09-12",
           "status": "aprovado",
           "html": "Observatorio_Classe_e_Massas_Diretriz_Canonica_Arquitetura_Documental.html",
