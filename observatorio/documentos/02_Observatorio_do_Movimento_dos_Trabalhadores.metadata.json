@@ -1,0 +1,83 @@
+{
+  "documento_id": "ocm-02-movimento-trabalhadores",
+  "titulo": "Documento Canônico de Organizações, Direções e Democracia",
+  "projeto": "Classe e Massas / Observatório Classe e Massas",
+  "escopo": "Observatório do Movimento dos Trabalhadores",
+  "colecao": "Documentos Canônicos do Observatório Classe e Massas",
+  "ordem_colecao": 2,
+  "versao": "1.0",
+  "data": "2026-09-11",
+  "status": "aprovado",
+  "fonte_canonica": "02_Observatorio_do_Movimento_dos_Trabalhadores.md",
+  "publicacao_derivada": "02_Observatorio_do_Movimento_dos_Trabalhadores.html",
+  "metadados": "02_Observatorio_do_Movimento_dos_Trabalhadores.metadata.json",
+  "fonte_legada": {
+    "arquivo": "02_Observatorio_do_Movimento_dos_Trabalhadores.docx",
+    "formato": "docx",
+    "situacao": "preservado como legado; não utilizar como fonte de atualização"
+  },
+  "diretriz_de_formatos": "ocm-diretriz-arquitetura-documental",
+  "secoes": [
+    {
+      "nivel": 1,
+      "titulo": "CLASSE E MASSAS"
+    },
+    {
+      "nivel": 2,
+      "titulo": "OBSERVATÓRIO DO MOVIMENTO DOS TRABALHADORES"
+    },
+    {
+      "nivel": 3,
+      "titulo": "Documento Canônico de Organizações, Direções e Democracia"
+    },
+    {
+      "nivel": 1,
+      "titulo": "1. Função canônica"
+    },
+    {
+      "nivel": 1,
+      "titulo": "2. Objeto ampliado"
+    },
+    {
+      "nivel": 1,
+      "titulo": "3. Arquitetura do poder"
+    },
+    {
+      "nivel": 1,
+      "titulo": "4. Cinco universos inseparáveis e distintos"
+    },
+    {
+      "nivel": 1,
+      "titulo": "5. Eixos de pesquisa"
+    },
+    {
+      "nivel": 1,
+      "titulo": "6. Representatividade efetiva"
+    },
+    {
+      "nivel": 1,
+      "titulo": "7. Direito e auditoria"
+    },
+    {
+      "nivel": 1,
+      "titulo": "8. Produtos"
+    },
+    {
+      "nivel": 1,
+      "titulo": "9. Critério de sucesso"
+    }
+  ],
+  "migracao": {
+    "data": "2026-09-12",
+    "origem": "docx",
+    "destinos": [
+      "md",
+      "html",
+      "json"
+    ],
+    "equivalencia_substantiva_verificada": true,
+    "alteracao_de_conteudo": false,
+    "observacao": "Normalização restrita à hierarquia dos títulos e à geração dos formatos derivados."
+  },
+  "repositorio": "https://github.com/thiagoba2004/classe-e-massas"
+}

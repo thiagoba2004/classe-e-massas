@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Documento Canônico de Portais, Dados e Implantação — Arquitetura Pública, Método Comum e Governança</title>
+  <style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">:root{--ink:#17243a;--red:#a52b2a;--muted:#5c6673;--line:#dce3eb;--paper:#fff;--pale:#eef2f6}
+*{box-sizing:border-box}
+html{background:#f5f6f8;color:#20242a}
+body{max-width:980px;margin:0 auto;padding:38px 34px 90px;background:var(--paper);font-family:Georgia,"Times New Roman",serif;line-height:1.65;font-size:18px;overflow-wrap:break-word}
+.site-nav{display:flex;flex-wrap:wrap;gap:.8rem 1.2rem;align-items:center;padding:0 0 1rem;border-bottom:1px solid var(--line);font:700 .88rem Arial,Helvetica,sans-serif}
+.site-nav a{color:var(--ink);text-decoration:none}.site-nav a:hover{text-decoration:underline}
+header{text-align:left;margin:2.2rem 0 2.8rem;padding-bottom:1.25rem;border-bottom:3px solid var(--red)}
+header h1{margin:0;font-size:1.05rem;letter-spacing:.04em;color:var(--muted)}
+h1,h2,h3,h4{font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.2}
+h1{font-size:2.35rem;margin:1.7rem 0 1rem}h2{font-size:1.55rem;margin-top:2.2rem}h3{font-size:1.16rem;margin-top:1.6rem;color:var(--red)}h4{font-size:1.02rem;margin-top:1.45rem}
+p,li{max-width:78ch}blockquote{margin:1.6rem 0;padding:1rem 1.3rem;border-left:5px solid var(--red);background:var(--pale);font-weight:700;color:var(--ink)}
+a{color:#0b5dab}code{font-family:"Courier New",monospace;background:var(--pale);padding:.08rem .3rem;border-radius:3px}pre{overflow:auto;background:#111827;color:#eef2f7;padding:1rem 1.2rem;border-radius:6px;line-height:1.45}
+table{width:100%;border-collapse:collapse;margin:1.4rem 0;font-size:.93rem;display:table}th{background:var(--ink);color:#fff;text-align:left}th,td{border:1px solid #aeb8c4;padding:.7rem;vertical-align:top}tr:nth-child(even) td{background:var(--pale)}
+#TOC{margin:2rem 0;padding:1.1rem 1.4rem;background:var(--pale);border:1px solid var(--line)}#TOC::before{content:"Sumário";font:700 1rem Arial,Helvetica,sans-serif;color:var(--ink)}#TOC ul{margin:.6rem 0 0;padding-left:1.25rem}#TOC a{text-decoration:none}
+.canonical-footer{margin-top:3.5rem;padding-top:1.2rem;border-top:1px solid var(--line);color:var(--muted);font:400 .86rem Arial,Helvetica,sans-serif}
+@media(max-width:640px){body{font-size:16px;padding:24px 18px 64px}h1{font-size:1.85rem}h2{font-size:1.38rem}table{display:block;overflow-x:auto;font-size:.82rem}}
+@media print{html{background:#fff}body{max-width:none;padding:0;font-size:12pt}.site-nav,#TOC{display:none}h1,h2,h3{break-after:avoid}p,li{orphans:3;widows:3}}
+</style>
+</head>
+<body>
+<nav class="site-nav" aria-label="Navegação do documento"><a href="../../index.html">Classe e Massas</a><a href="06_Arquitetura_Publica_Metodo_e_Governanca.md">Fonte Markdown</a><a href="06_Arquitetura_Publica_Metodo_e_Governanca.metadata.json">Metadados JSON</a></nav>
+<header id="title-block-header">
+<h1 class="title">Documento Canônico de Portais, Dados e Implantação —
+Arquitetura Pública, Método Comum e Governança</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#classe-e-massas" id="toc-classe-e-massas">CLASSE E
+MASSAS</a>
+<ul>
+<li><a href="#arquitetura-pública-método-comum-e-governança" id="toc-arquitetura-pública-método-comum-e-governança">ARQUITETURA
+PÚBLICA, MÉTODO COMUM E GOVERNANÇA</a></li>
+</ul></li>
+<li><a href="#1-função-canônica" id="toc-1-função-canônica">1. Função
+canônica</a></li>
+<li><a href="#2-quatro-portas-públicas" id="toc-2-quatro-portas-públicas">2. Quatro portas públicas</a></li>
+<li><a href="#3-três-camadas-internas" id="toc-3-três-camadas-internas">3. Três camadas internas</a></li>
+<li><a href="#4-entidades-comuns-de-dados" id="toc-4-entidades-comuns-de-dados">4. Entidades comuns de
+dados</a></li>
+<li><a href="#5-estados-epistemológicos" id="toc-5-estados-epistemológicos">5. Estados epistemológicos</a></li>
+<li><a href="#6-governança-documental" id="toc-6-governança-documental">6. Governança documental</a></li>
+<li><a href="#7-programa-de-implantação" id="toc-7-programa-de-implantação">7. Programa de implantação</a></li>
+<li><a href="#8-critério-de-prioridade" id="toc-8-critério-de-prioridade">8. Critério de prioridade</a></li>
+<li><a href="#9-mandato-aos-agentes-e-colaboradores" id="toc-9-mandato-aos-agentes-e-colaboradores">9. Mandato aos agentes e
+colaboradores</a></li>
+<li><a href="#10-decisões-ainda-abertas" id="toc-10-decisões-ainda-abertas">10. Decisões ainda abertas</a></li>
+<li><a href="#11-critério-de-sucesso" id="toc-11-critério-de-sucesso">11. Critério de sucesso</a></li>
+</ul>
+</nav>
+<h1 id="classe-e-massas">CLASSE E MASSAS</h1>
+<h2 id="arquitetura-pública-método-comum-e-governança">ARQUITETURA
+PÚBLICA, MÉTODO COMUM E GOVERNANÇA</h2>
+<h3 id="documento-canônico-de-portais-dados-e-implantação">Documento
+Canônico de Portais, Dados e Implantação</h3>
+<table>
+<thead>
+<tr class="header">
+<th><strong>Coleção</strong></th>
+<th>Documentos Canônicos do Observatório Classe e Massas</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Versão</strong></td>
+<td>1.0</td>
+</tr>
+<tr class="even">
+<td><strong>Data</strong></td>
+<td>11 de setembro de 2026</td>
+</tr>
+<tr class="odd">
+<td><strong>Status</strong></td>
+<td><strong>APROVADO</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Pesquisar. Estudar. Compreender. Organizar.
+Lutar.</strong></p>
+<h1 id="1-função-canônica">1. Função canônica</h1>
+<p>Consolida a arquitetura pública CLASSE | CAPITAL | ORGANIZAÇÕES |
+LUTAS, a camada interna de dados e as regras de continuidade do
+Observatório Classe e Massas.</p>
+<p><strong>Regra de interpretação.</strong> As regras técnicas do
+documento bancário de Arquitetura v2.0 permanecem válidas e devem ser
+generalizadas. Este documento não congela prematuramente schemas ainda
+abertos; define contratos políticos e metodológicos que qualquer
+implementação deve respeitar.</p>
+<h1 id="2-quatro-portas-públicas">2. Quatro portas públicas</h1>
+<table>
+<thead>
+<tr class="header">
+<th><strong>Portal</strong></th>
+<th><strong>Pergunta central</strong></th>
+<th><strong>Conteúdo</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CLASSE</td>
+<td>Quem vive do trabalho e em quais condições?</td>
+<td>perfis, territórios, salários, vínculos, composição</td>
+</tr>
+<tr class="even">
+<td>CAPITAL</td>
+<td>Quem possui, controla e coordena o poder econômico?</td>
+<td>empresas, grupos, propriedade, associações patronais</td>
+</tr>
+<tr class="odd">
+<td>ORGANIZAÇÕES</td>
+<td>Como interesses se tornam representação e decisão?</td>
+<td>sindicatos, movimentos, direções, eleições, assembleias</td>
+</tr>
+<tr class="even">
+<td>LUTAS</td>
+<td>Onde os antagonismos se tornam ação e resultado?</td>
+<td>greves, campanhas, conflitos, conquistas e derrotas</td>
+</tr>
+</tbody>
+</table>
+<p>Observatórios setoriais atravessam as quatro portas; não formam silos
+paralelos.</p>
+<h1 id="3-três-camadas-internas">3. Três camadas internas</h1>
+<ol type="1">
+<li><p>Fontes originais preservadas, identificadas e
+versionadas.</p></li>
+<li><p>Dados estruturados em JSONL, com identificadores estáveis, datas,
+proveniência e estado documental.</p></li>
+<li><p>Documentos canônicos em HTML e produtos analíticos
+rastreáveis.</p></li>
+</ol>
+<p>Cadeia obrigatória: FONTE ORIGINAL → REGISTRO JSONL → DOCUMENTO
+CANÔNICO HTML → ANÁLISE, MAPA, PAINEL OU ARTIGO.</p>
+<h1 id="4-entidades-comuns-de-dados">4. Entidades comuns de dados</h1>
+<ul>
+<li><p>pessoas e papéis públicos;</p></li>
+<li><p>organizações de trabalhadores, empresas, grupos, órgãos estatais
+e associações patronais;</p></li>
+<li><p>territórios, estabelecimentos, setores e cadeias;</p></li>
+<li><p>fontes, versões, trechos e proveniência;</p></li>
+<li><p>mandatos, filiações, eleições, assembleias e delegações;</p></li>
+<li><p>eventos de luta, negociações, instrumentos e resultados;</p></li>
+<li><p>indicadores observados, estimados e derivados.</p></li>
+</ul>
+<h1 id="5-estados-epistemológicos">5. Estados epistemológicos</h1>
+<table>
+<thead>
+<tr class="header">
+<th><strong>Estado</strong></th>
+<th><strong>Uso</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Hipótese</td>
+<td>proposição a investigar; não publicar como constatação</td>
+</tr>
+<tr class="even">
+<td>Estimativa</td>
+<td>cálculo com premissas e incerteza explícitas</td>
+</tr>
+<tr class="odd">
+<td>Provisório</td>
+<td>dado documentado ainda sujeito a validação</td>
+</tr>
+<tr class="even">
+<td>Comprovado</td>
+<td>sustentado por fonte adequada ao enunciado</td>
+</tr>
+<tr class="odd">
+<td>Controvertido</td>
+<td>fontes relevantes divergem</td>
+</tr>
+<tr class="even">
+<td>Desconhecido</td>
+<td>não há base suficiente; não preencher por plausibilidade</td>
+</tr>
+</tbody>
+</table>
+<h1 id="6-governança-documental">6. Governança documental</h1>
+<ul>
+<li><p>Toda mudança relevante recebe versão, data, justificativa e
+relação com documentos anteriores.</p></li>
+<li><p>Fontes históricas nunca são sobrescritas; correções geram novo
+registro.</p></li>
+<li><p>Mudanças de schema exigem avaliação de compatibilidade.</p></li>
+<li><p>Decisões estruturais dependem de aprovação humana
+explícita.</p></li>
+<li><p>Git preserva a trilha técnica; documentos canônicos preservam a
+decisão política e metodológica.</p></li>
+<li><p>O site publica apenas produtos aprovados, sem confundir
+infraestrutura de pesquisa com produto editorial.</p></li>
+</ul>
+<h1 id="7-programa-de-implantação">7. Programa de implantação</h1>
+<table>
+<thead>
+<tr class="header">
+<th><strong>Fase</strong></th>
+<th><strong>Prioridade</strong></th>
+<th><strong>Entrega</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>Preservação</td>
+<td>incorporar estes documentos e registrar precedência</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Piloto bancário</td>
+<td>validar sindicato, assembleia, eleição, luta e contraparte
+patronal</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Núcleo comum</td>
+<td>congelar identificadores e schemas transversais mínimos</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Quatro portais</td>
+<td>criar navegação e páginas institucionais</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>Mapas integrados</td>
+<td>conectar trabalho, capital, organizações e lutas</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>Segundo setor</td>
+<td>testar replicação fora dos bancários</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>Escala nacional</td>
+<td>abrir novos núcleos conforme critérios canônicos</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>Comparação internacional</td>
+<td>somente após maturidade nacional</td>
+</tr>
+</tbody>
+</table>
+<h1 id="8-critério-de-prioridade">8. Critério de prioridade</h1>
+<p>Priorizar tarefas que aumentem simultaneamente memória,
+comparabilidade e capacidade de intervenção. Evitar coleta volumosa sem
+schema, publicação sem fonte, expansão sem responsável e visualização
+sem definição metodológica.</p>
+<h1 id="9-mandato-aos-agentes-e-colaboradores">9. Mandato aos agentes e
+colaboradores</h1>
+<p>Ler a documentação canônica antes de alterar a arquitetura; não
+inventar dado ausente; preservar as distinções entre classe,
+organização, direção e luta; manter o núcleo bancário funcionando
+durante a ampliação; registrar decisões suficientes para que a
+continuidade não dependa da memória de uma conversa.</p>
+<h1 id="10-decisões-ainda-abertas">10. Decisões ainda abertas</h1>
+<ul>
+<li><p>Schemas definitivos e convenções nacionais de
+identificadores.</p></li>
+<li><p>Política final de publicação versus infraestrutura
+reservada.</p></li>
+<li><p>Governança coletiva futura e papéis editoriais.</p></li>
+<li><p>Primeiro setor adicional ao núcleo bancário.</p></li>
+<li><p>Fórmulas de indicadores e regras de revisão por pares.</p></li>
+<li><p>Cronograma público e formas de participação da base.</p></li>
+</ul>
+<h1 id="11-critério-de-sucesso">11. Critério de sucesso</h1>
+<p>O sistema será bem-sucedido quando qualquer afirmação puder ser
+rastreada, qualquer setor puder ser incorporado sem improvisação, as
+quatro dimensões puderem ser relacionadas e o conhecimento produzido
+fortalecer a capacidade autônoma de compreensão, organização e luta dos
+trabalhadores.</p>
+<footer class="canonical-footer">Documento canônico 1.0 • Fonte textual oficial: <a href="06_Arquitetura_Publica_Metodo_e_Governanca.md">Markdown</a> • Publicação derivada em HTML.</footer><!-- Cloudflare Web Analytics --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"b52dc49a42864dd8b7e11ae04f41e937"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

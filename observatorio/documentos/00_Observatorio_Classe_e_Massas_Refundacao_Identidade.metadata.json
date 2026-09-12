@@ -1,0 +1,83 @@
+{
+  "documento_id": "ocm-00-refundacao-identidade",
+  "titulo": "Documento Canônico de Refundação, Identidade e Horizonte Estratégico",
+  "projeto": "Classe e Massas / Observatório Classe e Massas",
+  "escopo": "Observatório Classe e Massas",
+  "colecao": "Documentos Canônicos do Observatório Classe e Massas",
+  "ordem_colecao": 0,
+  "versao": "3.0",
+  "data": "2026-09-11",
+  "status": "aprovado",
+  "fonte_canonica": "00_Observatorio_Classe_e_Massas_Refundacao_Identidade.md",
+  "publicacao_derivada": "00_Observatorio_Classe_e_Massas_Refundacao_Identidade.html",
+  "metadados": "00_Observatorio_Classe_e_Massas_Refundacao_Identidade.metadata.json",
+  "fonte_legada": {
+    "arquivo": "00_Observatorio_Classe_e_Massas_Refundacao_Identidade.docx",
+    "formato": "docx",
+    "situacao": "preservado como legado; não utilizar como fonte de atualização"
+  },
+  "diretriz_de_formatos": "ocm-diretriz-arquitetura-documental",
+  "secoes": [
+    {
+      "nivel": 1,
+      "titulo": "CLASSE E MASSAS"
+    },
+    {
+      "nivel": 2,
+      "titulo": "OBSERVATÓRIO CLASSE E MASSAS"
+    },
+    {
+      "nivel": 3,
+      "titulo": "Documento Canônico de Refundação, Identidade e Horizonte Estratégico"
+    },
+    {
+      "nivel": 1,
+      "titulo": "1. Função canônica"
+    },
+    {
+      "nivel": 1,
+      "titulo": "2. Decisão de refundação"
+    },
+    {
+      "nivel": 1,
+      "titulo": "3. Tese fundadora"
+    },
+    {
+      "nivel": 1,
+      "titulo": "4. Princípio editorial permanente"
+    },
+    {
+      "nivel": 1,
+      "titulo": "5. Distinções fundamentais"
+    },
+    {
+      "nivel": 1,
+      "titulo": "6. Unidade e autonomia"
+    },
+    {
+      "nivel": 1,
+      "titulo": "7. Compromissos"
+    },
+    {
+      "nivel": 1,
+      "titulo": "8. Pergunta estratégica geral"
+    },
+    {
+      "nivel": 1,
+      "titulo": "9. Regra de preservação"
+    }
+  ],
+  "migracao": {
+    "data": "2026-09-12",
+    "origem": "docx",
+    "destinos": [
+      "md",
+      "html",
+      "json"
+    ],
+    "equivalencia_substantiva_verificada": true,
+    "alteracao_de_conteudo": false,
+    "observacao": "Normalização restrita à hierarquia dos títulos e à geração dos formatos derivados."
+  },
+  "repositorio": "https://github.com/thiagoba2004/classe-e-massas"
+}

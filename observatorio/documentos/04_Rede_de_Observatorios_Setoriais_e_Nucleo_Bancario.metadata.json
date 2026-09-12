@@ -1,0 +1,83 @@
+{
+  "documento_id": "ocm-04-rede-setorial-nucleo-bancario",
+  "titulo": "Documento Canônico de Expansão e Núcleo Experimental Bancário",
+  "projeto": "Classe e Massas / Observatório Classe e Massas",
+  "escopo": "Rede de Observatórios Setoriais",
+  "colecao": "Documentos Canônicos do Observatório Classe e Massas",
+  "ordem_colecao": 4,
+  "versao": "1.0",
+  "data": "2026-09-11",
+  "status": "aprovado",
+  "fonte_canonica": "04_Rede_de_Observatorios_Setoriais_e_Nucleo_Bancario.md",
+  "publicacao_derivada": "04_Rede_de_Observatorios_Setoriais_e_Nucleo_Bancario.html",
+  "metadados": "04_Rede_de_Observatorios_Setoriais_e_Nucleo_Bancario.metadata.json",
+  "fonte_legada": {
+    "arquivo": "04_Rede_de_Observatorios_Setoriais_e_Nucleo_Bancario.docx",
+    "formato": "docx",
+    "situacao": "preservado como legado; não utilizar como fonte de atualização"
+  },
+  "diretriz_de_formatos": "ocm-diretriz-arquitetura-documental",
+  "secoes": [
+    {
+      "nivel": 1,
+      "titulo": "CLASSE E MASSAS"
+    },
+    {
+      "nivel": 2,
+      "titulo": "REDE DE OBSERVATÓRIOS SETORIAIS"
+    },
+    {
+      "nivel": 3,
+      "titulo": "Documento Canônico de Expansão e Núcleo Experimental Bancário"
+    },
+    {
+      "nivel": 1,
+      "titulo": "1. Função canônica"
+    },
+    {
+      "nivel": 1,
+      "titulo": "2. Princípio de expansão"
+    },
+    {
+      "nivel": 1,
+      "titulo": "3. Observatório dos Bancários"
+    },
+    {
+      "nivel": 1,
+      "titulo": "4. Frentes setoriais futuras"
+    },
+    {
+      "nivel": 1,
+      "titulo": "5. Critérios para abrir um núcleo"
+    },
+    {
+      "nivel": 1,
+      "titulo": "6. Núcleo comum e extensões"
+    },
+    {
+      "nivel": 1,
+      "titulo": "7. Comparação intersetorial"
+    },
+    {
+      "nivel": 1,
+      "titulo": "8. Regra contra o corporativismo"
+    },
+    {
+      "nivel": 1,
+      "titulo": "9. Critério de sucesso"
+    }
+  ],
+  "migracao": {
+    "data": "2026-09-12",
+    "origem": "docx",
+    "destinos": [
+      "md",
+      "html",
+      "json"
+    ],
+    "equivalencia_substantiva_verificada": true,
+    "alteracao_de_conteudo": false,
+    "observacao": "Normalização restrita à hierarquia dos títulos e à geração dos formatos derivados."
+  },
+  "repositorio": "https://github.com/thiagoba2004/classe-e-massas"
+}

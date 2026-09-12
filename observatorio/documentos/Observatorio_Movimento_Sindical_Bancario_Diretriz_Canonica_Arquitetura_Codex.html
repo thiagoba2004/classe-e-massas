@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Diretriz Canônica de Arquitetura, Dados e Execução no Codex — Observatório do Movimento Sindical Bancário</title>
+  <style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">:root{--ink:#17243a;--red:#a52b2a;--muted:#5c6673;--line:#dce3eb;--paper:#fff;--pale:#eef2f6}
+*{box-sizing:border-box}
+html{background:#f5f6f8;color:#20242a}
+body{max-width:980px;margin:0 auto;padding:38px 34px 90px;background:var(--paper);font-family:Georgia,"Times New Roman",serif;line-height:1.65;font-size:18px;overflow-wrap:break-word}
+.site-nav{display:flex;flex-wrap:wrap;gap:.8rem 1.2rem;align-items:center;padding:0 0 1rem;border-bottom:1px solid var(--line);font:700 .88rem Arial,Helvetica,sans-serif}
+.site-nav a{color:var(--ink);text-decoration:none}.site-nav a:hover{text-decoration:underline}
+header{text-align:left;margin:2.2rem 0 2.8rem;padding-bottom:1.25rem;border-bottom:3px solid var(--red)}
+header h1{margin:0;font-size:1.05rem;letter-spacing:.04em;color:var(--muted)}
+h1,h2,h3,h4{font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.2}
+h1{font-size:2.35rem;margin:1.7rem 0 1rem}h2{font-size:1.55rem;margin-top:2.2rem}h3{font-size:1.16rem;margin-top:1.6rem;color:var(--red)}h4{font-size:1.02rem;margin-top:1.45rem}
+p,li{max-width:78ch}blockquote{margin:1.6rem 0;padding:1rem 1.3rem;border-left:5px solid var(--red);background:var(--pale);font-weight:700;color:var(--ink)}
+a{color:#0b5dab}code{font-family:"Courier New",monospace;background:var(--pale);padding:.08rem .3rem;border-radius:3px}pre{overflow:auto;background:#111827;color:#eef2f7;padding:1rem 1.2rem;border-radius:6px;line-height:1.45}
+table{width:100%;border-collapse:collapse;margin:1.4rem 0;font-size:.93rem;display:table}th{background:var(--ink);color:#fff;text-align:left}th,td{border:1px solid #aeb8c4;padding:.7rem;vertical-align:top}tr:nth-child(even) td{background:var(--pale)}
+#TOC{margin:2rem 0;padding:1.1rem 1.4rem;background:var(--pale);border:1px solid var(--line)}#TOC::before{content:"Sumário";font:700 1rem Arial,Helvetica,sans-serif;color:var(--ink)}#TOC ul{margin:.6rem 0 0;padding-left:1.25rem}#TOC a{text-decoration:none}
+.canonical-footer{margin-top:3.5rem;padding-top:1.2rem;border-top:1px solid var(--line);color:var(--muted);font:400 .86rem Arial,Helvetica,sans-serif}
+@media(max-width:640px){body{font-size:16px;padding:24px 18px 64px}h1{font-size:1.85rem}h2{font-size:1.38rem}table{display:block;overflow-x:auto;font-size:.82rem}}
+@media print{html{background:#fff}body{max-width:none;padding:0;font-size:12pt}.site-nav,#TOC{display:none}h1,h2,h3{break-after:avoid}p,li{orphans:3;widows:3}}
+</style>
+</head>
+<body>
+<nav class="site-nav" aria-label="Navegação do documento"><a href="../../index.html">Classe e Massas</a><a href="Observatorio_Movimento_Sindical_Bancario_Diretriz_Canonica_Arquitetura_Codex.md">Fonte Markdown</a><a href="Observatorio_Movimento_Sindical_Bancario_Diretriz_Canonica_Arquitetura_Codex.metadata.json">Metadados JSON</a></nav>
+<header id="title-block-header">
+<h1 class="title">Diretriz Canônica de Arquitetura, Dados e Execução no
+Codex — Observatório do Movimento Sindical Bancário</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#observatório-do-movimento-sindical-bancário" id="toc-observatório-do-movimento-sindical-bancário">OBSERVATÓRIO DO
+MOVIMENTO SINDICAL BANCÁRIO</a>
+<ul>
+<li><a href="#diretriz-canônica-de-arquitetura-dados-e-execução-no-codex" id="toc-diretriz-canônica-de-arquitetura-dados-e-execução-no-codex">Diretriz
+Canônica de Arquitetura, Dados e Execução no Codex</a></li>
+</ul></li>
+<li><a href="#1-função-deste-documento" id="toc-1-função-deste-documento">1. Função deste documento</a></li>
+<li><a href="#2-decisão-de-ambiente-notebook--codex" id="toc-2-decisão-de-ambiente-notebook--codex">2. Decisão de ambiente:
+Notebook + Codex</a></li>
+<li><a href="#3-princípio-arquitetural-central-três-camadas" id="toc-3-princípio-arquitetural-central-três-camadas">3. Princípio
+arquitetural central: três camadas</a>
+<ul>
+<li><a href="#31-fontes-documentais" id="toc-31-fontes-documentais">3.1
+Fontes documentais</a></li>
+<li><a href="#32-dados-estruturados" id="toc-32-dados-estruturados">3.2
+Dados estruturados</a></li>
+<li><a href="#33-documentos-canônicos-e-publicação" id="toc-33-documentos-canônicos-e-publicação">3.3 Documentos canônicos e
+publicação</a></li>
+</ul></li>
+<li><a href="#4-regra-de-formatos" id="toc-4-regra-de-formatos">4. Regra
+de formatos</a></li>
+<li><a href="#5-unidade-fundamental-dossiê-sindical-padronizado" id="toc-5-unidade-fundamental-dossiê-sindical-padronizado">5. Unidade
+fundamental: dossiê sindical padronizado</a></li>
+<li><a href="#6-documentos-canônicos-específicos-de-cada-sindicato" id="toc-6-documentos-canônicos-específicos-de-cada-sindicato">6.
+Documentos canônicos específicos de cada sindicato</a></li>
+<li><a href="#7-json-lines-como-espinha-dorsal-analítica" id="toc-7-json-lines-como-espinha-dorsal-analítica">7. JSON Lines como
+espinha dorsal analítica</a></li>
+<li><a href="#8-pasta-nacional-de-esquemas-e-dados-consolidados" id="toc-8-pasta-nacional-de-esquemas-e-dados-consolidados">8. Pasta
+nacional de esquemas e dados consolidados</a></li>
+<li><a href="#9-gerador-canônico-de-sindicatos" id="toc-9-gerador-canônico-de-sindicatos">9. Gerador canônico de
+sindicatos</a></li>
+<li><a href="#10-análise-intra-sindical-e-inter-sindical" id="toc-10-análise-intra-sindical-e-inter-sindical">10. Análise
+intra-sindical e inter-sindical</a>
+<ul>
+<li><a href="#101-intra-sindical" id="toc-101-intra-sindical">10.1
+Intra-sindical</a></li>
+<li><a href="#102-inter-sindical" id="toc-102-inter-sindical">10.2
+Inter-sindical</a></li>
+</ul></li>
+<li><a href="#11-regras-epistemológicas-obrigatórias" id="toc-11-regras-epistemológicas-obrigatórias">11. Regras
+epistemológicas obrigatórias</a></li>
+<li><a href="#12-direito-sindical-como-método-de-investigação" id="toc-12-direito-sindical-como-método-de-investigação">12. Direito
+Sindical como método de investigação</a></li>
+<li><a href="#13-mapas-nacionais-e-hipóteses-de-concentração" id="toc-13-mapas-nacionais-e-hipóteses-de-concentração">13. Mapas
+nacionais e hipóteses de concentração</a></li>
+<li><a href="#14-governança-para-o-codex" id="toc-14-governança-para-o-codex">14. Governança para o Codex</a></li>
+<li><a href="#15-estado-de-transição-android--notebook" id="toc-15-estado-de-transição-android--notebook">15. Estado de
+transição Android → Notebook</a></li>
+<li><a href="#16-fluxo-de-migração-recomendado" id="toc-16-fluxo-de-migração-recomendado">16. Fluxo de migração
+recomendado</a></li>
+<li><a href="#17-estrutura-alvo-conceitual-da-raiz" id="toc-17-estrutura-alvo-conceitual-da-raiz">17. Estrutura-alvo
+conceitual da raiz</a></li>
+<li><a href="#18-critério-de-sucesso" id="toc-18-critério-de-sucesso">18. Critério de sucesso</a></li>
+<li><a href="#19-decisões-que-permanecem-abertas" id="toc-19-decisões-que-permanecem-abertas">19. Decisões que permanecem
+abertas</a></li>
+<li><a href="#20-mandato-final-ao-agente-de-ia" id="toc-20-mandato-final-ao-agente-de-ia">20. Mandato final ao agente de
+IA</a></li>
+</ul>
+</nav>
+<h1 id="observatório-do-movimento-sindical-bancário">OBSERVATÓRIO DO
+MOVIMENTO SINDICAL BANCÁRIO</h1>
+<h2 id="diretriz-canônica-de-arquitetura-dados-e-execução-no-codex">Diretriz
+Canônica de Arquitetura, Dados e Execução no Codex</h2>
+<p><em>Complemento e evolução do Documento Canônico de Fundação</em></p>
+<table>
+<thead>
+<tr class="header">
+<th><strong>Versão</strong></th>
+<th>2.0</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Data</strong></td>
+<td>7 de setembro de 2026</td>
+</tr>
+<tr class="even">
+<td><strong>Status</strong></td>
+<td>Diretriz arquitetural aprovada para continuidade do projeto</td>
+</tr>
+<tr class="odd">
+<td><strong>Projeto</strong></td>
+<td>Classe e Massas / Observatório do Movimento Sindical Bancário</td>
+</tr>
+<tr class="even">
+<td><strong>Finalidade</strong></td>
+<td>Preservar decisões, orientar o Codex e impedir deriva arquitetural
+ou epistemológica</td>
+</tr>
+</tbody>
+</table>
+<h1 id="1-função-deste-documento">1. Função deste documento</h1>
+<p>Este documento registra as decisões arquiteturais tomadas após a
+fundação do Observatório do Movimento Sindical Bancário e deve ser
+tratado como orientação persistente para qualquer modelo de IA, agente
+de programação ou colaborador que trabalhe no repositório.</p>
+<p>Ele não substitui o Documento Canônico de Fundação, Objeto, Método e
+Programa de Pesquisa. Os dois documentos são complementares: o primeiro
+fixa missão, objeto, método e programa de pesquisa; este fixa a
+arquitetura digital, o padrão dos dossiês sindicais, a camada de dados e
+as regras de execução.</p>
+<p>Regra de precedência: nenhuma implementação técnica pode alterar
+silenciosamente os princípios metodológicos ou epistemológicos do
+Documento Canônico de Fundação. Mudanças estruturais relevantes exigem
+decisão explícita e atualização da documentação canônica.</p>
+<h1 id="2-decisão-de-ambiente-notebook--codex">2. Decisão de ambiente:
+Notebook + Codex</h1>
+<p>A continuidade estrutural do Observatório deve ocorrer
+preferencialmente no Notebook, utilizando o Codex como ambiente
+principal de implementação, manutenção, automação, validação e evolução
+do repositório.</p>
+<p>Justificativa: o Observatório deixou de ser apenas uma seção estática
+do site. Ele passa a combinar publicação web, acervo documental, dados
+históricos estruturados, geração padronizada de dossiês, validação de
+esquemas, análises intra-sindicais e comparações inter-sindicais. Esse
+conjunto caracteriza um projeto de software e dados de complexidade
+crescente.</p>
+<ul>
+<li><p>Chat/Projects: contexto, arquitetura, debate metodológico,
+decisões e documentação.</p></li>
+<li><p>Codex no Notebook: implementação, refatoração, scripts,
+validações, testes, automações e manutenção do repositório.</p></li>
+<li><p>Git/GitHub: fonte compartilhada de versionamento e sincronização
+entre dispositivos.</p></li>
+<li><p>Site Classe e Massas: camada pública de publicação dos resultados
+aprovados.</p></li>
+</ul>
+<p>O Codex deve trabalhar sob versionamento Git e ler as diretrizes
+persistentes do repositório antes de editar arquivos. Recomenda-se
+criar, em etapa própria, um AGENTS.md na raiz adequada, resumindo as
+regras operacionais e apontando para estes documentos canônicos.</p>
+<h1 id="3-princípio-arquitetural-central-três-camadas">3. Princípio
+arquitetural central: três camadas</h1>
+<h2 id="31-fontes-documentais">3.1 Fontes documentais</h2>
+<p>São os documentos originais ou cópias preservadas: estatutos, atas,
+editais, chapas, resultados eleitorais, teses, resoluções, jornais,
+boletins, editais de assembleia, atas de assembleia, instrumentos
+coletivos, documentos de registro sindical, páginas arquivadas e demais
+evidências.</p>
+<h2 id="32-dados-estruturados">3.2 Dados estruturados</h2>
+<p>Os fatos extraídos das fontes devem ser registrados em JSON Lines
+(.jsonl), com esquemas comuns, identificadores estáveis, datas,
+proveniência e estado documental. Essa camada é a memória computacional
+do Observatório.</p>
+<h2 id="33-documentos-canônicos-e-publicação">3.3 Documentos canônicos e
+publicação</h2>
+<p>Os documentos canônicos destinados à leitura humana devem ser HTML.
+Eles sintetizam e interpretam os dados documentados, preservando
+rastreabilidade até os registros estruturados e as fontes originais.</p>
+<p>Cadeia de rastreabilidade obrigatória: FONTE ORIGINAL → REGISTRO
+JSONL → DOCUMENTO CANÔNICO HTML → ANÁLISE COMPARATIVA / MAPA /
+ARTIGO.</p>
+<h1 id="4-regra-de-formatos">4. Regra de formatos</h1>
+<table>
+<thead>
+<tr class="header">
+<th><strong>Camada</strong></th>
+<th><strong>Formato principal</strong></th>
+<th><strong>Função</strong></th>
+<th><strong>Regra</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Publicação canônica</td>
+<td>.html</td>
+<td>Leitura humana e publicação web</td>
+<td>Não usar Markdown como formato canônico dos dossiês.</td>
+</tr>
+<tr class="even">
+<td>Dados históricos</td>
+<td>.jsonl</td>
+<td>Análise temporal e comparativa</td>
+<td>Mesmo esquema para todos os sindicatos.</td>
+</tr>
+<tr class="odd">
+<td>Fontes</td>
+<td>formato original</td>
+<td>Evidência e preservação</td>
+<td>Nunca sobrescrever versões históricas.</td>
+</tr>
+<tr class="even">
+<td>Diretrizes institucionais</td>
+<td>.docx + orientação no repositório</td>
+<td>Memória arquitetural e governança</td>
+<td>Mudanças relevantes devem ser documentadas.</td>
+</tr>
+</tbody>
+</table>
+<h1 id="5-unidade-fundamental-dossiê-sindical-padronizado">5. Unidade
+fundamental: dossiê sindical padronizado</h1>
+<p>Cada sindicato pesquisado deve possuir um dossiê próprio, mas todos
+os dossiês devem nascer da mesma arquitetura. O objetivo é permitir
+leitura individual de uma entidade e, simultaneamente, comparação
+nacional entre entidades.</p>
+<p>Exemplo de estrutura lógica para o Sindicato dos Bancários e
+Financiários de São Paulo, Osasco e Região:</p>
+<p>observatorio/sindicatos/sao-paulo-osasco-regiao/</p>
+<p>├── index.html</p>
+<p>├── canonicos/</p>
+<p>│ ├── identificacao-institucional.html</p>
+<p>│ ├── estatuto-social.html</p>
+<p>│ ├── base-territorial.html</p>
+<p>│ ├── direcao-sindical.html</p>
+<p>│ ├── eleicoes.html</p>
+<p>│ ├── congressos-e-teses.html</p>
+<p>│ └── historia.html</p>
+<p>├── dados/</p>
+<p>│ ├── identificacao-institucional.jsonl</p>
+<p>│ ├── base-territorial.jsonl</p>
+<p>│ ├── direcoes.jsonl</p>
+<p>│ ├── eleicoes.jsonl</p>
+<p>│ ├── congressos.jsonl</p>
+<p>│ ├── teses.jsonl</p>
+<p>│ ├── assembleias.jsonl</p>
+<p>│ ├── negociacoes.jsonl</p>
+<p>│ └── publicacoes.jsonl</p>
+<p>└── fontes/</p>
+<p>├── estatutos/</p>
+<p>├── eleicoes/</p>
+<p>├── congressos/</p>
+<p>├── diretorias/</p>
+<p>├── assembleias/</p>
+<p>├── negociacoes/</p>
+<p>├── publicacoes/</p>
+<p>└── base-territorial/</p>
+<h1 id="6-documentos-canônicos-específicos-de-cada-sindicato">6.
+Documentos canônicos específicos de cada sindicato</h1>
+<ul>
+<li><p>Identificação institucional: nome jurídico, nome político, CNPJ,
+registro sindical, sede, filiações, abrangência e
+identificadores.</p></li>
+<li><p>Estatuto social: versões históricas, vigência, órgãos,
+competências, regras eleitorais, assembleares e de
+representação.</p></li>
+<li><p>Base territorial: municípios, categorias abrangidas, alterações
+históricas e documentação comprobatória.</p></li>
+<li><p>Direção sindical: composição por mandato, cargos, dirigentes e
+competências estatutárias.</p></li>
+<li><p>Eleições: cronologia, chapas, regras, eleitorado, participação,
+resultados, atas e controvérsias documentadas.</p></li>
+<li><p>Congressos e teses: congressos, delegações, teses, resoluções,
+correntes e posições políticas documentadas.</p></li>
+<li><p>História: reconstrução cronológica institucional, política,
+sindical e documental.</p></li>
+</ul>
+<p>Documentos canônicos não substituem as fontes. Devem funcionar como
+sínteses auditáveis e historicamente versionáveis.</p>
+<h1 id="7-json-lines-como-espinha-dorsal-analítica">7. JSON Lines como
+espinha dorsal analítica</h1>
+<p>O JSONL é adotado como formato estrutural preferencial para séries
+históricas e análises comparativas. Cada linha deve representar uma
+unidade de observação suficientemente autônoma e conter identificadores
+que permitam ligação com sindicato, período, fonte e demais
+entidades.</p>
+<p>Os esquemas não podem ser inventados isoladamente por sindicato. São
+esquemas nacionais do Observatório. O mesmo campo deve ter o mesmo
+significado em São Paulo, Bahia, Brasília, Rio de Janeiro ou qualquer
+outro dossiê.</p>
+<ul>
+<li><p>Identificador estável do sindicato (sindicato_id), independente
+de mudanças futuras no nome político ou jurídico.</p></li>
+<li><p>Datas em formato padronizado e possibilidade explícita de data
+desconhecida ou aproximada.</p></li>
+<li><p>Identificador de fonte (fonte_id) e proveniência obrigatória para
+afirmações documentais.</p></li>
+<li><p>Separação entre dado observado, cálculo derivado, hipótese e
+interpretação.</p></li>
+<li><p>Campos controlados para grau/status documental.</p></li>
+<li><p>Preservação de versões e correções sem apagar a história do
+dado.</p></li>
+<li><p>Validação automatizada antes de agregações nacionais.</p></li>
+</ul>
+<h1 id="8-pasta-nacional-de-esquemas-e-dados-consolidados">8. Pasta
+nacional de esquemas e dados consolidados</h1>
+<p>A raiz do Observatório deve prever uma pasta esquemas/ para contratos
+de dados e uma pasta dados/ para conjuntos nacionais derivados. Os
+arquivos locais de cada sindicato permanecem em
+sindicatos/&lt;id&gt;/dados/.</p>
+<p>observatorio/</p>
+<p>├── esquemas/ # definição dos contratos e campos JSONL</p>
+<p>├── dados/ # datasets nacionais consolidados/derivados</p>
+<p>└── sindicatos/</p>
+<p>└── &lt;sindicato_id&gt;/dados/ # registros próprios da entidade</p>
+<h1 id="9-gerador-canônico-de-sindicatos">9. Gerador canônico de
+sindicatos</h1>
+<p>Deve existir uma Pasta Geradora capaz de criar automaticamente um
+novo dossiê sindical com todas as subpastas e arquivos exigidos pelo
+padrão do Observatório.</p>
+<p>Estrutura proposta:</p>
+<p>observatorio/gerador-sindicato/</p>
+<p>├── criar-sindicato.sh (ou ferramenta equivalente
+multiplataforma)</p>
+<p>├── templates/</p>
+<p>│ ├── index.html</p>
+<p>│ ├── canonicos/*.html</p>
+<p>│ └── dados/*.jsonl</p>
+<p>└── documentação de uso</p>
+<p>O gerador deve receber ao menos um identificador estável e o nome
+oficial/político da entidade, criar a estrutura completa, preencher
+metadados iniciais e recusar sobrescrita de um sindicato já
+existente.</p>
+<p>Objetivo estratégico: eliminar deriva estrutural. Sindicato B, C ou Z
+deve nascer segundo o mesmo contrato do Sindicato A.</p>
+<h1 id="10-análise-intra-sindical-e-inter-sindical">10. Análise
+intra-sindical e inter-sindical</h1>
+<p>A arquitetura deve servir a dois eixos simultâneos.</p>
+<h2 id="101-intra-sindical">10.1 Intra-sindical</h2>
+<p>Reconstruir a evolução de um mesmo sindicato no tempo: estatutos,
+mudanças territoriais, diretorias, permanência/renovação de dirigentes,
+eleições, congressos, participação, posições negociais, assembleias e
+publicações.</p>
+<h2 id="102-inter-sindical">10.2 Inter-sindical</h2>
+<p>Comparar sindicatos sob os mesmos conceitos: tamanho da base,
+sindicalização quando disponível, participação eleitoral/assemblear,
+composição e renovação de direções, regras estatutárias, filiações,
+representação política, comportamento negocial e demais variáveis
+documentáveis.</p>
+<p>Nenhuma comparação nacional deve misturar conceitos distintos.
+Trabalhadores na base territorial, sindicalizados e
+votantes/participantes são universos diferentes.</p>
+<h1 id="11-regras-epistemológicas-obrigatórias">11. Regras
+epistemológicas obrigatórias</h1>
+<ul>
+<li><p>Documentar antes de concluir.</p></li>
+<li><p>Nunca preencher lacunas com plausibilidade.</p></li>
+<li><p>Distinguir hipótese, estimativa, dado provisório e fato
+comprovado.</p></li>
+<li><p>Preservar versões históricas de documentos e dados.</p></li>
+<li><p>Registrar proveniência de toda afirmação relevante.</p></li>
+<li><p>Ausência de notícia ou documento público não prova descumprimento
+estatutário.</p></li>
+<li><p>Possível descumprimento só deve ser discutido com evidência
+positiva e análise jurídica.</p></li>
+<li><p>Revisões devem corrigir o conhecimento sem apagar a trilha
+histórica.</p></li>
+</ul>
+<h1 id="12-direito-sindical-como-método-de-investigação">12. Direito
+Sindical como método de investigação</h1>
+<p>O Direito Sindical integra o núcleo metodológico. Constituição, CLT,
+jurisprudência STF/TST, estatutos, registros sindicais, instrumentos
+coletivos e regras assembleares devem ser usados para determinar quem
+representa quem, em qual território, com qual mandato, quem delibera,
+negocia e assina, e quais competências pertencem a cada órgão ou
+dirigente.</p>
+<p>Matriz de fiscalização estatutária recomendada: Cargo → dirigente →
+competência estatutária → atos públicos identificados → documentos
+comprobatórios → período analisado.</p>
+<p>Classificações prudenciais: cumprimento documentalmente identificado;
+cumprimento parcialmente documentado; documentação pública insuficiente
+para avaliação.</p>
+<h1 id="13-mapas-nacionais-e-hipóteses-de-concentração">13. Mapas
+nacionais e hipóteses de concentração</h1>
+<p>O Observatório pretende construir o Mapa do Poder Sindical Bancário
+(Top 1, Top 3, Top 10 e Top 20) e o Mapa da Representação Política. As
+estimativas discutidas durante a fundação — por exemplo, concentração
+aproximada em determinados grupos de sindicatos ou participação reduzida
+de sindicatos dirigidos por oposições — são hipóteses de pesquisa, não
+fatos publicados.</p>
+<p>Nenhum percentual desse tipo deve ser apresentado como fato antes de
+definição do denominador nacional, identificação das bases, documentação
+das fontes e validação dos cálculos.</p>
+<h1 id="14-governança-para-o-codex">14. Governança para o Codex</h1>
+<ul>
+<li><p>Antes de alterar arquitetura, ler os documentos canônicos e a
+orientação persistente do repositório.</p></li>
+<li><p>Não criar novos formatos ou nomenclaturas quando já existir
+padrão aprovado.</p></li>
+<li><p>Não transformar hipóteses em dados.</p></li>
+<li><p>Não alterar esquemas JSONL sem avaliar compatibilidade histórica
+e comparativa.</p></li>
+<li><p>Não sobrescrever fontes ou versões históricas.</p></li>
+<li><p>Fazer mudanças estruturais em etapas pequenas, auditáveis e
+versionadas.</p></li>
+<li><p>Executar validações/testes antes de commit quando houver scripts
+ou dados estruturados.</p></li>
+<li><p>Apresentar mudanças relevantes para aprovação humana antes de
+consolidá-las.</p></li>
+<li><p>Manter Git como trilha de auditoria das alterações.</p></li>
+</ul>
+<h1 id="15-estado-de-transição-android--notebook">15. Estado de
+transição Android → Notebook</h1>
+<p>O trabalho realizado no Android/Termux pertence ao mesmo repositório
+Git Classe e Massas. Tudo que já foi commitado e enviado (push) ao
+remoto GitHub pode ser recuperado no Notebook por clone ou atualização
+do repositório.</p>
+<p>Atenção: alterações apenas locais no Android não existem ainda no
+GitHub. No momento desta diretriz, a nova árvore observatorio/ foi
+criada localmente e o DOCX de fundação foi copiado para
+observatorio/documentos/, mas essas mudanças precisam ser verificadas,
+adicionadas ao Git, commitadas e enviadas ao remoto antes da migração
+segura.</p>
+<p>Diretórios vazios não são rastreados pelo Git. Portanto, a simples
+existência local de subpastas vazias não garante sua presença no GitHub;
+elas precisam conter arquivos rastreados ou ser recriadas pelo
+gerador.</p>
+<h1 id="16-fluxo-de-migração-recomendado">16. Fluxo de migração
+recomendado</h1>
+<ul>
+<li><p>No Android: revisar git status e decidir exatamente quais
+arquivos do Observatório serão preservados.</p></li>
+<li><p>Adicionar arquivos necessários, fazer commit e push para
+origin/main.</p></li>
+<li><p>No Notebook: atualizar ou clonar o mesmo repositório a partir do
+GitHub.</p></li>
+<li><p>Confirmar commit/hash e árvore antes de iniciar mudanças no
+Codex.</p></li>
+<li><p>Criar a camada persistente de orientação do Codex (AGENTS.md)
+apontando para a documentação canônica.</p></li>
+<li><p>Projetar e validar esquemas JSONL antes de povoar grandes volumes
+de dados.</p></li>
+<li><p>Implementar o gerador de sindicatos somente depois de congelado o
+primeiro contrato arquitetural.</p></li>
+<li><p>Gerar o primeiro dossiê real como teste de referência e validar a
+arquitetura antes de escalar ao Top 20.</p></li>
+</ul>
+<h1 id="17-estrutura-alvo-conceitual-da-raiz">17. Estrutura-alvo
+conceitual da raiz</h1>
+<p>observatorio/</p>
+<p>├── index.html</p>
+<p>├── documentos/</p>
+<p>├── metodologia/</p>
+<p>├── esquemas/</p>
+<p>├── dados/</p>
+<p>├── gerador-sindicato/</p>
+<p>├── mapas/</p>
+<p>├── sindicatos/</p>
+<p>├── representacao-politica/</p>
+<p>├── direito-sindical/</p>
+<p>├── fontes/</p>
+<p>├── pesquisas/</p>
+<p>└── downloads/</p>
+<h1 id="18-critério-de-sucesso">18. Critério de sucesso</h1>
+<p>O Observatório será arquiteturalmente bem-sucedido quando qualquer
+novo sindicato puder ser incorporado sem improvisação estrutural;
+qualquer dado comparativo puder ser rastreado até sua fonte; qualquer
+documento canônico puder ser reconstruído a partir de evidências; e
+análises históricas nacionais puderem ser executadas sobre dados
+homogêneos sem apagar as particularidades de cada entidade.</p>
+<h1 id="19-decisões-que-permanecem-abertas">19. Decisões que permanecem
+abertas</h1>
+<ul>
+<li><p>Definição final dos campos e schemas de cada família
+JSONL.</p></li>
+<li><p>Convenção definitiva de fonte_id e demais
+identificadores.</p></li>
+<li><p>Política de versionamento dos dados e documentos
+canônicos.</p></li>
+<li><p>Linguagem/ferramenta final do gerador (shell, Python ou
+combinação).</p></li>
+<li><p>Quais arquivos serão publicados no site e quais permanecerão
+apenas como infraestrutura de pesquisa.</p></li>
+<li><p>Primeiro conjunto de sindicatos do Top 20 após levantamento
+empírico.</p></li>
+<li><p>Procedimento de validação automática e geração dos datasets
+nacionais.</p></li>
+</ul>
+<p>Esses pontos não devem ser preenchidos por conveniência do agente.
+Devem ser propostos, discutidos, testados e aprovados.</p>
+<h1 id="20-mandato-final-ao-agente-de-ia">20. Mandato final ao agente de
+IA</h1>
+<p>Ao trabalhar neste projeto, trate o Observatório como infraestrutura
+de pesquisa histórica, jurídica, sindical e computacional de longo
+prazo. Preserve a distinção entre evidência, dado e interpretação;
+prefira estruturas comparáveis e auditáveis; não sacrifique memória
+histórica por conveniência técnica; não faça mudanças silenciosas de
+arquitetura; e mantenha cada decisão suficientemente documentada para
+que outro agente, pesquisador ou desenvolvedor possa continuar o
+trabalho sem depender da memória da conversa que o originou.</p>
+<footer class="canonical-footer">Documento canônico 2.0 • Fonte textual oficial: <a href="Observatorio_Movimento_Sindical_Bancario_Diretriz_Canonica_Arquitetura_Codex.md">Markdown</a> • Publicação derivada em HTML.</footer><!-- Cloudflare Web Analytics --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"b52dc49a42864dd8b7e11ae04f41e937"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

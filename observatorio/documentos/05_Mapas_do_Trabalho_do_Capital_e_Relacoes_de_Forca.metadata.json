@@ -1,0 +1,83 @@
+{
+  "documento_id": "ocm-05-mapas-trabalho-capital-relacoes-forca",
+  "titulo": "Documento Canônico do Programa Integrado de Pesquisa",
+  "projeto": "Classe e Massas / Observatório Classe e Massas",
+  "escopo": "Mapas do Trabalho, do Capital e das Relações de Força",
+  "colecao": "Documentos Canônicos do Observatório Classe e Massas",
+  "ordem_colecao": 5,
+  "versao": "1.0",
+  "data": "2026-09-11",
+  "status": "aprovado",
+  "fonte_canonica": "05_Mapas_do_Trabalho_do_Capital_e_Relacoes_de_Forca.md",
+  "publicacao_derivada": "05_Mapas_do_Trabalho_do_Capital_e_Relacoes_de_Forca.html",
+  "metadados": "05_Mapas_do_Trabalho_do_Capital_e_Relacoes_de_Forca.metadata.json",
+  "fonte_legada": {
+    "arquivo": "05_Mapas_do_Trabalho_do_Capital_e_Relacoes_de_Forca.docx",
+    "formato": "docx",
+    "situacao": "preservado como legado; não utilizar como fonte de atualização"
+  },
+  "diretriz_de_formatos": "ocm-diretriz-arquitetura-documental",
+  "secoes": [
+    {
+      "nivel": 1,
+      "titulo": "CLASSE E MASSAS"
+    },
+    {
+      "nivel": 2,
+      "titulo": "MAPAS DO TRABALHO, DO CAPITAL E DAS RELAÇÕES DE FORÇA"
+    },
+    {
+      "nivel": 3,
+      "titulo": "Documento Canônico do Programa Integrado de Pesquisa"
+    },
+    {
+      "nivel": 1,
+      "titulo": "1. Função canônica"
+    },
+    {
+      "nivel": 1,
+      "titulo": "2. Mapa do Trabalho"
+    },
+    {
+      "nivel": 1,
+      "titulo": "3. Mapa do Capital"
+    },
+    {
+      "nivel": 1,
+      "titulo": "4. Relações de força"
+    },
+    {
+      "nivel": 1,
+      "titulo": "5. Matriz relacional"
+    },
+    {
+      "nivel": 1,
+      "titulo": "6. Escalas"
+    },
+    {
+      "nivel": 1,
+      "titulo": "7. Perguntas estratégicas"
+    },
+    {
+      "nivel": 1,
+      "titulo": "8. Cautelas metodológicas"
+    },
+    {
+      "nivel": 1,
+      "titulo": "9. Produtos"
+    }
+  ],
+  "migracao": {
+    "data": "2026-09-12",
+    "origem": "docx",
+    "destinos": [
+      "md",
+      "html",
+      "json"
+    ],
+    "equivalencia_substantiva_verificada": true,
+    "alteracao_de_conteudo": false,
+    "observacao": "Normalização restrita à hierarquia dos títulos e à geração dos formatos derivados."
+  },
+  "repositorio": "https://github.com/thiagoba2004/classe-e-massas"
+}

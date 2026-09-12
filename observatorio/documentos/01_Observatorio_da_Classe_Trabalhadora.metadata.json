@@ -1,0 +1,79 @@
+{
+  "documento_id": "ocm-01-classe-trabalhadora",
+  "titulo": "Documento Canônico de Objeto, Perguntas e Programa de Pesquisa",
+  "projeto": "Classe e Massas / Observatório Classe e Massas",
+  "escopo": "Observatório da Classe Trabalhadora",
+  "colecao": "Documentos Canônicos do Observatório Classe e Massas",
+  "ordem_colecao": 1,
+  "versao": "1.0",
+  "data": "2026-09-11",
+  "status": "aprovado",
+  "fonte_canonica": "01_Observatorio_da_Classe_Trabalhadora.md",
+  "publicacao_derivada": "01_Observatorio_da_Classe_Trabalhadora.html",
+  "metadados": "01_Observatorio_da_Classe_Trabalhadora.metadata.json",
+  "fonte_legada": {
+    "arquivo": "01_Observatorio_da_Classe_Trabalhadora.docx",
+    "formato": "docx",
+    "situacao": "preservado como legado; não utilizar como fonte de atualização"
+  },
+  "diretriz_de_formatos": "ocm-diretriz-arquitetura-documental",
+  "secoes": [
+    {
+      "nivel": 1,
+      "titulo": "CLASSE E MASSAS"
+    },
+    {
+      "nivel": 2,
+      "titulo": "OBSERVATÓRIO DA CLASSE TRABALHADORA"
+    },
+    {
+      "nivel": 3,
+      "titulo": "Documento Canônico de Objeto, Perguntas e Programa de Pesquisa"
+    },
+    {
+      "nivel": 1,
+      "titulo": "1. Função canônica"
+    },
+    {
+      "nivel": 1,
+      "titulo": "2. Objeto"
+    },
+    {
+      "nivel": 1,
+      "titulo": "3. Eixos permanentes"
+    },
+    {
+      "nivel": 1,
+      "titulo": "4. Perguntas estruturantes"
+    },
+    {
+      "nivel": 1,
+      "titulo": "5. Unidades de observação"
+    },
+    {
+      "nivel": 1,
+      "titulo": "6. Produtos"
+    },
+    {
+      "nivel": 1,
+      "titulo": "7. Fontes e método"
+    },
+    {
+      "nivel": 1,
+      "titulo": "8. Critério de sucesso"
+    }
+  ],
+  "migracao": {
+    "data": "2026-09-12",
+    "origem": "docx",
+    "destinos": [
+      "md",
+      "html",
+      "json"
+    ],
+    "equivalencia_substantiva_verificada": true,
+    "alteracao_de_conteudo": false,
+    "observacao": "Normalização restrita à hierarquia dos títulos e à geração dos formatos derivados."
+  },
+  "repositorio": "https://github.com/thiagoba2004/classe-e-massas"
+}

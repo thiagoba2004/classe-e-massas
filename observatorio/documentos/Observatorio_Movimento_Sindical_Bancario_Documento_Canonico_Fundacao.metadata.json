@@ -1,0 +1,107 @@
+{
+  "documento_id": "omsb-documento-canonico-fundacao",
+  "titulo": "Documento Canônico de Fundação, Objeto, Método e Programa de Pesquisa",
+  "projeto": "Classe e Massas / Observatório Classe e Massas",
+  "escopo": "Observatório do Movimento Sindical Bancário",
+  "colecao": "Documentos Canônicos do Observatório Classe e Massas",
+  "ordem_colecao": null,
+  "versao": "1.0",
+  "data": "2026-09-07",
+  "status": "aprovado",
+  "fonte_canonica": "Observatorio_Movimento_Sindical_Bancario_Documento_Canonico_Fundacao.md",
+  "publicacao_derivada": "Observatorio_Movimento_Sindical_Bancario_Documento_Canonico_Fundacao.html",
+  "metadados": "Observatorio_Movimento_Sindical_Bancario_Documento_Canonico_Fundacao.metadata.json",
+  "fonte_legada": {
+    "arquivo": "Observatorio_Movimento_Sindical_Bancario_Documento_Canonico_Fundacao.docx",
+    "formato": "docx",
+    "situacao": "preservado como legado; não utilizar como fonte de atualização"
+  },
+  "diretriz_de_formatos": "ocm-diretriz-arquitetura-documental",
+  "secoes": [
+    {
+      "nivel": 1,
+      "titulo": "OBSERVATÓRIO DO MOVIMENTO SINDICAL BANCÁRIO"
+    },
+    {
+      "nivel": 2,
+      "titulo": "Documento Canônico de Fundação, Objeto, Método e Programa de Pesquisa"
+    },
+    {
+      "nivel": 1,
+      "titulo": "1. Natureza e finalidade"
+    },
+    {
+      "nivel": 1,
+      "titulo": "2. Pergunta estratégica central"
+    },
+    {
+      "nivel": 1,
+      "titulo": "3. Hipóteses de concentração — não confundir com resultados"
+    },
+    {
+      "nivel": 1,
+      "titulo": "4. Três grandezas que jamais devem ser confundidas"
+    },
+    {
+      "nivel": 1,
+      "titulo": "5. Mapa do Poder Sindical Bancário"
+    },
+    {
+      "nivel": 1,
+      "titulo": "6. Dossiê permanente de cada sindicato"
+    },
+    {
+      "nivel": 1,
+      "titulo": "7. Mapa da Representação Política e do Poder Deliberativo"
+    },
+    {
+      "nivel": 1,
+      "titulo": "8. Direito Sindical como método de investigação"
+    },
+    {
+      "nivel": 1,
+      "titulo": "9. Fiscalização estatutária e auditoria documental"
+    },
+    {
+      "nivel": 1,
+      "titulo": "10. Publicações sindicais como fontes primárias e históricas"
+    },
+    {
+      "nivel": 1,
+      "titulo": "11. Hierarquia e tratamento das fontes"
+    },
+    {
+      "nivel": 1,
+      "titulo": "12. Caso-piloto: São Paulo"
+    },
+    {
+      "nivel": 1,
+      "titulo": "13. Produto editorial e produto de pesquisa"
+    },
+    {
+      "nivel": 1,
+      "titulo": "14. Programa inicial de trabalho"
+    },
+    {
+      "nivel": 1,
+      "titulo": "15. Princípios permanentes"
+    },
+    {
+      "nivel": 1,
+      "titulo": "16. Regra de preservação do projeto"
+    }
+  ],
+  "migracao": {
+    "data": "2026-09-12",
+    "origem": "docx",
+    "destinos": [
+      "md",
+      "html",
+      "json"
+    ],
+    "equivalencia_substantiva_verificada": true,
+    "alteracao_de_conteudo": false,
+    "observacao": "Normalização restrita à hierarquia dos títulos e à geração dos formatos derivados."
+  },
+  "repositorio": "https://github.com/thiagoba2004/classe-e-massas"
+}

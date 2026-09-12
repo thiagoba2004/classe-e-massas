@@ -1,0 +1,143 @@
+{
+  "documento_id": "omsb-diretriz-arquitetura-dados-codex",
+  "titulo": "Diretriz Canônica de Arquitetura, Dados e Execução no Codex",
+  "projeto": "Classe e Massas / Observatório Classe e Massas",
+  "escopo": "Observatório do Movimento Sindical Bancário",
+  "colecao": "Documentos Canônicos do Observatório Classe e Massas",
+  "ordem_colecao": null,
+  "versao": "2.0",
+  "data": "2026-09-07",
+  "status": "aprovado",
+  "fonte_canonica": "Observatorio_Movimento_Sindical_Bancario_Diretriz_Canonica_Arquitetura_Codex.md",
+  "publicacao_derivada": "Observatorio_Movimento_Sindical_Bancario_Diretriz_Canonica_Arquitetura_Codex.html",
+  "metadados": "Observatorio_Movimento_Sindical_Bancario_Diretriz_Canonica_Arquitetura_Codex.metadata.json",
+  "fonte_legada": {
+    "arquivo": "Observatorio_Movimento_Sindical_Bancario_Diretriz_Canonica_Arquitetura_Codex.docx",
+    "formato": "docx",
+    "situacao": "preservado como legado; não utilizar como fonte de atualização"
+  },
+  "diretriz_de_formatos": "ocm-diretriz-arquitetura-documental",
+  "secoes": [
+    {
+      "nivel": 1,
+      "titulo": "OBSERVATÓRIO DO MOVIMENTO SINDICAL BANCÁRIO"
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diretriz Canônica de Arquitetura, Dados e Execução no Codex"
+    },
+    {
+      "nivel": 1,
+      "titulo": "1. Função deste documento"
+    },
+    {
+      "nivel": 1,
+      "titulo": "2. Decisão de ambiente: Notebook + Codex"
+    },
+    {
+      "nivel": 1,
+      "titulo": "3. Princípio arquitetural central: três camadas"
+    },
+    {
+      "nivel": 2,
+      "titulo": "3.1 Fontes documentais"
+    },
+    {
+      "nivel": 2,
+      "titulo": "3.2 Dados estruturados"
+    },
+    {
+      "nivel": 2,
+      "titulo": "3.3 Documentos canônicos e publicação"
+    },
+    {
+      "nivel": 1,
+      "titulo": "4. Regra de formatos"
+    },
+    {
+      "nivel": 1,
+      "titulo": "5. Unidade fundamental: dossiê sindical padronizado"
+    },
+    {
+      "nivel": 1,
+      "titulo": "6. Documentos canônicos específicos de cada sindicato"
+    },
+    {
+      "nivel": 1,
+      "titulo": "7. JSON Lines como espinha dorsal analítica"
+    },
+    {
+      "nivel": 1,
+      "titulo": "8. Pasta nacional de esquemas e dados consolidados"
+    },
+    {
+      "nivel": 1,
+      "titulo": "9. Gerador canônico de sindicatos"
+    },
+    {
+      "nivel": 1,
+      "titulo": "10. Análise intra-sindical e inter-sindical"
+    },
+    {
+      "nivel": 2,
+      "titulo": "10.1 Intra-sindical"
+    },
+    {
+      "nivel": 2,
+      "titulo": "10.2 Inter-sindical"
+    },
+    {
+      "nivel": 1,
+      "titulo": "11. Regras epistemológicas obrigatórias"
+    },
+    {
+      "nivel": 1,
+      "titulo": "12. Direito Sindical como método de investigação"
+    },
+    {
+      "nivel": 1,
+      "titulo": "13. Mapas nacionais e hipóteses de concentração"
+    },
+    {
+      "nivel": 1,
+      "titulo": "14. Governança para o Codex"
+    },
+    {
+      "nivel": 1,
+      "titulo": "15. Estado de transição Android → Notebook"
+    },
+    {
+      "nivel": 1,
+      "titulo": "16. Fluxo de migração recomendado"
+    },
+    {
+      "nivel": 1,
+      "titulo": "17. Estrutura-alvo conceitual da raiz"
+    },
+    {
+      "nivel": 1,
+      "titulo": "18. Critério de sucesso"
+    },
+    {
+      "nivel": 1,
+      "titulo": "19. Decisões que permanecem abertas"
+    },
+    {
+      "nivel": 1,
+      "titulo": "20. Mandato final ao agente de IA"
+    }
+  ],
+  "migracao": {
+    "data": "2026-09-12",
+    "origem": "docx",
+    "destinos": [
+      "md",
+      "html",
+      "json"
+    ],
+    "equivalencia_substantiva_verificada": true,
+    "alteracao_de_conteudo": false,
+    "observacao": "Normalização restrita à hierarquia dos títulos e à geração dos formatos derivados."
+  },
+  "repositorio": "https://github.com/thiagoba2004/classe-e-massas"
+}

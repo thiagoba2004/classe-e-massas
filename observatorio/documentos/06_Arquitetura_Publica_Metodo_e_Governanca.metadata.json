@@ -1,0 +1,91 @@
+{
+  "documento_id": "ocm-06-arquitetura-publica-metodo-governanca",
+  "titulo": "Documento Canônico de Portais, Dados e Implantação",
+  "projeto": "Classe e Massas / Observatório Classe e Massas",
+  "escopo": "Arquitetura Pública, Método Comum e Governança",
+  "colecao": "Documentos Canônicos do Observatório Classe e Massas",
+  "ordem_colecao": 6,
+  "versao": "1.0",
+  "data": "2026-09-11",
+  "status": "aprovado",
+  "fonte_canonica": "06_Arquitetura_Publica_Metodo_e_Governanca.md",
+  "publicacao_derivada": "06_Arquitetura_Publica_Metodo_e_Governanca.html",
+  "metadados": "06_Arquitetura_Publica_Metodo_e_Governanca.metadata.json",
+  "fonte_legada": {
+    "arquivo": "06_Arquitetura_Publica_Metodo_e_Governanca.docx",
+    "formato": "docx",
+    "situacao": "preservado como legado; não utilizar como fonte de atualização"
+  },
+  "diretriz_de_formatos": "ocm-diretriz-arquitetura-documental",
+  "secoes": [
+    {
+      "nivel": 1,
+      "titulo": "CLASSE E MASSAS"
+    },
+    {
+      "nivel": 2,
+      "titulo": "ARQUITETURA PÚBLICA, MÉTODO COMUM E GOVERNANÇA"
+    },
+    {
+      "nivel": 3,
+      "titulo": "Documento Canônico de Portais, Dados e Implantação"
+    },
+    {
+      "nivel": 1,
+      "titulo": "1. Função canônica"
+    },
+    {
+      "nivel": 1,
+      "titulo": "2. Quatro portas públicas"
+    },
+    {
+      "nivel": 1,
+      "titulo": "3. Três camadas internas"
+    },
+    {
+      "nivel": 1,
+      "titulo": "4. Entidades comuns de dados"
+    },
+    {
+      "nivel": 1,
+      "titulo": "5. Estados epistemológicos"
+    },
+    {
+      "nivel": 1,
+      "titulo": "6. Governança documental"
+    },
+    {
+      "nivel": 1,
+      "titulo": "7. Programa de implantação"
+    },
+    {
+      "nivel": 1,
+      "titulo": "8. Critério de prioridade"
+    },
+    {
+      "nivel": 1,
+      "titulo": "9. Mandato aos agentes e colaboradores"
+    },
+    {
+      "nivel": 1,
+      "titulo": "10. Decisões ainda abertas"
+    },
+    {
+      "nivel": 1,
+      "titulo": "11. Critério de sucesso"
+    }
+  ],
+  "migracao": {
+    "data": "2026-09-12",
+    "origem": "docx",
+    "destinos": [
+      "md",
+      "html",
+      "json"
+    ],
+    "equivalencia_substantiva_verificada": true,
+    "alteracao_de_conteudo": false,
+    "observacao": "Normalização restrita à hierarquia dos títulos e à geração dos formatos derivados."
+  },
+  "repositorio": "https://github.com/thiagoba2004/classe-e-massas"
+}
