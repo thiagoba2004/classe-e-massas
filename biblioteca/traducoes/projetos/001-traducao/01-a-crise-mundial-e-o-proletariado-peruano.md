@@ -6,7 +6,7 @@
 **Data documental:** 15 de junho de 1923  
 **Fonte principal identificada:** PE PEAJCM JCM-F-03-3-3.2-001-M — Archivo José Carlos Mariátegui  
 **Versão:** v0.1  
-**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCO 01 APROVADO
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–02 APROVADOS
 
 ---
 
@@ -18,9 +18,9 @@ Cabe a ela, por conseguinte, superando o modesto plano de seu trabalho inicial, 
 
 Dela surgirá, segundo todas as probabilidades e todas as previsões, a civilização proletária, a civilização socialista, destinada a suceder a declinante, decadente e moribunda civilização capitalista, individualista e burguesa. O proletariado precisa, agora como nunca, saber o que acontece no mundo.
 
-E não pode sabê-lo por meio das informações fragmentárias, episódicas, homeopáticas do telegrama cotidiano, mal traduzido e ainda pior redigido na maioria dos casos, e proveniente sempre de agências reacionárias encarregadas de desacreditar os partidos, as organizações e os homens da Revolução, e de desencorajar e desorientar o proletariado mundial. Na crise europeia estão em jogo os destinos de todos os trabalhadores do mundo.
+E não pode sabê-lo por meio das informações fragmentárias, episódicas, homeopáticas do noticiário telegráfico cotidiano, mal traduzidas e ainda pior redigidas na maioria dos casos, e provenientes sempre de agências reacionárias encarregadas de desacreditar os partidos, as organizações e os homens da Revolução, e de desencorajar e desorientar o proletariado mundial. Na crise europeia estão em jogo os destinos de todos os trabalhadores do mundo.
 
-O desenvolvimento da crise deve interessar, portanto, igualmente aos trabalhadores do Peru e aos trabalhadores do Extremo Oriente. A crise tem como principal cenário a Europa; mas a crise das instituições europeias é a crise das instituições da civilização ocidental.
+O desenvolvimento da crise deve interessar, portanto, igualmente aos trabalhadores do Peru e aos trabalhadores do Extremo Oriente. A crise tem como principal cenário a Europa; mas a crise das instituições europeias é a crise da civilização ocidental.
 
 E o Peru, como os demais povos da América, gira dentro da órbita dessa civilização, não apenas porque se trata de países politicamente independentes, mas economicamente coloniais, ligados ao carro do capitalismo britânico, do capitalismo americano ou do capitalismo francês, mas também porque europeia é a nossa cultura, europeu é o tipo das nossas instituições.
 
