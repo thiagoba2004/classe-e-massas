@@ -1,7 +1,7 @@
 {
   "projeto": "Classe e Massas",
   "colecao": "Biblioteca Revolucionária",
-  "versao": "1.0",
+  "versao": "1.1",
   "data": "2026-09-13",
   "status": "ranking editorial inicial e revisável",
   "criterios": [
@@ -11,14 +11,14 @@
     "centralidade para compreender o pensamento do autor",
     "permanência do escrito como referência"
   ],
-  "nota": "Os números expressam um ranking editorial do Classe e Massas e não uma classificação acadêmica universal. Não correspondem à ordem de inclusão no site.",
+  "nota": "Os números expressam um ranking editorial do Classe e Massas e não uma classificação acadêmica universal. Não correspondem à ordem de inclusão no site. Obras compostas por vários livros ou volumes podem ocupar uma única posição no ranking, preservando sua estrutura interna.",
   "teoricos": [
     {
       "ranking": 1,
       "nome": "Karl Marx",
       "resumo": "Fundador, com Engels, do materialismo histórico e da crítica científica do modo de produção capitalista. Sua obra redefiniu a compreensão moderna das classes, do capital, do Estado, da luta de classes e da emancipação proletária.",
       "top10": [
-        {"ranking":1,"titulo":"O Capital — Livro I","ano":"1867","tema":"Crítica da economia política","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1867/capital/livro1/index.htm"}]},
+        {"ranking":1,"titulo":"O Capital — Crítica da Economia Política","ano":"1867–1894","tema":"Crítica da economia política e análise do modo de produção capitalista","estrutura":["Livro I — O processo de produção do capital","Livro II — O processo de circulação do capital","Livro III — O processo global da produção capitalista"],"nota":"O Livro I foi publicado por Marx em vida. Os Livros II e III foram preparados e publicados por Friedrich Engels a partir dos manuscritos deixados por Marx.","links":[{"rotulo":"Índice geral em português","url":"https://www.marxists.org/portugues/marx/1867/capital/"},{"rotulo":"Livro I","url":"https://www.marxists.org/portugues/marx/1867/capital/livro1/index.htm"},{"rotulo":"Livro II","url":"https://www.marxists.org/portugues/marx/1867/capital/livro2/index.htm"},{"rotulo":"Livro III em inglês","url":"https://www.marxists.org/archive/marx/works/download/pdf/Capital-Volume-III.pdf"}]},
         {"ranking":2,"titulo":"Manifesto do Partido Comunista","ano":"1848","tema":"Programa comunista e luta de classes","coautoria":"Friedrich Engels","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1848/ManifestoDoPartidoComunista/index.htm"}]},
         {"ranking":3,"titulo":"A Ideologia Alemã — capítulo sobre Feuerbach","ano":"1845–1846","tema":"Concepção materialista da história","coautoria":"Friedrich Engels","links":[{"rotulo":"Capítulo em português","url":"https://www.marxists.org/portugues/marx/1845/ideologia-alema-oe/index.htm"}]},
         {"ranking":4,"titulo":"O 18 de Brumário de Louis Bonaparte","ano":"1852","tema":"Classes, Estado e luta política","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1852/brumario/index.htm"}]},
@@ -26,10 +26,12 @@
         {"ranking":6,"titulo":"Crítica do Programa de Gotha","ano":"1875","tema":"Programa, transição e comunismo","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1875/gotha/index.htm"}]},
         {"ranking":7,"titulo":"A Guerra Civil em França","ano":"1871","tema":"Comuna de Paris e poder proletário","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1871/guerra_civil/index.htm"}]},
         {"ranking":8,"titulo":"Teses sobre Feuerbach","ano":"1845","tema":"Materialismo, práxis e transformação","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1845/tesfeuer.htm"}]},
-        {"ranking":9,"titulo":"Salário, Preço e Lucro","ano":"1865","tema":"Salários, valor, mais-valia e luta econômica","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1865/salario/index.htm"}]},
-        {"ranking":10,"titulo":"Estatutos Gerais da Associação Internacional dos Trabalhadores","ano":"1864 / 1871","tema":"Organização internacional e autoemancipação","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1871/10/24.htm"}]}
+        {"ranking":9,"titulo":"Uma Contribuição para a Crítica da Economia Política","ano":"1859","tema":"Mercadoria, dinheiro, valor e método da economia política","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1859/contcriteconpoli/index.htm"}]},
+        {"ranking":10,"titulo":"Salário, Preço e Lucro","ano":"1865","tema":"Salários, valor, mais-valia e luta econômica","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1865/salario/index.htm"}]}
       ],
-      "outros_ranqueados": []
+      "outros_ranqueados": [
+        {"ranking":11,"titulo":"Estatutos Gerais da Associação Internacional dos Trabalhadores","ano":"1864 / 1871","tema":"Organização internacional e autoemancipação","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1871/10/24.htm"}]}
+      ]
     },
     {
       "ranking": 2,
