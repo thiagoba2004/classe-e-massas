@@ -1,0 +1,61 @@
+{
+  "versao": "1.0",
+  "data": "2026-09-13",
+  "nota": "Expansão do ranking editorial da Biblioteca Revolucionária. A inclusão de um autor mede importância histórica e teórica e não implica endosso integral de suas posições ou de sua atuação política.",
+  "teoricos": [
+    {
+      "ranking": 8,
+      "nome": "Josef Stálin",
+      "resumo": "Dirigente soviético e autor de textos de grande circulação no movimento comunista internacional sobre questão nacional, leninismo, estratégia, materialismo, economia socialista e linguagem. Sua inclusão decorre de sua enorme influência histórica e teórica no século XX e não constitui endosso das políticas de seu governo.",
+      "top10": [
+        {"ranking":1,"titulo":"Sobre os Fundamentos do Leninismo","ano":"1924","tema":"Leninismo, revolução, partido, questão camponesa e questão nacional","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/stalin/1924/leninismo/index.htm"}]},
+        {"ranking":2,"titulo":"O Marxismo e o Problema Nacional","ano":"1913","tema":"Nação, nacionalidades e internacionalismo","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/stalin/1913/01/01.htm"}]},
+        {"ranking":3,"titulo":"Em Torno dos Problemas do Leninismo","ano":"1926","tema":"Leninismo, ditadura do proletariado e construção socialista","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/stalin/1926/problemas/index.htm"}]},
+        {"ranking":4,"titulo":"A Revolução de Outubro e a Tática dos Comunistas Russos","ano":"1924","tema":"Estratégia, tática e Revolução de Outubro","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/stalin/1924/tatica/index.htm"}]},
+        {"ranking":5,"titulo":"Problemas Econômicos do Socialismo na URSS","ano":"1952","tema":"Economia política e construção socialista","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/stalin/1952/problemas/index.htm"}]},
+        {"ranking":6,"titulo":"Sobre o Materialismo Dialético e o Materialismo Histórico","ano":"1938","tema":"Materialismo, dialética e concepção da história","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/stalin/1938/09/mat-dia-hist.htm"}]},
+        {"ranking":7,"titulo":"Anarquismo ou Socialismo?","ano":"1906–1907","tema":"Marxismo, anarquismo e dialética","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/stalin/1907/anarquismo/index.htm"}]},
+        {"ranking":8,"titulo":"Trotskismo ou Leninismo?","ano":"1924","tema":"Debate sobre partido, Outubro e legado de Lenin","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/stalin/1924/troskismo/index.htm"}]},
+        {"ranking":9,"titulo":"Sobre o Marxismo na Linguística","ano":"1950","tema":"Linguagem, sociedade e marxismo","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/stalin/1950/06/20.htm"}]},
+        {"ranking":10,"titulo":"Algumas Palavras Sobre as Divergências no Partido","ano":"1905","tema":"Consciência socialista, espontaneidade e organização","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/stalin/1905/05/partido.htm"}]}
+      ],
+      "outros_ranqueados": []
+    },
+    {
+      "ranking": 9,
+      "nome": "Frantz Fanon",
+      "resumo": "Psiquiatra, revolucionário anticolonial e teórico da descolonização. Sua obra articulou colonialismo, racismo, subjetividade, violência, cultura nacional, consciência política e libertação, exercendo influência duradoura na África, no Caribe, no movimento negro e no Sul Global.",
+      "top10": [
+        {"ranking":1,"titulo":"Os Condenados da Terra","ano":"1961","tema":"Colonialismo, violência, libertação nacional e pós-colonialismo","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/fanon/1961/condenados/index.htm"}]},
+        {"ranking":2,"titulo":"Pele Negra, Máscaras Brancas","ano":"1952","tema":"Racismo, alienação, subjetividade e colonialismo","links":[{"rotulo":"Referência editorial","url":"https://groveatlantic.com/book/black-skin-white-masks/"}]},
+        {"ranking":3,"titulo":"Um Colonialismo em Agonia","ano":"1959","tema":"Revolução Argelina, cultura e transformação social","links":[{"rotulo":"Referência editorial em inglês","url":"https://groveatlantic.com/book/a-dying-colonialism/"}]},
+        {"ranking":4,"titulo":"Em Defesa da Revolução Africana","ano":"1964, publicação póstuma","tema":"Anticolonialismo, unidade africana e revolução","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/fanon/1969/defesa/index.htm"}]},
+        {"ranking":5,"titulo":"Desventuras da Consciência Nacional","ano":"1961","tema":"Burguesia nacional, Estado pós-colonial e massas","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/fanon/1961/condenados/03.htm"}]},
+        {"ranking":6,"titulo":"Sobre a Cultura Nacional","ano":"1959–1961","tema":"Cultura, luta de libertação e consciência nacional","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/fanon/1961/condenados/04.htm"}]},
+        {"ranking":7,"titulo":"A Violência","ano":"1961","tema":"Descolonização, violência colonial e ruptura revolucionária","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/fanon/1961/condenados/01.htm"}]},
+        {"ranking":8,"titulo":"Racismo e Cultura","ano":"1956","tema":"Racismo, cultura e estrutura colonial","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/fanon/1969/defesa/03.htm"}]},
+        {"ranking":9,"titulo":"Carta ao Ministro Residente","ano":"1956","tema":"Psiquiatria, colonialismo e ruptura com a administração colonial","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/fanon/1969/defesa/05.htm"}]},
+        {"ranking":10,"titulo":"Esta África Futura","ano":"1960","tema":"Unidade africana, estratégia continental e libertação","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/fanon/1969/defesa/27.htm"}]}
+      ],
+      "outros_ranqueados": []
+    },
+    {
+      "ranking": 10,
+      "nome": "José Carlos Mariátegui",
+      "resumo": "Marxista peruano cuja obra formulou uma interpretação original da realidade latino-americana, articulando classe, questão indígena, terra, imperialismo, cultura e organização revolucionária. É uma referência central do marxismo produzido na América Latina.",
+      "top10": [
+        {"ranking":1,"titulo":"Sete Ensaios de Interpretação da Realidade Peruana","ano":"1928","tema":"Economia, questão indígena, terra, educação, religião e cultura no Peru","links":[{"rotulo":"Versão integral em espanhol","url":"https://www.marxists.org/espanol/mariateg/1928/7ensayos/"}]},
+        {"ranking":2,"titulo":"Defesa do Marxismo","ano":"1928–1929","tema":"Marxismo, revisionismo, ética e filosofia revolucionária","links":[{"rotulo":"Versão integral em espanhol","url":"https://www.marxists.org/espanol/mariateg/oc/defensa_del_marxismo/index.htm"}]},
+        {"ranking":3,"titulo":"A Cena Contemporânea","ano":"1925","tema":"Fascismo, democracia, revolução e crise mundial","links":[{"rotulo":"Versão integral em espanhol","url":"https://www.marxists.org/espanol/mariateg/1925/escena/00.htm"}]},
+        {"ranking":4,"titulo":"Aniversário e Balanço","ano":"1928","tema":"Socialismo indo-americano e criação revolucionária","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/mariategui/1928/09/aniversario.htm"}]},
+        {"ranking":5,"titulo":"Ponto de Vista Anti-Imperialista","ano":"1929","tema":"Imperialismo, burguesia nacional e estratégia latino-americana","links":[{"rotulo":"Versão em espanhol","url":"https://www.marxists.org/espanol/mariateg/oc/ideologia_y_politica/paginas/punto%20de%20vista.htm"}]},
+        {"ranking":6,"titulo":"O Problema das Raças na América Latina","ano":"1929","tema":"Raça, classe, questão indígena e imperialismo","links":[{"rotulo":"Extratos em português","url":"https://www.marxists.org/portugues/mariategui/1929/06/40.htm"}]},
+        {"ranking":7,"titulo":"Programa do Partido Socialista Peruano","ano":"1928","tema":"Programa, organização e revolução socialista no Peru","links":[{"rotulo":"Versão em espanhol","url":"https://www.marxists.org/espanol/mariateg/1928/oct/07a.htm"}]},
+        {"ranking":8,"titulo":"História da Crise Mundial","ano":"1923–1924","tema":"Guerra, revoluções, Internacional e crise mundial","links":[{"rotulo":"Versão integral em espanhol","url":"https://www.marxists.org/espanol/mariateg/oc/historia_de_la_crisis_mundial/index.htm"}]},
+        {"ranking":9,"titulo":"O Homem e o Mito","ano":"1925","tema":"Mito, consciência revolucionária e crise burguesa","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/mariategui/1925/01/16.htm"}]},
+        {"ranking":10,"titulo":"O 1º de Maio e a Frente Única","ano":"1924","tema":"Unidade de classe, frente única e independência ideológica","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/mariategui/1924/05/01.htm"}]}
+      ],
+      "outros_ranqueados": []
+    }
+  ]
+}
