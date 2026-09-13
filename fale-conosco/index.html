@@ -236,6 +236,7 @@
 
       const registro = data && data.hashId ? data.hashId : '';
       let emailStatus = retorno ? 'falhou' : 'nao-informado';
+      let emailErrorDetail = '';
 
       if (retorno) {
         try {
@@ -251,11 +252,17 @@
           emailStatus = 'enviado';
         } catch (emailError) {
           console.error('Falha ao enviar confirmação por e-mail:', emailError);
+          const status = emailError && emailError.status ? String(emailError.status) : '';
+          const text = emailError && (emailError.text || emailError.message)
+            ? String(emailError.text || emailError.message)
+            : String(emailError || 'Erro desconhecido');
+          emailErrorDetail = [status, text].filter(Boolean).join(' — ');
         }
       }
 
       const params = new URLSearchParams({ protocolo: protocol, email: emailStatus });
       if (registro) params.set('registro', registro);
+      if (emailErrorDetail) params.set('email_erro', emailErrorDetail.slice(0, 300));
       window.location.href = 'recebido.html?' + params.toString();
     } catch (error) {
       formStatus.textContent = 'Não foi possível concluir o envio: ' + (error.message || 'tente novamente em instantes.');
