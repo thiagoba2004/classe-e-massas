@@ -79,6 +79,7 @@
     <div class="kicker">FORMULÁRIO DE CONTATO</div>
     <h2 id="form-title">Envie diretamente pelo site</h2>
     <p>Não é necessário possuir ou informar um endereço de e-mail para enviar a mensagem. A submissão é registrada pelo canal técnico do Classe e Massas e, após o recebimento confirmado, o site apresenta um <strong>número de protocolo</strong>.</p>
+    <p>Se você informar um e-mail para retorno, o Classe e Massas também tentará enviar automaticamente uma cópia do protocolo para esse endereço depois que a submissão for confirmada.</p>
     <p>O formulário utiliza a infraestrutura Forminit para processar as submissões e arquivos. O visitante permanece no fluxo do Classe e Massas, sem CAPTCHA visível.</p>
 
     <form id="contactForm" enctype="multipart/form-data">
@@ -155,9 +156,16 @@
 <footer>Classe e Massas • Fale Conosco • 2026</footer>
 <script src="../js/main.js"></script>
 <script src="https://forminit.com/sdk/v1/forminit.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
   const FORM_ID = 'k7fc10l9t10';
+  const EMAILJS_SERVICE_ID = 'service_r77ikal';
+  const EMAILJS_TEMPLATE_ID = 'template_exlbsde';
+  const EMAILJS_PUBLIC_KEY = 'viFYeGWTKevz1ela6';
+
   const forminit = new Forminit();
+  emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
+
   const form = document.getElementById('contactForm');
   const submitButton = document.getElementById('submitButton');
   const formStatus = document.getElementById('formStatus');
@@ -227,8 +235,28 @@
       }
 
       const registro = data && data.hashId ? data.hashId : '';
-      const destino = 'recebido.html?protocolo=' + encodeURIComponent(protocol) + (registro ? '&registro=' + encodeURIComponent(registro) : '');
-      window.location.href = destino;
+      let emailStatus = retorno ? 'falhou' : 'nao-informado';
+
+      if (retorno) {
+        try {
+          await emailjs.send(
+            EMAILJS_SERVICE_ID,
+            EMAILJS_TEMPLATE_ID,
+            {
+              to_email: retorno,
+              protocolo: protocol,
+              registro: registro || 'Não informado'
+            }
+          );
+          emailStatus = 'enviado';
+        } catch (emailError) {
+          console.error('Falha ao enviar confirmação por e-mail:', emailError);
+        }
+      }
+
+      const params = new URLSearchParams({ protocolo: protocol, email: emailStatus });
+      if (registro) params.set('registro', registro);
+      window.location.href = 'recebido.html?' + params.toString();
     } catch (error) {
       formStatus.textContent = 'Não foi possível concluir o envio: ' + (error.message || 'tente novamente em instantes.');
       formStatus.className = 'form-status error';
