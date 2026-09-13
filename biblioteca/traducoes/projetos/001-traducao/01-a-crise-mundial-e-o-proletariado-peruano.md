@@ -6,7 +6,7 @@
 **Data documental:** 15 de junho de 1923  
 **Fonte principal identificada:** PE PEAJCM JCM-F-03-3-3.2-001-M — Archivo José Carlos Mariátegui  
 **Versão:** v0.1  
-**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–10 APROVADOS
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–11 APROVADOS
 
 ---
 
@@ -106,9 +106,9 @@ Ora, os ideólogos da Revolução Social — Marx e Bakunin, Engels e Kropotkin 
 
 A ruína econômica da burguesia iria ser ao mesmo tempo a ruína da civilização burguesa. E o socialismo iria encontrar-se na necessidade de governar não numa época de plenitude, riqueza e pletora, mas numa época de pobreza, miséria e escassez.
 
-Os socialistas reformistas, acostumados à ideia de que o regime socialista, mais que um regime de produção, é um regime de distribuição, creem ver nisso o sintoma de que a missão histórica da burguesia não está esgotada e de que o instante ainda não amadureceu para a realização socialista. Numa entrevista a *La Crónica*, eu recordava aquela frase segundo a qual a tragédia da Europa é esta: o capitalismo não pode mais e o socialismo ainda não pode.
+Os socialistas reformistas, acostumados à ideia de que o regime socialista, mais que um regime de produção, é um regime de distribuição, creem ver nisso o sintoma de que a missão histórica da burguesia não está esgotada e de que o instante ainda não está maduro para a realização socialista. Numa entrevista a *La Crónica*, eu recordava aquelas palavras segundo as quais a tragédia da Europa é esta: o capitalismo não pode mais e o socialismo ainda não pode.
 
-Essa frase, que dá efetivamente a sensação da tragédia europeia, é a frase de um reformista; é uma frase saturada de mentalidade evolucionista e impregnada da concepção de uma passagem lenta, gradual e beatífica, sem convulsões nem sacudidas, da sociedade individualista à sociedade coletivista. E a história nos ensina que todo novo estado social se formou sobre as ruínas do estado social precedente.
+Essa frase, que dá efetivamente a sensação da tragédia europeia, é a frase de um reformista; é uma frase saturada de mentalidade evolucionista e impregnada da concepção de uma passagem lenta, gradual e beatífica, sem convulsões nem sacudidas, da sociedade individualista à sociedade coletiva. E a história nos ensina que todo novo estado social se formou sobre as ruínas do estado social precedente.
 
 E que entre o surgimento de um e o desmoronamento do outro houve, logicamente, um período intermediário de crise. Presenciamos a desagregação, a agonia de uma sociedade caduca, senil, decrépita; e, ao mesmo tempo, presenciamos a gestação, a formação, a elaboração lenta e inquieta da sociedade nova.
 
