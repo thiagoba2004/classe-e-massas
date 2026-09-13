@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mensagem recebida | Classe e Massas</title>
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .receipt-main{max-width:760px;text-align:center}
+    .receipt-box{margin:30px 0;padding:28px 22px;border:3px solid #111;background:#fffdf8}
+    .receipt-label{font:800 .76rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.1em}
+    .receipt-code{display:block;margin:10px 0 18px;font:900 clamp(1.2rem,4vw,2rem) Arial,sans-serif;letter-spacing:.04em;word-break:break-word}
+    .receipt-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:20px}
+    .receipt-note{text-align:left;border-left:5px solid #111;padding:16px 18px;background:rgba(127,127,127,.08);margin-top:30px}
+  </style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <div class="brand"><a href="../index.html">Classe e Massas</a></div>
+    <nav class="nav" aria-label="Navegação principal"></nav>
+  </div>
+</header>
+
+<main class="receipt-main">
+  <div class="kicker">FALE CONOSCO • CONFIRMAÇÃO</div>
+  <h1>Mensagem encaminhada</h1>
+  <p class="dek">O formulário concluiu o envio ao canal de encaminhamento do Classe e Massas.</p>
+
+  <section class="receipt-box" aria-labelledby="protocol-title">
+    <div id="protocol-title" class="receipt-label">Seu número de protocolo</div>
+    <strong id="protocol" class="receipt-code">Carregando protocolo…</strong>
+    <p>Guarde este número. Ele identifica esta comunicação e também segue junto com a mensagem encaminhada ao e-mail institucional.</p>
+    <div class="receipt-actions">
+      <button id="copyProtocol" class="button" type="button">Copiar protocolo</button>
+      <a class="button secondary" href="index.html">Nova mensagem</a>
+    </div>
+  </section>
+
+  <aside class="receipt-note">
+    <strong>Importante.</strong> O protocolo é uma referência técnica para identificar sua comunicação. Ele não significa que o conteúdo já foi apurado, validado ou publicado. Denúncias, documentos e relatos serão analisados de acordo com a linha editorial e os critérios de verificação do Classe e Massas.
+  </aside>
+</main>
+
+<footer>Classe e Massas • Fale Conosco • 2026</footer>
+<script src="../js/main.js"></script>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const protocol = params.get('protocolo') || 'Protocolo não informado';
+  const protocolEl = document.getElementById('protocol');
+  protocolEl.textContent = protocol;
+  document.getElementById('copyProtocol').addEventListener('click', async function () {
+    try {
+      await navigator.clipboard.writeText(protocol);
+      this.textContent = 'Protocolo copiado';
+    } catch (error) {
+      this.textContent = protocol;
+    }
+  });
+</script>
+</body>
+</html>
