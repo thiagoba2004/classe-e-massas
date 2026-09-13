@@ -24,19 +24,24 @@
       "content_status": "RASCUNHO INTEGRAL v0.1",
       "translation_status": "TRADUÇÃO INTEGRAL DE TRABALHO CONCLUÍDA",
       "persistence_status": "PERSISTIDO E VERSIONADO NO GITHUB",
-      "review_status": "REVISÃO HUMANA INTEGRAL PENDENTE",
+      "review_status": "EM REVISÃO HUMANA INTEGRAL — CONFERÊNCIA 01, BLOCOS 01–02 APROVADOS",
       "canonical_manifest": "biblioteca/traducoes/projetos/001-traducao.md",
       "canonical_metadata": "biblioteca/traducoes/projetos/001-historia-da-crise-mundial.json",
+      "review_register": "biblioteca/traducoes/projetos/001-revisao-humana.md",
       "corpus_directory": "biblioteca/traducoes/projetos/001-traducao/",
       "units_expected": 17,
       "units_persisted": 17,
-      "last_verified_milestone_commit": "a49f0e1cb487d3319893cef085c1f26acd08cd78",
-      "last_verified_milestone_message": "Publica status de rascunho integral do TCM-001",
-      "next_step": "REVISÃO HUMANA INTEGRAL",
+      "current_review_unit": 1,
+      "current_review_block": 3,
+      "approved_review_blocks_current_unit": 2,
+      "last_verified_milestone_commit": "da75392a2ad6858465abab6129dd68488a8d2c6a",
+      "last_verified_milestone_message": "TCM-001: registra aprovação humana do bloco 02 da Conferência 01",
+      "next_step": "CONFRONTO E DECISÃO HUMANA DO BLOCO 03 DA CONFERÊNCIA 01",
       "do_not_do": [
         "não reiniciar a tradução",
         "não rebaixar o projeto para ELEGÍVEL ou EM TRADUÇÃO",
-        "não apresentar v0.1 como edição humana revisada"
+        "não apresentar v0.1 como edição humana revisada",
+        "não considerar a Conferência 01 integralmente revisada antes de concluir todos os seus blocos"
       ]
     }
   ],
