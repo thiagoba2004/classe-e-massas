@@ -36,7 +36,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Conferências com revisão humana concluída: 1/17.
 - Unidade concluída: Conferência 01 — *A crise mundial e o proletariado peruano*.
 - Unidade em revisão: Conferência 02 — *Literatura de guerra*.
-- Blocos aprovados na unidade atual: 0.
+- Blocos aprovados na unidade atual: 1.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -286,9 +286,27 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 ## 5. Conferência 02 — *Literatura de guerra*
 
 **Arquivo canônico:** `001-traducao/02-literatura-de-guerra.md`  
-**Estado:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
+**Estado:** EM REVISÃO — BLOCO 01 APROVADO.
 
-### Bloco 01
+### Bloco 01 — abertura e causas econômicas
+
+**Intervalo:** do cabeçalho documental e de “Literatura de guerra. A imprensa, instrumento bélico...” até “...poderia ter evitado a catástrofe.”  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 13/09/2026.  
+**Fonte de confronto:** notas originais de Mariátegui para a segunda conferência, item arquivístico PE PEAJCM JCM-F-03-3-3.2-002-N — Archivo José Carlos Mariátegui.
+
+**Decisões humanas aprovadas:**
+
+1. `não sobreviveu versão integral da conferência` → `não foi encontrada versão integral da conferência`, evitando afirmar além do que a fonte arquivística permite;
+2. `Sua condição de instrumento capitalista` → `Seu caráter de instrumento capitalista`, preservando a ideia de `Su calidad de instrumento capitalista` sem o ruído semântico de “qualidade” em português;
+3. `A função das finanças internacionais` → `A função da finança internacional`, preservando o singular de `La función de la finanza internacional`.
+
+**Demais trechos do bloco:** mantidos sem alteração material.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `4a19d208f246cb6f4bf618ead876dc0801953a09`.
+
+### Bloco 02
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
