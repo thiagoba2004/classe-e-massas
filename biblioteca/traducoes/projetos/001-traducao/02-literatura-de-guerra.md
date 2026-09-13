@@ -6,7 +6,7 @@
 **Data:** 22 de junho de 1923  
 **Natureza documental:** NOTAS DO AUTOR — não foi encontrada versão integral da conferência  
 **Versão:** v0.1  
-**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCO 01 APROVADO
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–02 APROVADOS
 
 ---
 
@@ -16,7 +16,7 @@ Literatura de guerra. A imprensa, instrumento bélico. Sua função tóxica. Seu
 
 Causas econômicas da guerra: o desenvolvimento do industrialismo britânico e o desenvolvimento do industrialismo alemão. A guerra econômica entre Inglaterra e Alemanha. A luta pelos mercados, pelas colônias. Efeitos do protecionismo na economia dos países europeus. A função da finança internacional. As rivalidades dos grupos capitalistas. Então, como agora, uma política de cooperação, de solidariedade econômica, poderia ter evitado a catástrofe.
 
-O fenômeno demográfico ocupa lugar importante nas origens da guerra. Palavras de Adriano Tilgher, página 106 de *A Crise Mundial*. Em um século, a população europeia passou de 180 para 450 milhões. O industrialismo, estímulo ao crescimento da população. Redução das três causas de despovoamento: peste, fome, guerra. A Alemanha, isolada, não podia alimentar 70 milhões de habitantes. A Itália não podia permanecer neutra.
+O fenômeno demográfico ocupa um lugar importante nas origens da guerra. Palavras de Adriano Tilgher: página 106 de *A Crise Mundial*. Em um século, a população europeia passou de 180 para 450 milhões. O industrialismo, estímulo ao crescimento da população. Redução das três causas de despovoamento: peste, fome, guerra. A Alemanha, incomunicada, não podia alimentar 70 milhões de habitantes. A Itália não podia permanecer neutra.
 
 Causas políticas: o processo das causas da guerra, segundo Bernard Shaw. A política e a posição tradicionais da Inglaterra, potência insular. O desenvolvimento do poder naval da Alemanha. Inglaterra, França e Bélgica chegam a um entendimento. A aliança franco-russa. Entendimento militar secreto anglo-francês. A violação da neutralidade belga tirou a Inglaterra de um embaraço. Mas há notícias e antecedentes que estabelecem a natureza do compromisso existente entre Inglaterra e França. Se a Inglaterra realmente tivesse querido evitar a guerra, diz Shaw, teria bastado anunciar que combateria ao lado da nação atacada.
 
