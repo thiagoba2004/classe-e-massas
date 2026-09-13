@@ -57,6 +57,7 @@
   const protocol = params.get('protocolo') || 'Protocolo não informado';
   const registro = params.get('registro') || '';
   const emailStatus = params.get('email') || 'nao-informado';
+  const emailError = params.get('email_erro') || '';
   const protocolEl = document.getElementById('protocol');
   const emailBox = document.getElementById('emailBox');
   protocolEl.textContent = protocol;
@@ -70,6 +71,12 @@
     emailBox.innerHTML = '<strong>Confirmação por e-mail enviada.</strong> Uma cópia deste protocolo foi enviada para o endereço informado no formulário.';
   } else if (emailStatus === 'falhou') {
     emailBox.innerHTML = '<strong>A mensagem foi recebida, mas a confirmação por e-mail não pôde ser enviada.</strong> Guarde o protocolo exibido nesta página. Ele continua válido para identificar sua comunicação.';
+    if (emailError) {
+      const diagnostic = document.createElement('div');
+      diagnostic.className = 'receipt-tech';
+      diagnostic.textContent = 'Diagnóstico técnico do envio de e-mail: ' + emailError;
+      emailBox.appendChild(diagnostic);
+    }
   } else {
     emailBox.innerHTML = '<strong>Nenhum e-mail de retorno foi informado.</strong> Guarde o protocolo exibido nesta página para identificar sua comunicação.';
   }
