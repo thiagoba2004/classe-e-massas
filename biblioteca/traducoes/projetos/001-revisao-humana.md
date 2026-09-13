@@ -36,7 +36,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Conferências com revisão humana concluída: 1/17.
 - Unidade concluída: Conferência 01 — *A crise mundial e o proletariado peruano*.
 - Unidade em revisão: Conferência 02 — *Literatura de guerra*.
-- Blocos aprovados na unidade atual: 2.
+- Blocos aprovados na unidade atual: 3.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -286,7 +286,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 ## 5. Conferência 02 — *Literatura de guerra*
 
 **Arquivo canônico:** `001-traducao/02-literatura-de-guerra.md`  
-**Estado:** EM REVISÃO — BLOCOS 01–02 APROVADOS.
+**Estado:** EM REVISÃO — BLOCOS 01–03 APROVADOS.
 
 ### Bloco 01 — abertura e causas econômicas
 
@@ -324,7 +324,25 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 
 **Commit que incorporou os ajustes no arquivo canônico:** `ef812d65b2d66d032483c97bf1095b183675e24c`.
 
-### Bloco 03
+### Bloco 03 — causas políticas e a posição britânica
+
+**Intervalo:** de “Causas políticas...” até “...a guerra resulta ser uma consequência da diplomacia francesa.”  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 13/09/2026.  
+**Fonte de confronto:** notas originais de Mariátegui para a segunda conferência, item arquivístico PE PEAJCM JCM-F-03-3-3.2-002-N — Archivo José Carlos Mariátegui.
+
+**Decisões humanas aprovadas:**
+
+1. `Inglaterra, França e Bélgica chegam a um entendimento` → `Inglaterra, França e Bélgica entendem-se`, preservando a concisão de `Inglaterra, Francia y Bélgica se entienden`;
+2. `natureza do compromisso` → `tipo de compromisso`, aproximando a tradução de `la clase de compromiso`;
+3. `Depois, desse ponto de vista, a guerra aparece como consequência da diplomacia francesa` → `Logo, desse ponto de vista, a guerra resulta ser uma consequência da diplomacia francesa`, preservando o valor conclusivo de `Luego` e a construção `resulta una consecuencia`.
+
+**Demais trechos do bloco:** mantidos sem alteração material, inclusive `Entendimento militar secreto anglo-francês` e `tirou a Inglaterra de um embaraço`.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `3bf1be50dc0ccca9197706492c52741078343f90`.
+
+### Bloco 04
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
