@@ -6,7 +6,7 @@
 **Data:** 22 de junho de 1923  
 **Natureza documental:** NOTAS DO AUTOR — não foi encontrada versão integral da conferência  
 **Versão:** v0.1  
-**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–04 APROVADOS
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–05 APROVADOS
 
 ---
 
@@ -24,7 +24,7 @@ A hipótese de um laço, de uma armadilha. Mais verossímil é a hipótese da im
 
 Outra causa: a paz armada. O equilíbrio das potências. Existia na Europa uma atmosfera inflamável. A causa diplomática: o assassinato do herdeiro da Áustria. A guerra poderia ter eclodido antes. Por ocasião da guerra russo-japonesa e do incidente de Agadir de 1912. Palavras de Viviani a Rapoport: página 33 do livro deste último.
 
-Contraste da organização capitalista. Ela necessita da solidariedade internacional como condição de vida e fomenta o nacionalismo em oposição à luta de classes. Como se precipita um povo à guerra. O romance *Clarté*. Guerra absoluta e guerra relativa. Guerra de nações e guerra de exércitos. O mito da guerra democrática. A direção da opinião na Inglaterra, na Itália, na Áustria e na Rússia; entretanto, não houve um ideal que solidarizasse o povo com a empresa militar de seus respectivos governos.
+Contraste da organização capitalista. Necessita da solidariedade internacional como condição de vida e fomenta o nacionalismo em oposição à luta de classes. Como se precipita um povo à guerra. O romance *Clarté*. Guerra absoluta e guerra relativa. Guerra de nações e guerra de exércitos. O mito da guerra democrática. A direção da opinião na Inglaterra, na Itália. Na Alemanha, Áustria e Rússia, entretanto, não houve um ideal que solidarizasse o povo com a empresa militar de seus respectivos governos.
 
 A conduta dos partidos socialistas e das organizações sindicalistas. A posição da Segunda Internacional. As declarações de Stuttgart e Basileia. A questão técnica dos meios de evitar a guerra foi deixada para o Congresso de Viena, que deveria reunir-se em 1914. Antes, sobreveio a guerra. A missão de Müller na França. A morte de Jaurès. O caso de Gustave Hervé. Acima da contenda. O manifesto dos 93 intelectuais alemães.
 
