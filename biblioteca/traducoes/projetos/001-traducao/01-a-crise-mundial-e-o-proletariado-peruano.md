@@ -6,7 +6,7 @@
 **Data documental:** 15 de junho de 1923  
 **Fonte principal identificada:** PE PEAJCM JCM-F-03-3-3.2-001-M — Archivo José Carlos Mariátegui  
 **Versão:** v0.1  
-**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–09 APROVADOS
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–10 APROVADOS
 
 ---
 
@@ -98,13 +98,13 @@ Temerosa da revolução, a reação cancela, por isso, não apenas as conquistas
 
 Por outro lado, na ordem das relações internacionais, a reação coloca a política externa nas mãos das minorias nacionalistas e antidemocráticas. E essas minorias nacionalistas saturam de chauvinismo essa política externa. E impedem, com suas orientações imperialistas, com sua luta pela hegemonia europeia, o restabelecimento de uma atmosfera de solidariedade europeia que permita aos Estados entender-se acerca de um programa de cooperação e de trabalho.
 
-A obra desse nacionalismo, desse reacionarismo, temos à vista na ocupação do Ruhr. A crise mundial é, portanto, crise econômica e crise política. E é, além disso, sobretudo, crise ideológica. As filosofias afirmativas, positivistas, da sociedade burguesa estão, há muito tempo, minadas por uma corrente de ceticismo e relativismo. O racionalismo, o historicismo, o positivismo declinam irremediavelmente.
+A obra desse nacionalismo, desse reacionarismo, temos à vista na ocupação do Ruhr. A crise mundial é, portanto, crise econômica e crise política. E é, além disso, sobretudo, crise ideológica. As filosofias afirmativas, positivistas, da sociedade burguesa estão, há muito tempo, minadas por uma corrente de ceticismo, de relativismo. O racionalismo, o historicismo, o positivismo declinam irremediavelmente.
 
 Esse é, indubitavelmente, o aspecto mais profundo, o sintoma mais grave da crise. Esse é o indício mais definido e profundo de que não está em crise apenas a economia da sociedade burguesa, mas de que está em crise integralmente a civilização capitalista, a civilização ocidental, a civilização europeia.
 
-Ora, os ideólogos da Revolução Social — Marx e Bakunin, Engels e Kropotkin — viveram na época do apogeu da civilização capitalista e da filosofia historicista e positivista. Por conseguinte, não puderam prever que a ascensão do proletariado teria de produzir-se em virtude da decadência da civilização ocidental. Ao proletariado estava destinado criar um novo tipo de civilização e cultura.
+Ora, os ideólogos da Revolução Social — Marx e Bakunin, Engels e Kropotkin — viveram na época do apogeu da civilização capitalista e da filosofia historicista e positivista. Por conseguinte, não puderam prever que a ascensão do proletariado teria de produzir-se em virtude da decadência da civilização ocidental. O proletariado estava destinado a criar um tipo novo de civilização e cultura.
 
-A ruína econômica da burguesia seria ao mesmo tempo a ruína da civilização burguesa. E o socialismo se encontraria na necessidade de governar não numa época de plenitude, riqueza e abundância, mas numa época de pobreza, miséria e escassez.
+A ruína econômica da burguesia iria ser ao mesmo tempo a ruína da civilização burguesa. E o socialismo iria encontrar-se na necessidade de governar não numa época de plenitude, riqueza e pletora, mas numa época de pobreza, miséria e escassez.
 
 Os socialistas reformistas, acostumados à ideia de que o regime socialista, mais que um regime de produção, é um regime de distribuição, creem ver nisso o sintoma de que a missão histórica da burguesia não está esgotada e de que o instante ainda não amadureceu para a realização socialista. Numa entrevista a *La Crónica*, eu recordava aquela frase segundo a qual a tragédia da Europa é esta: o capitalismo não pode mais e o socialismo ainda não pode.
 
