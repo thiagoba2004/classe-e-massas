@@ -6,7 +6,7 @@
 **Data documental:** 15 de junho de 1923  
 **Fonte principal identificada:** PE PEAJCM JCM-F-03-3-3.2-001-M — Archivo José Carlos Mariátegui  
 **Versão:** v0.1  
-**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–08 APROVADOS
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–09 APROVADOS
 
 ---
 
@@ -90,15 +90,15 @@ A burguesia, para reconstruir a Europa, precisa que o proletariado consinta em p
 
 As condições de uma colaboração da burguesia com o proletariado são, por sua natureza, tais que o colaboracionismo tem necessariamente de perder, pouco a pouco, seu atual e numeroso proselitismo. O capitalismo não pode fazer concessões ao socialismo.
 
-Os Estados europeus, para reconstruir-se, necessitam de um regime de rigorosa economia fiscal, do aumento das horas de trabalho, da diminuição dos salários; em uma palavra, do restabelecimento de conceitos e métodos econômicos abolidos em homenagem à vontade proletária. O proletariado não pode, logicamente, consentir nesse retrocesso. Não pode nem quer consenti-lo. Toda possibilidade de reconstrução da economia capitalista está, portanto, eliminada. Esta é a tragédia da Europa atual.
+Os Estados europeus, para se reconstruírem, precisam de um regime de rigorosa economia fiscal, do aumento das horas de trabalho, da diminuição dos salários; em uma palavra, do restabelecimento de conceitos e métodos econômicos abolidos em homenagem à vontade proletária. O proletariado não pode, logicamente, consentir nesse retrocesso. Não pode nem quer consenti-lo. Toda possibilidade de reconstrução da economia capitalista está, portanto, eliminada. Esta é a tragédia da Europa atual.
 
 A reação vai cancelando, nos países da Europa, as concessões econômicas feitas ao socialismo; mas, ao mesmo tempo em que, de um lado, essa política reacionária não pode ser suficientemente enérgica nem eficaz para restabelecer a riqueza pública exangue, de outro lado, contra essa política reacionária, prepara-se lentamente a frente única do proletariado.
 
-Temerosa da revolução, a reação cancela, por isso, não apenas as conquistas econômicas das massas, mas atenta também contra as conquistas políticas. Assistimos assim, na Itália, à ditadura fascista. Mas a burguesia socava, mina e fere de morte, dessa maneira, as instituições democráticas. E perde toda a sua força moral e todo o seu prestígio ideológico.
+Temerosa da revolução, a reação cancela, por isso, não apenas as conquistas econômicas das massas, mas atenta também contra as conquistas políticas. Assistimos assim, na Itália, à ditadura fascista. Mas a burguesia socava e mina e, assim, fere de morte as instituições democráticas. E perde toda a sua força moral e todo o seu prestígio ideológico.
 
-Por outro lado, no campo das relações internacionais, a reação coloca a política externa nas mãos das minorias nacionalistas e antidemocráticas. E essas minorias nacionalistas saturam de chauvinismo essa política externa. E impedem, com suas orientações imperialistas, com sua luta pela hegemonia europeia, o restabelecimento de uma atmosfera de solidariedade europeia que permita aos Estados entender-se em torno de um programa de cooperação e de trabalho.
+Por outro lado, na ordem das relações internacionais, a reação coloca a política externa nas mãos das minorias nacionalistas e antidemocráticas. E essas minorias nacionalistas saturam de chauvinismo essa política externa. E impedem, com suas orientações imperialistas, com sua luta pela hegemonia europeia, o restabelecimento de uma atmosfera de solidariedade europeia que permita aos Estados entender-se acerca de um programa de cooperação e de trabalho.
 
-A obra desse nacionalismo, desse reacionarismo, temos diante dos olhos na ocupação do Ruhr. A crise mundial é, portanto, crise econômica e crise política. E é, além disso, sobretudo, crise ideológica. As filosofias afirmativas, positivistas, da sociedade burguesa estão, há muito tempo, minadas por uma corrente de ceticismo e relativismo. O racionalismo, o historicismo, o positivismo declinam irremediavelmente.
+A obra desse nacionalismo, desse reacionarismo, temos à vista na ocupação do Ruhr. A crise mundial é, portanto, crise econômica e crise política. E é, além disso, sobretudo, crise ideológica. As filosofias afirmativas, positivistas, da sociedade burguesa estão, há muito tempo, minadas por uma corrente de ceticismo e relativismo. O racionalismo, o historicismo, o positivismo declinam irremediavelmente.
 
 Esse é, indubitavelmente, o aspecto mais profundo, o sintoma mais grave da crise. Esse é o indício mais definido e profundo de que não está em crise apenas a economia da sociedade burguesa, mas de que está em crise integralmente a civilização capitalista, a civilização ocidental, a civilização europeia.
 
