@@ -1,7 +1,7 @@
 {
-  "versao": "1.0",
+  "versao": "1.1",
   "data": "2026-09-13",
-  "nota": "Expansão do ranking editorial da Biblioteca Revolucionária. A inclusão de um autor mede importância histórica e teórica e não implica endosso integral de suas posições ou de sua atuação política.",
+  "nota": "Expansão do ranking editorial da Biblioteca Revolucionária. A inclusão de um autor mede importância histórica e teórica e não implica endosso integral de suas posições ou de sua atuação política. A Biblioteca prioriza acesso em português; outros idiomas permanecem apenas quando não foi localizada alternativa portuguesa confiável.",
   "teoricos": [
     {
       "ranking": 8,
@@ -27,8 +27,8 @@
       "resumo": "Psiquiatra, revolucionário anticolonial e teórico da descolonização. Sua obra articulou colonialismo, racismo, subjetividade, violência, cultura nacional, consciência política e libertação, exercendo influência duradoura na África, no Caribe, no movimento negro e no Sul Global.",
       "top10": [
         {"ranking":1,"titulo":"Os Condenados da Terra","ano":"1961","tema":"Colonialismo, violência, libertação nacional e pós-colonialismo","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/fanon/1961/condenados/index.htm"}]},
-        {"ranking":2,"titulo":"Pele Negra, Máscaras Brancas","ano":"1952","tema":"Racismo, alienação, subjetividade e colonialismo","links":[{"rotulo":"Referência editorial","url":"https://groveatlantic.com/book/black-skin-white-masks/"}]},
-        {"ranking":3,"titulo":"Um Colonialismo em Agonia","ano":"1959","tema":"Revolução Argelina, cultura e transformação social","links":[{"rotulo":"Referência editorial em inglês","url":"https://groveatlantic.com/book/a-dying-colonialism/"}]},
+        {"ranking":2,"titulo":"Pele Negra, Máscaras Brancas","ano":"1952","tema":"Racismo, alienação, subjetividade e colonialismo","links":[{"rotulo":"Edição em português (Editorial Adandé)","url":"https://editorialadande.com/produto/pele-negra-fanon/"}]},
+        {"ranking":3,"titulo":"Um Colonialismo em Agonia / Sociologia de uma Revolução","ano":"1959","tema":"Revolução Argelina, cultura e transformação social","links":[{"rotulo":"Edição em português: Sociologia de uma Revolução (Adandé)","url":"https://editorialadande.com/produto/sociologia-fanon/"}]},
         {"ranking":4,"titulo":"Em Defesa da Revolução Africana","ano":"1964, publicação póstuma","tema":"Anticolonialismo, unidade africana e revolução","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/fanon/1969/defesa/index.htm"}]},
         {"ranking":5,"titulo":"Desventuras da Consciência Nacional","ano":"1961","tema":"Burguesia nacional, Estado pós-colonial e massas","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/fanon/1961/condenados/03.htm"}]},
         {"ranking":6,"titulo":"Sobre a Cultura Nacional","ano":"1959–1961","tema":"Cultura, luta de libertação e consciência nacional","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/fanon/1961/condenados/04.htm"}]},
@@ -44,14 +44,14 @@
       "nome": "José Carlos Mariátegui",
       "resumo": "Marxista peruano cuja obra formulou uma interpretação original da realidade latino-americana, articulando classe, questão indígena, terra, imperialismo, cultura e organização revolucionária. É uma referência central do marxismo produzido na América Latina.",
       "top10": [
-        {"ranking":1,"titulo":"Sete Ensaios de Interpretação da Realidade Peruana","ano":"1928","tema":"Economia, questão indígena, terra, educação, religião e cultura no Peru","links":[{"rotulo":"Versão integral em espanhol","url":"https://www.marxists.org/espanol/mariateg/1928/7ensayos/"}]},
-        {"ranking":2,"titulo":"Defesa do Marxismo","ano":"1928–1929","tema":"Marxismo, revisionismo, ética e filosofia revolucionária","links":[{"rotulo":"Versão integral em espanhol","url":"https://www.marxists.org/espanol/mariateg/oc/defensa_del_marxismo/index.htm"}]},
-        {"ranking":3,"titulo":"A Cena Contemporânea","ano":"1925","tema":"Fascismo, democracia, revolução e crise mundial","links":[{"rotulo":"Versão integral em espanhol","url":"https://www.marxists.org/espanol/mariateg/1925/escena/00.htm"}]},
+        {"ranking":1,"titulo":"Sete Ensaios de Interpretação da Realidade Peruana","ano":"1928","tema":"Economia, questão indígena, terra, educação, religião e cultura no Peru","links":[{"rotulo":"Texto integral em português (CLACSO / Expressão Popular)","url":"https://libreria.clacso.org/publicacion.php?c=7&p=64"}]},
+        {"ranking":2,"titulo":"Defesa do Marxismo","ano":"1928–1929","tema":"Marxismo, revisionismo, ética e filosofia revolucionária","links":[{"rotulo":"Edição em português (Boitempo)","url":"https://www.boitempoeditorial.com.br/produto/defesa-do-marxismo-152558"},{"rotulo":"Capítulo em português: Ética e Socialismo (MIA)","url":"https://www.marxists.org/portugues/mariategui/ano/defesa/06.htm"}]},
+        {"ranking":3,"titulo":"A Cena Contemporânea","ano":"1925","tema":"Fascismo, democracia, revolução e crise mundial","links":[{"rotulo":"E-book em português","url":"https://antoniofontoura.com.br/site/principais-obras/a-cena-contemporanea/"}]},
         {"ranking":4,"titulo":"Aniversário e Balanço","ano":"1928","tema":"Socialismo indo-americano e criação revolucionária","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/mariategui/1928/09/aniversario.htm"}]},
-        {"ranking":5,"titulo":"Ponto de Vista Anti-Imperialista","ano":"1929","tema":"Imperialismo, burguesia nacional e estratégia latino-americana","links":[{"rotulo":"Versão em espanhol","url":"https://www.marxists.org/espanol/mariateg/oc/ideologia_y_politica/paginas/punto%20de%20vista.htm"}]},
+        {"ranking":5,"titulo":"Ponto de Vista Anti-Imperialista","ano":"1929","tema":"Imperialismo, burguesia nacional e estratégia latino-americana","links":[{"rotulo":"Versão em português","url":"https://esquerdaweb.com/ponto-de-vista-anti-imperialista/"}]},
         {"ranking":6,"titulo":"O Problema das Raças na América Latina","ano":"1929","tema":"Raça, classe, questão indígena e imperialismo","links":[{"rotulo":"Extratos em português","url":"https://www.marxists.org/portugues/mariategui/1929/06/40.htm"}]},
-        {"ranking":7,"titulo":"Programa do Partido Socialista Peruano","ano":"1928","tema":"Programa, organização e revolução socialista no Peru","links":[{"rotulo":"Versão em espanhol","url":"https://www.marxists.org/espanol/mariateg/1928/oct/07a.htm"}]},
-        {"ranking":8,"titulo":"História da Crise Mundial","ano":"1923–1924","tema":"Guerra, revoluções, Internacional e crise mundial","links":[{"rotulo":"Versão integral em espanhol","url":"https://www.marxists.org/espanol/mariateg/oc/historia_de_la_crisis_mundial/index.htm"}]},
+        {"ranking":7,"titulo":"Programa do Partido Socialista Peruano","ano":"1928","tema":"Programa, organização e revolução socialista no Peru","links":[{"rotulo":"Versão em português","url":"https://serviraopovo.com.br/2024/02/21/programa-do-partido-socialista-peruano-jose-carlos-mariategui-1928/"}]},
+        {"ranking":8,"titulo":"História da Crise Mundial","ano":"1923–1924","tema":"Guerra, revoluções, Internacional e crise mundial","status_portugues":"Não foi localizada edição integral pública e confiável em português. Mariátegui está em domínio público; obra candidata a tradução própria do Classe e Massas.","links":[{"rotulo":"Original em espanhol — provisório","url":"https://www.marxists.org/espanol/mariateg/oc/historia_de_la_crisis_mundial/index.htm"}]},
         {"ranking":9,"titulo":"O Homem e o Mito","ano":"1925","tema":"Mito, consciência revolucionária e crise burguesa","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/mariategui/1925/01/16.htm"}]},
         {"ranking":10,"titulo":"O 1º de Maio e a Frente Única","ano":"1924","tema":"Unidade de classe, frente única e independência ideológica","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/mariategui/1924/05/01.htm"}]}
       ],
