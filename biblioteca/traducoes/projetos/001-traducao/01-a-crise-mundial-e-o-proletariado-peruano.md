@@ -6,7 +6,7 @@
 **Data documental:** 15 de junho de 1923  
 **Fonte principal identificada:** PE PEAJCM JCM-F-03-3-3.2-001-M — Archivo José Carlos Mariátegui  
 **Versão:** v0.1  
-**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–05 APROVADOS
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–06 APROVADOS
 
 ---
 
@@ -60,15 +60,15 @@ Uma parte do proletariado acredita que o momento não é revolucionário; que a 
 
 A outra parte do proletariado acredita que o atual momento histórico é revolucionário; que a burguesia é incapaz de reconstruir a riqueza social destruída pela guerra e, portanto, incapaz de solucionar os problemas da paz; que a guerra originou uma crise cuja solução só pode ser uma solução proletária, uma solução socialista; e que, com a Revolução Russa, começou a revolução social.
 
-Há, portanto, dois exércitos proletários porque há no proletariado duas concepções opostas do momento histórico, duas interpretações diferentes da crise mundial. A força numérica de um e de outro exército proletário depende de os acontecimentos parecerem ou não confirmar sua respectiva concepção histórica.
+Há, portanto, dois exércitos proletários porque há no proletariado duas concepções opostas do momento histórico, duas interpretações distintas da crise mundial. A força numérica de um e de outro exército proletário depende de os acontecimentos parecerem ou não confirmar sua respectiva concepção histórica.
 
 É por isso que os pensadores, os teóricos, os homens de estudo de um e de outro exército proletário se esforçam, sobretudo, para aprofundar o sentido da crise, compreender seu caráter e descobrir seu significado. Antes da guerra, duas tendências disputavam o predomínio no proletariado: a tendência socialista e a tendência sindicalista. A tendência socialista era, predominantemente, reformista, social-democrata, colaboracionista.
 
-Os socialistas pensavam que a hora da revolução social estava distante e lutavam pela conquista gradual por meio da ação legalista e da colaboração governamental ou, pelo menos, legislativa. Essa ação política enfraqueceu excessivamente, em alguns países, a vontade e o espírito revolucionários do socialismo. O socialismo se aburguesou consideravelmente. Como reação contra esse aburguesamento do socialismo, tivemos o sindicalismo.
+Os socialistas pensavam que a hora da revolução social estava distante e lutavam pela conquista gradual por meio da ação legalitária e da colaboração governamental ou, pelo menos, legislativa. Essa ação política enfraqueceu excessivamente, em alguns países, a vontade e o espírito revolucionários do socialismo. O socialismo se aburguesou consideravelmente. Como reação contra esse aburguesamento do socialismo, tivemos o sindicalismo.
 
 O sindicalismo contrapôs à ação política dos partidos socialistas a ação direta dos sindicatos. No sindicalismo refugiaram-se os espíritos mais revolucionários e mais intransigentes do proletariado. Mas também o sindicalismo revelou-se, no fundo, um tanto colaboracionista e reformista. Também o sindicalismo estava dominado por uma burocracia sindical sem verdadeira psicologia revolucionária.
 
-E sindicalismo e socialismo mostravam-se mais ou menos solidários e associados em alguns países, como a Itália, onde o Partido Socialista não participava do governo e se mantinha fiel a outros princípios formais de independência. De qualquer modo, as tendências, mais ou menos beligerantes ou mais ou menos próximas segundo as nações, eram duas: sindicalistas e socialistas.
+E sindicalismo e socialismo mostravam-se mais ou menos solidários e mancomunados em alguns países, como a Itália, onde o Partido Socialista não participava do governo e se mantinha fiel a outros princípios formais de independência. De qualquer modo, as tendências, mais ou menos beligerantes ou mais ou menos próximas segundo as nações, eram duas: sindicalistas e socialistas.
 
 A esse período da luta social corresponde quase integralmente a literatura revolucionária da qual se nutriu a mentalidade de nossos proletários dirigentes. Mas, depois da guerra, a situação mudou. O campo proletário, como acabamos de recordar, já não está dividido em socialistas e sindicalistas, mas em reformistas e revolucionários. Assistimos primeiro a uma cisão, a uma divisão no campo socialista.
 
