@@ -1,0 +1,45 @@
+{
+  "id": "TCM-001",
+  "frente": "Traduções Classe e Massas",
+  "titulo_original": "Historia de la Crisis Mundial",
+  "titulo_portugues_provisorio": "História da Crise Mundial",
+  "autor": {
+    "nome": "José Carlos Mariátegui",
+    "nascimento": "1894-06-14",
+    "falecimento": "1930-04-16"
+  },
+  "idioma_original": "espanhol",
+  "estado": "EM VERIFICAÇÃO",
+  "prioridade": "ALTA",
+  "motivo_prioridade": "A Auditoria de Idioma da Biblioteca classificou a obra como sem tradução integral pública em português localizada.",
+  "fontes_preliminares": [
+    {
+      "tipo": "arquivo",
+      "nome": "Archivo José Carlos Mariátegui — Historia de la Crisis Mundial",
+      "url": "https://archivo.mariategui.org/index.php/historia-de-la-crisis-mundial",
+      "papel": "fonte documental prioritária para estabelecimento do texto-base"
+    },
+    {
+      "tipo": "edicao_digital",
+      "nome": "Marxists Internet Archive — espanhol",
+      "url": "https://www.marxists.org/espanol/mariateg/oc/historia_de_la_crisis_mundial/index.htm",
+      "papel": "navegação e confronto textual; não assumida automaticamente como edição crítica definitiva"
+    }
+  ],
+  "gates_antes_traducao": [
+    "ficha jurídica concluída",
+    "texto-base definido",
+    "sumário completo reconstruído",
+    "variantes e lacunas relevantes registradas",
+    "glossário inicial criado",
+    "responsável humano por revisão definido",
+    "protocolo de versionamento ativo"
+  ],
+  "proxima_transicao": {
+    "de": "EM VERIFICAÇÃO",
+    "para": "ELEGÍVEL",
+    "condicao": "conclusão da ficha jurídica e definição documental do texto-base"
+  },
+  "versao_dossie": "0.1",
+  "data": "2026-09-13"
+}
