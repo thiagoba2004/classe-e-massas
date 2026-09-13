@@ -51,6 +51,17 @@ Regra: a fonte arquivística primária prevalece quando houver divergência não
 
 **Justificativa:** a edição documental privilegia o testemunho arquivístico primário e registra a variante posterior sem apagá-la.
 
+### AC-04 — `sociedad colectiva` / `sociedad colectivista`
+
+**Trecho:** passagem sobre a concepção evolucionista de uma transição lenta, gradual e beatífica da sociedade individualista para a sociedade nova.
+
+**Fonte arquivística primária:** `de la sociedad individualista a la sociedad colectiva`.  
+**Edição póstuma posterior:** `de la sociedad individualista a la sociedad colectivista`.
+
+**Decisão editorial aprovada:** adotar no texto traduzido **“da sociedade individualista à sociedade coletiva”**.
+
+**Justificativa:** a edição documental privilegia a leitura do testemunho arquivístico primário; `coletivista` permanece preservado como variante da tradição editorial posterior.
+
 ---
 
 ## 3. Regra de continuidade
