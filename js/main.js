@@ -10,14 +10,17 @@ document.documentElement.classList.add("js");
     const items = [
       { label: "Início", href: base, section: "home" },
       { label: "Observatório", href: `${base}observatorio/`, section: "observatorio" },
-      { label: "Biblioteca", href: `${base}biblioteca/`, section: "biblioteca" }
+      { label: "Biblioteca", href: `${base}biblioteca/`, section: "biblioteca" },
+      { label: "MPT", href: `${base}mpt/`, section: "mpt" }
     ];
 
     const currentSection = pathname.includes("/observatorio/")
       ? "observatorio"
       : pathname.includes("/biblioteca/")
         ? "biblioteca"
-        : "home";
+        : pathname.includes("/mpt/")
+          ? "mpt"
+          : "home";
 
     nav.classList.add("global-nav");
     nav.innerHTML = items.map(item => {
