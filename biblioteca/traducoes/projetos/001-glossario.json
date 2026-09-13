@@ -1,0 +1,32 @@
+{
+  "projeto": "TCM-001",
+  "titulo": "História da Crise Mundial — Curso de Conferências (1923–1924)",
+  "versao": "0.1",
+  "data": "2026-09-13",
+  "idioma_origem": "espanhol",
+  "idioma_destino": "português do Brasil",
+  "status": "ABERTO E REVISIONÁVEL",
+  "regra": "As soluções abaixo são preferenciais, não automáticas. O contexto pode exigir variante, que deverá ser registrada e justificada.",
+  "termos": [
+    {"original":"crisis mundial","traducao_preferencial":"crise mundial","observacao":"Manter como categoria histórica recorrente do curso."},
+    {"original":"proletariado","traducao_preferencial":"proletariado","observacao":"Manter terminologia marxista consagrada."},
+    {"original":"burguesía","traducao_preferencial":"burguesia","observacao":"Manter distinção entre classe, cultura e ideologia burguesas conforme o contexto."},
+    {"original":"burgués / burguesa","traducao_preferencial":"burguês / burguesa","observacao":"Evitar paráfrases que enfraqueçam a categoria de classe."},
+    {"original":"socialismo","traducao_preferencial":"socialismo","observacao":"Não substituir por comunismo salvo quando o original o fizer."},
+    {"original":"comunismo","traducao_preferencial":"comunismo","observacao":"Preservar distinção histórica em relação a socialismo."},
+    {"original":"sindicalismo","traducao_preferencial":"sindicalismo","observacao":"Preservar o sentido histórico, inclusive quando se referir ao sindicalismo revolucionário."},
+    {"original":"revolución","traducao_preferencial":"revolução","observacao":"Manter sentido político e histórico; não suavizar como mudança ou transformação."},
+    {"original":"revolucionario / revolucionaria","traducao_preferencial":"revolucionário / revolucionária","observacao":"Manter quando funcionar como qualificação política ou histórica."},
+    {"original":"reforma","traducao_preferencial":"reforma","observacao":"Preservar oposição reforma/revolução quando presente."},
+    {"original":"democracia","traducao_preferencial":"democracia","observacao":"Registrar em nota quando o contexto exigir distinguir democracia burguesa, liberal, proletária ou de massas."},
+    {"original":"fascismo","traducao_preferencial":"fascismo","observacao":"Manter nomenclatura histórica sem atualização retrospectiva."},
+    {"original":"masa / masas","traducao_preferencial":"massa / massas","observacao":"Preferir massas em contexto político coletivo; não substituir automaticamente por população."},
+    {"original":"pueblo","traducao_preferencial":"povo","observacao":"Não converter automaticamente em classe trabalhadora; preservar a amplitude semântica do original."},
+    {"original":"clase trabajadora","traducao_preferencial":"classe trabalhadora","observacao":"Usar quando o original trouxer a categoria explicitamente."},
+    {"original":"movimiento obrero","traducao_preferencial":"movimento operário","observacao":"Solução preferencial histórica; avaliar movimento dos trabalhadores apenas se o contexto exigir."},
+    {"original":"educación popular","traducao_preferencial":"educação popular","observacao":"Preservar como expressão política e pedagógica."},
+    {"original":"Universidad Popular","traducao_preferencial":"Universidade Popular","observacao":"Manter como nome institucional, com identificação histórica em nota quando necessário."},
+    {"original":"cátedra","traducao_preferencial":"cátedra","observacao":"No contexto da Universidade Popular, manter a forma histórica; explicar em nota se necessário."},
+    {"original":"renovación","traducao_preferencial":"renovação","observacao":"Evitar modernização para inovação quando se tratar de ideias políticas e culturais."}
+  ]
+}
