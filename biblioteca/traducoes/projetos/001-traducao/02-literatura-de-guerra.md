@@ -4,17 +4,17 @@
 **Autor:** José Carlos Mariátegui  
 **Título original:** *Literatura de guerra*  
 **Data:** 22 de junho de 1923  
-**Natureza documental:** NOTAS DO AUTOR — não sobreviveu versão integral da conferência  
+**Natureza documental:** NOTAS DO AUTOR — não foi encontrada versão integral da conferência  
 **Versão:** v0.1  
-**Estado:** RASCUNHO — AGUARDA REVISÃO HUMANA INTEGRAL
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCO 01 APROVADO
 
 ---
 
 ## Notas do autor
 
-Literatura de guerra. A imprensa, instrumento bélico. Sua função tóxica. Sua condição de instrumento capitalista. Sua carência de altas direções morais. O mito da guerra da Civilização contra a Barbárie. “Termina o romance; começa a história”, disse Bernard Shaw. *In tempo di guerra più bugie che terra*.
+Literatura de guerra. A imprensa, instrumento bélico. Sua função tóxica. Seu caráter de instrumento capitalista. Sua carência de altas direções morais. O mito da guerra da Civilização contra a Barbárie. “Termina o romance; começa a história”, disse Bernard Shaw. *In tempo di guerra più bugie che terra*.
 
-Causas econômicas da guerra: o desenvolvimento do industrialismo britânico e o desenvolvimento do industrialismo alemão. A guerra econômica entre Inglaterra e Alemanha. A luta pelos mercados, pelas colônias. Efeitos do protecionismo na economia dos países europeus. A função das finanças internacionais. As rivalidades dos grupos capitalistas. Então, como agora, uma política de cooperação, de solidariedade econômica, poderia ter evitado a catástrofe.
+Causas econômicas da guerra: o desenvolvimento do industrialismo britânico e o desenvolvimento do industrialismo alemão. A guerra econômica entre Inglaterra e Alemanha. A luta pelos mercados, pelas colônias. Efeitos do protecionismo na economia dos países europeus. A função da finança internacional. As rivalidades dos grupos capitalistas. Então, como agora, uma política de cooperação, de solidariedade econômica, poderia ter evitado a catástrofe.
 
 O fenômeno demográfico ocupa lugar importante nas origens da guerra. Palavras de Adriano Tilgher, página 106 de *A Crise Mundial*. Em um século, a população europeia passou de 180 para 450 milhões. O industrialismo, estímulo ao crescimento da população. Redução das três causas de despovoamento: peste, fome, guerra. A Alemanha, isolada, não podia alimentar 70 milhões de habitantes. A Itália não podia permanecer neutra.
 
