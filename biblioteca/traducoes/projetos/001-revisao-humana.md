@@ -34,7 +34,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Unidades do corpus: 17/17 persistidas.
 - Revisão humana integral: INICIADA.
 - Unidade em revisão: Conferência 01 — *A crise mundial e o proletariado peruano*.
-- Blocos aprovados nesta unidade: 10.
+- Blocos aprovados nesta unidade: 11.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -238,7 +238,28 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 
 **Commit que incorporou os ajustes no arquivo canônico:** `0764f7f62aec6b6b209b6e3d0b277afc30484e1b`.
 
-### Bloco 11
+### Bloco 11 — dos socialistas reformistas às ruínas da velha sociedade
+
+**Intervalo:** de “Os socialistas reformistas, acostumados à ideia...” até “...todo novo estado social se formou sobre as ruínas do estado social precedente.”  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 14/09/2026.  
+**Fonte de confronto:** transcrição/manuscrito arquivístico principal e edição póstuma posterior como testemunho de variante.
+
+**Decisões humanas aprovadas:**
+
+1. `o instante ainda não amadureceu` → `o instante ainda não está maduro`, preservando a construção de `el instante no está aún maduro`;
+2. `aquela frase segundo a qual` → `aquelas palavras segundo as quais`, preservando o plural documental sem produzir uma construção artificial em português;
+3. `da sociedade individualista à sociedade coletivista` → `da sociedade individualista à sociedade coletiva`, adotando a leitura `sociedad colectiva` do testemunho arquivístico primário;
+4. manutenção da repetição `é a frase de um reformista; é uma frase saturada...`, por corresponder ao ritmo do original;
+5. registro no aparato crítico da variante `sociedad colectiva` / `sociedad colectivista` como `AC-04`.
+
+**Demais trechos do bloco:** mantidos sem alteração material.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva; a variante `colectiva/colectivista` está registrada no aparato crítico como `AC-04`.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `c1d8827f30cb8be6b0addc96c970188c9d76be3d`.  
+**Commit que registrou a variante no aparato crítico:** `ae38f048056f4b25ca1b75861df97a7212feb634`.
+
+### Bloco 12
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
