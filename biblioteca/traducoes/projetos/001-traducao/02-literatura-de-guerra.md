@@ -6,7 +6,7 @@
 **Data:** 22 de junho de 1923  
 **Natureza documental:** NOTAS DO AUTOR — não foi encontrada versão integral da conferência  
 **Versão:** v0.1  
-**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–03 APROVADOS
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–04 APROVADOS
 
 ---
 
@@ -20,9 +20,9 @@ O fenômeno demográfico ocupa um lugar importante nas origens da guerra. Palavr
 
 Causas políticas: o processo das causas da guerra, segundo Bernard Shaw. A política e a posição tradicionais da Inglaterra, potência insular. O desenvolvimento do poder naval da Alemanha. Inglaterra, França e Bélgica entendem-se. A aliança franco-russa. Entendimento militar secreto anglo-francês. A violação da neutralidade belga tirou a Inglaterra de um embaraço. Mas há notícias e antecedentes que estabelecem o tipo de compromisso existente entre Inglaterra e França. Se a Inglaterra realmente tivesse querido evitar a guerra, diz Shaw, teria bastado anunciar que combateria ao lado da nação atacada.
 
-A hipótese de um laço, de uma armadilha. Mais verossímil é a hipótese da impossibilidade de o governo inglês revelar seu acordo militar com a França. Logo, desse ponto de vista, a guerra resulta ser uma consequência da diplomacia francesa. Outra causa: o revanchismo francês, o *Deutschland über alles* alemão. O nacionalismo europeu, em uma palavra. Psicologia da pequena burguesia francesa e da burocracia alemã. A Alemanha se sentia despojada ao lado de nações privilegiadas. Poincaré. O Kaiser. O Czar. Palavras de Lloyd George no Parlamento britânico; página 39 do livro de Caillaux.
+A hipótese de um laço, de uma armadilha. Mais verossímil é a hipótese da impossibilidade de o governo inglês revelar seu acordo militar com a França. Logo, desse ponto de vista, a guerra resulta ser uma consequência da diplomacia francesa. Outra causa: o revanchismo francês, o *Deutschland über alles* alemão. O nacionalismo europeu, em uma palavra. Psicologia da pequena burguesia francesa e da burocracia alemã. A Alemanha se sentia despossuída ao lado de nações privilegiadas. Poincaré. O Kaiser. O Czar. Palavras de Lloyd George no Parlamento britânico; página 39 do livro de Caillaux.
 
-Outra causa: a paz armada. O equilíbrio das potências. Existia na Europa uma atmosfera inflamável. A causa diplomática: o assassinato do herdeiro da Áustria. A guerra poderia ter explodido antes, por ocasião da guerra russo-japonesa e do incidente de Agadir de 1912. Palavras de Viviani a Rapoport: página 33 do livro deste último.
+Outra causa: a paz armada. O equilíbrio das potências. Existia na Europa uma atmosfera inflamável. A causa diplomática: o assassinato do herdeiro da Áustria. A guerra poderia ter eclodido antes. Por ocasião da guerra russo-japonesa e do incidente de Agadir de 1912. Palavras de Viviani a Rapoport: página 33 do livro deste último.
 
 Contraste da organização capitalista. Ela necessita da solidariedade internacional como condição de vida e fomenta o nacionalismo em oposição à luta de classes. Como se precipita um povo à guerra. O romance *Clarté*. Guerra absoluta e guerra relativa. Guerra de nações e guerra de exércitos. O mito da guerra democrática. A direção da opinião na Inglaterra, na Itália, na Áustria e na Rússia; entretanto, não houve um ideal que solidarizasse o povo com a empresa militar de seus respectivos governos.
 
