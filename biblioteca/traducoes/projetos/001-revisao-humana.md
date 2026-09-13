@@ -32,9 +32,11 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 
 - Tradução integral de trabalho: CONCLUÍDA.
 - Unidades do corpus: 17/17 persistidas.
-- Revisão humana integral: INICIADA.
-- Unidade em revisão: Conferência 01 — *A crise mundial e o proletariado peruano*.
-- Blocos aprovados nesta unidade: 11.
+- Revisão humana integral: EM ANDAMENTO.
+- Conferências com revisão humana concluída: 1/17.
+- Unidade concluída: Conferência 01 — *A crise mundial e o proletariado peruano*.
+- Unidade em revisão: Conferência 02 — *Literatura de guerra*.
+- Blocos aprovados na unidade atual: 0.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -42,7 +44,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 **Arquivo canônico:** `001-traducao/01-a-crise-mundial-e-o-proletariado-peruano.md`  
 **Fonte principal:** PE PEAJCM JCM-F-03-3-3.2-001-M — Archivo José Carlos Mariátegui  
 **Aparato crítico:** `001-aparato-critico.md`  
-**Estado:** EM REVISÃO
+**Estado:** REVISÃO HUMANA CONCLUÍDA — 12/12 BLOCOS APROVADOS
 
 ### Bloco 01 — abertura da conferência
 
@@ -259,13 +261,40 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 **Commit que incorporou os ajustes no arquivo canônico:** `c1d8827f30cb8be6b0addc96c970188c9d76be3d`.  
 **Commit que registrou a variante no aparato crítico:** `ae38f048056f4b25ca1b75861df97a7212feb634`.
 
-### Bloco 12
+### Bloco 12 — encerramento da Conferência 01
+
+**Intervalo:** de “E que entre o surgimento de um e o desmoronamento do outro...” até “...período transcendental, agitado e intenso da história humana.”  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 14/09/2026.  
+**Fonte de confronto:** testemunho arquivístico principal até sua interrupção material e tradição das *Obras Completas* para a continuação até o encerramento.
+
+**Decisões humanas aprovadas:**
+
+1. manutenção integral da redação portuguesa dos dois parágrafos finais, sem reescrita estilística indevida;
+2. registro no aparato crítico da interrupção material do testemunho principal após `derrumbamiento`, com a continuação restituída pela tradição das *Obras Completas*;
+3. criação da entrada `AC-05` no aparato crítico para distinguir a proveniência documental do trecho final;
+4. substituição da antiga nota de trabalho por uma marca explícita de `[LACUNA DOCUMENTAL]`, informando que a continuação de “do outro houve...” até o encerramento não foi reconstruída por inferência nem por IA.
+
+**Demais trechos do bloco:** mantidos sem alteração material.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva. A diferença de proveniência do encerramento está explicitamente marcada no texto e no aparato crítico.
+
+**Commit que incorporou a decisão documental no arquivo canônico:** `d230689d94cea4f2ae8957e2f622eb1f84a009c7`.  
+**Commit que registrou a lacuna no aparato crítico:** `ba098a9c6500187f833935791afe120f246277d3`.
+
+**Resultado da unidade:** CONFERÊNCIA 01 COM REVISÃO HUMANA CONCLUÍDA — 12/12 BLOCOS APROVADOS.
+
+## 5. Conferência 02 — *Literatura de guerra*
+
+**Arquivo canônico:** `001-traducao/02-literatura-de-guerra.md`  
+**Estado:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
+
+### Bloco 01
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
 ---
 
-## 5. Critério de conclusão
+## 6. Critério de conclusão
 
 A revisão humana integral somente será encerrada quando:
 
