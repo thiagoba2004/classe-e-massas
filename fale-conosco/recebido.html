@@ -12,6 +12,7 @@
     .receipt-label{font:800 .76rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.1em}
     .receipt-code{display:block;margin:10px 0 18px;font:900 clamp(1.2rem,4vw,2rem) Arial,sans-serif;letter-spacing:.04em;word-break:break-word}
     .receipt-tech{margin-top:18px;padding-top:16px;border-top:1px solid #aaa;font:.85rem Arial,sans-serif;word-break:break-word}
+    .receipt-email{margin:18px 0 0;padding:14px 16px;border:1px solid #777;background:rgba(127,127,127,.06);font:.9rem Arial,sans-serif;text-align:left}
     .receipt-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:20px}
     .receipt-note{text-align:left;border-left:5px solid #111;padding:16px 18px;background:rgba(127,127,127,.08);margin-top:30px}
   </style>
@@ -37,6 +38,7 @@
       <strong>Registro técnico da submissão:</strong><br>
       <span id="registro"></span>
     </div>
+    <div id="emailBox" class="receipt-email"></div>
     <div class="receipt-actions">
       <button id="copyProtocol" class="button" type="button">Copiar protocolo</button>
       <a class="button secondary" href="index.html">Nova mensagem</a>
@@ -54,12 +56,22 @@
   const params = new URLSearchParams(window.location.search);
   const protocol = params.get('protocolo') || 'Protocolo não informado';
   const registro = params.get('registro') || '';
+  const emailStatus = params.get('email') || 'nao-informado';
   const protocolEl = document.getElementById('protocol');
+  const emailBox = document.getElementById('emailBox');
   protocolEl.textContent = protocol;
 
   if (registro) {
     document.getElementById('registro').textContent = registro;
     document.getElementById('registroBox').hidden = false;
+  }
+
+  if (emailStatus === 'enviado') {
+    emailBox.innerHTML = '<strong>Confirmação por e-mail enviada.</strong> Uma cópia deste protocolo foi enviada para o endereço informado no formulário.';
+  } else if (emailStatus === 'falhou') {
+    emailBox.innerHTML = '<strong>A mensagem foi recebida, mas a confirmação por e-mail não pôde ser enviada.</strong> Guarde o protocolo exibido nesta página. Ele continua válido para identificar sua comunicação.';
+  } else {
+    emailBox.innerHTML = '<strong>Nenhum e-mail de retorno foi informado.</strong> Guarde o protocolo exibido nesta página para identificar sua comunicação.';
   }
 
   document.getElementById('copyProtocol').addEventListener('click', async function () {
