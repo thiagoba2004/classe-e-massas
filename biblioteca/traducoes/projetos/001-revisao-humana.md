@@ -34,7 +34,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Unidades do corpus: 17/17 persistidas.
 - Revisão humana integral: INICIADA.
 - Unidade em revisão: Conferência 01 — *A crise mundial e o proletariado peruano*.
-- Blocos aprovados nesta unidade: 4.
+- Blocos aprovados nesta unidade: 5.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -117,7 +117,25 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 
 **Commit que incorporou os ajustes no arquivo canônico:** `cf41b9e212733ad8f7b0a0998959398a8d8be110`.
 
-### Bloco 05
+### Bloco 05 — da validade da literatura anterior à guerra aos dois campos proletários
+
+**Intervalo:** de “Não se trata, naturalmente...” até a exposição dos dois campos proletários e de suas concepções antitéticas do momento histórico.  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 13/09/2026.  
+**Fonte de confronto:** transcrição/manuscrito arquivístico principal e testemunhos de apoio registrados para a Conferência 01.
+
+**Decisões humanas aprovadas:**
+
+1. `correta` → `exata` nas duas ocorrências do trecho, preservando a escolha lexical de `exacta`;
+2. `ideal e de permanente` → `ideal e de eterno`, restabelecendo `ideal y de eterno`;
+3. `organizações de classe` → `organizações classistas`, preservando `organizaciones clasistas`.
+
+**Demais trechos do bloco:** mantidos sem alteração material.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `d6603bb5d62cb062f3c85d1f1f18bf54f74bf4c7`.
+
+### Bloco 06
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
