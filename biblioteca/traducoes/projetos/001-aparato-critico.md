@@ -62,6 +62,17 @@ Regra: a fonte arquivística primária prevalece quando houver divergência não
 
 **Justificativa:** a edição documental privilegia a leitura do testemunho arquivístico primário; `coletivista` permanece preservado como variante da tradição editorial posterior.
 
+### AC-05 — interrupção material no encerramento da conferência
+
+**Trecho:** passagem final iniciada em `entre el surgimiento del uno y el derrumbamiento [del otro...]`.
+
+**Fonte arquivística primária:** o testemunho se interrompe materialmente após `derrumbamiento`, com a continuação indicada entre colchetes na tradição documental consultada.  
+**Tradição das *Obras Completas*:** fornece a continuação do período e os parágrafos finais até o encerramento da conferência.
+
+**Decisão editorial aprovada:** manter no texto traduzido a continuação já presente, mas assinalar explicitamente sua proveniência documental por meio de nota de lacuna e deste aparato crítico.
+
+**Justificativa:** a continuação não foi criada por inferência editorial nem por IA. Foi restituída a partir da tradição textual das *Obras Completas*. A distinção de proveniência deve permanecer visível e auditável.
+
 ---
 
 ## 3. Regra de continuidade
