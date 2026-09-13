@@ -34,7 +34,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Unidades do corpus: 17/17 persistidas.
 - Revisão humana integral: INICIADA.
 - Unidade em revisão: Conferência 01 — *A crise mundial e o proletariado peruano*.
-- Blocos aprovados nesta unidade: 3.
+- Blocos aprovados nesta unidade: 4.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -99,7 +99,25 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 
 **Commit que incorporou os ajustes no arquivo canônico:** `c13d73678f98960b81e12061f82e78e51e456748`.
 
-### Bloco 04
+### Bloco 04 — da vanguarda proletária à revisão da literatura revolucionária
+
+**Intervalo:** de “E, se o proletariado em geral tem necessidade...” até “...não é uma revisão imposta pelo capricho dos teóricos, mas pela força dos fatos.”  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 13/09/2026.  
+**Fonte de confronto:** transcrição/manuscrito arquivístico principal e testemunhos de apoio registrados para a Conferência 01.
+
+**Decisões humanas aprovadas:**
+
+1. `trabalhista` → `laborista`, preservando a designação política histórica do original e evitando associação retrospectiva automática com o trabalhismo brasileiro;
+2. `Ninguém mais que os grupos proletários de vanguarda necessita estudar` → `Ninguém mais que os grupos proletários de vanguarda necessitam estudar`, restabelecendo a concordância plural do original;
+3. `E essa revisão não é imposta pelo capricho dos teóricos` → `E essa revisão não é uma revisão imposta pelo capricho dos teóricos`, preservando a repetição retórica de `revisión` existente no testemunho espanhol.
+
+**Demais trechos do bloco:** mantidos sem alteração material.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `cf41b9e212733ad8f7b0a0998959398a8d8be110`.
+
+### Bloco 05
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
