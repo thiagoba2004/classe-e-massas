@@ -10,11 +10,20 @@
     .receipt-main{max-width:760px;text-align:center}
     .receipt-box{margin:30px 0;padding:28px 22px;border:3px solid #111;background:#fffdf8}
     .receipt-label{font:800 .76rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.1em}
-    .receipt-code{display:block;margin:10px 0 18px;font:900 clamp(1.2rem,4vw,2rem) Arial,sans-serif;letter-spacing:.04em;word-break:break-word}
-    .receipt-tech{margin-top:18px;padding-top:16px;border-top:1px solid #aaa;font:.85rem Arial,sans-serif;word-break:break-word}
+    .receipt-code{display:block;margin:10px 0 12px;font:900 clamp(1.2rem,4vw,2rem) Arial,sans-serif;letter-spacing:.04em;word-break:break-word}
+    .receipt-proof{max-width:560px;margin:0 auto 18px;font-size:1rem}
     .receipt-email{margin:18px 0 0;padding:14px 16px;border:1px solid #777;background:rgba(127,127,127,.06);font:.9rem Arial,sans-serif;text-align:left}
     .receipt-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:20px}
     .receipt-note{text-align:left;border-left:5px solid #111;padding:16px 18px;background:rgba(127,127,127,.08);margin-top:30px}
+    .receipt-details{margin:20px 0 0;padding-top:16px;border-top:1px solid #aaa;text-align:left;font:.86rem Arial,sans-serif}
+    .receipt-details summary{cursor:pointer;font-weight:800;text-align:center}
+    .receipt-details-content{margin-top:12px;padding:12px 14px;background:rgba(127,127,127,.05);word-break:break-word}
+    .receipt-diagnostic{margin-top:10px;padding-top:10px;border-top:1px solid #bbb}
+    @media(max-width:600px){
+      .receipt-box{padding:24px 16px}
+      .receipt-actions{flex-direction:column;align-items:stretch}
+      .receipt-actions .button{width:100%;text-align:center}
+    }
   </style>
 </head>
 <body>
@@ -28,25 +37,34 @@
 <main class="receipt-main">
   <div class="kicker">FALE CONOSCO • CONFIRMAÇÃO</div>
   <h1>Mensagem recebida</h1>
-  <p class="dek">O servidor confirmou o recebimento da sua submissão pelo canal Fale Conosco.</p>
+  <p class="dek">Sua mensagem foi recebida e registrada pelo Fale Conosco do Classe e Massas.</p>
 
   <section class="receipt-box" aria-labelledby="protocol-title">
-    <div id="protocol-title" class="receipt-label">Seu número de protocolo</div>
+    <div id="protocol-title" class="receipt-label">Seu protocolo de recebimento</div>
     <strong id="protocol" class="receipt-code">Carregando protocolo…</strong>
-    <p>Guarde este número. Ele identifica a comunicação enviada e foi registrado junto com o conteúdo da submissão.</p>
-    <div id="registroBox" class="receipt-tech" hidden>
-      <strong>Registro técnico da submissão:</strong><br>
-      <span id="registro"></span>
-    </div>
-    <div id="emailBox" class="receipt-email"></div>
+    <p class="receipt-proof"><strong>Guarde este número.</strong> Ele é o comprovante que identifica a comunicação enviada.</p>
+
     <div class="receipt-actions">
       <button id="copyProtocol" class="button" type="button">Copiar protocolo</button>
-      <a class="button secondary" href="index.html">Nova mensagem</a>
+      <a class="button secondary" href="index.html">Enviar outra mensagem</a>
     </div>
+
+    <div id="emailBox" class="receipt-email"></div>
+
+    <details id="technicalDetails" class="receipt-details">
+      <summary>Detalhes técnicos do registro</summary>
+      <div class="receipt-details-content">
+        <div id="registroBox" hidden>
+          <strong>Registro técnico da submissão:</strong><br>
+          <span id="registro"></span>
+        </div>
+        <div id="diagnosticBox" class="receipt-diagnostic" hidden></div>
+      </div>
+    </details>
   </section>
 
   <aside class="receipt-note">
-    <strong>Importante.</strong> O protocolo confirma que o sistema recebeu a submissão. Ele não significa que o conteúdo já foi apurado, validado ou publicado. Denúncias, documentos e relatos serão analisados de acordo com a linha editorial e os critérios de verificação do Classe e Massas.
+    <strong>Importante.</strong> O protocolo confirma o recebimento da submissão. Ele não significa que o conteúdo já foi apurado, validado ou publicado. Denúncias, documentos e relatos serão analisados de acordo com a linha editorial e os critérios de verificação do Classe e Massas.
   </aside>
 </main>
 
@@ -60,6 +78,9 @@
   const emailError = params.get('email_erro') || '';
   const protocolEl = document.getElementById('protocol');
   const emailBox = document.getElementById('emailBox');
+  const technicalDetails = document.getElementById('technicalDetails');
+  const diagnosticBox = document.getElementById('diagnosticBox');
+
   protocolEl.textContent = protocol;
 
   if (registro) {
@@ -68,23 +89,23 @@
   }
 
   if (emailStatus === 'enviado') {
-    emailBox.innerHTML = '<strong>Confirmação por e-mail enviada.</strong> Uma cópia deste protocolo foi enviada para o endereço informado no formulário.';
+    emailBox.innerHTML = '<strong>Confirmação enviada por e-mail.</strong> O mesmo protocolo foi encaminhado para o endereço informado no formulário.';
   } else if (emailStatus === 'falhou') {
-    emailBox.innerHTML = '<strong>A mensagem foi recebida, mas a confirmação por e-mail não pôde ser enviada.</strong> Guarde o protocolo exibido nesta página. Ele continua válido para identificar sua comunicação.';
+    emailBox.innerHTML = '<strong>A mensagem foi recebida e o protocolo continua válido.</strong> A cópia por e-mail não pôde ser enviada. Guarde o protocolo exibido nesta página.';
     if (emailError) {
-      const diagnostic = document.createElement('div');
-      diagnostic.className = 'receipt-tech';
-      diagnostic.textContent = 'Diagnóstico técnico do envio de e-mail: ' + emailError;
-      emailBox.appendChild(diagnostic);
+      diagnosticBox.textContent = 'Diagnóstico técnico do envio de e-mail: ' + emailError;
+      diagnosticBox.hidden = false;
+      technicalDetails.open = true;
     }
   } else {
-    emailBox.innerHTML = '<strong>Nenhum e-mail de retorno foi informado.</strong> Guarde o protocolo exibido nesta página para identificar sua comunicação.';
+    emailBox.innerHTML = '<strong>Nenhum e-mail de retorno foi informado.</strong> O protocolo acima é o seu comprovante de recebimento.';
   }
 
   document.getElementById('copyProtocol').addEventListener('click', async function () {
     try {
       await navigator.clipboard.writeText(protocol);
       this.textContent = 'Protocolo copiado';
+      setTimeout(() => { this.textContent = 'Copiar protocolo'; }, 1800);
     } catch (error) {
       this.textContent = protocol;
     }
