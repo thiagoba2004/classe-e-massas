@@ -34,7 +34,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Unidades do corpus: 17/17 persistidas.
 - Revisão humana integral: INICIADA.
 - Unidade em revisão: Conferência 01 — *A crise mundial e o proletariado peruano*.
-- Blocos aprovados nesta unidade: 7.
+- Blocos aprovados nesta unidade: 8.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -176,7 +176,27 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 **Commit que incorporou os ajustes no arquivo canônico:** `223e77a4b5f31c9460cbeab3ff95eec8c2fd5941`.  
 **Commit de criação do aparato crítico com as variantes já aprovadas:** `d5b018503b745ffa733331614b4eb57f5fc18ace`.
 
-### Bloco 08
+### Bloco 08 — do apogeu do capitalismo ao esgotamento do colaboracionismo
+
+**Intervalo:** de “Antes da guerra, essas teses eram explicáveis...” até “O capitalismo não pode fazer concessões ao socialismo.”  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 13/09/2026.  
+**Fonte de confronto:** transcrição/manuscrito arquivístico principal.
+
+**Decisões humanas aprovadas:**
+
+1. `alimentar-se razoavelmente` → `comer razoavelmente`, aproximando a tradução do verbo simples `comer` do original sem adotar literalmente `discretamente`;
+2. `às custas do proletariado` → `à custa do proletariado`, preservando a construção direta de `a costa del proletariado`;
+3. `avançar pelo caminho das realizações socialistas` → `progredir no caminho das realizações socialistas`, preservando `progresar en el camino`;
+4. `aceite produzir mais e consumir menos` → `consinta em produzir mais e consumir menos`, preservando melhor a ideia de anuência de `se avenga a`;
+5. `por sua própria natureza` → `por sua natureza`, retirando intensificação ausente do testemunho.
+
+**Demais trechos do bloco:** mantidos sem alteração material.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `6dd9e8480744521809711a553d4746497c2c3ccb`.
+
+### Bloco 09
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
