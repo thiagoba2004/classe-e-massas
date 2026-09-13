@@ -43,7 +43,7 @@
       </div>
 
       <div class="library-note">
-        <strong>Leitura e traduções.</strong> A Biblioteca prioriza versões públicas em português. Quando não foi localizada uma edição integral pública em português, o botão informa com precisão se o acesso é a uma versão em outro idioma, a um trecho, a uma referência editorial ou a um PDF. Os links conduzem às fontes externas indicadas; o Classe e Massas não reproduz automaticamente traduções de terceiros.
+        <strong>Português em primeiro lugar.</strong> A Biblioteca prioriza, nesta ordem: <strong>versão integral pública e legal em português</strong>; <strong>edição editorial em português</strong>; <strong>trecho confiável em português</strong>; e somente em último caso uma versão em outro idioma. Quando não houver versão integral em português localizada, isso será informado expressamente. Para autores em domínio público, o Classe e Massas poderá produzir tradução própria a partir do original, sem reproduzir traduções protegidas de terceiros.
       </div>
     </section>
 
@@ -104,6 +104,10 @@
         body.appendChild(el('p', 'ranked-work-note', work.nota));
       }
 
+      if (work.status_portugues) {
+        body.appendChild(el('p', 'language-status', work.status_portugues));
+      }
+
       item.appendChild(badge);
       item.appendChild(body);
       appendLinks(item, work.links);
@@ -143,7 +147,7 @@
     try {
       const [baseResponse, expansionResponse] = await Promise.all([
         fetch('rankings.json?v=1.2', { cache: 'no-cache' }),
-        fetch('teoricos-08-10.json?v=1.0', { cache: 'no-cache' })
+        fetch('teoricos-08-10.json?v=1.1', { cache: 'no-cache' })
       ]);
       if (!baseResponse.ok) throw new Error('rankings.json: HTTP ' + baseResponse.status);
       if (!expansionResponse.ok) throw new Error('teoricos-08-10.json: HTTP ' + expansionResponse.status);
