@@ -18,11 +18,14 @@
     .field{margin-bottom:18px}
     label{display:block;font:800 .78rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em;margin-bottom:7px}
     input,select,textarea{width:100%;padding:12px;border:1px solid #555;background:#fffdf8;color:#191919;font:1rem Georgia,'Times New Roman',serif}
+    input[type="file"]{font-family:Arial,sans-serif;font-size:.9rem}
     textarea{min-height:210px;resize:vertical}
     .checkline{display:flex;gap:10px;align-items:flex-start;margin:14px 0 20px}
     .checkline input{width:auto;margin-top:5px}
     .contact-note{padding:18px 20px;border-left:5px solid #111;background:rgba(127,127,127,.08);margin:28px 0}
     .small{font-size:.9rem}
+    .protocol-info{font:700 .85rem Arial,sans-serif;margin:18px 0;padding:14px;border:1px solid #777;background:#fffdf8}
+    .honey{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
     @media(max-width:700px){.contact-grid,.form-row{grid-template-columns:1fr}}
   </style>
 </head>
@@ -51,6 +54,7 @@
   <section>
     <p>O Classe e Massas quer ouvir trabalhadores e trabalhadoras diretamente. Este espaço é uma porta de entrada para pautas, notícias, denúncias, documentos, correções e colaborações que possam contribuir para compreender e registrar o movimento real da classe trabalhadora e das massas trabalhadoras.</p>
     <p class="contact-email">E-mail institucional: <a href="mailto:canalclasseemassas@gmail.com">canalclasseemassas@gmail.com</a></p>
+    <p>Quem preferir pode escrever diretamente por e-mail. Quem não quiser ou não puder usar um e-mail próprio pode enviar a mensagem pelo formulário abaixo.</p>
   </section>
 
   <section class="contact-grid" aria-label="Formas de contato">
@@ -70,25 +74,40 @@
 
   <section class="contact-form" aria-labelledby="form-title">
     <div class="kicker">FORMULÁRIO DE CONTATO</div>
-    <h2 id="form-title">Organize sua mensagem</h2>
-    <p>O formulário abaixo não envia seus dados a um serviço terceirizado. Ao finalizar, ele abrirá seu aplicativo de e-mail com a mensagem já organizada para <strong>canalclasseemassas@gmail.com</strong>. Revise e envie pelo seu próprio e-mail.</p>
+    <h2 id="form-title">Envie diretamente pelo site</h2>
+    <p>O formulário é enviado pela web e encaminhado ao e-mail institucional <strong>canalclasseemassas@gmail.com</strong>. Não é necessário possuir ou informar um endereço de e-mail para enviar a mensagem.</p>
+    <p>Após a conclusão do envio, o site exibirá um <strong>número de protocolo</strong>. Guarde-o: o mesmo identificador seguirá junto com a mensagem encaminhada ao Classe e Massas.</p>
+    <div class="contact-note small"><strong>Infraestrutura técnica:</strong> como o site funciona no GitHub Pages, que não processa formulários no servidor, o envio utiliza o serviço técnico FormSubmit para encaminhar a mensagem ao e-mail institucional. Os anexos estão limitados a <strong>10 MB no total</strong>.</div>
 
-    <form id="contactForm">
+    <form id="contactForm" action="https://formsubmit.co/canalclasseemassas@gmail.com" method="POST" enctype="multipart/form-data">
+      <input type="hidden" id="protocolo" name="Protocolo" value="">
+      <input type="hidden" id="emailRetorno" name="E-mail para retorno" value="Não informado">
+      <input type="hidden" id="identidade" name="Solicita preservação de identidade" value="NÃO">
+      <input type="hidden" id="formUrl" name="_url" value="">
+      <input type="hidden" id="nextUrl" name="_next" value="">
+      <input type="hidden" id="subjectField" name="_subject" value="Classe e Massas — nova mensagem">
+      <input type="hidden" name="_template" value="table">
+
+      <div class="honey" aria-hidden="true">
+        <label for="website">Deixe este campo em branco</label>
+        <input id="website" type="text" name="_honey" tabindex="-1" autocomplete="off">
+      </div>
+
       <div class="form-row">
         <div class="field">
           <label for="nome">Nome ou pseudônimo</label>
-          <input id="nome" name="nome" type="text" autocomplete="name">
+          <input id="nome" name="Nome ou pseudônimo" type="text" autocomplete="name">
         </div>
         <div class="field">
-          <label for="retorno">E-mail para retorno</label>
-          <input id="retorno" name="retorno" type="email" autocomplete="email">
+          <label for="retorno">E-mail para retorno — opcional</label>
+          <input id="retorno" type="email" autocomplete="email" placeholder="Opcional">
         </div>
       </div>
 
       <div class="form-row">
         <div class="field">
           <label for="tipo">Tipo de contato</label>
-          <select id="tipo" name="tipo">
+          <select id="tipo" name="Tipo de contato">
             <option>Notícia ou pauta</option>
             <option>Denúncia</option>
             <option>Documento ou prova</option>
@@ -99,27 +118,41 @@
         </div>
         <div class="field">
           <label for="assunto">Assunto</label>
-          <input id="assunto" name="assunto" type="text" required>
+          <input id="assunto" name="Assunto" type="text" required>
         </div>
       </div>
 
       <div class="field">
         <label for="link">Link relacionado, se houver</label>
-        <input id="link" name="link" type="url" placeholder="https://">
+        <input id="link" name="Link relacionado" type="url" placeholder="https://">
       </div>
 
       <div class="field">
         <label for="mensagem">Mensagem</label>
-        <textarea id="mensagem" name="mensagem" required placeholder="Descreva o que aconteceu, quando, onde, quem está envolvido e quais documentos ou provas existem."></textarea>
+        <textarea id="mensagem" name="Mensagem" required placeholder="Descreva o que aconteceu, quando, onde, quem está envolvido e quais documentos ou provas existem."></textarea>
       </div>
 
+      <div class="field">
+        <label for="anexo1">Anexo 1 — opcional</label>
+        <input id="anexo1" name="Anexo 1" type="file">
+      </div>
+      <div class="field">
+        <label for="anexo2">Anexo 2 — opcional</label>
+        <input id="anexo2" name="Anexo 2" type="file">
+      </div>
+      <div class="field">
+        <label for="anexo3">Anexo 3 — opcional</label>
+        <input id="anexo3" name="Anexo 3" type="file">
+      </div>
+      <p class="small">Você pode anexar documentos, imagens, áudios ou outros arquivos relevantes. O limite total desta infraestrutura é 10 MB por envio.</p>
+
       <label class="checkline" for="proteger">
-        <input id="proteger" name="proteger" type="checkbox">
+        <input id="proteger" type="checkbox">
         <span>Quero solicitar que minha identidade não seja publicada.</span>
       </label>
 
-      <button class="button" type="submit">Preparar e-mail</button>
-      <p class="small">Para anexar arquivos, adicione-os no seu aplicativo de e-mail depois que a mensagem for aberta.</p>
+      <div id="protocolPreview" class="protocol-info">O protocolo será gerado no momento do envio e confirmado após a conclusão da submissão.</div>
+      <button class="button" type="submit">Enviar mensagem</button>
     </form>
   </section>
 </main>
@@ -127,27 +160,50 @@
 <footer>Classe e Massas • Fale Conosco • 2026</footer>
 <script src="../js/main.js"></script>
 <script>
-  document.getElementById('contactForm').addEventListener('submit', function (event) {
-    event.preventDefault();
-    const nome = document.getElementById('nome').value.trim() || 'Não informado';
-    const retorno = document.getElementById('retorno').value.trim() || 'Não informado';
+  const form = document.getElementById('contactForm');
+  const protocolField = document.getElementById('protocolo');
+  const protocolPreview = document.getElementById('protocolPreview');
+
+  function pad(value) {
+    return String(value).padStart(2, '0');
+  }
+
+  function makeProtocol() {
+    const now = new Date();
+    const date = now.getFullYear() + pad(now.getMonth() + 1) + pad(now.getDate());
+    const time = pad(now.getHours()) + pad(now.getMinutes()) + pad(now.getSeconds());
+    const bytes = new Uint8Array(3);
+    if (window.crypto && window.crypto.getRandomValues) {
+      window.crypto.getRandomValues(bytes);
+    } else {
+      for (let i = 0; i < bytes.length; i++) bytes[i] = Math.floor(Math.random() * 256);
+    }
+    const random = Array.from(bytes, b => b.toString(16).padStart(2, '0')).join('').toUpperCase();
+    return 'CEM-' + date + '-' + time + '-' + random;
+  }
+
+  form.addEventListener('submit', function (event) {
+    const fileInputs = ['anexo1', 'anexo2', 'anexo3'].map(id => document.getElementById(id));
+    const totalBytes = fileInputs.reduce((sum, input) => sum + (input.files[0] ? input.files[0].size : 0), 0);
+    if (totalBytes > 10 * 1024 * 1024) {
+      event.preventDefault();
+      alert('Os anexos ultrapassam o limite total de 10 MB. Remova ou reduza algum arquivo antes de enviar.');
+      return;
+    }
+
+    const protocol = makeProtocol();
+    const retorno = document.getElementById('retorno').value.trim();
     const tipo = document.getElementById('tipo').value;
     const assunto = document.getElementById('assunto').value.trim();
-    const link = document.getElementById('link').value.trim() || 'Não informado';
-    const mensagem = document.getElementById('mensagem').value.trim();
     const proteger = document.getElementById('proteger').checked ? 'SIM' : 'NÃO';
-    const body = [
-      'Tipo de contato: ' + tipo,
-      'Nome ou pseudônimo: ' + nome,
-      'E-mail para retorno: ' + retorno,
-      'Solicita preservação de identidade: ' + proteger,
-      'Link relacionado: ' + link,
-      '',
-      'Mensagem:',
-      mensagem
-    ].join('\n');
-    const url = 'mailto:canalclasseemassas@gmail.com?subject=' + encodeURIComponent('Classe e Massas — ' + tipo + ' — ' + assunto) + '&body=' + encodeURIComponent(body);
-    window.location.href = url;
+
+    protocolField.value = protocol;
+    document.getElementById('emailRetorno').value = retorno || 'Não informado';
+    document.getElementById('identidade').value = proteger;
+    document.getElementById('subjectField').value = 'Classe e Massas — ' + protocol + ' — ' + tipo + ' — ' + assunto;
+    document.getElementById('formUrl').value = window.location.href;
+    document.getElementById('nextUrl').value = window.location.origin + '/classe-e-massas/fale-conosco/recebido.html?protocolo=' + encodeURIComponent(protocol);
+    protocolPreview.textContent = 'Protocolo em preparação: ' + protocol;
   });
 </script>
 </body>
