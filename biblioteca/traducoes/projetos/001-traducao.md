@@ -35,10 +35,23 @@ A tradução será feita diretamente a partir das fontes documentais identificad
 **Original:** *La crisis mundial y el proletariado peruano*  
 **Data documental:** 15 de junho de 1923  
 **Fonte principal:** PE PEAJCM JCM-F-03-3-3.2-001-M — Archivo José Carlos Mariátegui  
-**Estado da unidade:** RASCUNHO v0.1 ABERTO  
+**Registro arquivístico:** https://archivo.mariategui.org/index.php/primera-conferencia-la-crisis-mundial-y-el-proletariado-peruano  
+**Estado da unidade:** RASCUNHO v0.1 EM ANDAMENTO  
 **Revisão humana:** PENDENTE
 
-> Tradução ainda não incorporada a este arquivo. A unidade foi aberta formalmente após a identificação da fonte primária, a criação do glossário inicial e a ativação do protocolo de revisão e versionamento.
+### Rascunho inicial — trecho 001
+
+> Nesta conferência — chamemo-la antes de conversa do que de conferência — vou me limitar a expor o programa do curso e, ao mesmo tempo, algumas considerações sobre a necessidade de difundir entre o proletariado o conhecimento da crise mundial. No Peru falta, infelizmente, uma imprensa digna que acompanhe, com atenção, inteligência e orientação ideológica, o desenvolvimento desta grande crise; faltam igualmente professores universitários, do tipo de José Ingenieros, capazes de se apaixonar pelas ideias de renovação que atualmente transformam o mundo e de se libertar da influência e dos preconceitos de uma cultura e de uma educação conservadoras e burguesas.
+
+**Situação do trecho:** tradução inicial assistida por IA; ainda não confrontada integralmente pelo responsável humano com o manuscrito/transcrição arquivística. **NÃO APROVADA.**
+
+### Pontos para revisão humana do trecho 001
+
+- avaliar “chamemo-la antes de conversa do que de conferência” como solução para *llamémosla conversación más bien que conferencia*;
+- avaliar “imprensa digna” para *prensa decente* no registro histórico de Mariátegui;
+- confirmar se *filiación ideológica* deve permanecer como “filiação ideológica” ou “orientação ideológica”;
+- conferir a pontuação diretamente no testemunho arquivístico;
+- verificar grafia e eventual nota para José Ingenieros.
 
 ---
 
@@ -51,4 +64,5 @@ A tradução será feita diretamente a partir das fontes documentais identificad
 - fonte primária identificada;
 - glossário inicial ativo;
 - protocolo de revisão humana e versionamento ativo;
-- nenhum texto traduzido aprovado nesta versão.
+- primeiro trecho de rascunho incorporado;
+- nenhuma passagem aprovada como versão final.
