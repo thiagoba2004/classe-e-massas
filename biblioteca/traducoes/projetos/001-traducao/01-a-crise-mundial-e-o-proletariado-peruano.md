@@ -6,7 +6,7 @@
 **Data documental:** 15 de junho de 1923  
 **Fonte principal identificada:** PE PEAJCM JCM-F-03-3-3.2-001-M — Archivo José Carlos Mariátegui  
 **Versão:** v0.1  
-**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–04 APROVADOS
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–05 APROVADOS
 
 ---
 
@@ -48,9 +48,9 @@ Aqui se conhece um pouco da literatura clássica do socialismo e do sindicalismo
 
 E essa revisão não é uma revisão imposta pelo capricho dos teóricos, mas pela força dos fatos. Essa literatura, por conseguinte, não pode ser utilizada hoje sem benefício de inventário.
 
-Não se trata, naturalmente, de que tenha deixado de ser correta em seus princípios, em suas bases, em tudo o que nela existe de ideal e de permanente; mas deixou de ser correta, muitas vezes, em suas inspirações táticas, em suas considerações históricas, em tudo o que significa ação, procedimento, meio de luta.
+Não se trata, naturalmente, de que tenha deixado de ser exata em seus princípios, em suas bases, em tudo o que nela existe de ideal e de eterno; mas deixou de ser exata, muitas vezes, em suas inspirações táticas, em suas considerações históricas, em tudo o que significa ação, procedimento, meio de luta.
 
-A meta dos trabalhadores continua sendo a mesma; o que mudou necessariamente, em razão dos últimos acontecimentos históricos, foram os caminhos escolhidos para chegar, ou ao menos aproximar-se, dessa meta ideal. Daí que o estudo desses acontecimentos históricos e de sua transcendência seja indispensável aos trabalhadores militantes nas organizações de classe.
+A meta dos trabalhadores continua sendo a mesma; o que mudou necessariamente, em razão dos últimos acontecimentos históricos, foram os caminhos escolhidos para chegar, ou ao menos aproximar-se, dessa meta ideal. Daí que o estudo desses acontecimentos históricos e de sua transcendência seja indispensável aos trabalhadores militantes nas organizações classistas.
 
 Vocês sabem, companheiros, que as forças proletárias europeias se encontram divididas em dois grandes campos: reformistas e revolucionários. Há uma Internacional Operária reformista, colaboracionista, evolucionista, e outra Internacional Operária maximalista, anticolaboracionista, revolucionária. Entre uma e outra tentou surgir uma Internacional intermediária, mas ela terminou por fazer causa comum com a primeira contra a segunda.
 
