@@ -36,7 +36,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Conferências com revisão humana concluída: 1/17.
 - Unidade concluída: Conferência 01 — *A crise mundial e o proletariado peruano*.
 - Unidade em revisão: Conferência 02 — *Literatura de guerra*.
-- Blocos aprovados na unidade atual: 1.
+- Blocos aprovados na unidade atual: 2.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -286,7 +286,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 ## 5. Conferência 02 — *Literatura de guerra*
 
 **Arquivo canônico:** `001-traducao/02-literatura-de-guerra.md`  
-**Estado:** EM REVISÃO — BLOCO 01 APROVADO.
+**Estado:** EM REVISÃO — BLOCOS 01–02 APROVADOS.
 
 ### Bloco 01 — abertura e causas econômicas
 
@@ -306,7 +306,25 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 
 **Commit que incorporou os ajustes no arquivo canônico:** `4a19d208f246cb6f4bf618ead876dc0801953a09`.
 
-### Bloco 02
+### Bloco 02 — a questão demográfica
+
+**Intervalo:** de “O fenômeno demográfico...” até “A Itália não podia permanecer neutra.”  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 14/09/2026.  
+**Fonte de confronto:** notas originais de Mariátegui para a segunda conferência, item arquivístico PE PEAJCM JCM-F-03-3-3.2-002-N — Archivo José Carlos Mariátegui.
+
+**Decisões humanas aprovadas:**
+
+1. `ocupa lugar importante` → `ocupa um lugar importante`, restaurando o artigo indefinido de `ocupa un puesto importante`;
+2. `Palavras de Adriano Tilgher, página 106...` → `Palavras de Adriano Tilgher: página 106...`, restaurando a pontuação do testemunho;
+3. `A Alemanha, isolada` → `A Alemanha, incomunicada`, preservando o vocábulo `incomunicada` do original.
+
+**Demais trechos do bloco:** mantidos sem alteração material.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `ef812d65b2d66d032483c97bf1095b183675e24c`.
+
+### Bloco 03
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
