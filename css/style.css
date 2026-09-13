@@ -25,25 +25,42 @@ footer{border-top:1px solid #222;padding:30px 24px;text-align:center;font:.75rem
 .button.secondary{background:transparent;color:#111}
 .button.secondary:hover,.button.secondary:focus-visible{background:#111;color:#fff}
 
-.library-main{max-width:980px}
+.library-main{max-width:1060px}
 .library-hero{padding-bottom:34px;border-bottom:8px solid #111;margin-bottom:42px}
-.library-intro{font-size:1.12rem;max-width:800px}
+.library-intro{font-size:1.12rem;max-width:850px}
 .library-note{border:1px solid #111;padding:18px 20px;margin:18px 0 0;font-size:.95rem}
 .library-section-title{margin-top:0}
-.theorist-list{margin-top:32px}
-.theorist-card{border-top:8px solid #111;padding:28px 0 38px;margin-bottom:46px}
+.library-load-status{font:800 .78rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.07em;padding:12px 0 14px;border-bottom:1px solid #aaa;margin-bottom:32px}
+.library-load-status.loaded{color:#333}
+.library-error{font:800 .9rem Arial,sans-serif;border-left:5px solid #111;padding:12px 14px}
+.theorist-list{margin-top:20px}
+.theorist-card{border-top:8px solid #111;padding:28px 0 42px;margin-bottom:46px}
 .theorist-heading{display:flex;align-items:flex-start;gap:18px;flex-wrap:wrap;margin-bottom:10px}
 .theorist-rank{font:900 .82rem Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;border:2px solid #111;padding:7px 10px;margin-top:9px;white-space:nowrap}
-.theorist-name{font-family:Georgia,'Times New Roman',serif;text-transform:none;font-size:3rem;line-height:1;margin:0}
-.theorist-summary{font-size:1.08rem;max-width:850px;margin-bottom:24px}
-.library-work{padding:22px 0;border-top:1px solid #aaa}
-.library-work.primary-work{border:2px solid #111;padding:22px 20px;margin:24px 0 8px;background:#fffdf8}
-.library-work h3{font-family:Georgia,'Times New Roman',serif;font-size:1.65rem;line-height:1.15;margin:.2em 0 .3em}
-.work-rank{font:900 .72rem Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px}
-.secondary-rank{font-weight:800;color:#444}
-.library-meta{font:.78rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.05em;margin-bottom:14px}
-.library-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
-.library-status{font:.76rem Arial,sans-serif;margin-top:12px;padding-top:10px;border-top:1px solid #aaa}
+.theorist-name{font-family:Georgia,'Times New Roman',serif;text-transform:none;font-size:3.15rem;line-height:1;margin:0}
+.theorist-summary{font-size:1.08rem;max-width:880px;margin-bottom:26px}
+.author-top10-heading{display:flex;justify-content:space-between;align-items:baseline;gap:18px;border-bottom:3px solid #111;padding-bottom:10px;margin:28px 0 0}
+.author-top10-note,.outside-top10-note{font:.82rem Arial,sans-serif;margin:0;color:#444}
+.work-ranking{list-style:none;margin:0;padding:0}
+.ranked-work{display:grid;grid-template-columns:minmax(150px,180px) minmax(0,1fr) auto;gap:18px;align-items:center;border-bottom:1px solid #aaa;padding:18px 0}
+.ranked-work.featured-work{border:2px solid #111;background:#fffdf8;padding:20px;margin:20px 0 8px}
+.ranked-work-number{font:900 .72rem Arial,sans-serif;letter-spacing:.075em;text-transform:uppercase;line-height:1.35}
+.featured-work .ranked-work-number{font-size:.76rem}
+.ranked-work-body{min-width:0}
+.ranked-work-title{font-family:Georgia,'Times New Roman',serif;font-size:1.5rem;line-height:1.14;margin:0 0 5px}
+.library-meta{font:.75rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.045em;line-height:1.45;margin:0}
+.ranked-work-actions{display:flex;flex-wrap:wrap;gap:7px;justify-content:flex-end;max-width:250px}
+.ranked-link{font-size:.68rem;padding:9px 11px;white-space:nowrap}
+.outside-top10{margin-top:32px;padding-top:20px;border-top:3px dashed #777}
+.outside-top10>.kicker{margin-bottom:4px}
+.outside-ranking{margin-top:10px}
+.outside-ranking .ranked-work{background:rgba(127,127,127,.045);padding-left:12px;padding-right:12px}
+
+@media(max-width:800px){
+  .ranked-work{grid-template-columns:125px minmax(0,1fr)}
+  .ranked-work-actions{grid-column:2;justify-content:flex-start;max-width:none}
+  .featured-work .ranked-work-actions{grid-column:2}
+}
 
 @media(max-width:700px){
   html{font-size:17px}
@@ -54,8 +71,14 @@ footer{border-top:1px solid #222;padding:30px 24px;text-align:center;font:.75rem
   .global-nav{justify-content:flex-start;width:100%;gap:4px}
   .global-nav a{padding:7px 8px}
   .theorist-heading{gap:10px}
-  .theorist-name{font-size:2.35rem}
+  .theorist-name{font-size:2.45rem}
   .theorist-rank{margin-top:4px}
-  .library-work.primary-work{padding:18px 15px}
-  .library-work h3{font-size:1.45rem}
+  .author-top10-heading{display:block}
+  .author-top10-note{margin-top:5px}
+  .ranked-work,.ranked-work.featured-work{display:block;padding:16px 0}
+  .ranked-work.featured-work{padding:17px 14px;margin-top:16px}
+  .ranked-work-number{margin-bottom:7px}
+  .ranked-work-title{font-size:1.34rem}
+  .ranked-work-actions{margin-top:10px;justify-content:flex-start;max-width:none}
+  .ranked-link{white-space:normal}
 }
