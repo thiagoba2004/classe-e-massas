@@ -34,7 +34,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Unidades do corpus: 17/17 persistidas.
 - Revisão humana integral: INICIADA.
 - Unidade em revisão: Conferência 01 — *A crise mundial e o proletariado peruano*.
-- Blocos aprovados nesta unidade: 5.
+- Blocos aprovados nesta unidade: 6.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -135,7 +135,27 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 
 **Commit que incorporou os ajustes no arquivo canônico:** `d6603bb5d62cb062f3c85d1f1f18bf54f74bf4c7`.
 
-### Bloco 06
+### Bloco 06 — das duas concepções da crise ao sindicalismo anterior à guerra
+
+**Intervalo:** de “Há, portanto, dois exércitos proletários...” até a passagem em que sindicalismo e socialismo aparecem solidários e mancomunados em alguns países.  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 13/09/2026.  
+**Fonte de confronto:** transcrição/manuscrito arquivístico principal e testemunhos de apoio registrados para a Conferência 01.
+
+**Decisões humanas aprovadas:**
+
+1. `duas interpretações diferentes da crise mundial` → `duas interpretações distintas da crise mundial`, preservando `dos interpretaciones distintas`;
+2. `ação legalista` → `ação legalitária`, preservando a forma histórica peculiar `acción legalitaria`; a solução foi também incorporada ao glossário canônico;
+3. manutenção de `No sindicalismo refugiaram-se...` no texto traduzido, com registro no aparato crítico da variante documental `socialismo [sindicalismo]`;
+4. `solidários e associados` → `solidários e mancomunados`, preservando `solidarios y mancomunados`.
+
+**Demais trechos do bloco:** mantidos sem alteração material.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva; a variante `socialismo [sindicalismo]` deverá constar do aparato crítico da edição.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `14cfa60323cb616c997436297506f9a334d33599`.
+**Commit que registrou `ação legalitária` no glossário:** `3ac17172d4f1bc42d64f1336cddc80978e669aeb`.
+
+### Bloco 07
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
