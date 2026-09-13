@@ -1,72 +1,95 @@
-# TCM-001 — Protocolo de Revisão Humana e Versionamento
+# TCM-001 — Protocolo de Tradução Integral, Revisão Humana e Versionamento
 
 **Projeto:** História da Crise Mundial — Curso de Conferências (1923–1924)  
-**Versão:** 1.0  
+**Versão:** 1.1  
 **Data:** 13 de setembro de 2026  
-**Status:** ATIVO
+**Status:** ATIVO  
+**Regra operacional aprovada:** **TRADUZIR TODO O CORPUS PRIMEIRO; REVISAR E APROVAR INTEGRALMENTE DEPOIS**
 
 ---
 
-## 1. Responsabilidade humana
+## 1. Decisão editorial
 
-A revisão humana final de cada unidade será responsabilidade do **Editor Responsável do Classe e Massas**.
+O TCM-001 não será interrompido para aprovação humana de cada conferência, seção ou decisão terminológica intermediária.
 
-A função é humana e não pode ser delegada integralmente a inteligência artificial. Antes de uma unidade ser publicada como tradução revisada, o responsável deverá:
+A inteligência artificial produzirá uma **tradução integral de trabalho de todo o corpus elegível**, em português do Brasil. Dúvidas, alternativas, leituras problemáticas e decisões terminológicas permanecerão registradas no glossário e nas notas de trabalho, mas **não bloquearão o avanço para as unidades seguintes**.
 
-1. confrontar o texto traduzido com o original espanhol adotado como fonte;
-2. verificar termos do glossário e justificar exceções;
+Somente depois de concluída a tradução de todas as unidades previstas será aberta a etapa de **REVISÃO HUMANA INTEGRAL**.
+
+## 2. Responsabilidade humana
+
+A aprovação editorial final do conjunto será responsabilidade do **Editor Responsável do Classe e Massas**.
+
+A função é humana e não pode ser delegada integralmente à inteligência artificial. Na etapa de revisão integral, o responsável deverá:
+
+1. confrontar a tradução completa com os originais espanhóis adotados como fonte;
+2. verificar a aplicação do glossário e decidir as alternativas ainda abertas;
 3. conferir nomes próprios, datas, citações, instituições e referências históricas;
 4. revisar fluência e correção do português do Brasil sem reescrever o pensamento do autor;
 5. validar notas do tradutor e notas editoriais;
-6. confirmar que nenhuma lacuna foi preenchida por inferência;
-7. registrar aprovação explícita da versão.
+6. confirmar que nenhuma lacuna documental foi preenchida por inferência;
+7. verificar a correta distinção entre texto autoral, notas do autor e documentos de terceiros;
+8. registrar uma aprovação explícita da **obra como conjunto**.
 
-A identificação nominal do revisor deverá constar nos metadados antes da publicação de uma versão pública final. Enquanto o nome não estiver registrado, versões de trabalho poderão existir no repositório, mas permanecerão marcadas como **NÃO APROVADAS PARA PUBLICAÇÃO COMO EDIÇÃO REVISADA**.
+A identificação nominal do revisor deverá constar nos metadados antes da publicação da versão pública v1.0. Enquanto a aprovação integral não estiver registrada, todo o texto permanecerá marcado como **RASCUNHO INTEGRAL — NÃO APROVADO PARA PUBLICAÇÃO COMO EDIÇÃO REVISADA**.
 
-## 2. Papel da inteligência artificial
+## 3. Papel da inteligência artificial
 
-A IA poderá auxiliar em:
+A IA poderá:
 
-- rascunho inicial de tradução;
-- comparação frase a frase;
-- consistência terminológica;
-- levantamento de variantes;
-- revisão ortográfica e estilística;
-- detecção de omissões ou repetições.
+- produzir o rascunho integral da tradução;
+- avançar por todas as conferências sem aguardar aprovação intermediária;
+- comparar passagens com o original;
+- manter consistência terminológica;
+- registrar alternativas de tradução;
+- detectar omissões, repetições e possíveis erros de transcrição;
+- realizar revisão ortográfica e estilística preliminar;
+- preparar o texto completo para a revisão humana.
 
 A IA não poderá:
 
 - aprovar a versão final;
 - inventar trechos ausentes;
+- transformar notas esquemáticas em discursos completos;
 - resolver silenciosamente leitura duvidosa de manuscrito;
-- substituir decisão editorial em divergência textual;
 - atribuir a Mariátegui texto de terceiro;
-- remover ambiguidades reais do original sem registro.
+- copiar traduções contemporâneas protegidas;
+- apresentar o rascunho como edição revisada antes da aprovação humana integral.
 
-## 3. Estados de cada unidade
+## 4. Unidade de revisão
 
-Cada conferência ou documento traduzido deverá usar um dos estados:
+A **unidade de produção** continua sendo cada conferência ou documento, para permitir rastreabilidade documental.
 
-- **FONTE IDENTIFICADA** — testemunho textual definido;
-- **RASCUNHO v0.x** — tradução inicial em andamento;
-- **CONFRONTO COM ORIGINAL** — comparação integral linha a linha;
-- **REVISÃO TERMINOLÓGICA** — glossário e conceitos revisados;
-- **REVISÃO DE PORTUGUÊS** — forma brasileira revisada;
-- **REVISÃO HUMANA FINAL** — responsável humano conferindo a versão candidata;
-- **APROVADA** — versão liberada para publicação;
-- **PUBLICADA** — versão disponível na edição pública.
+A **unidade de aprovação**, porém, é a obra completa do TCM-001.
 
-## 4. Numeração de versões
+Isso significa que cada unidade poderá ter internamente estados de progresso, mas nenhuma delas precisa ser submetida ao Editor Responsável antes de a tradução integral estar concluída.
+
+## 5. Estados do projeto
+
+O fluxo do projeto passa a ser:
+
+- **EM TRADUÇÃO — RASCUNHO PARCIAL** — nem todas as unidades foram traduzidas;
+- **RASCUNHO INTEGRAL v0.1** — todas as unidades previstas foram traduzidas, com lacunas documentais corretamente identificadas;
+- **CONFRONTO INTEGRAL COM OS ORIGINAIS** — comparação sistemática do conjunto;
+- **REVISÃO TERMINOLÓGICA INTEGRAL** — glossário e conceitos harmonizados;
+- **REVISÃO DE PORTUGUÊS INTEGRAL** — forma brasileira revisada;
+- **REVISÃO HUMANA INTEGRAL** — responsável humano examina a obra completa;
+- **CANDIDATO À PUBLICAÇÃO v1.0** — revisão humana encerrada e ajustes finais incorporados;
+- **APROVADA v1.0** — aprovação explícita registrada;
+- **PUBLICADA v1.0** — edição pública disponível.
+
+## 6. Numeração de versões
 
 ### v0.x — trabalho interno
 
-- v0.1: primeiro rascunho integral da unidade;
-- v0.2, v0.3...: revisões de confronto, terminologia e português;
+- **v0.1 parcial:** tradução em andamento;
+- **v0.1 integral:** primeiro rascunho que contém todas as unidades previstas;
+- **v0.2, v0.3...:** confronto, harmonização terminológica e revisão linguística do conjunto;
 - nenhuma versão v0.x será apresentada como edição final.
 
-### v1.0 — primeira versão pública revisada
+### v1.0 — primeira versão pública integral revisada
 
-Só poderá ser criada quando a revisão humana final estiver registrada.
+Somente poderá ser criada depois da revisão humana integral e da aprovação explícita do conjunto.
 
 ### v1.x — correções
 
@@ -76,26 +99,45 @@ Correções posteriores que não alterem substancialmente o texto-base ou o mét
 
 Usar quando houver novo testemunho textual, alteração importante do texto-base ou retradução substancial.
 
-## 5. Registro mínimo de aprovação
+## 7. Registro mínimo de aprovação integral
 
-Antes da publicação, os metadados da unidade deverão conter:
+Antes da publicação, os metadados gerais do projeto deverão conter:
 
 ```json
 {
-  "revisao_humana": {
+  "revisao_humana_integral": {
     "responsavel": "NOME DO RESPONSÁVEL HUMANO",
     "data": "AAAA-MM-DD",
     "versao_aprovada": "v1.0",
+    "escopo": "obra completa",
     "aprovada": true
   }
 }
 ```
 
-Sem `aprovada: true`, nenhuma automação ou página deverá rotular o texto como versão revisada ou definitiva.
+Sem `aprovada: true`, nenhuma automação ou página deverá rotular o texto como versão revisada, definitiva ou integralmente aprovada.
 
-## 6. Registro de alterações
+## 8. Tratamento das dúvidas durante a tradução
 
-Toda mudança material deverá ser rastreável por Git e, a partir da v1.0, por um histórico editorial contendo:
+Uma dúvida de tradução não interromperá o fluxo. Ela deverá ser registrada com uma das etiquetas:
+
+- **[DECISÃO PROVISÓRIA]** — solução adotada provisoriamente;
+- **[ALTERNATIVA]** — outra solução plausível;
+- **[LEITURA DUVIDOSA]** — incerteza do testemunho textual;
+- **[N. do T.]** — explicação necessária do tradutor;
+- **[LACUNA DOCUMENTAL]** — ausência efetiva no corpus.
+
+Na revisão humana integral, todas as marcações pendentes deverão ser resolvidas ou mantidas de forma editorialmente justificada.
+
+## 9. Materiais de terceiro
+
+Documentos de imprensa ou de terceiros necessários para representar unidades sem texto autoral integral poderão ser traduzidos quando juridicamente elegíveis, mas sempre em seção e rotulagem próprias.
+
+Nunca serão fundidos ao texto de Mariátegui nem apresentados como palavras do autor.
+
+## 10. Registro de alterações
+
+Toda mudança material continuará rastreável por Git. A partir da v1.0, haverá histórico editorial contendo:
 
 - versão anterior;
 - versão nova;
@@ -104,20 +146,12 @@ Toda mudança material deverá ser rastreável por Git e, a partir da v1.0, por 
 - natureza da alteração;
 - trechos ou critérios afetados.
 
-## 7. Publicação por unidades
+## 11. Publicação
 
-O projeto poderá publicar conferências individualmente depois de aprovadas, mas a obra completa somente receberá o selo **TRADUÇÃO INTEGRAL v1.0** quando todas as unidades previstas estiverem concluídas e quando lacunas documentais estiverem claramente identificadas.
+Durante a fase de tradução, o site público poderá informar apenas o **estado e o progresso do projeto**. O rascunho integral não será apresentado como edição aprovada.
 
-## 8. Bloqueio editorial
-
-A existência de um rascunho no repositório não equivale a aprovação editorial. O HTML público deverá distinguir de forma visível:
-
-- tradução em desenvolvimento;
-- versão revisada;
-- documento incompleto;
-- nota ou fragmento autoral;
-- material de terceiro.
+A publicação textual da obra como edição das Traduções Classe e Massas ocorrerá somente depois da aprovação humana integral.
 
 ---
 
-**Regra final:** nenhuma velocidade de produção, inclusive com IA, substitui o ato humano de confrontar a tradução com o original e assumir responsabilidade editorial pela versão publicada.
+**Regra final aprovada:** primeiro traduzir integralmente; depois confrontar, revisar e aprovar integralmente. A revisão humana permanece obrigatória, mas deixa de funcionar como barreira entre uma conferência e outra.
