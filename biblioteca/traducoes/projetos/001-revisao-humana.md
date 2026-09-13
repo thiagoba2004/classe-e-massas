@@ -34,7 +34,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Unidades do corpus: 17/17 persistidas.
 - Revisão humana integral: INICIADA.
 - Unidade em revisão: Conferência 01 — *A crise mundial e o proletariado peruano*.
-- Blocos aprovados nesta unidade: 9.
+- Blocos aprovados nesta unidade: 10.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -216,7 +216,29 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 
 **Commit que incorporou os ajustes no arquivo canônico:** `5c4b9adf8010c9581cb49785f6dc300523e8bd69`.
 
-### Bloco 10
+### Bloco 10 — da crise ideológica à necessidade de governar na escassez
+
+**Intervalo:** de “A crise mundial é, portanto, crise econômica e crise política.” até “...numa época de pobreza, miséria e escassez.”  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 13/09/2026.  
+**Fonte de confronto:** transcrição/manuscrito arquivístico principal.
+
+**Decisões humanas aprovadas:**
+
+1. `uma corrente de ceticismo e relativismo` → `uma corrente de ceticismo, de relativismo`, preservando a repetição preposicional de `una corriente de escepticismo, de relativismo`;
+2. `Ao proletariado estava destinado criar` → `O proletariado estava destinado a criar`, naturalizando a sintaxe em português sem alterar o sentido;
+3. `um novo tipo de civilização e cultura` → `um tipo novo de civilização e cultura`, preservando a ordem de `un tipo nuevo`;
+4. `seria` / `se encontraria` → `iria ser` / `iria encontrar-se`, preservando a construção oral `iba a ser` / `iba a encontrarse`;
+5. `abundância` → `pletora`, preservando o vocábulo espanhol `plétora` com a grafia correta em português, sem acento gráfico.
+
+**Observação editorial:** durante a decisão humana, foi explicitamente corrigida a grafia proposta inicialmente pela IA: em português, adotou-se `pletora`, sem acento, e não a forma espanhola `plétora`.
+
+**Demais trechos do bloco:** mantidos sem alteração material.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `0764f7f62aec6b6b209b6e3d0b277afc30484e1b`.
+
+### Bloco 11
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
