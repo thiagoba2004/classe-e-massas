@@ -34,13 +34,14 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Unidades do corpus: 17/17 persistidas.
 - Revisão humana integral: INICIADA.
 - Unidade em revisão: Conferência 01 — *A crise mundial e o proletariado peruano*.
-- Blocos aprovados nesta unidade: 6.
+- Blocos aprovados nesta unidade: 7.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
 
 **Arquivo canônico:** `001-traducao/01-a-crise-mundial-e-o-proletariado-peruano.md`  
 **Fonte principal:** PE PEAJCM JCM-F-03-3-3.2-001-M — Archivo José Carlos Mariátegui  
+**Aparato crítico:** `001-aparato-critico.md`  
 **Estado:** EM REVISÃO
 
 ### Bloco 01 — abertura da conferência
@@ -57,7 +58,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 
 **Demais trechos do bloco:** mantidos sem alteração material.
 
-**Pendências deste bloco:** nenhuma pendência impeditiva; a variante `docente/decente` deverá permanecer documentada no aparato editorial da edição.
+**Pendências deste bloco:** nenhuma pendência impeditiva; a variante `docente/decente` está registrada no aparato crítico como `AC-01`.
 
 **Commit que incorporou os ajustes no arquivo canônico:** `f7fedec631346f48139f6df7432c5e972ce16a4e`.
 
@@ -150,12 +151,32 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 
 **Demais trechos do bloco:** mantidos sem alteração material.
 
-**Pendências deste bloco:** nenhuma pendência impeditiva; a variante `socialismo [sindicalismo]` deverá constar do aparato crítico da edição.
+**Pendências deste bloco:** nenhuma pendência impeditiva; a variante `socialismo [sindicalismo]` está registrada no aparato crítico como `AC-02`.
 
-**Commit que incorporou os ajustes no arquivo canônico:** `14cfa60323cb616c997436297506f9a334d33599`.
+**Commit que incorporou os ajustes no arquivo canônico:** `14cfa60323cb616c997436297506f9a334d33599`.  
 **Commit que registrou `ação legalitária` no glossário:** `3ac17172d4f1bc42d64f1336cddc80978e669aeb`.
 
-### Bloco 07
+### Bloco 07 — da cisão pós-guerra ao “confusionismo”
+
+**Intervalo:** da passagem sobre a mudança do campo proletário depois da guerra até “E estou convencido do próximo ocaso de todas as teses social-democratas, de todas as teses reformistas, de todas as teses evolucionistas.”  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 13/09/2026.  
+**Fonte de confronto:** transcrição/manuscrito arquivístico principal e edição póstuma posterior como testemunho de variante.
+
+**Decisões humanas aprovadas:**
+
+1. correção da passagem de Fonkén, substituindo a leitura em que Mariátegui seria o sujeito de `recordava` pela leitura documental primária em que `o companheiro Fonkén` é o sujeito: `como recordava não faz muito, numa conversa, o companheiro Fonkén`;
+2. registro no aparato crítico da variante `el compañero Fonkén` / `al compañero Fonkén`, sem apagar a divergência entre o testemunho arquivístico e a edição póstuma;
+3. `em suas grandes linhas` → `em seus grandes lineamentos`, preservando `en sus grandes lineamientos`;
+4. `a confusão é inevitável` → `o confusionismo é inevitável`, preservando o substantivo `confusionismo` do original.
+
+**Demais trechos do bloco:** mantidos sem alteração material.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva; a variante `el/al compañero Fonkén` está registrada no aparato crítico como `AC-03`.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `223e77a4b5f31c9460cbeab3ff95eec8c2fd5941`.  
+**Commit de criação do aparato crítico com as variantes já aprovadas:** `d5b018503b745ffa733331614b4eb57f5fc18ace`.
+
+### Bloco 08
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
