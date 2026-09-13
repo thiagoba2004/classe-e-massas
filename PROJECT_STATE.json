@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "project": "Classe e Massas",
+  "updated_at": "2026-09-13",
+  "purpose": "Fonte estruturada de continuidade entre conversas, modelos de IA e sessões de trabalho. Não substitui os documentos específicos de cada frente; aponta o estado mais avançado comprovado e a próxima etapa.",
+  "rules": {
+    "authoritative_order": [
+      "arquivo canônico específico",
+      "manifesto/status específico",
+      "histórico Git comprovado",
+      "PROJECT_STATE.json",
+      "contexto de conversa"
+    ],
+    "no_regression": true,
+    "recover_before_rebuild": true,
+    "chat_only_work_is_not_persisted": true
+  },
+  "active_items": [
+    {
+      "id": "TCM-001",
+      "area": "Biblioteca / Traduções Classe e Massas",
+      "title": "História da Crise Mundial — Curso de Conferências (1923–1924)",
+      "author": "José Carlos Mariátegui",
+      "content_status": "RASCUNHO INTEGRAL v0.1",
+      "translation_status": "TRADUÇÃO INTEGRAL DE TRABALHO CONCLUÍDA",
+      "persistence_status": "PERSISTIDO E VERSIONADO NO GITHUB",
+      "review_status": "REVISÃO HUMANA INTEGRAL PENDENTE",
+      "canonical_manifest": "biblioteca/traducoes/projetos/001-traducao.md",
+      "canonical_metadata": "biblioteca/traducoes/projetos/001-historia-da-crise-mundial.json",
+      "corpus_directory": "biblioteca/traducoes/projetos/001-traducao/",
+      "units_expected": 17,
+      "units_persisted": 17,
+      "last_verified_milestone_commit": "a49f0e1cb487d3319893cef085c1f26acd08cd78",
+      "last_verified_milestone_message": "Publica status de rascunho integral do TCM-001",
+      "next_step": "REVISÃO HUMANA INTEGRAL",
+      "do_not_do": [
+        "não reiniciar a tradução",
+        "não rebaixar o projeto para ELEGÍVEL ou EM TRADUÇÃO",
+        "não apresentar v0.1 como edição humana revisada"
+      ]
+    }
+  ],
+  "continuity": {
+    "agents_protocol": "AGENTS.md",
+    "checkpoint_tool": "tools/salvar-checkpoint.sh",
+    "checkpoint_policy": "salvar unidade lógica antes de avançar; marcos críticos devem chegar ao remoto e ser verificados"
+  }
+}
