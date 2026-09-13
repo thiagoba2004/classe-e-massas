@@ -6,7 +6,7 @@
 **Data documental:** 15 de junho de 1923  
 **Fonte principal identificada:** PE PEAJCM JCM-F-03-3-3.2-001-M — Archivo José Carlos Mariátegui  
 **Versão:** v0.1  
-**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–06 APROVADOS
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–07 APROVADOS
 
 ---
 
@@ -74,11 +74,11 @@ A esse período da luta social corresponde quase integralmente a literatura revo
 
 Uma parte do socialismo afirmou-se em sua orientação social-democrata, colaboracionista; a outra parte seguiu uma orientação anticolaboracionista, revolucionária. E é essa parte do socialismo que, para diferenciar-se nitidamente da primeira, adotou o nome de comunismo. A divisão produziu-se também, da mesma forma, no campo sindicalista. Uma parte dos sindicatos apoia os social-democratas; a outra parte apoia os comunistas.
 
-O aspecto da luta social europeia mudou, portanto, radicalmente. Vimos muitos sindicalistas intransigentes de antes da guerra tomar o rumo do reformismo. Vimos, em contrapartida, outros seguir o comunismo. E entre estes se contou, nada menos, como eu recordava não faz muito numa conversa ao companheiro Fonkén, o maior e mais ilustre teórico do sindicalismo: o francês Georges Sorel.
+O aspecto da luta social europeia mudou, portanto, radicalmente. Vimos muitos sindicalistas intransigentes de antes da guerra tomar o rumo do reformismo. Vimos, em contrapartida, outros seguir o comunismo. E entre estes se contou, nada menos, como recordava não faz muito, numa conversa, o companheiro Fonkén, o maior e mais ilustre teórico do sindicalismo: o francês Georges Sorel.
 
 Sorel, cuja morte foi um luto amargo para o proletariado e para a intelectualidade da França, deu toda a sua adesão à Revolução Russa e aos homens da Revolução Russa. Aqui, como na Europa, os proletários precisam, portanto, dividir-se não em sindicalistas e socialistas — classificação anacrônica —, mas em colaboracionistas e anticolaboracionistas, em reformistas e maximalistas.
 
-Mas, para que essa classificação se produza com nitidez e coerência, é indispensável que o proletariado conheça e compreenda, em suas grandes linhas, a grande crise contemporânea. De outra maneira, a confusão é inevitável. Partilho da opinião dos que acreditam que a humanidade vive um período revolucionário. E estou convencido do próximo ocaso de todas as teses social-democratas, de todas as teses reformistas, de todas as teses evolucionistas.
+Mas, para que essa classificação se produza com nitidez e coerência, é indispensável que o proletariado conheça e compreenda, em seus grandes lineamentos, a grande crise contemporânea. De outra maneira, o confusionismo é inevitável. Partilho da opinião dos que acreditam que a humanidade vive um período revolucionário. E estou convencido do próximo ocaso de todas as teses social-democratas, de todas as teses reformistas, de todas as teses evolucionistas.
 
 Antes da guerra, essas teses eram explicáveis porque correspondiam a condições históricas diferentes. O capitalismo estava em seu apogeu. A produção era superabundante. O capitalismo podia dar-se ao luxo de fazer sucessivas concessões econômicas ao proletariado. E suas margens de lucro eram tais que foi possível a formação de uma numerosa classe média, de uma numerosa pequena burguesia que desfrutava de um padrão de vida cômodo e confortável.
 
