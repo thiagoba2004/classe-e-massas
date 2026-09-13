@@ -36,7 +36,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Conferências com revisão humana concluída: 1/17.
 - Unidade concluída: Conferência 01 — *A crise mundial e o proletariado peruano*.
 - Unidade em revisão: Conferência 02 — *Literatura de guerra*.
-- Blocos aprovados na unidade atual: 3.
+- Blocos aprovados na unidade atual: 4.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -286,7 +286,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 ## 5. Conferência 02 — *Literatura de guerra*
 
 **Arquivo canônico:** `001-traducao/02-literatura-de-guerra.md`  
-**Estado:** EM REVISÃO — BLOCOS 01–03 APROVADOS.
+**Estado:** EM REVISÃO — BLOCOS 01–04 APROVADOS.
 
 ### Bloco 01 — abertura e causas econômicas
 
@@ -342,7 +342,27 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 
 **Commit que incorporou os ajustes no arquivo canônico:** `3bf1be50dc0ccca9197706492c52741078343f90`.
 
-### Bloco 04
+### Bloco 04 — nacionalismo, paz armada e causa diplomática
+
+**Intervalo:** de “Outra causa: o revanchismo francês...” até “Palavras de Viviani a Rapoport: página 33 do livro deste último.”  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 13/09/2026.  
+**Fonte de confronto:** notas originais de Mariátegui para a segunda conferência e tradição textual de apoio para a passagem da paz armada.
+
+**Decisões humanas aprovadas:**
+
+1. `A Alemanha se sentia despojada` → `A Alemanha se sentia despossuída`, aproximando a tradução de `Alemania se sentía desposeída`;
+2. `A guerra poderia ter explodido antes` → `A guerra poderia ter eclodido antes`, adotando uma formulação natural no português do Brasil para `La guerra ha podido estallar antes`;
+3. restauração da forma esquemática das notas, separando em duas unidades: `A guerra poderia ter eclodido antes. Por ocasião da guerra russo-japonesa e do incidente de Agadir de 1912.`
+
+**Observação editorial:** a formulação inicialmente proposta pela IA — `A guerra pôde ter explodido antes` — foi rejeitada pelo Editor Responsável por não fluir naturalmente no português do Brasil. A solução aprovada preserva o valor modal por meio de `poderia ter` e emprega `eclodido` para a irrupção da guerra.
+
+**Demais trechos do bloco:** mantidos sem alteração material, inclusive `Deutschland über alles` e `Caillaux`.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `7b76a54453c46e9b554d3716be9684243b2cba7d`.
+
+### Bloco 05
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
