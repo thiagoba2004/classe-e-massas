@@ -1,0 +1,147 @@
+{
+  "projeto": "Classe e Massas",
+  "colecao": "Biblioteca Revolucionária",
+  "versao": "1.0",
+  "data": "2026-09-13",
+  "status": "ranking editorial inicial e revisável",
+  "criterios": [
+    "impacto teórico",
+    "impacto histórico e político",
+    "influência internacional",
+    "centralidade para compreender o pensamento do autor",
+    "permanência do escrito como referência"
+  ],
+  "nota": "Os números expressam um ranking editorial do Classe e Massas e não uma classificação acadêmica universal. Não correspondem à ordem de inclusão no site.",
+  "teoricos": [
+    {
+      "ranking": 1,
+      "nome": "Karl Marx",
+      "resumo": "Fundador, com Engels, do materialismo histórico e da crítica científica do modo de produção capitalista. Sua obra redefiniu a compreensão moderna das classes, do capital, do Estado, da luta de classes e da emancipação proletária.",
+      "top10": [
+        {"ranking":1,"titulo":"O Capital — Livro I","ano":"1867","tema":"Crítica da economia política","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1867/capital/livro1/index.htm"}]},
+        {"ranking":2,"titulo":"Manifesto do Partido Comunista","ano":"1848","tema":"Programa comunista e luta de classes","coautoria":"Friedrich Engels","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1848/ManifestoDoPartidoComunista/index.htm"}]},
+        {"ranking":3,"titulo":"A Ideologia Alemã — capítulo sobre Feuerbach","ano":"1845–1846","tema":"Concepção materialista da história","coautoria":"Friedrich Engels","links":[{"rotulo":"Capítulo em português","url":"https://www.marxists.org/portugues/marx/1845/ideologia-alema-oe/index.htm"}]},
+        {"ranking":4,"titulo":"O 18 de Brumário de Louis Bonaparte","ano":"1852","tema":"Classes, Estado e luta política","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1852/brumario/index.htm"}]},
+        {"ranking":5,"titulo":"Manuscritos Econômico-Filosóficos de 1844","ano":"1844","tema":"Trabalho, alienação e propriedade","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1844/manuscritos/index.htm"}]},
+        {"ranking":6,"titulo":"Crítica do Programa de Gotha","ano":"1875","tema":"Programa, transição e comunismo","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1875/gotha/index.htm"}]},
+        {"ranking":7,"titulo":"A Guerra Civil em França","ano":"1871","tema":"Comuna de Paris e poder proletário","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1871/guerra_civil/index.htm"}]},
+        {"ranking":8,"titulo":"Teses sobre Feuerbach","ano":"1845","tema":"Materialismo, práxis e transformação","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1845/tesfeuer.htm"}]},
+        {"ranking":9,"titulo":"Salário, Preço e Lucro","ano":"1865","tema":"Salários, valor, mais-valia e luta econômica","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1865/salario/index.htm"}]},
+        {"ranking":10,"titulo":"Estatutos Gerais da Associação Internacional dos Trabalhadores","ano":"1864 / 1871","tema":"Organização internacional e autoemancipação","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1871/10/24.htm"}]}
+      ],
+      "outros_ranqueados": []
+    },
+    {
+      "ranking": 2,
+      "nome": "V. I. Lenin",
+      "resumo": "Desenvolveu o marxismo para as condições do imperialismo e da revolução proletária, articulando teoria do Estado, partido revolucionário, estratégia, organização e tomada do poder.",
+      "top10": [
+        {"ranking":1,"titulo":"O Estado e a Revolução","ano":"1917","tema":"Estado, poder e revolução","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/lenin/1917/08/estadoerevolucao/index.htm"}]},
+        {"ranking":2,"titulo":"Que Fazer?","ano":"1902","tema":"Partido, consciência e organização revolucionária","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/lenin/1902/quefazer/index.htm"}]},
+        {"ranking":3,"titulo":"O Imperialismo, Fase Superior do Capitalismo","ano":"1916","tema":"Capital monopolista e imperialismo","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/lenin/1916/imperialismo/index.htm"}]},
+        {"ranking":4,"titulo":"Teses de Abril — Sobre as Tarefas do Proletariado na Presente Revolução","ano":"1917","tema":"Estratégia da Revolução Russa","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/lenin/1917/04/04_teses.htm"}]},
+        {"ranking":5,"titulo":"A Doença Infantil do ‘Esquerdismo’ no Comunismo","ano":"1920","tema":"Estratégia, tática e partido","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/lenin/1920/esquerdismo/index.htm"}]},
+        {"ranking":6,"titulo":"Duas Táticas da Social-Democracia na Revolução Democrática","ano":"1905","tema":"Revolução democrática e hegemonia proletária","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/lenin/1905/taticas/index.htm"}]},
+        {"ranking":7,"titulo":"Um Passo em Frente, Dois Passos Atrás","ano":"1904","tema":"Partido e organização","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/lenin/1904/passo/index.htm"}]},
+        {"ranking":8,"titulo":"A Revolução Proletária e o Renegado Kautsky","ano":"1918","tema":"Ditadura do proletariado e democracia","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/lenin/1918/renegado/index.htm"}]},
+        {"ranking":9,"titulo":"Materialismo e Empirocriticismo","ano":"1909","tema":"Filosofia materialista e teoria do conhecimento","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/lenin/1909/empiro/index.htm"}]},
+        {"ranking":10,"titulo":"O Desenvolvimento do Capitalismo na Rússia","ano":"1899","tema":"Formação do capitalismo e estrutura de classes na Rússia","links":[{"rotulo":"Versão integral em inglês","url":"https://www.marxists.org/archive/lenin/works/1899/devel/index.htm"}]}
+      ],
+      "outros_ranqueados": [
+        {"ranking":12,"titulo":"Liberdade para Criticar e Unidade de Ação","ano":"1906","tema":"Centralismo democrático","links":[{"rotulo":"Português do Brasil","url":"https://www.marxists.org/portugues/lenin/1906/05/20.htm"}]}
+      ]
+    },
+    {
+      "ranking": 3,
+      "nome": "Friedrich Engels",
+      "resumo": "Cofundador do marxismo, colaborador decisivo de Marx e responsável por sistematizar, desenvolver e difundir aspectos centrais da filosofia, da história, da economia e da estratégia socialista.",
+      "top10": [
+        {"ranking":1,"titulo":"Anti-Dühring","ano":"1877–1878","tema":"Filosofia, economia e socialismo","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1877/antiduhring/index.htm"}]},
+        {"ranking":2,"titulo":"Do Socialismo Utópico ao Socialismo Científico","ano":"1880","tema":"Socialismo científico","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1880/socialismo/index.htm"}]},
+        {"ranking":3,"titulo":"A Origem da Família, da Propriedade Privada e do Estado","ano":"1884","tema":"Família, propriedade, classes e Estado","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1884/origem/index.htm"}]},
+        {"ranking":4,"titulo":"A Condição da Classe Operária na Inglaterra","ano":"1845","tema":"Proletariado, industrialização e condições de vida","links":[{"rotulo":"Versão integral em inglês","url":"https://www.marxists.org/archive/marx/works/1845/condition-working-class/"}]},
+        {"ranking":5,"titulo":"Ludwig Feuerbach e o Fim da Filosofia Clássica Alemã","ano":"1886","tema":"Materialismo, dialética e história da filosofia","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1886/mes/fim.htm"}]},
+        {"ranking":6,"titulo":"A Dialética da Natureza","ano":"1872–1882","tema":"Dialética, ciência e natureza","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1882/dialetica/index.htm"}]},
+        {"ranking":7,"titulo":"Princípios Básicos do Comunismo","ano":"1847","tema":"Programa e concepção comunista","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1847/11/principios.htm"}]},
+        {"ranking":8,"titulo":"Sobre a Autoridade","ano":"1872–1873","tema":"Organização, coordenação e autoridade","links":[{"rotulo":"Português do Brasil","url":"https://www.marxists.org/portugues/marx/1873/03/autoridade-pt.htm"}]},
+        {"ranking":9,"titulo":"As Guerras Camponesas na Alemanha","ano":"1850","tema":"Classes, religião e revolução camponesa","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1850/guerras/index.htm"}]},
+        {"ranking":10,"titulo":"Para a Questão da Habitação","ano":"1872–1873","tema":"Habitação, propriedade e capitalismo","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/marx/1873/habita/index.htm"}]}
+      ],
+      "outros_ranqueados": []
+    },
+    {
+      "ranking": 4,
+      "nome": "Mao Zedong",
+      "resumo": "Dirigente central da Revolução Chinesa e formulador de contribuições sobre contradição, guerra popular, linha de massas, partido, revolução camponesa e estratégia revolucionária em sociedades periféricas.",
+      "top10": [
+        {"ranking":1,"titulo":"Sobre a Contradição","ano":"1937","tema":"Dialética materialista","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/mao/1937/08/contra.htm"}]},
+        {"ranking":2,"titulo":"Sobre a Prática","ano":"1937","tema":"Conhecimento, prática e teoria","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/mao/1937/07/pratica.htm"}]},
+        {"ranking":3,"titulo":"Sobre a Guerra Prolongada","ano":"1938","tema":"Estratégia militar e guerra popular","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/mao/1938/05/prolongada.htm"}]},
+        {"ranking":4,"titulo":"Relatório sobre uma Investigação Feita no Hunan a Respeito do Movimento Camponês","ano":"1927","tema":"Campesinato e revolução","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/mao/1927/03/hunan.htm"}]},
+        {"ranking":5,"titulo":"Sobre a Democracia Nova","ano":"1940","tema":"Revolução democrática e transição","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/mao/1940/01/democracia.htm"}]},
+        {"ranking":6,"titulo":"Sobre o Tratamento Correto das Contradições no Seio do Povo","ano":"1957","tema":"Contradições sociais sob o socialismo","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/mao/1957/02/27.htm"}]},
+        {"ranking":7,"titulo":"Problemas Estratégicos da Guerra Revolucionária na China","ano":"1936","tema":"Estratégia revolucionária e guerra","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/mao/1936/guerra/index.htm"}]},
+        {"ranking":8,"titulo":"Análise das Classes na Sociedade Chinesa","ano":"1926","tema":"Classes e alianças revolucionárias","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/mao/1926/03/classes.htm"}]},
+        {"ranking":9,"titulo":"Contra o Liberalismo","ano":"1937","tema":"Disciplina, crítica e organização","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/mao/1937/09/07.htm"}]},
+        {"ranking":10,"titulo":"A Propósito dos Métodos de Direção","ano":"1943","tema":"Linha de massas e métodos de direção","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/mao/1943/06/01.htm"}]}
+      ],
+      "outros_ranqueados": [
+        {"ranking":14,"titulo":"Prestar Atenção ao Trabalho Econômico","ano":"1933","tema":"Massas e métodos de direção","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/mao/1933/08/20.htm"}]}
+      ]
+    },
+    {
+      "ranking": 5,
+      "nome": "Leon Trotsky",
+      "resumo": "Dirigente da Revolução Russa, organizador do Exército Vermelho e autor de contribuições duradouras sobre revolução permanente, desenvolvimento desigual e combinado, burocratização e estratégia internacional.",
+      "top10": [
+        {"ranking":1,"titulo":"A Revolução Permanente","ano":"1930","tema":"Estratégia da revolução internacional","links":[{"rotulo":"Português do Brasil","url":"https://www.marxists.org/portugues/trotsky/1930/permanente/index.htm"}]},
+        {"ranking":2,"titulo":"História da Revolução Russa","ano":"1930–1932","tema":"História, classes e dinâmica revolucionária","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/trotsky/1930/historia/index.htm"}]},
+        {"ranking":3,"titulo":"A Revolução Traída","ano":"1936","tema":"Burocracia e degeneração soviética","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/trotsky/1936/revolucaotraida/index.htm"}]},
+        {"ranking":4,"titulo":"Balanço e Perspectivas","ano":"1906","tema":"Revolução permanente e Revolução Russa","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/trotsky/1906/balanco/index.htm"}]},
+        {"ranking":5,"titulo":"Programa de Transição","ano":"1938","tema":"Reivindicações transitórias e programa revolucionário","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/trotsky/1938/programa/index.htm"}]},
+        {"ranking":6,"titulo":"O Novo Curso","ano":"1923","tema":"Partido, democracia e burocratização","links":[{"rotulo":"PDF em português","url":"https://www.marxists.org/portugues/tematica/livros/por/pdf/52.pdf"}]},
+        {"ranking":7,"titulo":"As Lições de Outubro","ano":"1924","tema":"Partido, direção e insurreição","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/trotsky/1924/licoes/index.htm"}]},
+        {"ranking":8,"titulo":"Em Defesa do Marxismo","ano":"1939–1940","tema":"Método marxista, partido e guerra","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/trotsky/ano/defesa/index.htm"}]},
+        {"ranking":9,"titulo":"A Moral Deles e a Nossa","ano":"1938","tema":"Moral, classe e revolução","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/trotsky/1938/moral/index.htm"}]},
+        {"ranking":10,"titulo":"Literatura e Revolução","ano":"1924","tema":"Arte, cultura e revolução","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/trotsky/1924/07/29.htm"}]}
+      ],
+      "outros_ranqueados": []
+    },
+    {
+      "ranking": 6,
+      "nome": "Rosa Luxemburgo",
+      "resumo": "Teórica e dirigente revolucionária internacionalista, decisiva nos debates sobre reforma e revolução, greve de massas, democracia socialista, imperialismo e autoatividade da classe trabalhadora.",
+      "top10": [
+        {"ranking":1,"titulo":"Reforma ou Revolução?","ano":"1898–1900","tema":"Estratégia socialista e crítica do revisionismo","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/luxemburgo/1900/ref_rev/index.htm"}]},
+        {"ranking":2,"titulo":"Greve de Massas, Partido e Sindicatos","ano":"1906","tema":"Greve de massas, organização e revolução","links":[{"rotulo":"PDF em português","url":"https://www.marxists.org/portugues/luxemburgo/1906/mes/40.pdf"}]},
+        {"ranking":3,"titulo":"A Acumulação do Capital","ano":"1913","tema":"Acumulação, imperialismo e reprodução do capital","links":[{"rotulo":"Versão integral em inglês","url":"https://www.marxists.org/archive/luxemburg/1913/accumulation-capital/"}]},
+        {"ranking":4,"titulo":"A Revolução Russa","ano":"1918","tema":"Democracia, revolução e poder","links":[{"rotulo":"Português do Brasil","url":"https://www.marxists.org/portugues/luxemburgo/1918/mes/40.pdf"}]},
+        {"ranking":5,"titulo":"Folheto Junius — A Crise da Social-Democracia","ano":"1915","tema":"Guerra, imperialismo e internacionalismo","links":[{"rotulo":"PDF em português","url":"https://www.marxists.org/portugues/luxemburgo/1915/04/folheto_junios.pdf"}]},
+        {"ranking":6,"titulo":"O Que é a Economia Política?","ano":"1925, publicação póstuma","tema":"Economia política e formação marxista","links":[{"rotulo":"PDF em português","url":"https://www.marxists.org/portugues/marx/escolhidas/41.pdf"}]},
+        {"ranking":7,"titulo":"O Que Quer a Liga Espartaco?","ano":"1918","tema":"Programa revolucionário e poder dos conselhos","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/luxemburgo/1918/12/14.html"}]},
+        {"ranking":8,"titulo":"Problemas Organizacionais da Social-Democracia Russa","ano":"1904","tema":"Partido, organização e autoatividade das massas","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/luxemburgo/1904/mes/90.htm"}]},
+        {"ranking":9,"titulo":"A Ordem Reina em Berlim","ano":"1919","tema":"Revolução alemã e ação das massas","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/luxemburgo/1919/01/ordem.htm"}]},
+        {"ranking":10,"titulo":"Imperialismo","ano":"1914","tema":"Capitalismo, militarismo e expansão imperialista","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/luxemburgo/1914/mes/40.htm"}]}
+      ],
+      "outros_ranqueados": []
+    },
+    {
+      "ranking": 7,
+      "nome": "Antonio Gramsci",
+      "resumo": "Revolucionário comunista italiano cuja elaboração sobre hegemonia, sociedade civil, partido, intelectuais, Estado, guerra de posição e relações de força marcou profundamente a teoria política marxista do século XX.",
+      "top10": [
+        {"ranking":1,"titulo":"Cadernos do Cárcere","ano":"1929–1935","tema":"Hegemonia, Estado, intelectuais e estratégia","links":[{"rotulo":"Seleção em inglês","url":"https://www.marxists.org/archive/gramsci/prison_notebooks/"},{"rotulo":"Trecho em português","url":"https://www.marxists.org/portugues/gramsci/ano/mes/pontos.htm"}]},
+        {"ranking":2,"titulo":"Alguns Temas da Questão Meridional","ano":"1926","tema":"Aliança operário-camponesa e questão meridional","links":[{"rotulo":"PDF em português","url":"https://www.marxists.org/portugues/gramsci/ano/mes/Escritos-Politicos-04.pdf"}]},
+        {"ranking":3,"titulo":"Democracia Operária","ano":"1919","tema":"Conselhos, fábrica e autogoverno operário","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/gramsci/1919/06/21.htm"}]},
+        {"ranking":4,"titulo":"A Revolução Contra O Capital","ano":"1917","tema":"Revolução Russa e marxismo não mecanicista","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/gramsci/1917/04/24.htm"}]},
+        {"ranking":5,"titulo":"O Movimento do Conselho de Fábrica de Turim","ano":"1921","tema":"Conselhos de fábrica e poder operário","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/gramsci/1921/03/14.htm"}]},
+        {"ranking":6,"titulo":"A Conquista do Estado","ano":"1919","tema":"Estado e poder proletário","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/gramsci/1919/07/12.htm"}]},
+        {"ranking":7,"titulo":"Teses de Lyon","ano":"1926","tema":"Partido, fascismo e estratégia comunista","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/gramsci/1926/01/26.htm"}]},
+        {"ranking":8,"titulo":"O Partido e as Massas","ano":"1921","tema":"Partido, direção e massas","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/gramsci/1921/09/25.htm"}]},
+        {"ranking":9,"titulo":"Controle Operário","ano":"1921","tema":"Controle da produção e organização operária","links":[{"rotulo":"Versão em português","url":"https://www.marxists.org/portugues/gramsci/1921/02/10.htm"}]},
+        {"ranking":10,"titulo":"Todo Homem é Filósofo","ano":"Cadernos do Cárcere","tema":"Filosofia, senso comum e consciência","links":[{"rotulo":"Trecho em português","url":"https://www.marxists.org/portugues/gramsci/ano/mes/filosofo.htm"}]}
+      ],
+      "outros_ranqueados": []
+    }
+  ]
+}
