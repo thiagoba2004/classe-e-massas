@@ -34,7 +34,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Unidades do corpus: 17/17 persistidas.
 - Revisão humana integral: INICIADA.
 - Unidade em revisão: Conferência 01 — *A crise mundial e o proletariado peruano*.
-- Blocos aprovados nesta unidade: 2.
+- Blocos aprovados nesta unidade: 3.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -79,7 +79,27 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 
 **Commit que incorporou os ajustes no arquivo canônico:** `e713be020a3b9cc2a72f2d7c6a8c44d194d36804`.
 
-### Bloco 03
+### Bloco 03 — do Peru na órbita da civilização ocidental até Einstein
+
+**Intervalo:** de “E o Peru, como os demais povos da América...” até a passagem sobre a nova física e Einstein.  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 13/09/2026.  
+**Fonte de confronto:** transcrição/manuscrito arquivístico principal e testemunhos de apoio registrados para a Conferência 01.
+
+**Decisões humanas aprovadas:**
+
+1. reestruturação de `não apenas... mas... mas também` para `não só... porém... mas...`, preservando a oposição entre independência política, dependência econômica e vínculo cultural;
+2. `ligados ao carro` → `atrelados ao carro`, preservando com maior força a metáfora de `ligados al carro`;
+3. retirada do segundo `também` em `Um período de revolução na Europa será também um período de revolução na América`;
+4. restauração de `europeia` em `a transformação da sociedade europeia se refletirá nas sociedades americanas`, conforme a fonte primária;
+5. `quase todos são reacionários impermeáveis` → `quase todos são impermeavelmente reacionários`, restabelecendo a relação adverbial do original.
+
+**Demais trechos do bloco:** mantidos sem alteração material.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `c13d73678f98960b81e12061f82e78e51e456748`.
+
+### Bloco 04
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
