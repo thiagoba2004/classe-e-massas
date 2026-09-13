@@ -2,44 +2,63 @@
   "id": "TCM-001",
   "frente": "Traduções Classe e Massas",
   "titulo_original": "Historia de la Crisis Mundial",
-  "titulo_portugues_provisorio": "História da Crise Mundial",
+  "titulo_portugues_provisorio": "História da Crise Mundial — Curso de Conferências (1923–1924)",
+  "natureza_editorial": "edição documental própria em português do Brasil, reconstruída a partir dos materiais autorais e arquivísticos do curso",
   "autor": {
     "nome": "José Carlos Mariátegui",
     "nascimento": "1894-06-14",
     "falecimento": "1930-04-16"
   },
   "idioma_original": "espanhol",
-  "estado": "EM VERIFICAÇÃO",
+  "estado": "ELEGÍVEL",
   "prioridade": "ALTA",
   "motivo_prioridade": "A Auditoria de Idioma da Biblioteca classificou a obra como sem tradução integral pública em português localizada.",
-  "fontes_preliminares": [
+  "gates_concluidos": [
     {
-      "tipo": "arquivo",
-      "nome": "Archivo José Carlos Mariátegui — Historia de la Crisis Mundial",
-      "url": "https://archivo.mariategui.org/index.php/historia-de-la-crisis-mundial",
-      "papel": "fonte documental prioritária para estabelecimento do texto-base"
+      "gate": "jurídico",
+      "resultado": "APROVADO",
+      "conclusao": "ELEGÍVEL, COM DELIMITAÇÃO DE ESCOPO",
+      "documento": "001-ficha-juridica.md",
+      "dados": "001-ficha-juridica.json"
     },
     {
-      "tipo": "edicao_digital",
-      "nome": "Marxists Internet Archive — espanhol",
-      "url": "https://www.marxists.org/espanol/mariateg/oc/historia_de_la_crisis_mundial/index.htm",
-      "papel": "navegação e confronto textual; não assumida automaticamente como edição crítica definitiva"
+      "gate": "documental",
+      "resultado": "APROVADO",
+      "conclusao": "TEXTO-BASE ESTABELECIDO EM NÍVEL DE MÉTODO E CORPUS",
+      "documento": "001-texto-base.md",
+      "dados": "001-texto-base.json"
     }
   ],
-  "gates_antes_traducao": [
-    "ficha jurídica concluída",
-    "texto-base definido",
-    "sumário completo reconstruído",
-    "variantes e lacunas relevantes registradas",
-    "glossário inicial criado",
-    "responsável humano por revisão definido",
-    "protocolo de versionamento ativo"
+  "fonte_primaria": {
+    "nome": "Archivo José Carlos Mariátegui — Serie Conferencias",
+    "codigo": "PE PEAJCM JCM-F-03-3-3.2",
+    "periodo": "1923-1924",
+    "url": "https://archivo.mariategui.org/index.php/conferencias"
+  },
+  "fontes_de_confronto": [
+    {
+      "nome": "Historia de la crisis mundial, Empresa Editora Amauta, 1959",
+      "papel": "tradição editorial, sequência e variantes; aparato editorial não será copiado"
+    },
+    {
+      "nome": "Marxists Internet Archive — espanhol",
+      "url": "https://www.marxists.org/espanol/mariateg/oc/historia_de_la_crisis_mundial/index.htm",
+      "papel": "navegação, busca e comparação textual"
+    }
+  ],
+  "politica_lacunas": "Notas, roteiros, resenhas e lacunas serão identificados como tais. Nenhuma parte ausente será reconstruída por IA ou por paráfrase editorial.",
+  "pendencias_para_em_traducao": [
+    "abrir glossário inicial espanhol-português do Brasil",
+    "completar ficha de fontes da primeira unidade",
+    "definir responsável humano pela revisão",
+    "ativar protocolo de versionamento",
+    "criar estrutura canônica de trabalho da tradução"
   ],
   "proxima_transicao": {
-    "de": "EM VERIFICAÇÃO",
-    "para": "ELEGÍVEL",
-    "condicao": "conclusão da ficha jurídica e definição documental do texto-base"
+    "de": "ELEGÍVEL",
+    "para": "EM TRADUÇÃO",
+    "condicao": "cumprimento das pendências editoriais e definição de revisão humana"
   },
-  "versao_dossie": "0.1",
+  "versao_dossie": "0.2",
   "data": "2026-09-13"
 }
