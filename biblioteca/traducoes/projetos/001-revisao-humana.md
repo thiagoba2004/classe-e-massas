@@ -34,7 +34,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Unidades do corpus: 17/17 persistidas.
 - Revisão humana integral: INICIADA.
 - Unidade em revisão: Conferência 01 — *A crise mundial e o proletariado peruano*.
-- Blocos aprovados nesta unidade: 1.
+- Blocos aprovados nesta unidade: 2.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -61,7 +61,25 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 
 **Commit que incorporou os ajustes no arquivo canônico:** `f7fedec631346f48139f6df7432c5e972ce16a4e`.
 
-### Bloco 02
+### Bloco 02 — da “civilização proletária” à “civilização ocidental”
+
+**Intervalo:** de “Dela surgirá, segundo todas as probabilidades...” até “...é a crise da civilização ocidental.”  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 13/09/2026.  
+**Fonte de confronto:** transcrição/manuscrito arquivístico principal e testemunhos de apoio já registrados para a Conferência 01.
+
+**Decisões humanas aprovadas:**
+
+1. correção de concordância em `mal traduzido`, `redigido` e `proveniente` para `mal traduzidas`, `redigidas` e `provenientes`, fazendo os qualificadores concordarem com `informações`;
+2. `telegrama cotidiano` → `noticiário telegráfico cotidiano`, para representar de modo mais preciso o sentido documental de `cable cotidiano` como fluxo diário de notícias por cabo;
+3. `a crise das instituições europeias é a crise das instituições da civilização ocidental` → `a crise das instituições europeias é a crise da civilização ocidental`, adotando a formulação da fonte arquivística primária.
+
+**Demais trechos do bloco:** mantidos sem alteração material.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `e713be020a3b9cc2a72f2d7c6a8c44d194d36804`.
+
+### Bloco 03
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
