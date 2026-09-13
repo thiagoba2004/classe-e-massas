@@ -49,6 +49,9 @@ footer{border-top:1px solid #222;padding:30px 24px;text-align:center;font:.75rem
 .ranked-work-body{min-width:0}
 .ranked-work-title{font-family:Georgia,'Times New Roman',serif;font-size:1.5rem;line-height:1.14;margin:0 0 5px}
 .library-meta{font:.75rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.045em;line-height:1.45;margin:0}
+.ranked-work-structure{margin:12px 0 0;padding:12px 0 0 20px;border-top:1px solid #bbb;font-size:.92rem;line-height:1.45}
+.ranked-work-structure li{margin:4px 0}
+.ranked-work-note{margin:10px 0 0;font:.78rem/1.45 Arial,sans-serif;color:#444}
 .ranked-work-actions{display:flex;flex-wrap:wrap;gap:7px;justify-content:flex-end;max-width:250px}
 .ranked-link{font-size:.68rem;padding:9px 11px;white-space:nowrap}
 .outside-top10{margin-top:32px;padding-top:20px;border-top:3px dashed #777}
@@ -81,4 +84,5 @@ footer{border-top:1px solid #222;padding:30px 24px;text-align:center;font:.75rem
   .ranked-work-title{font-size:1.34rem}
   .ranked-work-actions{margin-top:10px;justify-content:flex-start;max-width:none}
   .ranked-link{white-space:normal}
+  .ranked-work-structure{padding-left:18px}
 }
