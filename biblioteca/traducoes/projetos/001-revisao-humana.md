@@ -34,7 +34,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Unidades do corpus: 17/17 persistidas.
 - Revisão humana integral: INICIADA.
 - Unidade em revisão: Conferência 01 — *A crise mundial e o proletariado peruano*.
-- Blocos aprovados nesta unidade: 8.
+- Blocos aprovados nesta unidade: 9.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -196,7 +196,27 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 
 **Commit que incorporou os ajustes no arquivo canônico:** `6dd9e8480744521809711a553d4746497c2c3ccb`.
 
-### Bloco 09
+### Bloco 09 — da reconstrução capitalista à ocupação do Ruhr
+
+**Intervalo:** de “Os Estados europeus, para se reconstruírem...” até “A obra desse nacionalismo, desse reacionarismo, temos à vista na ocupação do Ruhr.”  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 13/09/2026.  
+**Fonte de confronto:** transcrição/manuscrito arquivístico principal.
+
+**Decisões humanas aprovadas:**
+
+1. `para reconstruir-se, necessitam` → `para se reconstruírem, precisam`, tornando explícita a concordância plural com `Os Estados europeus`;
+2. `a burguesia socava, mina e fere de morte, dessa maneira, as instituições democráticas` → `a burguesia socava e mina e, assim, fere de morte as instituições democráticas`, preservando a repetição retórica do original;
+3. `no campo das relações internacionais` → `na ordem das relações internacionais`, preservando `en el orden de las relaciones internacionales`;
+4. `entender-se em torno de um programa` → `entender-se acerca de um programa`, aproximando a construção de `entenderse acerca de un programa`;
+5. `temos diante dos olhos` → `temos à vista`, preservando `la tenemos a la vista`.
+
+**Demais trechos do bloco:** mantidos sem alteração material.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `5c4b9adf8010c9581cb49785f6dc300523e8bd69`.
+
+### Bloco 10
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
