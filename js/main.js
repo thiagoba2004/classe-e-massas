@@ -13,7 +13,8 @@ document.documentElement.classList.add("js");
       { label: "Artigos", href: `${base}artigos/`, section: "artigos" },
       { label: "Observatório", href: `${base}observatorio/`, section: "observatorio" },
       { label: "Biblioteca", href: `${base}biblioteca/`, section: "biblioteca" },
-      { label: "MPT", href: `${base}mpt/`, section: "mpt" }
+      { label: "MPT", href: `${base}mpt/`, section: "mpt" },
+      { label: "Fale Conosco", href: `${base}fale-conosco/`, section: "fale-conosco" }
     ];
 
     const currentSection = pathname.includes("/noticias/")
@@ -26,7 +27,9 @@ document.documentElement.classList.add("js");
             ? "biblioteca"
             : pathname.includes("/mpt/")
               ? "mpt"
-              : "home";
+              : pathname.includes("/fale-conosco/")
+                ? "fale-conosco"
+                : "home";
 
     nav.classList.add("global-nav");
     nav.innerHTML = items.map(item => {
