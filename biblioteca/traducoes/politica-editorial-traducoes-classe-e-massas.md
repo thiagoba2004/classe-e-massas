@@ -97,7 +97,7 @@ Uma obra extensa poderá ser trabalhada por capítulos ou seções, mas não ser
 
 Notas acrescentadas pelo Classe e Massas devem ser claramente diferenciadas das notas do autor. Recomenda-se a identificação **[N. do T.]** para nota do tradutor e **[N. do E.]** para nota editorial.
 
-Não se inseriráNão se inserir\xe1 comentário político no corpo do texto como se pertencesse ao autor.
+Não se inserirá comentário político no corpo do texto como se pertencesse ao autor.
 
 ## 11. Fidelidade documental
 
