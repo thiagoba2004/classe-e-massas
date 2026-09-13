@@ -36,7 +36,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Conferências com revisão humana concluída: 1/17.
 - Unidade concluída: Conferência 01 — *A crise mundial e o proletariado peruano*.
 - Unidade em revisão: Conferência 02 — *Literatura de guerra*.
-- Blocos aprovados na unidade atual: 4.
+- Blocos aprovados na unidade atual: 5.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -286,7 +286,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 ## 5. Conferência 02 — *Literatura de guerra*
 
 **Arquivo canônico:** `001-traducao/02-literatura-de-guerra.md`  
-**Estado:** EM REVISÃO — BLOCOS 01–04 APROVADOS.
+**Estado:** EM REVISÃO — BLOCOS 01–05 APROVADOS.
 
 ### Bloco 01 — abertura e causas econômicas
 
@@ -362,7 +362,27 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 
 **Commit que incorporou os ajustes no arquivo canônico:** `7b76a54453c46e9b554d3716be9684243b2cba7d`.
 
-### Bloco 05
+### Bloco 05 — a contradição capitalista e a opinião pública durante a guerra
+
+**Intervalo:** de “Contraste da organização capitalista.” até “...empresa militar de seus respectivos governos.”  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 13/09/2026.  
+**Fonte de confronto:** notas originais de Mariátegui para a segunda conferência e edição póstuma posterior como testemunho de variante.
+
+**Decisões humanas aprovadas:**
+
+1. retirada do pronome acrescentado em `Ela necessita da solidariedade internacional` → `Necessita da solidariedade internacional`, preservando a forma telegráfica do roteiro;
+2. manutenção de `Como se precipita um povo à guerra`, conforme `Como se precipita un pueblo a la guerra` do testemunho arquivístico primário;
+3. correção da passagem dos países para `A direção da opinião na Inglaterra, na Itália. Na Alemanha, Áustria e Rússia, entretanto, não houve um ideal...`, restaurando a Alemanha e a oposição documental entre os dois grupos de países;
+4. registro no aparato crítico da variante `se precipita un pueblo` / `se precipita a un pueblo` como `AC-06`.
+
+**Demais trechos do bloco:** mantidos sem alteração material, inclusive *Clarté*, `Guerra absoluta e guerra relativa`, `Guerra de nações e guerra de exércitos` e `O mito da guerra democrática`.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva; a variante `se precipita un pueblo / se precipita a un pueblo` está registrada no aparato crítico como `AC-06`.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `1ceac063f76d66025cf27da243a2f1274da42b11`.  
+**Commit que registrou a variante no aparato crítico:** `f22bd6d074b6ccd7c81aa329489210fa93e8dc2e`.
+
+### Bloco 06
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
