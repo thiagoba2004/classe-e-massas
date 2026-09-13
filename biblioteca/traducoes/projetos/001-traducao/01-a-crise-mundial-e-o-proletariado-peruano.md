@@ -6,7 +6,7 @@
 **Data documental:** 15 de junho de 1923  
 **Fonte principal identificada:** PE PEAJCM JCM-F-03-3-3.2-001-M — Archivo José Carlos Mariátegui  
 **Versão:** v0.1  
-**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–07 APROVADOS
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–08 APROVADOS
 
 ---
 
@@ -82,13 +82,13 @@ Mas, para que essa classificação se produza com nitidez e coerência, é indis
 
 Antes da guerra, essas teses eram explicáveis porque correspondiam a condições históricas diferentes. O capitalismo estava em seu apogeu. A produção era superabundante. O capitalismo podia dar-se ao luxo de fazer sucessivas concessões econômicas ao proletariado. E suas margens de lucro eram tais que foi possível a formação de uma numerosa classe média, de uma numerosa pequena burguesia que desfrutava de um padrão de vida cômodo e confortável.
 
-O operário europeu ganhava o bastante para alimentar-se razoavelmente e, em algumas nações, como Inglaterra e Alemanha, podia satisfazer algumas necessidades do espírito. Não havia, portanto, ambiente para a revolução. Depois da guerra, tudo mudou. A riqueza social europeia foi, em grande parte, destruída.
+O operário europeu ganhava o bastante para comer razoavelmente e, em algumas nações, como Inglaterra e Alemanha, podia satisfazer algumas necessidades do espírito. Não havia, portanto, ambiente para a revolução. Depois da guerra, tudo mudou. A riqueza social europeia foi, em grande parte, destruída.
 
-O capitalismo, responsável pela guerra, precisa reconstruir essa riqueza às custas do proletariado. E quer, portanto, que os socialistas colaborem no governo para fortalecer as instituições democráticas, mas não para avançar pelo caminho das realizações socialistas. Antes, os socialistas colaboravam para melhorar paulatinamente as condições de vida dos trabalhadores. Agora colaborariam para renunciar a toda conquista proletária.
+O capitalismo, responsável pela guerra, precisa reconstruir essa riqueza à custa do proletariado. E quer, portanto, que os socialistas colaborem no governo para fortalecer as instituições democráticas, mas não para progredir no caminho das realizações socialistas. Antes, os socialistas colaboravam para melhorar paulatinamente as condições de vida dos trabalhadores. Agora colaborariam para renunciar a toda conquista proletária.
 
-A burguesia, para reconstruir a Europa, precisa que o proletariado aceite produzir mais e consumir menos. E o proletariado resiste a uma coisa e a outra e diz a si mesmo que não vale a pena consolidar no poder uma classe social culpada pela guerra e destinada fatalmente a conduzir a humanidade a uma guerra ainda mais sangrenta.
+A burguesia, para reconstruir a Europa, precisa que o proletariado consinta em produzir mais e consumir menos. E o proletariado resiste a uma coisa e a outra e diz a si mesmo que não vale a pena consolidar no poder uma classe social culpada pela guerra e destinada fatalmente a conduzir a humanidade a uma guerra ainda mais sangrenta.
 
-As condições de uma colaboração da burguesia com o proletariado são, por sua própria natureza, tais que o colaboracionismo tem necessariamente de perder, pouco a pouco, seu atual e numeroso proselitismo. O capitalismo não pode fazer concessões ao socialismo.
+As condições de uma colaboração da burguesia com o proletariado são, por sua natureza, tais que o colaboracionismo tem necessariamente de perder, pouco a pouco, seu atual e numeroso proselitismo. O capitalismo não pode fazer concessões ao socialismo.
 
 Os Estados europeus, para reconstruir-se, necessitam de um regime de rigorosa economia fiscal, do aumento das horas de trabalho, da diminuição dos salários; em uma palavra, do restabelecimento de conceitos e métodos econômicos abolidos em homenagem à vontade proletária. O proletariado não pode, logicamente, consentir nesse retrocesso. Não pode nem quer consenti-lo. Toda possibilidade de reconstrução da economia capitalista está, portanto, eliminada. Esta é a tragédia da Europa atual.
 
