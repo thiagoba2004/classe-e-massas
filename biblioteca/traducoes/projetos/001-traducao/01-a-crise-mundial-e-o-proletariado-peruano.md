@@ -6,7 +6,7 @@
 **Data documental:** 15 de junho de 1923  
 **Fonte principal identificada:** PE PEAJCM JCM-F-03-3-3.2-001-M — Archivo José Carlos Mariátegui  
 **Versão:** v0.1  
-**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–11 APROVADOS
+**Estado:** REVISÃO HUMANA DA CONFERÊNCIA 01 CONCLUÍDA — BLOCOS 01–12 APROVADOS
 
 ---
 
@@ -116,4 +116,4 @@ Todos os homens aos quais uma sincera filiação ideológica nos vincula à soci
 
 ---
 
-**Nota de trabalho:** tradução integral do texto autoral preservado nesta unidade. Notas editoriais acrescentadas na coletânea póstuma não integram esta tradução de trabalho.
+**[LACUNA DOCUMENTAL]** O testemunho arquivístico principal interrompe-se após “desmoronamento”. A continuação, de “do outro houve...” até o encerramento da conferência, foi restituída com base na tradição das *Obras Completas* e está registrada no aparato crítico como AC-05. Nenhum trecho ausente foi reconstruído por inferência ou por IA.
