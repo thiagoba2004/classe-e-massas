@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "project": "Classe e Massas",
-  "updated_at": "2026-09-13",
+  "updated_at": "2026-09-14",
   "purpose": "Fonte estruturada de continuidade entre conversas, modelos de IA e sessões de trabalho. Não substitui os documentos específicos de cada frente; aponta o estado mais avançado comprovado e a próxima etapa.",
   "rules": {
     "authoritative_order": [
@@ -24,7 +24,7 @@
       "content_status": "RASCUNHO INTEGRAL v0.1",
       "translation_status": "TRADUÇÃO INTEGRAL DE TRABALHO CONCLUÍDA",
       "persistence_status": "PERSISTIDO E VERSIONADO NO GITHUB",
-      "review_status": "EM REVISÃO HUMANA INTEGRAL — CONFERÊNCIA 01, BLOCOS 01–10 APROVADOS",
+      "review_status": "EM REVISÃO HUMANA INTEGRAL — CONFERÊNCIA 01, BLOCOS 01–11 APROVADOS",
       "canonical_manifest": "biblioteca/traducoes/projetos/001-traducao.md",
       "canonical_metadata": "biblioteca/traducoes/projetos/001-historia-da-crise-mundial.json",
       "review_register": "biblioteca/traducoes/projetos/001-revisao-humana.md",
@@ -33,11 +33,11 @@
       "units_expected": 17,
       "units_persisted": 17,
       "current_review_unit": 1,
-      "current_review_block": 11,
-      "approved_review_blocks_current_unit": 10,
-      "last_verified_milestone_commit": "ad8c8881d4efc6a6f7ee2b182c31cff9342a10df",
-      "last_verified_milestone_message": "TCM-001: registra aprovação humana do bloco 10 da Conferência 01",
-      "next_step": "CONFRONTO E DECISÃO HUMANA DO BLOCO 11 DA CONFERÊNCIA 01",
+      "current_review_block": 12,
+      "approved_review_blocks_current_unit": 11,
+      "last_verified_milestone_commit": "7b1ba7abaed280a63f11855ef1b9056a79385142",
+      "last_verified_milestone_message": "TCM-001: registra aprovação humana do bloco 11 da Conferência 01",
+      "next_step": "CONFRONTO E DECISÃO HUMANA DO BLOCO 12 DA CONFERÊNCIA 01",
       "do_not_do": [
         "não reiniciar a tradução",
         "não rebaixar o projeto para ELEGÍVEL ou EM TRADUÇÃO",
