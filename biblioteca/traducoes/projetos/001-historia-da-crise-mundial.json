@@ -10,41 +10,17 @@
     "falecimento": "1930-04-16"
   },
   "idioma_original": "espanhol",
-  "estado": "EM TRADUÇÃO",
+  "estado": "RASCUNHO INTEGRAL v0.1",
+  "subestado": "TRADUÇÃO INTEGRAL DE TRABALHO CONCLUÍDA — AGUARDA REVISÃO HUMANA INTEGRAL",
   "prioridade": "ALTA",
   "motivo_prioridade": "A Auditoria de Idioma da Biblioteca classificou a obra como sem tradução integral pública em português localizada.",
+  "protocolo_operacional": "traduzir todo o corpus primeiro; revisar e aprovar integralmente depois",
   "gates_concluidos": [
-    {
-      "gate": "jurídico",
-      "resultado": "APROVADO",
-      "conclusao": "ELEGÍVEL, COM DELIMITAÇÃO DE ESCOPO",
-      "documento": "001-ficha-juridica.md",
-      "dados": "001-ficha-juridica.json"
-    },
-    {
-      "gate": "documental",
-      "resultado": "APROVADO",
-      "conclusao": "TEXTO-BASE ESTABELECIDO EM NÍVEL DE MÉTODO E CORPUS",
-      "documento": "001-texto-base.md",
-      "dados": "001-texto-base.json"
-    },
-    {
-      "gate": "glossário inicial",
-      "resultado": "APROVADO PARA ABERTURA",
-      "documento": "001-glossario.json"
-    },
-    {
-      "gate": "fonte da primeira unidade",
-      "resultado": "APROVADO",
-      "conclusao": "TEXTO INTEGRAL DOCUMENTADO — FONTE ARQUIVÍSTICA DISPONÍVEL",
-      "documento": "001-conferencia-01-fontes.md"
-    },
-    {
-      "gate": "revisão humana e versionamento",
-      "resultado": "ATIVO",
-      "responsavel_funcional": "Editor Responsável do Classe e Massas",
-      "documento": "001-protocolo-revisao-versionamento.md"
-    }
+    {"gate":"jurídico","resultado":"APROVADO","conclusao":"ELEGÍVEL, COM DELIMITAÇÃO DE ESCOPO","documento":"001-ficha-juridica.md","dados":"001-ficha-juridica.json"},
+    {"gate":"documental","resultado":"APROVADO","conclusao":"TEXTO-BASE ESTABELECIDO EM NÍVEL DE MÉTODO E CORPUS","documento":"001-texto-base.md","dados":"001-texto-base.json"},
+    {"gate":"glossário inicial","resultado":"ATIVO","documento":"001-glossario.json"},
+    {"gate":"protocolo de tradução integral e revisão humana","resultado":"ATIVO","documento":"001-protocolo-revisao-versionamento.md"},
+    {"gate":"tradução de trabalho do corpus","resultado":"CONCLUÍDO","unidades_previstas":17,"unidades_documentadas":17,"versao":"v0.1"}
   ],
   "fonte_primaria": {
     "nome": "Archivo José Carlos Mariátegui — Serie Conferencias",
@@ -52,31 +28,48 @@
     "periodo": "1923-1924",
     "url": "https://archivo.mariategui.org/index.php/conferencias"
   },
-  "primeira_unidade": {
-    "titulo_original": "La crisis mundial y el proletariado peruano",
-    "titulo_portugues": "A crise mundial e o proletariado peruano",
-    "data_documental": "1923-06-15",
-    "codigo_unidade": "PE PEAJCM JCM-F-03-3-3.2-001",
-    "codigo_manuscrito": "PE PEAJCM JCM-F-03-3-3.2-001-M",
-    "classificacao": "TEXTO INTEGRAL DOCUMENTADO — FONTE ARQUIVÍSTICA DISPONÍVEL",
-    "estado": "RASCUNHO v0.1 ABERTO"
+  "corpus_v0_1": {
+    "diretorio": "001-traducao/",
+    "total_unidades": 17,
+    "unidades": [
+      {"n":1,"titulo":"A crise mundial e o proletariado peruano","arquivo":"001-traducao/01-a-crise-mundial-e-o-proletariado-peruano.md","natureza":"TEXTO INTEGRAL AUTORAL / TRANSCRIÇÃO INTEGRAL DOCUMENTADA"},
+      {"n":2,"titulo":"Literatura de guerra","arquivo":"001-traducao/02-literatura-de-guerra.md","natureza":"NOTAS DO AUTOR"},
+      {"n":3,"titulo":"O fracasso da Segunda Internacional","arquivo":"001-traducao/03-o-fracasso-da-segunda-internacional.md","natureza":"NOTAS DO AUTOR"},
+      {"n":4,"titulo":"A intervenção da Itália na guerra","arquivo":"001-traducao/04-a-intervencao-da-italia-na-guerra.md","natureza":"TEXTO INTEGRAL AUTORAL PRESERVADO"},
+      {"n":5,"titulo":"A Revolução Russa","arquivo":"001-traducao/05-a-revolucao-russa.md","natureza":"TEXTO INTEGRAL AUTORAL PRESERVADO"},
+      {"n":6,"titulo":"A Revolução Alemã","arquivo":"001-traducao/06-a-revolucao-alema.md","natureza":"TEXTO INTEGRAL AUTORAL PRESERVADO"},
+      {"n":7,"titulo":"A Revolução Húngara","arquivo":"001-traducao/07-a-revolucao-hungara.md","natureza":"TEXTO INTEGRAL AUTORAL PRESERVADO COM LACUNA DOCUMENTAL IDENTIFICADA"},
+      {"n":8,"titulo":"A atualidade política alemã","arquivo":"001-traducao/08-a-atualidade-politica-alema.md","natureza":"NOTAS DO AUTOR"},
+      {"n":9,"titulo":"A Paz de Versalhes e a Sociedade das Nações","arquivo":"001-traducao/09-a-paz-de-versalhes-e-a-sociedade-das-nacoes.md","natureza":"TEXTO INTEGRAL AUTORAL PRESERVADO"},
+      {"n":10,"titulo":"A agitação proletária na Europa em 1919 e 1920","arquivo":"001-traducao/10-a-agitacao-proletaria-na-europa-em-1919-e-1920.md","natureza":"NOTAS DO AUTOR"},
+      {"n":11,"titulo":"Os problemas econômicos da paz","arquivo":"001-traducao/11-os-problemas-economicos-da-paz.md","natureza":"TEXTO INTEGRAL AUTORAL PRESERVADO"},
+      {"n":12,"titulo":"A crise da democracia","arquivo":"001-traducao/12-a-crise-da-democracia.md","natureza":"NOTAS DO AUTOR"},
+      {"n":13,"titulo":"A agitação revolucionária e socialista do mundo oriental","arquivo":"001-traducao/13-a-agitacao-revolucionaria-e-socialista-do-mundo-oriental.md","natureza":"TEXTO INTEGRAL AUTORAL PRESERVADO"},
+      {"n":14,"titulo":"Exposição e crítica das instituições do regime russo","arquivo":"001-traducao/14-exposicao-e-critica-das-instituicoes-do-regime-russo.md","natureza":"NOTAS DO AUTOR"},
+      {"n":15,"titulo":"Internacionalismo e nacionalismo","arquivo":"001-traducao/15-internacionalismo-e-nacionalismo.md","natureza":"TEXTO INTEGRAL AUTORAL PRESERVADO"},
+      {"n":16,"titulo":"A Revolução Mexicana","arquivo":"001-traducao/16-a-revolucao-mexicana-documento-de-imprensa.md","natureza":"DOCUMENTO COMPLEMENTAR DE IMPRENSA — NÃO SOBREVIVEU TEXTO AUTORAL"},
+      {"n":17,"titulo":"Elogio de Lenin","arquivo":"001-traducao/17-elogio-de-lenin.md","natureza":"NOTAS DO AUTOR — ROTEIRO BIO-BIBLIOGRÁFICO"}
+    ]
   },
-  "revisao_humana": {
+  "revisao_humana_integral": {
     "responsavel_funcional": "Editor Responsável do Classe e Massas",
-    "nome_responsavel": null,
-    "regra_publicacao": "A identificação nominal e aprovacao=true são obrigatórias antes de uma versão v1.0 pública revisada."
+    "responsavel": null,
+    "data": null,
+    "versao_aprovada": null,
+    "escopo": "obra completa",
+    "aprovada": false
   },
   "versionamento": {
-    "arquivo_canonico": "001-traducao.md",
+    "manifesto_canonico": "001-traducao.md",
+    "diretorio_corpus": "001-traducao/",
     "versao_atual": "v0.1",
-    "status": "RASCUNHO — NÃO APROVADO COMO EDIÇÃO REVISADA"
+    "status": "RASCUNHO INTEGRAL — NÃO APROVADO COMO EDIÇÃO REVISADA"
   },
-  "politica_lacunas": "Notas, roteiros, resenhas e lacunas serão identificados como tais. Nenhuma parte ausente será reconstruída por IA ou por paráfrase editorial.",
-  "proxima_transicao": {
-    "de": "EM TRADUÇÃO",
-    "para": "EM REVISÃO",
-    "condicao": "conclusão do primeiro texto integral de trabalho e confronto completo com o original da unidade correspondente"
+  "politica_lacunas": "Notas, roteiros, resenhas e lacunas permanecem identificados como tais. Nenhuma parte ausente é reconstruída por IA ou por paráfrase editorial.",
+  "proxima_etapa": {
+    "nome": "REVISÃO HUMANA INTEGRAL",
+    "condicao_para_v1_0": "confronto e aprovação do conjunto pelo responsável humano, com resolução ou justificação das marcações pendentes e registro aprovacao=true"
   },
-  "versao_dossie": "0.3",
+  "versao_dossie": "0.4",
   "data": "2026-09-13"
 }
