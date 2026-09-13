@@ -6,7 +6,7 @@
 **Data documental:** 15 de junho de 1923  
 **Fonte principal identificada:** PE PEAJCM JCM-F-03-3-3.2-001-M — Archivo José Carlos Mariátegui  
 **Versão:** v0.1  
-**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–03 APROVADOS
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–04 APROVADOS
 
 ---
 
@@ -36,9 +36,9 @@ Essa gente se surpreende com a chegada ao Peru dos ideais mais avançados da Eur
 
 Haveria a mesma razão para ignorar o movimento socialista que para ignorar, por exemplo, a teoria da relatividade de Einstein. E estou seguro de que nem ao mais reacionário dos nossos intelectuais — quase todos são impermeavelmente reacionários — ocorreria sustentar que a nova física, da qual Einstein é o mais eminente e máximo representante, deve ser proscrita do estudo e da divulgação.
 
-E, se o proletariado em geral tem necessidade de conhecer os grandes aspectos da crise mundial, essa necessidade é ainda maior naquela parte do proletariado socialista, trabalhista, sindicalista ou libertária que constitui sua vanguarda; naquela parte do proletariado mais combativa e consciente, mais lutadora e preparada; naquela parte do proletariado encarregada da direção das grandes ações proletárias; naquela parte do proletariado à qual cabe o papel histórico de representar o proletariado peruano no presente instante social; naquela parte do proletariado, em uma palavra, que, qualquer que seja seu credo particular, tem consciência de classe, tem consciência revolucionária.
+E, se o proletariado em geral tem necessidade de conhecer os grandes aspectos da crise mundial, essa necessidade é ainda maior naquela parte do proletariado socialista, laborista, sindicalista ou libertária que constitui sua vanguarda; naquela parte do proletariado mais combativa e consciente, mais lutadora e preparada; naquela parte do proletariado encarregada da direção das grandes ações proletárias; naquela parte do proletariado à qual cabe o papel histórico de representar o proletariado peruano no presente instante social; naquela parte do proletariado, em uma palavra, que, qualquer que seja seu credo particular, tem consciência de classe, tem consciência revolucionária.
 
-Dedico sobretudo minhas exposições a essa vanguarda do proletariado peruano. Ninguém mais que os grupos proletários de vanguarda necessita estudar a crise mundial. Não tenho a pretensão de vir a esta tribuna livre de uma universidade livre ensinar-lhes a história dessa crise mundial, mas de estudá-la eu mesmo com eles. Não lhes ensino, companheiros, desta tribuna, a história da crise mundial; estudo-a com vocês.
+Dedico sobretudo minhas exposições a essa vanguarda do proletariado peruano. Ninguém mais que os grupos proletários de vanguarda necessitam estudar a crise mundial. Não tenho a pretensão de vir a esta tribuna livre de uma universidade livre ensinar-lhes a história dessa crise mundial, mas de estudá-la eu mesmo com eles. Não lhes ensino, companheiros, desta tribuna, a história da crise mundial; estudo-a com vocês.
 
 Não tenho, neste estudo, outro mérito além do modestíssimo de trazer a ele as observações pessoais de três anos e meio de vida europeia — isto é, dos três anos e meio culminantes da crise — e os ecos do pensamento europeu contemporâneo. Convido muito especialmente a vanguarda do proletariado a estudar comigo o processo da crise mundial por várias razões transcendentais. Vou enumerá-las sumariamente.
 
@@ -46,7 +46,7 @@ A primeira razão é que a preparação revolucionária, a cultura revolucionár
 
 Aqui se conhece um pouco da literatura clássica do socialismo e do sindicalismo; não se conhece a nova literatura revolucionária. A cultura revolucionária é aqui uma cultura clássica, além de ser, como vocês, companheiros, sabem muito bem, uma cultura ainda muito incipiente, muito inorgânica, muito desordenada, muito incompleta. Pois bem: toda essa literatura socialista e sindicalista anterior à guerra está em revisão.
 
-E essa revisão não é imposta pelo capricho dos teóricos, mas pela força dos fatos. Essa literatura, por conseguinte, não pode ser utilizada hoje sem benefício de inventário.
+E essa revisão não é uma revisão imposta pelo capricho dos teóricos, mas pela força dos fatos. Essa literatura, por conseguinte, não pode ser utilizada hoje sem benefício de inventário.
 
 Não se trata, naturalmente, de que tenha deixado de ser correta em seus princípios, em suas bases, em tudo o que nela existe de ideal e de permanente; mas deixou de ser correta, muitas vezes, em suas inspirações táticas, em suas considerações históricas, em tudo o que significa ação, procedimento, meio de luta.
 
