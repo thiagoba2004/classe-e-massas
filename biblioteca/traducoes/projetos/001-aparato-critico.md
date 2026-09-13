@@ -73,8 +73,21 @@ Regra: a fonte arquivística primária prevalece quando houver divergência não
 
 **Justificativa:** a continuação não foi criada por inferência editorial nem por IA. Foi restituída a partir da tradição textual das *Obras Completas*. A distinção de proveniência deve permanecer visível e auditável.
 
+## 3. Conferência 02 — *Literatura de guerra*
+
+### AC-06 — `se precipita un pueblo` / `se precipita a un pueblo`
+
+**Trecho:** nota sobre o modo como um povo é precipitado à guerra.
+
+**Fonte arquivística primária:** `Como se precipita un pueblo a la guerra`.  
+**Edição póstuma posterior:** `Cómo se precipita a un pueblo a la guerra`.
+
+**Decisão editorial aprovada:** manter no texto traduzido **“Como se precipita um povo à guerra.”**
+
+**Justificativa:** a tradução privilegia a leitura do testemunho arquivístico primário e conserva no aparato a variante posterior, que altera a estrutura sintática e explicita a ideia de precipitar um povo à guerra.
+
 ---
 
-## 3. Regra de continuidade
+## 4. Regra de continuidade
 
 Novas variantes materiais identificadas nas Conferências 01–17 deverão ser acrescentadas progressivamente a este arquivo, com identificação do trecho, testemunhos em conflito, decisão editorial e justificativa. Nenhuma variante relevante já decidida deverá permanecer apenas no chat ou apenas como memória do modelo.
