@@ -3,20 +3,23 @@
 ## José Carlos Mariátegui — História da Crise Mundial
 
 **ID:** TCM-001  
-**Versão do dossiê:** 0.1  
+**Título editorial provisório:** *História da Crise Mundial — Curso de Conferências (1923–1924)*  
+**Versão do dossiê:** 0.2  
 **Data:** 13 de setembro de 2026  
-**Estado:** EM VERIFICAÇÃO  
+**Estado:** **ELEGÍVEL**  
 **Prioridade:** ALTA
 
 ---
 
 ## 1. Objeto
 
-Preparar uma tradução integral para o **português do Brasil** de *Historia de la Crisis Mundial*, de José Carlos Mariátegui, para publicação gratuita pela frente **Traduções Classe e Massas**, observada a Política Editorial aprovada da Biblioteca Revolucionária.
+Preparar uma **edição documental própria em português do Brasil** do curso *Historia de la Crisis Mundial*, ministrado por José Carlos Mariátegui em 1923–1924, para publicação gratuita pela frente **Traduções Classe e Massas**.
+
+O projeto não será uma tradução mecânica do volume póstumo de 1959. O corpus será reconstruído a partir dos materiais autorais e arquivísticos do curso.
 
 ## 2. Motivo da prioridade
 
-A Auditoria de Idioma da Biblioteca classificou a obra na categoria **D — sem integral em português localizada**. Trata-se, portanto, de uma das lacunas mais evidentes do TOP 100 atual.
+A Auditoria de Idioma da Biblioteca classificou a obra na categoria **D — sem integral em português localizada**. Trata-se de uma das lacunas mais evidentes do TOP 100 atual.
 
 ## 3. Autor
 
@@ -24,87 +27,93 @@ A Auditoria de Idioma da Biblioteca classificou a obra na categoria **D — sem 
 Nascimento: 14 de junho de 1894  
 Falecimento: 16 de abril de 1930
 
-A conclusão jurídica definitiva sobre elegibilidade será registrada em ficha própria antes do início da tradução pública. A antiguidade da obra e a data de falecimento do autor são elementos relevantes, mas não substituem a verificação documental exigida pela Política Editorial.
+## 4. Gate jurídico — CONCLUÍDO
 
-## 4. Idioma e natureza do original
+A Ficha Jurídica TCM-001 concluiu pela **ELEGIBILIDADE COM DELIMITAÇÃO DE ESCOPO**.
 
-**Idioma original:** espanhol.  
-**Natureza:** conjunto de conferências e materiais relacionados à crise mundial ministrados por Mariátegui na Universidade Popular González Prada a partir de 1923 e posteriormente reunidos editorialmente.
+Os materiais autorais de Mariátegui estão fora do prazo patrimonial geral segundo as regras analisadas de Brasil e Peru. A nova tradução deverá ser própria, feita a partir do espanhol, preservando autoria e integridade.
 
-## 5. Fontes preliminares identificadas
+A elegibilidade não autoriza copiar:
 
-### Fonte arquivística prioritária
+- traduções contemporâneas de terceiros;
+- nota editorial ou nota preliminar da edição de 1959;
+- aparato, índices ou contribuições editoriais posteriores;
+- artigo e aparato de Ricardo Portocarrero de 1997;
+- resenhas jornalísticas sem verificação individual.
 
-Archivo José Carlos Mariátegui  
-Coleção/descrição: *Historia de la Crisis Mundial*  
-https://archivo.mariategui.org/index.php/historia-de-la-crisis-mundial
+Documento: `001-ficha-juridica.md`  
+Dados: `001-ficha-juridica.json`
 
-O arquivo registra manuscritos, notas e transcrições completas de conferências, o que o torna referência documental prioritária para o estabelecimento do texto-base.
+## 5. Gate documental — CONCLUÍDO
 
-### Edição digital de confronto
+O texto-base foi estabelecido em nível de método e corpus.
 
-Marxists Internet Archive — espanhol  
-https://www.marxists.org/espanol/mariateg/oc/historia_de_la_crisis_mundial/index.htm
+### Fonte primária prioritária
 
-A edição digital poderá ser utilizada para confronto e navegação, mas a tradução não deverá assumir automaticamente sua transcrição como edição crítica definitiva sem comparação com a fonte arquivística.
+**Archivo José Carlos Mariátegui — Serie Conferencias**  
+Código de referência: **PE PEAJCM JCM-F-03-3-3.2**  
+Período: 1923–1924
 
-## 6. Tarefas antes de iniciar a tradução
+https://archivo.mariategui.org/index.php/conferencias
 
-- concluir a ficha jurídica de elegibilidade;
-- identificar a edição integral que servirá como texto-base editorial;
-- confrontar a edição digital com os registros arquivísticos disponíveis;
-- reconstruir o sumário completo e a ordem das conferências/textos;
-- registrar eventuais variantes ou lacunas;
-- criar o glossário inicial espanhol → português do Brasil;
-- definir responsáveis humanos por tradução e revisão;
-- estabelecer o protocolo de uso de IA;
-- definir a licença da tradução somente após confirmar titularidade suficiente sobre o novo texto.
+### Hierarquia
 
-## 7. Critérios linguísticos iniciais
+1. manuscrito ou documento original;
+2. transcrição histórica integral conservada no arquivo;
+3. notas de Mariátegui;
+4. material autoral publicado pelo próprio Mariátegui;
+5. documentos de imprensa apenas como material complementar identificado;
+6. edição de 1959 como fonte de confronto e tradição editorial;
+7. Marxists Internet Archive como edição digital auxiliar.
 
-A tradução deverá:
+Documento: `001-texto-base.md`  
+Dados: `001-texto-base.json`
 
-- conservar a terminologia política e marxista de Mariátegui sem modernização arbitrária;
-- manter nomes próprios, organizações, eventos históricos e referências geográficas com padronização documentada;
-- preservar distinções entre socialismo, comunismo, sindicalismo, reformismo, fascismo, democracia e demais categorias utilizadas pelo autor;
-- preferir construções naturais em português brasileiro sem apagar o ritmo argumentativo do original;
-- registrar em glossário termos cuja tradução possa alterar o sentido histórico ou teórico.
+## 6. Estrutura histórica provisória
+
+O curso é tratado como uma sequência de 17 conferências, de **A crise mundial e o proletariado peruano** a **Elogio de Lenin**.
+
+A nota preliminar da edição de 1959 informa que dispunha de versões completas das conferências I, IV, V, VI, VII, IX, XI, XIII e XV. Para outras havia notas esquemáticas e, para a XVI, apenas resenha jornalística.
+
+Cada unidade será classificada antes da tradução como:
+
+- **TEXTO INTEGRAL AUTORAL**;
+- **TRANSCRIÇÃO HISTÓRICA INTEGRAL**;
+- **NOTAS DO AUTOR**;
+- **DOCUMENTO COMPLEMENTAR DE IMPRENSA**;
+- **LACUNA DOCUMENTAL**.
+
+Nenhuma lacuna será reconstruída artificialmente.
+
+## 7. Discrepância cronológica aberta
+
+A tradição editorial afirma que o curso ocorreu de **9 de junho de 1923 a 26 de janeiro de 1924**, enquanto o Archivo José Carlos Mariátegui data a Primeira Conferência em **15 de junho de 1923**.
+
+A divergência permanece registrada até resolução documental suficiente.
 
 ## 8. Uso de IA
 
-A inteligência artificial poderá auxiliar na primeira versão, comparação de passagens, consistência terminológica e revisão, mas cada trecho publicado deverá ser conferido por responsável humano contra o original espanhol.
+A inteligência artificial poderá auxiliar na tradução, comparação, glossário e revisão, mas não poderá:
 
-A edição deverá informar expressamente o uso de IA quando materialmente empregado.
+- inventar partes perdidas;
+- ampliar notas esquemáticas como se fossem discurso integral;
+- converter resenha jornalística em fala do autor;
+- substituir a conferência humana contra o original espanhol.
 
-## 9. Estrutura futura de arquivos
+## 9. Próximos gates para entrar EM TRADUÇÃO
 
-Quando o projeto entrar em tradução, a estrutura recomendada será:
+O projeto já cumpriu os requisitos para o estado **ELEGÍVEL**.
 
-```text
-biblioteca/traducoes/projetos/001-historia-da-crise-mundial/
-├── README.md
-├── projeto.json
-├── fontes.md
-├── glossario.json
-├── traducao.md
-├── notas-editoriais.md
-└── versoes/
-```
+Para mudar de **ELEGÍVEL** para **EM TRADUÇÃO**, faltam:
 
-A publicação HTML será gerada somente quando houver material suficientemente revisado para exposição pública.
+1. abrir o glossário inicial espanhol → português do Brasil;
+2. completar a ficha de fontes da primeira unidade a traduzir;
+3. definir responsável humano pela revisão;
+4. ativar o protocolo de versionamento da tradução;
+5. criar a estrutura canônica de trabalho (`traducao.md`, `glossario.json`, `fontes.md` e `versoes/`).
 
-## 10. Critério para mudança de estado
+## 10. Princípio editorial
 
-O projeto passa de **EM VERIFICAÇÃO** para **ELEGÍVEL** somente após conclusão da ficha jurídica e definição do texto-base.
+A edição do Classe e Massas será **documental, gratuita e revisável**. Quando não sobreviver o texto integral de uma conferência, a edição dirá exatamente isso.
 
-Passa de **ELEGÍVEL** para **EM TRADUÇÃO** quando houver:
-
-1. texto-base definido;
-2. sumário reconstruído;
-3. glossário inicial aberto;
-4. responsável humano pela revisão definido;
-5. protocolo de versionamento ativo.
-
----
-
-**Princípio do Projeto 001:** traduzir diretamente do espanhol, documentar cada decisão relevante e publicar gratuitamente sem sacrificar fidelidade, direitos autorais ou possibilidade de revisão futura.
+**Não reconstruiremos Mariátegui. Traduziremos o Mariátegui documentalmente preservado.**
