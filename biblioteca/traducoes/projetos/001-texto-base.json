@@ -1,0 +1,87 @@
+{
+  "id": "TCM-001-TEXTO-BASE",
+  "projeto": "TCM-001",
+  "titulo_editorial": "História da Crise Mundial — Curso de Conferências (1923–1924)",
+  "subtitulo": "Edição documental em português do Brasil — Traduções Classe e Massas",
+  "versao": "1.0",
+  "data": "2026-09-13",
+  "status": "TEXTO-BASE ESTABELECIDO",
+  "decisao": "A edição brasileira será reconstruída a partir dos materiais autorais e arquivísticos do curso, e não por tradução mecânica do volume póstumo de 1959.",
+  "hierarquia_fontes": [
+    {
+      "nivel": "A",
+      "tipo": "fonte primária",
+      "nome": "Archivo José Carlos Mariátegui — Serie Conferencias",
+      "codigo": "PE PEAJCM JCM-F-03-3-3.2",
+      "preferencia": [
+        "manuscrito ou documento original",
+        "transcrição histórica integral conservada no arquivo",
+        "notas de Mariátegui",
+        "material autoral publicado por Mariátegui em periódico contemporâneo"
+      ]
+    },
+    {
+      "nivel": "B",
+      "tipo": "fonte contemporânea complementar",
+      "regra": "resenhas de imprensa não são fundidas ao texto de Mariátegui e dependem de verificação individual"
+    },
+    {
+      "nivel": "C",
+      "tipo": "edição histórica de confronto",
+      "nome": "Historia de la crisis mundial, Empresa Editora Amauta, 1959",
+      "regra": "usar para sequência, tradição editorial e variantes; não copiar aparato editorial"
+    },
+    {
+      "nivel": "D",
+      "tipo": "edição digital auxiliar",
+      "nome": "Marxists Internet Archive — espanhol",
+      "url": "https://www.marxists.org/espanol/mariateg/oc/historia_de_la_crisis_mundial/index.htm"
+    }
+  ],
+  "conferencias": [
+    {"numero":1,"original":"La Crisis Mundial y el Proletariado Peruano","pt_br":"A crise mundial e o proletariado peruano"},
+    {"numero":2,"original":"Literatura de Guerra","pt_br":"Literatura de guerra"},
+    {"numero":3,"original":"El fracaso de la Segunda Internacional","pt_br":"O fracasso da Segunda Internacional"},
+    {"numero":4,"original":"La intervención de Italia en la guerra","pt_br":"A intervenção da Itália na guerra"},
+    {"numero":5,"original":"La Revolución Rusa","pt_br":"A Revolução Russa"},
+    {"numero":6,"original":"La Revolución Alemana","pt_br":"A Revolução Alemã"},
+    {"numero":7,"original":"La Revolución Húngara","pt_br":"A Revolução Húngara"},
+    {"numero":8,"original":"La actualidad política alemana","pt_br":"A atualidade política alemã"},
+    {"numero":9,"original":"La Paz de Versalles y la Sociedad de las Naciones","pt_br":"A Paz de Versalhes e a Sociedade das Nações"},
+    {"numero":10,"original":"La agitación proletaria en Europa en 1919 y 1920","pt_br":"A agitação proletária na Europa em 1919 e 1920"},
+    {"numero":11,"original":"Los problemas económicos de la paz","pt_br":"Os problemas econômicos da paz"},
+    {"numero":12,"original":"La crisis de la Democracia","pt_br":"A crise da democracia"},
+    {"numero":13,"original":"La agitación revolucionaria y socialista del mundo oriental","pt_br":"A agitação revolucionária e socialista do mundo oriental"},
+    {"numero":14,"original":"Las Instituciones del régimen ruso","pt_br":"As instituições do regime russo"},
+    {"numero":15,"original":"Internacionalismo y Nacionalismo","pt_br":"Internacionalismo e nacionalismo"},
+    {"numero":16,"original":"La Revolución Mexicana","pt_br":"A Revolução Mexicana"},
+    {"numero":17,"original":"Elogio de Lenin","pt_br":"Elogio de Lenin"}
+  ],
+  "tradicao_1959": {
+    "textos_completos_informados": [1,4,5,6,7,9,11,13,15],
+    "demais": "notas esquemáticas segundo a nota preliminar de 1959",
+    "conferencia_16": "a edição de 1959 informa possuir apenas resenha jornalística"
+  },
+  "rotulos_documentais": [
+    "TEXTO INTEGRAL AUTORAL",
+    "TRANSCRIÇÃO HISTÓRICA INTEGRAL",
+    "NOTAS DO AUTOR",
+    "DOCUMENTO COMPLEMENTAR DE IMPRENSA",
+    "LACUNA DOCUMENTAL"
+  ],
+  "fora_da_edicao_v1": [
+    "nota editorial de 1959",
+    "nota preliminar dos editores",
+    "índice onomástico de 1959",
+    "resenhas jornalísticas não verificadas",
+    "Veinticinco años de sucesos extranjeros até análise separada",
+    "textos posteriores sem vínculo documental confirmado com o curso"
+  ],
+  "discrepancia_cronologica": {
+    "edicao_obras_completas": "curso de 9 de junho de 1923 a 26 de janeiro de 1924",
+    "archivo_primeira_conferencia": "15 de junho de 1923",
+    "tratamento": "manter a divergência registrada até resolução por fonte primária suficiente"
+  },
+  "resultado_gate_documental": "APROVADO",
+  "estado_recomendado": "ELEGÍVEL"
+}
