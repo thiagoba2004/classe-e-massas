@@ -6,7 +6,7 @@
 **Data:** 22 de junho de 1923  
 **Natureza documental:** NOTAS DO AUTOR — não foi encontrada versão integral da conferência  
 **Versão:** v0.1  
-**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–02 APROVADOS
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–03 APROVADOS
 
 ---
 
@@ -18,9 +18,9 @@ Causas econômicas da guerra: o desenvolvimento do industrialismo britânico e o
 
 O fenômeno demográfico ocupa um lugar importante nas origens da guerra. Palavras de Adriano Tilgher: página 106 de *A Crise Mundial*. Em um século, a população europeia passou de 180 para 450 milhões. O industrialismo, estímulo ao crescimento da população. Redução das três causas de despovoamento: peste, fome, guerra. A Alemanha, incomunicada, não podia alimentar 70 milhões de habitantes. A Itália não podia permanecer neutra.
 
-Causas políticas: o processo das causas da guerra, segundo Bernard Shaw. A política e a posição tradicionais da Inglaterra, potência insular. O desenvolvimento do poder naval da Alemanha. Inglaterra, França e Bélgica chegam a um entendimento. A aliança franco-russa. Entendimento militar secreto anglo-francês. A violação da neutralidade belga tirou a Inglaterra de um embaraço. Mas há notícias e antecedentes que estabelecem a natureza do compromisso existente entre Inglaterra e França. Se a Inglaterra realmente tivesse querido evitar a guerra, diz Shaw, teria bastado anunciar que combateria ao lado da nação atacada.
+Causas políticas: o processo das causas da guerra, segundo Bernard Shaw. A política e a posição tradicionais da Inglaterra, potência insular. O desenvolvimento do poder naval da Alemanha. Inglaterra, França e Bélgica entendem-se. A aliança franco-russa. Entendimento militar secreto anglo-francês. A violação da neutralidade belga tirou a Inglaterra de um embaraço. Mas há notícias e antecedentes que estabelecem o tipo de compromisso existente entre Inglaterra e França. Se a Inglaterra realmente tivesse querido evitar a guerra, diz Shaw, teria bastado anunciar que combateria ao lado da nação atacada.
 
-A hipótese de um laço, de uma armadilha. Mais verossímil é a hipótese da impossibilidade de o governo inglês revelar seu acordo militar com a França. Depois, desse ponto de vista, a guerra aparece como consequência da diplomacia francesa. Outra causa: o revanchismo francês, o *Deutschland über alles* alemão. O nacionalismo europeu, em uma palavra. Psicologia da pequena burguesia francesa e da burocracia alemã. A Alemanha se sentia despojada ao lado de nações privilegiadas. Poincaré. O Kaiser. O Czar. Palavras de Lloyd George no Parlamento britânico; página 39 do livro de Caillaux.
+A hipótese de um laço, de uma armadilha. Mais verossímil é a hipótese da impossibilidade de o governo inglês revelar seu acordo militar com a França. Logo, desse ponto de vista, a guerra resulta ser uma consequência da diplomacia francesa. Outra causa: o revanchismo francês, o *Deutschland über alles* alemão. O nacionalismo europeu, em uma palavra. Psicologia da pequena burguesia francesa e da burocracia alemã. A Alemanha se sentia despojada ao lado de nações privilegiadas. Poincaré. O Kaiser. O Czar. Palavras de Lloyd George no Parlamento britânico; página 39 do livro de Caillaux.
 
 Outra causa: a paz armada. O equilíbrio das potências. Existia na Europa uma atmosfera inflamável. A causa diplomática: o assassinato do herdeiro da Áustria. A guerra poderia ter explodido antes, por ocasião da guerra russo-japonesa e do incidente de Agadir de 1912. Palavras de Viviani a Rapoport: página 33 do livro deste último.
 
