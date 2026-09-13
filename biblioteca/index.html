@@ -93,6 +93,17 @@
       const meta = el('div', 'library-meta', metaParts.filter(Boolean).join(' • '));
       body.appendChild(title);
       body.appendChild(meta);
+
+      if (Array.isArray(work.estrutura) && work.estrutura.length) {
+        const structure = el('ul', 'ranked-work-structure');
+        work.estrutura.forEach(part => structure.appendChild(el('li', '', part)));
+        body.appendChild(structure);
+      }
+
+      if (work.nota) {
+        body.appendChild(el('p', 'ranked-work-note', work.nota));
+      }
+
       item.appendChild(badge);
       item.appendChild(body);
       appendLinks(item, work.links);
@@ -131,7 +142,7 @@
 
     try {
       const [baseResponse, expansionResponse] = await Promise.all([
-        fetch('rankings.json?v=1.1', { cache: 'no-cache' }),
+        fetch('rankings.json?v=1.2', { cache: 'no-cache' }),
         fetch('teoricos-08-10.json?v=1.0', { cache: 'no-cache' })
       ]);
       if (!baseResponse.ok) throw new Error('rankings.json: HTTP ' + baseResponse.status);
