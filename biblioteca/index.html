@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Biblioteca Revolucionária | Classe e Massas</title>
-  <meta name="description" content="Biblioteca de formação do Classe e Massas organizada por teóricos revolucionários e rankings editoriais TOP 10 de seus escritos fundamentais.">
+  <meta name="description" content="Biblioteca de formação do Classe e Massas com TOP 10 de teóricos revolucionários e TOP 10 de seus escritos fundamentais.">
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -28,23 +28,27 @@
       <div class="kicker">FORMAÇÃO • TEORIA • MEMÓRIA REVOLUCIONÁRIA</div>
       <h1>Biblioteca Revolucionária</h1>
       <p class="dek">Os teóricos vêm primeiro. Seus escritos são organizados por importância histórica, teórica e política no conjunto da obra de cada autor.</p>
-      <p class="library-intro">A Biblioteca Revolucionária do Classe e Massas apresenta agora o <strong>TOP 10 dos escritos</strong> dos teóricos já incorporados ao projeto. O objetivo não é criar uma lista de prestígio abstrato, mas orientar percursos progressivos de formação e facilitar o acesso às obras que mais contribuíram para compreender e transformar a sociedade.</p>
+      <p class="library-intro">A Biblioteca Revolucionária do Classe e Massas apresenta um <strong>TOP 10 de teóricos revolucionários</strong> e, dentro de cada autor, um <strong>TOP 10 de escritos fundamentais</strong>. O resultado é um percurso inicial de <strong>100 escritos ranqueados</strong> para estudo, comparação e formação.</p>
 
       <div class="library-note">
         <strong>Dois rankings diferentes.</strong> O selo <strong>TOP N</strong> ao lado do nome indica a posição editorial do teórico no conjunto da Biblioteca. Já <strong>ESCRITO #N</strong> indica a posição daquele texto no conjunto dos escritos fundamentais do próprio autor.
       </div>
 
       <div class="library-note">
-        <strong>Critério editorial dos escritos.</strong> O ranking combina impacto teórico, impacto histórico e político, influência internacional, centralidade para compreender o pensamento do autor e permanência como referência. O número <strong>não corresponde à ordem de inclusão no site</strong> e não pretende ser uma classificação acadêmica universal. É uma hipótese editorial fundamentada, pública e revisável.
+        <strong>Critério editorial.</strong> Os rankings combinam contribuição teórica, impacto histórico e político, influência internacional, centralidade para compreender o pensamento do autor e permanência como referência. Não pretendem constituir uma classificação acadêmica universal: são hipóteses editoriais fundamentadas, públicas e revisáveis.
       </div>
 
       <div class="library-note">
-        <strong>Leitura e traduções.</strong> A Biblioteca prioriza versões públicas em português. Quando não foi localizada uma edição integral pública em português, o botão informa com precisão se o acesso é a uma versão em inglês, a um trecho ou a um PDF. Os links conduzem às fontes externas indicadas; o Classe e Massas não reproduz automaticamente traduções de terceiros.
+        <strong>Importância histórica não é endosso.</strong> A presença de um autor no ranking significa que sua produção exerceu influência relevante sobre a teoria ou a prática revolucionária. Isso não implica concordância do Classe e Massas com todas as suas posições, decisões políticas ou experiências históricas associadas ao seu nome.
+      </div>
+
+      <div class="library-note">
+        <strong>Leitura e traduções.</strong> A Biblioteca prioriza versões públicas em português. Quando não foi localizada uma edição integral pública em português, o botão informa com precisão se o acesso é a uma versão em outro idioma, a um trecho, a uma referência editorial ou a um PDF. Os links conduzem às fontes externas indicadas; o Classe e Massas não reproduz automaticamente traduções de terceiros.
       </div>
     </section>
 
     <section aria-labelledby="ranking-teoricos">
-      <div class="kicker">FORMAÇÃO REVOLUCIONÁRIA • TOP 10</div>
+      <div class="kicker">FORMAÇÃO REVOLUCIONÁRIA • TOP 10 × TOP 10</div>
       <h2 id="ranking-teoricos" class="library-section-title">Teóricos e escritos fundamentais</h2>
       <div id="libraryStatus" class="library-load-status" role="status">Carregando os rankings da Biblioteca…</div>
       <div id="theoristList" class="theorist-list"></div>
@@ -126,16 +130,26 @@
     }
 
     try {
-      const response = await fetch('rankings.json?v=1.0', { cache: 'no-cache' });
-      if (!response.ok) throw new Error('HTTP ' + response.status);
-      const data = await response.json();
-      data.teoricos.forEach(theorist => list.appendChild(renderTheorist(theorist)));
-      status.textContent = data.teoricos.length + ' teóricos • ' + (data.teoricos.length * 10) + ' escritos no TOP 10';
+      const [baseResponse, expansionResponse] = await Promise.all([
+        fetch('rankings.json?v=1.1', { cache: 'no-cache' }),
+        fetch('teoricos-08-10.json?v=1.0', { cache: 'no-cache' })
+      ]);
+      if (!baseResponse.ok) throw new Error('rankings.json: HTTP ' + baseResponse.status);
+      if (!expansionResponse.ok) throw new Error('teoricos-08-10.json: HTTP ' + expansionResponse.status);
+
+      const baseData = await baseResponse.json();
+      const expansionData = await expansionResponse.json();
+      const theorists = [...baseData.teoricos, ...expansionData.teoricos]
+        .sort((a, b) => a.ranking - b.ranking);
+
+      theorists.forEach(theorist => list.appendChild(renderTheorist(theorist)));
+      const top10Count = theorists.reduce((sum, theorist) => sum + (Array.isArray(theorist.top10) ? theorist.top10.length : 0), 0);
+      status.textContent = theorists.length + ' teóricos • ' + top10Count + ' escritos no TOP 10';
       status.classList.add('loaded');
     } catch (error) {
       status.textContent = 'Não foi possível carregar os rankings agora. Recarregue a página em instantes.';
       status.classList.add('library-error');
-      console.error('Biblioteca: falha ao carregar rankings.json', error);
+      console.error('Biblioteca: falha ao carregar os dados dos rankings', error);
     }
   })();
   </script>
