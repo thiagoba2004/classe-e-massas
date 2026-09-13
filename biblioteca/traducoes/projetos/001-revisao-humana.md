@@ -34,6 +34,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Unidades do corpus: 17/17 persistidas.
 - Revisão humana integral: INICIADA.
 - Unidade em revisão: Conferência 01 — *A crise mundial e o proletariado peruano*.
+- Blocos aprovados nesta unidade: 1.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -42,9 +43,27 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 **Fonte principal:** PE PEAJCM JCM-F-03-3-3.2-001-M — Archivo José Carlos Mariátegui  
 **Estado:** EM REVISÃO
 
-### Bloco 01
+### Bloco 01 — abertura da conferência
 
-**Situação:** ABERTO — aguardando decisão humana sobre os primeiros trechos comparados.
+**Intervalo:** da frase inicial da conferência até “Nela será decidido o destino do proletariado mundial.”  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 13/09/2026.  
+**Fonte de confronto:** transcrição/manuscrito arquivístico principal e notas autorais da primeira conferência, conforme ficha documental `001-conferencia-01-fontes.md`.
+
+**Decisões humanas aprovadas:**
+
+1. `chamemo-la antes de conversa do que de conferência` → `chamemo-la antes uma conversa do que uma conferência`;
+2. `imprensa formadora` → `imprensa decente`, adotando a leitura documental primária `prensa decente` e reservando a variante editorial posterior `prensa docente` para o aparato crítico;
+3. `uma das horas mais transcendentais e grandiosas da história` → `uma das horas mais transcendentais e grandes da história`.
+
+**Demais trechos do bloco:** mantidos sem alteração material.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva; a variante `docente/decente` deverá permanecer documentada no aparato editorial da edição.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `f7fedec631346f48139f6df7432c5e972ce16a4e`.
+
+### Bloco 02
+
+**Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
 ---
 
