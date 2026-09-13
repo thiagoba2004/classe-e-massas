@@ -2,7 +2,7 @@
 
 **Projeto:** Classe e Massas  
 **Status:** CANÔNICO  
-**Versão:** 1.0  
+**Versão:** 1.1  
 **Data:** 13/09/2026  
 **Escopo:** todo modelo de IA, agente, assistente ou automação que trabalhe neste repositório ou em seus documentos derivados.
 
@@ -85,6 +85,65 @@ Mesmo sem conclusão de uma unidade lógica, trabalho extenso não deve permanec
 
 Se a reconstrução do que já foi feito exigir mais do que alguns minutos, o conteúdo deve ser salvo imediatamente.
 
+### 4.3. Salvamento contínuo obrigatório — write-through
+
+Para trabalhos substanciais, a persistência não é uma etapa posterior ao trabalho: **faz parte do próprio ato de produzir**.
+
+Sempre que o agente gerar um bloco novo que tenha valor autônomo — seção, trecho traduzido, conjunto de dados, revisão relevante, decisão metodológica ou outro conteúdo cuja perda exija reconstrução — deverá, quando possuir ferramenta autorizada, gravá-lo no arquivo canônico **antes de avançar para o próximo bloco substancial**.
+
+A sequência preferencial é:
+
+```text
+PRODUZIR BLOCO
+      ↓
+SALVAR NO ARQUIVO CANÔNICO
+      ↓
+VERIFICAR A GRAVAÇÃO
+      ↓
+ATUALIZAR STATUS, QUANDO APLICÁVEL
+      ↓
+CONTINUAR O TRABALHO
+```
+
+O agente não deve acumular capítulos, conferências, grandes traduções ou múltiplas rodadas de revisão apenas na conversa esperando um salvamento futuro.
+
+### 4.4. Orçamento máximo de perda — RPO do projeto
+
+O projeto adota como objetivo de preservação:
+
+> **nenhuma unidade lógica concluída pode depender exclusivamente do chat.**
+
+Na prática, o máximo tolerável de trabalho não persistido é o conteúdo do **bloco corrente ainda não concluído**. Assim que o bloco adquirir forma utilizável, deverá ser salvo.
+
+Quando a ferramenta permitir gravação direta, o objetivo é **RPO próximo de zero para unidades concluídas**: uma falha de conversa não deve apagar uma seção, capítulo, conferência, artigo ou tradução já finalizada.
+
+### 4.5. Salvamento em camadas
+
+Trabalhos de alto custo intelectual devem usar, sempre que tecnicamente possível, quatro camadas de proteção:
+
+```text
+CAMADA 1 — arquivo canônico de trabalho
+CAMADA 2 — commit Git recuperável
+CAMADA 3 — repositório remoto confirmado
+CAMADA 4 — segunda cópia independente para marcos críticos
+```
+
+A quarta camada poderá ser uma cópia persistente na Biblioteca, armazenamento externo autorizado ou outro repositório adequado. Não é necessário duplicar cada pequena alteração, mas **marcos críticos** — como tradução integral concluída, versão final de denúncia, base consolidada ou documento canônico aprovado — devem possuir segunda cópia quando houver meio disponível.
+
+### 4.6. Barreira de segurança antes de continuar
+
+Se o agente perceber que produziu conteúdo substancial ainda não persistido e dispõe de ferramenta para salvá-lo, deverá **interromper a expansão do trabalho e preservar primeiro**.
+
+Se não dispuser de ferramenta de persistência, deverá avisar claramente que o conteúdo ainda não está protegido e oferecer o menor procedimento necessário para salvá-lo antes de prosseguir por muitas etapas.
+
+A conveniência de continuar escrevendo nunca prevalece sobre a preservação de trabalho já concluído.
+
+### 4.7. Verificação do salvamento
+
+Salvar não significa apenas emitir um comando de gravação. Quando possível, o agente deve confirmar que o conteúdo realmente existe no destino esperado, mediante leitura posterior, SHA, commit, consulta ao arquivo ou outro mecanismo verificável.
+
+**Comando executado sem confirmação não equivale automaticamente a salvamento comprovado.**
+
 ---
 
 ## 5. Regra especial para traduções
@@ -122,7 +181,15 @@ O `status.json` deve registrar, quando aplicável:
 
 Os valores devem refletir fatos comprovados. Não inventar percentual, unidade concluída ou commit.
 
-Quando a tradução integral estiver concluída, o status correspondente deverá ser registrado e versionado **antes de a sessão ser considerada encerrada**.
+Cada unidade concluída da tradução deve ser gravada no `traducao.md` ou em arquivo canônico equivalente **antes de a tradução avançar para a unidade seguinte**, salvo impossibilidade técnica expressamente informada.
+
+Quando a tradução integral estiver concluída, devem existir, antes de qualquer etapa posterior:
+
+1. texto integral persistido;
+2. status atualizado para refletir a conclusão;
+3. commit correspondente;
+4. push remoto confirmado, quando houver acesso;
+5. segunda cópia independente, quando tecnicamente disponível para esse marco crítico.
 
 ---
 
@@ -157,6 +224,8 @@ MPT: atualiza modelo nacional de representação
 
 O Modelo de IA **não pode afirmar** que houve commit, push, publicação ou atualização remota sem evidência da operação concluída.
 
+Para trabalhos longos, não se deve concentrar todo o histórico em um único commit final se commits intermediários puderem reduzir materialmente o risco de perda.
+
 ---
 
 ## 8. Fechamento obrigatório de sessão
@@ -168,9 +237,13 @@ Antes de declarar encerrada uma sessão de trabalho substancial, o Modelo de IA 
 3. alterações persistidas;
 4. commit realizado ou instrução clara de commit pendente;
 5. push confirmado ou indicação explícita de que ainda está pendente;
-6. estado final resumido em termos verificáveis.
+6. verificação de que o destino contém a versão esperada;
+7. segunda cópia de marcos críticos, quando aplicável;
+8. estado final resumido em termos verificáveis.
 
 Quando tiver acesso autorizado ao GitHub e a alteração solicitada puder ser realizada diretamente, o agente deve preferir persistir o resultado no repositório em vez de deixar o usuário apenas com conteúdo no chat.
+
+Uma sessão não deve ser encerrada com a expressão “pronto” se o conteúdo ainda estiver apenas na conversa.
 
 ---
 
@@ -298,8 +371,10 @@ Ao final de uma operação substancial, informar de forma objetiva:
 - **o que foi alterado**;
 - **onde foi salvo**;
 - **qual é o estado atual**;
+- **se houve verificação do salvamento**;
 - **se houve commit**;
 - **se houve push/publicação**;
+- **se existe segunda cópia do marco crítico**;
 - **qual é a próxima ação pendente**, se existir.
 
 Evitar respostas vagas como “pronto” quando existirem etapas técnicas distintas.
@@ -360,13 +435,17 @@ CONTEÚDO CONCLUÍDO
         ↓
 ARQUIVO CANÔNICO ATUALIZADO
         ↓
+VERIFICAÇÃO DA GRAVAÇÃO
+        ↓
 STATUS/MANIFESTO ATUALIZADO
         ↓
 COMMIT
         ↓
 PUSH
         ↓
-VERIFICAÇÃO
+VERIFICAÇÃO REMOTA
+        ↓
+SEGUNDA CÓPIA, SE MARCO CRÍTICO
 ```
 
 Publicação, quando aplicável, constitui etapa adicional.
@@ -375,7 +454,7 @@ Publicação, quando aplicável, constitui etapa adicional.
 
 ## 20. Regra máxima
 
-> **Nunca obrigar o usuário a pagar novamente, com seu tempo e trabalho, por uma falha de memória, persistência ou continuidade do Modelo de IA.**
+> **Nunca obrigar o usuário a pagar novamente, com seu tempo, energia ou recursos, por uma falha de memória, persistência ou continuidade do Modelo de IA.**
 
 Se houver dúvida entre continuar produzindo e preservar o que já foi produzido, **preservar primeiro**.
 
@@ -411,3 +490,35 @@ Este `AGENTS.md` é um documento canônico do projeto.
 Alterações que reduzam as garantias previstas neste protocolo exigem decisão expressa do responsável pelo projeto e devem ser versionadas de forma identificável.
 
 A ausência de ferramenta específica não suspende os princípios deste documento. Nessa hipótese, o agente deve adaptar o procedimento preservando a finalidade: **não perder trabalho, não inventar estado e não apresentar como concluída uma ação que não foi comprovadamente executada.**
+
+---
+
+## 23. Protocolo mínimo de segurança operacional
+
+A partir desta versão, todo trabalho substancial deverá obedecer ao seguinte ciclo mínimo:
+
+```text
+ABRIR / IDENTIFICAR O ARQUIVO CANÔNICO
+              ↓
+PRODUZIR UMA UNIDADE LÓGICA
+              ↓
+SALVAR IMEDIATAMENTE
+              ↓
+VERIFICAR O SALVAMENTO
+              ↓
+ATUALIZAR O STATUS
+              ↓
+COMMITAR O MARCO RELEVANTE
+              ↓
+CONFIRMAR O REMOTO
+              ↓
+SÓ ENTÃO ACUMULAR NOVO TRABALHO SUBSTANCIAL
+```
+
+Para marcos críticos, acrescentar uma segunda cópia independente.
+
+Este ciclo é uma **barreira de segurança**, não uma recomendação opcional.
+
+A prioridade operacional do agente é:
+
+> **preservar primeiro; produzir depois; publicar por último.**
