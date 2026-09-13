@@ -25,7 +25,10 @@
     .contact-note{padding:18px 20px;border-left:5px solid #111;background:rgba(127,127,127,.08);margin:28px 0}
     .small{font-size:.9rem}
     .protocol-info{font:700 .85rem Arial,sans-serif;margin:18px 0;padding:14px;border:1px solid #777;background:#fffdf8}
+    .form-status{margin-top:14px;font:700 .9rem Arial,sans-serif}
+    .form-status.error{border-left:5px solid #111;padding:12px 14px;background:rgba(127,127,127,.08)}
     .honey{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+    button[disabled]{opacity:.6;cursor:wait}
     @media(max-width:700px){.contact-grid,.form-row{grid-template-columns:1fr}}
   </style>
 </head>
@@ -75,40 +78,30 @@
   <section class="contact-form" aria-labelledby="form-title">
     <div class="kicker">FORMULÁRIO DE CONTATO</div>
     <h2 id="form-title">Envie diretamente pelo site</h2>
-    <p>O formulário é enviado pela web e encaminhado ao e-mail institucional <strong>canalclasseemassas@gmail.com</strong>. Não é necessário possuir ou informar um endereço de e-mail para enviar a mensagem.</p>
-    <p>Após a conclusão do envio, o site exibirá um <strong>número de protocolo</strong>. Guarde-o: o mesmo identificador seguirá junto com a mensagem encaminhada ao Classe e Massas.</p>
-    <div class="contact-note small"><strong>Infraestrutura técnica:</strong> como o site funciona no GitHub Pages, que não processa formulários no servidor, o envio utiliza o serviço técnico FormSubmit para encaminhar a mensagem ao e-mail institucional. Os anexos estão limitados a <strong>10 MB no total</strong>.</div>
+    <p>Não é necessário possuir ou informar um endereço de e-mail para enviar a mensagem. A submissão é registrada pelo canal técnico do Classe e Massas e, após o recebimento confirmado, o site apresenta um <strong>número de protocolo</strong>.</p>
+    <p>O formulário utiliza a infraestrutura Forminit para processar as submissões e arquivos. O visitante permanece no fluxo do Classe e Massas, sem CAPTCHA visível.</p>
 
-    <form id="contactForm" action="https://formsubmit.co/canalclasseemassas@gmail.com" method="POST" enctype="multipart/form-data">
-      <input type="hidden" id="protocolo" name="Protocolo" value="">
-      <input type="hidden" id="emailRetorno" name="E-mail para retorno" value="Não informado">
-      <input type="hidden" id="identidade" name="Solicita preservação de identidade" value="NÃO">
-      <input type="hidden" id="formUrl" name="_url" value="">
-      <input type="hidden" id="nextUrl" name="_next" value="">
-      <input type="hidden" id="subjectField" name="_subject" value="Classe e Massas — nova mensagem">
-      <input type="hidden" name="_template" value="table">
-      <input type="hidden" name="_captcha" value="false">
-
+    <form id="contactForm" enctype="multipart/form-data">
       <div class="honey" aria-hidden="true">
         <label for="website">Deixe este campo em branco</label>
-        <input id="website" type="text" name="_honey" tabindex="-1" autocomplete="off">
+        <input id="website" type="text" tabindex="-1" autocomplete="off">
       </div>
 
       <div class="form-row">
         <div class="field">
           <label for="nome">Nome ou pseudônimo</label>
-          <input id="nome" name="Nome ou pseudônimo" type="text" autocomplete="name">
+          <input id="nome" name="fi-sender-fullName" type="text" autocomplete="name" placeholder="Opcional">
         </div>
         <div class="field">
           <label for="retorno">E-mail para retorno — opcional</label>
-          <input id="retorno" type="email" autocomplete="email" placeholder="Opcional">
+          <input id="retorno" name="fi-sender-email" type="email" autocomplete="email" placeholder="Opcional">
         </div>
       </div>
 
       <div class="form-row">
         <div class="field">
           <label for="tipo">Tipo de contato</label>
-          <select id="tipo" name="Tipo de contato">
+          <select id="tipo" name="fi-select-tipo" required>
             <option>Notícia ou pauta</option>
             <option>Denúncia</option>
             <option>Documento ou prova</option>
@@ -119,50 +112,55 @@
         </div>
         <div class="field">
           <label for="assunto">Assunto</label>
-          <input id="assunto" name="Assunto" type="text" required>
+          <input id="assunto" name="fi-text-assunto" type="text" required>
         </div>
       </div>
 
       <div class="field">
         <label for="link">Link relacionado, se houver</label>
-        <input id="link" name="Link relacionado" type="url" placeholder="https://">
+        <input id="link" name="fi-url-link" type="url" placeholder="https://">
       </div>
 
       <div class="field">
         <label for="mensagem">Mensagem</label>
-        <textarea id="mensagem" name="Mensagem" required placeholder="Descreva o que aconteceu, quando, onde, quem está envolvido e quais documentos ou provas existem."></textarea>
+        <textarea id="mensagem" name="fi-text-mensagem" required placeholder="Descreva o que aconteceu, quando, onde, quem está envolvido e quais documentos ou provas existem."></textarea>
       </div>
 
       <div class="field">
         <label for="anexo1">Anexo 1 — opcional</label>
-        <input id="anexo1" name="Anexo 1" type="file">
+        <input id="anexo1" name="fi-file-anexo1" type="file">
       </div>
       <div class="field">
         <label for="anexo2">Anexo 2 — opcional</label>
-        <input id="anexo2" name="Anexo 2" type="file">
+        <input id="anexo2" name="fi-file-anexo2" type="file">
       </div>
       <div class="field">
         <label for="anexo3">Anexo 3 — opcional</label>
-        <input id="anexo3" name="Anexo 3" type="file">
+        <input id="anexo3" name="fi-file-anexo3" type="file">
       </div>
-      <p class="small">Você pode anexar documentos, imagens, áudios ou outros arquivos relevantes. O limite total desta infraestrutura é 10 MB por envio.</p>
+      <p class="small">Você pode anexar documentos, imagens, áudios ou outros arquivos aceitos pela infraestrutura. O limite técnico é de <strong>25 MB no total por submissão</strong>.</p>
 
       <label class="checkline" for="proteger">
         <input id="proteger" type="checkbox">
         <span>Quero solicitar que minha identidade não seja publicada.</span>
       </label>
 
-      <div id="protocolPreview" class="protocol-info">O protocolo será gerado no momento do envio e confirmado após a conclusão da submissão.</div>
-      <button class="button" type="submit">Enviar mensagem</button>
+      <div id="protocolPreview" class="protocol-info">O protocolo será gerado durante o envio e exibido somente depois que a submissão for aceita pelo servidor.</div>
+      <button id="submitButton" class="button" type="submit">Enviar mensagem</button>
+      <div id="formStatus" class="form-status" role="status" aria-live="polite"></div>
     </form>
   </section>
 </main>
 
 <footer>Classe e Massas • Fale Conosco • 2026</footer>
 <script src="../js/main.js"></script>
+<script src="https://forminit.com/sdk/v1/forminit.js"></script>
 <script>
+  const FORM_ID = 'enf49vjejov';
+  const forminit = new Forminit();
   const form = document.getElementById('contactForm');
-  const protocolField = document.getElementById('protocolo');
+  const submitButton = document.getElementById('submitButton');
+  const formStatus = document.getElementById('formStatus');
   const protocolPreview = document.getElementById('protocolPreview');
 
   function pad(value) {
@@ -183,28 +181,61 @@
     return 'CEM-' + date + '-' + time + '-' + random;
   }
 
-  form.addEventListener('submit', function (event) {
+  form.addEventListener('submit', async function (event) {
+    event.preventDefault();
+    formStatus.textContent = '';
+    formStatus.className = 'form-status';
+
+    if (document.getElementById('website').value) {
+      formStatus.textContent = 'Não foi possível enviar a mensagem.';
+      formStatus.className = 'form-status error';
+      return;
+    }
+
     const fileInputs = ['anexo1', 'anexo2', 'anexo3'].map(id => document.getElementById(id));
     const totalBytes = fileInputs.reduce((sum, input) => sum + (input.files[0] ? input.files[0].size : 0), 0);
-    if (totalBytes > 10 * 1024 * 1024) {
-      event.preventDefault();
-      alert('Os anexos ultrapassam o limite total de 10 MB. Remova ou reduza algum arquivo antes de enviar.');
+    if (totalBytes > 25 * 1024 * 1024) {
+      formStatus.textContent = 'Os anexos ultrapassam o limite total de 25 MB. Remova ou reduza algum arquivo antes de enviar.';
+      formStatus.className = 'form-status error';
       return;
     }
 
     const protocol = makeProtocol();
+    const formData = new FormData(form);
+    const nome = document.getElementById('nome').value.trim();
     const retorno = document.getElementById('retorno').value.trim();
-    const tipo = document.getElementById('tipo').value;
-    const assunto = document.getElementById('assunto').value.trim();
+    const link = document.getElementById('link').value.trim();
     const proteger = document.getElementById('proteger').checked ? 'SIM' : 'NÃO';
 
-    protocolField.value = protocol;
-    document.getElementById('emailRetorno').value = retorno || 'Não informado';
-    document.getElementById('identidade').value = proteger;
-    document.getElementById('subjectField').value = 'Classe e Massas — ' + protocol + ' — ' + tipo + ' — ' + assunto;
-    document.getElementById('formUrl').value = window.location.href;
-    document.getElementById('nextUrl').value = window.location.origin + '/classe-e-massas/fale-conosco/recebido.html?protocolo=' + encodeURIComponent(protocol);
-    protocolPreview.textContent = 'Protocolo em preparação: ' + protocol;
+    if (!nome) formData.set('fi-sender-fullName', 'Anônimo / não informado');
+    if (!retorno) formData.delete('fi-sender-email');
+    if (!link) formData.delete('fi-url-link');
+
+    formData.set('fi-text-protocolo', protocol);
+    formData.set('fi-text-preservacao-identidade', proteger);
+    formData.set('fi-text-pagina-origem', window.location.href);
+
+    submitButton.disabled = true;
+    submitButton.textContent = 'Enviando...';
+    protocolPreview.textContent = 'Envio em andamento. O protocolo será liberado após a confirmação do servidor.';
+
+    try {
+      const { data, error } = await forminit.submit(FORM_ID, formData);
+
+      if (error) {
+        throw new Error(error.message || 'Erro ao enviar a mensagem.');
+      }
+
+      const registro = data && data.hashId ? data.hashId : '';
+      const destino = 'recebido.html?protocolo=' + encodeURIComponent(protocol) + (registro ? '&registro=' + encodeURIComponent(registro) : '');
+      window.location.href = destino;
+    } catch (error) {
+      formStatus.textContent = 'Não foi possível concluir o envio: ' + (error.message || 'tente novamente em instantes.');
+      formStatus.className = 'form-status error';
+      protocolPreview.textContent = 'Nenhum protocolo foi confirmado. A mensagem pode ser reenviada.';
+      submitButton.disabled = false;
+      submitButton.textContent = 'Enviar mensagem';
+    }
   });
 </script>
 </body>
