@@ -6,7 +6,7 @@
 **Data documental:** 15 de junho de 1923  
 **Fonte principal identificada:** PE PEAJCM JCM-F-03-3-3.2-001-M — Archivo José Carlos Mariátegui  
 **Versão:** v0.1  
-**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–02 APROVADOS
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–03 APROVADOS
 
 ---
 
@@ -22,19 +22,19 @@ E não pode sabê-lo por meio das informações fragmentárias, episódicas, hom
 
 O desenvolvimento da crise deve interessar, portanto, igualmente aos trabalhadores do Peru e aos trabalhadores do Extremo Oriente. A crise tem como principal cenário a Europa; mas a crise das instituições europeias é a crise da civilização ocidental.
 
-E o Peru, como os demais povos da América, gira dentro da órbita dessa civilização, não apenas porque se trata de países politicamente independentes, mas economicamente coloniais, ligados ao carro do capitalismo britânico, do capitalismo americano ou do capitalismo francês, mas também porque europeia é a nossa cultura, europeu é o tipo das nossas instituições.
+E o Peru, como os demais povos da América, gira dentro da órbita dessa civilização, não só porque se trata de países politicamente independentes, porém economicamente coloniais, atrelados ao carro do capitalismo britânico, do capitalismo americano ou do capitalismo francês, mas porque europeia é a nossa cultura, europeu é o tipo das nossas instituições.
 
 E são precisamente essas instituições democráticas, que copiamos da Europa, e essa cultura, que também copiamos da Europa, que agora atravessam, na própria Europa, um período de crise definitiva, de crise total. Sobretudo, a civilização capitalista internacionalizou a vida da humanidade; criou entre todos os povos laços materiais que estabelecem entre eles uma solidariedade inevitável. O internacionalismo não é apenas um ideal; é uma realidade histórica.
 
-O progresso faz com que os interesses, as ideias, os costumes e os regimes dos povos se unifiquem e se confundam. O Peru, como os demais povos americanos, não está, portanto, fora da crise: está dentro dela. A crise mundial já repercutiu nesses povos. E, naturalmente, continuará repercutindo. Um período de reação na Europa será também um período de reação na América. Um período de revolução na Europa será também um período de revolução na América.
+O progresso faz com que os interesses, as ideias, os costumes e os regimes dos povos se unifiquem e se confundam. O Peru, como os demais povos americanos, não está, portanto, fora da crise: está dentro dela. A crise mundial já repercutiu nesses povos. E, naturalmente, continuará repercutindo. Um período de reação na Europa será também um período de reação na América. Um período de revolução na Europa será um período de revolução na América.
 
 Há mais de um século, quando a vida da humanidade não era tão solidária como hoje, quando não existiam os meios de comunicação atuais, quando as nações não mantinham o contato imediato e constante que hoje mantêm, quando não havia imprensa e quando ainda éramos espectadores distantes dos acontecimentos europeus, a Revolução Francesa deu origem à Guerra da Independência e ao surgimento de todas estas repúblicas.
 
-Essa lembrança basta para que compreendamos a rapidez com que a transformação da sociedade se refletirá nas sociedades americanas. Aqueles que dizem que o Peru, e a América em geral, vivem muito distantes da revolução europeia não têm noção da vida contemporânea nem possuem sequer uma compreensão aproximada da história.
+Essa lembrança basta para que compreendamos a rapidez com que a transformação da sociedade europeia se refletirá nas sociedades americanas. Aqueles que dizem que o Peru, e a América em geral, vivem muito distantes da revolução europeia não têm noção da vida contemporânea nem possuem sequer uma compreensão aproximada da história.
 
 Essa gente se surpreende com a chegada ao Peru dos ideais mais avançados da Europa, mas não se surpreende, em contrapartida, com a chegada do avião, do transatlântico, do telégrafo sem fio, do rádio; enfim, de todas as expressões mais avançadas do progresso material europeu.
 
-Haveria a mesma razão para ignorar o movimento socialista que para ignorar, por exemplo, a teoria da relatividade de Einstein. E estou seguro de que nem ao mais reacionário dos nossos intelectuais — quase todos são reacionários impermeáveis — ocorreria sustentar que a nova física, da qual Einstein é o mais eminente e máximo representante, deve ser proscrita do estudo e da divulgação.
+Haveria a mesma razão para ignorar o movimento socialista que para ignorar, por exemplo, a teoria da relatividade de Einstein. E estou seguro de que nem ao mais reacionário dos nossos intelectuais — quase todos são impermeavelmente reacionários — ocorreria sustentar que a nova física, da qual Einstein é o mais eminente e máximo representante, deve ser proscrita do estudo e da divulgação.
 
 E, se o proletariado em geral tem necessidade de conhecer os grandes aspectos da crise mundial, essa necessidade é ainda maior naquela parte do proletariado socialista, trabalhista, sindicalista ou libertária que constitui sua vanguarda; naquela parte do proletariado mais combativa e consciente, mais lutadora e preparada; naquela parte do proletariado encarregada da direção das grandes ações proletárias; naquela parte do proletariado à qual cabe o papel histórico de representar o proletariado peruano no presente instante social; naquela parte do proletariado, em uma palavra, que, qualquer que seja seu credo particular, tem consciência de classe, tem consciência revolucionária.
 
