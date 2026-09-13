@@ -1,0 +1,49 @@
+{
+  "id": "TCM-001-JUR",
+  "projeto": "TCM-001",
+  "titulo": "Ficha Jurídica de Elegibilidade — História da Crise Mundial",
+  "versao": "1.0",
+  "data": "2026-09-13",
+  "autor_original": "José Carlos Mariátegui",
+  "falecimento": "1930-04-16",
+  "conclusao": "ELEGÍVEL, COM DELIMITAÇÃO DE ESCOPO",
+  "resultado_gate_juridico": "APROVADO",
+  "fundamentos": {
+    "brasil": [
+      "Lei 9.610/1998, art. 14 — tradução de obra em domínio público pode gerar direitos próprios sem impedir tradução independente",
+      "Lei 9.610/1998, art. 24 §2º — preservação de autoria e integridade de obra em domínio público",
+      "Lei 9.610/1998, art. 29 IV — tradução depende de autorização enquanto a obra originária estiver protegida",
+      "Lei 9.610/1998, art. 41 — vida do autor mais 70 anos a partir de 1º de janeiro do ano seguinte ao falecimento"
+    ],
+    "peru": [
+      "Decreto Legislativo 822, arts. 52 e 56 — vida do autor mais 70 anos, computados a partir de 1º de janeiro do ano seguinte",
+      "Decreto Legislativo 822, art. 57 — vencido o prazo, a obra ingressa no domínio público"
+    ]
+  },
+  "escopo_liberado": [
+    "manuscritos autorais de Mariátegui",
+    "notas de conferência de Mariátegui",
+    "transcrições históricas do conteúdo efetivamente atribuível a Mariátegui",
+    "textos do próprio autor publicados em periódicos da época"
+  ],
+  "exclusoes_automaticas": [
+    "nota editorial de 1959",
+    "nota preliminar dos editores de 1959",
+    "índices e aparato editorial moderno",
+    "resenhas jornalísticas sem verificação individual de autoria e direitos",
+    "texto e aparato do artigo de Ricardo Portocarrero de 1997",
+    "traduções contemporâneas de terceiros"
+  ],
+  "fonte_arquivistica": {
+    "nome": "Archivo José Carlos Mariátegui — Serie Conferencias",
+    "codigo": "PE PEAJCM JCM-F-03-3-3.2",
+    "periodo": "1923-1924",
+    "url": "https://archivo.mariategui.org/index.php/conferencias"
+  },
+  "fontes_legais": [
+    "https://www.planalto.gov.br/ccivil_03/leis/l9610.htm",
+    "https://www.wipo.int/wipolex/es/legislation/details/18762",
+    "https://www.gob.pe/14394-acceder-al-catalogo-de-obras-de-dominio-publico"
+  ],
+  "estado_recomendado": "ELEGÍVEL"
+}
