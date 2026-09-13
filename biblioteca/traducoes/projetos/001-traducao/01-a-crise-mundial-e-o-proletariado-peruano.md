@@ -6,15 +6,15 @@
 **Data documental:** 15 de junho de 1923  
 **Fonte principal identificada:** PE PEAJCM JCM-F-03-3-3.2-001-M — Archivo José Carlos Mariátegui  
 **Versão:** v0.1  
-**Estado:** RASCUNHO — AGUARDA REVISÃO HUMANA INTEGRAL
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCO 01 APROVADO
 
 ---
 
-Nesta conferência — chamemo-la antes de conversa do que de conferência — vou limitar-me a expor o programa do curso, ao mesmo tempo em que farei algumas considerações sobre a necessidade de difundir entre o proletariado o conhecimento da crise mundial.
+Nesta conferência — chamemo-la antes uma conversa do que uma conferência — vou limitar-me a expor o programa do curso, ao mesmo tempo em que farei algumas considerações sobre a necessidade de difundir entre o proletariado o conhecimento da crise mundial.
 
-No Peru falta, infelizmente, uma imprensa formadora que acompanhe com atenção, inteligência e filiação ideológica o desenvolvimento desta grande crise; faltam, igualmente, professores universitários, do tipo de José Ingenieros, capazes de se apaixonar pelas ideias de renovação que atualmente transformam o mundo e de se libertar da influência e dos preconceitos de uma cultura e de uma educação conservadoras e burguesas; faltam grupos socialistas e sindicalistas, possuidores de instrumentos próprios de cultura popular e, portanto, capazes de interessar o povo pelo estudo da crise. A única cátedra de educação popular com espírito revolucionário é esta cátedra em formação da Universidade Popular.
+No Peru falta, infelizmente, uma imprensa decente que acompanhe com atenção, inteligência e filiação ideológica o desenvolvimento desta grande crise; faltam, igualmente, professores universitários, do tipo de José Ingenieros, capazes de se apaixonar pelas ideias de renovação que atualmente transformam o mundo e de se libertar da influência e dos preconceitos de uma cultura e de uma educação conservadoras e burguesas; faltam grupos socialistas e sindicalistas, possuidores de instrumentos próprios de cultura popular e, portanto, capazes de interessar o povo pelo estudo da crise. A única cátedra de educação popular com espírito revolucionário é esta cátedra em formação da Universidade Popular.
 
-Cabe a ela, por conseguinte, superando o modesto plano de seu trabalho inicial, apresentar ao povo a realidade contemporânea, explicar ao povo que está vivendo uma das horas mais transcendentais e grandiosas da história e contagiar o povo com a fecunda inquietação que agita atualmente os demais povos civilizados do mundo. Nesta grande crise contemporânea, o proletariado não é espectador; é ator. Nela será decidido o destino do proletariado mundial.
+Cabe a ela, por conseguinte, superando o modesto plano de seu trabalho inicial, apresentar ao povo a realidade contemporânea, explicar ao povo que está vivendo uma das horas mais transcendentais e grandes da história e contagiar o povo com a fecunda inquietação que agita atualmente os demais povos civilizados do mundo. Nesta grande crise contemporânea, o proletariado não é espectador; é ator. Nela será decidido o destino do proletariado mundial.
 
 Dela surgirá, segundo todas as probabilidades e todas as previsões, a civilização proletária, a civilização socialista, destinada a suceder a declinante, decadente e moribunda civilização capitalista, individualista e burguesa. O proletariado precisa, agora como nunca, saber o que acontece no mundo.
 
