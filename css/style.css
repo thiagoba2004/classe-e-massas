@@ -27,16 +27,23 @@ footer{border-top:1px solid #222;padding:30px 24px;text-align:center;font:.75rem
 
 .library-main{max-width:980px}
 .library-hero{padding-bottom:34px;border-bottom:8px solid #111;margin-bottom:42px}
-.library-intro{font-size:1.12rem;max-width:760px}
-.library-note{border:1px solid #111;padding:18px 20px;margin:28px 0 0;font-size:.95rem}
-.library-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:28px}
-.library-card{border-top:5px solid #111;padding:18px 0 24px}
-.library-card h2{font-family:Georgia,serif;text-transform:none;font-size:1.65rem;margin:.15em 0 .35em}
-.library-author{font:800 .75rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.09em;margin-bottom:8px}
-.library-meta{font:.78rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.05em;margin-bottom:16px}
+.library-intro{font-size:1.12rem;max-width:800px}
+.library-note{border:1px solid #111;padding:18px 20px;margin:18px 0 0;font-size:.95rem}
+.library-section-title{margin-top:0}
+.theorist-list{margin-top:32px}
+.theorist-card{border-top:8px solid #111;padding:28px 0 38px;margin-bottom:46px}
+.theorist-heading{display:flex;align-items:flex-start;gap:18px;flex-wrap:wrap;margin-bottom:10px}
+.theorist-rank{font:900 .82rem Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;border:2px solid #111;padding:7px 10px;margin-top:9px;white-space:nowrap}
+.theorist-name{font-family:Georgia,'Times New Roman',serif;text-transform:none;font-size:3rem;line-height:1;margin:0}
+.theorist-summary{font-size:1.08rem;max-width:850px;margin-bottom:24px}
+.library-work{padding:22px 0;border-top:1px solid #aaa}
+.library-work.primary-work{border:2px solid #111;padding:22px 20px;margin:24px 0 8px;background:#fffdf8}
+.library-work h3{font-family:Georgia,'Times New Roman',serif;font-size:1.65rem;line-height:1.15;margin:.2em 0 .3em}
+.work-rank{font:900 .72rem Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px}
+.secondary-rank{font-weight:800;color:#444}
+.library-meta{font:.78rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.05em;margin-bottom:14px}
 .library-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
 .library-status{font:.76rem Arial,sans-serif;margin-top:12px;padding-top:10px;border-top:1px solid #aaa}
-.library-section-title{margin-top:0}
 
 @media(max-width:700px){
   html{font-size:17px}
@@ -46,5 +53,9 @@ footer{border-top:1px solid #222;padding:30px 24px;text-align:center;font:.75rem
   .bar{padding:15px 18px;align-items:flex-start;flex-direction:column;gap:10px}
   .global-nav{justify-content:flex-start;width:100%;gap:4px}
   .global-nav a{padding:7px 8px}
-  .library-grid{grid-template-columns:1fr}
+  .theorist-heading{gap:10px}
+  .theorist-name{font-size:2.35rem}
+  .theorist-rank{margin-top:4px}
+  .library-work.primary-work{padding:18px 15px}
+  .library-work h3{font-size:1.45rem}
 }
