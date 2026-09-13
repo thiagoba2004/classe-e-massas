@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auditoria de Idioma | Biblioteca Revolucionária | Classe e Massas</title>
+  <meta name="description" content="Auditoria completa de disponibilidade em português dos 100 escritos do TOP 10 × TOP 10 da Biblioteca Revolucionária do Classe e Massas.">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .audit-main{max-width:1120px}
+    .audit-summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:28px 0 34px}
+    .audit-box{border:2px solid #111;padding:16px;background:#fffdf8}
+    .audit-box strong{display:block;font:900 1.7rem Arial,sans-serif}
+    .audit-box span{font:.78rem/1.35 Arial,sans-serif;text-transform:uppercase;letter-spacing:.05em}
+    .audit-table-wrap{overflow-x:auto;margin:16px 0 38px}
+    .audit-table{width:100%;border-collapse:collapse;font-family:Arial,sans-serif;font-size:.85rem;line-height:1.4}
+    .audit-table th,.audit-table td{border-bottom:1px solid #aaa;padding:10px 9px;text-align:left;vertical-align:top}
+    .audit-table th{background:#111;color:#fff;text-transform:uppercase;font-size:.72rem;letter-spacing:.05em}
+    .audit-code{font-weight:900;text-align:center!important;width:58px}
+    .audit-author{margin-top:48px;border-top:7px solid #111;padding-top:18px}
+    .audit-author h2{font-family:Georgia,'Times New Roman',serif;text-transform:none;font-size:2.35rem;margin:.15em 0 .35em}
+    .audit-legend{border:1px solid #111;padding:16px 18px;margin:22px 0}
+    .audit-priority{border-left:6px solid #111;padding:12px 16px;margin:12px 0;background:#fffdf8}
+    @media(max-width:700px){.audit-summary{grid-template-columns:repeat(2,minmax(0,1fr))}.audit-author h2{font-size:1.9rem}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <div class="brand"><a href="../index.html">Classe e Massas</a></div>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="../index.html">Início</a>
+      <a href="../noticias/index.html">Notícias</a>
+      <a href="../artigos/index.html">Artigos</a>
+      <a href="../observatorio/index.html">Observatório</a>
+      <a href="index.html" aria-current="page">Biblioteca</a>
+      <a href="../mpt/index.html">MPT</a>
+      <a href="../fale-conosco/index.html">Fale Conosco</a>
+    </nav>
+  </div>
+</header>
+
+<main class="audit-main">
+  <section class="library-hero">
+    <div class="kicker">BIBLIOTECA REVOLUCIONÁRIA • AUDITORIA EDITORIAL</div>
+    <h1>Auditoria de Idioma</h1>
+    <p class="dek">Disponibilidade em português dos 100 escritos do TOP 10 × TOP 10.</p>
+    <p>O objetivo é identificar, escrito por escrito, se existe acesso integral em português, se a única opção integral é editorial/comercial, se há apenas tradução parcial ou se ainda existe uma lacuna de tradução.</p>
+    <div class="audit-legend">
+      <strong>A</strong> = integral público em português ·
+      <strong>B</strong> = integral em português por edição editorial/comercial ·
+      <strong>C</strong> = apenas parcial/trecho em português ·
+      <strong>D</strong> = sem integral em português localizada.
+    </div>
+    <p><strong>Nota:</strong> esta auditoria verifica idioma e modalidade de acesso; não constitui auditoria jurídica individual de direitos autorais de cada tradução hospedada por terceiros. O Classe e Massas não deve republicar traduções de terceiros sem autorização.</p>
+  </section>
+
+  <section>
+    <div class="kicker">RESULTADO GERAL</div>
+    <h2 class="library-section-title">100 escritos auditados</h2>
+    <div id="summary" class="audit-summary"></div>
+    <p id="headline" class="library-intro"></p>
+  </section>
+
+  <section>
+    <div class="kicker">PENDÊNCIAS</div>
+    <h2 class="library-section-title">Prioridades de correção</h2>
+    <div id="priorities"></div>
+  </section>
+
+  <section>
+    <div class="kicker">AUDITORIA COMPLETA</div>
+    <h2 class="library-section-title">Escrito por escrito</h2>
+    <div id="audit"></div>
+  </section>
+</main>
+
+<footer>Classe e Massas • Biblioteca Revolucionária • Auditoria de Idioma • 2026</footer>
+<script src="../js/main.js"></script>
+<script>
+(async function(){
+  const resp = await fetch('auditoria-idioma.json?v=1.0', {cache:'no-cache'});
+  if(!resp.ok) throw new Error('HTTP '+resp.status);
+  const data = await resp.json();
+  const summary = document.getElementById('summary');
+  ['A','B','C','D'].forEach(k=>{
+    const box=document.createElement('div'); box.className='audit-box';
+    const strong=document.createElement('strong'); strong.textContent=data.resumo[k]+'%';
+    const span=document.createElement('span'); span.textContent=k+' — '+data.categorias[k];
+    box.append(strong,span); summary.appendChild(box);
+  });
+  document.getElementById('headline').innerHTML='<strong>98 de 100</strong> escritos já têm versão integral em português localizada: 90 com acesso público e 8 por edição editorial/comercial. Restam 2 lacunas reais: 1 parcial e 1 sem tradução integral localizada.';
+  const priorities=document.getElementById('priorities');
+  data.pendencias_prioritarias.forEach(p=>{
+    const d=document.createElement('div'); d.className='audit-priority';
+    d.innerHTML='<strong>'+p.prioridade+'. '+p.autor+' — ESCRITO #'+p.ranking+': '+p.titulo+'</strong><br>'+p.acao;
+    priorities.appendChild(d);
+  });
+  const audit=document.getElementById('audit');
+  data.autores.forEach(a=>{
+    const sec=document.createElement('section'); sec.className='audit-author';
+    const h=document.createElement('h2'); h.textContent=a.nome; sec.appendChild(h);
+    const p=document.createElement('p');
+    p.textContent='A '+a.resumo.A+' · B '+a.resumo.B+' · C '+a.resumo.C+' · D '+a.resumo.D;
+    sec.appendChild(p);
+    const wrap=document.createElement('div'); wrap.className='audit-table-wrap';
+    const table=document.createElement('table'); table.className='audit-table';
+    table.innerHTML='<thead><tr><th>#</th><th>Escrito</th><th>Categoria</th><th>Situação</th></tr></thead>';
+    const tbody=document.createElement('tbody');
+    a.itens.forEach(i=>{
+      const tr=document.createElement('tr');
+      tr.innerHTML='<td>'+i.ranking+'</td><td>'+i.titulo+'</td><td class="audit-code">'+i.categoria+'</td><td>'+i.situacao+'</td>';
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody); wrap.appendChild(table); sec.appendChild(wrap); audit.appendChild(sec);
+  });
+})().catch(err=>{
+  document.getElementById('audit').textContent='Não foi possível carregar a auditoria agora.';
+  console.error(err);
+});
+</script>
+<!-- Cloudflare Web Analytics -->
+<script>
+if (localStorage.getItem("classe_e_massas_admin") !== "1") {
+  const script = document.createElement("script");
+  script.type = "module";
+  script.src = "https://static.cloudflareinsights.com/beacon.min.js";
+  script.dataset.cfBeacon = JSON.stringify({token:"b52dc49a42864dd8b7e11ae04f41e937"});
+  document.head.appendChild(script);
+}
+</script>
+<!-- End Cloudflare Web Analytics -->
+</body>
+</html>
