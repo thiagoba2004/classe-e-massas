@@ -6,7 +6,7 @@
 **Data:** 22 de junho de 1923  
 **Natureza documental:** NOTAS DO AUTOR — não foi encontrada versão integral da conferência  
 **Versão:** v0.1  
-**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–05 APROVADOS
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–06 APROVADOS
 
 ---
 
@@ -26,9 +26,9 @@ Outra causa: a paz armada. O equilíbrio das potências. Existia na Europa uma a
 
 Contraste da organização capitalista. Necessita da solidariedade internacional como condição de vida e fomenta o nacionalismo em oposição à luta de classes. Como se precipita um povo à guerra. O romance *Clarté*. Guerra absoluta e guerra relativa. Guerra de nações e guerra de exércitos. O mito da guerra democrática. A direção da opinião na Inglaterra, na Itália. Na Alemanha, Áustria e Rússia, entretanto, não houve um ideal que solidarizasse o povo com a empresa militar de seus respectivos governos.
 
-A conduta dos partidos socialistas e das organizações sindicalistas. A posição da Segunda Internacional. As declarações de Stuttgart e Basileia. A questão técnica dos meios de evitar a guerra foi deixada para o Congresso de Viena, que deveria reunir-se em 1914. Antes, sobreveio a guerra. A missão de Müller na França. A morte de Jaurès. O caso de Gustave Hervé. Acima da contenda. O manifesto dos 93 intelectuais alemães.
+A conduta dos partidos socialistas e das organizações sindicalistas. A posição da Segunda Internacional. As declarações de Stuttgart e Basileia. A questão técnica dos meios de evitar a guerra foi deixada para o Congresso de Viena, que deveria reunir-se em 1914. Antes, sobreveio a guerra. A missão de Müller na França. A morte de Jaurès. O caso de Gustave Hervé. *Acima da contenda*. O manifesto dos 93 intelectuais alemães.
 
-O contramanifesto do fisiologista Nicolai, do físico Einstein, do filósofo Buek, do astrônomo Foerster — este último surpreendido entre os 93 intelectuais. Romain Rolland.
+O contramanifesto do fisiologista Nicolai, do físico Einstein, do filósofo Buek, do astrônomo Foerster — este último, surpreendentemente incluído entre os 93 intelectuais. Romain Rolland.
 
 Que o proletariado medite sobre as causas desta grande tragédia. Que pense que uns poucos homens e uns poucos interesses puderam desencadear uma guerra que causou quinze milhões de mortos, que semeou ódios pela Europa, que destruiu tanta riqueza econômica e que intoxicou de forma deletéria o ambiente moral europeu.
 
