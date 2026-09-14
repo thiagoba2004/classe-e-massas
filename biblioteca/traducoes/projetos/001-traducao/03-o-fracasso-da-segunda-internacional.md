@@ -6,7 +6,7 @@
 **Data:** 30 de junho de 1923  
 **Natureza documental:** NOTAS DO AUTOR  
 **Versão:** v0.1  
-**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–02 APROVADOS
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–03 APROVADOS
 
 ---
 
@@ -22,11 +22,11 @@ Ainda não havia programa de ação concreto e prático para assegurar a paz. Co
 
 Três anos depois, o Congresso de Copenhague. Vaillant e Keir Hardie propuseram a greve geral. A questão foi deixada para Viena, em 1914. Em 1912, a gravidade da situação obrigou a Segunda Internacional a convocar um congresso extraordinário. Basileia, novembro de 1912. Desse congresso saiu um manifesto. E, novamente, a questão técnica foi deixada para Viena, agosto de 1914. Antes, Sarajevo.
 
-O Bureau Internacional de Bruxelas convocou de urgência, para 29 de julho, os partidos socialistas da Europa. Pela França: Jaurès, Sembat, Vaillant, Guesde, Longuet. Pela Alemanha: Haase, Rosa Luxemburgo. Antecipar o congresso. Paris, 9 de agosto, em vez de Viena, 23 de agosto. Declaração do Bureau Internacional. Palavras de Jaurès na noite de 29 de julho. Dois dias depois, Jaurès morto. Müller em Paris, em 1º de agosto. Esterilidade de sua missão. A guerra, já incontível, desencadeou-se. O Congresso de 9 de agosto não pôde realizar-se.
+O Bureau Internacional de Bruxelas convocou de urgência, para 29 de julho, os partidos socialistas da Europa. Pela França: Jaurès, Sembat, Vaillant, Guesde, Longuet. Pela Alemanha: Haase, Rosa Luxemburgo. Antecipar o congresso. Paris, 9 de agosto, em vez de Viena, 23 de agosto. Declaração da Oficina Internacional. Palavras de Jaurès na noite de 29 de julho. Dois dias depois, Jaurès morto. Müller em Paris, em 1º de agosto. Esterilidade de sua missão. A guerra, já incontível, desencadeou-se. O Congresso de 9 de agosto não pôde realizar-se.
 
-Páginas de *Clarté* descrevem com vivo colorido o ambiente de patriotismo e nacionalismo delirantes. A maioria, ofuscada, contagiada pela atmosfera guerreira, marcial e agressiva. A imprensa e os intelectuais, instigadores.
+Páginas de *Claridad* descrevem com vivo colorido o ambiente de patriotismo e nacionalismo delirantes. A maioria, ofuscada, contagiada pela atmosfera guerreira, marcial e agressiva. A imprensa e os intelectuais, instigadores.
 
-Por que a Internacional não pôde opor uma barreira a esse transbordamento de paixão nacionalista? Por que a Internacional não pôde conservar-se fiel a seus princípios de solidariedade de classe? Vejamos as circunstâncias que ditaram a conduta socialista.
+Por que a Internacional não pôde opor uma barreira a esse transbordamento de paixão nacionalista? Por que a Internacional não pôde conservar-se fiel a seus princípios de solidariedade classista? Vejamos as circunstâncias que ditaram a conduta socialista.
 
 Declaração dos deputados alemães no Parlamento em 4 de agosto. Quatorze votos contra. Declaração dos socialistas franceses no Parlamento em 6 de agosto. Na França, nação agredida, a adesão foi mais ardorosa, mais viva. A atitude dos demais partidos operários. “Da Segunda à Terceira Internacional”.
 
