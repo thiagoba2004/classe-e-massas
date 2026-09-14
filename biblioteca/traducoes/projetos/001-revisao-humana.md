@@ -36,7 +36,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Conferências com revisão humana concluída: 1/17.
 - Unidade concluída: Conferência 01 — *A crise mundial e o proletariado peruano*.
 - Unidade em revisão: Conferência 02 — *Literatura de guerra*.
-- Blocos aprovados na unidade atual: 5.
+- Blocos aprovados na unidade atual: 6.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -286,7 +286,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 ## 5. Conferência 02 — *Literatura de guerra*
 
 **Arquivo canônico:** `001-traducao/02-literatura-de-guerra.md`  
-**Estado:** EM REVISÃO — BLOCOS 01–05 APROVADOS.
+**Estado:** EM REVISÃO — BLOCOS 01–06 APROVADOS.
 
 ### Bloco 01 — abertura e causas econômicas
 
@@ -382,7 +382,28 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 **Commit que incorporou os ajustes no arquivo canônico:** `1ceac063f76d66025cf27da243a2f1274da42b11`.  
 **Commit que registrou a variante no aparato crítico:** `f22bd6d074b6ccd7c81aa329489210fa93e8dc2e`.
 
-### Bloco 06
+### Bloco 06 — Segunda Internacional e intelectuais contra a guerra
+
+**Intervalo:** de “A conduta dos partidos socialistas...” até “Romain Rolland.”  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 13/09/2026.  
+**Fonte de confronto:** notas originais de Mariátegui para a segunda conferência, tradição editorial posterior e contextualização histórica dos nomes e do Manifesto dos 93.
+
+**Decisões humanas aprovadas:**
+
+1. manutenção das normalizações `Stuttgart`, `Viena`, `Müller`, `Jaurès` e `Gustave Hervé`;
+2. manutenção de `Müller` no texto principal, com registro no aparato crítico das formas `Muller / Miller / Müller` como `AC-07`;
+3. `Acima da contenda.` → `*Acima da contenda*.`, identificando tipograficamente a referência à obra de Romain Rolland;
+4. `este último surpreendido entre os 93 intelectuais` → `este último, surpreendentemente incluído entre os 93 intelectuais`, tornando inteligível a alusão histórica condensada nas notas;
+5. registro da natureza interpretativa da solução sobre Foerster no aparato crítico como `AC-08`.
+
+**Demais trechos do bloco:** mantidos sem alteração material.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva; as variantes do nome Müller e a decisão interpretativa sobre Foerster estão registradas no aparato crítico como `AC-07` e `AC-08`.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `f372f86b9fb2ad569478b0257829036f7136013a`.  
+**Commit que registrou as decisões no aparato crítico:** `fc7ab609d11975399046ac41194eacfa1cb3e338`.
+
+### Bloco 07
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
