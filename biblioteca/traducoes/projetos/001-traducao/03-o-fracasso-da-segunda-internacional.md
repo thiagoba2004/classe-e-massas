@@ -6,15 +6,15 @@
 **Data:** 30 de junho de 1923  
 **Natureza documental:** NOTAS DO AUTOR  
 **Versão:** v0.1  
-**Estado:** RASCUNHO — AGUARDA REVISÃO HUMANA INTEGRAL
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCO 01 APROVADO
 
 ---
 
 ## Notas do autor
 
-Não omitirei a exposição do movimento anarquista. Não trarei nenhum espírito sectário. Creio oportuno ratificar-me nessas declarações. Alguns companheiros temem que eu seja muito pouco imparcial e muito pouco objetivo em meu curso. Mas sou partidário, antes de tudo, da frente única proletária. Temos de empreender juntos muitas e longas jornadas. Causa comum contra o amarelismo.
+Não omitirei a exposição do movimento anarquista. Não trarei nenhum espírito sectário. Creio oportuno ratificar-me nestas declarações. Alguns companheiros temem que eu seja muito pouco imparcial e muito pouco objetivo em meu curso. Mas sou partidário, antes de tudo, da frente única proletária. Temos de empreender juntos muitas e longas jornadas. Causa comum contra o amarelismo.
 
-Antes de agrupar os trabalhadores em seitas ou partidos, agrupá-los em uma única federação. Cada qual tenha sua filiação, mas todos unidos pelo laço comum do credo de classe. Estudemos juntos as horas emocionantes do presente.
+Antes de agrupar os trabalhadores em seitas ou partidos, agrupá-los em uma só federação. Cada qual tenha sua filiação; mas todos, o laço comum do credo classista. Estudemos juntos as horas emocionantes do presente.
 
 Completaremos o exame da conduta dos partidos socialistas e dos sindicatos. Veremos como e por que o proletariado foi impotente para impedir a conflagração. A guerra encontrou despreparada a Segunda Internacional.
 
