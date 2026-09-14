@@ -6,7 +6,7 @@
 **Data:** 22 de junho de 1923  
 **Natureza documental:** NOTAS DO AUTOR — não foi encontrada versão integral da conferência  
 **Versão:** v0.1  
-**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–06 APROVADOS
+**Estado:** REVISÃO HUMANA CONCLUÍDA — 7/7 BLOCOS APROVADOS
 
 ---
 
@@ -30,7 +30,7 @@ A conduta dos partidos socialistas e das organizações sindicalistas. A posiç�
 
 O contramanifesto do fisiologista Nicolai, do físico Einstein, do filósofo Buek, do astrônomo Foerster — este último, surpreendentemente incluído entre os 93 intelectuais. Romain Rolland.
 
-Que o proletariado medite sobre as causas desta grande tragédia. Que pense que uns poucos homens e uns poucos interesses puderam desencadear uma guerra que causou quinze milhões de mortos, que semeou ódios pela Europa, que destruiu tanta riqueza econômica e que intoxicou de forma deletéria o ambiente moral europeu.
+Que o proletariado medite nas causas desta grande tragédia. Que pense que uns poucos homens e uns poucos interesses puderam desencadear uma guerra que causou quinze milhões de mortos, que semeou a Europa de ódios, que destruiu tanta riqueza econômica e que intoxicou de forma deletéria o ambiente moral da Europa.
 
 E que o proletariado se pergunte se vale a pena reconstruir a sociedade capitalista, reconstruir a sociedade burguesa, para que dentro de quarenta ou cinquenta anos — talvez antes — volte a acender-se no mundo outra conflagração e a produzir-se outra carnificina.
 
