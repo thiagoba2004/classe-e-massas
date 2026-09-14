@@ -33,10 +33,10 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Tradução integral de trabalho: CONCLUÍDA.
 - Unidades do corpus: 17/17 persistidas.
 - Revisão humana integral: EM ANDAMENTO.
-- Conferências com revisão humana concluída: 1/17.
-- Unidade concluída: Conferência 01 — *A crise mundial e o proletariado peruano*.
-- Unidade em revisão: Conferência 02 — *Literatura de guerra*.
-- Blocos aprovados na unidade atual: 6.
+- Conferências com revisão humana concluída: 2/17.
+- Unidades concluídas: Conferência 01 — *A crise mundial e o proletariado peruano*; Conferência 02 — *Literatura de guerra*.
+- Unidade em revisão: Conferência 03 — *O fracasso da Segunda Internacional*.
+- Blocos aprovados na unidade atual: 0.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -286,7 +286,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 ## 5. Conferência 02 — *Literatura de guerra*
 
 **Arquivo canônico:** `001-traducao/02-literatura-de-guerra.md`  
-**Estado:** EM REVISÃO — BLOCOS 01–06 APROVADOS.
+**Estado:** REVISÃO HUMANA CONCLUÍDA — 7/7 BLOCOS APROVADOS.
 
 ### Bloco 01 — abertura e causas econômicas
 
@@ -403,13 +403,39 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 **Commit que incorporou os ajustes no arquivo canônico:** `f372f86b9fb2ad569478b0257829036f7136013a`.  
 **Commit que registrou as decisões no aparato crítico:** `fc7ab609d11975399046ac41194eacfa1cb3e338`.
 
-### Bloco 07
+### Bloco 07 — conclusão dirigida ao proletariado
+
+**Intervalo:** de “Que o proletariado medite...” até “...outra carnificina.”  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 13/09/2026.  
+**Fonte de confronto:** notas originais de Mariátegui para a segunda conferência e tradição das *Obras Completas* como testemunho de apoio.
+
+**Decisões humanas aprovadas:**
+
+1. `medite sobre as causas` → `medite nas causas`, preservando de modo natural em português `Medite el proletariado en las causas`;
+2. `semeou ódios pela Europa` → `semeou a Europa de ódios`, preservando a imagem e a construção de `ha sembrado de odios Europa`;
+3. `ambiente moral europeu` → `ambiente moral da Europa`, acompanhando `el ambiente moral de Europa`;
+4. manutenção de `E que o proletariado se pergunte se vale a pena...` como naturalização legítima de `Y que se diga el proletariado si vale la pena...`, evitando uma sintaxe artificial em português.
+
+**Demais trechos do bloco:** mantidos sem alteração material, inclusive `uns poucos homens e uns poucos interesses`, `puderam desencadear`, `quinze milhões de mortos`, `dentro de quarenta ou cinquenta anos — talvez antes —` e `carnificina`.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `84ecbc2ac05d02f5f8b5606742e62a44cb161702`.
+
+**Resultado da unidade:** CONFERÊNCIA 02 COM REVISÃO HUMANA CONCLUÍDA — 7/7 BLOCOS APROVADOS.
+
+## 6. Conferência 03 — *O fracasso da Segunda Internacional*
+
+**Arquivo canônico:** `001-traducao/03-o-fracasso-da-segunda-internacional.md`  
+**Estado:** PRONTA PARA REVISÃO HUMANA INTEGRAL.
+
+### Bloco 01
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
 ---
 
-## 6. Critério de conclusão
+## 7. Critério de conclusão
 
 A revisão humana integral somente será encerrada quando:
 
