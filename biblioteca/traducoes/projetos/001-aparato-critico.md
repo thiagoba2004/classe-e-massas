@@ -86,6 +86,29 @@ Regra: a fonte arquivística primária prevalece quando houver divergência não
 
 **Justificativa:** a tradução privilegia a leitura do testemunho arquivístico primário e conserva no aparato a variante posterior, que altera a estrutura sintática e explicita a ideia de precipitar um povo à guerra.
 
+### AC-07 — `Muller` / `Miller` / `Müller`
+
+**Trecho:** referência à missão de um dirigente socialista alemão na França às vésperas da Primeira Guerra Mundial.
+
+**Fonte arquivística/transcrição:** registra `Muller`.  
+**Tradição editorial posterior:** há registro da forma `Miller`.  
+**Identificação histórica adotada:** Hermann Müller.
+
+**Decisão editorial aprovada:** manter no texto traduzido **“A missão de Müller na França.”**
+
+**Justificativa:** a normalização identifica corretamente Hermann Müller e preserva, neste aparato, as formas divergentes encontradas nos testemunhos consultados.
+
+### AC-08 — Foerster e os 93 intelectuais
+
+**Trecho:** nota sobre o contramanifesto de Nicolai, Einstein, Buek e Foerster.
+
+**Fonte arquivística/transcrição:** `sorprendido este último por los 93 intelectuales`, formulação extremamente comprimida e de leitura ambígua.  
+**Contexto histórico de apoio:** Wilhelm Foerster figurou entre os signatários do Manifesto dos 93 e depois participou do contramanifesto pacifista com Nicolai, Einstein e Buek.
+
+**Decisão editorial aprovada:** adotar no texto traduzido **“este último, surpreendentemente incluído entre os 93 intelectuais”**.
+
+**Justificativa:** a solução é interpretativa e procura tornar inteligível, em português, a alusão histórica condensada nas notas, sem apresentá-la como tradução mecânica do segmento espanhol.
+
 ---
 
 ## 4. Regra de continuidade
