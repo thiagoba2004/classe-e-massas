@@ -36,7 +36,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Conferências com revisão humana concluída: 2/17.
 - Unidades concluídas: Conferência 01 — *A crise mundial e o proletariado peruano*; Conferência 02 — *Literatura de guerra*.
 - Unidade em revisão: Conferência 03 — *O fracasso da Segunda Internacional*.
-- Blocos aprovados na unidade atual: 2.
+- Blocos aprovados na unidade atual: 3.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -427,7 +427,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 ## 6. Conferência 03 — *O fracasso da Segunda Internacional*
 
 **Arquivo canônico:** `001-traducao/03-o-fracasso-da-segunda-internacional.md`  
-**Estado:** EM REVISÃO — BLOCOS 01–02 APROVADOS.
+**Estado:** EM REVISÃO — BLOCOS 01–03 APROVADOS.
 
 ### Bloco 01 — frente única proletária e abertura do exame da Segunda Internacional
 
@@ -468,7 +468,25 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 
 **Commit que incorporou os ajustes no arquivo canônico:** `1ac67bc1774a2e67d185c7186a805373d87272b8`.
 
-### Bloco 03
+### Bloco 03 — o esforço final da Internacional antes da guerra
+
+**Intervalo:** de “O Bureau Internacional de Bruxelas convocou de urgência...” até “Vejamos as circunstâncias que ditaram a conduta socialista.”  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 13/09/2026.  
+**Fonte de confronto:** notas originais de Mariátegui para a terceira conferência e tradição das *Obras Completas* como testemunho de apoio.
+
+**Decisões humanas aprovadas:**
+
+1. `Declaração do Bureau Internacional.` → `Declaração da Oficina Internacional.`, preservando a diferença vocabular existente entre `Bureau Internacional de Bruselas` e a ocorrência posterior `Oficina Internacional`;
+2. `Páginas de *Clarté*` → `Páginas de *Claridad*`, preservando a forma efetivamente registrada neste documento;
+3. `princípios de solidariedade de classe` → `princípios de solidariedade classista`, preservando `principios de solidaridad clasista` e mantendo coerência com `credo classista` já aprovado no Bloco 01.
+
+**Demais trechos do bloco:** mantidos sem alteração material, inclusive os nomes próprios normalizados e as formulações `A guerra, já incontível, desencadeou-se`, `transbordamento de paixão nacionalista` e `Vejamos as circunstâncias que ditaram a conduta socialista.`
+
+**Pendências deste bloco:** nenhuma pendência impeditiva.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `4f7ed8f8c395809e2893487344a71fe4688b7eb8`.
+
+### Bloco 04
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
