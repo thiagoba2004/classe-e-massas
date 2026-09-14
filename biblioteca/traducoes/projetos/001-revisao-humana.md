@@ -36,7 +36,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Conferências com revisão humana concluída: 2/17.
 - Unidades concluídas: Conferência 01 — *A crise mundial e o proletariado peruano*; Conferência 02 — *Literatura de guerra*.
 - Unidade em revisão: Conferência 03 — *O fracasso da Segunda Internacional*.
-- Blocos aprovados na unidade atual: 0.
+- Blocos aprovados na unidade atual: 1.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -427,9 +427,30 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 ## 6. Conferência 03 — *O fracasso da Segunda Internacional*
 
 **Arquivo canônico:** `001-traducao/03-o-fracasso-da-segunda-internacional.md`  
-**Estado:** PRONTA PARA REVISÃO HUMANA INTEGRAL.
+**Estado:** EM REVISÃO — BLOCO 01 APROVADO.
 
-### Bloco 01
+### Bloco 01 — frente única proletária e abertura do exame da Segunda Internacional
+
+**Intervalo:** de “Não omitirei a exposição do movimento anarquista.” até “A guerra encontrou despreparada a Segunda Internacional.”  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 13/09/2026.  
+**Fonte de confronto:** notas originais de Mariátegui para a terceira conferência, item arquivístico PE PEAJCM JCM-F-03-3-3.2-003-N — Archivo José Carlos Mariátegui.
+
+**Decisões humanas aprovadas:**
+
+1. `nessas declarações` → `nestas declarações`, preservando `estas declaraciones`;
+2. `uma única federação` → `uma só federação`, preservando `una sola federación`;
+3. `Cada qual tenha sua filiação, mas todos unidos pelo laço comum do credo de classe.` → `Cada qual tenha sua filiação; mas todos, o laço comum do credo classista.`, retirando o preenchimento explicativo ausente das notas e preservando a forma telegráfica e o vocábulo `clasista`;
+4. manutenção de `A guerra encontrou despreparada a Segunda Internacional.`; durante a discussão, a forma `impreparada` foi considerada e posteriormente descartada para o texto, mantendo-se a solução já naturalizada em português brasileiro.
+
+**Observação editorial:** confirmou-se posteriormente que `impreparado` existe no léxico português; essa constatação não alterou a decisão humana de manter `despreparada` nesta tradução.
+
+**Demais trechos do bloco:** mantidos sem alteração material.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `a3aae6da5a4a3fa5c987c411eb60eba2f310fcc0`.
+
+### Bloco 02
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
