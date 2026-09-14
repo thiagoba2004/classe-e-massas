@@ -6,7 +6,7 @@
 **Data:** 30 de junho de 1923  
 **Natureza documental:** NOTAS DO AUTOR  
 **Versão:** v0.1  
-**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCO 01 APROVADO
+**Estado:** EM REVISÃO HUMANA INTEGRAL — BLOCOS 01–02 APROVADOS
 
 ---
 
@@ -18,7 +18,7 @@ Antes de agrupar os trabalhadores em seitas ou partidos, agrupá-los em uma só 
 
 Completaremos o exame da conduta dos partidos socialistas e dos sindicatos. Veremos como e por que o proletariado foi impotente para impedir a conflagração. A guerra encontrou despreparada a Segunda Internacional.
 
-Ainda não havia um programa de ação concreto e prático para assegurar a paz. Congresso de Stuttgart. Moção de Lenin e Rosa Luxemburgo: “No caso de eclodir uma guerra, os socialistas estão obrigados a trabalhar por seu rápido fim e a utilizar a crise econômica e política provocada pela guerra para sacudir o povo e acelerar a queda da dominação capitalista”. Mas na Segunda Internacional havia muito poucos Lenin e Rosa Luxemburgo.
+Ainda não havia programa de ação concreto e prático para assegurar a paz. Congresso de Stuttgart. Moção de Lenin e Rosa Luxemburgo: “No caso de eclodir uma guerra, os socialistas estão obrigados a trabalhar por seu rápido fim e a utilizar a crise econômica e política provocada pela guerra para sacudir o povo e acelerar a queda da dominação capitalista”. Mas na Segunda Internacional havia muito poucos Lenin e Rosa Luxemburgo.
 
 Três anos depois, o Congresso de Copenhague. Vaillant e Keir Hardie propuseram a greve geral. A questão foi deixada para Viena, em 1914. Em 1912, a gravidade da situação obrigou a Segunda Internacional a convocar um congresso extraordinário. Basileia, novembro de 1912. Desse congresso saiu um manifesto. E, novamente, a questão técnica foi deixada para Viena, agosto de 1914. Antes, Sarajevo.
 
