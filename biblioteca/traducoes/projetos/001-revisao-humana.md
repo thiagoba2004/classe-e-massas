@@ -36,7 +36,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 - Conferências com revisão humana concluída: 2/17.
 - Unidades concluídas: Conferência 01 — *A crise mundial e o proletariado peruano*; Conferência 02 — *Literatura de guerra*.
 - Unidade em revisão: Conferência 03 — *O fracasso da Segunda Internacional*.
-- Blocos aprovados na unidade atual: 1.
+- Blocos aprovados na unidade atual: 2.
 - Aprovação final da obra: PENDENTE.
 
 ## 4. Conferência 01
@@ -427,7 +427,7 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 ## 6. Conferência 03 — *O fracasso da Segunda Internacional*
 
 **Arquivo canônico:** `001-traducao/03-o-fracasso-da-segunda-internacional.md`  
-**Estado:** EM REVISÃO — BLOCO 01 APROVADO.
+**Estado:** EM REVISÃO — BLOCOS 01–02 APROVADOS.
 
 ### Bloco 01 — frente única proletária e abertura do exame da Segunda Internacional
 
@@ -450,7 +450,25 @@ Nenhum bloco será considerado revisado apenas por ter sido discutido no chat.
 
 **Commit que incorporou os ajustes no arquivo canônico:** `a3aae6da5a4a3fa5c987c411eb60eba2f310fcc0`.
 
-### Bloco 02
+### Bloco 02 — Stuttgart, Copenhague e o adiamento para Viena
+
+**Intervalo:** de “Ainda não havia programa de ação concreto e prático...” até “Antes, Sarajevo.”  
+**Situação:** APROVADO PELO EDITOR RESPONSÁVEL em 13/09/2026.  
+**Fonte de confronto:** notas originais de Mariátegui para a terceira conferência e tradição editorial posterior como testemunho de apoio.
+
+**Decisões humanas aprovadas:**
+
+1. `Ainda não havia um programa de ação concreto e prático para assegurar a paz.` → `Ainda não havia programa de ação concreto e prático para assegurar a paz.`, retirando o artigo acrescentado e preservando a forma esquemática das notas;
+2. manutenção integral da tradução da moção de Lenin e Rosa Luxemburgo;
+3. manutenção das normalizações dos nomes próprios `Stuttgart`, `Vaillant` e `Keir Hardie`, em lugar das grafias defeituosas presentes na transcrição arquivística.
+
+**Demais trechos do bloco:** mantidos sem alteração material.
+
+**Pendências deste bloco:** nenhuma pendência impeditiva.
+
+**Commit que incorporou os ajustes no arquivo canônico:** `1ac67bc1774a2e67d185c7186a805373d87272b8`.
+
+### Bloco 03
 
 **Situação:** PRONTO PARA CONFRONTO E DECISÃO HUMANA.
 
