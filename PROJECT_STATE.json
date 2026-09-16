@@ -49,19 +49,29 @@
     {
       "id": "DOS-PLR-BB-2026",
       "area": "Editorial / Pesquisa documental / Banco do Brasil",
-      "title": "PLR do Banco do Brasil em 16/09/2026 — assembleias, ACT e tratamento entre bases sindicais",
+      "title": "PLR do Banco do Brasil em 16/09/2026 — assembleias, instrumentos coletivos e tratamento entre bases sindicais",
       "status": "EM PESQUISA",
-      "persistence_status": "DOSSIÊ CANÔNICO CRIADO E VERSIONADO NO GITHUB",
+      "persistence_status": "DOSSIÊ CANÔNICO ATUALIZADO E VERSIONADO NO GITHUB",
       "canonical_file": "editorial/documentos/dossie-plr-bb-2026.md",
       "related_article": "artigos/2026/assembleia-nao-e-cheque-em-branco-bahia.html",
       "related_lai": "lai/banco-do-brasil-plr-2026.html",
-      "research_matrix": "ANTES DA ASSEMBLEIA → DURANTE A ASSEMBLEIA → INSTRUMENTO ASSINADO → REGRA APLICADA EM 16/09",
-      "last_verified_milestone_commit": "48f99a3df45acb24060b77a2f8f2516a5c47f7b3",
-      "last_verified_milestone_message": "Pesquisa: cria dossiê canônico sobre PLR do BB em 16/09/2026",
-      "next_step": "LOCALIZAR E COMPARAR A MINUTA FINAL PRÉ-ASSEMBLEIA, A CCT/PLR 2026 E O ACT BB 2026/2028 EFETIVAMENTE ASSINADO",
+      "research_matrix": "ANTES DA ASSEMBLEIA → DURANTE A ASSEMBLEIA → INSTRUMENTOS ASSINADOS → REGRA APLICADA EM 16/09",
+      "document_architecture": [
+        "CCT geral Fenaban 2026/2028",
+        "CCT-PLR Fenaban 2026/2027",
+        "ACT geral BB 2026/2028",
+        "ACT-PLR BB 2026/2027 ou equivalente",
+        "termos de adesão por entidade sindical"
+      ],
+      "critical_finding": "A minuta final do ACT geral BB 2026/2028, publicada em 04/09/2026, não contém PLR nem Participação nos Lucros; a regra de adiantamento deve ser procurada no instrumento específico de PLR, termos de adesão ou comunicações/decisões externas.",
+      "last_verified_milestone_commit": "22c161aa0205aa4fc0c5b90ed524849f27e6e1ba",
+      "last_verified_milestone_message": "Pesquisa PLR BB: registra arquitetura CCT, ACT e instrumentos de PLR",
+      "next_step": "LOCALIZAR CCT-PLR 2026/2027 E ACT-PLR BB 2026/2027 (OU EQUIVALENTE), ANEXOS E TERMOS DE ADESÃO, E COMPARÁ-LOS COM A MINUTA DO ACT GERAL E COM A REGRA APLICADA EM 16/09",
       "do_not_do": [
         "não concluir que houve retaliação ou ilicitude antes de fechar a cadeia documental",
         "não confundir participação individual em greve com critério coletivo por base sindical",
+        "não confundir CCT geral, CCT-PLR, ACT geral BB e ACT-PLR BB",
+        "não tratar aprovação do ACT geral como prova de aprovação de regra de PLR que não consta da minuta do ACT geral",
         "não tratar informação de imprensa sindical como substituta de documento primário quando o documento puder ser localizado",
         "não continuar pesquisa substancial sem registrar cada novo bloco material no dossiê canônico"
       ]
