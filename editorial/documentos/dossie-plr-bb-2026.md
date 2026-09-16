@@ -219,6 +219,45 @@ Fontes:
 4. era compromisso negocial paralelo, não incorporado ao texto do ACT geral;
 5. decorreu de decisão operacional/administrativa do BB.
 
+### 6.4. Termos de adesão separados — prova documental de 2024
+
+A página de Acordos Coletivos da Contraf-CUT preserva, para o Banco do Brasil em 2024, **quatro documentos distintos**:
+
+1. `BB - ACT Geral 2024-2026`;
+2. `BB - ACT PLR 2024-2026`;
+3. `BB - Termo de Adesão Geral - Seeb/Bauru`;
+4. `BB - Termo de Adesão PLR - Seeb/Bauru`.
+
+Fonte:  
+`https://contrafcut.com.br/acordos-coletivos/`
+
+Foram inspecionados os PDFs dos dois termos de adesão de Bauru. O **Termo de Adesão Geral**, datado de 10/09/2024, registra que o Sindicato de Bauru adere integralmente ao acordo coletivo geral e define que o termo se aplica a todos os empregados representados pela entidade sindical em sua abrangência territorial.
+
+O **Termo de Adesão PLR**, também datado de 10/09/2024, é juridicamente separado: registra que o Sindicato de Bauru adere integralmente ao **Acordo Coletivo de Trabalho de âmbito nacional sobre Participação nos Lucros ou Resultados — PLR 2024 e 2025**, igualmente estendendo o termo aos empregados representados pela entidade em sua base territorial.
+
+Ambos os termos contam com assinaturas do Banco do Brasil, inclusive representantes da DIPES, da Contraf-CUT e do sindicato aderente.
+
+**Achado estrutural novo:** em 2024, ao menos para Bauru, não havia apenas um ato de adesão indiferenciado. Havia **adesão autônoma ao ACT geral e adesão autônoma ao ACT-PLR**. Portanto, para 2026, a expressão genérica “assinar o ACT” pode ocultar mais de um instrumento jurídico e mais de um ato de adesão. É obrigatório apurar **qual termo exatamente precisava estar assinado para liberar o adiantamento da PLR**.
+
+Esse achado também torna especialmente relevante a situação de Bauru em 2026: notícia do Sindicato dos Bancários do RN registra que RN, Maranhão e Bauru aprovaram a proposta em 11/09, comunicaram imediatamente o BB e se dispuseram a assinar virtualmente, enquanto o Banco informou em 15/09 que ainda estava preparando “os termos de adesão” destinados às bases que aprovaram no fim da tarde de 11/09.
+
+**Limite probatório:** a estrutura de 2024 não prova que os termos de 2026 eram idênticos ou que necessariamente havia dois termos separados em 2026. Ela demonstra, contudo, um precedente documental direto e torna essa hipótese concreta e verificável.
+
+### 6.5. Estado da disponibilização pública dos instrumentos em 16/09/2026
+
+Na consulta realizada em 16/09/2026:
+
+- a página da Contraf-CUT dedicada aos Acordos Coletivos ainda exibia, para o BB, a seção de 2024 com ACT geral, ACT-PLR e termos de adesão de Bauru, sem seção pública de documentos do BB 2026/2028;
+- a Federação dos Bancários do Paraná mantinha a **Minuta 2026/2028** na seção “Minutas”, enquanto sua seção “Acordos de PLR” exibia instrumentos até 2024/2025, sem ACT-PLR BB 2026/2027 publicamente listado na página consultada;
+- a página de acordos da CONTEC listava para o BB os instrumentos de 2024-2026 e PLR 2024-2026/anexos, sem instrumento BB 2026/2028 ou ACT-PLR 2026/2027 identificado na listagem consultada.
+
+Fontes:  
+`https://contrafcut.com.br/acordos-coletivos/`  
+`https://www.feebpr.org.br/bancos/banco-do-brasil`  
+`https://contec.org.br/convencoes-e-acordos-coletivos-1/acordos-e-convencoes-bancos/`
+
+**Conclusão estritamente limitada:** até esta consulta, os principais repositórios sindicais examinados **não expunham publicamente, em suas listagens correntes, o ACT-PLR BB 2026/2027 nem os termos de adesão de 2026**. Isso não prova que os documentos não existam, não tenham sido assinados ou não estejam disponíveis em outro canal; registra apenas o estado verificável da publicação pública consultada.
+
 ---
 
 ## 7. Fatos públicos identificados sobre setembro de 2026
@@ -234,7 +273,12 @@ Formulação segura até consolidação oficial:
 Em 14/09/2026, a Contraf-CUT solicitou isonomia no pagamento da PLR para empregados de bases que não haviam formalizado o ACT em 11/09.
 
 ### 7.3. RN, Maranhão e Bauru
-Foram apontadas em publicação sindical como bases que aprovaram a proposta em 11/09, comunicaram o BB e se dispuseram a assinar eletronicamente, mas cuja formalização teria ocorrido depois. Necessária prova primária dos horários.
+Notícia do Sindicato dos Bancários do RN, publicada em 15/09, registra que as três bases aprovaram a proposta em 11/09, comunicaram imediatamente o resultado ao BB e manifestaram disponibilidade para assinatura virtual no próprio dia. Até a manhã de 15/09, segundo a publicação, o Banco ainda não havia agendado a assinatura e informou estar preparando os “termos de adesão” para bases que aprovaram no fim da tarde de 11/09.
+
+Fonte:  
+`https://www.bancariosrn.org.br/noticias.php?id=137`
+
+Esse relato ganha relevância adicional diante do precedente documental de 2024, no qual Bauru possuía termos de adesão distintos para ACT geral e ACT-PLR. Necessária prova primária dos horários, dos documentos enviados e de qual(is) termo(s) de adesão estavam pendentes em 2026.
 
 ### 7.4. Franca/SP
 Publicação sindical reproduziu resposta atribuída ao BB de que empregados vinculados a bases que formalizaram após 11/09 receberiam a PLR de 2026 integralmente apenas após a divulgação do resultado anual em 2027. Necessário obter a comunicação original.
@@ -289,16 +333,18 @@ Não declarar retaliação, punição ou ilicitude como fato antes de fechar a c
 3. preservar a **minuta final do ACT geral BB 2026/2028 de 04/09** já localizada;
 4. obter o **ACT geral BB 2026/2028 efetivamente assinado** e comparar com a minuta de 04/09;
 5. localizar o **ACT-PLR BB 2026/2027 (ou instrumento equivalente)**, anexos e termos de adesão;
-6. verificar se “72 horas”, “11/09”, “processamento”, “2027” e “formalização” aparecem em algum dos instrumentos ou apenas em comunicações;
-7. identificar a fonte normativa ou parecer que sustentaria o alegado impedimento a dois processamentos de PLR;
-8. reconstruir o que foi efetivamente disponibilizado aos trabalhadores da Bahia antes das votações de 10/11 e 13/09;
-9. comparar proposta/minuta pré-assembleia × instrumentos assinados × termos de adesão × regra aplicada em 16/09;
-10. preservar todos os informativos oficiais do BB da campanha de 2026;
-11. localizar comunicações primárias sobre RN, Maranhão e Bauru;
-12. localizar a resposta original do BB reproduzida por Franca/SP;
-13. pesquisar jurisprudência TST/TRTs e orientações MPT sobre vantagem, PLR ou prejuízo econômico vinculado à greve;
-14. comparar campanhas anteriores do próprio BB;
-15. somente depois consolidar artigo conclusivo.
+6. verificar especificamente se houve, em 2026, **termo de adesão geral e termo de adesão PLR separados**, como ocorreu com Bauru em 2024;
+7. identificar qual instrumento ou termo deveria estar assinado para liberar a antecipação de setembro;
+8. verificar se “72 horas”, “11/09”, “processamento”, “2027” e “formalização” aparecem em algum dos instrumentos ou apenas em comunicações;
+9. identificar a fonte normativa ou parecer que sustentaria o alegado impedimento a dois processamentos de PLR;
+10. reconstruir o que foi efetivamente disponibilizado aos trabalhadores da Bahia antes das votações de 10/11 e 13/09;
+11. comparar proposta/minuta pré-assembleia × instrumentos assinados × termos de adesão × regra aplicada em 16/09;
+12. preservar todos os informativos oficiais do BB da campanha de 2026;
+13. localizar comunicações primárias sobre RN, Maranhão e Bauru;
+14. localizar a resposta original do BB reproduzida por Franca/SP;
+15. pesquisar jurisprudência TST/TRTs e orientações MPT sobre vantagem, PLR ou prejuízo econômico vinculado à greve;
+16. comparar campanhas anteriores do próprio BB;
+17. somente depois consolidar artigo conclusivo.
 
 ---
 
