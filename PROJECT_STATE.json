@@ -61,17 +61,19 @@
         "CCT-PLR Fenaban 2026/2027",
         "ACT geral BB 2026/2028",
         "ACT-PLR BB 2026/2027 ou equivalente",
-        "termos de adesão por entidade sindical"
+        "termo de adesão geral por entidade sindical",
+        "termo de adesão PLR por entidade sindical"
       ],
-      "critical_finding": "A minuta final do ACT geral BB 2026/2028, publicada em 04/09/2026, não contém PLR nem Participação nos Lucros; a regra de adiantamento deve ser procurada no instrumento específico de PLR, termos de adesão ou comunicações/decisões externas.",
-      "last_verified_milestone_commit": "22c161aa0205aa4fc0c5b90ed524849f27e6e1ba",
-      "last_verified_milestone_message": "Pesquisa PLR BB: registra arquitetura CCT, ACT e instrumentos de PLR",
-      "next_step": "LOCALIZAR CCT-PLR 2026/2027 E ACT-PLR BB 2026/2027 (OU EQUIVALENTE), ANEXOS E TERMOS DE ADESÃO, E COMPARÁ-LOS COM A MINUTA DO ACT GERAL E COM A REGRA APLICADA EM 16/09",
+      "critical_finding": "Além de ACT geral e ACT-PLR separados, a Contraf preserva para Bauru em 2024 termos de adesão autônomos ao acordo geral e ao acordo de PLR. Em 2026, RN, Maranhão e Bauru relatam que o BB ainda preparava termos de adesão após aprovação em 11/09. É necessário identificar qual instrumento/termo era condição para liberar a PLR.",
+      "last_verified_milestone_commit": "1e80b144cb40a5cdbcbd087d721c2f7db3f8971f",
+      "last_verified_milestone_message": "Pesquisa PLR BB: registra termos de adesão separados e lacuna pública dos instrumentos 2026",
+      "next_step": "LOCALIZAR OS TERMOS DE ADESÃO 2026, O ACT-PLR BB 2026/2027 E A CCT-PLR 2026/2027; DEPOIS IDENTIFICAR A BASE JURÍDICA DO ALEGADO IMPEDIMENTO A DOIS PROCESSAMENTOS DA PLR",
       "do_not_do": [
         "não concluir que houve retaliação ou ilicitude antes de fechar a cadeia documental",
         "não confundir participação individual em greve com critério coletivo por base sindical",
         "não confundir CCT geral, CCT-PLR, ACT geral BB e ACT-PLR BB",
         "não tratar aprovação do ACT geral como prova de aprovação de regra de PLR que não consta da minuta do ACT geral",
+        "não presumir que termos de adesão de 2026 reproduzem a estrutura de 2024 sem localizar os documentos",
         "não tratar informação de imprensa sindical como substituta de documento primário quando o documento puder ser localizado",
         "não continuar pesquisa substancial sem registrar cada novo bloco material no dossiê canônico"
       ]
