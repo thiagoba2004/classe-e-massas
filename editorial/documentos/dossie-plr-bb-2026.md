@@ -388,3 +388,42 @@ Não declarar retaliação, punição ou ilicitude como fato antes de fechar a c
 Este arquivo é a fonte canônica de continuidade desta investigação. Toda nova descoberta material deve ser registrada aqui **antes de avançar para novo bloco substancial**, conforme `AGENTS.md`.
 
 Nenhuma conclusão futura deve partir apenas da memória do chat. Em caso de divergência, verificar primeiro este arquivo, documentos-fonte e histórico Git.
+
+---
+
+## 13. Alegado “impedimento jurídico” a dois processamentos — achado fiscal e mudança legal
+
+Bloco integral preservado em:  
+`editorial/documentos/dossie-plr-bb-2026-impedimento-juridico.md`
+
+### 13.1. Lei nº 10.101/2000 vigente
+
+O texto atual da Lei nº 10.101/2000 exige regras claras e objetivas no instrumento de PLR e, após a Lei nº 14.020/2020, define a infração de periodicidade em relação aos pagamentos feitos **a um mesmo empregado**: pagamento excedente ao segundo no mesmo ano civil ou pagamento em intervalo inferior a um trimestre civil em relação ao pagamento anterior.
+
+Não foi localizada nesses dispositivos uma regra expressa impondo que todos os empregados de uma empresa recebam a mesma parcela de PLR na mesma data. Essa constatação não exclui normas específicas de estatais, programa aprovado pela SEST, parecer jurídico, instrumento coletivo ou regra operacional do BB.
+
+Fonte oficial:  
+`https://www.planalto.gov.br/ccivil_03/leis/l10101compilado.htm`
+
+### 13.2. Autuação fiscal real do Banco do Brasil
+
+Foi identificado o Processo CARF **16327.721122/2019-17**, Acórdão **2202-009.546**, envolvendo o Banco do Brasil.
+
+A fiscalização apontou, para 2015, créditos de PLR nos meses de **fevereiro, março e novembro**, entendendo haver mais de dois pagamentos e intervalo inferior a um trimestre. O BB sustentou que os pagamentos ordinários foram 27/02/2015 e 03/11/2015 e que os créditos de março eram **acertos de PLRs anteriores**, e não terceira distribuição.
+
+Fonte oficial:  
+`https://acordaos.economia.gov.br/acordaos2/pdfs/processados/16327721122201917_6823995.pdf`
+
+O acórdão registra expressamente que, na época do fato gerador, **ainda não vigorava o atual §8º do art. 2º**, incluído em 2020, que hoje restringe a invalidação aos pagamentos feitos em desacordo com a periodicidade e formula os limites em relação ao mesmo empregado.
+
+### 13.3. Consequência para a alegação de 2026
+
+O precedente fornece uma possível base factual para a afirmação de que o BB já foi autuado por pagamentos de PLR em datas diferentes e explica uma preocupação tributária real.
+
+Entretanto, **não prova, por si só, que em 2026 fosse proibido creditar o mesmo primeiro adiantamento em datas diferentes para grupos distintos de empregados**. O caso de 2015 tratava de créditos adicionais atribuídos aos mesmos empregados e potencial violação do número/intervalo de pagamentos.
+
+Conclusão provisória:
+
+> **A autuação histórica explica uma possível cautela jurídica do Banco, mas ainda não demonstra um impedimento jurídico categórico a dois processamentos por bases sindicais diferentes em 2026.**
+
+Para fechar esse ponto, continuam indispensáveis o parecer da DIJUR, o programa de PLR 2026 aprovado pela SEST, a CCT-PLR, o ACT-PLR, os termos de adesão e eventual documento interno que vincule o processamento ao corte de 11/09.
