@@ -51,10 +51,11 @@
       "area": "Editorial / Pesquisa documental / Banco do Brasil",
       "title": "PLR do Banco do Brasil em 16/09/2026 — assembleias, instrumentos coletivos e tratamento entre bases sindicais",
       "status": "EM PESQUISA",
-      "persistence_status": "DOSSIÊ CANÔNICO E ANEXO JURÍDICO ATUALIZADOS E VERSIONADOS NO GITHUB",
+      "persistence_status": "DOSSIÊ CANÔNICO E ANEXOS DE PESQUISA ATUALIZADOS E VERSIONADOS NO GITHUB",
       "canonical_file": "editorial/documentos/dossie-plr-bb-2026.md",
       "supporting_files": [
-        "editorial/documentos/dossie-plr-bb-2026-impedimento-juridico.md"
+        "editorial/documentos/dossie-plr-bb-2026-impedimento-juridico.md",
+        "editorial/documentos/dossie-plr-bb-2026-contraste-minuta-aditivo.md"
       ],
       "related_article": "artigos/2026/assembleia-nao-e-cheque-em-branco-bahia.html",
       "related_lai": "lai/banco-do-brasil-plr-2026.html",
@@ -72,16 +73,19 @@
         "Em 2024 havia ACT geral, ACT-PLR e termos de adesão separados para o acordo geral e para PLR.",
         "Foi localizado o processo CARF 16327.721122/2019-17, Acórdão 2202-009.546, em que o BB foi autuado por periodicidade de PLR após créditos em fevereiro, março e novembro de 2015.",
         "O precedente fiscal envolve créditos adicionais/acertos atribuídos aos mesmos empregados e não demonstra, por si só, proibição de pagar a mesma primeira parcela em datas distintas a grupos diferentes.",
-        "Desde a Lei 14.020/2020, o art. 2º, §8º, da Lei 10.101/2000 formula a infração de periodicidade em relação aos pagamentos feitos ao mesmo empregado."
+        "Desde a Lei 14.020/2020, o art. 2º, §8º, da Lei 10.101/2000 formula a infração de periodicidade em relação aos pagamentos feitos ao mesmo empregado.",
+        "Há aparente contradição entre a prova de que o BB encaminhou às entidades em 04/09 uma minuta final do ACT geral 2026/2028 e a afirmação do SEEB/RN em 15/09 de que não foi encaminhada qualquer minuta de acordo aditivo. A contradição depende de identificar qual documento o RN denomina acordo aditivo, especialmente diante da reabertura de 08/09 e das novas condições públicas sobre PLR."
       ],
-      "last_verified_milestone_commit": "1099a2a28393d377c699d961077a6265cb9e5297",
-      "last_verified_milestone_message": "Pesquisa PLR BB: registra autuação fiscal e limite do alegado impedimento jurídico",
-      "next_step": "EXAMINAR INTEGRALMENTE RESOLUÇÃO CCE 010/1995, REGRAS/PROGRAMA PLR 2026 APROVADO PELA SEST E EVENTUAL PARECER DIJUR; EM PARALELO CONTINUAR BUSCA DO ACT-PLR, CCT-PLR E TERMOS DE ADESÃO 2026",
+      "last_verified_milestone_commit": "3e5dbd88f9522916f9d4c2b734e0d14b4c793e51",
+      "last_verified_milestone_message": "Pesquisa PLR BB: preserva contraste entre minuta de 04/09 e alegação do RN sobre acordo aditivo",
+      "next_step": "IDENTIFICAR QUAL DOCUMENTO O SEEB/RN CHAMA DE ACORDO ADITIVO; LOCALIZAR EVENTUAL VERSÃO/ADITIVO POSTERIOR À REABERTURA DE 08/09, ACT-PLR 2026/2027 E TERMOS DE ADESÃO 2026; EM PARALELO FECHAR A BASE JURÍDICA DO ALEGADO IMPEDIMENTO A DOIS PROCESSAMENTOS",
       "do_not_do": [
         "não concluir que houve retaliação ou ilicitude antes de fechar a cadeia documental",
         "não confundir participação individual em greve com critério coletivo por base sindical",
         "não confundir CCT geral, CCT-PLR, ACT geral BB e ACT-PLR BB",
         "não tratar aprovação do ACT geral como prova de aprovação de regra de PLR que não consta da minuta do ACT geral",
+        "não afirmar genericamente que não existia minuta do ACT geral antes das assembleias, pois há prova de circulação em 04/09",
+        "não presumir que a expressão acordo aditivo usada pelo RN se refere ao mesmo documento da minuta geral de 04/09 sem comprovação",
         "não presumir que termos de adesão de 2026 reproduzem a estrutura de 2024 sem localizar os documentos",
         "não usar a autuação de 2015 como prova de proibição de dois processamentos por bases distintas em 2026",
         "não tratar informação de imprensa sindical como substituta de documento primário quando o documento puder ser localizado",
