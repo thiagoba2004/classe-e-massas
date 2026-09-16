@@ -3,220 +3,244 @@
 **ID:** DOS-PLR-BB-2026  
 **Status:** EM PESQUISA  
 **Criado em:** 16/09/2026  
-**Objeto:** reconstrução documental das regras, comunicações e decisões relacionadas ao adiantamento da PLR do Banco do Brasil em setembro de 2026, com foco no tratamento dado às bases sindicais que formalizaram o ACT após o marco temporal utilizado pelo Banco.
+**Atualizado em:** 16/09/2026  
+**Objeto:** reconstrução documental das regras, comunicações e decisões relacionadas ao adiantamento da PLR do Banco do Brasil em setembro de 2026, com foco no tratamento dado às bases sindicais que formalizaram instrumentos após o marco temporal utilizado pelo Banco.
 
 ---
 
 ## 1. Pergunta central
 
-Não basta saber se havia direito à PLR. A investigação deve estabelecer, documentalmente:
+A investigação deve estabelecer, documentalmente:
 
-1. o que o Banco do Brasil e a Fenaban apresentaram aos trabalhadores antes das assembleias;
-2. qual versão de CCT/ACT ou minuta existia antes de cada votação;
+1. o que Banco do Brasil e Fenaban apresentaram antes das assembleias;
+2. quais instrumentos/minutas existiam antes de cada votação;
 3. o que efetivamente foi submetido à deliberação da base;
 4. o que foi posteriormente assinado;
-5. qual regra foi efetivamente aplicada pelo BB em 16/09/2026;
-6. onde surgiu o marco temporal de 11/09/2026 e a consequência de pagamento posterior apenas em 2027;
-7. se essa consequência constava do instrumento coletivo aprovado ou decorreu de decisão administrativa/operacional externa ao ACT/CCT.
+5. qual instrumento regula a PLR geral da categoria e qual instrumento regula a PLR específica do BB;
+6. qual regra foi efetivamente aplicada pelo BB em 16/09/2026;
+7. onde surgiu o marco temporal de 11/09/2026 e a consequência de pagamento posterior apenas em 2027;
+8. se essa consequência constava de instrumento coletivo aprovado ou decorreu de decisão administrativa/operacional externa aos instrumentos.
 
-A matriz probatória de trabalho é:
+Matriz probatória:
 
-> **ANTES DA ASSEMBLEIA → DURANTE A ASSEMBLEIA → INSTRUMENTO ASSINADO → REGRA APLICADA EM 16/09**
+> **ANTES DA ASSEMBLEIA → DURANTE A ASSEMBLEIA → INSTRUMENTOS ASSINADOS → REGRA APLICADA EM 16/09**
 
 ---
 
 ## 2. Antecedente editorial já publicado
 
-O artigo **“Assembleia não é cheque em branco”**, publicado em 12/09/2026, já havia formulado o problema antes da nova votação na Bahia.
-
-Arquivo publicado:
-
-`artigos/2026/assembleia-nao-e-cheque-em-branco-bahia.html`
-
-O artigo exigia, antes da assembleia:
+O artigo **“Assembleia não é cheque em branco”**, publicado em 12/09/2026 (`artigos/2026/assembleia-nao-e-cheque-em-branco-bahia.html`), já havia exigido antes da nova votação na Bahia:
 
 - publicação do texto integral;
 - esclarecimento sobre PLR, reconhecimento financeiro de R$ 3 mil e dias de greve;
 - apresentação de documento do BB que estabelecesse tratamento diferente às bases que não assinaram na sexta-feira;
 - esclarecimento público sobre as consequências econômicas da rejeição anterior.
 
-A tese editorial já estabelecida é que **aprovar uma proposta não é equivalente a autorizar genericamente um instrumento cujo conteúdo material só seria conhecido depois**.
+Tese editorial já estabelecida: **aprovar uma proposta não equivale a autorizar genericamente instrumento cujo conteúdo material só seria conhecido depois**.
 
 ---
 
-## 3. Prova da formulação submetida à votação na Bahia
+## 3. Formulação submetida à votação na Bahia
 
-Foi preservado print da votação eletrônica da assembleia posterior à rejeição de 11/09.
-
-A pergunta exibida aos trabalhadores foi, em essência:
+Foi preservado print da votação eletrônica da assembleia de 13/09/2026. A pergunta exibida aos trabalhadores foi, em essência:
 
 > “Considerando a nova conjuntura, após as deliberações das assembleias da base do BB em âmbito nacional, você aprova a proposta da CCT e ACT 2026/2028 nos termos apresentados pela FENBAN e BB?”
 
-O print demonstra que a própria cédula não reproduzia o texto integral da CCT/ACT, nem explicitava cláusulas, anexos, prazo fatal de assinatura, regra de PLR ou consequência de pagamento apenas em 2027.
+O print demonstra que a própria cédula não reproduzia texto integral, cláusulas, anexos, prazo fatal de assinatura, regra de PLR ou consequência de pagamento apenas em 2027.
 
-**Limite probatório:** o print, sozinho, não prova que nenhuma minuta ou link tenha sido disponibilizado em outro canal antes da votação. Por isso, é necessário reconstruir todos os materiais efetivamente disponíveis à base antes da assembleia.
+**Limite probatório:** o print não prova que nenhuma minuta ou link tenha sido disponibilizado em outro canal. É necessário reconstruir todos os materiais acessíveis à base antes da votação.
+
+A publicação oficial do Sindicato dos Bancários da Bahia de 13/09 também descreveu a deliberação como avaliação da proposta da CCT e do ACT 2026/2028 “nos termos apresentados pela FENABAN e pelo BB”.
 
 ---
 
-## 4. Conteúdo oficial do Banco do Brasil — página de Informativos da Negociação Coletiva 2026
+## 4. Conteúdo oficial do Banco do Brasil — Informativos da Negociação Coletiva 2026
 
-Fonte oficial indicada e transcrita pelo usuário:
+Fonte oficial transcrita pelo usuário:
 
 `https://www.bb.com.br/site/sobre-nos/negociacao-coletiva/informativos/`
 
-Elementos relevantes da publicação oficial do BB:
+Achados relevantes:
 
 ### 4.1. 30/06/2026 — compromisso de transparência
+O BB afirmou que a comunicação seria permanente, clara e acessível e que o site seria o canal oficial de informações.
 
-O BB afirmou que a comunicação da negociação coletiva seria permanente, clara e acessível e que o site de Negociação Coletiva seria o canal oficial de informações.
-
-### 4.2. 06/08/2026 — PLR
-
-O Banco registrou que **não havia discussão sobre alteração do modelo atual da PLR**, descrito como referência no setor.
+### 4.2. 06/08/2026 — modelo de PLR
+O Banco registrou que **não havia discussão sobre alteração do modelo atual da PLR**.
 
 ### 4.3. 19/08/2026 — mobilização sindical
-
 O BB reconheceu a legitimidade da mobilização sindical como parte do processo democrático de negociação coletiva.
 
-### 4.4. 29/08/2026 — segurança jurídica e ACT
-
-O Banco afirmou que **“clausular no ACT dá segurança jurídica ao funcionário”**.
+### 4.4. 29/08/2026 — segurança jurídica
+O BB afirmou que **“clausular no ACT dá segurança jurídica ao funcionário”**.
 
 ### 4.5. Proposta final — assembleias de 3 e 4 de setembro
+No informativo “Negociação Coletiva 2026: proposta final será votada nas assembleias dos dias 3 e 4 de setembro”, o BB informou que a proposta da mesa Fenaban contemplava **antecipação da PLR para setembro** e afirmou que cada funcionário deveria conhecer os termos apresentados e avaliar seus impactos.
 
-No informativo denominado **“Negociação Coletiva 2026: proposta final será votada nas assembleias dos dias 3 e 4 de setembro”**, o BB informou que a proposta da mesa Fenaban contemplava, entre outros pontos, **a antecipação da PLR para setembro**.
+No conteúdo oficial transcrito até aqui, **não aparece regra explícita de que apenas bases que aprovassem/formalizassem até 11/09 receberiam o adiantamento em setembro, nem consequência expressa de pagamento apenas em 2027**.
 
-O mesmo informativo afirmou que cada funcionário deveria conhecer os termos apresentados, avaliar seus impactos e participar da votação.
-
-No conteúdo oficial transcrito e preservado até aqui, **não aparece regra explícita segundo a qual apenas as bases que aprovassem ou formalizassem o ACT até 11/09 receberiam o adiantamento em setembro, nem consequência expressa de pagamento apenas em 2027 para as demais bases**.
-
-**Limite probatório:** essa ausência na página pública não prova, por si só, que a regra não tenha sido comunicada em mesa, e-mail, minuta, sistema interno ou outro documento. A investigação deve localizar tais registros.
+**Limite probatório:** a ausência nessa página pública não prova inexistência de comunicação por mesa, e-mail, minuta, sistema interno ou outro documento.
 
 ---
 
-## 5. Regime documental anterior — CCT de PLR 2024-2025
+## 5. ACHADO CRUCIAL — arquitetura dos instrumentos coletivos
+
+A pesquisa não pode tratar “CCT”, “ACT” e “PLR” como se fossem um único documento. A estrutura negocial bancária é composta por instrumentos distintos.
+
+### 5.1. CCT geral da categoria — Fenaban
+É a Convenção Coletiva de Trabalho nacional, negociada entre Fenaban e representação dos trabalhadores, aplicável à categoria nos termos de sua representação. O BB reconhece em seu portal que a CCT nasce da mesa única e contém os principais temas gerais das relações de trabalho.
+
+Em 09/09/2026 foi assinada a renovação da CCT 2026/2028. Publicações sindicais registraram que, com a renovação, a primeira parcela da PLR de 2026 seria paga até o fim de setembro.
+
+### 5.2. CCT específica/aditiva de PLR da categoria
+Historicamente há instrumento próprio de PLR da Fenaban, separado da CCT geral. O livro da FEBRABAN 2024-2026 contém, separadamente, a **CCT Data-Base 2024-2026** e a **CCT “Participação dos Empregados nos Lucros ou Resultados dos Bancos” — exercícios 2024 e 2025**.
+
+O edital baiano de 16/06/2026 também distingue expressamente a **Convenção Coletiva de Trabalho** da **Convenção Coletiva sobre Participação dos Empregados nos Lucros e/ou Resultados dos Bancos**.
+
+Editais de setembro de 2026 de outras bases descrevem a pauta como renovação das CCTs 2026/2028 **e Convenção Coletiva Aditiva sobre PLR dos exercícios 2026 e 2027**.
+
+Portanto, a PLR geral da categoria possui disciplina convencional própria e não deve ser confundida com a CCT geral.
+
+### 5.3. ACT geral específico do Banco do Brasil
+É o Acordo Coletivo de Trabalho específico do BB, nascido das mesas específicas entre BB e Contraf/Contec.
+
+Foi localizada a **minuta final do ACT BB 2026/2028**, publicada pelo SINTEC-TO em 04/09/2026. O PDF possui 60 páginas e disciplina cláusulas específicas do Banco do Brasil.
+
+**Achado decisivo:** busca textual integral na minuta final não localizou “PLR” nem “Participação nos Lucros”. A expressão “72 horas” aparece apenas em regra da Comissão de Conciliação Prévia, sem relação com PLR.
+
+Conclusão provisória segura: **a minuta final do ACT geral de 04/09 não contém a regra do adiantamento da PLR que depois foi resumida publicamente como pagamento em até 72 horas**.
+
+Isso impede tratar a aprovação do ACT geral, por si só, como prova de que a base deliberou sobre uma cláusula escrita no próprio ACT geral estabelecendo o corte de 11/09 ou o pagamento apenas em 2027.
+
+### 5.4. ACT específico de PLR do Banco do Brasil
+Historicamente o BB celebra **um acordo coletivo específico de PLR**, separado do ACT geral. Fontes sindicais arquivam, por exemplo, de forma distinta:
+
+- ACT Banco do Brasil 2024-2026;
+- ACT Banco do Brasil — PLR 2024-2025;
+- anexos próprios do ACT-PLR.
+
+O mesmo padrão aparece para ciclos anteriores (2022/2024 e 2022/2023; 2020/2022 e acordo PLR separado).
+
+Portanto, a investigação de 2026 precisa localizar **o ACT-PLR específico do BB relativo aos exercícios de 2026/2027 (ou instrumento equivalente)**, seus anexos e termos de adesão. Esse é o documento potencialmente decisivo para saber:
+
+- o módulo específico de PLR do BB;
+- o vínculo entre assinatura e adiantamento;
+- eventual prazo de 72 horas;
+- eventual marco temporal de 11/09;
+- eventual consequência de pagamento apenas em 2027;
+- eventual exigência de adesão por base sindical.
+
+### 5.5. Consequência metodológica
+A investigação deve comparar **quatro camadas documentais**, e não apenas “CCT x ACT”:
+
+> **CCT GERAL FENABAN**  
+> **CCT-PLR FENABAN 2026/2027**  
+> **ACT GERAL BB 2026/2028**  
+> **ACT-PLR BB 2026/2027 (ou equivalente)**
+
+Além delas, devem ser preservados os **termos de adesão de cada entidade sindical**, porque o tratamento diferenciado pode ter sido operacionalizado no nível da adesão, e não no texto matriz.
+
+### 5.6. Nota terminológica sobre “PLT”
+Algumas páginas sindicais históricas exibem “PLT” em títulos onde o conteúdo e o contexto indicam PLR. Até aparecer documento que demonstre categoria jurídica distinta, tratar “PLT” como provável erro editorial/abreviação inconsistente e não como um quinto instrumento autônomo. A terminologia documental correta a perseguir é **PLR — Participação nos Lucros ou Resultados**.
+
+---
+
+## 6. Regime documental anterior — 2024/2025
 
 Fonte: `Convenções Coletivas dos Bancários 2024-2026 - FEBRABAN.pdf`, fornecida pelo usuário.
 
 Achados:
 
 - a CCT específica de PLR 2024-2025 foi assinada em 10/09/2024;
-- para o exercício de 2024, a Cláusula 2ª previa antecipação até 30/09/2024;
-- para o exercício de 2025, a Cláusula 3ª previa antecipação até 30/09/2025 e pagamento anual até 01/03/2026;
-- no capítulo pesquisado não foi localizado uso de “greve” ou “base sindical” como critério para a antecipação;
-- referências à “data da assinatura” aparecem em contextos de elegibilidade funcional e tratamento de empregados afastados ou desligados, não como regra territorial de diferenciação entre bases sindicais.
+- para 2024, previa antecipação até 30/09/2024;
+- para 2025, previa antecipação até 30/09/2025 e pagamento anual até 01/03/2026;
+- no capítulo pesquisado não foi localizado “greve” ou “base sindical” como critério para a antecipação;
+- “data da assinatura” aparece em contextos de elegibilidade funcional, afastados e desligados, não como regra territorial de diferenciação entre bases.
 
-Esse precedente **não determina automaticamente a legalidade da regra de 2026**, pois são instrumentos distintos. Serve como parâmetro histórico para comparar como a antecipação era anteriormente regulada de forma expressa.
+Também foi localizado precedente baiano de campanha anterior em que o Sindicato informou que o BB havia inicialmente anunciado pagamento da PLR em até 10 dias após a assinatura do ACT e que, após providências de formalização, o pagamento ocorreu logo depois. Esse precedente deve ser documentado e comparado com 2026, sem presumir identidade jurídica entre os ciclos.
 
 ---
 
-## 6. Fatos públicos já identificados sobre setembro de 2026
+## 7. Fatos públicos identificados sobre setembro de 2026
 
-### 6.1. Não pagamento em 16/09
+### 7.1. Não pagamento em 16/09
+Publicações sindicais registraram que empregados de determinadas bases não receberam o adiantamento porque o instrumento não teria sido formalizado no marco temporal adotado pelo Banco.
 
-Publicações sindicais contemporâneas registraram que empregados de determinadas bases não receberam o adiantamento da PLR em 16/09/2026 porque o ACT não teria sido formalizado no marco temporal adotado pelo Banco.
-
-A formulação pública mais segura, até consolidação oficial, é:
+Formulação segura até consolidação oficial:
 
 > **pelo menos 18 bases sindicais foram documentalmente identificadas como atingidas pelo não pagamento do adiantamento da PLR em 16/09/2026.**
 
-A lista consolidada publicamente ainda precisa ser confrontada com informação oficial do BB.
+### 7.2. Ofício da Contraf-CUT
+Em 14/09/2026, a Contraf-CUT solicitou isonomia no pagamento da PLR para empregados de bases que não haviam formalizado o ACT em 11/09.
 
-### 6.2. Ofício da Contraf-CUT
+### 7.3. RN, Maranhão e Bauru
+Foram apontadas em publicação sindical como bases que aprovaram a proposta em 11/09, comunicaram o BB e se dispuseram a assinar eletronicamente, mas cuja formalização teria ocorrido depois. Necessária prova primária dos horários.
 
-Em 14/09/2026, a Contraf-CUT solicitou formalmente isonomia no pagamento da PLR para empregados de bases que não haviam formalizado o ACT em 11/09.
+### 7.4. Franca/SP
+Publicação sindical reproduziu resposta atribuída ao BB de que empregados vinculados a bases que formalizaram após 11/09 receberiam a PLR de 2026 integralmente apenas após a divulgação do resultado anual em 2027. Necessário obter a comunicação original.
 
-### 6.3. Bases que teriam aprovado em 11/09, mas formalizado depois
+### 7.5. Informação anterior à votação de 10/11 de setembro
+Publicações sindicais de 10/09 registraram que o BB teria afirmado em mesa não poder realizar dois processamentos da PLR e que, nas bases em que o acordo fosse rejeitado, não haveria antecipação em setembro, com pagamento em fevereiro de 2027.
 
-Rio Grande do Norte, Maranhão e Bauru foram apontadas em publicação sindical como bases que aprovaram a proposta em 11/09, comunicaram o BB e se dispuseram a assinar eletronicamente, mas cuja formalização teria ocorrido depois por depender de disponibilização/processamento do instrumento.
-
-Esse ponto é crítico e exige prova primária de horários de comunicação, disponibilização do termo e assinatura.
-
-### 6.4. Franca/SP
-
-Publicação sindical de Franca reproduziu resposta atribuída ao BB no sentido de que empregados vinculados a bases que formalizaram o ACT após 11/09/2026 receberiam a PLR de 2026 integralmente apenas após a divulgação do resultado anual em 2027.
-
-É necessário obter a comunicação original do Banco.
+Isso prova que a consequência era relatada publicamente **antes** de algumas assembleias de 10/11 de setembro, mas não resolve se ela constava de algum instrumento escrito e, especificamente, o que foi disponibilizado à base baiana antes da votação de 13/09.
 
 ---
 
-## 7. Formulações que precisam ser distinguidas
-
-As fontes públicas já apresentaram expressões que não são juridicamente idênticas:
+## 8. Formulações que não podem ser confundidas
 
 1. **“antecipação da PLR para setembro”**;
-2. **“crédito da PLR em até 72 horas após a assinatura do ACT por todas as bases”**;
-3. **“11/09 como limite para processamento da folha”**;
-4. **“bases que formalizaram depois de 11/09 recebem apenas em 2027”**.
+2. **“PLR até 30 de setembro”**, vinculada à CCT/CCT-PLR da categoria;
+3. **“crédito do adiantamento em até 72 horas após a assinatura do acordo”**, divulgado na fase final do ACT do BB;
+4. **“11/09 como limite para processamento da folha”**;
+5. **“bases que formalizaram depois de 11/09 recebem apenas em 2027”**.
 
-A investigação deve identificar qual formulação constava:
-
-- da proposta original;
-- da minuta final;
-- da comunicação às assembleias;
-- do ACT/CCT assinado;
-- de decisão operacional ou administrativa interna do BB.
+A investigação deve identificar o documento e a data de origem de cada formulação.
 
 ---
 
-## 8. Pedido de LAI já publicado
+## 9. Pedido de LAI já publicado
 
-Foi criado e publicado modelo específico de LAI:
+Arquivo: `lai/banco-do-brasil-plr-2026.html`.
 
-`lai/banco-do-brasil-plr-2026.html`
-
-O pedido busca, entre outros itens:
-
-- ato que estabeleceu o marco temporal;
-- horário exato de corte;
-- pareceres ou manifestações da DIJUR;
-- documentos da DIPES;
-- justificativa operacional de folha;
-- lista das bases atingidas;
-- quantitativo agregado de empregados;
-- valor financeiro total não creditado;
-- critério efetivamente utilizado;
-- comunicações oficiais a Contraf, Contec, federações e sindicatos;
-- resposta ao pedido de isonomia;
-- trilha de assinatura das bases que aprovaram em 11/09, mas formalizaram depois;
-- documento que fundamente eventual pagamento apenas em 2027.
+Busca, entre outros itens: ato do marco temporal, horário de corte, DIJUR, DIPES, justificativa de folha, lista de bases, quantitativos, valores, critério utilizado, comunicações oficiais, resposta à isonomia, trilha de assinatura e documento que fundamente eventual pagamento apenas em 2027.
 
 ---
 
-## 9. Hipóteses jurídicas a testar — não tratar como conclusões
+## 10. Hipóteses jurídicas a testar — não tratar como conclusões
 
-A pesquisa ainda deve verificar, com base no instrumento de 2026 e na jurisprudência aplicável:
-
-- se houve mera postergação decorrente da inexistência de instrumento coletivo formalizado;
-- se o marco temporal possuía fundamento contratual, normativo ou operacional prévio e objetivo;
-- se houve tratamento diferenciado associado à continuidade da greve ou à data de encerramento da mobilização;
-- se eventual consequência econômica foi previamente informada e submetida à deliberação assemblear;
-- se a diferença de pagamento pode caracterizar conduta discriminatória ou antissindical;
-- se bases que aprovaram no próprio dia 11 foram prejudicadas por atraso de formalização atribuível ao Banco.
+- mera postergação por inexistência de instrumento formalizado;
+- marco temporal com fundamento contratual, convencional ou operacional prévio;
+- tratamento diferenciado associado à continuidade da greve ou à data de encerramento da mobilização;
+- consequência econômica previamente informada e efetivamente submetida à assembleia;
+- possível conduta discriminatória/antissindical;
+- eventual prejuízo a bases que aprovaram em 11/09 por atraso de formalização atribuível ao Banco;
+- relação entre CCT-PLR nacional, ACT-PLR específico do BB e termos de adesão de cada base.
 
 Não declarar retaliação, punição ou ilicitude como fato antes de fechar a cadeia documental.
 
 ---
 
-## 10. Próximas diligências obrigatórias
+## 11. Próximas diligências obrigatórias
 
-1. localizar a **minuta final do ACT 2026/2028** distribuída antes das assembleias;
-2. localizar a **CCT 2026/2028 integral** e o instrumento específico de PLR de 2026;
-3. localizar o **ACT específico BB 2026/2028 efetivamente assinado**;
-4. comparar as versões: proposta/minuta pré-assembleia × texto votado/apresentado × instrumento assinado;
-5. procurar expressamente por: “PLR”, “72 horas”, “11 de setembro”, “assinatura”, “formalização”, “processamento”, “antecipação”, “2027”;
-6. reconstruir a cronologia documental de 03/09 a 16/09;
-7. preservar todos os informativos oficiais do BB da campanha de 2026;
-8. localizar comunicações primárias sobre RN, Maranhão e Bauru;
-9. localizar a resposta original do BB reproduzida por Franca/SP;
-10. pesquisar jurisprudência TST/TRTs e orientações do MPT sobre vantagem, bônus, PLR ou prejuízo econômico vinculados à participação ou não participação em greve;
-11. comparar com campanhas anteriores do próprio BB;
-12. somente depois consolidar o artigo conclusivo.
+1. obter e preservar a **CCT geral 2026/2028 integral**;
+2. obter e preservar a **CCT-PLR 2026/2027 integral**;
+3. preservar a **minuta final do ACT geral BB 2026/2028 de 04/09** já localizada;
+4. obter o **ACT geral BB 2026/2028 efetivamente assinado**;
+5. localizar o **ACT-PLR BB 2026/2027 (ou instrumento equivalente)**, anexos e termos de adesão;
+6. verificar se “72 horas”, “11/09”, “processamento”, “2027” e “formalização” aparecem em algum dos instrumentos ou apenas em comunicações;
+7. reconstruir o que foi efetivamente disponibilizado aos trabalhadores da Bahia antes das votações de 10/11 e 13/09;
+8. comparar proposta/minuta pré-assembleia × instrumentos assinados × termos de adesão × regra aplicada em 16/09;
+9. preservar todos os informativos oficiais do BB da campanha de 2026;
+10. localizar comunicações primárias sobre RN, Maranhão e Bauru;
+11. localizar a resposta original do BB reproduzida por Franca/SP;
+12. pesquisar jurisprudência TST/TRTs e orientações MPT sobre vantagem, PLR ou prejuízo econômico vinculado à greve;
+13. comparar campanhas anteriores do próprio BB;
+14. somente depois consolidar artigo conclusivo.
 
 ---
 
-## 11. Regra de continuidade
+## 12. Regra de continuidade
 
-Este arquivo é a fonte canônica de continuidade desta investigação. Toda nova descoberta material deve ser registrada aqui **antes de a pesquisa avançar para um novo bloco substancial**, conforme `AGENTS.md`.
+Este arquivo é a fonte canônica de continuidade desta investigação. Toda nova descoberta material deve ser registrada aqui **antes de avançar para novo bloco substancial**, conforme `AGENTS.md`.
 
-Nenhuma conclusão futura deve partir apenas da memória do chat. Em caso de divergência, verificar primeiro este arquivo, os documentos-fonte e o histórico Git.
+Nenhuma conclusão futura deve partir apenas da memória do chat. Em caso de divergência, verificar primeiro este arquivo, documentos-fonte e histórico Git.
