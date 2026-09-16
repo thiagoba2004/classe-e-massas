@@ -24,7 +24,7 @@ O **ACT-PLR** continua sendo documento distinto e autônomo quando houver instru
 
 Há duas fontes contemporâneas que, tomadas literalmente, entram em tensão factual:
 
-1. o SINTEC-TO publicou em **04/09/2026** que o Banco do Brasil havia encaminhado às entidades sindicais naquele dia a **proposta de Acordo Coletivo de Trabalho (ACT) 2026/2028**, disponibilizando o arquivo `ACT-Banco-do-Brasil-Minuta-final-2026-2028.pdf`;
+1. o SINTEC-TO publicou em **04/09/2026** que o Banco do Brasil havia encaminhado às entidades sindicais naquele dia a **proposta de Acordo Coletivo de Trabalho (ACT) 2026/2028**, disponibilizando publicamente o arquivo `ACT-Banco-do-Brasil-Minuta-final-2026-2028.pdf`;
 2. o Sindicato dos Bancários do RN publicou em **15/09/2026** que o Banco **“não encaminhou qualquer minuta de acordo aditivo para análise e deliberação das assembleias”**.
 
 Fontes:
@@ -38,48 +38,51 @@ Como “acordo aditivo” é o próprio ACT do BB, a divergência não pode ser 
 
 ## 3. O que o Tocantins prova
 
-A publicação do SINTEC-TO demonstra documentalmente que, em 04/09, existia uma **minuta final do ACT 2026/2028** e que ao menos aquela entidade a recebeu ou teve acesso a ela para publicação e apreciação da categoria.
+A publicação do SINTEC-TO demonstra documentalmente que, em 04/09, existia uma **minuta final do ACT 2026/2028** e que ela foi colocada **publicamente à disposição na internet**.
 
-Por isso, não é rigoroso afirmar em termos nacionais que **nenhuma minuta do ACT existia ou havia sido encaminhada a qualquer entidade sindical**.
+Isso tem duas consequências distintas:
 
-A afirmação correta é mais restrita: há prova de circulação da minuta em Tocantins e é necessário apurar **a quem exatamente o BB a encaminhou, por quais canais e em que horário/data**.
+1. não é rigoroso afirmar em termos nacionais que a minuta do ACT não existia;
+2. depois de publicada no site do SINTEC-TO, o acesso material ao documento não dependia de recebimento direto pelo BB: qualquer entidade sindical, inclusive o SEEB/RN, poderia em tese obtê-la publicamente.
 
----
+Portanto, a mera hipótese de que “o BB não enviou diretamente a minuta ao RN” **não explica, por si só, a falta de acesso ao texto**, uma vez que havia uma cópia pública disponível.
 
-## 4. O que o RN afirma — e o que precisa ser esclarecido
-
-A afirmação do Sindicato do RN deve agora ser lida literalmente: a entidade diz que **não recebeu minuta do ACT/Acordo Aditivo para análise e deliberação de suas assembleias**.
-
-A questão investigativa correta deixa de ser “qual documento o RN chamava de acordo aditivo?” e passa a ser:
-
-> **Se o BB encaminhou a minuta final do ACT às entidades em 04/09, por que o Sindicato do RN afirma em 15/09 que nenhuma minuta do ACT foi encaminhada para análise e deliberação de suas assembleias?**
-
-As hipóteses que precisam ser verificadas documentalmente são, entre outras:
-
-- o envio não foi feito a todas as entidades;
-- o documento foi remetido a federação/confederação/central, mas não chegou diretamente ao sindicato do RN;
-- houve falha de distribuição ou comunicação entre instâncias sindicais;
-- a publicação do RN empregou formulação imprecisa;
-- o RN se referia à ausência de uma versão atualizada do ACT após a reabertura da negociação, embora use a expressão genérica “minuta de acordo aditivo”.
-
-Essa última hipótese só pode ser adotada se houver prova; não deve ser presumida.
+Isso não elimina a relevância de apurar a distribuição oficial feita pelo BB, mas muda o objeto dessa diligência: ela serve para esclarecer o fluxo formal da negociação e eventual dever de comunicação oficial, **não para explicar a impossibilidade material de acesso à minuta**.
 
 ---
 
-## 5. A reabertura de 08/09 continua relevante, mas por outro motivo
+## 4. O que a afirmação do RN passa a significar
 
-A correção terminológica não elimina o problema material surgido depois de 04/09.
+A frase do Sindicato do RN deve ser analisada com maior rigor. Ao dizer que o Banco **“não encaminhou qualquer minuta de acordo aditivo para análise e deliberação das assembleias”**, a entidade faz uma afirmação sobre o **encaminhamento formal pelo Banco**, não necessariamente sobre a inexistência pública do documento.
 
-A minuta final de 04/09 já foi pesquisada e **não contém PLR nem a regra de crédito em 72 horas**. Depois da reabertura da negociação em 08/09, passaram a ser publicamente relatadas condições sobre:
+Diante da publicação do Tocantins, já não é adequada a hipótese de que o RN simplesmente não poderia ter conhecido a minuta porque não a recebeu diretamente.
+
+As questões relevantes passam a ser:
+
+- o RN desconhecia a publicação pública de 04/09?
+- conhecia a minuta, mas estava denunciando que o BB não a encaminhou formalmente à entidade para instruir a assembleia?
+- a minuta pública de 04/09 não era mais a versão efetivamente negociada após a reabertura de 08/09?
+- houve alteração material posterior que tornasse a versão publicada em 04/09 insuficiente para a deliberação de 11/09?
+- a formulação do RN foi simplesmente imprecisa?
+
+Essas hipóteses precisam de prova. O ponto já comprovado é mais simples: **havia uma minuta final do ACT publicamente acessível desde 04/09**.
+
+---
+
+## 5. A reabertura de 08/09 continua central
+
+A minuta final publicada em 04/09 já foi pesquisada e **não contém PLR nem a regra de crédito em 72 horas**. Depois da reabertura da negociação em 08/09, passaram a ser publicamente relatadas condições sobre:
 
 - crédito da PLR em até 72 horas;
 - alegada impossibilidade de dois processamentos;
 - ausência de antecipação para determinadas bases;
 - pagamento somente em 2027 em determinadas situações.
 
-Assim, embora o “Acordo Aditivo” do RN seja o próprio ACT geral, permanece uma segunda pergunta autônoma:
+Assim, o verdadeiro problema documental não é mais saber se havia alguma minuta acessível antes das assembleias posteriores. Havia.
 
-> **a minuta do ACT que circulou em 04/09 continuava idêntica depois da reabertura ou houve nova versão do ACT submetida ou não às bases?**
+A pergunta decisiva é:
+
+> **a minuta pública de 04/09 continuava sendo a versão integral e atualizada da proposta depois da reabertura de 08/09?**
 
 E, separadamente:
 
@@ -89,18 +92,18 @@ E, separadamente:
 
 ## 6. Consequência para o artigo “Assembleia não é cheque em branco”
 
-A formulação segura não é que “não havia minuta do ACT”. O que os documentos permitem sustentar, até aqui, é:
+A formulação segura não é que “não havia minuta do ACT”. Os documentos permitem afirmar:
 
-> **Há prova de que uma minuta final do ACT 2026/2028 circulava desde 04/09. O Sindicato do RN, contudo, afirmou em 15/09 que nenhuma minuta do Acordo Aditivo — isto é, do próprio ACT — havia sido encaminhada para análise e deliberação de suas assembleias. Essa divergência precisa ser esclarecida pela trilha documental de distribuição da minuta. Paralelamente, a minuta localizada não contém PLR nem a regra das 72 horas, o que mantém aberta a investigação sobre qual instrumento continha as condições econômicas posteriormente anunciadas.**
+> **Há prova de que uma minuta final do ACT 2026/2028 estava publicamente disponível desde 04/09. O Sindicato do RN afirmou depois que o BB não havia encaminhado qualquer minuta do Acordo Aditivo para análise e deliberação das assembleias. A publicação pública do Tocantins impede tratar a ausência de envio direto como sinônimo de impossibilidade de acesso ao texto. O ponto que permanece decisivo é saber se aquela minuta de 04/09 continuava sendo a versão integral e atualizada após a reabertura das negociações e se os novos condicionantes econômicos sobre a PLR estavam em algum instrumento submetido efetivamente à deliberação dos trabalhadores.**
 
 ---
 
 ## 7. Diligências corrigidas
 
-1. obter a comunicação original do BB de 04/09 que encaminhou a minuta final e sua lista de destinatários;
-2. verificar se o SEEB/RN foi destinatário direto ou indireto;
-3. identificar se houve nova versão do ACT depois da reabertura de 08/09;
-4. comparar a minuta de 04/09 com o ACT efetivamente assinado;
+1. preservar a publicação do SINTEC-TO de 04/09 e o PDF da minuta final ali disponibilizado;
+2. comparar a minuta pública de 04/09 com o ACT efetivamente assinado;
+3. verificar se houve nova versão do ACT depois da reabertura de 08/09;
+4. apurar o sentido exato da afirmação do SEEB/RN sobre “não encaminhamento” da minuta;
 5. localizar o ACT-PLR BB 2026/2027, a CCT-PLR 2026/2027 e os termos de adesão de 2026;
 6. identificar em qual documento aparecem “72 horas”, “11/09”, “processamento” e “2027”;
 7. reconstruir o que efetivamente estava disponível aos trabalhadores de cada base no momento de suas assembleias.
@@ -109,4 +112,4 @@ A formulação segura não é que “não havia minuta do ACT”. O que os docum
 
 ## 8. Regra metodológica
 
-Não voltar a tratar **Acordo Aditivo** do BB como instrumento distinto do **ACT específico do BB**. No contexto aqui analisado, “aditivo” designa a função do ACT em relação à CCT nacional.
+Não voltar a tratar **Acordo Aditivo** do BB como instrumento distinto do **ACT específico do BB**. Também não confundir **ausência de encaminhamento formal pelo BB** com **impossibilidade material de acesso ao documento**, quando a minuta já estava publicamente disponível em site sindical.
