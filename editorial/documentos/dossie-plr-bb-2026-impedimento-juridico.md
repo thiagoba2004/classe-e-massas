@@ -154,3 +154,62 @@ Portanto, para sustentar a tese do “impedimento jurídico” em 2026, ainda é
 ## 7. Fonte futura a separar
 
 Há referência pública a outra autuação do Banco do Brasil envolvendo PLR do exercício de 2017 (processo 16327.721264/2021-91). Até este bloco de pesquisa, **não foi estabelecido documentalmente que o fundamento dessa outra autuação tenha sido pagamento em datas diferentes**. Ela não deve ser usada como precedente sobre periodicidade até que seus fundamentos sejam examinados diretamente.
+
+---
+
+## 8. Resolução CCE nº 010/1995 — regra geral de pagamento único e necessidade de identificar o regime excepcional do BB
+
+Fonte oficial:  
+`https://www.gov.br/gestao/pt-br/assuntos/estatais/legislacao/resolucoes/950530_resol_10.pdf`
+
+A Resolução CCE nº 010/1995 continua expressamente indicada, na página da SEST atualizada em 08/04/2026, entre as normas que regem os programas de PLR das estatais federais.
+
+### 8.1. Aprovação prévia do programa
+
+O art. 4º da Resolução estabelece que, antes de firmar acordo de PLR, a estatal deve submeter previamente a proposta à instância governamental competente, com indicação da origem dos resultados, valor a distribuir, ganhos de produtividade/qualidade/lucratividade, avaliação de metas, prazos e demais critérios. O parágrafo único admite aprovação integral, parcial ou alteração das condições da proposta.
+
+A estrutura administrativa mudou desde 1995. Em 2026, a página oficial da SEST informa que é a própria Secretaria que analisa os programas de PLR das estatais e orienta a apresentação dos pleitos.
+
+### 8.2. Regra geral de pagamento único
+
+O art. 5º da Resolução contém regra muito mais restritiva do que a prática histórica observada no BB: dispõe que a participação se dará mediante pagamento **“de uma só vez”** e, para sociedades de economia mista, no mês imediatamente posterior à Assembleia Geral Ordinária, condicionado ao pagamento efetivo dos dividendos aos acionistas.
+
+Essa regra torna juridicamente impossível explicar o adiantamento de setembro do BB apenas pela leitura literal da Resolução CCE nº 010/1995. Como o BB historicamente realiza antecipação antes do fechamento anual, sua prática pressupõe um **regime específico aprovado/aceito pela administração federal, uma excepcionalidade ou outra base normativa que compatibilize o programa do Banco com a diretriz geral**.
+
+### 8.3. Por que isso muda a investigação de 2026
+
+A questão documental deixa de ser apenas saber se a Lei nº 10.101/2000 permitiria dois processamentos. É necessário obter o **programa de PLR do BB aprovado pela SEST para o ciclo de 2026**, bem como eventuais manifestações de excepcionalidade, autorizações ou condicionantes.
+
+É esse conjunto documental que pode responder se:
+
+- a antecipação de setembro estava expressamente autorizada;
+- havia autorização para uma ou mais datas de crédito;
+- o programa exigia que todo o público elegível recebesse simultaneamente;
+- existia restrição a processamentos posteriores;
+- o corte de 11/09 era condição da autorização governamental ou apenas decisão negocial/operacional do BB.
+
+Até este ponto, **nenhum documento público localizado demonstra que a Resolução CCE nº 010/1995, por si só, imponha o corte de 11/09 ou proíba pagamentos em datas distintas por base sindical**. Ao contrário, a resolução fixa uma regra geral de pagamento único que evidentemente não descreve, sozinha, o modelo efetivamente praticado pelo BB.
+
+### 8.4. Competência institucional atual e cautela com normas revogadas
+
+Historicamente, o Decreto nº 3.735/2001 continha mecanismo para decidir excepcionalidades às normas do antigo CCE. Esse decreto, porém, foi **expressamente revogado pelo Decreto nº 12.302/2024** e não deve ser citado como fundamento vigente em 2026.
+
+O Decreto nº 12.302/2024 instituiu o Sisest, definiu a SEST como órgão central e autorizou a Secretaria a editar normas complementares. O atual desenho regimental do MGI também atribui à SEST competência para manifestar-se sobre propostas de participação dos empregados nos lucros ou resultados das estatais. A página oficial de orientações, atualizada em 2026, confirma que os pleitos de PLR continuam sendo submetidos à SEST.
+
+Contudo, **a pesquisa ainda não identificou o ato vigente que reproduza ou substitua de forma expressa o antigo mecanismo de “excepcionalidade” do Decreto nº 3.735/2001**. Esse ponto precisa ser fechado antes de afirmar qual é o título jurídico específico que autoriza o BB a afastar, em seu modelo de adiantamento, a regra geral do art. 5º da Resolução CCE nº 010/1995.
+
+Fontes oficiais complementares:  
+`https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/d12302.htm`  
+`https://www.gov.br/gestao/pt-br/assuntos/estatais/arquivo/orientacoes-as-empresas/programa-de-participacao-nos-lucros-ou-nos-resultados-plr`
+
+### 8.5. Novo documento decisivo a requerer
+
+A partir desse achado, a investigação deve requerer, além do parecer da DIJUR:
+
+1. o **Programa de PLR do Banco do Brasil para 2026/2027 submetido à SEST**;
+2. o ofício/manifestação/nota técnica da SEST que aprovou, aprovou com condicionantes ou alterou o programa;
+3. eventual pedido e decisão de excepcionalidade relacionado à Resolução CCE nº 010/1995;
+4. anexos com calendário, periodicidade e condições de pagamento;
+5. qualquer documento que estabeleça que a antecipação só poderia ser processada uma única vez para todos os empregados ou que impedisse novo processamento para bases que formalizassem posteriormente.
+
+Esse conjunto pode ser mais decisivo para a tese do “impedimento jurídico” do que a autuação fiscal de 2015 isoladamente.
