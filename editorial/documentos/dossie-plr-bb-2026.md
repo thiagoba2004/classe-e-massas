@@ -159,9 +159,9 @@ Algumas páginas sindicais históricas exibem “PLT” em títulos onde o conte
 
 ---
 
-## 6. Regime documental anterior — 2024/2025
+## 6. Regime documental anterior — 2024/2025 e pistas de 2026
 
-Fonte: `Convenções Coletivas dos Bancários 2024-2026 - FEBRABAN.pdf`, fornecida pelo usuário.
+Fonte-base histórica: `Convenções Coletivas dos Bancários 2024-2026 - FEBRABAN.pdf`, fornecida pelo usuário.
 
 Achados da CCT-PLR da categoria:
 
@@ -258,6 +258,40 @@ Fontes:
 
 **Conclusão estritamente limitada:** até esta consulta, os principais repositórios sindicais examinados **não expunham publicamente, em suas listagens correntes, o ACT-PLR BB 2026/2027 nem os termos de adesão de 2026**. Isso não prova que os documentos não existam, não tenham sido assinados ou não estejam disponíveis em outro canal; registra apenas o estado verificável da publicação pública consultada.
 
+### 6.6. A própria narrativa sindical de 2026 distingue “acordo de PLR vigente”
+
+Publicações de bases que reavaliaram a proposta em 10/11 de setembro registraram formulação especialmente relevante. O Sindicato dos Bancários de Irecê informou que, segundo o BB, as bases que aprovassem o acordo teriam a PLR no prazo informado, enquanto as demais receberiam apenas em fevereiro de 2027, **“por não existir acordo de PLR vigente”**.
+
+Fontes:  
+`https://www.bancariosirece.com.br/site/ultimas-noticias/5633-assembleias-dos-funcionarios-do-bb-nesta-quinta-e-sexta`  
+`https://www.bancarioscascavel.org.br/noticias/funcionarios-do-banco-do-brasil-aprovam-proposta-e-encerram-greve-no-parana`
+
+Essa redação é mais específica do que a expressão genérica “quem não assinou o ACT”. Ela indica que, na própria comunicação sindical contemporânea, o problema era relacionado à **vigência de um acordo de PLR**. Isso reforça a necessidade de localizar o ACT-PLR BB 2026/2027 e os respectivos atos de adesão, sem ainda concluir qual documento era juridicamente indispensável.
+
+### 6.7. “Minuta com PLR 2026/2028” da FEEBPR não é o acordo final
+
+A página da Federação dos Bancários do Paraná/Fenaban exibe um arquivo chamado **“MINUTA COM PLR - 2026/2028”**. A inspeção do PDF mostra, porém, que se trata da **Pauta Consolidada de Reivindicações dos Bancários — Campanha Nacional 2026/2028**, aprovada em junho de 2026, e não de instrumento final negociado e assinado.
+
+Fonte PDF:  
+`https://www.feebpr.org.br/images/downloads/minuta-fenaban-campanha-salarial-2026pdf.pdf`
+
+O próprio documento identifica:
+
+- vigência **proposta** da CCT: 01/09/2026 a 31/08/2028;
+- vigência **proposta** da CCT-PLR: 01/01/2026 a 31/12/2027;
+- eixo específico de PLR, com cláusulas para exercício 2026, antecipação 2026 e exercício/antecipação 2027.
+
+Portanto, esse PDF serve para comprovar a **arquitetura reivindicada** e a existência de uma CCT-PLR autônoma na pauta, mas **não pode ser usado como se fosse a redação final aceita pela Fenaban**.
+
+### 6.8. O que se sabia antes das assembleias sobre a CCT-PLR
+
+Em 03/09/2026, o SINTEC-TO informou aos trabalhadores que, conforme a negociação com a Fenaban, permaneciam mantidas todas as cláusulas da CCT 2024/2026 **e da CCT-PLR exercícios 2024-2025**, com atualização das cláusulas econômicas pelo INPC acrescido de 0,6% em 2026 e a mesma fórmula para 2027.
+
+Fonte:  
+`https://www.sintecto.org.br/campanha-salarial-2026-informacoes-sobre-propostas-para-a-cct-fenaban-2026-2028/`
+
+Esse registro sugere continuidade material do regime anterior de PLR na proposta submetida às assembleias, mas **não substitui a íntegra da CCT-PLR 2026/2027 efetivamente assinada**. Até o presente bloco de pesquisa, essa íntegra ainda não foi localizada nas listagens públicas examinadas.
+
 ---
 
 ## 7. Fatos públicos identificados sobre setembro de 2026
@@ -296,8 +330,9 @@ Isso prova que a consequência era relatada publicamente **antes** de algumas as
 2. **“PLR até 30 de setembro”**, vinculada à CCT/CCT-PLR da categoria;
 3. **“crédito do adiantamento em até 72 horas após a assinatura do acordo”**, divulgado na fase final do BB;
 4. **“não é possível dois processamentos de PLR por impedimento jurídico”**, atribuído ao BB na reabertura de 09/09;
-5. **“11/09 como limite para processamento da folha”**;
-6. **“bases que formalizaram depois de 11/09 recebem apenas em 2027”**.
+5. **“não existir acordo de PLR vigente”**, usado por fontes sindicais para explicar a exclusão do adiantamento;
+6. **“11/09 como limite para processamento da folha”**;
+7. **“bases que formalizaram depois de 11/09 recebem apenas em 2027”**.
 
 A investigação deve identificar o documento, a data de origem e o alcance de cada formulação.
 
@@ -335,7 +370,7 @@ Não declarar retaliação, punição ou ilicitude como fato antes de fechar a c
 5. localizar o **ACT-PLR BB 2026/2027 (ou instrumento equivalente)**, anexos e termos de adesão;
 6. verificar especificamente se houve, em 2026, **termo de adesão geral e termo de adesão PLR separados**, como ocorreu com Bauru em 2024;
 7. identificar qual instrumento ou termo deveria estar assinado para liberar a antecipação de setembro;
-8. verificar se “72 horas”, “11/09”, “processamento”, “2027” e “formalização” aparecem em algum dos instrumentos ou apenas em comunicações;
+8. verificar se “72 horas”, “11/09”, “processamento”, “2027”, “formalização” e “acordo de PLR vigente” aparecem em algum dos instrumentos ou apenas em comunicações;
 9. identificar a fonte normativa ou parecer que sustentaria o alegado impedimento a dois processamentos de PLR;
 10. reconstruir o que foi efetivamente disponibilizado aos trabalhadores da Bahia antes das votações de 10/11 e 13/09;
 11. comparar proposta/minuta pré-assembleia × instrumentos assinados × termos de adesão × regra aplicada em 16/09;
