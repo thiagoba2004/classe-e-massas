@@ -60,11 +60,13 @@
         "tentar localizar o ACT-PLR BB 2026/2027 e os termos de adesão de 2026",
         "consolidar a origem documental das regras de 72 horas, corte em 11/09 e pagamento somente em 2027"
       ],
+      "audit_18_bases_status": "14 bases com suporte documental robusto direto ou coletivo; 4 bases ainda exigem confirmação individual específica: Cariri, Santana do Livramento, Angra dos Reis e Guaratinguetá.",
       "persistence_status": "DOSSIÊ CANÔNICO E ANEXOS DE PESQUISA ATUALIZADOS E VERSIONADOS NO GITHUB",
       "canonical_file": "editorial/documentos/dossie-plr-bb-2026.md",
       "supporting_files": [
         "editorial/documentos/dossie-plr-bb-2026-impedimento-juridico.md",
-        "editorial/documentos/dossie-plr-bb-2026-contraste-minuta-aditivo.md"
+        "editorial/documentos/dossie-plr-bb-2026-contraste-minuta-aditivo.md",
+        "editorial/documentos/dossie-plr-bb-2026-auditoria-18-bases.md"
       ],
       "related_article": "artigos/2026/assembleia-nao-e-cheque-em-branco-bahia.html",
       "related_lai": "lai/banco-do-brasil-plr-2026.html",
@@ -84,11 +86,12 @@
         "Em 2024 havia ACT geral, ACT-PLR e termos de adesão separados para o acordo geral e para PLR.",
         "Foi localizado o processo CARF 16327.721122/2019-17, Acórdão 2202-009.546, em que o BB foi autuado por periodicidade de PLR após créditos em fevereiro, março e novembro de 2015.",
         "O precedente fiscal envolve créditos adicionais/acertos atribuídos aos mesmos empregados e não demonstra, por si só, proibição de pagar a mesma primeira parcela em datas distintas a grupos diferentes.",
-        "Desde a Lei 14.020/2020, o art. 2º, §8º, da Lei 10.101/2000 formula a infração de periodicidade em relação aos pagamentos feitos ao mesmo empregado."
+        "Desde a Lei 14.020/2020, o art. 2º, §8º, da Lei 10.101/2000 formula a infração de periodicidade em relação aos pagamentos feitos ao mesmo empregado.",
+        "A auditoria das 18 bases mostrou que o grupo não é homogêneo: há bases que só aprovaram depois de 11/09, bases que aprovaram em 11/09 mas ficaram aguardando formalização/termos de adesão e bases cuja cronologia individual ainda está incompleta."
       ],
-      "last_verified_milestone_commit": "013ef77771a2209540c6a8a7cab732b1773d1ed1",
-      "last_verified_milestone_message": "Pesquisa PLR BB: corrige conceito de acordo aditivo como ACT",
-      "next_step": "AUDITAR AS 18 BASES CONTRA O MATERIAL JÁ COLETADO, IDENTIFICANDO PARA CADA UMA PROVA DO NÃO PAGAMENTO, DATA DE APROVAÇÃO/COMUNICAÇÃO/FORMALIZAÇÃO QUANDO CONHECIDA E FONTE; SÓ DEPOIS DECIDIR SE RESTA PESQUISA CIRÚRGICA OU SE O ARTIGO JÁ PODE SER REDIGIDO",
+      "last_verified_milestone_commit": "172fbd511aa553ee85c36f3c0ae3a933acd58755",
+      "last_verified_milestone_message": "Pesquisa PLR BB: audita as 18 bases sem antecipação",
+      "next_step": "REALIZAR PESQUISA CIRÚRGICA APENAS PARA CARIRI, SANTANA DO LIVRAMENTO, ANGRA DOS REIS E GUARATINGUETÁ, BUSCANDO FONTE INDIVIDUAL QUE CONFIRME O NÃO CRÉDITO EM 16/09; DEPOIS REAVALIAR O GATE DAS 18 BASES E PASSAR À LOCALIZAÇÃO DO ACT-PLR/TERMOS DE ADESÃO OU À REDAÇÃO, CONFORME O ESTADO PROBATÓRIO",
       "do_not_do": [
         "não concluir que houve retaliação ou ilicitude antes de fechar a cadeia documental",
         "não confundir participação individual em greve com critério coletivo por base sindical",
