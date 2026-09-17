@@ -32,7 +32,7 @@
 *Federação dos Trabalhadores do Ramo Financeiro dos Estados do Rio de Janeiro e Espírito Santo (Fetraf RJ/ES)*
 
 • Sindicato dos Bancários do Espírito Santo — *13/09/2026*
-• Sindicato dos Bancários de Angra dos Reis e Região — *04/09/2026*
+• Sindicato dos Bancários de Angra dos Reis e Região — *14/09/2026*
 
 *Federação dos Trabalhadores em Empresas de Crédito do Centro-Norte (FETEC-CUT/CN)*
 
