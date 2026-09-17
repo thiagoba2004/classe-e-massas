@@ -1,11 +1,12 @@
 # Estratégia autônoma — WhatsApp: bases que não haviam assinado o ACT BB 2026/2028 até 14h de 11/09/2026
 
 **Projeto:** Classe e Massas  
-**Status:** EM EXECUÇÃO — CONSOLIDAÇÃO  
+**Status:** CONCLUÍDA — TEXTO AUDITADO E PRONTO PARA CIRCULAÇÃO  
 **Criada em:** 17/09/2026  
 **Atualizada em:** 17/09/2026  
 **Natureza:** estratégia autônoma de pesquisa documental e divulgação em WhatsApp  
-**Estratégia-mãe relacionada:** DOS-PLR-BB-2026, sem substituí-la nem alterar sua fase editorial.
+**Estratégia-mãe relacionada:** DOS-PLR-BB-2026, sem substituí-la nem alterar sua fase editorial.  
+**Entrega final:** `editorial/documentos/mensagem-whatsapp-bases-act-bb-2026.md`
 
 ## Objetivo
 
@@ -47,16 +48,16 @@ Bahia; Camaçari; Extremo Sul da Bahia; Feira de Santana e Região; Ilhéus e Re
 **Resultado:** 15 bases possuem data de aprovação confirmada; Santana do Livramento e Angra dos Reis permanecem sem data pública de aprovação localizada; Guaratinguetá possui assembleia/votação de 15/09 comprovada, mas o resultado individual não foi localizado em publicação textual.
 
 ### Fase 4 — Consolidação da matriz probatória
-**Estado:** EM EXECUÇÃO  
-**Gate:** cada linha das 18 bases terá fonte para vínculo institucional e fonte para data/resultado da assembleia, ou ressalva expressa de lacuna.
+**Estado:** CONCLUÍDA  
+**Gate satisfeito:** todas as 18 bases possuem cadeia institucional documentada e data/resultado de assembleia documentado ou ressalva expressa de lacuna.
 
 ### Fase 5 — Redação do texto para WhatsApp
-**Estado:** NÃO INICIADA  
-**Objetivo:** redigir mensagem compacta, legível e consistente, desenvolvendo todas as siglas ao menos uma vez.
+**Estado:** CONCLUÍDA  
+**Entrega:** `editorial/documentos/mensagem-whatsapp-bases-act-bb-2026.md`.
 
 ### Fase 6 — Auditoria final e liberação para circulação
-**Estado:** NÃO INICIADA  
-**Gate:** conferir total de 18 bases, coerência da hierarquia institucional, datas, siglas, fontes e ausência de inferências apresentadas como fatos.
+**Estado:** CONCLUÍDA  
+**Gate satisfeito:** total de 18 bases conferido; hierarquia Sindicato > Federação > Confederação aplicada; siglas desenvolvidas pelo menos uma vez; datas revisadas; três lacunas preservadas sem inferência; texto marcado como pronto para circulação.
 
 ## Matriz institucional consolidada
 
@@ -145,6 +146,6 @@ Não confundir:
 - Santana do Livramento — edital coletivo do BB 10–11/09: `https://www.bancarioserechim.com.br/noticias/detalhes/edital-bb-10092026`
 - Angra — resultado de 03–04/09 registra rejeição do ACT do BB: `https://fetrafrjes.org.br/confira-o-resultado-das-assembleias-nos-sindicatos-da-fetraf-rj-es-2/`
 
-## Estado atual
+## Fechamento
 
-As Fases 2 e 3 foram encerradas com as ressalvas documentais expressamente identificadas. A estratégia avançou para a **Fase 4 — Consolidação da matriz probatória**. O próximo passo lógico é transformar esta matriz em uma mensagem de WhatsApp que mantenha a hierarquia Sindicato > Federação > Confederação, desenvolva cada sigla pelo menos uma vez e preserve as três lacunas sem inferência.
+A estratégia foi concluída em 17/09/2026. A mensagem final foi auditada e persistida em `editorial/documentos/mensagem-whatsapp-bases-act-bb-2026.md`. As três lacunas documentais remanescentes foram mantidas explicitamente no texto final, sem preenchimento por inferência. A estratégia-mãe `DOS-PLR-BB-2026` permanece em sua própria fase editorial e não foi avançada por esta entrega autônoma.
