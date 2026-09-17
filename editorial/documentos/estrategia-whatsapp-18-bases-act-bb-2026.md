@@ -3,6 +3,7 @@
 **Projeto:** Classe e Massas  
 **Status:** EM EXECUÇÃO  
 **Criada em:** 17/09/2026  
+**Atualizada em:** 17/09/2026  
 **Natureza:** estratégia autônoma de pesquisa documental e divulgação em WhatsApp  
 **Estratégia-mãe relacionada:** DOS-PLR-BB-2026, sem substituí-la nem alterar sua fase editorial.
 
@@ -42,16 +43,16 @@ Bahia; Camaçari; Extremo Sul da Bahia; Feira de Santana e Região; Ilhéus e Re
 **Objetivo:** confirmar para as 18 bases a cadeia Sindicato > Federação > Confederação, distinguindo filiação formal de mera participação negocial.
 
 ### Fase 3 — Auditoria cronológica das assembleias
-**Estado:** EM EXECUÇÃO  
+**Estado:** EM EXECUÇÃO — 15/18 FECHADAS; 3 COM RESSALVA  
 **Objetivo:** confirmar a data da assembleia que efetivamente aprovou o ACT em cada uma das 18 bases.
 
-**Pendências prioritárias herdadas da primeira rodada:**
-- Angra dos Reis/RJ — localizar assembleia posterior que tenha aprovado o ACT ou registrar ausência de confirmação pública;
-- Guaratinguetá/SP — confirmar documentalmente o resultado da assembleia de 15/09/2026;
-- Santana do Livramento/RS — localizar resultado individual da votação de 10–11/09/2026 ou registrar limite documental.
+**Pendências prioritárias após busca dirigida em 17/09/2026:**
+- Angra dos Reis/RJ — não foi localizada assembleia posterior que tenha aprovado o ACT; a última situação pública localizada continua sendo a rejeição e manutenção da mobilização. Registrar a lacuna se nova fonte não surgir;
+- Guaratinguetá/SP — comprovada votação conjunta com Franca em 15/09/2026, das 16h às 23h, mas não foi localizada publicação individual do resultado de Guaratinguetá. Não importar automaticamente para Guaratinguetá o percentual divulgado por Franca;
+- Santana do Livramento/RS — comprovado edital para assembleia de 10/09/2026 e votação digital até 12h de 11/09, mas resultado individual e eventual assembleia posterior de aprovação não foram localizados em fonte pública.
 
 ### Fase 4 — Consolidação da matriz probatória
-**Estado:** NÃO INICIADA  
+**Estado:** EM PREPARAÇÃO  
 **Gate:** cada linha das 18 bases terá, no mínimo, fonte para vínculo institucional e fonte para data/resultado da assembleia, ou ressalva expressa de lacuna.
 
 ### Fase 5 — Redação do texto para WhatsApp
@@ -62,14 +63,50 @@ Bahia; Camaçari; Extremo Sul da Bahia; Feira de Santana e Região; Ilhéus e Re
 **Estado:** NÃO INICIADA  
 **Gate:** conferir total de 18 bases, coerência da hierarquia institucional, datas, siglas, fontes e ausência de inferências apresentadas como fatos.
 
-## Achados já confirmados nesta sessão
+## Achados cronológicos consolidados — 17/09/2026
 
-- Guaratinguetá publicou edital convocando funcionários do Banco do Brasil para assembleia virtual em 15/09/2026, das 16h às 23h, para deliberar sobre a proposta de renovação dos ACTs aditivos.
-- A plataforma VotaBem exibiu votação conjunta identificada como “SEEB Guaratinguetá e Franca BANCO DO BRASIL ACT - DIA 15/09/2026”. Isso confirma a realização programada/conjunta, mas não substitui fonte textual individual do resultado de Guaratinguetá.
-- Franca publicou em 16/09/2026 que a assembleia de 15/09 aprovou o ACT por 89,24% e que o resultado foi encaminhado à CONTEC.
-- Santana do Livramento consta do edital coletivo do Rio Grande do Sul para assembleia do Banco do Brasil em 10/09/2026, com votação digital, quando aplicável, das 19h de 10/09 às 12h de 11/09; resultado individual ainda não localizado.
-- Angra dos Reis consta como base da Federação dos Trabalhadores do Ramo Financeiro dos Estados do Rio de Janeiro e Espírito Santo (Fetraf RJ/ES) e havia rejeitado o ACT do Banco do Brasil na assembleia de 3–4/09; fontes de 11–13/09 ainda a registravam entre as bases que mantinham rejeição/greve. A data de eventual aprovação posterior permanece pendente.
+| Base | Data da assembleia que aprovou o ACT | Situação |
+|---|---:|---|
+| Bahia | 13/09/2026 | confirmada |
+| Camaçari | 13/09/2026 | confirmada |
+| Extremo Sul da Bahia | 13/09/2026 | confirmada |
+| Feira de Santana | 13/09/2026 | confirmada |
+| Ilhéus e Região | 13/09/2026 | confirmada |
+| Irecê e Região | 13/09/2026 | confirmada |
+| Juazeiro e Região | 13/09/2026 | confirmada |
+| Oeste da Bahia | 13/09/2026 | confirmada |
+| Cariri | 14/09/2026 | confirmada por publicação oficial do resultado |
+| Espírito Santo | 13/09/2026 | confirmada; 76% de aprovação |
+| Pará | 11/09/2026 | confirmada; votação realizada à noite, após nova convocação, e resultado publicado em 12/09 com 59,6% de aprovação |
+| Santana do Livramento | não localizada | edital comprova assembleia/votação 10–11/09, mas não o resultado individual nem eventual aprovação posterior |
+| Angra dos Reis | não localizada | rejeição anterior confirmada; aprovação posterior não localizada até 17/09 |
+| Guaratinguetá | 15/09/2026 — votação comprovada; resultado individual não localizado | portal VotaBem identifica votação conjunta Guaratinguetá e Franca; não usar percentual de Franca como resultado individual de Guaratinguetá |
+| Rio Grande do Norte | 11/09/2026 | confirmada por fonte oficial do SEEB/RN |
+| Maranhão | 11/09/2026 | confirmada pelo SEEB/MA e por fonte cruzada do SEEB/RN |
+| Bauru e Região | 11/09/2026 | confirmada por fonte oficial cruzada do SEEB/RN |
+| Franca e Região | 15/09/2026 | confirmada; 89,24% de aprovação |
+
+## Achados institucionais consolidados
+
+- A entidade constituída em 2026 pelos sindicatos do Rio Grande do Norte, Maranhão e Bauru é a **Federação Nacional dos Bancários (FNB)**. Não usar `FNOB` como se fosse a federação: **Frente Nacional de Oposição Bancária (FNOB)** é a articulação política anterior; em julho de 2026, esses sindicatos anunciaram a construção/formação da FNB.
+- Guaratinguetá e Franca são sindicatos filiados à **Federação dos Empregados em Estabelecimentos Bancários dos Estados de São Paulo e Mato Grosso do Sul (FEEB-SP/MS)**, mas a federação participa de mais de uma cadeia negocial nacional. Guaratinguetá aparece entre as bases da FEEB-SP/MS que assinam acordos junto com a **Confederação Nacional dos Trabalhadores do Ramo Financeiro da CUT (Contraf-CUT)**; Franca, no ciclo de 2026, encaminhou o resultado do ACT do BB à **Confederação Nacional dos Trabalhadores nas Empresas de Crédito (CONTEC)**. Não classificar toda a FEEB-SP/MS em uma única confederação sem olhar o sindicato concreto.
+- Santana do Livramento aparece na estrutura da **Federação dos Trabalhadores e Trabalhadoras em Instituições Financeiras do Rio Grande do Sul (FETRAFI-RS)** e, nos instrumentos coletivos nacionais, integra a cadeia de representação da Contraf-CUT.
+- Angra dos Reis integra a **Federação dos Trabalhadores do Ramo Financeiro dos Estados do Rio de Janeiro e Espírito Santo (FETRAFI RJ/ES)**, na cadeia de representação da Contraf-CUT.
+- Cariri informa em seu próprio portal a cadeia **Sindicato dos Trabalhadores do Ramo Financeiro do Cariri > FETRAFI/NE > Contraf-CUT**.
+
+## Fontes-chave incorporadas nesta rodada
+
+- FEEB BA/SE — resultados das oito assembleias de 13/09/2026: `https://feebbase.com.br/site/index.php/destaques/funcionarios-do-bb-aprovam-acordo-apos-plenaria-e-novas-assembleias`
+- Sindibancários/ES — aprovação em 13/09/2026: `https://novo.bancarios-es.org.br/bancarios-do-bb-aprovam-proposta-de-act-e-encerram-greve-no-es/`
+- Sindicato dos Bancários do Pará — resultado da nova assembleia de 11/09, publicado em 12/09: `https://bancariospa.org.br/cn2026-por-maioria-do-funcionalismo-greve-no-banco-do-brasil-chega-ao-fim-mas-a-luta-continua/`
+- SINTRAFI-Cariri — portal com “Resultado Assembleia BB 14.09.2026”: `https://www.sintraficariri.com.br/`
+- SEEB/RN — aprovação em 11/09 por RN, Maranhão e Bauru e comunicação ao BB: `https://www.bancariosrn.org.br/noticias.php?id=137`
+- SEEB/MA — confirmação da aprovação do BB em 11/09: `https://bancariosma.org.br/paginas/noticias.asp?p=19616`
+- Franca — aprovação em 15/09, 89,24%: `https://bancariosfranca.com.br/2026/09/16/assembleia-banco-do-brasil-proposta-e-aprovada-e-greve-esta-encerrada/`
+- Guaratinguetá/Franca — votação conjunta no VotaBem em 15/09, 16h–23h: `https://bancarios.votabem.com.br/votacoes`
+- Santana do Livramento — edital coletivo do BB 10–11/09: `https://www.bancarioserechim.com.br/noticias/detalhes/edital-bb-10092026`
+- FNB — SEEB/RN, 16/07/2026: `https://www.bancariosrn.org.br/noticias.php?id=121`; SEEB/MA, 07/07/2026: `https://www.bancariosma.org.br/paginas/noticias.asp?p=19538`
 
 ## Estado atual
 
-A estratégia está formalmente registrada. O trabalho está simultaneamente nas Fases 2 e 3, com prioridade imediata em fechar Angra dos Reis, Guaratinguetá e Santana do Livramento antes da redação definitiva para WhatsApp.
+A estratégia está formalmente registrada. O trabalho continua nas Fases 2 e 3, mas a auditoria cronológica alcançou **15 bases com data de aprovação confirmada** e **3 bases com ressalva documental**. A próxima ação é fechar a matriz institucional das 18 bases, corrigir nos registros relacionados a confusão FNOB/FNB quando a referência for à federação criada em 2026 e, se a busca final não encontrar novas fontes para Santana, Angra e Guaratinguetá, levar as lacunas explicitamente para o texto de WhatsApp em vez de preenchê-las por inferência.
