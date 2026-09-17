@@ -96,14 +96,13 @@
       "strategy_id": "STRAT-CEM-20260917-008",
       "name": "Acessos institucionais do Menu Notícias",
       "status": "CONCLUIDO",
-      "last_event_id": "STEV-CEM-20260917-023",
+      "last_event_id": "STEV-CEM-20260917-025",
       "event_type": "CONCLUDED",
-      "current_phase": "FASE 4 — revisão de acessibilidade móvel — concluída",
+      "current_phase": "FASE 5 — simplificação visual dos botões — concluída",
       "canonical_refs": [
         "governanca/estrategia-submenus-noticias.md",
         "noticias/index.html",
         "noticias/principio-sintese.html",
-        "js/main.js",
         "css/style.css"
       ]
     }
