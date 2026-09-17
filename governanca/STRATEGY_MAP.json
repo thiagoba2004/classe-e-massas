@@ -9,21 +9,31 @@
       "name": "Governança e continuidade documental do Classe e Massas",
       "status": "EM_EXECUCAO",
       "last_event_id": "STEV-CEM-20260917-003",
-      "canonical_refs": ["AGENTS.md", "REQUEST_LOG.jsonl", "STRATEGY_LOG.jsonl"]
+      "canonical_refs": [
+        "AGENTS.md",
+        "REQUEST_LOG.jsonl",
+        "STRATEGY_LOG.jsonl"
+      ]
     },
     {
       "strategy_id": "STRAT-CEM-20260917-002",
       "name": "Migração de governança do Classe e Massas para o kernel 1.2",
       "status": "CONCLUIDO",
       "last_event_id": "STEV-CEM-20260917-007",
-      "canonical_refs": ["AGENTS.md", "governanca/estrategia-migracao-agents-kernel-1.2.md"]
+      "canonical_refs": [
+        "AGENTS.md",
+        "governanca/estrategia-migracao-agents-kernel-1.2.md"
+      ]
     },
     {
       "strategy_id": "STRAT-CEM-20260917-003",
       "name": "Inventário e backfill progressivo das Estratégias Autônomas históricas do Classe e Massas",
       "status": "CONCLUIDO",
       "last_event_id": "STEV-CEM-20260917-013",
-      "canonical_refs": ["governanca/estrategia-backfill-estrategias-autonomas.md", "governanca/inventario-backfill-estrategias-autonomas-2026-09-17.md"]
+      "canonical_refs": [
+        "governanca/estrategia-backfill-estrategias-autonomas.md",
+        "governanca/inventario-backfill-estrategias-autonomas-2026-09-17.md"
+      ]
     },
     {
       "strategy_id": "STRAT-CEM-20260917-004",
@@ -58,15 +68,15 @@
       "legacy_object_id": "WHATSAPP-ACT-BB-18-BASES-2026",
       "name": "WHATSAPP-ACT-BB-18-BASES-2026",
       "status": "CONCLUIDO",
-      "last_event_id": "STEV-CEM-20260917-018",
-      "event_type": "CONCLUDED",
-      "current_phase": "FASE 8 — publicação no menu Notícias — concluída",
+      "last_event_id": "STEV-CEM-20260917-019",
+      "event_type": "UPDATED",
+      "current_phase": "FASE 9 — republicação com URL coerente — concluída",
       "parent_strategy_id": "STRAT-CEM-20260917-005",
       "canonical_refs": [
         "editorial/documentos/estrategia-whatsapp-18-bases-act-bb-2026.md",
         "editorial/documentos/mensagem-whatsapp-bases-act-bb-2026.md",
         "editorial/documentos/evidencia-angra-assembleia-bb-14-09-2026.md",
-        "noticias/2026/18-bases-act-bb-2026.html",
+        "noticias/2026/bases-sindicais-que-nao-assinaram-o-act-do-bb-2026-2028-ate-14h-de-11-09.html",
         "noticias/index.html"
       ]
     },
