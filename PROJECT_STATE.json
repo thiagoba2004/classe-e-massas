@@ -68,7 +68,7 @@
       "article_audit_file": "editorial/documentos/auditoria-rascunho-artigo-plr-bb-18-bases-2026.md",
       "bb_press_request_file": "editorial/documentos/solicitacao-manifestacao-bb-plr-2026.md",
       "audit_18_bases_status": "GATE SATISFEITO COM RESSALVA: 14 bases possuem suporte documental robusto direto ou coletivo; Cariri, Santana do Livramento, Angra dos Reis e Guaratinguetá permanecem com ressalva probatória individual após busca cirúrgica sem localização de confirmação textual individual do não crédito.",
-      "union_composition_status": "CORRIGIDO: 14 das 18 bases estão vinculadas à Contraf-CUT; Rio Grande do Norte, Maranhão e Bauru estão fora desse campo e articulados na FNOB; Franca/SP é a única base vinculada à CONTEC entre as 18.",
+      "union_composition_status": "CORRIGIDO EM 17/09/2026: 14 das 18 bases estão na cadeia da Contraf-CUT; Rio Grande do Norte, Maranhão e Bauru integram a Federação Nacional dos Bancários (FNB), criada em 2026; Franca/SP está na cadeia da CONTEC. Não confundir FNB com a Frente Nacional de Oposição Bancária (FNOB), articulação política anterior.",
       "instruments_2026_status": "ACT-PLR BB 2026/2027 e termos de adesão de 2026 não foram localizados publicamente nas fontes pesquisadas em 16/09/2026; não se conclui que inexistam.",
       "rules_origin_status": "72 horas e pagamento em 2027 possuem rastreabilidade em comunicações sindicais contemporâneas atribuídas ao BB; origem primária do corte de 11/09 permanece não unívoca e é objeto da LAI.",
       "persistence_status": "DOSSIÊ, ANEXOS DE PESQUISA, RASCUNHO v0.4, AUDITORIA EDITORIAL E PEDIDO DE MANIFESTAÇÃO ESTÃO PERSISTIDOS E VERSIONADOS NO GITHUB",
@@ -80,7 +80,9 @@
         "editorial/documentos/dossie-plr-bb-2026-instrumentos-e-regras.md",
         "editorial/documentos/rascunho-artigo-plr-bb-18-bases-2026.md",
         "editorial/documentos/auditoria-rascunho-artigo-plr-bb-18-bases-2026.md",
-        "editorial/documentos/solicitacao-manifestacao-bb-plr-2026.md"
+        "editorial/documentos/solicitacao-manifestacao-bb-plr-2026.md",
+        "editorial/documentos/estrategia-whatsapp-18-bases-act-bb-2026.md",
+        "editorial/documentos/mensagem-whatsapp-bases-act-bb-2026.md"
       ],
       "related_article": "artigos/2026/assembleia-nao-e-cheque-em-branco-bahia.html",
       "related_lai": "lai/banco-do-brasil-plr-2026.html",
@@ -104,12 +106,12 @@
         "A auditoria das 18 bases mostrou que o grupo não é homogêneo: há bases que só aprovaram depois de 11/09, bases que aprovaram em 11/09 mas ficaram aguardando formalização/termos de adesão e bases cuja cronologia individual ainda está incompleta.",
         "O ACT-PLR BB 2026/2027 e os termos de adesão de 2026 não foram localizados publicamente nas fontes pesquisadas, apesar de os mesmos repositórios disponibilizarem instrumentos do ciclo anterior.",
         "As regras de 72 horas e de pagamento em 2027 eram publicamente relatadas em 09/09, mas não foi localizado o documento primário que as formalizou; o corte de 11/09 aparece atribuído de modo não unívoco entre Fenaban e BB nas fontes públicas.",
-        "A composição sindical das 18 bases está corrigida: 14 Contraf-CUT; Rio Grande do Norte, Maranhão e Bauru fora desse campo e articulados na FNOB; Franca/SP vinculada à CONTEC. A menção a 17 em publicação do Sindibancários/ES não autoriza classificar essas 17 bases como Contraf-CUT.",
+        "A composição sindical das 18 bases foi refinada em 17/09/2026 pela cadeia Sindicato > Federação > Confederação/estrutura nacional: 14 Contraf-CUT; RN, Maranhão e Bauru na Federação Nacional dos Bancários (FNB), sem confederação superior identificada nas fontes pesquisadas; Franca/SP na CONTEC. FNB não é sinônimo de FNOB.",
         "A diretriz editorial do Classe e Massas exige busca razoável de manifestação da parte envolvida antes da publicação de matéria com acusações materialmente graves."
       ],
-      "last_verified_milestone_commit": "29969b1897f69425977c9acb773202916d935380",
-      "last_verified_milestone_message": "Editorial PLR BB: corrige composição sindical das 18 bases",
-      "next_step": "ENVIAR A SOLICITAÇÃO DE MANIFESTAÇÃO À ASSESSORIA DE IMPRENSA DO BB; APÓS RESPOSTA OU FECHAMENTO SEM RESPOSTA, INCORPORAR A POSIÇÃO INSTITUCIONAL OU REGISTRAR A AUSÊNCIA, FAZER AUDITORIA FINAL E SOMENTE ENTÃO GERAR/PUBLICAR O HTML",
+      "last_verified_milestone_commit": "9b6b3b46e033bec5f6e6856738d6be95637b5afd",
+      "last_verified_milestone_message": "WhatsApp ACT BB: conclui fases e libera estratégia",
+      "next_step": "RETOMAR A FRENTE EDITORIAL DO ARTIGO DA PLR SOMENTE QUANDO SOLICITADO; O PRÓXIMO GATE DA ESTRATÉGIA-MÃE CONTINUA SENDO A BUSCA/INCORPORAÇÃO DE MANIFESTAÇÃO DO BANCO DO BRASIL ANTES DA PUBLICAÇÃO.",
       "do_not_do": [
         "não concluir que houve retaliação ou ilicitude como fato antes de fechar a cadeia documental",
         "não confundir participação individual em greve com critério coletivo por base sindical",
@@ -121,7 +123,7 @@
         "não usar a autuação de 2015 como prova de proibição de dois processamentos por bases distintas em 2026",
         "não tratar informação de imprensa sindical como substituta de documento primário quando o documento puder ser localizado",
         "não transformar ausência de localização pública do ACT-PLR 2026 em afirmação de inexistência do instrumento",
-        "não voltar a afirmar 17 bases da Contraf-CUT: o estado registrado é 14 Contraf-CUT + RN/MA/Bauru fora desse campo e articulados na FNOB + Franca/SP na CONTEC = 18 bases",
+        "não voltar a afirmar FNOB como se fosse a federação de RN, Maranhão e Bauru; a federação registrada em 2026 é a FNB",
         "não publicar antes da busca razoável de manifestação do Banco do Brasil e da auditoria final do rascunho"
       ]
     },
@@ -129,17 +131,15 @@
       "id": "WHATSAPP-ACT-BB-18-BASES-2026",
       "area": "Editorial / Pesquisa documental / Divulgação em WhatsApp",
       "title": "Bases sindicais que não haviam assinado o ACT BB 2026/2028 até 14h de 11/09/2026",
-      "status": "EM EXECUÇÃO — AUDITORIA INSTITUCIONAL E CRONOLÓGICA",
-      "strategy_status": "REGISTRADA",
+      "status": "CONCLUÍDA — TEXTO AUDITADO E PRONTO PARA CIRCULAÇÃO",
+      "strategy_status": "REGISTRADA E CONCLUÍDA",
       "strategy": "Produzir mensagem curta, documentalmente verificável, com as 18 bases sindicais que não haviam formalizado a assinatura do ACT BB 2026/2028 até 14h de 11/09/2026, classificadas pela cadeia Sindicato > Federação > Confederação e com a data da assembleia que efetivamente aprovou a proposta.",
       "planning_file": "editorial/documentos/estrategia-whatsapp-18-bases-act-bb-2026.md",
-      "planning_phase": "FASES 2 E 3 — AUDITORIA INSTITUCIONAL E AUDITORIA CRONOLÓGICA DAS ASSEMBLEIAS",
-      "phase_objective": "Fechar documentalmente os vínculos institucionais e as datas de aprovação das 18 bases, com prioridade para Angra dos Reis, Guaratinguetá e Santana do Livramento.",
-      "pending_priority": [
-        "Angra dos Reis/RJ — localizar assembleia posterior que tenha aprovado o ACT ou registrar ausência de confirmação pública",
-        "Guaratinguetá/SP — confirmar documentalmente o resultado da assembleia de 15/09/2026",
-        "Santana do Livramento/RS — localizar resultado individual da votação de 10–11/09/2026 ou registrar limite documental"
-      ],
+      "final_message_file": "editorial/documentos/mensagem-whatsapp-bases-act-bb-2026.md",
+      "planning_phase": "FASE 6 — AUDITORIA FINAL E LIBERAÇÃO PARA CIRCULAÇÃO — CONCLUÍDA",
+      "phase_objective": "Entregar mensagem auditada, com cadeia institucional uniforme, siglas desenvolvidas, cronologia comprovada ou ressalvada e total de 18 bases conferido.",
+      "audit_result": "18/18 bases classificadas institucionalmente; 15 datas de aprovação confirmadas; Angra dos Reis e Santana do Livramento sem data pública de aprovação localizada; Guaratinguetá com assembleia/votação de 15/09 comprovada, mas resultado individual textual não localizado.",
+      "institutional_result": "14 bases na cadeia Contraf-CUT; 3 bases na Federação Nacional dos Bancários (FNB) — RN, Maranhão e Bauru — sem confederação superior identificada nas fontes pesquisadas; 1 base na CONTEC — Franca. Guaratinguetá e Franca compartilham a FEEB-SP/MS, mas pertencem a cadeias nacionais distintas para formalização de acordos.",
       "methodology": [
         "usar a cadeia Sindicato > Federação > Confederação",
         "não confundir filiação formal com representação negocial, comando, plataforma ou coordenação conjuntural",
@@ -147,12 +147,16 @@
         "usar como data principal a assembleia que efetivamente aprovou o ACT",
         "registrar explicitamente qualquer lacuna documental"
       ],
-      "persistence_status": "ESTRATÉGIA E PLANO DE FASES PERSISTIDOS NO GITHUB; PESQUISA DAS PENDÊNCIAS PRIORITÁRIAS EM RETOMADA",
-      "next_step": "FECHAR DOCUMENTALMENTE ANGRA DOS REIS, GUARATINGUETÁ E SANTANA DO LIVRAMENTO; EM SEGUIDA CONSOLIDAR A MATRIZ PROBATÓRIA DAS 18 BASES E REDIGIR O TEXTO FINAL PARA WHATSAPP",
+      "persistence_status": "PLANO DE FASES, MATRIZES INSTITUCIONAL E CRONOLÓGICA E MENSAGEM FINAL AUDITADA ESTÃO PERSISTIDOS E VERSIONADOS NO GITHUB",
+      "last_verified_strategy_commit": "9b6b3b46e033bec5f6e6856738d6be95637b5afd",
+      "last_verified_message_commit": "a98469f559f5e75e04de42cb64822112ee85b7d6",
+      "next_step": "NENHUM PASSO PENDENTE DENTRO DESTA ESTRATÉGIA AUTÔNOMA; RETORNAR À ESTRATÉGIA-MÃE DOS-PLR-BB-2026 QUANDO O USUÁRIO DETERMINAR.",
       "do_not_do": [
         "não transformar ausência de fonte pública em afirmação de inexistência de assembleia ou aprovação",
         "não classificar sindicato por campo político sem confirmar a cadeia institucional",
-        "não usar resultado coletivo como resultado individual sem deixar a natureza da prova explícita"
+        "não usar resultado coletivo como resultado individual sem deixar a natureza da prova explícita",
+        "não atribuir a Guaratinguetá o percentual divulgado por Franca",
+        "não confundir Federação Nacional dos Bancários (FNB) com Frente Nacional de Oposição Bancária (FNOB)"
       ]
     }
   ],
