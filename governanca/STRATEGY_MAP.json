@@ -54,12 +54,15 @@
       "legacy_object_id": "DOS-PLR-BB-2026",
       "name": "DOS-PLR-BB-2026 — PLR do Banco do Brasil",
       "status": "EM_EXECUCAO",
-      "last_event_id": "STEV-CEM-20260917-010",
-      "event_type": "BACKFILLED",
-      "current_phase": "REVISÃO EDITORIAL / DIREITO DE RESPOSTA",
+      "last_event_id": "STEV-CEM-20260917-031",
+      "event_type": "UPDATED",
+      "current_phase": "RECONCILIAÇÃO 20 BASES CONCLUÍDA — PRÓXIMO GATE: MANIFESTAÇÃO DO BB",
       "canonical_refs": [
         "editorial/documentos/dossie-plr-bb-2026.md",
+        "editorial/documentos/dossie-plr-bb-2026-auditoria-18-bases.md",
         "editorial/documentos/rascunho-artigo-plr-bb-18-bases-2026.md",
+        "editorial/documentos/auditoria-rascunho-artigo-plr-bb-18-bases-2026.md",
+        "editorial/documentos/solicitacao-manifestacao-bb-plr-2026.md",
         "PROJECT_STATE.json:DOS-PLR-BB-2026"
       ]
     },
