@@ -1,9 +1,9 @@
-# DOS-PLR-BB-2026 — Auditoria das 18 bases sem antecipação da PLR
+# DOS-PLR-BB-2026 — Auditoria das bases: 18 com impacto de PLR documentado e universo reconciliado de 20 no marco de 11/09
 
 **Status:** BLOCO DE PESQUISA PRESERVADO — GATE SATISFEITO COM RESSALVA  
-**Data:** 16/09/2026  
+**Data:** 16/09/2026 — reconciliado em 17/09/2026  
 **Vinculado a:** `editorial/documentos/dossie-plr-bb-2026.md`  
-**Estratégia:** publicar um artigo no Classe e Massas sobre a antecipação da PLR do Banco do Brasil em 16/09/2026 e as 18 bases sindicais que ficaram sem o crédito.
+**Estratégia:** publicar um artigo no Classe e Massas sobre a antecipação da PLR do Banco do Brasil em 16/09/2026, distinguindo o universo de 20 bases sem aprovação/formalização concluída às 14h de 11/09 do conjunto de pelo menos 18 bases com não pagamento/adiamento da PLR já documentado.
 
 ---
 
@@ -19,7 +19,7 @@ A auditoria não pretende, neste momento, provar ilicitude, retaliação ou inte
 
 ---
 
-## 2. Conjunto de controle — 18 bases
+## 2. Conjunto de controle histórico do não pagamento/adiamento — 18 bases
 
 1. Bahia (BA) — Sindicato dos Bancários da Bahia
 2. Camaçari (BA) — Sindicato dos Bancários de Camaçari
@@ -39,6 +39,25 @@ A auditoria não pretende, neste momento, provar ilicitude, retaliação ou inte
 16. Maranhão (MA) — Sindicato dos Bancários do Maranhão
 17. Bauru (SP) — Sindicato dos Bancários e Financiários de Bauru e Região
 18. Franca (SP) — Sindicato dos Bancários de Franca e Região
+
+---
+
+## 2.1. Reconciliação de 17/09 — universo de 20 bases no marco das 14h de 11/09
+
+O conjunto acima continua sendo o **conjunto de controle histórico da apuração do não pagamento/adiamento da PLR**.
+
+A pesquisa posterior identificou duas bases adicionais cuja cronologia demonstra que, às 14h de 11/09, a aprovação/formalização ainda não estava concluída:
+
+19. **Ponte Nova e Região (MG)** — rejeição encerrada às 10h de 11/09; nova votação das 18h às 20h aprovou a proposta.
+20. **Governador Valadares e Região (MG)** — nova votação iniciada em 12/09 e encerrada em 13/09 aprovou a proposta.
+
+Ambas integram a FEEB-MG/GO/TO/DF e a cadeia da CONTEC.
+
+**Limite probatório:** essa cronologia autoriza incluí-las no universo de 20 bases sem aprovação/formalização concluída no marco das 14h. Ela **não autoriza, sozinha, afirmar que os empregados dessas duas bases deixaram de receber a antecipação da PLR em 16/09**.
+
+Fontes:
+`https://bancariospnr.org.br/noticias/funcionarios-do-bb-decidem-aprovar-proposta/`  
+`https://www.sintrafgv.com.br/funcionarios-do-banco-do-brasil-aprovam-proposta-em-assembleia/`
 
 ---
 
@@ -79,6 +98,9 @@ Fontes:
 | Maranhão | Fonte oficial do Sindicato do RN registra que Maranhão, RN e Bauru aprovaram em 11/09, comunicaram o BB e aguardavam termos de adesão em 15/09; site do SEEB-MA publicou em 15/09 que o BB poderia prejudicar quem seguiu na luta | aprovou em 11/09; formalização dependente de termos preparados pelo BB | **Robusta por fonte sindical cruzada; confirmação individual do não crédito ainda desejável** | `https://www.bancariosrn.org.br/noticias.php?id=137` e `https://m.bancariosma.org.br/` |
 | Bauru | Mesma situação registrada para RN/Maranhão/Bauru: aprovação em 11/09, comunicação imediata ao BB, disponibilidade para assinatura virtual, mas Banco ainda preparava termos de adesão em 15/09 | aprovou em 11/09; formalização pendente por termos de adesão | **Robusta por fonte sindical oficial cruzada** | `https://www.bancariosrn.org.br/noticias.php?id=137` |
 | Franca | Sindicato publicou em 16/09 que a nova assembleia de 15/09 aprovou o ACT; reproduziu resposta do BB dizendo que bases que formalizassem após 11/09 receberiam a PLR de 2026 apenas após o resultado anual de 2027 | rejeitou em 09–10/09; aprovou em 15/09 | **Direta/robusta** | `https://bancariosfranca.com.br/2026/09/16/assembleia-banco-do-brasil-proposta-e-aprovada-e-greve-esta-encerrada/` |
+
+| Ponte Nova e Região (MG) | Cronologia comprova rejeição até 10h de 11/09 e aprovação somente das 18h às 20h; situação individual do crédito de 16/09 ainda não confirmada | aprovação em segunda votação em 11/09, 18h–20h | **Direta para cronologia; PLR pendente** | `https://bancariospnr.org.br/noticias/funcionarios-do-bb-decidem-aprovar-proposta/` |
+| Governador Valadares e Região (MG) | Cronologia comprova aprovação apenas em votação de 12–13/09; situação individual do crédito de 16/09 ainda não confirmada | aprovou em 13/09 | **Direta para cronologia; PLR pendente** | `https://www.sintrafgv.com.br/funcionarios-do-banco-do-brasil-aprovam-proposta-em-assembleia/` |
 
 ---
 
@@ -171,4 +193,4 @@ Justificativa:
 - continuar indefinidamente procurando a mesma confirmação individual teria baixo ganho marginal para a estratégia editorial e atrasaria o artigo;
 - a ressalva será preservada no texto, impedindo que o artigo atribua grau de comprovação idêntico a todas as 18 bases.
 
-**Próximo gate estratégico:** localizar ou esgotar razoavelmente a busca pública pelo **ACT-PLR BB 2026/2027 (ou equivalente), termos de adesão de 2026 e instrumento/documento que contenha as regras de 72 horas, corte de 11/09 e pagamento apenas em 2027**.
+**Próximo gate estratégico:** obter manifestação institucional do Banco do Brasil confirmando (a) a relação nominal das 20 bases no marco de 11/09; (b) quantas bases e empregados ficaram fora do crédito de 16/09; e (c) a situação específica de Ponte Nova e Governador Valadares.
