@@ -1,6 +1,6 @@
 # Auditoria editorial e factual — artigo PLR BB / 18 bases — 16/09/2026
 
-**Status:** AUDITORIA v0.1  
+**Status:** AUDITORIA v0.2  
 **Rascunho auditado:** `editorial/documentos/rascunho-artigo-plr-bb-18-bases-2026.md`  
 **Estratégia registrada:** publicar um artigo no Classe e Massas sobre a antecipação da PLR do Banco do Brasil em 16/09/2026 e as 18 bases sindicais que ficaram sem o crédito.
 
@@ -64,26 +64,25 @@ Somente afirmar o conteúdo do instrumento assinado depois de localizar e compar
 
 ---
 
-## 4. Correção material 3 — contagem 18 x 17 nas fontes
+## 4. Correção material 3 — 17 bases do campo Contraf/CUT + Franca/CONTEC = 18 bases
 
-O dossiê e a FEEBBASE trabalham com **18 bases** e o conjunto de controle do artigo contém 18 entidades.
+A auditoria v0.1 tratou como possível divergência a existência de fonte que mencionava **17 bases** e de outras fontes que registravam **18 bases**. Essa leitura foi superada.
 
-Entretanto, publicação do Sindibancários/ES de 16/09 afirma que seriam **17 bases** prejudicadas.
+A explicação correta é:
 
-Fonte:
-`https://novo.bancarios-es.org.br/banco-do-brasil-pune-bancarios-de-bases-que-ainda-nao-assinaram-acordo/`
+- **17 bases** pertencem ao campo de representação articulado pela Contraf-CUT;
+- **Franca/SP** é a única das bases excluídas vinculada à CONTEC;
+- portanto, o universo nacional é de **18 bases**.
 
-A divergência não deve ser apagada.
+Assim, a publicação do Sindibancários/ES que mencionava 17 bases não deve ser apresentada como fonte contraditória ao total de 18. Ela se referia ao universo das bases daquele campo sindical, enquanto Franca/SP completa o total nacional.
 
-### Tratamento editorial recomendado
+### Tratamento editorial obrigatório
 
-O artigo pode manter como universo de investigação as **18 bases do levantamento consolidado pelo dossiê**, mas deve registrar em nota ou no corpo que a contagem não aparece de forma uniforme em todas as publicações sindicais contemporâneas.
+Eliminar do artigo qualquer formulação de “divergência 17 × 18”. A explicação correta deve aparecer de modo positivo e simples:
 
-Formulação sugerida:
+> **“O levantamento reúne 18 bases: 17 vinculadas ao campo da Contraf-CUT e Franca/SP, vinculada à CONTEC.”**
 
-> “O levantamento consolidado pelo Classe e Massas trabalha com 18 bases, número também registrado pela FEEBBASE. Nem todas as publicações contemporâneas são uniformes: o Sindibancários/ES, por exemplo, mencionou 17 bases em matéria de 16 de setembro. A lista oficial e os quantitativos foram solicitados ao Banco do Brasil via LAI.”
-
-Isso transforma a divergência em objeto de apuração, em vez de escolher silenciosamente uma versão.
+A relação oficial das bases e o quantitativo de empregados atingidos continuam sendo objeto do pedido de LAI ao Banco do Brasil, mas **não para resolver uma suposta divergência numérica já superada**.
 
 ---
 
@@ -135,7 +134,7 @@ A matéria poderá ser publicada após a busca razoável de manifestação, mesm
 A auditoria considera adequados e coerentes com o dossiê os seguintes eixos:
 
 1. abertura pelo fato concreto de 16/09;
-2. apresentação das 18 bases com ressalva probatória;
+2. apresentação das 18 bases com ressalva probatória e explicação de que são 17 no campo Contraf/CUT mais Franca/SP na CONTEC;
 3. separação dos subgrupos cronológicos;
 4. explicação da arquitetura CCT geral / CCT-PLR / ACT geral / ACT-PLR / termos de adesão;
 5. uso do ciclo de 2024 como precedente documental, sem presumir identidade em 2026;
@@ -149,8 +148,8 @@ A auditoria considera adequados e coerentes com o dossiê os seguintes eixos:
 
 ## 8. Próximo passo
 
-1. revisar o rascunho para `v0.2`, incorporando as quatro correções materiais;
-2. preparar solicitação de manifestação ao Banco do Brasil;
+1. revisar o rascunho para `v0.3`, incorporando a correção da composição das 18 bases;
+2. manter preparada a solicitação de manifestação ao Banco do Brasil;
 3. registrar no artigo se houve resposta ou ausência de resposta até o fechamento;
 4. fazer auditoria final de fontes e links;
 5. gerar HTML e publicar somente após esse gate.
