@@ -1,8 +1,8 @@
 # Solicitação de manifestação — Banco do Brasil — PLR 2026
 
 **Status:** PRONTA PARA ENVIO — NÃO ENVIADA NESTA ETAPA  
-**Data:** 16/09/2026  
-**Estratégia vinculada:** publicar um artigo no Classe e Massas sobre a antecipação da PLR do Banco do Brasil em 16/09/2026 e as 18 bases sindicais que ficaram sem o crédito.  
+**Data:** 17/09/2026  
+**Estratégia vinculada:** publicar um artigo no Classe e Massas sobre a antecipação da PLR do Banco do Brasil em 16/09/2026, distinguindo o universo de 20 bases no marco de aprovação/formalização das bases com não pagamento/adiamento da PLR efetivamente confirmado.  
 **Destinatário institucional identificado:** Assessoria de Imprensa do Banco do Brasil — `imprensa@bb.com.br`  
 **Telefone institucional publicado:** +55 61 3493-2932  
 **Fonte institucional do contato:** portal de imprensa do Banco do Brasil.
@@ -37,7 +37,13 @@ Para que a matéria registre adequadamente a posição do Banco do Brasil e dist
 
 6. **O Banco confirma que empregados das bases não contempladas no crédito de 16/09 somente receberão a PLR de 2026 após a divulgação do resultado anual em 2027?** Em caso positivo, qual instrumento ou regra fundamenta essa consequência?
 
-7. **Quantas bases sindicais e quantos empregados ficaram fora do crédito da antecipação em 16/09/2026?** A apuração encontrou publicações sindicais que mencionam números diferentes — 18 e 17 bases — e busca confirmar a informação oficial.
+7. **Quantas bases sindicais e quantos empregados ficaram fora do crédito da antecipação em 16/09/2026?** Solicitamos a relação nominal das bases e o quantitativo de empregados atingidos.
+
+8. **O Banco confirma que, no marco das 14h de 11/09/2026, havia 20 bases sindicais sem aprovação/formalização concluída do ACT?** Em caso positivo, solicitamos a relação nominal dessas 20 bases e, para cada uma, a data e o horário da formalização.
+
+9. **Ponte Nova e Região (MG) e Governador Valadares e Região (MG) integravam esse universo de 20 bases?** Os empregados dessas duas bases receberam a antecipação da PLR em 16/09? Em caso negativo, qual foi o fundamento específico aplicado a cada uma?
+
+10. **O conjunto das bases sem aprovação/formalização até o marco temporal é exatamente o mesmo conjunto das bases que ficaram fora do crédito da PLR?** Se não, solicitamos que o Banco esclareça a diferença entre os dois universos.
 
 O Classe e Massas já publicou pedido específico de acesso à informação para obtenção dos documentos administrativos e jurídicos relacionados ao tema. Esta solicitação à Assessoria de Imprensa tem finalidade distinta: registrar a manifestação institucional do Banco na matéria em preparação.
 
