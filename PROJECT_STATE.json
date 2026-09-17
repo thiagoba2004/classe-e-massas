@@ -50,23 +50,26 @@
       "id": "DOS-PLR-BB-2026",
       "area": "Editorial / Pesquisa documental / Banco do Brasil",
       "title": "PLR do Banco do Brasil em 16/09/2026 — assembleias, instrumentos coletivos e tratamento entre bases sindicais",
-      "status": "EM PESQUISA",
+      "status": "PRONTO PARA REDAÇÃO",
       "strategy_status": "REGISTRADA",
       "strategy": "Publicar um artigo no Classe e Massas sobre a antecipação da PLR do Banco do Brasil em 16/09/2026 e as 18 bases sindicais que ficaram sem o crédito.",
-      "planning_phase": "FUNDAMENTAÇÃO FINAL ANTES DA REDAÇÃO",
-      "phase_objective": "Consolidar o material já preservado no dossiê, fechar apenas as lacunas indispensáveis e então redigir o artigo.",
+      "planning_phase": "REDAÇÃO",
+      "phase_objective": "Transformar o dossiê documental consolidado em artigo investigativo coerente, distinguindo fatos comprovados, comunicações sindicais, alegações atribuídas ao BB e lacunas ainda submetidas à LAI.",
       "gate_before_drafting": [
-        "consolidar documentalmente as 18 bases não contempladas",
-        "tentar localizar o ACT-PLR BB 2026/2027 e os termos de adesão de 2026",
-        "consolidar a origem documental das regras de 72 horas, corte em 11/09 e pagamento somente em 2027"
+        "consolidar documentalmente as 18 bases não contempladas — SATISFEITO COM RESSALVA",
+        "tentar localizar o ACT-PLR BB 2026/2027 e os termos de adesão de 2026 — BUSCA PÚBLICA ESGOTADA RAZOAVELMENTE, RESULTADO NEGATIVO PROVISÓRIO",
+        "consolidar a origem documental das regras de 72 horas, corte em 11/09 e pagamento somente em 2027 — SATISFEITO COM RESSALVA DE AUSÊNCIA DO DOCUMENTO PRIMÁRIO"
       ],
       "audit_18_bases_status": "GATE SATISFEITO COM RESSALVA: 14 bases possuem suporte documental robusto direto ou coletivo; Cariri, Santana do Livramento, Angra dos Reis e Guaratinguetá permanecem com ressalva probatória individual após busca cirúrgica sem localização de confirmação textual individual do não crédito.",
+      "instruments_2026_status": "ACT-PLR BB 2026/2027 e termos de adesão de 2026 não foram localizados publicamente nas fontes pesquisadas em 16/09/2026; não se conclui que inexistam.",
+      "rules_origin_status": "72 horas e pagamento em 2027 possuem rastreabilidade em comunicações sindicais contemporâneas atribuídas ao BB; origem primária do corte de 11/09 permanece não unívoca e é objeto da LAI.",
       "persistence_status": "DOSSIÊ CANÔNICO E ANEXOS DE PESQUISA ATUALIZADOS E VERSIONADOS NO GITHUB",
       "canonical_file": "editorial/documentos/dossie-plr-bb-2026.md",
       "supporting_files": [
         "editorial/documentos/dossie-plr-bb-2026-impedimento-juridico.md",
         "editorial/documentos/dossie-plr-bb-2026-contraste-minuta-aditivo.md",
-        "editorial/documentos/dossie-plr-bb-2026-auditoria-18-bases.md"
+        "editorial/documentos/dossie-plr-bb-2026-auditoria-18-bases.md",
+        "editorial/documentos/dossie-plr-bb-2026-instrumentos-e-regras.md"
       ],
       "related_article": "artigos/2026/assembleia-nao-e-cheque-em-branco-bahia.html",
       "related_lai": "lai/banco-do-brasil-plr-2026.html",
@@ -82,19 +85,20 @@
       "critical_findings": [
         "A minuta final do ACT geral BB 2026/2028 de 04/09 não contém PLR nem a regra de 72 horas.",
         "No contexto analisado, Acordo Aditivo do BB é o próprio ACT específico do Banco, aditivo à CCT nacional; não é um quinto instrumento autônomo.",
-        "Há contraste factual entre a prova de circulação de uma minuta final do ACT em 04/09 e a afirmação do SEEB/RN em 15/09 de que nenhuma minuta do Acordo Aditivo/ACT foi encaminhada para análise e deliberação de suas assembleias. A investigação deve reconstruir a trilha de distribuição da minuta e verificar se houve versão posterior à reabertura de 08/09.",
+        "Há contraste factual entre a prova de circulação de uma minuta final do ACT em 04/09 e a afirmação do SEEB/RN em 15/09 de que nenhuma minuta do Acordo Aditivo/ACT foi encaminhada para análise e deliberação de suas assembleias.",
         "Em 2024 havia ACT geral, ACT-PLR e termos de adesão separados para o acordo geral e para PLR.",
         "Foi localizado o processo CARF 16327.721122/2019-17, Acórdão 2202-009.546, em que o BB foi autuado por periodicidade de PLR após créditos em fevereiro, março e novembro de 2015.",
         "O precedente fiscal envolve créditos adicionais/acertos atribuídos aos mesmos empregados e não demonstra, por si só, proibição de pagar a mesma primeira parcela em datas distintas a grupos diferentes.",
         "Desde a Lei 14.020/2020, o art. 2º, §8º, da Lei 10.101/2000 formula a infração de periodicidade em relação aos pagamentos feitos ao mesmo empregado.",
         "A auditoria das 18 bases mostrou que o grupo não é homogêneo: há bases que só aprovaram depois de 11/09, bases que aprovaram em 11/09 mas ficaram aguardando formalização/termos de adesão e bases cuja cronologia individual ainda está incompleta.",
-        "O gate das 18 bases foi fechado com ressalva probatória individual para quatro bases, evitando prolongar pesquisa de baixo ganho marginal para a estratégia editorial."
+        "O ACT-PLR BB 2026/2027 e os termos de adesão de 2026 não foram localizados publicamente nas fontes pesquisadas, apesar de os mesmos repositórios disponibilizarem instrumentos do ciclo anterior.",
+        "As regras de 72 horas e de pagamento em 2027 eram publicamente relatadas em 09/09, mas não foi localizado o documento primário que as formalizou; o corte de 11/09 aparece atribuído de modo não unívoco entre Fenaban e BB nas fontes públicas."
       ],
-      "last_verified_milestone_commit": "d6f47f48cb9e0934b46d296cd197ad9512fda4e5",
-      "last_verified_milestone_message": "Pesquisa PLR BB: fecha auditoria das 18 bases com ressalvas",
-      "next_step": "LOCALIZAR OU ESGOTAR RAZOAVELMENTE A BUSCA PÚBLICA PELO ACT-PLR BB 2026/2027 OU INSTRUMENTO EQUIVALENTE, TERMOS DE ADESÃO DE 2026 E DOCUMENTO QUE CONTENHA AS REGRAS DE 72 HORAS, CORTE DE 11/09 E PAGAMENTO APENAS EM 2027; REGISTRAR O RESULTADO NO DOSSIÊ ANTES DE AVANÇAR À REDAÇÃO",
+      "last_verified_milestone_commit": "b2ce35375abbdf981944bf23bd2ab1fdf8daf06d",
+      "last_verified_milestone_message": "Pesquisa PLR BB: fecha busca por instrumentos e origem das regras",
+      "next_step": "CRIAR O RASCUNHO CANÔNICO EM MARKDOWN DO ARTIGO SOBRE A ANTECIPAÇÃO DA PLR DO BB E AS 18 BASES, SUBMETÊ-LO A AUDITORIA FACTUAL E EDITORIAL E SOMENTE DEPOIS GERAR/PUBLICAR O HTML",
       "do_not_do": [
-        "não concluir que houve retaliação ou ilicitude antes de fechar a cadeia documental",
+        "não concluir que houve retaliação ou ilicitude como fato antes de fechar a cadeia documental",
         "não confundir participação individual em greve com critério coletivo por base sindical",
         "não confundir CCT geral, CCT-PLR, ACT geral BB e ACT-PLR BB",
         "não tratar Acordo Aditivo do BB como instrumento distinto do ACT específico do BB no contexto analisado",
@@ -103,7 +107,8 @@
         "não presumir que termos de adesão de 2026 reproduzem a estrutura de 2024 sem localizar os documentos",
         "não usar a autuação de 2015 como prova de proibição de dois processamentos por bases distintas em 2026",
         "não tratar informação de imprensa sindical como substituta de documento primário quando o documento puder ser localizado",
-        "não continuar pesquisa substancial sem registrar cada novo bloco material no dossiê canônico"
+        "não transformar ausência de localização pública do ACT-PLR 2026 em afirmação de inexistência do instrumento",
+        "não publicar antes da auditoria factual e editorial do rascunho canônico"
       ]
     }
   ],
