@@ -133,14 +133,14 @@
       "title": "Bases sindicais que não haviam assinado o ACT BB 2026/2028 até 14h de 11/09/2026",
       "strategy_id": "STRAT-CEM-20260917-006",
       "parent_strategy_id": "STRAT-CEM-20260917-005",
-      "status": "REABERTA — EM REVISÃO HUMANA APÓS APERFEIÇOAMENTO METODOLÓGICO E EDITORIAL",
-      "strategy_status": "REGISTRADA E REABERTA",
+      "status": "CONCLUÍDA — VERSÃO REVISADA APROVADA E PRONTA PARA CIRCULAÇÃO",
+      "strategy_status": "REGISTRADA E CONCLUÍDA",
       "strategy": "Produzir mensagem curta e estritamente informativa com as 18 bases sindicais que não haviam formalizado a assinatura do ACT BB 2026/2028 até 14h de 11/09/2026, agrupadas pela cadeia Sindicato > Federação > Confederação e com a data da última assembleia convocada para deliberar sobre a aprovação da proposta do ACT.",
       "planning_file": "editorial/documentos/estrategia-whatsapp-18-bases-act-bb-2026.md",
       "final_message_file": "editorial/documentos/mensagem-whatsapp-bases-act-bb-2026.md",
-      "planning_phase": "FASE 7 — REABERTURA PARA APERFEIÇOAMENTO METODOLÓGICO E EDITORIAL — EM REVISÃO HUMANA",
+      "planning_phase": "FASE 7 — REVISÃO HUMANA CONCLUÍDA",
       "phase_objective": "Eliminar redundâncias, retirar explicações do texto de circulação e usar critério cronológico único: data da última assembleia convocada para deliberar sobre a aprovação da proposta do ACT 2026/2028 do Banco do Brasil.",
-      "audit_result": "18/18 sindicatos mantidos; cadeia institucional preservada em cabeçalhos; exatamente uma data por sindicato; referências a aprovado/rejeitado, percentuais e ressalvas sobre resultado removidas do texto de circulação.",
+      "audit_result": "18/18 sindicatos mantidos; cadeia institucional preservada em cabeçalhos; exatamente uma data por sindicato; referências a aprovado/rejeitado, percentuais e ressalvas sobre resultado removidas do texto de circulação; Angra dos Reis corrigida para 14/09/2026 com base em edital fornecido pelo usuário.",
       "institutional_result": "14 bases na cadeia Contraf-CUT; 3 bases na Federação Nacional dos Bancários (FNB) — RN, Maranhão e Bauru — sem confederação superior identificada nas fontes pesquisadas; 1 base na CONTEC — Franca.",
       "methodology": [
         "usar a cadeia Sindicato > Federação > Confederação",
@@ -151,16 +151,16 @@
         "não incluir resultado, percentual, justificativa, ressalva probatória ou explicação metodológica no texto de circulação",
         "manter pesquisa, fontes e ressalvas nos documentos internos da estratégia"
       ],
-      "persistence_status": "ESTRATÉGIA REABERTA; PLANO E MENSAGEM REVISADOS, PERSISTIDOS E VERSIONADOS NO GITHUB; AGUARDA REVISÃO HUMANA DO TEXTO DE CIRCULAÇÃO",
-      "last_verified_strategy_commit": "0ce038b8a4c4f92654354977af2bfe5670899e9b",
-      "last_verified_message_commit": "0ad6751d4e73323883402990138b9a0929591c0c",
-      "next_step": "REVISÃO HUMANA DA NOVA VERSÃO DO TEXTO DE CIRCULAÇÃO; NÃO RECONCLUIR A ESTRATÉGIA ANTES DA APROVAÇÃO OU DE NOVOS APONTAMENTOS DO USUÁRIO.",
+      "persistence_status": "VERSÃO REVISADA APROVADA PELO USUÁRIO, PERSISTIDA E VERSIONADA NO GITHUB; ESTRATÉGIA RECONCLUÍDA EM STEV-CEM-20260917-016",
+      "last_verified_strategy_commit": "313ef6dda5cecaeee00e828042ab1400e8d41fb0",
+      "last_verified_message_commit": "6dd6a78f2d1021294876024df0f60ade644f1ab6",
+      "next_step": "NENHUM PASSO PENDENTE DENTRO DESTA ESTRATÉGIA AUTÔNOMA; RETORNAR À ESTRATÉGIA-MÃE DOS-PLR-BB-2026 QUANDO O USUÁRIO DETERMINAR.",
       "do_not_do": [
         "não repetir Federação ou Confederação em cada linha de sindicato quando já constarem do cabeçalho",
         "não inserir explicações metodológicas no texto de circulação",
         "não misturar data de assembleia com informação sobre aprovação, rejeição, percentual ou localização do resultado",
         "não usar metodologias cronológicas diferentes entre os 18 sindicatos",
-        "não reconcluir a estratégia antes da revisão humana da versão reaberta"
+        "não reabrir ou alterar a versão aprovada sem novo pedido explícito do usuário"
       ]
     },
     {
