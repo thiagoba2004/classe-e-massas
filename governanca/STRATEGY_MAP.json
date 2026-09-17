@@ -21,8 +21,8 @@
     {
       "strategy_id": "STRAT-CEM-20260917-003",
       "name": "Inventário e backfill progressivo das Estratégias Autônomas históricas do Classe e Massas",
-      "status": "EM_EXECUCAO",
-      "last_event_id": "STEV-CEM-20260917-008",
+      "status": "CONCLUIDO",
+      "last_event_id": "STEV-CEM-20260917-013",
       "canonical_refs": ["governanca/estrategia-backfill-estrategias-autonomas.md", "governanca/inventario-backfill-estrategias-autonomas-2026-09-17.md"]
     },
     {
