@@ -1,6 +1,6 @@
 # 18 bases ficaram sem a antecipação da PLR do BB: o que os documentos mostram — e o que o Banco ainda precisa explicar
 
-**Status:** RASCUNHO CANÔNICO v0.3 — NÃO PUBLICAR ANTES DO GATE DE MANIFESTAÇÃO DO BB  
+**Status:** RASCUNHO CANÔNICO v0.4 — NÃO PUBLICAR ANTES DO GATE DE MANIFESTAÇÃO DO BB  
 **Data:** 16/09/2026  
 **Estratégia:** publicar um artigo no Classe e Massas sobre a antecipação da PLR do Banco do Brasil em 16/09/2026 e as 18 bases sindicais que ficaram sem o crédito.  
 **Dossiê:** `editorial/documentos/dossie-plr-bb-2026.md`
@@ -23,7 +23,7 @@ A resposta ainda não está integralmente disponível.
 
 Mas a pesquisa documental já permite reconstruir uma parte importante do caminho — e mostra que o caso é mais complexo do que a fórmula repetida em diversas publicações de que “quem não assinou o ACT até 11 de setembro ficou sem a PLR”.
 
-## 1. As 18 bases: 17 no campo Contraf/CUT e Franca/SP na CONTEC
+## 1. As 18 bases: 14 Contraf-CUT, três da FNOB fora desse campo e Franca/SP na CONTEC
 
 O conjunto de controle consolidado pelo dossiê do Classe e Massas reúne as seguintes 18 bases:
 
@@ -46,11 +46,11 @@ O conjunto de controle consolidado pelo dossiê do Classe e Massas reúne as seg
 - Bauru (SP);
 - Franca (SP).
 
-A contagem está esclarecida: **17 dessas bases pertencem ao campo de representação articulado pela Contraf-CUT; Franca/SP é a única base vinculada à CONTEC entre as que ficaram fora da antecipação. Somadas, são 18 bases no total.**
+A composição sindical também precisa ser descrita corretamente. **Quatorze dessas bases estão vinculadas à Contraf-CUT. Rio Grande do Norte, Maranhão e Bauru estão fora desse campo e aparecem articulados na Frente Nacional de Oposição Bancária (FNOB). Franca/SP é a única das 18 bases vinculada à CONTEC.** Somadas, são 18 bases no total.
 
-Por isso, a publicação do Sindibancários/ES que mencionou 17 bases não deve ser lida como contraditória ao total nacional de 18: ela se referia ao universo das bases daquele campo sindical, sem incluir Franca/SP.
+Isso corrige uma leitura anterior do próprio levantamento. A publicação do Sindibancários/ES que mencionou 17 bases não autoriza concluir que essas 17 seriam da Contraf-CUT: o conjunto de 17 sem Franca/SP inclui também Rio Grande do Norte, Maranhão e Bauru.
 
-A relação oficial das bases e o número de empregados atingidos continuam solicitados ao Banco do Brasil pela Lei de Acesso à Informação, agora como confirmação documental do universo e dos quantitativos, e não para resolver uma suposta divergência numérica.
+A relação oficial das bases e o número de empregados atingidos continuam solicitados ao Banco do Brasil pela Lei de Acesso à Informação como confirmação documental do universo e dos quantitativos.
 
 Também não existe o mesmo grau de prova individual para todas as 18 bases. Em 14 delas há suporte documental direto ou coletivo robusto já preservado. Para Cariri, Santana do Livramento, Angra dos Reis e Guaratinguetá, a cronologia encontrada é compatível com o conjunto das bases atingidas, mas a busca dirigida não localizou uma publicação individual dizendo expressamente que o crédito não entrou em 16 de setembro.
 
@@ -64,6 +64,9 @@ Fontes:
 - https://feebbase.com.br/site/imagem-destaque/assembleias-dos-funcionarios-do-bb-no-domingo
 - https://www.bancariosbahia.org.br/noticias/campanha-salarial-6/43830%2Cbanco-no-brasil-usa-prl-para-punir.html
 - https://novo.bancarios-es.org.br/banco-do-brasil-pune-bancarios-de-bases-que-ainda-nao-assinaram-acordo/
+- https://www.seebbauru.org.br/noticias/campanha-salarial-2026-proposta-da-contraf-cut-envergonha-a-categoria-com-ganho-real-de-apenas-5/
+- https://bancariosrn.org.br/sobre.php
+- https://www.bancariosma.org.br/mobile/paginas/mobile.asp?p=18893
 
 ## 2. As bases não chegaram ao mesmo ponto pelo mesmo caminho
 
@@ -294,7 +297,7 @@ A LAI não pede que o Banco produza uma opinião jurídica nova. Pede acesso aos
 
 ## 12. O que já pode ser afirmado — e o que ainda não pode
 
-A investigação já permite afirmar que houve tratamento temporal distinto no pagamento da antecipação da PLR conforme a situação das bases e que o levantamento consolidado trabalha com 18 bases fora do crédito de 16 de setembro, **sendo 17 no campo Contraf/CUT e Franca/SP na CONTEC**, com ressalvas individuais explicitadas no dossiê.
+A investigação já permite afirmar que houve tratamento temporal distinto no pagamento da antecipação da PLR conforme a situação das bases e que o levantamento consolidado trabalha com 18 bases fora do crédito de 16 de setembro: **14 vinculadas à Contraf-CUT; Rio Grande do Norte, Maranhão e Bauru fora desse campo e articulados na FNOB; e Franca/SP vinculada à CONTEC**, com ressalvas individuais explicitadas no dossiê.
 
 Permite afirmar também que a **minuta final do ACT geral publicada em 4 de setembro e examinada** não contém a regra da PLR em 72 horas e que a arquitetura histórica do BB separa ACT geral, ACT-PLR e, ao menos em 2024, termos de adesão distintos.
 
@@ -363,7 +366,10 @@ Até lá, o que os documentos disponíveis recomendam não é uma conclusão pre
 - Sindicato de São Paulo — assinatura do ACT: https://spbancarios.com.br/09/2026/trabalhadores-assinam-act-do-bb-com-vigencia-ate-2028
 - FEEBBASE / Sindicato de Feira — 18 bases e oito bases baianas: https://bancariosfeira.com.br/conteudo/18922/bb-nao-pode-punir-funcionarios-pela-greve
 - Sindicato dos Bancários da Bahia — pagamento da PLR: https://www.bancariosbahia.org.br/noticias/campanha-salarial-6/43830%2Cbanco-no-brasil-usa-prl-para-punir.html
-- Sindicato dos Bancários do Espírito Santo — referência às 17 bases do campo Contraf/CUT: https://novo.bancarios-es.org.br/banco-do-brasil-pune-bancarios-de-bases-que-ainda-nao-assinaram-acordo/
+- Sindicato dos Bancários do Espírito Santo — referência a 17 bases, sem autorizar classificá-las todas como Contraf-CUT: https://novo.bancarios-es.org.br/banco-do-brasil-pune-bancarios-de-bases-que-ainda-nao-assinaram-acordo/
+- Sindicato de Bauru — registro de que a entidade não é filiada à Contraf-CUT: https://www.seebbauru.org.br/noticias/campanha-salarial-2026-proposta-da-contraf-cut-envergonha-a-categoria-com-ganho-real-de-apenas-5/
+- Sindicato do RN — histórico de ruptura com a CUT/Contraf e adesão à Conlutas: https://bancariosrn.org.br/sobre.php
+- Sindicato do Maranhão — registro da FNOB composta por Maranhão, RN e Bauru: https://www.bancariosma.org.br/mobile/paginas/mobile.asp?p=18893
 - Sindicato do RN — cronologia RN/Maranhão/Bauru: https://www.bancariosrn.org.br/noticias.php?id=137
 - Sindicato do Pará — assembleia de 11/09 e PLR: https://bancariospa.org.br/cn2026-banco-do-brasil-adota-pratica-antissindical-e-usa-plr-para-retaliar-trabalhadores-e-trabalhadoras/
 - Sindicato de Franca — base vinculada à CONTEC, nova assembleia e resposta atribuída ao BB: https://bancariosfranca.com.br/2026/09/16/assembleia-banco-do-brasil-proposta-e-aprovada-e-greve-esta-encerrada/
