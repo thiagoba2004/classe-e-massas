@@ -58,14 +58,16 @@
       "legacy_object_id": "WHATSAPP-ACT-BB-18-BASES-2026",
       "name": "WHATSAPP-ACT-BB-18-BASES-2026",
       "status": "CONCLUIDO",
-      "last_event_id": "STEV-CEM-20260917-016",
+      "last_event_id": "STEV-CEM-20260917-018",
       "event_type": "CONCLUDED",
-      "current_phase": "FASE 7 — revisão humana concluída",
+      "current_phase": "FASE 8 — publicação no menu Notícias — concluída",
       "parent_strategy_id": "STRAT-CEM-20260917-005",
       "canonical_refs": [
         "editorial/documentos/estrategia-whatsapp-18-bases-act-bb-2026.md",
         "editorial/documentos/mensagem-whatsapp-bases-act-bb-2026.md",
-        "editorial/documentos/evidencia-angra-assembleia-bb-14-09-2026.md"
+        "editorial/documentos/evidencia-angra-assembleia-bb-14-09-2026.md",
+        "noticias/2026/18-bases-act-bb-2026.html",
+        "noticias/index.html"
       ]
     },
     {
