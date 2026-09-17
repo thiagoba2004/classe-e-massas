@@ -94,11 +94,11 @@
     },
     {
       "strategy_id": "STRAT-CEM-20260917-008",
-      "name": "Submenus do Menu Notícias",
+      "name": "Acessos institucionais do Menu Notícias",
       "status": "CONCLUIDO",
-      "last_event_id": "STEV-CEM-20260917-021",
+      "last_event_id": "STEV-CEM-20260917-023",
       "event_type": "CONCLUDED",
-      "current_phase": "FASE 3 — princípio síntese e validação — concluída",
+      "current_phase": "FASE 4 — revisão de acessibilidade móvel — concluída",
       "canonical_refs": [
         "governanca/estrategia-submenus-noticias.md",
         "noticias/index.html",
