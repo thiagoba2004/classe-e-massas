@@ -1,6 +1,6 @@
 # 18 bases ficaram sem a antecipação da PLR do BB: o que os documentos mostram — e o que o Banco ainda precisa explicar
 
-**Status:** RASCUNHO CANÔNICO v0.2 — NÃO PUBLICAR ANTES DO GATE DE MANIFESTAÇÃO DO BB  
+**Status:** RASCUNHO CANÔNICO v0.3 — NÃO PUBLICAR ANTES DO GATE DE MANIFESTAÇÃO DO BB  
 **Data:** 16/09/2026  
 **Estratégia:** publicar um artigo no Classe e Massas sobre a antecipação da PLR do Banco do Brasil em 16/09/2026 e as 18 bases sindicais que ficaram sem o crédito.  
 **Dossiê:** `editorial/documentos/dossie-plr-bb-2026.md`
@@ -23,7 +23,7 @@ A resposta ainda não está integralmente disponível.
 
 Mas a pesquisa documental já permite reconstruir uma parte importante do caminho — e mostra que o caso é mais complexo do que a fórmula repetida em diversas publicações de que “quem não assinou o ACT até 11 de setembro ficou sem a PLR”.
 
-## 1. O levantamento trabalha com 18 bases — mas as próprias fontes não são uniformes
+## 1. As 18 bases: 17 no campo Contraf/CUT e Franca/SP na CONTEC
 
 O conjunto de controle consolidado pelo dossiê do Classe e Massas reúne as seguintes 18 bases:
 
@@ -46,9 +46,11 @@ O conjunto de controle consolidado pelo dossiê do Classe e Massas reúne as seg
 - Bauru (SP);
 - Franca (SP).
 
-A FEEBBASE também registrou um universo de **18 bases**. Nem todas as publicações sindicais contemporâneas, contudo, usam a mesma contagem: o Sindibancários/ES, por exemplo, mencionou **17 bases** em publicação de 16 de setembro.
+A contagem está esclarecida: **17 dessas bases pertencem ao campo de representação articulado pela Contraf-CUT; Franca/SP é a única base vinculada à CONTEC entre as que ficaram fora da antecipação. Somadas, são 18 bases no total.**
 
-Essa divergência não deve ser apagada. A relação oficial das bases, assim como o número de empregados atingidos, foi solicitada diretamente ao Banco do Brasil pela Lei de Acesso à Informação.
+Por isso, a publicação do Sindibancários/ES que mencionou 17 bases não deve ser lida como contraditória ao total nacional de 18: ela se referia ao universo das bases daquele campo sindical, sem incluir Franca/SP.
+
+A relação oficial das bases e o número de empregados atingidos continuam solicitados ao Banco do Brasil pela Lei de Acesso à Informação, agora como confirmação documental do universo e dos quantitativos, e não para resolver uma suposta divergência numérica.
 
 Também não existe o mesmo grau de prova individual para todas as 18 bases. Em 14 delas há suporte documental direto ou coletivo robusto já preservado. Para Cariri, Santana do Livramento, Angra dos Reis e Guaratinguetá, a cronologia encontrada é compatível com o conjunto das bases atingidas, mas a busca dirigida não localizou uma publicação individual dizendo expressamente que o crédito não entrou em 16 de setembro.
 
@@ -292,7 +294,7 @@ A LAI não pede que o Banco produza uma opinião jurídica nova. Pede acesso aos
 
 ## 12. O que já pode ser afirmado — e o que ainda não pode
 
-A investigação já permite afirmar que houve tratamento temporal distinto no pagamento da antecipação da PLR conforme a situação das bases e que o levantamento consolidado trabalha com 18 bases fora do crédito de 16 de setembro, com ressalvas individuais explicitadas no dossiê.
+A investigação já permite afirmar que houve tratamento temporal distinto no pagamento da antecipação da PLR conforme a situação das bases e que o levantamento consolidado trabalha com 18 bases fora do crédito de 16 de setembro, **sendo 17 no campo Contraf/CUT e Franca/SP na CONTEC**, com ressalvas individuais explicitadas no dossiê.
 
 Permite afirmar também que a **minuta final do ACT geral publicada em 4 de setembro e examinada** não contém a regra da PLR em 72 horas e que a arquitetura histórica do BB separa ACT geral, ACT-PLR e, ao menos em 2024, termos de adesão distintos.
 
@@ -361,10 +363,10 @@ Até lá, o que os documentos disponíveis recomendam não é uma conclusão pre
 - Sindicato de São Paulo — assinatura do ACT: https://spbancarios.com.br/09/2026/trabalhadores-assinam-act-do-bb-com-vigencia-ate-2028
 - FEEBBASE / Sindicato de Feira — 18 bases e oito bases baianas: https://bancariosfeira.com.br/conteudo/18922/bb-nao-pode-punir-funcionarios-pela-greve
 - Sindicato dos Bancários da Bahia — pagamento da PLR: https://www.bancariosbahia.org.br/noticias/campanha-salarial-6/43830%2Cbanco-no-brasil-usa-prl-para-punir.html
-- Sindicato dos Bancários do Espírito Santo — publicação que menciona 17 bases: https://novo.bancarios-es.org.br/banco-do-brasil-pune-bancarios-de-bases-que-ainda-nao-assinaram-acordo/
+- Sindicato dos Bancários do Espírito Santo — referência às 17 bases do campo Contraf/CUT: https://novo.bancarios-es.org.br/banco-do-brasil-pune-bancarios-de-bases-que-ainda-nao-assinaram-acordo/
 - Sindicato do RN — cronologia RN/Maranhão/Bauru: https://www.bancariosrn.org.br/noticias.php?id=137
 - Sindicato do Pará — assembleia de 11/09 e PLR: https://bancariospa.org.br/cn2026-banco-do-brasil-adota-pratica-antissindical-e-usa-plr-para-retaliar-trabalhadores-e-trabalhadoras/
-- Sindicato de Franca — nova assembleia e resposta atribuída ao BB: https://bancariosfranca.com.br/2026/09/16/assembleia-banco-do-brasil-proposta-e-aprovada-e-greve-esta-encerrada/
+- Sindicato de Franca — base vinculada à CONTEC, nova assembleia e resposta atribuída ao BB: https://bancariosfranca.com.br/2026/09/16/assembleia-banco-do-brasil-proposta-e-aprovada-e-greve-esta-encerrada/
 - Fetraf RJ/ES — pedido de pagamento isonômico: https://fetrafrjes.org.br/contraf-cut-solicita-ao-bb-pagamento-da-plr-nesta-quarta-feira-16/
 - Lei nº 10.101/2000: https://www.planalto.gov.br/ccivil_03/leis/l10101compilado.htm
 - CARF — Processo 16327.721122/2019-17: https://acordaos.economia.gov.br/acordaos2/pdfs/processados/16327721122201917_6823995.pdf
