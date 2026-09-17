@@ -2,8 +2,8 @@
 
 **Projeto:** Classe e Massas  
 **Status:** CANÔNICO  
-**Versão:** 1.3  
-**Data:** 16/09/2026  
+**Versão:** 1.4  
+**Data:** 17/09/2026  
 **Escopo:** todo modelo de IA, agente, assistente ou automação que trabalhe neste repositório ou em seus documentos derivados.
 
 ---
@@ -725,6 +725,55 @@ A sequência correta é:
 
 Se o registro não for localizado, o agente deve primeiro recuperar ou reconstruir e registrar a estratégia. Somente depois dessa reconstrução o trabalho deve continuar.
 
+### 24.10. Plano de Fases obrigatório para toda estratégia autônoma
+
+Toda estratégia autônoma, ainda que curta, emergencial, editorial, documental ou destinada apenas a uma mensagem de circulação, deve possuir **Plano de Fases explícito e persistente antes da execução substantiva**.
+
+O Plano de Fases deverá conter, no mínimo:
+
+```text
+FASE 1 — registro e delimitação
+FASES INTERMEDIÁRIAS — pesquisa, análise, produção ou execução necessárias
+FASE DE CONSOLIDAÇÃO — síntese e verificação
+FASE FINAL — entrega, publicação, circulação ou fechamento
+```
+
+Cada fase deve indicar estado, objetivo e gate quando aplicável. Estratégias autônomas não podem ser tratadas como exceção à disciplina de planejamento do projeto.
+
+### 24.11. Regra obrigatória para siglas e abreviações
+
+Em todo texto produzido para o projeto — artigo, nota, mensagem de WhatsApp, relatório, dossiê, documento jurídico, material de divulgação ou publicação — toda sigla relevante deverá ter seu significado informado **pelo menos uma vez**, preferencialmente na primeira ocorrência.
+
+Exemplo:
+
+> **Acordo Coletivo de Trabalho (ACT)**
+
+Depois de desenvolvida, a sigla poderá ser usada isoladamente no restante do texto. Não publicar texto em que uma sigla material à compreensão apareça sem desenvolvimento em nenhum ponto.
+
+### 24.12. Metodologia única para cadeia institucional sindical
+
+Quando o projeto classificar vínculos de entidades sindicais, deverá aplicar sempre a mesma cadeia:
+
+> **Sindicato > Federação > Confederação**
+
+É obrigatório distinguir:
+
+- filiação formal;
+- representação por procuração ou instrumento coletivo;
+- participação em comando ou mesa de negociação;
+- coordenação conjuntural;
+- uso compartilhado de plataforma ou infraestrutura.
+
+Nenhuma dessas situações substitui automaticamente outra. Quando um nível da cadeia não existir, não for aplicável ou não puder ser confirmado documentalmente, isso deverá ser informado expressamente, sem preenchimento por inferência.
+
+### 24.13. Informação de registro em toda pausa ou atualização
+
+Em toda pausa, checkpoint ou atualização intermediária comunicada ao usuário, o agente deverá informar explicitamente se o estado produzido até aquele momento **foi ou não foi registrado de modo persistente**.
+
+Quando registrado, deverá indicar, sempre que possível, o arquivo ou mecanismo de persistência. Quando ainda não registrado, deverá dizer isso claramente e priorizar o salvamento antes de acumular novo trabalho substancial.
+
+A mera afirmação de que algo foi “anotado” não substitui a verificação técnica exigida por este protocolo.
+
 ---
 
 ## 25. Histórico de versões
@@ -734,3 +783,4 @@ Se o registro não for localizado, o agente deve primeiro recuperar ou reconstru
 | 1.1 | 13/09/2026 | Consolidação das regras de persistência progressiva, write-through, checkpoints, RPO, recuperação e verificação remota. |
 | 1.2 | 16/09/2026 | Instituição da vinculação estratégica obrigatória antes de qualquer tarefa ou ação, com referência ao planejamento por fases, fase atual, objetivo/entrega/gate, dependências e próximo passo lógico. |
 | 1.3 | 16/09/2026 | Torna obrigatório o registro persistente e auditável de toda estratégia antes de qualquer tarefa substantiva; estabelece a barreira “sem registro, não executar” e define o `PROJECT_STATE.json` como registro mínimo padrão para frentes ativas. |
+| 1.4 | 17/09/2026 | Torna explícitos o Plano de Fases para toda estratégia autônoma, o desenvolvimento obrigatório de siglas, a cadeia Sindicato > Federação > Confederação e a informação de registro em toda pausa/checkpoint. |
