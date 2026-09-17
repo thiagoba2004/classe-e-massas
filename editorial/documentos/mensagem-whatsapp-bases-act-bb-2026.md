@@ -1,6 +1,6 @@
 # Mensagem de WhatsApp — bases que não haviam assinado o ACT BB 2026/2028 até 14h de 11/09/2026
 
-**Status:** EM REVISÃO HUMANA APÓS REABERTURA  
+**Status:** APROVADO — PRONTO PARA CIRCULAÇÃO  
 **Estratégia:** `STRAT-CEM-20260917-006`  
 **Data:** 17/09/2026
 
