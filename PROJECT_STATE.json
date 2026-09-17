@@ -63,14 +63,14 @@
       "publication_gate": "BUSCAR MANIFESTAÇÃO DO BANCO DO BRASIL ANTES DA PUBLICAÇÃO; INCORPORAR A RESPOSTA SE RECEBIDA OU REGISTRAR A AUSÊNCIA DE MANIFESTAÇÃO NO FECHAMENTO.",
       "bb_press_contact": "imprensa@bb.com.br",
       "bb_press_request_status": "SOLICITAÇÃO PREPARADA E PERSISTIDA; AINDA NÃO ENVIADA",
-      "article_draft_status": "RASCUNHO CANÔNICO v0.2 — AUDITORIA MATERIAL INCORPORADA; NÃO PUBLICAR AINDA",
+      "article_draft_status": "RASCUNHO CANÔNICO v0.3 — AUDITORIA MATERIAL INCORPORADA; COMPOSIÇÃO DAS 18 BASES CORRIGIDA; NÃO PUBLICAR AINDA",
       "article_draft_file": "editorial/documentos/rascunho-artigo-plr-bb-18-bases-2026.md",
       "article_audit_file": "editorial/documentos/auditoria-rascunho-artigo-plr-bb-18-bases-2026.md",
       "bb_press_request_file": "editorial/documentos/solicitacao-manifestacao-bb-plr-2026.md",
       "audit_18_bases_status": "GATE SATISFEITO COM RESSALVA: 14 bases possuem suporte documental robusto direto ou coletivo; Cariri, Santana do Livramento, Angra dos Reis e Guaratinguetá permanecem com ressalva probatória individual após busca cirúrgica sem localização de confirmação textual individual do não crédito.",
       "instruments_2026_status": "ACT-PLR BB 2026/2027 e termos de adesão de 2026 não foram localizados publicamente nas fontes pesquisadas em 16/09/2026; não se conclui que inexistam.",
       "rules_origin_status": "72 horas e pagamento em 2027 possuem rastreabilidade em comunicações sindicais contemporâneas atribuídas ao BB; origem primária do corte de 11/09 permanece não unívoca e é objeto da LAI.",
-      "persistence_status": "DOSSIÊ, ANEXOS DE PESQUISA, RASCUNHO v0.2, AUDITORIA EDITORIAL E PEDIDO DE MANIFESTAÇÃO ESTÃO PERSISTIDOS E VERSIONADOS NO GITHUB",
+      "persistence_status": "DOSSIÊ, ANEXOS DE PESQUISA, RASCUNHO v0.3, AUDITORIA EDITORIAL E PEDIDO DE MANIFESTAÇÃO ESTÃO PERSISTIDOS E VERSIONADOS NO GITHUB",
       "canonical_file": "editorial/documentos/dossie-plr-bb-2026.md",
       "supporting_files": [
         "editorial/documentos/dossie-plr-bb-2026-impedimento-juridico.md",
@@ -103,11 +103,11 @@
         "A auditoria das 18 bases mostrou que o grupo não é homogêneo: há bases que só aprovaram depois de 11/09, bases que aprovaram em 11/09 mas ficaram aguardando formalização/termos de adesão e bases cuja cronologia individual ainda está incompleta.",
         "O ACT-PLR BB 2026/2027 e os termos de adesão de 2026 não foram localizados publicamente nas fontes pesquisadas, apesar de os mesmos repositórios disponibilizarem instrumentos do ciclo anterior.",
         "As regras de 72 horas e de pagamento em 2027 eram publicamente relatadas em 09/09, mas não foi localizado o documento primário que as formalizou; o corte de 11/09 aparece atribuído de modo não unívoco entre Fenaban e BB nas fontes públicas.",
-        "A FEEBBASE e o levantamento consolidado trabalham com 18 bases, mas publicação contemporânea do Sindibancários/ES menciona 17; a lista oficial foi solicitada ao BB via LAI.",
+        "A contagem nacional está esclarecida: são 18 bases, compostas por 17 bases do campo Contraf/CUT mais Franca/SP, única base vinculada à CONTEC entre as excluídas; a referência a 17 em publicação do Sindibancários/ES não constitui divergência com o total nacional.",
         "A diretriz editorial do Classe e Massas exige busca razoável de manifestação da parte envolvida antes da publicação de matéria com acusações materialmente graves."
       ],
-      "last_verified_milestone_commit": "a07d390c8afd9ce598e0af67028327f7ab71b718",
-      "last_verified_milestone_message": "Editorial: prepara pedido de manifestação ao BB sobre PLR",
+      "last_verified_milestone_commit": "7fe119a30d52f781c7c8f3f032634c3cad2a89f5",
+      "last_verified_milestone_message": "Editorial PLR BB: corrige composição das 18 bases",
       "next_step": "ENVIAR A SOLICITAÇÃO DE MANIFESTAÇÃO À ASSESSORIA DE IMPRENSA DO BB; APÓS RESPOSTA OU FECHAMENTO SEM RESPOSTA, INCORPORAR A POSIÇÃO INSTITUCIONAL OU REGISTRAR A AUSÊNCIA, FAZER AUDITORIA FINAL E SOMENTE ENTÃO GERAR/PUBLICAR O HTML",
       "do_not_do": [
         "não concluir que houve retaliação ou ilicitude como fato antes de fechar a cadeia documental",
@@ -120,6 +120,7 @@
         "não usar a autuação de 2015 como prova de proibição de dois processamentos por bases distintas em 2026",
         "não tratar informação de imprensa sindical como substituta de documento primário quando o documento puder ser localizado",
         "não transformar ausência de localização pública do ACT-PLR 2026 em afirmação de inexistência do instrumento",
+        "não reabrir a falsa divergência 17 x 18 sem nova evidência: o estado atual registrado é 17 bases do campo Contraf/CUT + Franca/SP da CONTEC = 18 bases",
         "não publicar antes da busca razoável de manifestação do Banco do Brasil e da auditoria final do rascunho"
       ]
     }
