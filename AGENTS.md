@@ -2,7 +2,7 @@
 
 **Projeto:** Classe e Massas  
 **Status:** CANÔNICO  
-**Versão:** 1.2  
+**Versão:** 1.3  
 **Data:** 16/09/2026  
 **Escopo:** todo modelo de IA, agente, assistente ou automação que trabalhe neste repositório ou em seus documentos derivados.
 
@@ -21,6 +21,8 @@ O objetivo central é impedir que trabalho intelectual substancial exista apenas
 Nenhum Modelo de IA deve considerar um trabalho relevante protegido enquanto ele existir apenas no contexto da conversa.
 
 Nenhuma tarefa relativa ao projeto deve ser executada como ato isolado: antes da execução, ela deve estar vinculada a uma estratégia, a um planejamento por fases, à fase atual, a uma entrega ou gate e ao próximo passo lógico.
+
+**Toda estratégia deve estar registrada de modo persistente e auditável no repositório antes da execução de qualquer tarefa substantiva a ela vinculada. Conhecer, lembrar, inferir ou declarar uma estratégia no chat não equivale a registrá-la. Sem registro persistente, não executar a tarefa.**
 
 ---
 
@@ -370,7 +372,8 @@ Cada afirmação deve corresponder ao estado real.
 
 Ao final de uma operação substancial, informar de forma objetiva:
 
-- **a estratégia e o planejamento por fases aos quais a tarefa está vinculada**;
+- **a estratégia registrada e o planejamento por fases aos quais a tarefa está vinculada**;
+- **onde a estratégia está registrada**;
 - **a fase atual**;
 - **a entrega, objetivo ou gate que a tarefa ajuda a cumprir**;
 - **o que foi alterado**;
@@ -396,7 +399,7 @@ Toda ação relevante deve ser verificável, e toda limitação real deve ser ex
 
 O agente não deve transferir ao usuário uma sequência longa de comandos manuais quando puder executar com segurança a operação por ferramenta autorizada.
 
-Autonomia operacional também não autoriza improvisação estratégica: uma tarefa tecnicamente executável continua proibida se sua vinculação à estratégia, à fase e ao gate ainda não estiver estabelecida.
+Autonomia operacional também não autoriza improvisação estratégica: uma tarefa tecnicamente executável continua proibida se sua vinculação à estratégia, à fase e ao gate ainda não estiver estabelecida e registrada.
 
 ---
 
@@ -410,6 +413,7 @@ Um novo Modelo de IA que abra este repositório deve conseguir responder, a part
 
 - qual é a arquitetura do projeto;
 - qual é a estratégia em vigor;
+- onde essa estratégia está registrada;
 - qual é o planejamento por fases;
 - em qual fase o projeto e o objeto específico estão;
 - quais trabalhos estão em andamento;
@@ -516,6 +520,10 @@ A partir desta versão, todo trabalho relativo ao projeto deverá obedecer ao se
 ```text
 CONSULTAR / RECUPERAR A ESTRATÉGIA E O PLANEJAMENTO CANÔNICO
               ↓
+CONFIRMAR QUE A ESTRATÉGIA ESTÁ REGISTRADA DE MODO PERSISTENTE E AUDITÁVEL
+              ↓
+SE NÃO ESTIVER REGISTRADA, REGISTRAR ANTES DE QUALQUER TAREFA SUBSTANTIVA
+              ↓
 IDENTIFICAR A FASE ATUAL
               ↓
 IDENTIFICAR A ENTREGA, OBJETIVO OU GATE
@@ -549,7 +557,7 @@ Este ciclo é uma **barreira de segurança**, não uma recomendação opcional.
 
 A prioridade operacional do agente é:
 
-> **compreender a estratégia primeiro; preservar o trabalho; executar a fase correta; publicar por último.**
+> **registrar a estratégia; compreender a estratégia; preservar o trabalho; executar a fase correta; publicar por último.**
 
 ---
 
@@ -562,22 +570,67 @@ Nenhuma tarefa, pesquisa, alteração, publicação, coleta, análise, automaç�
 Antes da primeira ação operacional, o agente deve saber e ser capaz de declarar:
 
 1. **qual estratégia está sendo seguida;**
-2. **qual documento de planejamento por fases governa o trabalho;**
-3. **qual é a fase atual;**
-4. **qual objetivo, entrega ou gate da fase está sendo perseguido;**
-5. **por que a tarefa solicitada contribui para esse objetivo, entrega ou gate;**
-6. **quais dependências anteriores precisam estar satisfeitas;**
-7. **qual é o próximo passo lógico depois da tarefa.**
+2. **onde essa estratégia está registrada de modo persistente;**
+3. **qual documento de planejamento por fases governa o trabalho;**
+4. **qual é a fase atual;**
+5. **qual objetivo, entrega ou gate da fase está sendo perseguido;**
+6. **por que a tarefa solicitada contribui para esse objetivo, entrega ou gate;**
+7. **quais dependências anteriores precisam estar satisfeitas;**
+8. **qual é o próximo passo lógico depois da tarefa.**
 
-A execução somente começa depois dessa vinculação.
+A execução somente começa depois dessa vinculação **e da confirmação do registro persistente da estratégia**.
 
-### 24.2. Fonte estratégica padrão
+### 24.2. Registro prévio obrigatório de toda estratégia
+
+Toda estratégia, seja geral, editorial, investigativa, jurídica, técnica, documental, de tradução, publicação ou qualquer outra frente do projeto, **deve ser registrada antes da execução de qualquer tarefa substantiva a ela vinculada**.
+
+A regra é absoluta:
+
+> **SEM REGISTRO PERSISTENTE DA ESTRATÉGIA, NÃO EXECUTAR NENHUMA TAREFA SUBSTANTIVA.**
+
+Não constituem registro válido, por si sós:
+
+- a memória do Modelo de IA;
+- o contexto da conversa;
+- um resumo de conversa;
+- uma inferência do agente;
+- uma explicação verbal ao usuário;
+- a mera intenção de registrar depois.
+
+O registro deve existir em arquivo persistente e versionável do projeto. Para frentes ativas, o padrão mínimo é registrar a estratégia no `PROJECT_STATE.json`, no item correspondente, e apontar, quando houver, para o dossiê, plano, roadmap, manifesto ou arquivo canônico que contenha o detalhamento da execução.
+
+O registro mínimo da estratégia deve conter, conforme aplicável:
+
+```text
+ESTRATÉGIA:
+OBJETIVO:
+PLANO / ROADMAP:
+FASE ATUAL:
+OBJETIVO / ENTREGA / GATE DA FASE:
+PRÓXIMO PASSO LÓGICO:
+ARQUIVO CANÔNICO OU DOSSIÊ VINCULADO:
+STATUS DO REGISTRO:
+```
+
+Se uma estratégia nova surgir durante a conversa, o agente deve **interromper a execução**, registrá-la primeiro e verificar a gravação. Somente depois poderá pesquisar, redigir, editar, publicar, coletar dados ou praticar qualquer outra ação substantiva vinculada à estratégia.
+
+Se a estratégia mudar materialmente, o registro deve ser atualizado **antes** da execução da primeira tarefa orientada pela nova estratégia.
+
+As únicas ações permitidas antes do registro são as estritamente necessárias para:
+
+1. recuperar uma estratégia que já possa existir em fonte persistente;
+2. verificar qual é o estado real do trabalho;
+3. registrar ou atualizar a estratégia e seu planejamento mínimo.
+
+Essas ações são preparatórias de governança e não autorizam iniciar o trabalho substantivo antes da confirmação do registro.
+
+### 24.3. Fonte estratégica padrão
 
 Para o Observatório Classe e Massas, o documento de referência geral é o **`observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md`**, sem prejuízo de roadmaps, planos ou protocolos específicos de cada núcleo ou objeto.
 
 O Roadmap geral define a ordem das fases, suas dependências, entregas e gates. Planos específicos podem detalhar essa estrutura, mas não podem contrariá-la silenciosamente.
 
-### 24.3. Regra em caso de ausência ou dúvida
+### 24.4. Regra em caso de ausência ou dúvida
 
 Se o agente não souber a qual estratégia, fase ou gate a tarefa pertence, **é proibido simplesmente executá-la**.
 
@@ -588,6 +641,12 @@ RECUPERAR O PLANEJAMENTO EXISTENTE
               ↓
 VERIFICAR O ESTADO ATUAL
               ↓
+IDENTIFICAR OU FORMULAR A ESTRATÉGIA
+              ↓
+REGISTRAR A ESTRATÉGIA DE MODO PERSISTENTE
+              ↓
+VERIFICAR O REGISTRO
+              ↓
 CLASSIFICAR A TAREFA
               ↓
 SE NECESSÁRIO, RECONSTRUIR OU ATUALIZAR O PLANO
@@ -595,26 +654,28 @@ SE NECESSÁRIO, RECONSTRUIR OU ATUALIZAR O PLANO
 SÓ ENTÃO EXECUTAR
 ```
 
-Não localizar imediatamente o vínculo estratégico não transforma a tarefa em “avulsa”. Significa que o contexto estratégico precisa ser recuperado antes da execução.
+Não localizar imediatamente o vínculo estratégico não transforma a tarefa em “avulsa”. Significa que o contexto estratégico precisa ser recuperado ou formalizado antes da execução.
 
-### 24.4. Proibição de execução estrategicamente órfã
+### 24.5. Proibição de execução estrategicamente órfã
 
 É proibido:
 
 - responder a uma solicitação do projeto apenas porque ela é tecnicamente executável;
-- abrir nova frente sem identificar sua posição no planejamento;
-- produzir artigo, pesquisa ou documento sem saber qual objetivo maior ele atende;
+- abrir nova frente sem identificar e registrar sua posição no planejamento;
+- produzir artigo, pesquisa ou documento sem estratégia previamente registrada;
 - coletar dados sem saber a pergunta estratégica ou a fase que exige esses dados;
 - publicar material sem compreender sua função na sequência do projeto;
 - tratar um achado pontual como fim em si mesmo quando ele pertence a uma investigação ou entrega maior;
-- saltar para tarefa posterior porque ela parece interessante, urgente ou fácil, ignorando dependências e gates.
+- saltar para tarefa posterior porque ela parece interessante, urgente ou fácil, ignorando dependências e gates;
+- executar primeiro e “registrar depois”.
 
-### 24.5. Ficha mínima de vinculação estratégica
+### 24.6. Ficha mínima de vinculação estratégica
 
-Antes de iniciar uma nova unidade de trabalho, o agente deverá registrar, ao menos no contexto operacional e preferencialmente no status ou documento pertinente quando o trabalho for substancial:
+Antes de iniciar uma nova unidade de trabalho, o agente deverá confirmar que existe registro persistente e atualizar, no arquivo pertinente, quando necessário:
 
 ```text
 ESTRATÉGIA:
+REGISTRO DA ESTRATÉGIA:
 PLANO / ROADMAP:
 FASE ATUAL:
 OBJETIVO / ENTREGA / GATE:
@@ -624,9 +685,11 @@ RESULTADO ESPERADO:
 PRÓXIMO PASSO LÓGICO:
 ```
 
-Subações meramente instrumentais que pertençam claramente à mesma unidade de trabalho — por exemplo, abrir uma fonte, comparar dois documentos ou salvar o arquivo — herdam a vinculação já estabelecida e não exigem nova ficha a cada comando. A vinculação deve ser refeita quando mudar a frente de trabalho, a finalidade, a fase, o gate ou o objeto estratégico.
+**A ficha apenas escrita no chat não satisfaz esta regra.** Ela deve estar refletida em arquivo persistente do repositório, diretamente ou por referência inequívoca a um registro persistente já existente.
 
-### 24.6. Relação entre tarefa e fase
+Subações meramente instrumentais que pertençam claramente à mesma unidade de trabalho — por exemplo, abrir uma fonte, comparar dois documentos ou salvar o arquivo — herdam a vinculação já estabelecida e não exigem novo registro de estratégia a cada comando. A vinculação e o registro devem ser revistos quando mudar a frente de trabalho, a finalidade, a fase, o gate ou o objeto estratégico.
+
+### 24.7. Relação entre tarefa e fase
 
 Uma tarefa pode:
 
@@ -637,29 +700,30 @@ Uma tarefa pode:
 
 O agente deve distinguir essas situações e não declarar avanço de fase apenas porque realizou atividade preparatória.
 
-### 24.7. Regra de prioridade
+### 24.8. Regra de prioridade
 
 Quando surgirem várias tarefas possíveis, a ordem não será decidida apenas pela novidade da solicitação ou pela facilidade técnica.
 
 A prioridade deve considerar:
 
-1. a fase formalmente em execução;
-2. o gate ainda não satisfeito;
-3. as dependências que bloqueiam entregas subsequentes;
-4. a preservação do trabalho já produzido;
-5. a contribuição concreta da tarefa para o encadeamento estratégico.
+1. a estratégia registrada;
+2. a fase formalmente em execução;
+3. o gate ainda não satisfeito;
+4. as dependências que bloqueiam entregas subsequentes;
+5. a preservação do trabalho já produzido;
+6. a contribuição concreta da tarefa para o encadeamento estratégico.
 
 Urgências reais podem alterar a ordem operacional, mas devem ser registradas como exceção consciente, sem apagar a estratégia de referência.
 
-### 24.8. Regra para retomada de conversa
+### 24.9. Regra para retomada de conversa
 
 Ao retomar qualquer frente do Classe e Massas, o agente não deve começar pela última tarefa lembrada isoladamente.
 
 A sequência correta é:
 
-> **estratégia → planejamento → fase → gate → estado comprovado → tarefa atual → próximo passo.**
+> **registro da estratégia → estratégia → planejamento → fase → gate → estado comprovado → tarefa atual → próximo passo.**
 
-Somente depois dessa reconstrução o trabalho deve continuar.
+Se o registro não for localizado, o agente deve primeiro recuperar ou reconstruir e registrar a estratégia. Somente depois dessa reconstrução o trabalho deve continuar.
 
 ---
 
@@ -669,3 +733,4 @@ Somente depois dessa reconstrução o trabalho deve continuar.
 |---|---|---|
 | 1.1 | 13/09/2026 | Consolidação das regras de persistência progressiva, write-through, checkpoints, RPO, recuperação e verificação remota. |
 | 1.2 | 16/09/2026 | Instituição da vinculação estratégica obrigatória antes de qualquer tarefa ou ação, com referência ao planejamento por fases, fase atual, objetivo/entrega/gate, dependências e próximo passo lógico. |
+| 1.3 | 16/09/2026 | Torna obrigatório o registro persistente e auditável de toda estratégia antes de qualquer tarefa substantiva; estabelece a barreira “sem registro, não executar” e define o `PROJECT_STATE.json` como registro mínimo padrão para frentes ativas. |
