@@ -50,25 +50,26 @@
       "id": "DOS-PLR-BB-2026",
       "area": "Editorial / Pesquisa documental / Banco do Brasil",
       "title": "PLR do Banco do Brasil em 16/09/2026 — assembleias, instrumentos coletivos e tratamento entre bases sindicais",
-      "status": "EM REVISÃO EDITORIAL — AGUARDANDO ENVIO/RETORNO DE MANIFESTAÇÃO DO BB",
+      "status": "EM REVISÃO EDITORIAL — RECONCILIAÇÃO 20 BASES CONCLUÍDA; AGUARDANDO ENVIO/RETORNO DE MANIFESTAÇÃO DO BB",
       "strategy_status": "REGISTRADA",
-      "strategy": "Publicar um artigo no Classe e Massas sobre a antecipação da PLR do Banco do Brasil em 16/09/2026 e as 18 bases sindicais que ficaram sem o crédito.",
-      "planning_phase": "REVISÃO EDITORIAL / DIREITO DE RESPOSTA",
-      "phase_objective": "Concluir a versão publicável do artigo após auditoria factual e busca razoável de manifestação institucional do Banco do Brasil.",
+      "strategy": "Publicar um artigo no Classe e Massas sobre a antecipação da PLR do Banco do Brasil em 16/09/2026, distinguindo o universo de 20 bases sem aprovação/formalização concluída no marco das 14h de 11/09 do conjunto de pelo menos 18 bases com não pagamento/adiamento da PLR já documentado.",
+      "planning_phase": "REVISÃO EDITORIAL / DIREITO DE RESPOSTA — UNIVERSO DE 20 BASES RECONCILIADO",
+      "phase_objective": "Confirmar oficialmente a relação das 20 bases no marco de 11/09 e identificar se Ponte Nova e Governador Valadares também ficaram fora do crédito de 16/09, antes da versão publicável do artigo.",
       "gate_before_drafting": [
-        "consolidar documentalmente as 18 bases não contempladas — SATISFEITO COM RESSALVA",
+        "reconciliar documentalmente o universo de 20 bases no marco das 14h de 11/09 — SATISFEITO COMO RECONSTRUÇÃO DOCUMENTAL; CONFIRMAÇÃO NOMINAL OFICIAL DO BB PENDENTE",
+        "preservar separadamente o conjunto de pelo menos 18 bases com não pagamento/adiamento da PLR já documentado — SATISFEITO COM RESSALVA PROBATÓRIA INDIVIDUAL",
         "tentar localizar o ACT-PLR BB 2026/2027 e os termos de adesão de 2026 — BUSCA PÚBLICA ESGOTADA RAZOAVELMENTE, RESULTADO NEGATIVO PROVISÓRIO",
         "consolidar a origem documental das regras de 72 horas, corte em 11/09 e pagamento somente em 2027 — SATISFEITO COM RESSALVA DE AUSÊNCIA DO DOCUMENTO PRIMÁRIO"
       ],
       "publication_gate": "BUSCAR MANIFESTAÇÃO DO BANCO DO BRASIL ANTES DA PUBLICAÇÃO; INCORPORAR A RESPOSTA SE RECEBIDA OU REGISTRAR A AUSÊNCIA DE MANIFESTAÇÃO NO FECHAMENTO.",
       "bb_press_contact": "imprensa@bb.com.br",
       "bb_press_request_status": "SOLICITAÇÃO PREPARADA E PERSISTIDA; AINDA NÃO ENVIADA",
-      "article_draft_status": "RASCUNHO CANÔNICO v0.4 — AUDITORIA MATERIAL INCORPORADA; COMPOSIÇÃO SINDICAL DAS 18 BASES CORRIGIDA; NÃO PUBLICAR AINDA",
+      "article_draft_status": "RASCUNHO CANÔNICO v0.5 — RECONCILIAÇÃO 20 BASES INCORPORADA; NÃO PUBLICAR ANTES DA MANIFESTAÇÃO DO BB",
       "article_draft_file": "editorial/documentos/rascunho-artigo-plr-bb-18-bases-2026.md",
       "article_audit_file": "editorial/documentos/auditoria-rascunho-artigo-plr-bb-18-bases-2026.md",
       "bb_press_request_file": "editorial/documentos/solicitacao-manifestacao-bb-plr-2026.md",
       "audit_18_bases_status": "GATE SATISFEITO COM RESSALVA: 14 bases possuem suporte documental robusto direto ou coletivo; Cariri, Santana do Livramento, Angra dos Reis e Guaratinguetá permanecem com ressalva probatória individual após busca cirúrgica sem localização de confirmação textual individual do não crédito.",
-      "union_composition_status": "CORRIGIDO EM 17/09/2026: 14 das 18 bases estão na cadeia da Contraf-CUT; Rio Grande do Norte, Maranhão e Bauru integram a Federação Nacional dos Bancários (FNB), criada em 2026; Franca/SP está na cadeia da CONTEC. Não confundir FNB com a Frente Nacional de Oposição Bancária (FNOB), articulação política anterior.",
+      "union_composition_status": "RECONCILIADO EM 17/09/2026: universo temporal de 20 bases = 14 na cadeia Contraf-CUT; RN, Maranhão e Bauru na Federação Nacional dos Bancários (FNB); Franca, Ponte Nova e Governador Valadares na cadeia da CONTEC. O conjunto histórico de pelo menos 18 bases com impacto de PLR não deve ser automaticamente equiparado ao universo temporal de 20.",
       "instruments_2026_status": "ACT-PLR BB 2026/2027 e termos de adesão de 2026 não foram localizados publicamente nas fontes pesquisadas em 16/09/2026; não se conclui que inexistam.",
       "rules_origin_status": "72 horas e pagamento em 2027 possuem rastreabilidade em comunicações sindicais contemporâneas atribuídas ao BB; origem primária do corte de 11/09 permanece não unívoca e é objeto da LAI.",
       "persistence_status": "DOSSIÊ, ANEXOS DE PESQUISA, RASCUNHO v0.4, AUDITORIA EDITORIAL E PEDIDO DE MANIFESTAÇÃO ESTÃO PERSISTIDOS E VERSIONADOS NO GITHUB",
@@ -106,12 +107,14 @@
         "A auditoria das 18 bases mostrou que o grupo não é homogêneo: há bases que só aprovaram depois de 11/09, bases que aprovaram em 11/09 mas ficaram aguardando formalização/termos de adesão e bases cuja cronologia individual ainda está incompleta.",
         "O ACT-PLR BB 2026/2027 e os termos de adesão de 2026 não foram localizados publicamente nas fontes pesquisadas, apesar de os mesmos repositórios disponibilizarem instrumentos do ciclo anterior.",
         "As regras de 72 horas e de pagamento em 2027 eram publicamente relatadas em 09/09, mas não foi localizado o documento primário que as formalizou; o corte de 11/09 aparece atribuído de modo não unívoco entre Fenaban e BB nas fontes públicas.",
-        "A composição sindical das 18 bases foi refinada em 17/09/2026 pela cadeia Sindicato > Federação > Confederação/estrutura nacional: 14 Contraf-CUT; RN, Maranhão e Bauru na Federação Nacional dos Bancários (FNB), sem confederação superior identificada nas fontes pesquisadas; Franca/SP na CONTEC. FNB não é sinônimo de FNOB.",
-        "A diretriz editorial do Classe e Massas exige busca razoável de manifestação da parte envolvida antes da publicação de matéria com acusações materialmente graves."
+        "A diretriz editorial do Classe e Massas exige busca razoável de manifestação da parte envolvida antes da publicação de matéria com acusações materialmente graves.",
+        "Reconciliação de 17/09: o universo de aprovação/formalização no marco das 14h de 11/09 passa a 20 bases com a inclusão de Ponte Nova e Governador Valadares; isso não prova, por si só, que ambas tenham ficado sem o crédito da PLR em 16/09.",
+        "Ponte Nova rejeitou a proposta na votação encerrada às 10h de 11/09 e só aprovou em segunda votação das 18h às 20h; Governador Valadares aprovou em votação encerrada em 13/09.",
+        "No universo temporal de 20 bases, a composição institucional é 14 Contraf-CUT, 3 FNB e 3 CONTEC. FNB não é FNOB."
       ],
       "last_verified_milestone_commit": "9b6b3b46e033bec5f6e6856738d6be95637b5afd",
       "last_verified_milestone_message": "WhatsApp ACT BB: conclui fases e libera estratégia",
-      "next_step": "RETOMAR A FRENTE EDITORIAL DO ARTIGO DA PLR SOMENTE QUANDO SOLICITADO; O PRÓXIMO GATE DA ESTRATÉGIA-MÃE CONTINUA SENDO A BUSCA/INCORPORAÇÃO DE MANIFESTAÇÃO DO BANCO DO BRASIL ANTES DA PUBLICAÇÃO.",
+      "next_step": "ENVIAR A SOLICITAÇÃO ATUALIZADA DE MANIFESTAÇÃO AO BANCO DO BRASIL, pedindo confirmação nominal das 20 bases, quantitativo de empregados fora do crédito e situação específica de Ponte Nova e Governador Valadares; depois incorporar a resposta ou registrar ausência de manifestação antes da publicação.",
       "do_not_do": [
         "não concluir que houve retaliação ou ilicitude como fato antes de fechar a cadeia documental",
         "não confundir participação individual em greve com critério coletivo por base sindical",
@@ -124,8 +127,10 @@
         "não tratar informação de imprensa sindical como substituta de documento primário quando o documento puder ser localizado",
         "não transformar ausência de localização pública do ACT-PLR 2026 em afirmação de inexistência do instrumento",
         "não voltar a afirmar FNOB como se fosse a federação de RN, Maranhão e Bauru; a federação registrada em 2026 é a FNB",
-        "não publicar antes da busca razoável de manifestação do Banco do Brasil e da auditoria final do rascunho"
-      ]
+        "não publicar antes da busca razoável de manifestação do Banco do Brasil e da auditoria final do rascunho",
+        "não equiparar automaticamente as 20 bases do marco temporal às bases efetivamente sem crédito de PLR"
+      ],
+      "audit_bases_status": "UNIVERSO TEMPORAL: 20 bases reconstruídas no marco das 14h de 11/09. IMPACTO DE PLR: pelo menos 18 bases com não pagamento/adiamento já documentado; Ponte Nova e Governador Valadares pendem de confirmação individual/oficial sobre o crédito de 16/09."
     },
     {
       "id": "WHATSAPP-ACT-BB-18-BASES-2026",
