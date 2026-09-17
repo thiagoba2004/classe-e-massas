@@ -2,7 +2,7 @@
 
 **strategy_id:** `STRAT-CEM-20260917-002`  
 **parent_strategy_id:** `STRAT-CEM-20260917-001`  
-**status:** EM FECHAMENTO  
+**status:** CONCLUÍDA  
 **data:** 17/09/2026
 
 ## Objetivo
@@ -11,9 +11,9 @@ Migrar de forma controlada o `AGENTS.md` do projeto Classe e Massas para a ordem
 
 ## Escopo
 
-Esta estratégia abrange exclusivamente a migração de governança do `AGENTS.md` e a sincronização mínima dos registros de estado necessários para comprovar a migração.
+Esta estratégia abrangeu exclusivamente a migração de governança do `AGENTS.md` e a sincronização mínima dos registros de estado necessários para comprovar a migração.
 
-Ficam fora do escopo:
+Ficaram fora do escopo:
 
 - inventário/backfill geral das demais Estratégias Autônomas do Classe e Massas;
 - alteração de conteúdo editorial, jurídico, sindical ou de tradução;
@@ -48,24 +48,28 @@ Ficam fora do escopo:
 
 ## FASE FINAL — Fechamento
 
-**Estado:** EM EXECUÇÃO
+**Estado:** CONCLUÍDA
 
-**Objetivo:** atualizar `PROJECT_STATE.json`, `STRATEGY_LOG.jsonl` e `REQUEST_LOG.jsonl`, registrar o resultado e encerrar `STRAT-CEM-20260917-002`.
+**Gate atingido:** `PROJECT_STATE.json`, `STRATEGY_LOG.jsonl` e `REQUEST_LOG.jsonl` sincronizados; evento `CONCLUDED` registrado; pedido `REQ-20260917-015` encerrado; estado final reconstruível sem depender do chat.
 
-**Gate:** estado reconstruível sem depender do chat e próximo passo lógico registrado.
-
-## Resultado material já alcançado
+## Resultado final
 
 - `AGENTS.md` vigente: **v1.9**;
 - kernel de origem: **1.2**;
 - versão anterior: preservada no histórico Git;
 - alteração do projeto-alvo: realizada e verificada remotamente;
+- `STRAT-CEM-20260917-002`: **CONCLUÍDA**;
+- `REQ-20260917-015`: **CONCLUÍDO**;
 - backfill geral de outras estratégias: **não executado**, por estar fora do escopo.
 
-## Regras de segurança da migração
+## Próximo passo lógico
+
+Nenhum passo permanece pendente nesta estratégia. A próxima frente de governança possível é o **inventário e backfill progressivo das demais Estratégias Autônomas do Classe e Massas**, que deve ser aberto como Estratégia Autônoma separada se aprovado.
+
+## Regras de segurança preservadas
 
 1. A versão v1.8 permanece recuperável pelo histórico Git.
-2. Nenhuma regra local mais rigorosa foi declarada revogada apenas por não constar do kernel universal.
-3. A migração não autoriza o backfill geral das demais estratégias do projeto.
+2. Nenhuma regra local mais rigorosa foi revogada apenas por não constar do kernel universal.
+3. A migração não autorizou o backfill geral das demais estratégias do projeto.
 4. Alterações foram registradas e verificadas no remoto.
 5. “Auditado”, “salvo”, “versionado”, “enviado ao remoto” e “concluído” permanecem estados distintos.
