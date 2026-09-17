@@ -1,6 +1,6 @@
 # Mensagem de WhatsApp — bases que não haviam assinado o ACT BB 2026/2028 até 14h de 11/09/2026
 
-**Status:** RASCUNHO CONSOLIDADO — AGUARDANDO AUDITORIA FINAL  
+**Status:** AUDITADO — PRONTO PARA CIRCULAÇÃO  
 **Estratégia:** `WHATSAPP-ACT-BB-18-BASES-2026`  
 **Plano:** `editorial/documentos/estrategia-whatsapp-18-bases-act-bb-2026.md`  
 **Data:** 17/09/2026
@@ -11,9 +11,11 @@
 
 *BASES SINDICAIS QUE NÃO ASSINARAM O ACT 2026/2028 ATÉ 14:00 DO DIA 11/09.*
 
-**ACT = Acordo Coletivo de Trabalho.**
+**Acordo Coletivo de Trabalho (ACT). Banco do Brasil (BB). Central Única dos Trabalhadores (CUT).**
 
 A classificação abaixo segue uma metodologia única: **Sindicato > Federação > Confederação/estrutura nacional de assinatura**.
+
+*Siglas estaduais usadas:* BA = Bahia; SE = Sergipe; CE = Ceará; ES = Espírito Santo; PA = Pará; RJ = Rio de Janeiro; RS = Rio Grande do Sul; SP = São Paulo; MS = Mato Grosso do Sul; RN = Rio Grande do Norte; MA = Maranhão.
 
 🏦 *CONFEDERAÇÃO NACIONAL DOS TRABALHADORES DO RAMO FINANCEIRO DA CUT (CONTRAF-CUT) — 14 BASES*
 
@@ -114,3 +116,4 @@ A FNB foi formada em 2026 pelos sindicatos do Rio Grande do Norte, Maranhão e B
 3. **Guaratinguetá:** edital oficial comprova votação em 15/09; resultado individual não localizado. Não importar o percentual de Franca.
 4. **FNB x FNOB:** FNB = Federação Nacional dos Bancários, formada em 2026 por RN, Maranhão e Bauru; FNOB = Frente Nacional de Oposição Bancária, articulação política anterior.
 5. **FEEB-SP/MS:** mesma federação contém sindicatos vinculados a cadeias nacionais distintas; classificar pelo sindicato concreto, não por inferência a partir da federação.
+6. **Auditoria de siglas:** ACT, BB, CUT, Contraf-CUT, FEEB-BA/SE, FETRAFI/NE, SINTRAFI-Cariri, Fetraf RJ/ES, FETEC-CUT/CN, FETRAFI-RS, FEEB-SP/MS, FNB, CONTEC e FNOB foram desenvolvidas ao menos uma vez no texto; as abreviações estaduais foram explicitadas em bloco próprio.
