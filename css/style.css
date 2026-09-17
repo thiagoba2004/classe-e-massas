@@ -25,6 +25,16 @@ footer{border-top:1px solid #222;padding:30px 24px;text-align:center;font:.75rem
 .button.secondary{background:transparent;color:#111}
 .button.secondary:hover,.button.secondary:focus-visible{background:#111;color:#fff}
 
+.nav-item{position:relative;display:inline-flex;align-items:center}
+.nav-item .nav-main-link{padding-right:4px}
+.nav-submenu-toggle{border:0;background:transparent;color:#111;font:900 .85rem Arial,sans-serif;padding:8px 8px 8px 3px;cursor:pointer;line-height:1}
+.nav-submenu-toggle:focus-visible{outline:2px solid #111;outline-offset:2px}
+.nav-submenu{display:none;position:absolute;top:100%;left:0;z-index:1000;min-width:245px;background:#f5f1e8;border:1px solid #111;box-shadow:0 8px 20px rgba(0,0,0,.12);padding:6px}
+.nav-submenu a{display:block;padding:10px 12px;border-bottom:1px solid rgba(17,17,17,.18);white-space:nowrap;text-transform:none;letter-spacing:0}
+.nav-submenu a:last-child{border-bottom:0}
+.nav-submenu a:hover,.nav-submenu a:focus-visible{background:#111;color:#f5f1e8}
+.nav-item-has-submenu.open .nav-submenu,.nav-item-has-submenu:focus-within .nav-submenu{display:block}
+
 .library-main{max-width:1060px}
 .library-hero{padding-bottom:34px;border-bottom:8px solid #111;margin-bottom:42px}
 .library-intro{font-size:1.12rem;max-width:850px}
@@ -73,6 +83,10 @@ footer{border-top:1px solid #222;padding:30px 24px;text-align:center;font:.75rem
   .bar{padding:15px 18px;align-items:flex-start;flex-direction:column;gap:10px}
   .global-nav{justify-content:flex-start;width:100%;gap:4px}
   .global-nav a{padding:7px 8px}
+  .nav-item{display:flex;flex-wrap:wrap}
+  .nav-submenu-toggle{padding:7px 8px 7px 2px}
+  .nav-submenu{position:static;flex-basis:100%;min-width:0;width:100%;box-shadow:none;margin:2px 0 6px;padding:4px}
+  .nav-submenu a{white-space:normal;padding:9px 10px}
   .theorist-heading{gap:10px}
   .theorist-name{font-size:2.45rem}
   .theorist-rank{margin-top:4px}

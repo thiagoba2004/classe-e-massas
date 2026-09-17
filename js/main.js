@@ -37,8 +37,55 @@ document.documentElement.classList.add("js");
     nav.classList.add("global-nav");
     nav.innerHTML = items.map(item => {
       const current = item.section === currentSection ? ' aria-current="page"' : "";
+
+      if (item.section === "noticias") {
+        return `
+          <div class="nav-item nav-item-has-submenu">
+            <a class="nav-main-link" href="${item.href}"${current}>${item.label}</a>
+            <button class="nav-submenu-toggle" type="button" aria-expanded="false" aria-controls="submenu-noticias" aria-label="Abrir submenu de Notícias">▾</button>
+            <div class="nav-submenu" id="submenu-noticias">
+              <a href="${item.href}">Todas as notícias</a>
+              <a href="${base}fale-conosco/">Participe da pauta</a>
+              <a href="${base}editorial/documentos/01_Diretriz_Canonica_Linha_Editorial_Noticias.html">Linha editorial</a>
+              <a href="${base}noticias/principio-sintese.html">Princípio síntese</a>
+            </div>
+          </div>`;
+      }
+
       return `<a href="${item.href}"${current}>${item.label}</a>`;
     }).join("");
+
+    const newsMenu = nav.querySelector(".nav-item-has-submenu");
+    const newsToggle = nav.querySelector(".nav-submenu-toggle");
+
+    const closeNewsMenu = () => {
+      if (!newsMenu || !newsToggle) return;
+      newsMenu.classList.remove("open");
+      newsToggle.setAttribute("aria-expanded", "false");
+    };
+
+    if (newsMenu && newsToggle) {
+      newsToggle.addEventListener("click", event => {
+        event.stopPropagation();
+        const willOpen = !newsMenu.classList.contains("open");
+        closeNewsMenu();
+        if (willOpen) {
+          newsMenu.classList.add("open");
+          newsToggle.setAttribute("aria-expanded", "true");
+        }
+      });
+
+      newsMenu.addEventListener("keydown", event => {
+        if (event.key === "Escape") {
+          closeNewsMenu();
+          newsMenu.querySelector(".nav-main-link")?.focus();
+        }
+      });
+
+      document.addEventListener("click", event => {
+        if (!newsMenu.contains(event.target)) closeNewsMenu();
+      });
+    }
   }
 
   const portugueseVersions = new Map([
