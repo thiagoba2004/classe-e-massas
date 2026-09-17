@@ -1,0 +1,97 @@
+{
+  "project_id": "classe-e-massas",
+  "generated_at": "2026-09-17",
+  "source_of_truth": "STRATEGY_LOG.jsonl",
+  "purpose": "Mapa corrente reconstruível das Estratégias Autônomas já comprovadas. Não substitui o histórico append-only do STRATEGY_LOG.jsonl nem os arquivos canônicos de cada frente.",
+  "strategies": [
+    {
+      "strategy_id": "STRAT-CEM-20260917-001",
+      "name": "Governança e continuidade documental do Classe e Massas",
+      "status": "EM_EXECUCAO",
+      "last_event_id": "STEV-CEM-20260917-003",
+      "canonical_refs": ["AGENTS.md", "REQUEST_LOG.jsonl", "STRATEGY_LOG.jsonl"]
+    },
+    {
+      "strategy_id": "STRAT-CEM-20260917-002",
+      "name": "Migração de governança do Classe e Massas para o kernel 1.2",
+      "status": "CONCLUIDO",
+      "last_event_id": "STEV-CEM-20260917-007",
+      "canonical_refs": ["AGENTS.md", "governanca/estrategia-migracao-agents-kernel-1.2.md"]
+    },
+    {
+      "strategy_id": "STRAT-CEM-20260917-003",
+      "name": "Inventário e backfill progressivo das Estratégias Autônomas históricas do Classe e Massas",
+      "status": "EM_EXECUCAO",
+      "last_event_id": "STEV-CEM-20260917-008",
+      "canonical_refs": ["governanca/estrategia-backfill-estrategias-autonomas.md", "governanca/inventario-backfill-estrategias-autonomas-2026-09-17.md"]
+    },
+    {
+      "strategy_id": "STRAT-CEM-20260917-004",
+      "legacy_object_id": "TCM-001",
+      "name": "TCM-001 — História da Crise Mundial",
+      "status": "EM_EXECUCAO",
+      "last_event_id": "STEV-CEM-20260917-009",
+      "event_type": "BACKFILLED",
+      "current_phase": "REVISÃO HUMANA INTEGRAL — Conferência 03 em revisão",
+      "canonical_refs": [
+        "biblioteca/traducoes/projetos/001-traducao.md",
+        "biblioteca/traducoes/projetos/001-revisao-humana.md",
+        "PROJECT_STATE.json:TCM-001"
+      ]
+    },
+    {
+      "strategy_id": "STRAT-CEM-20260917-005",
+      "legacy_object_id": "DOS-PLR-BB-2026",
+      "name": "DOS-PLR-BB-2026 — PLR do Banco do Brasil",
+      "status": "EM_EXECUCAO",
+      "last_event_id": "STEV-CEM-20260917-010",
+      "event_type": "BACKFILLED",
+      "current_phase": "REVISÃO EDITORIAL / DIREITO DE RESPOSTA",
+      "canonical_refs": [
+        "editorial/documentos/dossie-plr-bb-2026.md",
+        "editorial/documentos/rascunho-artigo-plr-bb-18-bases-2026.md",
+        "PROJECT_STATE.json:DOS-PLR-BB-2026"
+      ]
+    },
+    {
+      "strategy_id": "STRAT-CEM-20260917-006",
+      "legacy_object_id": "WHATSAPP-ACT-BB-18-BASES-2026",
+      "name": "WHATSAPP-ACT-BB-18-BASES-2026",
+      "status": "CONCLUIDO",
+      "last_event_id": "STEV-CEM-20260917-011",
+      "event_type": "BACKFILLED",
+      "current_phase": "FASE 6 — auditoria final e liberação para circulação — concluída",
+      "parent_strategy_id": "STRAT-CEM-20260917-005",
+      "canonical_refs": [
+        "editorial/documentos/estrategia-whatsapp-18-bases-act-bb-2026.md",
+        "editorial/documentos/mensagem-whatsapp-bases-act-bb-2026.md",
+        "PROJECT_STATE.json:WHATSAPP-ACT-BB-18-BASES-2026"
+      ]
+    },
+    {
+      "strategy_id": "STRAT-CEM-20260917-007",
+      "name": "Refundação e implantação do Observatório Classe e Massas",
+      "status": "EM_EXECUCAO",
+      "last_event_id": "STEV-CEM-20260917-012",
+      "event_type": "BACKFILLED",
+      "current_phase": "FASE 1 — Piloto bancário; Fase 2 em preparação",
+      "canonical_refs": [
+        "observatorio/documentos/00_Observatorio_Classe_e_Massas_Refundacao_Identidade.md",
+        "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md"
+      ]
+    }
+  ],
+  "pending_evidence_groups": [
+    "MPT — modelos, guia e notas jurídicas",
+    "LAI — conjunto de pedidos e páginas institucionais",
+    "artigos individuais de 2026",
+    "diretriz editorial de notícias",
+    "documentos bancários históricos anteriores à refundação do Observatório",
+    "ferramentas e automações"
+  ],
+  "rules": {
+    "backfill_requires_persistent_evidence": true,
+    "current_object_state_is_not_changed_by_backfill": true,
+    "concluded_strategies_are_not_reopened_by_backfill": true
+  }
+}
