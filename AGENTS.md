@@ -2,7 +2,7 @@
 
 **Projeto:** Classe e Massas  
 **Status:** CANÔNICO  
-**Versão:** 1.4  
+**Versão:** 1.5  
 **Data:** 17/09/2026  
 **Escopo:** todo modelo de IA, agente, assistente ou automação que trabalhe neste repositório ou em seus documentos derivados.
 
@@ -774,6 +774,28 @@ Quando registrado, deverá indicar, sempre que possível, o arquivo ou mecanismo
 
 A mera afirmação de que algo foi “anotado” não substitui a verificação técnica exigida por este protocolo.
 
+### 24.14. Confirmação imediata antes de processamento potencialmente demorado
+
+Ao receber um novo prompt do usuário que exija leitura atenta, análise, pesquisa, consulta a arquivos, uso de ferramentas, comparação documental, edição, execução em múltiplas etapas ou qualquer outro processamento que possa produzir um período perceptível de silêncio, o agente deverá **responder imediatamente antes de iniciar esse processamento**.
+
+A mensagem inicial deverá ser curta, clara e operacional. Deve informar, no mínimo, que:
+
+1. o prompt foi recebido;
+2. o agente vai **ler e analisar o prompt**;
+3. o agente vai **tomar as providências necessárias** para executar a solicitação.
+
+Quando pertinente, a mensagem poderá também indicar a estratégia, a fase ou o estado de registro naquele instante, mas não deverá transformar-se em relatório longo antes do trabalho.
+
+Exemplo mínimo aceitável:
+
+> **Vou ler e analisar o seu prompt e, em seguida, tomar as providências necessárias para executar a solicitação.**
+
+O objetivo desta regra é impedir que o silêncio operacional seja interpretado como travamento, perda da solicitação ou interrupção do Modelo de IA.
+
+Essa confirmação deve ocorrer **antes de chamadas de ferramentas ou de processamento demorado que possam atrasar a primeira resposta visível ao usuário**. Ela não substitui o registro estratégico, os checkpoints, a persistência progressiva nem a obrigação de informar o estado do registro nas pausas posteriores.
+
+Para solicitações triviais que possam ser respondidas integralmente de forma imediata, sem etapa perceptível de processamento, essa confirmação separada não é obrigatória.
+
 ---
 
 ## 25. Histórico de versões
@@ -784,3 +806,4 @@ A mera afirmação de que algo foi “anotado” não substitui a verificação 
 | 1.2 | 16/09/2026 | Instituição da vinculação estratégica obrigatória antes de qualquer tarefa ou ação, com referência ao planejamento por fases, fase atual, objetivo/entrega/gate, dependências e próximo passo lógico. |
 | 1.3 | 16/09/2026 | Torna obrigatório o registro persistente e auditável de toda estratégia antes de qualquer tarefa substantiva; estabelece a barreira “sem registro, não executar” e define o `PROJECT_STATE.json` como registro mínimo padrão para frentes ativas. |
 | 1.4 | 17/09/2026 | Torna explícitos o Plano de Fases para toda estratégia autônoma, o desenvolvimento obrigatório de siglas, a cadeia Sindicato > Federação > Confederação e a informação de registro em toda pausa/checkpoint. |
+| 1.5 | 17/09/2026 | Institui confirmação imediata de recebimento antes de processamento potencialmente demorado, para evitar a percepção de travamento durante leitura, análise ou uso de ferramentas. |
