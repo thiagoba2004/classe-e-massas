@@ -51,6 +51,15 @@
       "area": "Editorial / Pesquisa documental / Banco do Brasil",
       "title": "PLR do Banco do Brasil em 16/09/2026 — assembleias, instrumentos coletivos e tratamento entre bases sindicais",
       "status": "EM PESQUISA",
+      "strategy_status": "REGISTRADA",
+      "strategy": "Publicar um artigo no Classe e Massas sobre a antecipação da PLR do Banco do Brasil em 16/09/2026 e as 18 bases sindicais que ficaram sem o crédito.",
+      "planning_phase": "FUNDAMENTAÇÃO FINAL ANTES DA REDAÇÃO",
+      "phase_objective": "Consolidar o material já preservado no dossiê, fechar apenas as lacunas indispensáveis e então redigir o artigo.",
+      "gate_before_drafting": [
+        "consolidar documentalmente as 18 bases não contempladas",
+        "tentar localizar o ACT-PLR BB 2026/2027 e os termos de adesão de 2026",
+        "consolidar a origem documental das regras de 72 horas, corte em 11/09 e pagamento somente em 2027"
+      ],
       "persistence_status": "DOSSIÊ CANÔNICO E ANEXOS DE PESQUISA ATUALIZADOS E VERSIONADOS NO GITHUB",
       "canonical_file": "editorial/documentos/dossie-plr-bb-2026.md",
       "supporting_files": [
@@ -79,7 +88,7 @@
       ],
       "last_verified_milestone_commit": "013ef77771a2209540c6a8a7cab732b1773d1ed1",
       "last_verified_milestone_message": "Pesquisa PLR BB: corrige conceito de acordo aditivo como ACT",
-      "next_step": "RECONSTRUIR A TRILHA DE DISTRIBUIÇÃO DA MINUTA DO ACT DE 04/09 E VERIFICAR SE HOUVE NOVA VERSÃO DO ACT APÓS 08/09; EM PARALELO LOCALIZAR ACT-PLR 2026/2027, CCT-PLR 2026/2027 E TERMOS DE ADESÃO 2026",
+      "next_step": "AUDITAR AS 18 BASES CONTRA O MATERIAL JÁ COLETADO, IDENTIFICANDO PARA CADA UMA PROVA DO NÃO PAGAMENTO, DATA DE APROVAÇÃO/COMUNICAÇÃO/FORMALIZAÇÃO QUANDO CONHECIDA E FONTE; SÓ DEPOIS DECIDIR SE RESTA PESQUISA CIRÚRGICA OU SE O ARTIGO JÁ PODE SER REDIGIDO",
       "do_not_do": [
         "não concluir que houve retaliação ou ilicitude antes de fechar a cadeia documental",
         "não confundir participação individual em greve com critério coletivo por base sindical",
