@@ -1,7 +1,7 @@
 # Estratégia autônoma — WhatsApp: bases que não haviam assinado o ACT BB 2026/2028 até 14h de 11/09/2026
 
 **Projeto:** Classe e Massas  
-**Status:** EM EXECUÇÃO  
+**Status:** EM EXECUÇÃO — CONSOLIDAÇÃO  
 **Criada em:** 17/09/2026  
 **Atualizada em:** 17/09/2026  
 **Natureza:** estratégia autônoma de pesquisa documental e divulgação em WhatsApp  
@@ -39,21 +39,16 @@ Bahia; Camaçari; Extremo Sul da Bahia; Feira de Santana e Região; Ilhéus e Re
 **Gate:** estratégia autônoma persistida com objetivo, universo, metodologia e plano de fases.
 
 ### Fase 2 — Auditoria institucional
-**Estado:** EM EXECUÇÃO  
-**Objetivo:** confirmar para as 18 bases a cadeia Sindicato > Federação > Confederação, distinguindo filiação formal de mera participação negocial.
+**Estado:** CONCLUÍDA COM RESSALVA METODOLÓGICA  
+**Resultado:** as 18 bases foram classificadas pela cadeia Sindicato > Federação > Confederação/estrutura nacional de assinatura. Para RN, Maranhão e Bauru, a fonte contemporânea confirma a Federação Nacional dos Bancários (FNB), sem confederação superior identificada nas fontes pesquisadas.
 
 ### Fase 3 — Auditoria cronológica das assembleias
-**Estado:** EM EXECUÇÃO — 15/18 FECHADAS; 3 COM RESSALVA  
-**Objetivo:** confirmar a data da assembleia que efetivamente aprovou o ACT em cada uma das 18 bases.
-
-**Pendências prioritárias após busca dirigida em 17/09/2026:**
-- Angra dos Reis/RJ — não foi localizada assembleia posterior que tenha aprovado o ACT; a última situação pública localizada continua sendo a rejeição e manutenção da mobilização. Registrar a lacuna se nova fonte não surgir;
-- Guaratinguetá/SP — comprovada votação conjunta com Franca em 15/09/2026, das 16h às 23h, mas não foi localizada publicação individual do resultado de Guaratinguetá. Não importar automaticamente para Guaratinguetá o percentual divulgado por Franca;
-- Santana do Livramento/RS — comprovado edital para assembleia de 10/09/2026 e votação digital até 12h de 11/09, mas resultado individual e eventual assembleia posterior de aprovação não foram localizados em fonte pública.
+**Estado:** CONCLUÍDA COM RESSALVAS DOCUMENTAIS  
+**Resultado:** 15 bases possuem data de aprovação confirmada; Santana do Livramento e Angra dos Reis permanecem sem data pública de aprovação localizada; Guaratinguetá possui assembleia/votação de 15/09 comprovada, mas o resultado individual não foi localizado em publicação textual.
 
 ### Fase 4 — Consolidação da matriz probatória
-**Estado:** EM PREPARAÇÃO  
-**Gate:** cada linha das 18 bases terá, no mínimo, fonte para vínculo institucional e fonte para data/resultado da assembleia, ou ressalva expressa de lacuna.
+**Estado:** EM EXECUÇÃO  
+**Gate:** cada linha das 18 bases terá fonte para vínculo institucional e fonte para data/resultado da assembleia, ou ressalva expressa de lacuna.
 
 ### Fase 5 — Redação do texto para WhatsApp
 **Estado:** NÃO INICIADA  
@@ -63,7 +58,46 @@ Bahia; Camaçari; Extremo Sul da Bahia; Feira de Santana e Região; Ilhéus e Re
 **Estado:** NÃO INICIADA  
 **Gate:** conferir total de 18 bases, coerência da hierarquia institucional, datas, siglas, fontes e ausência de inferências apresentadas como fatos.
 
-## Achados cronológicos consolidados — 17/09/2026
+## Matriz institucional consolidada
+
+A classificação abaixo usa a cadeia **Sindicato > Federação > Confederação/estrutura nacional de assinatura**, sem presumir que todos os sindicatos de uma mesma federação pertençam à mesma confederação.
+
+| Base | Sindicato | Federação | Confederação / estrutura nacional |
+|---|---|---|---|
+| Bahia | Sindicato dos Bancários da Bahia | Federação dos Empregados em Estabelecimentos Bancários dos Estados da Bahia e Sergipe (FEEB-BA/SE) | Confederação Nacional dos Trabalhadores do Ramo Financeiro da CUT (Contraf-CUT) |
+| Camaçari | Sindicato dos Bancários de Camaçari | FEEB-BA/SE | Contraf-CUT |
+| Extremo Sul da Bahia | Sindicato dos Bancários do Extremo Sul da Bahia | FEEB-BA/SE | Contraf-CUT |
+| Feira de Santana e Região | Sindicato dos Bancários de Feira de Santana e Região | FEEB-BA/SE | Contraf-CUT |
+| Ilhéus e Região | Sindicato dos Bancários de Ilhéus e Região | FEEB-BA/SE | Contraf-CUT |
+| Irecê e Região | Sindicato dos Bancários de Irecê e Região | FEEB-BA/SE | Contraf-CUT |
+| Juazeiro e Região | Sindicato dos Bancários de Juazeiro e Região | FEEB-BA/SE | Contraf-CUT |
+| Oeste da Bahia | Sindicato dos Bancários do Oeste da Bahia | FEEB-BA/SE | Contraf-CUT |
+| Cariri | Sindicato dos Trabalhadores do Ramo Financeiro do Cariri (SINTRAFI-Cariri) | Federação dos Trabalhadores do Ramo Financeiro do Nordeste (FETRAFI/NE) | Contraf-CUT |
+| Espírito Santo | Sindicato dos Bancários do Espírito Santo | Federação dos Trabalhadores do Ramo Financeiro dos Estados do Rio de Janeiro e Espírito Santo (Fetraf RJ/ES) | Contraf-CUT |
+| Pará | Sindicato dos Bancários do Pará | Federação dos Trabalhadores em Empresas de Crédito do Centro-Norte (FETEC-CUT/CN) | Contraf-CUT |
+| Santana do Livramento | Sindicato dos Empregados em Estabelecimentos Bancários de Santana do Livramento | Federação dos Trabalhadores e Trabalhadoras em Instituições Financeiras do Rio Grande do Sul (FETRAFI-RS) | Contraf-CUT — cadeia negocial documentada nos instrumentos nacionais |
+| Angra dos Reis e Região | Sindicato dos Bancários de Angra dos Reis e Região | Fetraf RJ/ES | Contraf-CUT |
+| Guaratinguetá e Região | Sindicato dos Bancários de Guaratinguetá e Região | Federação dos Empregados em Estabelecimentos Bancários dos Estados de São Paulo e Mato Grosso do Sul (FEEB-SP/MS) | Contraf-CUT — Guaratinguetá integra o conjunto da FEEB-SP/MS que assina acordos nacionais com a Contraf-CUT |
+| Rio Grande do Norte | Sindicato dos Bancários do Rio Grande do Norte | Federação Nacional dos Bancários (FNB) | Confederação superior não identificada nas fontes pesquisadas |
+| Maranhão | Sindicato dos Bancários do Maranhão | FNB | Confederação superior não identificada nas fontes pesquisadas |
+| Bauru e Região | Sindicato dos Bancários e Financiários de Bauru e Região | FNB | Confederação superior não identificada nas fontes pesquisadas |
+| Franca e Região | Sindicato dos Bancários de Franca e Região | FEEB-SP/MS | Confederação Nacional dos Trabalhadores nas Empresas de Crédito (CONTEC) — em 2026 o sindicato encaminhou o resultado do ACT do BB à CONTEC, que assinaria o acordo pela entidade |
+
+### Síntese por estrutura nacional
+
+- **Contraf-CUT:** 14 bases.
+- **Federação Nacional dos Bancários (FNB):** 3 bases — RN, Maranhão e Bauru; sem confederação superior confirmada nas fontes consultadas.
+- **CONTEC:** 1 base — Franca.
+- **Total:** 18 bases.
+
+### Nota indispensável sobre FNB e FNOB
+
+Não confundir:
+
+- **Federação Nacional dos Bancários (FNB)** — entidade anunciada/formada em 2026 pelos sindicatos do Rio Grande do Norte, Maranhão e Bauru;
+- **Frente Nacional de Oposição Bancária (FNOB)** — articulação política anterior, que não deve ser usada como se fosse o nome da federação criada em 2026.
+
+## Matriz cronológica consolidada
 
 | Base | Data da assembleia que aprovou o ACT | Situação |
 |---|---:|---|
@@ -79,22 +113,26 @@ Bahia; Camaçari; Extremo Sul da Bahia; Feira de Santana e Região; Ilhéus e Re
 | Espírito Santo | 13/09/2026 | confirmada; 76% de aprovação |
 | Pará | 11/09/2026 | confirmada; votação realizada à noite, após nova convocação, e resultado publicado em 12/09 com 59,6% de aprovação |
 | Santana do Livramento | não localizada | edital comprova assembleia/votação 10–11/09, mas não o resultado individual nem eventual aprovação posterior |
-| Angra dos Reis | não localizada | rejeição anterior confirmada; aprovação posterior não localizada até 17/09 |
-| Guaratinguetá | 15/09/2026 — votação comprovada; resultado individual não localizado | portal VotaBem identifica votação conjunta Guaratinguetá e Franca; não usar percentual de Franca como resultado individual de Guaratinguetá |
+| Angra dos Reis | não localizada | rejeição do ACT do BB em 03–04/09 confirmada; aprovação posterior não localizada até 17/09 |
+| Guaratinguetá | 15/09/2026 — assembleia/votação comprovada; resultado individual não localizado | edital oficial comprova votação; não usar o percentual de Franca como resultado individual de Guaratinguetá |
 | Rio Grande do Norte | 11/09/2026 | confirmada por fonte oficial do SEEB/RN |
 | Maranhão | 11/09/2026 | confirmada pelo SEEB/MA e por fonte cruzada do SEEB/RN |
 | Bauru e Região | 11/09/2026 | confirmada por fonte oficial cruzada do SEEB/RN |
 | Franca e Região | 15/09/2026 | confirmada; 89,24% de aprovação |
 
-## Achados institucionais consolidados
+## Fontes-chave da auditoria institucional
 
-- A entidade constituída em 2026 pelos sindicatos do Rio Grande do Norte, Maranhão e Bauru é a **Federação Nacional dos Bancários (FNB)**. Não usar `FNOB` como se fosse a federação: **Frente Nacional de Oposição Bancária (FNOB)** é a articulação política anterior; em julho de 2026, esses sindicatos anunciaram a construção/formação da FNB.
-- Guaratinguetá e Franca são sindicatos filiados à **Federação dos Empregados em Estabelecimentos Bancários dos Estados de São Paulo e Mato Grosso do Sul (FEEB-SP/MS)**, mas a federação participa de mais de uma cadeia negocial nacional. Guaratinguetá aparece entre as bases da FEEB-SP/MS que assinam acordos junto com a **Confederação Nacional dos Trabalhadores do Ramo Financeiro da CUT (Contraf-CUT)**; Franca, no ciclo de 2026, encaminhou o resultado do ACT do BB à **Confederação Nacional dos Trabalhadores nas Empresas de Crédito (CONTEC)**. Não classificar toda a FEEB-SP/MS em uma única confederação sem olhar o sindicato concreto.
-- Santana do Livramento aparece na estrutura da **Federação dos Trabalhadores e Trabalhadoras em Instituições Financeiras do Rio Grande do Sul (FETRAFI-RS)** e, nos instrumentos coletivos nacionais, integra a cadeia de representação da Contraf-CUT.
-- Angra dos Reis integra a **Federação dos Trabalhadores do Ramo Financeiro dos Estados do Rio de Janeiro e Espírito Santo (FETRAFI RJ/ES)**, na cadeia de representação da Contraf-CUT.
-- Cariri informa em seu próprio portal a cadeia **Sindicato dos Trabalhadores do Ramo Financeiro do Cariri > FETRAFI/NE > Contraf-CUT**.
+- FEEB BA/SE — orientação às bases filiadas no campo Contraf-CUT: `https://feebbase.com.br/site/imagem-destaque/perguntas-e-respostas-sobre-as-assembleias-dos-bancarios`
+- SINTRAFI-Cariri — página institucional exibe `SINTRAFI-CARIRI / FETRAFI/NE / CONTRAF/CUT`: `https://www.sintraficariri.com.br/`
+- Fetraf RJ/ES — relação oficial de sindicatos filiados, incluindo Angra e Espírito Santo: `https://fetrafrjes.org.br/sindicatos-filiados/`
+- Pará — atuação conjunta Sindicato / FETEC-CUT/CN / Contraf-CUT: `https://bancariospa.org.br/cn-2026-em-belem-bancarios-e-bancarias-do-para-integram-dia-nacional-de-mobilizacao-por-emprego-denunciam-desmonte-e-cobram-seguranca-e-atendimento-digno/`
+- FEEB-SP/MS — relação de sindicatos filiados, incluindo Guaratinguetá e Franca: `https://feeb-spms.org.br/institucional/`
+- Contraf-CUT — Guaratinguetá entre as bases da FEEB-SP/MS que assinam acordos junto com a Contraf-CUT: `https://contrafcut.com.br/noticias/dirigentes-da-base-da-feeb-sp-ms-fazem-o-curso-de-formacao-da-contraf-cut/`
+- Franca — resultado do ACT encaminhado à CONTEC para assinatura: `https://bancariosfranca.com.br/2026/09/16/assembleia-banco-do-brasil-proposta-e-aprovada-e-greve-esta-encerrada/`
+- Santana do Livramento — instrumentos nacionais registram representação via FETRAFI-RS e cadeia Contraf: `https://www.bancariosrs.com.br/files/acordosEConvencoes/act_bb_plr_2024_2025-20240918_003321-356557.pdf`
+- FNB — SEEB/RN: `https://www.bancariosrn.org.br/noticias.php?id=121`; SEEB/MA: `https://www.bancariosma.org.br/paginas/noticias.asp?p=19538`
 
-## Fontes-chave incorporadas nesta rodada
+## Fontes-chave da auditoria cronológica
 
 - FEEB BA/SE — resultados das oito assembleias de 13/09/2026: `https://feebbase.com.br/site/index.php/destaques/funcionarios-do-bb-aprovam-acordo-apos-plenaria-e-novas-assembleias`
 - Sindibancários/ES — aprovação em 13/09/2026: `https://novo.bancarios-es.org.br/bancarios-do-bb-aprovam-proposta-de-act-e-encerram-greve-no-es/`
@@ -103,10 +141,10 @@ Bahia; Camaçari; Extremo Sul da Bahia; Feira de Santana e Região; Ilhéus e Re
 - SEEB/RN — aprovação em 11/09 por RN, Maranhão e Bauru e comunicação ao BB: `https://www.bancariosrn.org.br/noticias.php?id=137`
 - SEEB/MA — confirmação da aprovação do BB em 11/09: `https://bancariosma.org.br/paginas/noticias.asp?p=19616`
 - Franca — aprovação em 15/09, 89,24%: `https://bancariosfranca.com.br/2026/09/16/assembleia-banco-do-brasil-proposta-e-aprovada-e-greve-esta-encerrada/`
-- Guaratinguetá/Franca — votação conjunta no VotaBem em 15/09, 16h–23h: `https://bancarios.votabem.com.br/votacoes`
+- Guaratinguetá — edital oficial da assembleia do BB de 15/09: `https://www.bancariosgta.com.br/noticias/1973`
 - Santana do Livramento — edital coletivo do BB 10–11/09: `https://www.bancarioserechim.com.br/noticias/detalhes/edital-bb-10092026`
-- FNB — SEEB/RN, 16/07/2026: `https://www.bancariosrn.org.br/noticias.php?id=121`; SEEB/MA, 07/07/2026: `https://www.bancariosma.org.br/paginas/noticias.asp?p=19538`
+- Angra — resultado de 03–04/09 registra rejeição do ACT do BB: `https://fetrafrjes.org.br/confira-o-resultado-das-assembleias-nos-sindicatos-da-fetraf-rj-es-2/`
 
 ## Estado atual
 
-A estratégia está formalmente registrada. O trabalho continua nas Fases 2 e 3, mas a auditoria cronológica alcançou **15 bases com data de aprovação confirmada** e **3 bases com ressalva documental**. A próxima ação é fechar a matriz institucional das 18 bases, corrigir nos registros relacionados a confusão FNOB/FNB quando a referência for à federação criada em 2026 e, se a busca final não encontrar novas fontes para Santana, Angra e Guaratinguetá, levar as lacunas explicitamente para o texto de WhatsApp em vez de preenchê-las por inferência.
+As Fases 2 e 3 foram encerradas com as ressalvas documentais expressamente identificadas. A estratégia avançou para a **Fase 4 — Consolidação da matriz probatória**. O próximo passo lógico é transformar esta matriz em uma mensagem de WhatsApp que mantenha a hierarquia Sindicato > Federação > Confederação, desenvolva cada sigla pelo menos uma vez e preserve as três lacunas sem inferência.
