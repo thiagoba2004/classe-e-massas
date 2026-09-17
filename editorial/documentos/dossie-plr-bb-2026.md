@@ -3,7 +3,7 @@
 **ID:** DOS-PLR-BB-2026  
 **Status:** EM PESQUISA  
 **Criado em:** 16/09/2026  
-**Atualizado em:** 16/09/2026  
+**Atualizado em:** 17/09/2026  
 **Objeto:** reconstrução documental das regras, comunicações e decisões relacionadas ao adiantamento da PLR do Banco do Brasil em setembro de 2026, com foco no tratamento dado às bases sindicais que formalizaram instrumentos após o marco temporal utilizado pelo Banco.
 
 ---
@@ -296,12 +296,37 @@ Esse registro sugere continuidade material do regime anterior de PLR na proposta
 
 ## 7. Fatos públicos identificados sobre setembro de 2026
 
-### 7.1. Não pagamento em 16/09
-Publicações sindicais registraram que empregados de determinadas bases não receberam o adiantamento porque o instrumento não teria sido formalizado no marco temporal adotado pelo Banco.
+### 7.1. Dois universos que não podem ser confundidos — reconciliação de 17/09
 
-Formulação segura até consolidação oficial:
+A apuração passou a exigir a separação de dois conjuntos documentais distintos.
 
-> **pelo menos 18 bases sindicais foram documentalmente identificadas como atingidas pelo não pagamento do adiantamento da PLR em 16/09/2026.**
+**Universo A — situação de aprovação/formalização no marco das 14h de 11/09:** o levantamento reconciliado identifica **20 bases sindicais** que, nesse horário, ainda não haviam concluído a aprovação/formalização do ACT do BB 2026/2028.
+
+À relação anterior de 18 bases foram acrescentadas:
+
+- **Ponte Nova e Região (MG)** — a votação encerrada às 10h de 11/09 rejeitou a proposta; uma segunda votação ocorreu somente das 18h às 20h do mesmo dia, quando a proposta foi aprovada;
+- **Governador Valadares e Região (MG)** — a nova votação teve início em 12/09 e foi encerrada em 13/09, com aprovação da proposta.
+
+Fontes:
+`https://bancariospnr.org.br/noticias/funcionarios-do-bb-decidem-aprovar-proposta/`  
+`https://www.sintrafgv.com.br/funcionarios-do-banco-do-brasil-aprovam-proposta-em-assembleia/`
+
+As duas bases integram a cadeia da **Federação dos Empregados em Estabelecimentos Bancários de Minas Gerais, Goiás, Tocantins e Distrito Federal (FEEB-MG/GO/TO/DF)**, no campo da **Confederação Nacional dos Trabalhadores nas Empresas de Crédito (CONTEC)**.
+
+Fonte documental de enquadramento:
+`https://feebmg.org.br/convecao/2024%202026/2.1%20CONTEC%20-%20CCT%20Data-Base%202024-2026%20assinada.pdf`
+
+Com isso, a composição institucional do universo de 20 fica:
+
+- **14 bases** na cadeia da Contraf-CUT;
+- **3 bases** na Federação Nacional dos Bancários (FNB): Rio Grande do Norte, Maranhão e Bauru;
+- **3 bases** na cadeia da CONTEC: Franca, Ponte Nova e Governador Valadares.
+
+**Universo B — não pagamento/adiamento da antecipação da PLR em 16/09:** a documentação sindical consolidada até aqui identifica **pelo menos 18 bases** atingidas pelo não pagamento ou pelo tratamento diferenciado da antecipação. Para Ponte Nova e Governador Valadares, a pesquisa pública confirmou a cronologia de aprovação posterior ao marco, mas **ainda não localizou prova individual inequívoca de que o crédito da PLR não tenha ocorrido em 16/09**.
+
+Formulação segura:
+
+> **O universo de aprovação/formalização no marco das 14h de 11/09 reúne 20 bases. O universo de não pagamento/adiamento da antecipação da PLR em 16/09 possui, até o momento, documentação consolidada para pelo menos 18 bases. A relação nominal oficial do BB e a situação de Ponte Nova e Governador Valadares no crédito de 16/09 ainda precisam ser confirmadas.**
 
 ### 7.2. Ofício da Contraf-CUT
 Em 14/09/2026, a Contraf-CUT solicitou isonomia no pagamento da PLR para empregados de bases que não haviam formalizado o ACT em 11/09.
