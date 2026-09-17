@@ -91,6 +91,20 @@
         "observatorio/documentos/00_Observatorio_Classe_e_Massas_Refundacao_Identidade.md",
         "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md"
       ]
+    },
+    {
+      "strategy_id": "STRAT-CEM-20260917-008",
+      "name": "Submenus do Menu Notícias",
+      "status": "EM_EXECUCAO",
+      "last_event_id": "STEV-CEM-20260917-020",
+      "event_type": "CREATED",
+      "current_phase": "FASE 1 — separação editorial",
+      "canonical_refs": [
+        "governanca/estrategia-submenus-noticias.md",
+        "noticias/index.html",
+        "js/main.js",
+        "css/style.css"
+      ]
     }
   ],
   "pending_evidence_groups": [
