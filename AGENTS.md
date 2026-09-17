@@ -2,23 +2,25 @@
 
 **Projeto:** Classe e Massas  
 **Status:** CANÔNICO  
-**Versão:** 1.1  
-**Data:** 13/09/2026  
+**Versão:** 1.2  
+**Data:** 16/09/2026  
 **Escopo:** todo modelo de IA, agente, assistente ou automação que trabalhe neste repositório ou em seus documentos derivados.
 
 ---
 
 ## 1. Finalidade
 
-Este documento estabelece regras obrigatórias de continuidade, preservação, rastreabilidade e honestidade operacional para qualquer Modelo de IA que trabalhe no projeto **Classe e Massas**.
+Este documento estabelece regras obrigatórias de continuidade, preservação, rastreabilidade, honestidade operacional e coerência estratégica para qualquer Modelo de IA que trabalhe no projeto **Classe e Massas**.
 
-O objetivo central é impedir que trabalho intelectual substancial exista apenas em uma conversa efêmera, que etapas concluídas sejam posteriormente tratadas como não realizadas, ou que o usuário seja levado a repetir trabalho já executado por falha de persistência, memória, versionamento ou verificação.
+O objetivo central é impedir que trabalho intelectual substancial exista apenas em uma conversa efêmera, que etapas concluídas sejam posteriormente tratadas como não realizadas, que tarefas sejam executadas sem conexão com a estratégia geral do projeto ou que o usuário seja levado a repetir trabalho já executado por falha de persistência, memória, versionamento, planejamento ou verificação.
 
 **Regra fundamental:**
 
-> **O chat é oficina. O arquivo canônico é a obra. O Git é a memória histórica.**
+> **O chat é oficina. O arquivo canônico é a obra. O Git é a memória histórica. O Roadmap organiza a direção do trabalho.**
 
 Nenhum Modelo de IA deve considerar um trabalho relevante protegido enquanto ele existir apenas no contexto da conversa.
+
+Nenhuma tarefa relativa ao projeto deve ser executada como ato isolado: antes da execução, ela deve estar vinculada a uma estratégia, a um planejamento por fases, à fase atual, a uma entrega ou gate e ao próximo passo lógico.
 
 ---
 
@@ -368,6 +370,9 @@ Cada afirmação deve corresponder ao estado real.
 
 Ao final de uma operação substancial, informar de forma objetiva:
 
+- **a estratégia e o planejamento por fases aos quais a tarefa está vinculada**;
+- **a fase atual**;
+- **a entrega, objetivo ou gate que a tarefa ajuda a cumprir**;
 - **o que foi alterado**;
 - **onde foi salvo**;
 - **qual é o estado atual**;
@@ -375,7 +380,7 @@ Ao final de uma operação substancial, informar de forma objetiva:
 - **se houve commit**;
 - **se houve push/publicação**;
 - **se existe segunda cópia do marco crítico**;
-- **qual é a próxima ação pendente**, se existir.
+- **qual é o próximo passo lógico dentro do planejamento**, se existir.
 
 Evitar respostas vagas como “pronto” quando existirem etapas técnicas distintas.
 
@@ -391,6 +396,8 @@ Toda ação relevante deve ser verificável, e toda limitação real deve ser ex
 
 O agente não deve transferir ao usuário uma sequência longa de comandos manuais quando puder executar com segurança a operação por ferramenta autorizada.
 
+Autonomia operacional também não autoriza improvisação estratégica: uma tarefa tecnicamente executável continua proibida se sua vinculação à estratégia, à fase e ao gate ainda não estiver estabelecida.
+
 ---
 
 ## 17. Continuidade entre conversas e modelos
@@ -402,13 +409,18 @@ Por isso, decisões fundamentais e estado operacional devem estar nos arquivos d
 Um novo Modelo de IA que abra este repositório deve conseguir responder, a partir dos documentos persistentes:
 
 - qual é a arquitetura do projeto;
+- qual é a estratégia em vigor;
+- qual é o planejamento por fases;
+- em qual fase o projeto e o objeto específico estão;
 - quais trabalhos estão em andamento;
 - qual é a fonte da verdade de cada um;
 - qual foi o último marco concluído;
+- qual entrega ou gate está sendo perseguido;
 - o que permanece pendente;
+- qual é o próximo passo lógico;
 - como continuar sem repetir trabalho.
 
-Se essas perguntas não puderem ser respondidas, existe dívida documental a ser corrigida.
+Se essas perguntas não puderem ser respondidas, existe dívida documental a ser corrigida antes de abrir novas frentes relevantes.
 
 ---
 
@@ -450,11 +462,15 @@ SEGUNDA CÓPIA, SE MARCO CRÍTICO
 
 Publicação, quando aplicável, constitui etapa adicional.
 
+A conclusão técnica de uma tarefa não altera por si só o estado de uma fase. O avanço de fase depende do respectivo gate canônico.
+
 ---
 
 ## 20. Regra máxima
 
-> **Nunca obrigar o usuário a pagar novamente, com seu tempo, energia ou recursos, por uma falha de memória, persistência ou continuidade do Modelo de IA.**
+> **Nunca obrigar o usuário a pagar novamente, com seu tempo, energia ou recursos, por uma falha de memória, persistência, continuidade ou planejamento do Modelo de IA.**
+
+Se houver dúvida entre executar e compreender a vinculação estratégica, **compreender a estratégia primeiro**.
 
 Se houver dúvida entre continuar produzindo e preservar o que já foi produzido, **preservar primeiro**.
 
@@ -479,7 +495,7 @@ Este protocolo se aplica, sem exceção, aos seguintes núcleos e objetos do pro
 - site e infraestrutura técnica;
 - futuros observatórios, coleções e projetos derivados.
 
-Subdiretórios podem possuir `AGENTS.md` adicionais com regras especializadas. Regras locais podem complementar este documento, mas não devem reduzir as garantias de preservação, rastreabilidade e honestidade aqui estabelecidas.
+Subdiretórios podem possuir `AGENTS.md` adicionais com regras especializadas. Regras locais podem complementar este documento, mas não devem reduzir as garantias de preservação, rastreabilidade, coerência estratégica e honestidade aqui estabelecidas.
 
 ---
 
@@ -489,15 +505,27 @@ Este `AGENTS.md` é um documento canônico do projeto.
 
 Alterações que reduzam as garantias previstas neste protocolo exigem decisão expressa do responsável pelo projeto e devem ser versionadas de forma identificável.
 
-A ausência de ferramenta específica não suspende os princípios deste documento. Nessa hipótese, o agente deve adaptar o procedimento preservando a finalidade: **não perder trabalho, não inventar estado e não apresentar como concluída uma ação que não foi comprovadamente executada.**
+A ausência de ferramenta específica não suspende os princípios deste documento. Nessa hipótese, o agente deve adaptar o procedimento preservando a finalidade: **não perder trabalho, não inventar estado, não executar tarefa estrategicamente órfã e não apresentar como concluída uma ação que não foi comprovadamente executada.**
 
 ---
 
 ## 23. Protocolo mínimo de segurança operacional
 
-A partir desta versão, todo trabalho substancial deverá obedecer ao seguinte ciclo mínimo:
+A partir desta versão, todo trabalho relativo ao projeto deverá obedecer ao seguinte ciclo mínimo antes e durante a execução:
 
 ```text
+CONSULTAR / RECUPERAR A ESTRATÉGIA E O PLANEJAMENTO CANÔNICO
+              ↓
+IDENTIFICAR A FASE ATUAL
+              ↓
+IDENTIFICAR A ENTREGA, OBJETIVO OU GATE
+              ↓
+IDENTIFICAR O PRÓXIMO PASSO LÓGICO
+              ↓
+VINCULAR A TAREFA A ESSE ENCADEAMENTO
+              ↓
+SÓ ENTÃO EXECUTAR
+              ↓
 ABRIR / IDENTIFICAR O ARQUIVO CANÔNICO
               ↓
 PRODUZIR UMA UNIDADE LÓGICA
@@ -521,4 +549,123 @@ Este ciclo é uma **barreira de segurança**, não uma recomendação opcional.
 
 A prioridade operacional do agente é:
 
-> **preservar primeiro; produzir depois; publicar por último.**
+> **compreender a estratégia primeiro; preservar o trabalho; executar a fase correta; publicar por último.**
+
+---
+
+## 24. Vinculação estratégica obrigatória antes de qualquer tarefa ou ação
+
+### 24.1. Princípio
+
+Nenhuma tarefa, pesquisa, alteração, publicação, coleta, análise, automação, peça, artigo, dossiê, tradução ou ação técnica relativa ao projeto poderá ser executada como atividade isolada.
+
+Antes da primeira ação operacional, o agente deve saber e ser capaz de declarar:
+
+1. **qual estratégia está sendo seguida;**
+2. **qual documento de planejamento por fases governa o trabalho;**
+3. **qual é a fase atual;**
+4. **qual objetivo, entrega ou gate da fase está sendo perseguido;**
+5. **por que a tarefa solicitada contribui para esse objetivo, entrega ou gate;**
+6. **quais dependências anteriores precisam estar satisfeitas;**
+7. **qual é o próximo passo lógico depois da tarefa.**
+
+A execução somente começa depois dessa vinculação.
+
+### 24.2. Fonte estratégica padrão
+
+Para o Observatório Classe e Massas, o documento de referência geral é o **`observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md`**, sem prejuízo de roadmaps, planos ou protocolos específicos de cada núcleo ou objeto.
+
+O Roadmap geral define a ordem das fases, suas dependências, entregas e gates. Planos específicos podem detalhar essa estrutura, mas não podem contrariá-la silenciosamente.
+
+### 24.3. Regra em caso de ausência ou dúvida
+
+Se o agente não souber a qual estratégia, fase ou gate a tarefa pertence, **é proibido simplesmente executá-la**.
+
+A ordem obrigatória passa a ser:
+
+```text
+RECUPERAR O PLANEJAMENTO EXISTENTE
+              ↓
+VERIFICAR O ESTADO ATUAL
+              ↓
+CLASSIFICAR A TAREFA
+              ↓
+SE NECESSÁRIO, RECONSTRUIR OU ATUALIZAR O PLANO
+              ↓
+SÓ ENTÃO EXECUTAR
+```
+
+Não localizar imediatamente o vínculo estratégico não transforma a tarefa em “avulsa”. Significa que o contexto estratégico precisa ser recuperado antes da execução.
+
+### 24.4. Proibição de execução estrategicamente órfã
+
+É proibido:
+
+- responder a uma solicitação do projeto apenas porque ela é tecnicamente executável;
+- abrir nova frente sem identificar sua posição no planejamento;
+- produzir artigo, pesquisa ou documento sem saber qual objetivo maior ele atende;
+- coletar dados sem saber a pergunta estratégica ou a fase que exige esses dados;
+- publicar material sem compreender sua função na sequência do projeto;
+- tratar um achado pontual como fim em si mesmo quando ele pertence a uma investigação ou entrega maior;
+- saltar para tarefa posterior porque ela parece interessante, urgente ou fácil, ignorando dependências e gates.
+
+### 24.5. Ficha mínima de vinculação estratégica
+
+Antes de iniciar uma nova unidade de trabalho, o agente deverá registrar, ao menos no contexto operacional e preferencialmente no status ou documento pertinente quando o trabalho for substancial:
+
+```text
+ESTRATÉGIA:
+PLANO / ROADMAP:
+FASE ATUAL:
+OBJETIVO / ENTREGA / GATE:
+TAREFA ATUAL:
+DEPENDÊNCIAS:
+RESULTADO ESPERADO:
+PRÓXIMO PASSO LÓGICO:
+```
+
+Subações meramente instrumentais que pertençam claramente à mesma unidade de trabalho — por exemplo, abrir uma fonte, comparar dois documentos ou salvar o arquivo — herdam a vinculação já estabelecida e não exigem nova ficha a cada comando. A vinculação deve ser refeita quando mudar a frente de trabalho, a finalidade, a fase, o gate ou o objeto estratégico.
+
+### 24.6. Relação entre tarefa e fase
+
+Uma tarefa pode:
+
+- **executar diretamente uma entrega da fase;**
+- **produzir evidência necessária a um gate;**
+- **preparar dependência de fase posterior sem abri-la formalmente;**
+- **manter atividade contínua já prevista no Roadmap.**
+
+O agente deve distinguir essas situações e não declarar avanço de fase apenas porque realizou atividade preparatória.
+
+### 24.7. Regra de prioridade
+
+Quando surgirem várias tarefas possíveis, a ordem não será decidida apenas pela novidade da solicitação ou pela facilidade técnica.
+
+A prioridade deve considerar:
+
+1. a fase formalmente em execução;
+2. o gate ainda não satisfeito;
+3. as dependências que bloqueiam entregas subsequentes;
+4. a preservação do trabalho já produzido;
+5. a contribuição concreta da tarefa para o encadeamento estratégico.
+
+Urgências reais podem alterar a ordem operacional, mas devem ser registradas como exceção consciente, sem apagar a estratégia de referência.
+
+### 24.8. Regra para retomada de conversa
+
+Ao retomar qualquer frente do Classe e Massas, o agente não deve começar pela última tarefa lembrada isoladamente.
+
+A sequência correta é:
+
+> **estratégia → planejamento → fase → gate → estado comprovado → tarefa atual → próximo passo.**
+
+Somente depois dessa reconstrução o trabalho deve continuar.
+
+---
+
+## 25. Histórico de versões
+
+| Versão | Data | Alteração |
+|---|---|---|
+| 1.1 | 13/09/2026 | Consolidação das regras de persistência progressiva, write-through, checkpoints, RPO, recuperação e verificação remota. |
+| 1.2 | 16/09/2026 | Instituição da vinculação estratégica obrigatória antes de qualquer tarefa ou ação, com referência ao planejamento por fases, fase atual, objetivo/entrega/gate, dependências e próximo passo lógico. |
