@@ -163,10 +163,36 @@
         "não repetir confederação e federação ao lado do nome de cada sindicato quando já estiverem informadas nos cabeçalhos",
         "não inserir percentuais de votação nem explicações metodológicas no texto simples de circulação"
       ]
+    },
+    {
+      "id": "GOV-AGENTS-KERNEL-1.2",
+      "area": "Governança / Continuidade documental",
+      "title": "Migração do AGENTS.md do Classe e Massas para o kernel 1.2",
+      "strategy_id": "STRAT-CEM-20260917-002",
+      "parent_strategy_id": "STRAT-CEM-20260917-001",
+      "status": "EM FECHAMENTO — MIGRAÇÃO MATERIAL CONCLUÍDA E VERIFICADA",
+      "agents_version": "1.9",
+      "generated_from_kernel": "1.2",
+      "planning_file": "governanca/estrategia-migracao-agents-kernel-1.2.md",
+      "previous_agents_blob": "0c0fc7bd17de1084728ed1f1f2c4aa61405d1a86",
+      "migration_commit": "3fb8a9ed721b5e614301d4528c0bad54eded62f9",
+      "current_agents_blob": "c7fd2693377c881b9f045ed02743a9711ae9b412",
+      "phase": "FASE FINAL — FECHAMENTO",
+      "phase_gate": "Atualizar PROJECT_STATE.json, STRATEGY_LOG.jsonl e REQUEST_LOG.jsonl e concluir a estratégia após verificação final.",
+      "persistence_status": "AGENTS.md v1.9 E PLANO DE MIGRAÇÃO PERSISTIDOS, VERSIONADOS E VERIFICADOS NO GITHUB",
+      "next_step": "CONCLUIR STRAT-CEM-20260917-002 NOS LOGS; DEPOIS AVALIAR, EM ESTRATÉGIA SEPARADA, O BACKFILL PROGRESSIVO DAS DEMAIS ESTRATÉGIAS AUTÔNOMAS DO CLASSE E MASSAS.",
+      "do_not_do": [
+        "não reabrir a estratégia de bootstrap do Gerador de Agents",
+        "não executar backfill geral de estratégias dentro desta migração",
+        "não revogar regras locais mais rigorosas preservadas por incorporação da v1.8",
+        "não tratar a ordem histórica da v1.7/v1.8 como regra vigente"
+      ]
     }
   ],
   "continuity": {
     "agents_protocol": "AGENTS.md",
+    "agents_version": "1.9",
+    "generated_from_kernel": "1.2",
     "checkpoint_tool": "tools/salvar-checkpoint.sh",
     "checkpoint_policy": "salvar unidade lógica antes de avançar; marcos críticos devem chegar ao remoto e ser verificados"
   }
