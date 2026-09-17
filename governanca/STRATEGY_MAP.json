@@ -96,13 +96,14 @@
       "strategy_id": "STRAT-CEM-20260917-008",
       "name": "Acessos institucionais do Menu Notícias",
       "status": "CONCLUIDO",
-      "last_event_id": "STEV-CEM-20260917-027",
+      "last_event_id": "STEV-CEM-20260917-029",
       "event_type": "CONCLUDED",
-      "current_phase": "FASE 6 — refinamento de espaçamento — concluída",
+      "current_phase": "FASE 7 — correção definitiva contra cache — concluída",
       "canonical_refs": [
         "governanca/estrategia-submenus-noticias.md",
         "noticias/index.html",
         "noticias/principio-sintese.html",
+        "noticias/2026/bases-sindicais-que-nao-assinaram-o-act-do-bb-2026-2028-ate-14h-de-11-09.html",
         "css/style.css"
       ]
     }

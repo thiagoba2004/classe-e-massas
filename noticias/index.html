@@ -6,12 +6,33 @@
   <title>Notícias | Classe e Massas</title>
   <meta name="description" content="Jornalismo operário do Classe e Massas: acontecimentos, lutas, organizações e vozes da classe trabalhadora e das massas trabalhadoras.">
   <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .news-tools{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:18px;
+      margin:0 0 42px;
+    }
+    .news-tools .news-tool-button{
+      display:block;
+      width:100%;
+      margin:0;
+      text-align:center;
+    }
+    @media(max-width:700px){
+      .news-tools{
+        grid-template-columns:1fr;
+        gap:18px;
+        margin-bottom:34px;
+      }
+    }
+  </style>
 </head>
 <body>
 <header>
   <div class="bar">
     <div class="brand"><a href="../index.html">Classe e Massas</a></div>
-    <nav class="nav" aria-label="Navegação principal">
+    <nav class="nav global-nav" aria-label="Navegação principal">
       <a href="../index.html">Início</a>
       <a href="index.html" aria-current="page">Notícias</a>
       <a href="../artigos/index.html">Artigos</a>
@@ -46,7 +67,6 @@
 </main>
 
 <footer>Classe e Massas • Notícias • 2026</footer>
-<script src="../js/main.js"></script>
 <!-- Cloudflare Web Analytics -->
 <script>
 if (localStorage.getItem("classe_e_massas_admin") !== "1") {
