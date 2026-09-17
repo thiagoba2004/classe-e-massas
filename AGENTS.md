@@ -2,7 +2,7 @@
 
 **Projeto:** Classe e Massas  
 **Status:** CANÔNICO  
-**Versão:** 1.7  
+**Versão:** 1.8  
 **Data:** 17/09/2026  
 **Escopo:** todo modelo de IA, agente, assistente ou automação que trabalhe neste repositório ou em seus documentos derivados.
 
@@ -280,6 +280,8 @@ Quando o usuário perguntar **“onde paramos?”**, **“qual é o estado?”**
 4. nunca responder com um estado antigo apenas porque ele aparece em memória ou resumo anterior;
 5. se houver conflito entre evidências, apresentar o conflito em vez de escolher arbitrariamente uma versão.
 
+Para questões sobre estratégias — por exemplo, **“quais estratégias autônomas existem?”**, **“qual estratégia está ativa?”**, **“quando esta estratégia surgiu?”** ou **“qual estratégia foi concluída?”** — o agente deverá consultar prioritariamente o **`STRATEGY_LOG.jsonl`** e, para o estado corrente, o `PROJECT_STATE.json` ou mecanismo equivalente.
+
 **É proibido fazer o usuário retroceder para uma etapa já concluída sem evidência de que o trabalho realmente se perdeu.**
 
 ---
@@ -303,6 +305,8 @@ Antes de refazer trabalho substancial, devem ser investigados, quando disponíve
 - downloads e diretórios de trabalho;
 - versões anteriores;
 - artefatos gerados;
+- `REQUEST_LOG.jsonl`;
+- `STRATEGY_LOG.jsonl`;
 - trechos recuperáveis de conversas;
 - cópias exportadas.
 
@@ -334,6 +338,7 @@ Uma versão nova não deve apagar silenciosamente:
 - critérios metodológicos;
 - origem de dados;
 - estado de uma tradução;
+- estratégias autônomas e sua evolução;
 - justificativas de mudanças substantivas.
 
 Quando a alteração modificar uma regra estrutural do projeto, registrar a mudança no próprio documento, no commit ou em mecanismo equivalente de versionamento.
@@ -372,8 +377,9 @@ Cada afirmação deve corresponder ao estado real.
 
 Ao final de uma operação substancial, informar de forma objetiva:
 
-- **a estratégia registrada e o planejamento por fases aos quais a tarefa está vinculada**;
-- **onde a estratégia está registrada**;
+- **a estratégia registrada e seu `strategy_id`, quando aplicável**;
+- **onde a estratégia está registrada, incluindo o `STRATEGY_LOG.jsonl` quando se tratar de estratégia autônoma**;
+- **o planejamento por fases ao qual a tarefa está vinculada**;
 - **a fase atual**;
 - **a entrega, objetivo ou gate que a tarefa ajuda a cumprir**;
 - **o que foi alterado**;
@@ -412,7 +418,9 @@ Por isso, decisões fundamentais e estado operacional devem estar nos arquivos d
 Um novo Modelo de IA que abra este repositório deve conseguir responder, a partir dos documentos persistentes:
 
 - qual é a arquitetura do projeto;
-- qual é a estratégia em vigor;
+- quais estratégias autônomas existem e quais estão ativas, suspensas, concluídas ou substituídas;
+- qual é a estratégia em vigor para o objeto de trabalho;
+- qual é o `strategy_id` correspondente;
 - onde essa estratégia está registrada;
 - qual é o planejamento por fases;
 - em qual fase o projeto e o objeto específico estão;
@@ -454,6 +462,8 @@ ARQUIVO CANÔNICO ATUALIZADO
 VERIFICAÇÃO DA GRAVAÇÃO
         ↓
 STATUS/MANIFESTO ATUALIZADO
+        ↓
+EVENTO DE ESTRATÉGIA ATUALIZADO, QUANDO APLICÁVEL
         ↓
 COMMIT
         ↓
@@ -528,6 +538,14 @@ VERIFICAR QUE O REGISTRO FOI PERSISTIDO
               ↓
 CONFIRMAR AO USUÁRIO QUE O PEDIDO FOI REGISTRADO, QUANDO A EXECUÇÃO CONTINUAR ALÉM DA MENSAGEM INICIAL
               ↓
+IDENTIFICAR SE O PEDIDO CRIA, RETOMA OU ALTERA MATERIALMENTE UMA ESTRATÉGIA AUTÔNOMA
+              ↓
+SE SIM, CRIAR OU RECUPERAR O strategy_id E REGISTRAR O EVENTO NO STRATEGY_LOG.jsonl
+              ↓
+VERIFICAR QUE O EVENTO DE ESTRATÉGIA FOI PERSISTIDO
+              ↓
+REFLETIR O ESTADO CORRENTE NO PROJECT_STATE.json OU EQUIVALENTE
+              ↓
 CONSULTAR / RECUPERAR A ESTRATÉGIA E O PLANEJAMENTO CANÔNICO
               ↓
 CONFIRMAR QUE A ESTRATÉGIA ESTÁ REGISTRADA DE MODO PERSISTENTE E AUDITÁVEL
@@ -552,7 +570,7 @@ SALVAR IMEDIATAMENTE
               ↓
 VERIFICAR O SALVAMENTO
               ↓
-ATUALIZAR O STATUS
+ATUALIZAR O STATUS E O EVENTO DE ESTRATÉGIA, QUANDO HOUVER MUDANÇA MATERIAL
               ↓
 COMMITAR O MARCO RELEVANTE
               ↓
@@ -567,7 +585,7 @@ Este ciclo é uma **barreira de segurança**, não uma recomendação opcional.
 
 A prioridade operacional do agente é:
 
-> **informar imediatamente o usuário; ler e analisar o necessário; registrar e verificar o pedido; confirmar o registro; registrar a estratégia; compreender a estratégia; preservar o trabalho; executar a fase correta; publicar por último.**
+> **informar imediatamente o usuário; ler e analisar o necessário; registrar e verificar o pedido; registrar ou recuperar a estratégia autônoma e seu `strategy_id`; compreender a estratégia; preservar o trabalho; executar a fase correta; publicar por último.**
 
 ---
 
@@ -580,13 +598,14 @@ Nenhuma tarefa, pesquisa, alteração, publicação, coleta, análise, automaç�
 Antes da primeira ação operacional, o agente deve saber e ser capaz de declarar:
 
 1. **qual estratégia está sendo seguida;**
-2. **onde essa estratégia está registrada de modo persistente;**
-3. **qual documento de planejamento por fases governa o trabalho;**
-4. **qual é a fase atual;**
-5. **qual objetivo, entrega ou gate da fase está sendo perseguido;**
-6. **por que a tarefa solicitada contribui para esse objetivo, entrega ou gate;**
-7. **quais dependências anteriores precisam estar satisfeitas;**
-8. **qual é o próximo passo lógico depois da tarefa.**
+2. **qual é seu `strategy_id`, quando se tratar de estratégia autônoma;**
+3. **onde essa estratégia está registrada de modo persistente;**
+4. **qual documento de planejamento por fases governa o trabalho;**
+5. **qual é a fase atual;**
+6. **qual objetivo, entrega ou gate da fase está sendo perseguido;**
+7. **por que a tarefa solicitada contribui para esse objetivo, entrega ou gate;**
+8. **quais dependências anteriores precisam estar satisfeitas;**
+9. **qual é o próximo passo lógico depois da tarefa.**
 
 A execução somente começa depois dessa vinculação **e da confirmação do registro persistente da estratégia**.
 
@@ -607,11 +626,14 @@ Não constituem registro válido, por si sós:
 - uma explicação verbal ao usuário;
 - a mera intenção de registrar depois.
 
-O registro deve existir em arquivo persistente e versionável do projeto. Para frentes ativas, o padrão mínimo é registrar a estratégia no `PROJECT_STATE.json`, no item correspondente, e apontar, quando houver, para o dossiê, plano, roadmap, manifesto ou arquivo canônico que contenha o detalhamento da execução.
+O registro corrente da estratégia deve existir em arquivo persistente e versionável do projeto. Para frentes ativas, o padrão mínimo é refletir a estratégia no `PROJECT_STATE.json`, no item correspondente, e apontar, quando houver, para o dossiê, plano, roadmap, manifesto ou arquivo canônico que contenha o detalhamento da execução.
+
+**Além desse estado corrente, toda estratégia autônoma deve possuir registro histórico no `STRATEGY_LOG.jsonl`, conforme o item 24.16. O `PROJECT_STATE.json` funciona como fotografia do estado atual; o `STRATEGY_LOG.jsonl` funciona como livro cronológico e auditável da criação e evolução das estratégias. Um não substitui o outro.**
 
 O registro mínimo da estratégia deve conter, conforme aplicável:
 
 ```text
+STRATEGY_ID:
 ESTRATÉGIA:
 OBJETIVO:
 PLANO / ROADMAP:
@@ -622,9 +644,9 @@ ARQUIVO CANÔNICO OU DOSSIÊ VINCULADO:
 STATUS DO REGISTRO:
 ```
 
-Se uma estratégia nova surgir durante a conversa, o agente deve **interromper a execução**, registrá-la primeiro e verificar a gravação. Somente depois poderá pesquisar, redigir, editar, publicar, coletar dados ou praticar qualquer outra ação substantiva vinculada à estratégia.
+Se uma estratégia nova surgir durante a conversa, o agente deve **interromper a execução**, registrá-la primeiro no mecanismo aplicável e verificar a gravação. Somente depois poderá pesquisar, redigir, editar, publicar, coletar dados ou praticar qualquer outra ação substantiva vinculada à estratégia.
 
-Se a estratégia mudar materialmente, o registro deve ser atualizado **antes** da execução da primeira tarefa orientada pela nova estratégia.
+Se a estratégia mudar materialmente, o estado corrente e o log histórico devem ser atualizados **antes** da execução da primeira tarefa orientada pela nova configuração estratégica.
 
 As únicas ações permitidas antes do registro são as estritamente necessárias para:
 
@@ -653,9 +675,13 @@ VERIFICAR O ESTADO ATUAL
               ↓
 IDENTIFICAR OU FORMULAR A ESTRATÉGIA
               ↓
-REGISTRAR A ESTRATÉGIA DE MODO PERSISTENTE
+DETERMINAR SE É ESTRATÉGIA AUTÔNOMA
               ↓
-VERIFICAR O REGISTRO
+SE FOR, CRIAR OU RECUPERAR O strategy_id E REGISTRAR NO STRATEGY_LOG.jsonl
+              ↓
+REGISTRAR / ATUALIZAR O ESTADO CORRENTE DA ESTRATÉGIA
+              ↓
+VERIFICAR OS REGISTROS
               ↓
 CLASSIFICAR A TAREFA
               ↓
@@ -672,6 +698,7 @@ Não localizar imediatamente o vínculo estratégico não transforma a tarefa em
 
 - responder a uma solicitação do projeto apenas porque ela é tecnicamente executável;
 - abrir nova frente sem identificar e registrar sua posição no planejamento;
+- criar estratégia autônoma sem `strategy_id` e sem evento correspondente no `STRATEGY_LOG.jsonl`;
 - produzir artigo, pesquisa ou documento sem estratégia previamente registrada;
 - coletar dados sem saber a pergunta estratégica ou a fase que exige esses dados;
 - publicar material sem compreender sua função na sequência do projeto;
@@ -684,6 +711,7 @@ Não localizar imediatamente o vínculo estratégico não transforma a tarefa em
 Antes de iniciar uma nova unidade de trabalho, o agente deverá confirmar que existe registro persistente e atualizar, no arquivo pertinente, quando necessário:
 
 ```text
+STRATEGY_ID:
 ESTRATÉGIA:
 REGISTRO DA ESTRATÉGIA:
 PLANO / ROADMAP:
@@ -717,11 +745,12 @@ Quando surgirem várias tarefas possíveis, a ordem não será decidida apenas p
 A prioridade deve considerar:
 
 1. a estratégia registrada;
-2. a fase formalmente em execução;
-3. o gate ainda não satisfeito;
-4. as dependências que bloqueiam entregas subsequentes;
-5. a preservação do trabalho já produzido;
-6. a contribuição concreta da tarefa para o encadeamento estratégico.
+2. o evento mais recente e válido da estratégia no `STRATEGY_LOG.jsonl`;
+3. a fase formalmente em execução;
+4. o gate ainda não satisfeito;
+5. as dependências que bloqueiam entregas subsequentes;
+6. a preservação do trabalho já produzido;
+7. a contribuição concreta da tarefa para o encadeamento estratégico.
 
 Urgências reais podem alterar a ordem operacional, mas devem ser registradas como exceção consciente, sem apagar a estratégia de referência.
 
@@ -731,7 +760,7 @@ Ao retomar qualquer frente do Classe e Massas, o agente não deve começar pela 
 
 A sequência correta é:
 
-> **registro da estratégia → estratégia → planejamento → fase → gate → estado comprovado → tarefa atual → próximo passo.**
+> **`STRATEGY_LOG.jsonl` → registro da estratégia → estratégia → planejamento → fase → gate → estado comprovado → tarefa atual → próximo passo.**
 
 Se o registro não for localizado, o agente deve primeiro recuperar ou reconstruir e registrar a estratégia. Somente depois dessa reconstrução o trabalho deve continuar.
 
@@ -739,7 +768,7 @@ Se o registro não for localizado, o agente deve primeiro recuperar ou reconstru
 
 Toda estratégia autônoma, ainda que curta, emergencial, editorial, documental ou destinada apenas a uma mensagem de circulação, deve possuir **Plano de Fases explícito e persistente antes da execução substantiva**.
 
-O Plano de Fases deverá conter, no mínimo:
+O Plano de Fases deverá estar vinculado ao respectivo `strategy_id` e conter, no mínimo:
 
 ```text
 FASE 1 — registro e delimitação
@@ -780,7 +809,9 @@ Nenhuma dessas situações substitui automaticamente outra. Quando um nível da 
 
 Em toda pausa, checkpoint ou atualização intermediária comunicada ao usuário, o agente deverá informar explicitamente se o estado produzido até aquele momento **foi ou não foi registrado de modo persistente**.
 
-Quando registrado, deverá indicar, sempre que possível, o arquivo ou mecanismo de persistência. Quando ainda não registrado, deverá dizer isso claramente e priorizar o salvamento antes de acumular novo trabalho substancial.
+Quando registrado, deverá indicar, sempre que possível, o arquivo ou mecanismo de persistência. Quando a atividade estiver vinculada a estratégia autônoma, deverá também indicar seu `strategy_id` e se o evento material mais recente foi refletido no `STRATEGY_LOG.jsonl`.
+
+Quando ainda não registrado, deverá dizer isso claramente e priorizar o salvamento antes de acumular novo trabalho substancial.
 
 A mera afirmação de que algo foi “anotado” não substitui a verificação técnica exigida por este protocolo.
 
@@ -826,6 +857,7 @@ a origem da interação
 o texto integral ou representação fiel do pedido
 o escopo ou frente a que pertence
 a estratégia vinculada, quando já conhecida
+o strategy_id, quando já conhecido
 o estado do pedido
 a ação solicitada
 referências aos resultados produzidos, quando existirem
@@ -850,6 +882,10 @@ VERIFICAR QUE O REGISTRO FOI PERSISTIDO
       ↓
 SE A EXECUÇÃO CONTINUAR, INFORMAR AO USUÁRIO: “PEDIDO REGISTRADO”
       ↓
+DETERMINAR SE O PEDIDO CRIA, RETOMA OU ALTERA MATERIALMENTE ESTRATÉGIA AUTÔNOMA
+      ↓
+SE SIM, CUMPRIR O ITEM 24.16
+      ↓
 SÓ ENTÃO REALIZAR PESQUISA SUBSTANTIVA, EDIÇÃO, USO DE FERRAMENTAS OPERACIONAIS OU EXECUÇÃO MATERIAL DA SOLICITAÇÃO
 ```
 
@@ -867,6 +903,98 @@ Interrupções do usuário durante uma tarefa em andamento também constituem no
 
 O objetivo é assegurar simultaneamente duas garantias: **nenhum pedido se perde** e **nenhum período inicial de registro ou processamento deixa o usuário em silêncio, com a impressão de travamento**. Deve ser possível recuperar com precisão o último pedido, a sequência de solicitações e o estado de cada uma.
 
+### 24.16. Registro obrigatório e histórico de toda Estratégia Autônoma
+
+Toda **Estratégia Autônoma** criada, identificada, retomada ou materialmente alterada no âmbito do projeto deverá possuir registro persistente, sequencial e auditável no arquivo canônico **`STRATEGY_LOG.jsonl`**.
+
+Para fins deste protocolo, considera-se **Estratégia Autônoma** uma frente de trabalho que possua objetivo próprio e identificável, possa ser planejada em fases ou gates e seja capaz de ser retomada ou compreendida como unidade de trabalho independente, ainda que esteja vinculada a uma estratégia maior. Uma tarefa instrumental isolada não constitui, por si só, nova estratégia autônoma.
+
+A regra é absoluta:
+
+> **ESTRATÉGIA AUTÔNOMA NOVA = `strategy_id` NOVO + EVENTO PERSISTIDO NO `STRATEGY_LOG.jsonl` ANTES DA EXECUÇÃO SUBSTANTIVA.**
+
+O `strategy_id` será estável durante toda a vida da estratégia e não poderá ser reutilizado para outra estratégia. Recomenda-se formato que incorpore projeto, data e sequência, por exemplo:
+
+```text
+STRAT-CEM-20260917-001
+```
+
+Cada linha do `STRATEGY_LOG.jsonl` representará **um evento**, preservando o histórico em modelo append-only. Os eventos anteriores não devem ser silenciosamente reescritos para esconder mudanças de rumo. Eventos mínimos previstos:
+
+```text
+CREATED
+UPDATED
+PAUSED
+RESUMED
+SUPERSEDED
+CONCLUDED
+CANCELLED
+BACKFILLED
+```
+
+Cada evento deverá conter, sempre que tecnicamente possível:
+
+```text
+event_id
+strategy_id
+project_id
+timestamp
+event_type
+name
+objective
+scope
+trigger_request_ids
+parent_strategy_id
+plan_ref
+phase
+status
+canonical_refs
+dependencies
+supersedes / superseded_by, quando aplicável
+result_refs, quando existirem
+notes, quando necessárias
+```
+
+O campo `project_id` é obrigatório para que logs de múltiplos projetos possam ser agregados, comparados e auditados sem perda de origem.
+
+#### Relação entre os arquivos
+
+- **`REQUEST_LOG.jsonl`** responde: *o que o usuário pediu e em que sequência?*
+- **`STRATEGY_LOG.jsonl`** responde: *quais estratégias autônomas existiram, quando surgiram, como evoluíram e qual seu estado histórico?*
+- **`PROJECT_STATE.json`** ou equivalente responde: *qual é a fotografia corrente das estratégias e frentes ativas?*
+- **Roadmaps e Planos de Fases** respondem: *como cada estratégia será executada?*
+
+Esses registros são complementares e nenhum deve ser tratado como substituto automático dos demais.
+
+#### Prevenção de duplicação
+
+Um novo pedido não cria automaticamente nova estratégia. Antes de gerar `strategy_id`, o agente deverá consultar o `STRATEGY_LOG.jsonl` e verificar se o pedido:
+
+1. continua estratégia já existente;
+2. retoma estratégia pausada;
+3. altera materialmente estratégia existente; ou
+4. cria efetivamente uma nova estratégia autônoma.
+
+Se for continuação, manter o mesmo `strategy_id`. Mudanças materiais de objetivo, escopo, fase, estado ou relação entre estratégias devem gerar novo **evento** para o mesmo identificador. Somente uma nova unidade estratégica independente recebe novo `strategy_id`.
+
+#### Estratégias criadas autonomamente pelo Modelo de IA
+
+A obrigação vale igualmente quando a estratégia não foi nomeada pelo usuário, mas foi formulada autonomamente pelo Modelo de IA para cumprir um objetivo. O agente não pode criar uma estratégia em seu raciocínio, iniciar sua execução e registrá-la apenas depois.
+
+#### Encerramento e mudanças de estado
+
+Ao concluir, pausar, retomar, cancelar ou substituir uma estratégia, o agente deverá registrar o respectivo evento e atualizar o estado corrente no `PROJECT_STATE.json` ou equivalente. A conclusão de uma estratégia deve apontar para os resultados produzidos e, quando aplicável, para commits, publicações, documentos ou demais artefatos verificáveis.
+
+#### Inventário retroativo
+
+Projetos que adotarem esta regra depois de já possuírem estratégias em curso deverão realizar inventário retroativo progressivo. Estratégias anteriores somente poderão ser registradas como `BACKFILLED` quando houver evidência suficiente em arquivos, commits, pedidos registrados, roadmaps ou outras fontes persistentes. É proibido preencher lacunas históricas como fato com base apenas em memória incerta ou inferência.
+
+#### Recuperação e continuidade
+
+Quando o usuário perguntar **“quais estratégias estamos executando?”**, **“que estratégias já criamos?”**, **“qual foi a última estratégia autônoma?”**, **“o que está pausado?”** ou equivalente, o agente deverá consultar primeiro o `STRATEGY_LOG.jsonl`, reconciliá-lo com o estado corrente e responder a partir dessas fontes.
+
+O objetivo é impedir que estratégias autônomas desapareçam entre conversas, modelos, interrupções ou mudanças de contexto e permitir reconstruir, de forma auditável, **o mapa estratégico histórico e atual do projeto**.
+
 ---
 
 ## 25. Histórico de versões
@@ -880,3 +1008,4 @@ O objetivo é assegurar simultaneamente duas garantias: **nenhum pedido se perde
 | 1.5 | 17/09/2026 | Institui confirmação imediata de recebimento antes de processamento potencialmente demorado, para evitar a percepção de travamento durante leitura, análise ou uso de ferramentas. |
 | 1.6 | 17/09/2026 | Torna obrigatório registrar persistentemente todos os pedidos no `REQUEST_LOG.jsonl` antes de qualquer processamento; impõe a ordem registro → confirmação → leitura/análise/providências e torna o log a fonte primária para recuperar a sequência e o último pedido. |
 | 1.7 | 17/09/2026 | Corrige a ordem operacional para eliminar o silêncio inicial: primeiro o agente informa imediatamente que irá ler, analisar, registrar o pedido e tomar as providências; depois realiza a leitura/análise necessária, registra e verifica o pedido e somente então executa a solicitação substantiva. |
+| 1.8 | 17/09/2026 | Institui o `STRATEGY_LOG.jsonl` append-only e torna obrigatório atribuir `strategy_id` e registrar toda Estratégia Autônoma e seus eventos, com `project_id` padronizado para permitir rastreabilidade e futura agregação entre projetos. |
