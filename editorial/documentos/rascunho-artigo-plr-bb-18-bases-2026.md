@@ -1,13 +1,13 @@
-# 18 bases ficaram sem a antecipação da PLR do BB: o que os documentos mostram — e o que o Banco ainda precisa explicar
+# PLR do BB: 20 bases no marco de 11/09 — o que os documentos mostram e o que o Banco ainda precisa explicar
 
-**Status:** RASCUNHO CANÔNICO v0.4 — NÃO PUBLICAR ANTES DO GATE DE MANIFESTAÇÃO DO BB  
-**Data:** 16/09/2026  
-**Estratégia:** publicar um artigo no Classe e Massas sobre a antecipação da PLR do Banco do Brasil em 16/09/2026 e as 18 bases sindicais que ficaram sem o crédito.  
+**Status:** RASCUNHO CANÔNICO v0.5 — NÃO PUBLICAR ANTES DO GATE DE MANIFESTAÇÃO DO BB  
+**Data:** 17/09/2026  
+**Estratégia:** publicar um artigo no Classe e Massas sobre a antecipação da PLR do Banco do Brasil em 16/09/2026, distinguindo o universo de 20 bases sem aprovação/formalização concluída às 14h de 11/09 do conjunto de pelo menos 18 bases com não pagamento/adiamento da PLR já documentado.  
 **Dossiê:** `editorial/documentos/dossie-plr-bb-2026.md`
 
 ## Linha fina
 
-O Banco do Brasil creditou a antecipação da PLR para grande parte dos funcionários nesta quarta-feira, 16 de setembro, mas o levantamento consolidado pelo Classe e Massas trabalha com 18 bases sindicais que ficaram fora do crédito. A investigação encontrou uma cadeia documental mais complexa do que a explicação resumida de que essas bases simplesmente “não assinaram o ACT”: a **minuta final do ACT geral publicada em 4 de setembro e examinada pelo Classe e Massas não contém a regra de 72 horas**, existe historicamente um ACT específico de PLR, termos de adesão podem ser juridicamente separados e ainda não foi localizado o documento primário que fixou o corte de 11 de setembro.
+O levantamento reconciliado pelo Classe e Massas identifica **20 bases sindicais** que ainda não haviam concluído a aprovação/formalização no marco das 14h de 11 de setembro. Para o **não pagamento ou adiamento da antecipação da PLR em 16 de setembro**, a documentação consolidada alcança até aqui **pelo menos 18 bases**. Ponte Nova e Governador Valadares entram no universo temporal de 20, mas sua situação individual no crédito da PLR ainda precisa ser confirmada pelo Banco do Brasil.
 
 ---
 
@@ -23,50 +23,19 @@ A resposta ainda não está integralmente disponível.
 
 Mas a pesquisa documental já permite reconstruir uma parte importante do caminho — e mostra que o caso é mais complexo do que a fórmula repetida em diversas publicações de que “quem não assinou o ACT até 11 de setembro ficou sem a PLR”.
 
-## 1. As 18 bases: 14 Contraf-CUT, três da FNOB fora desse campo e Franca/SP na CONTEC
+## 1. Vinte bases no marco temporal; pelo menos 18 com impacto de PLR já documentado
 
-O conjunto de controle consolidado pelo dossiê do Classe e Massas reúne as seguintes 18 bases:
+A investigação passou a trabalhar com dois universos diferentes.
 
-- Bahia;
-- Camaçari;
-- Extremo Sul da Bahia;
-- Feira de Santana;
-- Ilhéus;
-- Irecê;
-- Juazeiro;
-- Oeste da Bahia;
-- Cariri (CE);
-- Espírito Santo;
-- Pará;
-- Santana do Livramento (RS);
-- Angra dos Reis (RJ);
-- Guaratinguetá (SP);
-- Rio Grande do Norte;
-- Maranhão;
-- Bauru (SP);
-- Franca (SP).
+O primeiro é o **universo temporal de aprovação/formalização**. Às 14h de 11 de setembro, o levantamento reconciliado identifica 20 bases sem conclusão da aprovação/formalização: as 18 já auditadas, acrescidas de **Ponte Nova e Região (MG)** e **Governador Valadares e Região (MG)**.
 
-A composição sindical também precisa ser descrita corretamente. **Quatorze dessas bases estão vinculadas à Contraf-CUT. Rio Grande do Norte, Maranhão e Bauru estão fora desse campo e aparecem articulados na Frente Nacional de Oposição Bancária (FNOB). Franca/SP é a única das 18 bases vinculada à CONTEC.** Somadas, são 18 bases no total.
+A composição institucional desse universo é: **14 bases na cadeia da Contraf-CUT; Rio Grande do Norte, Maranhão e Bauru na Federação Nacional dos Bancários (FNB); e Franca, Ponte Nova e Governador Valadares na cadeia da CONTEC.**
 
-Isso corrige uma leitura anterior do próprio levantamento. A publicação do Sindibancários/ES que mencionou 17 bases não autoriza concluir que essas 17 seriam da Contraf-CUT: o conjunto de 17 sem Franca/SP inclui também Rio Grande do Norte, Maranhão e Bauru.
+Ponte Nova rejeitou a proposta na votação encerrada às 10h de 11 de setembro e só aprovou em nova votação das 18h às 20h. Governador Valadares aprovou a proposta apenas em votação iniciada em 12 e encerrada em 13 de setembro.
 
-A relação oficial das bases e o número de empregados atingidos continuam solicitados ao Banco do Brasil pela Lei de Acesso à Informação como confirmação documental do universo e dos quantitativos.
+O segundo universo é o **do não pagamento/adiamento da antecipação da PLR em 16 de setembro**. Para esse fato, o dossiê possui documentação sindical consolidada para **pelo menos 18 bases**. A apuração ainda não localizou prova individual inequívoca de que Ponte Nova e Governador Valadares tenham ficado sem o crédito de 16/09.
 
-Também não existe o mesmo grau de prova individual para todas as 18 bases. Em 14 delas há suporte documental direto ou coletivo robusto já preservado. Para Cariri, Santana do Livramento, Angra dos Reis e Guaratinguetá, a cronologia encontrada é compatível com o conjunto das bases atingidas, mas a busca dirigida não localizou uma publicação individual dizendo expressamente que o crédito não entrou em 16 de setembro.
-
-Na Bahia, o quadro está bem documentado. A FEEBBASE registrou que oito bases — Bahia, Camaçari, Extremo Sul, Feira de Santana, Ilhéus, Irecê, Juazeiro e Oeste da Bahia — rejeitaram a proposta na votação encerrada em 11 de setembro e voltaram a deliberar no domingo, 13, quando aprovaram o acordo.
-
-O Sindicato dos Bancários da Bahia afirmou em 16 de setembro que o Banco havia condicionado a antecipação da PLR à assinatura do acordo no marco de 11 de setembro e que os trabalhadores das bases que não o formalizaram naquele momento tiveram tratamento diferente.
-
-Fontes:
-
-- https://bancariosfeira.com.br/conteudo/18922/bb-nao-pode-punir-funcionarios-pela-greve
-- https://feebbase.com.br/site/imagem-destaque/assembleias-dos-funcionarios-do-bb-no-domingo
-- https://www.bancariosbahia.org.br/noticias/campanha-salarial-6/43830%2Cbanco-no-brasil-usa-prl-para-punir.html
-- https://novo.bancarios-es.org.br/banco-do-brasil-pune-bancarios-de-bases-que-ainda-nao-assinaram-acordo/
-- https://www.seebbauru.org.br/noticias/campanha-salarial-2026-proposta-da-contraf-cut-envergonha-a-categoria-com-ganho-real-de-apenas-5/
-- https://bancariosrn.org.br/sobre.php
-- https://www.bancariosma.org.br/mobile/paginas/mobile.asp?p=18893
+Essa diferença é essencial: **não concluir a formalização até o marco temporal e efetivamente ficar fora do crédito da PLR são fatos relacionados, mas não podem ser tratados como sinônimos sem a confirmação do Banco.**
 
 ## 2. As bases não chegaram ao mesmo ponto pelo mesmo caminho
 
@@ -297,7 +266,7 @@ A LAI não pede que o Banco produza uma opinião jurídica nova. Pede acesso aos
 
 ## 12. O que já pode ser afirmado — e o que ainda não pode
 
-A investigação já permite afirmar que houve tratamento temporal distinto no pagamento da antecipação da PLR conforme a situação das bases e que o levantamento consolidado trabalha com 18 bases fora do crédito de 16 de setembro: **14 vinculadas à Contraf-CUT; Rio Grande do Norte, Maranhão e Bauru fora desse campo e articulados na FNOB; e Franca/SP vinculada à CONTEC**, com ressalvas individuais explicitadas no dossiê.
+A investigação já permite afirmar que houve tratamento temporal distinto no pagamento da antecipação da PLR conforme a situação das bases e que o levantamento consolidado trabalha com 18 bases fora do crédito de 16 de setembro: **14 vinculadas à Contraf-CUT; Rio Grande do Norte, Maranhão e Bauru fora desse campo e integrantes da FNB; e Franca/SP vinculada à CONTEC**, com ressalvas individuais explicitadas no dossiê.
 
 Permite afirmar também que a **minuta final do ACT geral publicada em 4 de setembro e examinada** não contém a regra da PLR em 72 horas e que a arquitetura histórica do BB separa ACT geral, ACT-PLR e, ao menos em 2024, termos de adesão distintos.
 
