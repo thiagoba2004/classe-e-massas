@@ -21,25 +21,36 @@ Nenhuma estratégia será criada retroativamente como fato apenas porque parece 
 
 **Objetivo:** registrar o pedido, criar a Estratégia Autônoma de backfill e delimitar seu método.
 
-**Gate:** `REQ-20260917-016` persistido; `STRAT-CEM-20260917-003` criado no `STRATEGY_LOG.jsonl`; este Plano de Fases persistido.
+**Gate satisfeito:** `REQ-20260917-016` persistido; `STRAT-CEM-20260917-003` criado no `STRATEGY_LOG.jsonl`; este Plano de Fases persistido.
 
 ## FASE 2 — Inventário de candidatas
 
-**Estado:** EM EXECUÇÃO
+**Estado:** CONCLUÍDA — LOTE INICIAL
 
 **Objetivo:** levantar frentes com indícios de autonomia estratégica em `PROJECT_STATE.json`, arquivos de planejamento, roadmaps, dossiês, commits e demais fontes persistentes.
 
-Cada candidata receberá uma classificação provisória:
+Cada candidata recebe classificação:
 
 - `COMPROVADA` — há evidência suficiente para backfill;
 - `PARCIALMENTE_COMPROVADA` — há indícios fortes, mas falta evidência para afirmar algum elemento essencial;
 - `NÃO COMPROVADA` — não há base suficiente para evento `BACKFILLED`.
 
-**Gate:** inventário inicial persistido com fonte de evidência para cada candidata.
+**Gate satisfeito:** inventário inicial persistido em `governanca/inventario-backfill-estrategias-autonomas-2026-09-17.md`.
+
+### Resultado do lote inicial
+
+Candidatas comprovadas:
+
+1. `TCM-001 — História da Crise Mundial`;
+2. `DOS-PLR-BB-2026 — PLR do Banco do Brasil`;
+3. `WHATSAPP-ACT-BB-18-BASES-2026`;
+4. `Refundação e implantação do Observatório Classe e Massas`.
+
+Conjuntos deixados para lote posterior por exigirem classificação adicional: MPT, LAI, artigos individuais, diretriz editorial, documentos bancários históricos e ferramentas/automações.
 
 ## FASE 3 — Validação documental
 
-**Estado:** NÃO INICIADA
+**Estado:** CONCLUÍDA — LOTE INICIAL
 
 **Objetivo:** verificar, para cada candidata, se é possível comprovar ao menos:
 
@@ -49,40 +60,36 @@ Cada candidata receberá uma classificação provisória:
 - estado histórico minimamente determinável;
 - relação com outras estratégias, quando aplicável.
 
-Quando a data exata de criação não puder ser comprovada, não será inventada. O evento `BACKFILLED` registrará a data do backfill e indicará separadamente a evidência histórica disponível.
-
-**Gate:** conjunto de estratégias aptas a backfill definido sem inferência não documentada.
+**Gate satisfeito:** as quatro candidatas do lote inicial possuem fontes canônicas suficientes; datas não comprovadas não foram inventadas.
 
 ## FASE 4 — Backfill progressivo
 
-**Estado:** NÃO INICIADA
+**Estado:** CONCLUÍDA — LOTE INICIAL
 
 **Objetivo:** adicionar eventos `BACKFILLED` ao `STRATEGY_LOG.jsonl`, preservando os arquivos originais como fonte de evidência.
 
-Cada evento deverá conter:
+### Eventos registrados
 
-```text
-strategy_id
-event_type = BACKFILLED
-historical_status, quando comprovável
-name
-objective
-scope
-parent_strategy_id, quando comprovável
-plan_ref ou canonical_refs
-evidence_refs
-notes sobre limites da reconstrução
-```
+- `STEV-CEM-20260917-009` → `STRAT-CEM-20260917-004` — TCM-001;
+- `STEV-CEM-20260917-010` → `STRAT-CEM-20260917-005` — DOS-PLR-BB-2026;
+- `STEV-CEM-20260917-011` → `STRAT-CEM-20260917-006` — WhatsApp 18 bases;
+- `STEV-CEM-20260917-012` → `STRAT-CEM-20260917-007` — Refundação e implantação do Observatório.
 
-**Gate:** eventos salvos, versionados e verificados no remoto.
+**Gate satisfeito:** eventos salvos, versionados e persistidos no remoto.
 
 ## FASE 5 — Reconciliação do estado corrente
 
-**Estado:** NÃO INICIADA
+**Estado:** EM EXECUÇÃO
 
-**Objetivo:** reconciliar `PROJECT_STATE.json` com o `STRATEGY_LOG.jsonl` sem alterar o estado material de frentes editoriais, jurídicas, documentais ou de tradução.
+**Objetivo:** reconciliar o mapa corrente com o `STRATEGY_LOG.jsonl` sem alterar o estado material de frentes editoriais, jurídicas, documentais ou de tradução.
 
-O estado corrente do objeto continua sendo determinado pelos seus arquivos canônicos específicos. O backfill histórico não autoriza rebaixar, reabrir ou encerrar uma frente sem evidência.
+A reconciliação inclui:
+
+- vincular os IDs backfillados aos objetos correntes sem reabrir frentes concluídas;
+- manter `TCM-001` e `DOS-PLR-BB-2026` nos estados materiais já comprovados;
+- manter `WHATSAPP-ACT-BB-18-BASES-2026` concluída;
+- refletir no Gerador de Agents os strategy_ids já comprovados localmente;
+- separar claramente o próximo lote pendente de evidência.
 
 **Gate:** mapa corrente e histórico sem contradição material conhecida.
 
