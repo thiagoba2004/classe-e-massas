@@ -57,15 +57,14 @@
       "strategy_id": "STRAT-CEM-20260917-006",
       "legacy_object_id": "WHATSAPP-ACT-BB-18-BASES-2026",
       "name": "WHATSAPP-ACT-BB-18-BASES-2026",
-      "status": "CONCLUIDO",
-      "last_event_id": "STEV-CEM-20260917-011",
-      "event_type": "BACKFILLED",
-      "current_phase": "FASE 6 — auditoria final e liberação para circulação — concluída",
+      "status": "EM_EXECUCAO",
+      "last_event_id": "STEV-CEM-20260917-014",
+      "event_type": "RESUMED",
+      "current_phase": "FASE 7 — reabertura para aperfeiçoamento metodológico e editorial",
       "parent_strategy_id": "STRAT-CEM-20260917-005",
       "canonical_refs": [
         "editorial/documentos/estrategia-whatsapp-18-bases-act-bb-2026.md",
-        "editorial/documentos/mensagem-whatsapp-bases-act-bb-2026.md",
-        "PROJECT_STATE.json:WHATSAPP-ACT-BB-18-BASES-2026"
+        "editorial/documentos/mensagem-whatsapp-bases-act-bb-2026.md"
       ]
     },
     {
