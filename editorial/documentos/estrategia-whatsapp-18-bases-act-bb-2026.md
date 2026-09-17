@@ -64,7 +64,7 @@ Bahia; Camaçari; Extremo Sul da Bahia; Feira de Santana e Região; Ilhéus e Re
 
 ### Fase 7 — Reabertura para aperfeiçoamento metodológico e editorial
 **Estado:** EM EXECUÇÃO  
-**Trigger:** `REQ-20260917-017`.
+**Triggers:** `REQ-20260917-017`, `REQ-20260917-018`.
 
 **Objetivos:**
 
@@ -72,6 +72,7 @@ Bahia; Camaçari; Extremo Sul da Bahia; Feira de Santana e Região; Ilhéus e Re
 - eliminar explicações do texto de circulação;
 - substituir a metodologia baseada no resultado/aprovação pela data da última assembleia deliberativa sobre a proposta do ACT;
 - revisar as 18 datas sob um único critério;
+- incorporar novas evidências documentais fornecidas durante a revisão;
 - produzir nova versão simples e uniforme para WhatsApp.
 
 **Gate:** texto final com 18 sindicatos, agrupamento institucional sem repetição, exatamente uma data por sindicato e nenhuma explicação sobre resultado no corpo de circulação.
@@ -117,7 +118,7 @@ Critério único: **data da última assembleia convocada para deliberar sobre a 
 | Espírito Santo | 13/09/2026 |
 | Pará | 11/09/2026 |
 | Santana do Livramento | 11/09/2026 |
-| Angra dos Reis e Região | 04/09/2026 |
+| Angra dos Reis e Região | 14/09/2026 |
 | Guaratinguetá e Região | 15/09/2026 |
 | Rio Grande do Norte | 11/09/2026 |
 | Maranhão | 11/09/2026 |
@@ -145,7 +146,13 @@ Critério único: **data da última assembleia convocada para deliberar sobre a 
 - Franca — assembleia de 15/09: `https://bancariosfranca.com.br/2026/09/16/assembleia-banco-do-brasil-proposta-e-aprovada-e-greve-esta-encerrada/`
 - Guaratinguetá — edital da assembleia de 15/09: `https://www.bancariosgta.com.br/noticias/1973`
 - Santana do Livramento — votação de 10–11/09, usando como data final 11/09: `https://www.bancarioserechim.com.br/noticias/detalhes/edital-bb-10092026`
-- Angra dos Reis — assembleia/votação de 03–04/09, usando como data final 04/09: `https://fetrafrjes.org.br/confira-o-resultado-das-assembleias-nos-sindicatos-da-fetraf-rj-es-2/`
+- Angra dos Reis — edital fornecido pelo usuário em imagem, datado de 13/09/2026, convocando plenária e votação para 14/09/2026; transcrição probatória preservada em `editorial/documentos/evidencia-angra-assembleia-bb-14-09-2026.md`.
+
+## Atualização documental de Angra dos Reis — REQ-20260917-018
+
+A evidência visual enviada pelo usuário comprova assembleia posterior à anteriormente usada como referência. O edital do sindicato está datado de 13/09/2026 e convoca plenária às 16h e votação das 17h às 20h de **14/09/2026** para deliberar sobre a última proposta apresentada pelo Banco do Brasil.
+
+Consequência: a data metodologicamente correta de Angra dos Reis e Região nesta estratégia é **14/09/2026**, e não 04/09/2026.
 
 ## Estado anterior preservado
 
