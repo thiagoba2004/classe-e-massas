@@ -1,6 +1,6 @@
 # DOS-PLR-BB-2026 — Auditoria das 18 bases sem antecipação da PLR
 
-**Status:** BLOCO DE PESQUISA PRESERVADO  
+**Status:** BLOCO DE PESQUISA PRESERVADO — GATE SATISFEITO COM RESSALVA  
 **Data:** 16/09/2026  
 **Vinculado a:** `editorial/documentos/dossie-plr-bb-2026.md`  
 **Estratégia:** publicar um artigo no Classe e Massas sobre a antecipação da PLR do Banco do Brasil em 16/09/2026 e as 18 bases sindicais que ficaram sem o crédito.
@@ -69,12 +69,12 @@ Fontes:
 | Irecê | Incluída nominalmente entre as oito bases baianas; publicação anterior do sindicato já relatava que, segundo o BB, bases sem acordo de PLR vigente receberiam apenas em 2027 | rejeitou em 11/09; aprovou em 13/09 | **Coletiva robusta + fonte específica sobre a regra** | `https://www.bancariosirece.com.br/site/ultimas-noticias/5633-assembleias-dos-funcionarios-do-bb-nesta-quinta-e-sexta` |
 | Juazeiro | Incluída nominalmente entre as oito bases baianas atingidas | rejeitou em 11/09; aprovou em 13/09 | **Coletiva robusta** | FEEBBASE |
 | Oeste da Bahia | Incluída nominalmente entre as oito bases baianas atingidas | rejeitou em 11/09; aprovou em 13/09 | **Coletiva robusta** | FEEBBASE |
-| Cariri | Site oficial do SINTRAFI-Cariri exibe “Resultado Assembleia BB 14.09.2026”, indicando deliberação posterior ao corte de 11/09; ainda falta fonte textual individual afirmando o não crédito em 16/09 | resultado/assembleia em 14/09 | **Indireta; confirmação individual pendente** | `https://www.sintraficariri.com.br/` |
+| Cariri | Site oficial do SINTRAFI-Cariri exibe “Resultado Assembleia BB 14.09.2026”, indicando deliberação posterior ao corte de 11/09; não foi localizada fonte textual individual afirmando o não crédito em 16/09 | resultado/assembleia em 14/09 | **Indireta; ressalva individual** | `https://www.sintraficariri.com.br/` |
 | Espírito Santo | Sindicato publicou em 16/09 que trabalhadores da base ficaram sem a PLR por não aprovação/formalização até 12h de 11/09 | rejeição em 11/09 | **Direta/robusta** | `https://novo.bancarios-es.org.br/banco-do-brasil-pune-bancarios-de-bases-que-ainda-nao-assinaram-acordo/` |
 | Pará | Sindicato publicou em 16/09 que a assembleia ocorreu em 11/09, das 18h às 21h, e que a base paraense foi excluída do adiantamento de 16/09 | assembleia em 11/09, 18h–21h | **Direta/robusta** | `https://bancariospa.org.br/cn2026-banco-do-brasil-adota-pratica-antissindical-e-usa-plr-para-retaliar-trabalhadores-e-trabalhadoras/` |
-| Santana do Livramento | Edital conjunto do RS comprova assembleia do BB entre 10/09 e 12h de 11/09, mas ainda não foi localizada fonte individual textual com resultado e não crédito em 16/09 | assembleia 10–11/09 | **Pendente confirmação individual** | edital conjunto RS reproduzido em `https://www.bancarioserechim.com.br/noticias/detalhes/edital-bb-10092026` |
-| Angra dos Reis | Fetraf RJ/ES confirmou rejeição do ACT do BB em 03/04 de setembro; fontes nacionais registraram Angra entre as bases que permaneceram mobilizadas após 11/09; ainda falta publicação individual textual sobre o não crédito | rejeição inicial confirmada; permanência entre bases resistentes em 11/09 | **Robusta para rejeição; não pagamento individual ainda pendente** | `https://fetrafrjes.org.br/confira-o-resultado-das-assembleias-nos-sindicatos-da-fetraf-rj-es-2/` |
-| Guaratinguetá | Sindicato convocou nova assembleia somente para 15/09, portanto posterior ao marco de 11/09; ainda falta fonte textual individual dizendo expressamente que a PLR não foi creditada em 16/09 | nova assembleia em 15/09 | **Indireta forte; confirmação individual pendente** | `https://www.bancariosgta.com.br/noticias/1973` |
+| Santana do Livramento | Edital conjunto do RS comprova convocação do BB para 10/09 e votação virtual até 12h de 11/09; após busca dirigida, não foi localizada fonte individual textual com resultado e não crédito em 16/09 | assembleia 10–11/09 | **Ressalva individual** | `https://www.bancarioserechim.com.br/noticias/detalhes/edital-bb-10092026` |
+| Angra dos Reis | Fetraf RJ/ES confirmou rejeição do ACT do BB em 03/04 de setembro; em 15/09 a Federação reproduziu pedido da Contraf-CUT para pagamento da PLR a todas as bases do Comando que não assinaram em 11/09; não foi localizada publicação individual de Angra sobre o não crédito | rejeição inicial confirmada | **Robusta para rejeição + enquadramento coletivo; ressalva individual sobre não crédito** | `https://fetrafrjes.org.br/confira-o-resultado-das-assembleias-nos-sindicatos-da-fetraf-rj-es-2/` e `https://fetrafrjes.org.br/contraf-cut-solicita-ao-bb-pagamento-da-plr-nesta-quarta-feira-16/` |
+| Guaratinguetá | Sindicato manteve em 09/09 a paralisação do BB e convocou nova assembleia somente para 15/09, posterior ao marco de 11/09; após busca dirigida, não foi localizada publicação individual afirmando expressamente o não crédito em 16/09 | nova assembleia em 15/09 | **Indireta forte; ressalva individual** | `https://www.bancariosgta.com.br/noticias/1970` e `https://www.bancariosgta.com.br/noticias/1973` |
 | Rio Grande do Norte | Sindicato publicou em 16/09 que o BB adiou a PLR da base para 2027; em 15/09 já havia registrado aprovação em 11/09, comunicação imediata ao Banco e ausência de agendamento da assinatura | aprovou em 11/09; assinatura ainda não agendada até 15/09 | **Direta/robusta** | `https://www.bancariosrn.org.br/noticias.php?id=138` e `id=137` |
 | Maranhão | Fonte oficial do Sindicato do RN registra que Maranhão, RN e Bauru aprovaram em 11/09, comunicaram o BB e aguardavam termos de adesão em 15/09; site do SEEB-MA publicou em 15/09 que o BB poderia prejudicar quem seguiu na luta | aprovou em 11/09; formalização dependente de termos preparados pelo BB | **Robusta por fonte sindical cruzada; confirmação individual do não crédito ainda desejável** | `https://www.bancariosrn.org.br/noticias.php?id=137` e `https://m.bancariosma.org.br/` |
 | Bauru | Mesma situação registrada para RN/Maranhão/Bauru: aprovação em 11/09, comunicação imediata ao BB, disponibilidade para assinatura virtual, mas Banco ainda preparava termos de adesão em 15/09 | aprovou em 11/09; formalização pendente por termos de adesão | **Robusta por fonte sindical oficial cruzada** | `https://www.bancariosrn.org.br/noticias.php?id=137` |
@@ -96,18 +96,18 @@ Há suporte documental robusto, direto ou coletivo, para **14 das 18 bases**:
 - Bauru;
 - Franca.
 
-Para essas bases, o artigo já pode afirmar, com atribuição adequada às fontes sindicais, que ficaram fora do adiantamento de 16/09 ou foram abrangidas pelo tratamento diferenciado ligado ao marco de 11/09.
+Para essas bases, o artigo pode afirmar, com atribuição adequada às fontes sindicais, que ficaram fora do adiantamento de 16/09 ou foram abrangidas pelo tratamento diferenciado ligado ao marco de 11/09.
 
-### 5.2. Quatro bases que ainda merecem confirmação individual específica
+### 5.2. Quatro bases com ressalva probatória individual
 
-Restam como diligência cirúrgica:
+A busca cirúrgica foi concluída sem localizar confirmação textual individual do não crédito para:
 
-1. **Cariri (CE)** — há evidência oficial de deliberação tardia em 14/09, mas falta texto individual sobre o não crédito;
-2. **Santana do Livramento (RS)** — há edital da assembleia de 10/11, mas falta resultado individual e confirmação do não crédito;
-3. **Angra dos Reis (RJ)** — há prova da rejeição e da continuidade entre as bases resistentes, mas falta fonte individual de 16/09 sobre a PLR;
-4. **Guaratinguetá (SP)** — há convocação oficial de nova assembleia em 15/09, posterior ao corte, mas falta texto individual afirmando o não crédito.
+1. **Cariri (CE)** — há evidência oficial de resultado/assembleia do BB em 14/09, mas o texto da imagem não foi extraído como fonte textual individual;
+2. **Santana do Livramento (RS)** — há edital conjunto da assembleia do BB de 10/11, mas não foi localizado resultado individual nem publicação específica sobre o crédito de 16/09;
+3. **Angra dos Reis (RJ)** — há prova oficial da rejeição do ACT do BB em 03/04 e enquadramento coletivo posterior pela Fetraf/Contraf, mas não publicação individual sobre o crédito de 16/09;
+4. **Guaratinguetá (SP)** — há comunicação oficial mantendo paralisação em 09/09 e nova assembleia convocada para 15/09, porém sem texto individual localizado sobre o não crédito.
 
-Essas quatro lacunas não impedem necessariamente a redação do artigo se a lista nacional de 18 bases for apresentada como **conjunto informado pelas fontes sindicais e pelo levantamento do dossiê**, com transparência de que a comprovação individual está mais forte em algumas bases do que em outras.
+Essas quatro ressalvas não impedem a redação do artigo se a lista nacional de 18 bases for apresentada como **conjunto identificado pelo levantamento sindical e pelo dossiê**, e se o texto não fingir que a força documental individual é idêntica em todas as bases.
 
 ---
 
@@ -117,14 +117,58 @@ A cronologia mostra que as 18 bases não formam um bloco homogêneo:
 
 - algumas rejeitaram em 11/09 e só aprovaram dias depois (Bahia, Franca, Guaratinguetá, Cariri);
 - algumas aprovaram ainda em 11/09, mas depois do horário operacional adotado pelo Banco ou ficaram aguardando os termos de adesão (RN, Maranhão, Bauru; Pará teve assembleia à noite);
-- outras permanecem com cronologia individual ainda incompleta no dossiê.
+- outras permanecem com cronologia individual incompleta no material público disponível.
 
 Isso é central para o artigo: **“ficar fora do pagamento de 16/09” não decorreu de uma única sequência factual idêntica para todas as 18 bases.** O artigo deve separar os subgrupos e evitar generalização indevida.
 
 ---
 
-## 7. Próxima diligência vinculada à estratégia
+## 7. Busca cirúrgica de fechamento — 16/09/2026
 
-Pesquisar apenas as quatro lacunas individuais restantes — Cariri, Santana do Livramento, Angra dos Reis e Guaratinguetá — e, paralelamente, preservar eventual fonte primária ou sindical específica que confirme o não crédito em 16/09.
+A pesquisa final foi limitada às quatro bases ainda frágeis, sem abrir novas frentes.
 
-Depois dessa diligência, o gate “consolidar documentalmente as 18 bases não contempladas” poderá ser considerado satisfeito ou satisfeito com ressalva explícita, permitindo passar à decisão sobre início da redação do artigo.
+### 7.1. Cariri
+
+O portal oficial do SINTRAFI-Cariri continua exibindo o item/imagem **“Resultado Assembleia BB 14.09.2026”**. Isso confirma a existência de deliberação/resultados do BB em 14/09, depois do corte de 11/09. A pesquisa textual não localizou notícia individual que dissesse expressamente “não recebeu a PLR em 16/09”.
+
+Fonte: `https://www.sintraficariri.com.br/`
+
+### 7.2. Santana do Livramento
+
+O edital conjunto dos sindicatos gaúchos inclui expressamente o Sindicato dos Empregados em Estabelecimentos Bancários de Santana do Livramento e fixou, para quem votasse digitalmente, janela até 12h de 11/09. A pesquisa dirigida não localizou publicação individual do sindicato com o resultado da votação ou confirmação expressa do não crédito em 16/09.
+
+Fonte: `https://www.bancarioserechim.com.br/noticias/detalhes/edital-bb-10092026`
+
+### 7.3. Angra dos Reis
+
+A Fetraf RJ/ES registrou oficialmente que Angra rejeitou o ACT do BB em 03/04 de setembro. Em 15/09, a própria Federação publicou que a Contraf-CUT solicitara ao BB pagamento da PLR de 16/09 para todas as bases do Comando que não haviam assinado em 11/09. Não foi localizada, na busca dirigida, publicação individual de Angra sobre o efetivo não crédito.
+
+Fontes:
+`https://fetrafrjes.org.br/confira-o-resultado-das-assembleias-nos-sindicatos-da-fetraf-rj-es-2/`
+`https://fetrafrjes.org.br/contraf-cut-solicita-ao-bb-pagamento-da-plr-nesta-quarta-feira-16/`
+
+### 7.4. Guaratinguetá
+
+O Sindicato de Guaratinguetá publicou em 09/09 que mantinha a decisão de paralisação dos empregados do BB, porque a reabertura da negociação não trouxera novidade que justificasse nova votação. Em 12/09, convocou nova assembleia do BB para 15/09, das 16h às 23h. A pesquisa dirigida não localizou notícia individual informando expressamente o crédito ou não crédito da PLR em 16/09.
+
+Fontes:
+`https://www.bancariosgta.com.br/noticias/1970`
+`https://www.bancariosgta.com.br/noticias/1973`
+
+---
+
+## 8. Decisão de gate
+
+O gate **“consolidar documentalmente as 18 bases não contempladas”** fica classificado como:
+
+> **SATISFEITO COM RESSALVA PROBATÓRIA INDIVIDUAL EM 4 DAS 18 BASES.**
+
+Justificativa:
+
+- existe enquadramento sindical/nacional de um conjunto de 18 bases afetadas;
+- 14 possuem suporte documental robusto direto ou coletivo já suficiente para redação factual;
+- as quatro restantes apresentam cronologia compatível com o conjunto, mas não tiveram localizada confirmação textual individual do não crédito;
+- continuar indefinidamente procurando a mesma confirmação individual teria baixo ganho marginal para a estratégia editorial e atrasaria o artigo;
+- a ressalva será preservada no texto, impedindo que o artigo atribua grau de comprovação idêntico a todas as 18 bases.
+
+**Próximo gate estratégico:** localizar ou esgotar razoavelmente a busca pública pelo **ACT-PLR BB 2026/2027 (ou equivalente), termos de adesão de 2026 e instrumento/documento que contenha as regras de 72 horas, corte de 11/09 e pagamento apenas em 2027**.
