@@ -1,8 +1,8 @@
-# Auditoria editorial e factual — artigo PLR BB / 18 bases — 16/09/2026
+# Auditoria editorial e factual — artigo PLR BB / universo de 20 bases — 17/09/2026
 
-**Status:** AUDITORIA v0.3  
+**Status:** AUDITORIA v0.4  
 **Rascunho auditado:** `editorial/documentos/rascunho-artigo-plr-bb-18-bases-2026.md`  
-**Estratégia registrada:** publicar um artigo no Classe e Massas sobre a antecipação da PLR do Banco do Brasil em 16/09/2026 e as 18 bases sindicais que ficaram sem o crédito.
+**Estratégia registrada:** publicar um artigo no Classe e Massas sobre a antecipação da PLR do Banco do Brasil em 16/09/2026, distinguindo o universo de 20 bases no marco de aprovação/formalização do conjunto de pelo menos 18 bases com impacto de PLR já documentado.
 
 ---
 
@@ -34,7 +34,7 @@ O título promete uma resposta causal completa (“por que”), enquanto a inves
 
 ### Correção proposta
 
-> **18 bases ficaram sem a antecipação da PLR do BB: o que os documentos mostram — e o que o Banco ainda precisa explicar**
+> **PLR do BB: 20 bases no marco de 11/09 — o que os documentos mostram e o que o Banco ainda precisa explicar**
 
 Esse título é mais fiel ao estado probatório e ao caráter investigativo do artigo.
 
@@ -64,32 +64,29 @@ Somente afirmar o conteúdo do instrumento assinado depois de localizar e compar
 
 ---
 
-## 4. Correção material 3 — composição sindical das 18 bases
+## 4. Correção material 3 — composição institucional e dois universos distintos
 
-A auditoria v0.2 registrou incorretamente que 17 das 18 bases estariam no campo Contraf/CUT. Essa classificação foi corrigida.
+A reconciliação de 17/09 altera o universo temporal sem autorizar uma substituição automática de “18” por “20” em todas as afirmações sobre PLR.
 
-A composição correta registrada para esta investigação é:
+**Universo temporal de aprovação/formalização às 14h de 11/09 — 20 bases:**
 
-- **14 bases vinculadas à Contraf-CUT**;
-- **Rio Grande do Norte, Maranhão e Bauru** fora desse campo e articulados na Frente Nacional de Oposição Bancária (FNOB);
-- **Franca/SP** vinculada à CONTEC;
-- total: **18 bases**.
+- **14 bases** na cadeia da Contraf-CUT;
+- **Rio Grande do Norte, Maranhão e Bauru** na Federação Nacional dos Bancários (FNB);
+- **Franca, Ponte Nova e Governador Valadares** na cadeia da CONTEC.
 
-A publicação do Sindibancários/ES que mencionou 17 bases não deve ser apresentada como prova de que essas 17 seriam da Contraf-CUT. O número 17 corresponde ao conjunto sem Franca/SP, mas dentro dele há também RN, Maranhão e Bauru, que não integram a Contraf-CUT.
+**Universo do não pagamento/adiamento da PLR em 16/09:** permanece documentalmente consolidado para **pelo menos 18 bases**. A situação individual de Ponte Nova e Governador Valadares no crédito de 16/09 ainda precisa de confirmação.
 
 ### Tratamento editorial obrigatório
 
-Eliminar do artigo qualquer formulação de “17 bases da Contraf/CUT”. A explicação correta deve aparecer de modo positivo e simples:
+O artigo deve dizer expressamente que os dois conjuntos não são automaticamente idênticos. É vedado escrever “20 bases ficaram sem a PLR” antes de confirmação documental ou institucional específica para Ponte Nova e Governador Valadares.
 
-> **“O levantamento reúne 18 bases: 14 vinculadas à Contraf-CUT; Rio Grande do Norte, Maranhão e Bauru fora desse campo e articulados na FNOB; e Franca/SP vinculada à CONTEC.”**
-
-A relação oficial das bases e o quantitativo de empregados atingidos continuam sendo objeto do pedido de LAI ao Banco do Brasil como confirmação documental e quantitativa.
+Também fica corrigida definitivamente a identificação institucional de RN, Maranhão e Bauru: **Federação Nacional dos Bancários (FNB)**, e não Federação Nacional dos Bancários (FNB).
 
 ---
 
 ## 5. Correção material 4 — distinguir o conjunto de controle da prova individual
 
-A lista de 18 bases não deve ser apresentada como se houvesse, para cada uma, uma prova individual de idêntica qualidade.
+O conjunto histórico de 18 bases atingidas pelo não pagamento/adiamento não deve ser apresentado como se houvesse, para cada uma, prova individual de idêntica qualidade. O universo temporal de 20 bases acrescenta Ponte Nova e Governador Valadares apenas quanto à cronologia de aprovação/formalização.
 
 O anexo `dossie-plr-bb-2026-auditoria-18-bases.md` classifica:
 
@@ -135,7 +132,7 @@ A matéria poderá ser publicada após a busca razoável de manifestação, mesm
 A auditoria considera adequados e coerentes com o dossiê os seguintes eixos:
 
 1. abertura pelo fato concreto de 16/09;
-2. apresentação das 18 bases com ressalva probatória e composição correta: 14 Contraf-CUT; RN, Maranhão e Bauru fora desse campo e articulados na FNOB; Franca/SP na CONTEC;
+2. apresentação dos dois universos: 20 bases no marco temporal (14 Contraf-CUT; RN, Maranhão e Bauru na FNB; Franca, Ponte Nova e Governador Valadares na CONTEC) e pelo menos 18 bases com impacto de PLR já documentado;
 3. separação dos subgrupos cronológicos;
 4. explicação da arquitetura CCT geral / CCT-PLR / ACT geral / ACT-PLR / termos de adesão;
 5. uso do ciclo de 2024 como precedente documental, sem presumir identidade em 2026;
@@ -149,8 +146,8 @@ A auditoria considera adequados e coerentes com o dossiê os seguintes eixos:
 
 ## 8. Próximo passo
 
-1. revisar o rascunho para `v0.4`, incorporando a composição sindical correta das 18 bases;
-2. manter preparada a solicitação de manifestação ao Banco do Brasil;
+1. revisar o rascunho para `v0.5`, incorporando a reconciliação entre o universo de 20 bases e o conjunto de pelo menos 18 com impacto de PLR documentado;
+2. atualizar e enviar a solicitação de manifestação ao Banco do Brasil, pedindo confirmação nominal das 20 bases e da situação de Ponte Nova e Governador Valadares;
 3. registrar no artigo se houve resposta ou ausência de resposta até o fechamento;
 4. fazer auditoria final de fontes e links;
 5. gerar HTML e publicar somente após esse gate.
