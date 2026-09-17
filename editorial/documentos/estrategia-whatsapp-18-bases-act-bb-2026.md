@@ -2,18 +2,19 @@
 
 **Projeto:** Classe e Massas  
 **strategy_id:** `STRAT-CEM-20260917-006`  
-**Status:** REABERTA — APERFEIÇOAMENTO METODOLÓGICO E EDITORIAL  
+**Status:** CONCLUÍDA — VERSÃO REVISADA APROVADA  
 **Criada em:** 17/09/2026  
 **Reaberta em:** 17/09/2026  
+**Reconcluída em:** 17/09/2026  
 **Natureza:** estratégia autônoma de pesquisa documental e divulgação em WhatsApp  
 **Estratégia-mãe relacionada:** `STRAT-CEM-20260917-005` — DOS-PLR-BB-2026, sem substituí-la nem alterar sua fase editorial.  
-**Entrega:** `editorial/documentos/mensagem-whatsapp-bases-act-bb-2026.md`
+**Entrega final:** `editorial/documentos/mensagem-whatsapp-bases-act-bb-2026.md`
 
 ## Objetivo vigente
 
 Produzir texto curto, estritamente informativo e documentalmente verificável para WhatsApp com as 18 bases sindicais que, segundo o levantamento do projeto, não haviam formalizado a assinatura do Acordo Coletivo de Trabalho (ACT) do Banco do Brasil 2026/2028 até 14h de 11/09/2026.
 
-A versão reaberta deve apresentar:
+A versão final aprovada apresenta:
 
 1. a cadeia institucional por cabeçalhos, sem repetir Federação ou Confederação ao lado de cada sindicato;
 2. somente os nomes dos sindicatos sob cada cabeçalho institucional;
@@ -26,7 +27,7 @@ A versão reaberta deve apresentar:
 - No texto de circulação, Federação e Confederação funcionam como **cabeçalhos** e não devem ser repetidas em cada linha de sindicato.
 - Toda sigla relevante deve ser desenvolvida pelo menos uma vez, preferencialmente no cabeçalho de primeira ocorrência.
 - O critério cronológico vigente é único para as 18 bases: **data da última assembleia convocada para deliberar sobre a aprovação da proposta do ACT 2026/2028 do Banco do Brasil**.
-- O texto final não informará se a proposta foi aprovada, rejeitada, qual percentual foi obtido ou se o resultado individual foi localizado.
+- O texto final não informa se a proposta foi aprovada, rejeitada, qual percentual foi obtido ou se o resultado individual foi localizado.
 - Quando a assembleia ou votação ocupou mais de um dia, usar a data final da última janela deliberativa comprovada.
 - Fontes primárias ou institucionais contemporâneas têm precedência sobre reproduções jornalísticas secundárias.
 - A pesquisa e as ressalvas probatórias permanecem preservadas nos documentos internos; não devem ser transportadas para o texto simples de circulação.
@@ -46,16 +47,16 @@ Bahia; Camaçari; Extremo Sul da Bahia; Feira de Santana e Região; Ilhéus e Re
 **Resultado:** as 18 bases foram classificadas pela cadeia Sindicato > Federação > Confederação/estrutura nacional de assinatura.
 
 ### Fase 3 — Auditoria cronológica das assembleias
-**Estado:** CONCLUÍDA NA VERSÃO ORIGINAL; CRITÉRIO REFORMULADO NA REABERTURA  
+**Estado:** CONCLUÍDA  
 **Critério original:** data da assembleia que aprovou a proposta, com ressalvas quando o resultado não foi localizado.  
-**Critério vigente:** data da última assembleia convocada para deliberar sobre a aprovação da proposta, independentemente do resultado.
+**Critério final aprovado:** data da última assembleia convocada para deliberar sobre a aprovação da proposta, independentemente do resultado.
 
 ### Fase 4 — Consolidação da matriz probatória
 **Estado:** CONCLUÍDA  
 **Gate satisfeito:** cadeia institucional e cronologia documental preservadas internamente.
 
 ### Fase 5 — Redação do texto para WhatsApp
-**Estado:** REABERTA PARA NOVA VERSÃO  
+**Estado:** CONCLUÍDA — VERSÃO REVISADA APROVADA  
 **Entrega:** `editorial/documentos/mensagem-whatsapp-bases-act-bb-2026.md`.
 
 ### Fase 6 — Auditoria final e liberação para circulação — versão anterior
@@ -63,19 +64,19 @@ Bahia; Camaçari; Extremo Sul da Bahia; Feira de Santana e Região; Ilhéus e Re
 **Observação histórica:** esta conclusão foi posteriormente reaberta por determinação expressa do usuário.
 
 ### Fase 7 — Reabertura para aperfeiçoamento metodológico e editorial
-**Estado:** EM EXECUÇÃO  
-**Triggers:** `REQ-20260917-017`, `REQ-20260917-018`.
+**Estado:** CONCLUÍDA  
+**Triggers:** `REQ-20260917-017`, `REQ-20260917-018`, `REQ-20260917-019`.
 
-**Objetivos:**
+**Resultados:**
 
-- retirar redundâncias institucionais;
-- eliminar explicações do texto de circulação;
-- substituir a metodologia baseada no resultado/aprovação pela data da última assembleia deliberativa sobre a proposta do ACT;
-- revisar as 18 datas sob um único critério;
-- incorporar novas evidências documentais fornecidas durante a revisão;
-- produzir nova versão simples e uniforme para WhatsApp.
+- redundâncias institucionais removidas;
+- explicações retiradas do texto de circulação;
+- metodologia cronológica uniformizada;
+- 18 datas revistas sob um único critério;
+- evidência posterior de Angra dos Reis incorporada, corrigindo a data para 14/09/2026;
+- versão final aprovada expressamente pelo usuário.
 
-**Gate:** texto final com 18 sindicatos, agrupamento institucional sem repetição, exatamente uma data por sindicato e nenhuma explicação sobre resultado no corpo de circulação.
+**Gate satisfeito:** texto final com 18 sindicatos, agrupamento institucional sem repetição, exatamente uma data por sindicato e nenhuma explicação sobre resultado no corpo de circulação.
 
 ## Matriz institucional consolidada — uso interno
 
@@ -100,7 +101,7 @@ Bahia; Camaçari; Extremo Sul da Bahia; Feira de Santana e Região; Ilhéus e Re
 | Bauru e Região | Sindicato dos Bancários e Financiários de Bauru e Região | FNB | Confederação superior não identificada nas fontes pesquisadas |
 | Franca e Região | Sindicato dos Bancários de Franca e Região | FEEB-SP/MS | Confederação Nacional dos Trabalhadores nas Empresas de Crédito (CONTEC) |
 
-## Matriz cronológica vigente — uso interno
+## Matriz cronológica final — uso interno
 
 Critério único: **data da última assembleia convocada para deliberar sobre a aprovação da proposta do ACT BB 2026/2028**.
 
@@ -142,7 +143,7 @@ Critério único: **data da última assembleia convocada para deliberar sobre a 
 - Sindicato dos Bancários do Pará — assembleia de 11/09: `https://bancariospa.org.br/cn2026-por-maioria-do-funcionalismo-greve-no-banco-do-brasil-chega-ao-fim-mas-a-luta-continua/`
 - SINTRAFI-Cariri — assembleia/resultado de 14/09/2026: `https://www.sintraficariri.com.br/`
 - SEEB/RN — deliberação de 11/09 por RN, Maranhão e Bauru: `https://www.bancariosrn.org.br/noticias.php?id=137`
-- SEEB/MA — assembleia de 11/09: `https://bancariosma.org.br/paginas/noticias.asp?p=19616`
+- SEEB/MA — assembleia de 11/09: `https://www.bancariosma.org.br/paginas/noticias.asp?p=19616`
 - Franca — assembleia de 15/09: `https://bancariosfranca.com.br/2026/09/16/assembleia-banco-do-brasil-proposta-e-aprovada-e-greve-esta-encerrada/`
 - Guaratinguetá — edital da assembleia de 15/09: `https://www.bancariosgta.com.br/noticias/1973`
 - Santana do Livramento — votação de 10–11/09, usando como data final 11/09: `https://www.bancarioserechim.com.br/noticias/detalhes/edital-bb-10092026`
@@ -154,6 +155,8 @@ A evidência visual enviada pelo usuário comprova assembleia posterior à anter
 
 Consequência: a data metodologicamente correta de Angra dos Reis e Região nesta estratégia é **14/09/2026**, e não 04/09/2026.
 
-## Estado anterior preservado
+## Fechamento após reabertura
 
-A estratégia havia sido concluída e backfillada como `CONCLUIDO` em `STEV-CEM-20260917-011`. Essa conclusão permanece no histórico append-only. A reabertura atual foi registrada por `STEV-CEM-20260917-014`, sem apagar nem reescrever a história anterior.
+A estratégia havia sido concluída e backfillada como `CONCLUIDO` em `STEV-CEM-20260917-011`. Essa conclusão permanece no histórico append-only. A reabertura foi registrada por `STEV-CEM-20260917-014`; a correção de Angra por `STEV-CEM-20260917-015`; e a nova conclusão, após aprovação humana expressa, por `STEV-CEM-20260917-016`.
+
+A estratégia `STRAT-CEM-20260917-006` está novamente **CONCLUÍDA**. A estratégia-mãe `STRAT-CEM-20260917-005` permanece em sua própria fase editorial e não foi alterada por este fechamento.
