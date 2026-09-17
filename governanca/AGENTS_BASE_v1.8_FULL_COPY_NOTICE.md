@@ -1,0 +1,1 @@
+A cópia histórica integral da versão 1.8 permanece recuperável pelo blob Git `0c0fc7bd17de1084728ed1f1f2c4aa61405d1a86` e pelo histórico do arquivo `AGENTS.md`. Este marcador existe apenas para tornar explícita a preservação histórica durante a migração para a versão 1.9.
