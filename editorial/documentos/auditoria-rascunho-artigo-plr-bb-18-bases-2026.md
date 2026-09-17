@@ -1,6 +1,6 @@
 # Auditoria editorial e factual — artigo PLR BB / 18 bases — 16/09/2026
 
-**Status:** AUDITORIA v0.2  
+**Status:** AUDITORIA v0.3  
 **Rascunho auditado:** `editorial/documentos/rascunho-artigo-plr-bb-18-bases-2026.md`  
 **Estratégia registrada:** publicar um artigo no Classe e Massas sobre a antecipação da PLR do Banco do Brasil em 16/09/2026 e as 18 bases sindicais que ficaram sem o crédito.
 
@@ -64,25 +64,26 @@ Somente afirmar o conteúdo do instrumento assinado depois de localizar e compar
 
 ---
 
-## 4. Correção material 3 — 17 bases do campo Contraf/CUT + Franca/CONTEC = 18 bases
+## 4. Correção material 3 — composição sindical das 18 bases
 
-A auditoria v0.1 tratou como possível divergência a existência de fonte que mencionava **17 bases** e de outras fontes que registravam **18 bases**. Essa leitura foi superada.
+A auditoria v0.2 registrou incorretamente que 17 das 18 bases estariam no campo Contraf/CUT. Essa classificação foi corrigida.
 
-A explicação correta é:
+A composição correta registrada para esta investigação é:
 
-- **17 bases** pertencem ao campo de representação articulado pela Contraf-CUT;
-- **Franca/SP** é a única das bases excluídas vinculada à CONTEC;
-- portanto, o universo nacional é de **18 bases**.
+- **14 bases vinculadas à Contraf-CUT**;
+- **Rio Grande do Norte, Maranhão e Bauru** fora desse campo e articulados na Frente Nacional de Oposição Bancária (FNOB);
+- **Franca/SP** vinculada à CONTEC;
+- total: **18 bases**.
 
-Assim, a publicação do Sindibancários/ES que mencionava 17 bases não deve ser apresentada como fonte contraditória ao total de 18. Ela se referia ao universo das bases daquele campo sindical, enquanto Franca/SP completa o total nacional.
+A publicação do Sindibancários/ES que mencionou 17 bases não deve ser apresentada como prova de que essas 17 seriam da Contraf-CUT. O número 17 corresponde ao conjunto sem Franca/SP, mas dentro dele há também RN, Maranhão e Bauru, que não integram a Contraf-CUT.
 
 ### Tratamento editorial obrigatório
 
-Eliminar do artigo qualquer formulação de “divergência 17 × 18”. A explicação correta deve aparecer de modo positivo e simples:
+Eliminar do artigo qualquer formulação de “17 bases da Contraf/CUT”. A explicação correta deve aparecer de modo positivo e simples:
 
-> **“O levantamento reúne 18 bases: 17 vinculadas ao campo da Contraf-CUT e Franca/SP, vinculada à CONTEC.”**
+> **“O levantamento reúne 18 bases: 14 vinculadas à Contraf-CUT; Rio Grande do Norte, Maranhão e Bauru fora desse campo e articulados na FNOB; e Franca/SP vinculada à CONTEC.”**
 
-A relação oficial das bases e o quantitativo de empregados atingidos continuam sendo objeto do pedido de LAI ao Banco do Brasil, mas **não para resolver uma suposta divergência numérica já superada**.
+A relação oficial das bases e o quantitativo de empregados atingidos continuam sendo objeto do pedido de LAI ao Banco do Brasil como confirmação documental e quantitativa.
 
 ---
 
@@ -134,7 +135,7 @@ A matéria poderá ser publicada após a busca razoável de manifestação, mesm
 A auditoria considera adequados e coerentes com o dossiê os seguintes eixos:
 
 1. abertura pelo fato concreto de 16/09;
-2. apresentação das 18 bases com ressalva probatória e explicação de que são 17 no campo Contraf/CUT mais Franca/SP na CONTEC;
+2. apresentação das 18 bases com ressalva probatória e composição correta: 14 Contraf-CUT; RN, Maranhão e Bauru fora desse campo e articulados na FNOB; Franca/SP na CONTEC;
 3. separação dos subgrupos cronológicos;
 4. explicação da arquitetura CCT geral / CCT-PLR / ACT geral / ACT-PLR / termos de adesão;
 5. uso do ciclo de 2024 como precedente documental, sem presumir identidade em 2026;
@@ -148,7 +149,7 @@ A auditoria considera adequados e coerentes com o dossiê os seguintes eixos:
 
 ## 8. Próximo passo
 
-1. revisar o rascunho para `v0.3`, incorporando a correção da composição das 18 bases;
+1. revisar o rascunho para `v0.4`, incorporando a composição sindical correta das 18 bases;
 2. manter preparada a solicitação de manifestação ao Banco do Brasil;
 3. registrar no artigo se houve resposta ou ausência de resposta até o fechamento;
 4. fazer auditoria final de fontes e links;
