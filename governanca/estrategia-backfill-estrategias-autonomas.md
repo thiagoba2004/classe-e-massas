@@ -2,7 +2,7 @@
 
 **strategy_id:** `STRAT-CEM-20260917-003`  
 **parent_strategy_id:** `STRAT-CEM-20260917-001`  
-**status:** EM EXECUÇÃO  
+**status:** CONCLUÍDA — CICLO INICIAL  
 **data:** 17/09/2026
 
 ## Objetivo
@@ -19,25 +19,15 @@ Nenhuma estratégia será criada retroativamente como fato apenas porque parece 
 
 **Estado:** CONCLUÍDA
 
-**Objetivo:** registrar o pedido, criar a Estratégia Autônoma de backfill e delimitar seu método.
-
 **Gate satisfeito:** `REQ-20260917-016` persistido; `STRAT-CEM-20260917-003` criado no `STRATEGY_LOG.jsonl`; este Plano de Fases persistido.
 
 ## FASE 2 — Inventário de candidatas
 
 **Estado:** CONCLUÍDA — LOTE INICIAL
 
-**Objetivo:** levantar frentes com indícios de autonomia estratégica em `PROJECT_STATE.json`, arquivos de planejamento, roadmaps, dossiês, commits e demais fontes persistentes.
+**Gate satisfeito:** inventário persistido em `governanca/inventario-backfill-estrategias-autonomas-2026-09-17.md` após leitura do `PROJECT_STATE.json`, árvore completa do repositório e arquivos canônicos das candidatas principais.
 
-Cada candidata recebe classificação:
-
-- `COMPROVADA` — há evidência suficiente para backfill;
-- `PARCIALMENTE_COMPROVADA` — há indícios fortes, mas falta evidência para afirmar algum elemento essencial;
-- `NÃO COMPROVADA` — não há base suficiente para evento `BACKFILLED`.
-
-**Gate satisfeito:** inventário inicial persistido em `governanca/inventario-backfill-estrategias-autonomas-2026-09-17.md`.
-
-### Resultado do lote inicial
+### Resultado
 
 Candidatas comprovadas:
 
@@ -46,27 +36,17 @@ Candidatas comprovadas:
 3. `WHATSAPP-ACT-BB-18-BASES-2026`;
 4. `Refundação e implantação do Observatório Classe e Massas`.
 
-Conjuntos deixados para lote posterior por exigirem classificação adicional: MPT, LAI, artigos individuais, diretriz editorial, documentos bancários históricos e ferramentas/automações.
+Conjuntos não transformados em estratégias por falta de classificação documental suficiente neste ciclo: MPT, LAI, artigos individuais, diretriz editorial, documentos bancários históricos e ferramentas/automações.
 
 ## FASE 3 — Validação documental
 
 **Estado:** CONCLUÍDA — LOTE INICIAL
 
-**Objetivo:** verificar, para cada candidata, se é possível comprovar ao menos:
-
-- existência da frente como unidade de trabalho autônoma;
-- objetivo próprio;
-- documento ou artefato canônico;
-- estado histórico minimamente determinável;
-- relação com outras estratégias, quando aplicável.
-
-**Gate satisfeito:** as quatro candidatas do lote inicial possuem fontes canônicas suficientes; datas não comprovadas não foram inventadas.
+**Gate satisfeito:** as quatro candidatas possuem unidade autônoma de trabalho, objetivo próprio, documentos canônicos, estado histórico determinável e referências suficientes. Datas não comprovadas não foram inventadas.
 
 ## FASE 4 — Backfill progressivo
 
 **Estado:** CONCLUÍDA — LOTE INICIAL
-
-**Objetivo:** adicionar eventos `BACKFILLED` ao `STRATEGY_LOG.jsonl`, preservando os arquivos originais como fonte de evidência.
 
 ### Eventos registrados
 
@@ -75,33 +55,48 @@ Conjuntos deixados para lote posterior por exigirem classificação adicional: M
 - `STEV-CEM-20260917-011` → `STRAT-CEM-20260917-006` — WhatsApp 18 bases;
 - `STEV-CEM-20260917-012` → `STRAT-CEM-20260917-007` — Refundação e implantação do Observatório.
 
-**Gate satisfeito:** eventos salvos, versionados e persistidos no remoto.
+**Gate satisfeito:** eventos persistidos e versionados no `STRATEGY_LOG.jsonl` sem reabrir estratégias concluídas.
 
 ## FASE 5 — Reconciliação do estado corrente
 
-**Estado:** EM EXECUÇÃO
+**Estado:** CONCLUÍDA
 
-**Objetivo:** reconciliar o mapa corrente com o `STRATEGY_LOG.jsonl` sem alterar o estado material de frentes editoriais, jurídicas, documentais ou de tradução.
+**Resultado:** criado `governanca/STRATEGY_MAP.json` como mapa corrente reconstruível derivado do log histórico. O mapa preserva os estados materiais já comprovados:
 
-A reconciliação inclui:
+- `STRAT-CEM-20260917-004` / TCM-001 — EM EXECUÇÃO, revisão humana;
+- `STRAT-CEM-20260917-005` / DOS-PLR-BB-2026 — EM EXECUÇÃO, revisão editorial/direito de resposta;
+- `STRAT-CEM-20260917-006` / WhatsApp 18 bases — CONCLUÍDO;
+- `STRAT-CEM-20260917-007` / Observatório Classe e Massas — EM EXECUÇÃO conforme roadmap canônico.
 
-- vincular os IDs backfillados aos objetos correntes sem reabrir frentes concluídas;
-- manter `TCM-001` e `DOS-PLR-BB-2026` nos estados materiais já comprovados;
-- manter `WHATSAPP-ACT-BB-18-BASES-2026` concluída;
-- refletir no Gerador de Agents os strategy_ids já comprovados localmente;
-- separar claramente o próximo lote pendente de evidência.
+O `STRATEGY_REGISTRY.jsonl` do Gerador de Agents e o perfil `profiles/classe-e-massas.json` foram sincronizados com os IDs comprovados.
 
-**Gate:** mapa corrente e histórico sem contradição material conhecida.
+**Gate satisfeito:** mapa corrente e histórico reconciliados sem alterar o estado material de qualquer frente.
 
 ## FASE FINAL — Fechamento do ciclo inicial
 
-**Estado:** NÃO INICIADA
+**Estado:** CONCLUÍDA
 
-**Objetivo:** registrar quantas estratégias foram backfilladas, quais permaneceram pendentes de evidência e qual é o próximo lote de investigação, se houver.
+**Resultado:** `STEV-CEM-20260917-013` registra `STRAT-CEM-20260917-003` como `CONCLUDED`.
 
-Esta estratégia pode ser encerrada quando o inventário razoável do acervo atual tiver sido concluído, ainda que permaneçam lacunas históricas explicitamente marcadas como não comprovadas.
+### Balanço do ciclo
 
-## Regras metodológicas
+- estratégias backfilladas: **4**;
+- estratégias reabertas indevidamente: **0**;
+- grupos mantidos pendentes por ausência de evidência/classificação suficiente: **6**;
+- inferências convertidas em fato: **0**.
+
+### Grupos pendentes de evidência/classificação
+
+- MPT;
+- LAI;
+- artigos individuais de 2026;
+- diretriz editorial de notícias;
+- documentos bancários históricos anteriores à refundação;
+- ferramentas e automações.
+
+Esses grupos não constituem, por ora, estratégias retroativas reconhecidas. Nova leitura poderá produzir `BACKFILLED` futuro se houver evidência persistente suficiente.
+
+## Regras metodológicas preservadas
 
 1. `PROJECT_STATE.json` é fonte de candidatas, não prova automática de origem histórica.
 2. Arquivo com nome `estrategia-*`, `roadmap`, `plano` ou equivalente é evidência forte, mas deve ser lido antes do backfill.
@@ -109,4 +104,8 @@ Esta estratégia pode ser encerrada quando o inventário razoável do acervo atu
 4. Uma frente concluída pode ser backfillada sem ser reaberta.
 5. Uma estratégia-mãe e uma estratégia derivada devem permanecer distintas quando os documentos comprovarem autonomia real.
 6. É permitido registrar incerteza. É proibido preencher lacunas com memória não verificável.
-7. O `STRATEGY_REGISTRY.jsonl` do Gerador de Agents só será atualizado depois de o evento existir no log local do Classe e Massas.
+7. O `STRATEGY_REGISTRY.jsonl` agregado só reconhece estratégias depois de comprovação no log local do projeto de origem.
+
+## Próximo passo lógico
+
+Nenhuma estratégia adicional deve ser criada apenas para esgotar a lista de grupos pendentes. Quando um desses conjuntos voltar a ser objeto de trabalho ou surgir evidência persistente nova, realizar classificação documental antes de eventual novo `BACKFILLED`.
