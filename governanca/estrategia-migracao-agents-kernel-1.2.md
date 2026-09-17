@@ -2,7 +2,7 @@
 
 **strategy_id:** `STRAT-CEM-20260917-002`  
 **parent_strategy_id:** `STRAT-CEM-20260917-001`  
-**status:** EM EXECUÇÃO  
+**status:** EM FECHAMENTO  
 **data:** 17/09/2026
 
 ## Objetivo
@@ -24,52 +24,48 @@ Ficam fora do escopo:
 
 **Estado:** CONCLUÍDA
 
-**Objetivo:** registrar pedido, estratégia, vínculo com a governança geral e Plano de Fases.
-
-**Gate:** `REQ-20260917-015` persistido; `STRAT-CEM-20260917-002` criado no `STRATEGY_LOG.jsonl`; este plano persistido.
+**Gate atingido:** `REQ-20260917-015` persistido; `STRAT-CEM-20260917-002` criado no `STRATEGY_LOG.jsonl`; Plano de Fases persistido.
 
 ## FASE 2 — Preservação e comparação
 
-**Estado:** EM EXECUÇÃO
+**Estado:** CONCLUÍDA
 
-**Objetivo:** comparar o `AGENTS.md` v1.8 com o kernel 1.2 e a auditoria produzida pelo Gerador, localizar todas as regras afetadas pela mudança de ordem operacional e confirmar quais regras locais devem permanecer intocadas.
-
-**Gate:** mapa de alterações fechado; nenhuma modificação destrutiva ou simplificadora proposta; versão anterior recuperável pelo Git confirmada.
+**Gate atingido:** conflito material localizado nos antigos itens 23, 24.14 e 24.15; regras locais mais rigorosas identificadas para preservação; versão v1.8 recuperável pelo blob Git `0c0fc7bd17de1084728ed1f1f2c4aa61405d1a86`.
 
 ## FASE 3 — Migração controlada
 
-**Estado:** NÃO INICIADA
+**Estado:** CONCLUÍDA
 
-**Objetivo:** produzir a nova versão do `AGENTS.md`, incorporando:
+**Gate atingido:** `AGENTS.md` migrado para v1.9, com `generated_from_kernel: 1.2`, ordem registro → verificação → “Pedido registrado” → leitura/análise/providências → execução e incorporação por referência das regras locais válidas da v1.8.
 
-- `generated_from_kernel: 1.2`;
-- nova versão documental do Classe e Massas;
-- ordem obrigatória vigente: registrar → confirmar tecnicamente → informar “Pedido registrado.” → informar leitura/análise/providências → executar;
-- atualização coerente dos itens 23, 24.14, 24.15 e de quaisquer referências cruzadas conflitantes;
-- registro da alteração no histórico de versões.
-
-**Gate:** arquivo salvo e versionado sem perda das regras locais válidas.
+**Commit da migração:** `3fb8a9ed721b5e614301d4528c0bad54eded62f9`.
 
 ## FASE 4 — Verificação de não regressão
 
-**Estado:** NÃO INICIADA
+**Estado:** CONCLUÍDA
 
-**Objetivo:** reler a versão migrada, pesquisar contradições residuais, confirmar preservação das regras específicas e comparar as passagens críticas com o kernel 1.2 e com a versão anterior.
-
-**Gate:** nenhuma contradição material conhecida; regras locais mais rigorosas preservadas; remoto confirmado.
+**Gate atingido:** v1.9 relida diretamente do remoto; metadado do kernel confirmado; ordem operacional confirmada; regras específicas de tradução, formatos, siglas, cadeia sindical, checkpoints, persistência, recuperação e não regressão preservadas expressamente; v1.8 mantida recuperável pelo Git.
 
 ## FASE FINAL — Fechamento
 
-**Estado:** NÃO INICIADA
+**Estado:** EM EXECUÇÃO
 
-**Objetivo:** atualizar `PROJECT_STATE.json`, `STRATEGY_LOG.jsonl` e `REQUEST_LOG.jsonl`, registrar o resultado e encerrar `STRAT-CEM-20260917-002` se todos os gates estiverem satisfeitos.
+**Objetivo:** atualizar `PROJECT_STATE.json`, `STRATEGY_LOG.jsonl` e `REQUEST_LOG.jsonl`, registrar o resultado e encerrar `STRAT-CEM-20260917-002`.
 
 **Gate:** estado reconstruível sem depender do chat e próximo passo lógico registrado.
 
+## Resultado material já alcançado
+
+- `AGENTS.md` vigente: **v1.9**;
+- kernel de origem: **1.2**;
+- versão anterior: preservada no histórico Git;
+- alteração do projeto-alvo: realizada e verificada remotamente;
+- backfill geral de outras estratégias: **não executado**, por estar fora do escopo.
+
 ## Regras de segurança da migração
 
-1. A versão v1.8 deve permanecer recuperável pelo histórico Git.
-2. Nenhuma regra local mais rigorosa pode ser removida apenas por não constar do kernel universal.
+1. A versão v1.8 permanece recuperável pelo histórico Git.
+2. Nenhuma regra local mais rigorosa foi declarada revogada apenas por não constar do kernel universal.
 3. A migração não autoriza o backfill geral das demais estratégias do projeto.
-4. Alterações devem ser cirúrgicas e rastreáveis.
+4. Alterações foram registradas e verificadas no remoto.
 5. “Auditado”, “salvo”, “versionado”, “enviado ao remoto” e “concluído” permanecem estados distintos.
