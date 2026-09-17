@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "project": "Classe e Massas",
-  "updated_at": "2026-09-16",
+  "updated_at": "2026-09-17",
   "purpose": "Fonte estruturada de continuidade entre conversas, modelos de IA e sessões de trabalho. Não substitui os documentos específicos de cada frente; aponta o estado mais avançado comprovado e a próxima etapa.",
   "rules": {
     "authoritative_order": [
@@ -123,6 +123,36 @@
         "não transformar ausência de localização pública do ACT-PLR 2026 em afirmação de inexistência do instrumento",
         "não voltar a afirmar 17 bases da Contraf-CUT: o estado registrado é 14 Contraf-CUT + RN/MA/Bauru fora desse campo e articulados na FNOB + Franca/SP na CONTEC = 18 bases",
         "não publicar antes da busca razoável de manifestação do Banco do Brasil e da auditoria final do rascunho"
+      ]
+    },
+    {
+      "id": "WHATSAPP-ACT-BB-18-BASES-2026",
+      "area": "Editorial / Pesquisa documental / Divulgação em WhatsApp",
+      "title": "Bases sindicais que não haviam assinado o ACT BB 2026/2028 até 14h de 11/09/2026",
+      "status": "EM EXECUÇÃO — AUDITORIA INSTITUCIONAL E CRONOLÓGICA",
+      "strategy_status": "REGISTRADA",
+      "strategy": "Produzir mensagem curta, documentalmente verificável, com as 18 bases sindicais que não haviam formalizado a assinatura do ACT BB 2026/2028 até 14h de 11/09/2026, classificadas pela cadeia Sindicato > Federação > Confederação e com a data da assembleia que efetivamente aprovou a proposta.",
+      "planning_file": "editorial/documentos/estrategia-whatsapp-18-bases-act-bb-2026.md",
+      "planning_phase": "FASES 2 E 3 — AUDITORIA INSTITUCIONAL E AUDITORIA CRONOLÓGICA DAS ASSEMBLEIAS",
+      "phase_objective": "Fechar documentalmente os vínculos institucionais e as datas de aprovação das 18 bases, com prioridade para Angra dos Reis, Guaratinguetá e Santana do Livramento.",
+      "pending_priority": [
+        "Angra dos Reis/RJ — localizar assembleia posterior que tenha aprovado o ACT ou registrar ausência de confirmação pública",
+        "Guaratinguetá/SP — confirmar documentalmente o resultado da assembleia de 15/09/2026",
+        "Santana do Livramento/RS — localizar resultado individual da votação de 10–11/09/2026 ou registrar limite documental"
+      ],
+      "methodology": [
+        "usar a cadeia Sindicato > Federação > Confederação",
+        "não confundir filiação formal com representação negocial, comando, plataforma ou coordenação conjuntural",
+        "desenvolver toda sigla relevante pelo menos uma vez no texto final",
+        "usar como data principal a assembleia que efetivamente aprovou o ACT",
+        "registrar explicitamente qualquer lacuna documental"
+      ],
+      "persistence_status": "ESTRATÉGIA E PLANO DE FASES PERSISTIDOS NO GITHUB; PESQUISA DAS PENDÊNCIAS PRIORITÁRIAS EM RETOMADA",
+      "next_step": "FECHAR DOCUMENTALMENTE ANGRA DOS REIS, GUARATINGUETÁ E SANTANA DO LIVRAMENTO; EM SEGUIDA CONSOLIDAR A MATRIZ PROBATÓRIA DAS 18 BASES E REDIGIR O TEXTO FINAL PARA WHATSAPP",
+      "do_not_do": [
+        "não transformar ausência de fonte pública em afirmação de inexistência de assembleia ou aprovação",
+        "não classificar sindicato por campo político sem confirmar a cadeia institucional",
+        "não usar resultado coletivo como resultado individual sem deixar a natureza da prova explícita"
       ]
     }
   ],
