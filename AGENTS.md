@@ -2,7 +2,7 @@
 
 **Projeto:** Classe e Massas  
 **Status:** CANÔNICO  
-**Versão:** 1.6  
+**Versão:** 1.7  
 **Data:** 17/09/2026  
 **Escopo:** todo modelo de IA, agente, assistente ou automação que trabalhe neste repositório ou em seus documentos derivados.
 
@@ -518,11 +518,15 @@ A ausência de ferramenta específica não suspende os princípios deste documen
 A partir desta versão, todo trabalho relativo ao projeto deverá obedecer ao seguinte ciclo mínimo antes e durante a execução:
 
 ```text
+INFORMAR IMEDIATAMENTE AO USUÁRIO QUE IRÁ LER O PROMPT, ANALISAR, REGISTRAR O PEDIDO E TOMAR AS PROVIDÊNCIAS NECESSÁRIAS
+              ↓
+LER E ANALISAR O PEDIDO NA MEDIDA NECESSÁRIA PARA CLASSIFICÁ-LO E REGISTRÁ-LO CORRETAMENTE
+              ↓
 REGISTRAR O PEDIDO RECEBIDO NO REQUEST_LOG.jsonl
               ↓
-CONFIRMAR AO USUÁRIO QUE O PEDIDO FOI REGISTRADO
+VERIFICAR QUE O REGISTRO FOI PERSISTIDO
               ↓
-INFORMAR QUE IRÁ LER O PROMPT, ANALISAR E TOMAR AS PROVIDÊNCIAS NECESSÁRIAS
+CONFIRMAR AO USUÁRIO QUE O PEDIDO FOI REGISTRADO, QUANDO A EXECUÇÃO CONTINUAR ALÉM DA MENSAGEM INICIAL
               ↓
 CONSULTAR / RECUPERAR A ESTRATÉGIA E O PLANEJAMENTO CANÔNICO
               ↓
@@ -563,7 +567,7 @@ Este ciclo é uma **barreira de segurança**, não uma recomendação opcional.
 
 A prioridade operacional do agente é:
 
-> **registrar o pedido; confirmar o registro; registrar a estratégia; compreender a estratégia; preservar o trabalho; executar a fase correta; publicar por último.**
+> **informar imediatamente o usuário; ler e analisar o necessário; registrar e verificar o pedido; confirmar o registro; registrar a estratégia; compreender a estratégia; preservar o trabalho; executar a fase correta; publicar por último.**
 
 ---
 
@@ -780,35 +784,36 @@ Quando registrado, deverá indicar, sempre que possível, o arquivo ou mecanismo
 
 A mera afirmação de que algo foi “anotado” não substitui a verificação técnica exigida por este protocolo.
 
-### 24.14. Confirmação imediata antes de processamento potencialmente demorado
+### 24.14. Confirmação imediata antes do registro e de qualquer processamento
 
-Ao receber um novo prompt do usuário que exija leitura atenta, análise, pesquisa, consulta a arquivos, uso de ferramentas, comparação documental, edição, execução em múltiplas etapas ou qualquer outro processamento que possa produzir um período perceptível de silêncio, o agente deverá **responder imediatamente antes de iniciar esse processamento**, mas somente **depois do registro obrigatório do pedido previsto no item 24.15**.
+Ao receber **qualquer novo prompt, mensagem, correção, complemento, pergunta, determinação ou alteração de instrução do usuário no contexto do projeto**, o agente deverá produzir **imediatamente uma mensagem curta ao usuário, antes de iniciar o registro persistente, antes de chamar ferramentas e antes de qualquer processamento que possa gerar silêncio perceptível**.
 
-A mensagem inicial deverá ser curta, clara e operacional. Deve informar, no mínimo, que:
+A mensagem inicial deverá informar, no mínimo, que o agente irá:
 
-1. **o pedido foi registrado**;
-2. o agente vai **ler e analisar o prompt**;
-3. o agente vai **tomar as providências necessárias** para executar a solicitação.
-
-Quando pertinente, a mensagem poderá também indicar a estratégia, a fase ou o estado de registro naquele instante, mas não deverá transformar-se em relatório longo antes do trabalho.
+1. **ler o prompt**;
+2. **analisar o pedido**;
+3. **registrar o pedido**;
+4. **tomar as devidas providências** para executar a solicitação.
 
 Exemplo mínimo aceitável:
 
-> **Pedido registrado. Vou ler e analisar o seu prompt e, em seguida, tomar as providências necessárias para executar a solicitação.**
+> **Vou ler o seu prompt, analisar, registrar o pedido e tomar as devidas providências.**
 
-O objetivo desta regra é impedir que o silêncio operacional seja interpretado como travamento, perda da solicitação ou interrupção do Modelo de IA.
+Essa primeira mensagem tem função estritamente operacional: **eliminar o período inicial de silêncio** e deixar claro que a solicitação foi recebida e está sendo processada. Ela deve ser enviada antes da primeira chamada de ferramenta relacionada ao pedido.
 
-Essa confirmação deve ocorrer **depois do registro persistente do pedido e antes de qualquer leitura substancial, análise, pesquisa, chamada de ferramenta operacional ou processamento demorado**. Ela não substitui o registro estratégico, os checkpoints, a persistência progressiva nem a obrigação de informar o estado do registro nas pausas posteriores.
+A mensagem inicial **não pode afirmar que o pedido já foi registrado** quando o registro persistente ainda não foi tecnicamente confirmado. Depois dessa mensagem, o agente deverá ler e analisar o conteúdo na medida necessária para classificá-lo e registrá-lo corretamente, cumprir o item 24.15 e somente então iniciar pesquisa, edição, execução ou outra atividade substantiva.
 
-Para solicitações triviais, o registro do pedido continua obrigatório; apenas a mensagem separada de processamento poderá ser abreviada quando a resposta puder ser dada integralmente de forma imediata.
+Se, depois do registro, a execução ainda exigir processamento adicional, o agente deverá informar, em atualização curta, que o pedido foi registrado antes de prosseguir por período prolongado de trabalho.
 
-### 24.15. Registro obrigatório de todos os pedidos antes de qualquer processamento
+Para mensagens triviais, a resposta imediata poderá também conter a resposta material cabível, mas isso não elimina a obrigação de registrar a interação de forma persistente conforme o item 24.15.
 
-Todo novo pedido, mensagem, correção, complemento, saudação, pergunta, determinação ou alteração de instrução enviada pelo usuário no contexto do projeto deverá ser **registrado de forma persistente, sequencial e rastreável antes de qualquer processamento subsequente**.
+### 24.15. Registro obrigatório de todos os pedidos após a confirmação imediata e antes da execução substantiva
 
-A regra é absoluta:
+Todo novo pedido, mensagem, correção, complemento, saudação, pergunta, determinação ou alteração de instrução enviada pelo usuário no contexto do projeto deverá ser **registrado de forma persistente, sequencial e rastreável depois da mensagem imediata prevista no item 24.14 e antes de qualquer execução substantiva da solicitação**.
 
-> **PRIMEIRO REGISTRAR O PEDIDO. DEPOIS CONFIRMAR O REGISTRO. SÓ ENTÃO LER, ANALISAR E TOMAR AS PROVIDÊNCIAS.**
+A regra operacional é:
+
+> **PRIMEIRO INFORMAR IMEDIATAMENTE AO USUÁRIO. DEPOIS LER E ANALISAR O NECESSÁRIO PARA REGISTRAR CORRETAMENTE. ENTÃO REGISTRAR E VERIFICAR O PEDIDO. SÓ DEPOIS EXECUTAR A SOLICITAÇÃO SUBSTANTIVA.**
 
 O registro padrão será o arquivo **`REQUEST_LOG.jsonl`**, salvo se outro mecanismo canônico equivalente vier a substituí-lo por decisão expressa e versionada.
 
@@ -835,24 +840,32 @@ A ordem operacional obrigatória para toda nova interação passa a ser:
 ```text
 RECEBER O NOVO PEDIDO
       ↓
+INFORMAR IMEDIATAMENTE AO USUÁRIO: “VOU LER O PROMPT, ANALISAR, REGISTRAR O PEDIDO E TOMAR AS DEVIDAS PROVIDÊNCIAS”
+      ↓
+LER E ANALISAR O NECESSÁRIO PARA IDENTIFICAR E CLASSIFICAR O PEDIDO
+      ↓
 REGISTRAR NO REQUEST_LOG.jsonl
       ↓
 VERIFICAR QUE O REGISTRO FOI PERSISTIDO
       ↓
-INFORMAR AO USUÁRIO: “PEDIDO REGISTRADO”
+SE A EXECUÇÃO CONTINUAR, INFORMAR AO USUÁRIO: “PEDIDO REGISTRADO”
       ↓
-INFORMAR QUE IRÁ LER O PROMPT, ANALISAR E TOMAR AS PROVIDÊNCIAS NECESSÁRIAS
-      ↓
-SÓ ENTÃO REALIZAR LEITURA SUBSTANTIVA, ANÁLISE, PESQUISA, USO DE FERRAMENTAS OPERACIONAIS OU EXECUÇÃO
+SÓ ENTÃO REALIZAR PESQUISA SUBSTANTIVA, EDIÇÃO, USO DE FERRAMENTAS OPERACIONAIS OU EXECUÇÃO MATERIAL DA SOLICITAÇÃO
 ```
 
-A única operação técnica permitida antes do registro é aquela **estritamente necessária para efetuar o próprio registro** ou recuperar o mecanismo de registro quando ele estiver temporariamente indisponível. Nenhuma pesquisa substantiva, edição de conteúdo, consulta documental da tarefa, elaboração de resposta material ou execução da solicitação deve preceder o registro.
+Antes do registro persistente são permitidas apenas:
+
+1. a **mensagem imediata ao usuário** prevista no item 24.14;
+2. a **leitura e análise estritamente necessárias para compreender, classificar e representar fielmente o pedido no log**;
+3. as operações técnicas estritamente necessárias para efetuar o próprio registro ou recuperar o mecanismo de registro quando ele estiver temporariamente indisponível.
+
+Nenhuma pesquisa substantiva, edição de conteúdo, consulta documental da tarefa, elaboração extensa de resposta material, publicação ou execução da solicitação deve preceder a confirmação do registro.
 
 Se o registro falhar, o agente deverá informar a falha e **não fingir que o pedido foi registrado**. Deverá priorizar a recuperação do mecanismo de registro antes de prosseguir com tarefas substantivas.
 
-Interrupções do usuário durante uma tarefa em andamento também constituem novos pedidos e devem ser registradas na sequência, sem apagar, substituir ou perder o pedido anterior. O novo pedido pode suspender, complementar, corrigir ou apenas consultar o estado da tarefa anterior; essa relação deve permanecer rastreável no log.
+Interrupções do usuário durante uma tarefa em andamento também constituem novos pedidos e devem receber primeiro a confirmação imediata prevista no item 24.14 e, em seguida, ser registradas na sequência, sem apagar, substituir ou perder o pedido anterior. O novo pedido pode suspender, complementar, corrigir ou apenas consultar o estado da tarefa anterior; essa relação deve permanecer rastreável no log.
 
-O objetivo é assegurar que nenhum pedido desapareça entre modelos, conversas, pausas, chamadas de ferramentas ou falhas de contexto e que seja possível recuperar com precisão **o último pedido, a sequência de solicitações e o estado de cada uma**.
+O objetivo é assegurar simultaneamente duas garantias: **nenhum pedido se perde** e **nenhum período inicial de registro ou processamento deixa o usuário em silêncio, com a impressão de travamento**. Deve ser possível recuperar com precisão o último pedido, a sequência de solicitações e o estado de cada uma.
 
 ---
 
@@ -866,3 +879,4 @@ O objetivo é assegurar que nenhum pedido desapareça entre modelos, conversas, 
 | 1.4 | 17/09/2026 | Torna explícitos o Plano de Fases para toda estratégia autônoma, o desenvolvimento obrigatório de siglas, a cadeia Sindicato > Federação > Confederação e a informação de registro em toda pausa/checkpoint. |
 | 1.5 | 17/09/2026 | Institui confirmação imediata de recebimento antes de processamento potencialmente demorado, para evitar a percepção de travamento durante leitura, análise ou uso de ferramentas. |
 | 1.6 | 17/09/2026 | Torna obrigatório registrar persistentemente todos os pedidos no `REQUEST_LOG.jsonl` antes de qualquer processamento; impõe a ordem registro → confirmação → leitura/análise/providências e torna o log a fonte primária para recuperar a sequência e o último pedido. |
+| 1.7 | 17/09/2026 | Corrige a ordem operacional para eliminar o silêncio inicial: primeiro o agente informa imediatamente que irá ler, analisar, registrar o pedido e tomar as providências; depois realiza a leitura/análise necessária, registra e verifica o pedido e somente então executa a solicitação substantiva. |
