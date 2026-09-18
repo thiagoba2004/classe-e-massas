@@ -128,18 +128,21 @@
       "strategy_id": "STRAT-CEM-20260917-010",
       "name": "Sistema de UI Design do Classe e Massas",
       "status": "EM_EXECUCAO",
-      "last_event_id": "STEV-CEM-20260917-045",
+      "last_event_id": "STEV-CEM-20260917-047",
       "event_type": "UPDATED",
-      "current_phase": "FASE 6 CONCLUIDA — PROXIMA: FASE 7, MOBILE E ACESSIBILIDADE",
+      "current_phase": "FASE 7 CONCLUIDA — PROXIMA: FASE 8, LIMPEZA TECNICA",
       "canonical_refs": [
         "css/style.css",
         "js/main.js",
         "governanca/estrategia-ui-design-site.md",
-        "artigos/2026/",
-        "noticias/2026/",
-        "observatorio/documentos/",
+        "index.html",
+        "noticias/",
+        "artigos/",
+        "observatorio/",
+        "biblioteca/",
         "mpt/",
-        "lai/"
+        "lai/",
+        "fale-conosco/"
       ]
     }
   ],
