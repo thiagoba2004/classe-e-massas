@@ -124,23 +124,6 @@ document.documentElement.classList.add("js");
         ["Outras estatais federais — modelo comparativo", `${base}lai/estatais-federais.html`]
       ];
 
-      const style = document.createElement("style");
-      style.id = "modelos-lai-artigo-style";
-      style.textContent = `
-        #modelos-lai-no-artigo{margin:34px 0 48px;padding:26px 0;border-top:2px solid currentColor;border-bottom:2px solid currentColor}
-        #modelos-lai-no-artigo h3{font-size:1.35rem;margin:0 0 12px}
-        #modelos-lai-no-artigo .lai-intro{line-height:1.7;margin-bottom:22px}
-        #modelos-lai-no-artigo details{margin:12px 0;border:1px solid rgba(127,127,127,.35);border-radius:10px;overflow:hidden}
-        #modelos-lai-no-artigo summary{cursor:pointer;padding:16px 18px;font-weight:800;line-height:1.35;background:rgba(127,127,127,.08)}
-        #modelos-lai-no-artigo .lai-model-body{padding:18px}
-        #modelos-lai-no-artigo pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;font-size:.94rem;line-height:1.58;margin:16px 0 0;padding:18px;border:1px solid rgba(127,127,127,.28);border-radius:8px;background:rgba(127,127,127,.06)}
-        #modelos-lai-no-artigo .lai-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-        #modelos-lai-no-artigo button,#modelos-lai-no-artigo a.lai-link{font:inherit;font-weight:800;padding:9px 13px;border:2px solid currentColor;border-radius:7px;background:transparent;color:inherit;text-decoration:none;cursor:pointer}
-        #modelos-lai-no-artigo .lai-status{font-size:.92rem;opacity:.75}
-        @media(max-width:700px){#modelos-lai-no-artigo .lai-model-body{padding:14px}#modelos-lai-no-artigo pre{padding:14px;font-size:.9rem}}
-      `;
-      document.head.appendChild(style);
-
       const section = document.createElement("section");
       section.id = "modelos-lai-no-artigo";
 
