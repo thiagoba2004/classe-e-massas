@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "project": "Classe e Massas",
+  "audit_strategy_id": "STRAT-CEM-20260918-002",
+  "audited_at": "2026-09-18",
+  "slug": "projeto-001",
+  "content_type": "documento_traducoes",
+  "title": "História da Crise Mundial",
+  "description": "Dossiê público do Projeto de Tradução Classe e Massas nº 001: José Carlos Mariátegui, História da Crise Mundial.",
+  "status": "PUBLICADO",
+  "canonical_source": {
+    "format": "markdown",
+    "path": "biblioteca/traducoes/projeto-001.md"
+  },
+  "publication": {
+    "format": "html",
+    "path": "biblioteca/traducoes/projeto-001.html",
+    "html_blob_sha": "03172510727f7e7bb478f5c42c054714f5c775a1"
+  },
+  "structured_representation": {
+    "format": "json",
+    "path": "biblioteca/traducoes/projeto-001.json"
+  },
+  "related_project_manifest": "biblioteca/traducoes/projetos/001-historia-da-crise-mundial.md",
+  "markdown_state": "created_from_published_html",
+  "outline": [
+    {
+      "level": 1,
+      "title": "História da Crise Mundial"
+    },
+    {
+      "level": 2,
+      "title": "Tradução de trabalho integral concluída"
+    },
+    {
+      "level": 2,
+      "title": "O que sobreviveu é o que foi traduzido"
+    },
+    {
+      "level": 2,
+      "title": "A Revolução Mexicana"
+    },
+    {
+      "level": 2,
+      "title": "Primeiro a tradução completa; depois a aprovação completa"
+    },
+    {
+      "level": 2,
+      "title": "O que falta para a v1.0"
+    },
+    {
+      "level": 2,
+      "title": "O rascunho ainda não é a edição pública"
+    }
+  ]
+}

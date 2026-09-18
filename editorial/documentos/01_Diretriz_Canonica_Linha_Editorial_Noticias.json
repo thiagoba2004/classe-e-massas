@@ -1,0 +1,72 @@
+{
+  "documento_id": "cem-editorial-01-linha-editorial-noticias",
+  "titulo": "Diretriz Canônica da Linha Editorial de Notícias",
+  "subtitulo": "Jornalismo Operário, Apuração, Fontes e Independência Editorial",
+  "projeto": "Classe e Massas",
+  "colecao": "Documentos Canônicos Editoriais do Classe e Massas",
+  "ordem_colecao": 1,
+  "versao": "1.0",
+  "data": "2026-09-13",
+  "status": "aprovado",
+  "fonte_canonica": "01_Diretriz_Canonica_Linha_Editorial_Noticias.md",
+  "publicacao_derivada": "01_Diretriz_Canonica_Linha_Editorial_Noticias.html",
+  "metadados": "01_Diretriz_Canonica_Linha_Editorial_Noticias.metadata.json",
+  "escopo": [
+    "noticias",
+    "jornalismo operario",
+    "apuração",
+    "fontes",
+    "independencia editorial",
+    "protecao da base",
+    "correcoes",
+    "memoria"
+  ],
+  "principio_sintese": [
+    "Do ponto de vista da classe trabalhadora",
+    "Com independência diante dos aparelhos",
+    "Com rigor diante dos fatos",
+    "Com voz para a base",
+    "Com memória para as lutas"
+  ],
+  "relacoes_editoriais": {
+    "noticias": "registrar o acontecimento",
+    "artigos": "interpretar e disputar seu significado",
+    "observatorio": "acumular, estruturar e comparar o conhecimento produzido"
+  },
+  "estados_da_informacao": [
+    "comprovado",
+    "relatado",
+    "controvertido",
+    "provisorio",
+    "desconhecido"
+  ],
+  "regra_ia": "IA pode auxiliar pesquisa, organização, transcrição, comparação, estruturação e revisão, mas não é fonte factual; toda afirmação relevante deve regressar a fonte verificável.",
+  "aprovacao_humana": true,
+  "repositorio": "https://github.com/thiagoba2004/classe-e-massas",
+  "artifact_manifest": {
+    "schema_version": "1.0",
+    "project": "Classe e Massas",
+    "audit_strategy_id": "STRAT-CEM-20260918-002",
+    "audited_at": "2026-09-18",
+    "slug": "01_Diretriz_Canonica_Linha_Editorial_Noticias",
+    "content_type": "diretriz_editorial",
+    "title": "Linha Editorial de Notícias",
+    "description": "Diretriz canônica de jornalismo operário, apuração, fontes e independência editorial do Classe e Massas.",
+    "status": "PUBLICADO",
+    "canonical_source": {
+      "format": "markdown",
+      "path": "editorial/documentos/01_Diretriz_Canonica_Linha_Editorial_Noticias.md"
+    },
+    "publication": {
+      "format": "html",
+      "path": "editorial/documentos/01_Diretriz_Canonica_Linha_Editorial_Noticias.html",
+      "html_blob_sha": "850872d35c64dd490ba7db515afb7537d3d72ca6"
+    },
+    "structured_representation": {
+      "format": "json",
+      "path": "editorial/documentos/01_Diretriz_Canonica_Linha_Editorial_Noticias.json"
+    },
+    "legacy_metadata_path": "editorial/documentos/01_Diretriz_Canonica_Linha_Editorial_Noticias.metadata.json",
+    "markdown_state": "existing"
+  }
+}

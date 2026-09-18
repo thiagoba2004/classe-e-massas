@@ -1,0 +1,109 @@
+{
+  "projeto": "Classe e Massas",
+  "colecao": "Biblioteca Revolucionária",
+  "frente_editorial": "Traduções Classe e Massas",
+  "documento": "Política Editorial das Traduções Classe e Massas",
+  "versao": "1.0",
+  "data": "2026-09-13",
+  "status": "APROVADO",
+  "objetivo": "Produzir traduções gratuitas em português do Brasil de escritos historicamente relevantes quando houver base jurídica, documental e editorial suficiente.",
+  "principios": [
+    "tradução direta do original sempre que tecnicamente possível",
+    "português do Brasil",
+    "fidelidade conceitual e documental",
+    "revisão humana obrigatória",
+    "transparência sobre uso de inteligência artificial",
+    "controle público de versão",
+    "não reprodução de traduções protegidas de terceiros",
+    "preferência por licenciamento aberto quando o projeto detiver os direitos necessários"
+  ],
+  "elegibilidade_juridica": {
+    "condicoes": [
+      "obra originária em domínio público segundo a legislação aplicável",
+      "autorização expressa do titular dos direitos",
+      "licença que permita tradução, adaptação e redistribuição nas condições pretendidas"
+    ],
+    "referencias_brasil": [
+      "Lei 9.610/1998, art. 7º, XI",
+      "Lei 9.610/1998, art. 14",
+      "Lei 9.610/1998, art. 29, IV",
+      "Lei 9.610/1998, art. 41"
+    ],
+    "alerta": "A obra originária em domínio público não torna livres traduções contemporâneas produzidas por terceiros."
+  },
+  "fluxo": [
+    "fonte_original",
+    "verificacao_juridica",
+    "texto_base",
+    "traducao_inicial",
+    "confronto_com_original",
+    "revisao_terminologica",
+    "revisao_portugues",
+    "controle_citacoes_notas",
+    "versao_candidata",
+    "revisao_final",
+    "publicacao",
+    "versionamento_publico"
+  ],
+  "estados": [
+    "PROPOSTO",
+    "EM VERIFICAÇÃO",
+    "ELEGÍVEL",
+    "EM TRADUÇÃO",
+    "EM REVISÃO",
+    "CANDIDATO À PUBLICAÇÃO",
+    "PUBLICADO",
+    "SUSPENSO"
+  ],
+  "formatos": {
+    "markdown": "fonte canônica da tradução",
+    "json": "metadados, versões, glossário e estado editorial",
+    "html": "edição pública principal",
+    "pdf_epub": "derivados opcionais para leitura e distribuição"
+  },
+  "uso_ia": {
+    "permitido": true,
+    "papel": "instrumento auxiliar de tradução, comparação, busca terminológica, consistência e revisão",
+    "revisao_humana_obrigatoria": true,
+    "declaracao_publica": "Tradução assistida por inteligência artificial e revisada editorialmente pelo Classe e Massas",
+    "observacao": "A IA não recebe atribuição de autoria ou responsabilidade jurídica pela tradução."
+  },
+  "primeiro_projeto": {
+    "id": "TCM-001",
+    "autor": "José Carlos Mariátegui",
+    "titulo_original": "Historia de la Crisis Mundial",
+    "titulo_portugues_provisorio": "História da Crise Mundial",
+    "idioma_original": "espanhol",
+    "estado": "EM VERIFICAÇÃO",
+    "prioridade": "alta",
+    "justificativa": "A auditoria da Biblioteca não localizou tradução integral pública e confiável em português."
+  },
+  "artifact_manifest": {
+    "schema_version": "1.0",
+    "project": "Classe e Massas",
+    "audit_strategy_id": "STRAT-CEM-20260918-002",
+    "audited_at": "2026-09-18",
+    "slug": "politica",
+    "content_type": "documento_traducoes",
+    "title": "Política Editorial das Traduções Classe e Massas",
+    "status": "PUBLICADO",
+    "canonical_source": {
+      "format": "markdown",
+      "path": "biblioteca/traducoes/politica.md"
+    },
+    "publication": {
+      "format": "html",
+      "path": "biblioteca/traducoes/politica.html",
+      "html_blob_sha": "1ce32dd33a088a81a0a43b784c9713f2c19be3a4"
+    },
+    "structured_representation": {
+      "format": "json",
+      "path": "biblioteca/traducoes/politica.json"
+    },
+    "legacy_source_paths": {
+      "markdown": "biblioteca/traducoes/politica-editorial-traducoes-classe-e-massas.md",
+      "json": "biblioteca/traducoes/politica-editorial-traducoes-classe-e-massas.json"
+    },
+    "markdown_state": "created_as_canonical_alias_of_existing_source"
+  }
+}
