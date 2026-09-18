@@ -111,6 +111,18 @@
         "noticias/2026/bases-sindicais-que-nao-assinaram-o-act-do-bb-2026-2028-ate-14h-de-11-09.html",
         "css/style.css"
       ]
+    },
+    {
+      "strategy_id": "STRAT-CEM-20260917-009",
+      "name": "Home enxuta",
+      "status": "CONCLUIDO",
+      "last_event_id": "STEV-CEM-20260917-034",
+      "event_type": "CONCLUDED",
+      "current_phase": "FASE 3 — validação — concluída",
+      "canonical_refs": [
+        "index.html",
+        "governanca/estrategia-home-enxuta.md"
+      ]
     }
   ],
   "pending_evidence_groups": [
