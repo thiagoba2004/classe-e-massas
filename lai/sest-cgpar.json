@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "project": "Classe e Massas",
+  "audit_strategy_id": "STRAT-CEM-20260918-002",
+  "audited_at": "2026-09-18",
+  "slug": "sest-cgpar",
+  "content_type": "documento_lai",
+  "title": "MGI — SECRETARIA DE COORDENAÇÃO E GOVERNANÇA DAS EMPRESAS ESTATAIS (SEST) / CGPAR",
+  "description": "Modelo de pedido de acesso à informação sobre defeso eleitoral, reajustes e negociação coletiva das estatais em 2026.",
+  "status": "PUBLICADO",
+  "language": "pt-BR",
+  "canonical_source": {
+    "format": "markdown",
+    "path": "lai/sest-cgpar.md"
+  },
+  "publication": {
+    "format": "html",
+    "path": "lai/sest-cgpar.html",
+    "html_blob_sha": "0d43a3d2cdf2b4392ffa3b7cb26d024e25cb2331"
+  },
+  "structured_representation": {
+    "format": "json",
+    "path": "lai/sest-cgpar.json"
+  },
+  "markdown_state": "created_from_published_html",
+  "outline": [
+    {
+      "level": 1,
+      "title": "MGI — SECRETARIA DE COORDENAÇÃO E GOVERNANÇA DAS EMPRESAS ESTATAIS (SEST) / CGPAR"
+    }
+  ]
+}

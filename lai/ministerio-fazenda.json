@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "project": "Classe e Massas",
+  "audit_strategy_id": "STRAT-CEM-20260918-002",
+  "audited_at": "2026-09-18",
+  "slug": "ministerio-fazenda",
+  "content_type": "documento_lai",
+  "title": "MINISTÉRIO DA FAZENDA / PGFN",
+  "description": "Modelo de pedido de acesso à informação sobre defeso eleitoral, reajustes e negociação coletiva das estatais em 2026.",
+  "status": "PUBLICADO",
+  "language": "pt-BR",
+  "canonical_source": {
+    "format": "markdown",
+    "path": "lai/ministerio-fazenda.md"
+  },
+  "publication": {
+    "format": "html",
+    "path": "lai/ministerio-fazenda.html",
+    "html_blob_sha": "1068398ceb6fde23b644280b456af069a55e6d16"
+  },
+  "structured_representation": {
+    "format": "json",
+    "path": "lai/ministerio-fazenda.json"
+  },
+  "markdown_state": "created_from_published_html",
+  "outline": [
+    {
+      "level": 1,
+      "title": "MINISTÉRIO DA FAZENDA / PGFN"
+    }
+  ]
+}

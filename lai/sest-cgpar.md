@@ -1,0 +1,70 @@
+---
+title: "MGI — SECRETARIA DE COORDENAÇÃO E GOVERNANÇA DAS EMPRESAS ESTATAIS (SEST) / CGPAR"
+status: "PUBLICADO"
+language: "pt-BR"
+published_html: "lai/sest-cgpar.html"
+backfilled_from_published_html: "2026-09-18"
+audit_strategy_id: "STRAT-CEM-20260918-002"
+---
+
+MODELO 02 • LEI DE ACESSO À INFORMAÇÃO
+
+# MGI — SECRETARIA DE COORDENAÇÃO E GOVERNANÇA DAS EMPRESAS ESTATAIS (SEST) / CGPAR
+
+Pedido de documentos preexistentes sobre o chamado defeso eleitoral e a negociação coletiva de 2026.
+
+Adapte apenas dados de identificação ou referências necessárias ao protocolo. O núcleo do requerimento foi redigido para pedir documentos e registros existentes, e não uma nova consulta jurídica.
+
+```text
+Assunto: orientações e documentos sobre art. 73, VIII, negociação coletiva e reajustes de estatais federais em 2026
+
+Ao Ministério da Gestão e da Inovação em Serviços Públicos — Secretaria de Coordenação e Governança das Empresas Estatais
+
+A página oficial da SEST informa que as empresas estatais federais devem apresentar informações previamente à data-base, atualizar a Secretaria ao longo de toda a negociação coletiva e, ao final, instruir processo relativo ao ACT. A Resolução CGPAR nº 52/2024 estabelece diretrizes e parâmetros para política de gestão de pessoas e celebração de acordos coletivos.
+
+Diante disso, e considerando a controvérsia jurídica sobre o alcance do art. 73, VIII, da Lei nº 9.504/1997 aos empregados celetistas de entidades estatais de direito privado, solicito:
+
+1. Identificação e cópia integral de pareceres, notas técnicas, notas jurídicas, orientações, despachos, ofícios, memorandos, apresentações, mensagens institucionais ou outros documentos produzidos ou recebidos pela SEST/MGI, entre 1º de janeiro de 2025 e a data da resposta, sobre aplicação do art. 73, VIII, a empregados de empresas públicas, sociedades de economia mista ou demais estatais federais.
+
+2. Identificação e cópia de orientações gerais encaminhadas às estatais federais ou aos ministérios supervisores, em 2026, sobre reajuste salarial, recomposição inflacionária, aumento real, benefícios, cláusulas econômicas ou celebração de ACT durante período eleitoral.
+
+3. Identificação e cópia dos documentos apresentados pelo Banco do Brasil, diretamente ou por intermédio do Ministério da Fazenda, à SEST no processo de alinhamento e acompanhamento da negociação coletiva de 2026, quando relacionados a restrições eleitorais, reajustes, aumento real ou demais itens econômicos.
+
+4. Identificação e cópia das manifestações, devolutivas, pareceres ou orientações da SEST referentes aos documentos do item anterior.
+
+5. Identificação dos números dos processos administrativos/SEI que trataram, em 2026, da negociação coletiva do Banco do Brasil e das restrições eleitorais incidentes sobre seus itens econômicos.
+
+6. Identificação e cópia do documento que sustente, se houver, que empregados celetistas de sociedades de economia mista integram a expressão “servidores públicos” do art. 73, VIII.
+
+7. Identificação e cópia do documento que sustente, se houver, que reajuste decorrente de ACT de empresa estatal constitui “revisão geral da remuneração dos servidores públicos”.
+
+8. Identificação e cópia de documento que tenha analisado a Consulta TSE nº 782/DF, Resolução nº 21.296/2002, quanto à natureza legislativa da revisão geral prevista no art. 73, VIII.
+
+9. Identificação e cópia de documento que tenha analisado ou mencionado o Parecer PA nº 88/2014 da PGE-SP, ou entendimento jurídico equivalente, segundo o qual a vedação do art. 73, VIII não alcança empregados de entidades estatais de direito privado.
+
+10. Identificação e cópia de documentos em que a SEST tenha conciliado, para fins de ACT de estatal, o art. 73, VIII, da Lei nº 9.504/1997 com os arts. 7º, XXVI, e 173, § 1º, II, da Constituição Federal.
+
+11. Identificação e cópia de manifestações ou deliberações da CGPAR relacionadas ao chamado “defeso eleitoral” e a reajustes ou acordos coletivos das estatais federais em 2026.
+
+12. Informar, mediante indicação dos documentos preexistentes correspondentes, se a SEST estabeleceu algum limite percentual, parâmetro econômico ou vedação específica para a negociação coletiva do Banco do Brasil em 2026 por motivo eleitoral.
+
+13. Identificação e cópia das consultas encaminhadas pela SEST/MGI à AGU, à Consultoria Jurídica do MGI, à Câmara Nacional de Direito Eleitoral ou a outro órgão jurídico a respeito dessa matéria, bem como das respectivas respostas.
+
+14. Identificação e cópia de orientação que diferencie, se existente, o período de 180 dias previsto no art. 73, VIII das vedações eleitorais que começam três meses antes do pleito, quando aplicadas às empresas estatais.
+
+Delimitação do pedido
+
+O presente requerimento não solicita a elaboração de parecer jurídico novo, a solução de consulta abstrata, juízo opinativo ou a produção de informação inexistente. Busca exclusivamente a identificação e o acesso a documentos, registros e processos preexistentes, nos termos da Lei nº 12.527/2011.
+
+Caso algum documento contenha informação sujeita a restrição legal de acesso, requer-se o fornecimento da parcela não sigilosa, com ocultação apenas dos trechos cuja restrição seja especificamente fundamentada, nos termos do art. 7º, § 2º, da Lei nº 12.527/2011.
+
+Caso algum documento solicitado tenha sido utilizado como fundamento de decisão, orientação ou ato administrativo, requer-se a observância do art. 7º, § 3º, da Lei nº 12.527/2011.
+
+Caso não exista documento correspondente a determinado item, solicita-se que a inexistência seja informada expressamente.
+
+Se a informação estiver disponível publicamente, solicita-se a indicação do endereço eletrônico específico do documento, processo ou manifestação, e não apenas remissão genérica a portal ou mecanismo de pesquisa.
+
+Na hipótese de negativa total ou parcial, solicita-se a indicação específica do fundamento legal, da autoridade responsável e das informações necessárias ao exercício do direito de recurso.
+
+Solicita-se o fornecimento dos documentos em meio eletrônico, preferencialmente no formato original em que se encontrem armazenados.
+```

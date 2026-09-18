@@ -1,0 +1,162 @@
+---
+title: "Banco do Brasil — adiantamento da PLR de 16/09/2026"
+status: "PUBLICADO"
+language: "pt-BR"
+published_html: "lai/banco-do-brasil-plr-2026.html"
+backfilled_from_published_html: "2026-09-18"
+audit_strategy_id: "STRAT-CEM-20260918-002"
+---
+
+2ª EDIÇÃO • LEI DE ACESSO À INFORMAÇÃO • PLR 2026
+
+# Banco do Brasil — adiantamento da PLR de 16/09/2026
+
+Pedido revisado de documentos, registros e dados sobre o universo de 20 bases no marco das 14h de 11/09, as bases efetivamente sem crédito em 16/09, os instrumentos coletivos, o processamento da PLR e a fundamentação administrativa e jurídica dos critérios aplicados.
+
+2ª edição publicada em 17 de setembro de 2026 • 1ª edição: 16 de setembro de 2026
+
+**Canal atual de envio:** desde 30/06/2026, os pedidos de acesso à informação do Poder Executivo federal são registrados pela plataforma Informa.BR. O próprio Portal da Transparência do Banco do Brasil direciona os pedidos de LAI para essa plataforma.
+
+**O que mudou nesta edição:**
+
+- separa o universo de **20 bases no marco das 14h de 11/09** das bases que efetivamente ficaram sem o crédito da PLR em 16/09;
+
+- inclui expressamente **Ponte Nova e Região** e **Governador Valadares e Região** no pedido de esclarecimento;
+
+- substitui a referência anterior a 12h pelo marco de **14h de 11/09** que está sob investigação;
+
+- distingue ACT geral, ACT específico de PLR, termos de adesão e outros instrumentos possíveis;
+
+- inclui a alegada impossibilidade jurídica ou operacional de um segundo processamento da PLR e eventual pagamento posterior a 16/09.
+
+**Nota metodológica:** o pedido não presume que as 20 bases do marco temporal sejam exatamente as mesmas bases que ficaram sem o crédito. Também não pede ao Banco a elaboração de parecer novo. O foco está em documentos, registros, relatórios, bases, comunicações e dados preexistentes. Quando houver dados sobre empregados, são solicitadas apenas informações agregadas e anonimizadas.
+
+```text
+AO BANCO DO BRASIL S.A.
+SERVIÇO DE INFORMAÇÕES AO CIDADÃO — SIC
+VIA PLATAFORMA INFORMA.BR
+
+Assunto: Adiantamento da PLR de 16/09/2026 — universo de 20 bases no marco das 14h de 11/09, bases sem crédito, instrumentos coletivos, processamento e documentos que fundamentaram os critérios aplicados
+
+Com fundamento na Lei nº 12.527/2011 — Lei de Acesso à Informação — e no Decreto nº 7.724/2012, solicito acesso às informações, documentos e registros abaixo relacionados ao pagamento do adiantamento da Participação nos Lucros ou Resultados — PLR dos empregados do Banco do Brasil S.A. realizado em 16 de setembro de 2026.
+
+A presente solicitação distingue dois universos que não devem ser presumidos como idênticos:
+
+a) o conjunto de bases sindicais que, em determinado marco temporal de 11/09/2026, ainda não havia concluído a aprovação, adesão ou formalização do instrumento exigido pelo Banco; e
+
+b) o conjunto de bases cujos empregados efetivamente não receberam o crédito da antecipação da PLR em 16/09/2026.
+
+Levantamento documental externo identificou 20 bases sindicais que ainda não haviam concluído a aprovação ou formalização no marco das 14h de 11/09. Já quanto ao não pagamento ou adiamento do crédito em 16/09, há documentação pública consolidada relativa a pelo menos 18 bases. O objetivo deste pedido é obter do Banco do Brasil os registros oficiais que permitam confirmar, corrigir ou distinguir esses conjuntos.
+
+Solicito:
+
+1. Cópia integral, ou indicação de endereço eletrônico oficial onde estejam disponíveis, das versões finais efetivamente assinadas dos instrumentos coletivos relacionados à PLR de 2026, incluindo:
+a) Acordo Coletivo de Trabalho — ACT geral do Banco do Brasil 2026/2028;
+b) ACT específico de Participação nos Lucros ou Resultados relativo a 2026/2027, ou instrumento equivalente;
+c) anexos vinculados a esses instrumentos;
+d) modelos, minutas finais ou formulários de termos de adesão utilizados em 2026 para o ACT geral e/ou para a PLR.
+
+2. Cópia integral do ato, decisão administrativa, orientação, comunicado, nota técnica, despacho, memorando, mensagem corporativa, ata, registro de reunião ou qualquer outro documento existente que tenha estabelecido a relação entre a formalização de instrumento coletivo e o crédito da antecipação da PLR em 16/09/2026, inclusive eventual compromisso de pagamento em até 72 horas após assinatura ou formalização.
+
+3. Informação sobre qual foi exatamente a data e o horário utilizados pelo Banco do Brasil como marco para inclusão de empregados no pagamento de 16/09/2026, acompanhada de cópia do documento, registro ou orientação em que esse marco temporal foi fixado. Solicita-se esclarecer especificamente se foi utilizado o horário de 14h de 11/09/2026 e, em caso negativo, qual foi o horário efetivamente utilizado.
+
+4. Caso exista relação, planilha, relatório, base, registro operacional ou documento equivalente que identifique as bases sindicais que, às 14h de 11/09/2026, ainda não haviam concluído aprovação, adesão ou formalização do instrumento exigido pelo Banco, solicita-se cópia ou extração desse registro. Caso o Banco utilize outro marco temporal, solicita-se o mesmo registro relativo ao marco efetivamente aplicado.
+
+5. Relativamente às bases do item anterior, solicita-se, conforme registros já existentes:
+a) entidade sindical e Unidade da Federação;
+b) data e horário em que o Banco foi comunicado do resultado da assembleia;
+c) data e horário em que o instrumento ou termo necessário foi disponibilizado para assinatura;
+d) data e horário em que a formalização foi concluída;
+e) identificação do instrumento cuja formalização era necessária para o processamento da PLR.
+
+6. Solicita-se esclarecer, mediante os registros existentes, a situação específica do Sindicato dos Bancários de Ponte Nova e Região (MG) e do Sindicato dos Trabalhadores do Ramo Financeiro de Governador Valadares e Região (MG):
+a) se integravam o conjunto de bases ainda não formalizadas no marco temporal adotado pelo Banco;
+b) quando o Banco recebeu a comunicação da aprovação;
+c) quando o instrumento necessário foi disponibilizado e formalizado;
+d) se os empregados dessas bases receberam a antecipação da PLR em 16/09/2026 e, caso não tenham recebido, em que data o crédito ocorreu ou está previsto.
+
+7. Relação completa das bases sindicais cujos empregados efetivamente não receberam o adiantamento da PLR em 16/09/2026, indicando, conforme registros existentes:
+a) entidade sindical;
+b) Unidade da Federação;
+c) motivo ou código/critério registrado para o não crédito;
+d) situação posterior do pagamento.
+
+8. Quantidade de empregados do Banco do Brasil atingidos pelo não crédito da antecipação em 16/09/2026, discriminada por base sindical e Unidade da Federação, bem como o total nacional. Solicitam-se exclusivamente quantitativos agregados, sem nome, matrícula, CPF ou qualquer outro dado pessoal.
+
+9. Valor financeiro total do adiantamento da PLR não creditado em 16/09/2026, discriminado, caso essa informação já exista em sistemas, bases ou relatórios:
+a) por base sindical;
+b) por Unidade da Federação;
+c) total nacional.
+Não se solicita identificação individual dos empregados.
+
+10. Caso existam documentos, relatórios, planilhas ou registros que permitam comparar o conjunto das bases sem aprovação/formalização concluída no marco temporal com o conjunto das bases efetivamente sem crédito em 16/09, solicita-se acesso a esses registros. Caso os dois conjuntos não sejam idênticos, solicita-se o fornecimento dos registros existentes que demonstrem a diferença.
+
+11. Informação, acompanhada dos respectivos documentos ou registros existentes, sobre qual critério foi efetivamente utilizado nos sistemas ou atos administrativos do Banco para incluir ou excluir empregados do crédito de 16/09, esclarecendo se o critério considerou:
+a) participação individual do empregado em greve;
+b) base sindical à qual o empregado estava vinculado;
+c) data da assembleia;
+d) data e horário da comunicação da aprovação ao Banco;
+e) data e horário da disponibilização do instrumento para assinatura;
+f) data e horário da assinatura/formalização;
+g) formalização do ACT geral;
+h) formalização do ACT específico de PLR;
+i) termo de adesão;
+j) outro critério registrado.
+
+12. Cópia integral de pareceres jurídicos, notas jurídicas, manifestações, orientações ou análises já existentes da Diretoria Jurídica — DIJUR, ou de outra unidade jurídica do Banco, que tenham examinado:
+a) a legalidade ou juridicidade do marco temporal aplicado;
+b) o pagamento da antecipação em datas distintas a empregados de bases sindicais diferentes;
+c) a postergação do pagamento para empregados vinculados a determinadas bases;
+d) eventual pagamento somente após a divulgação do resultado anual em 2027;
+e) a alegada impossibilidade jurídica de realizar um segundo processamento da mesma antecipação da PLR para bases diferentes.
+
+13. Cópia de notas técnicas, relatórios, despachos, orientações, calendários de processamento, cronogramas, registros técnicos ou outros documentos da Diretoria de Gestão da Cultura e de Pessoas — DIPES, da área de tecnologia, da unidade responsável pelo processamento da PLR ou de outra unidade competente que tratem:
+a) do fechamento ou processamento necessário ao crédito de 16/09;
+b) de datas de corte;
+c) da possibilidade ou impossibilidade de realizar processamento adicional após o primeiro crédito;
+d) das razões técnicas ou operacionais para eventual pagamento em data posterior.
+
+14. Cópia das comunicações oficiais encaminhadas pelo Banco do Brasil à Confederação Nacional dos Trabalhadores do Ramo Financeiro — Contraf-CUT, à Confederação Nacional dos Trabalhadores nas Empresas de Crédito — CONTEC, às federações e aos sindicatos tratando:
+a) do prazo para aprovação, adesão ou formalização;
+b) do pagamento da antecipação da PLR;
+c) da regra de 72 horas;
+d) do marco temporal de 11/09;
+e) da possibilidade de pagamento apenas em 2027;
+f) da possibilidade ou impossibilidade de novo processamento da antecipação.
+
+15. Cópia das respostas formais do Banco do Brasil a pedidos de isonomia, antecipação ou extensão do pagamento formulados em setembro de 2026 por entidades sindicais, inclusive, caso existentes, manifestações dirigidas à Contraf-CUT e à CONTEC sobre empregados de bases que não receberam o crédito em 16/09.
+
+16. Relativamente às bases que aprovaram a proposta em 11/09/2026, mas cuja formalização ocorreu posteriormente, solicita-se acesso aos registros já existentes que indiquem:
+a) quais eram essas bases;
+b) data e horário da comunicação da aprovação;
+c) data e horário da disponibilização do instrumento ou termo para assinatura;
+d) data e horário da formalização.
+Solicita-se especial esclarecimento sobre Rio Grande do Norte, Maranhão e Bauru, citados em publicações sindicais como bases que aprovaram em 11/09 e ficaram aguardando termos de adesão.
+
+17. Cópia dos documentos existentes que fundamentem a informação de que empregados pertencentes a determinadas bases que não receberam o crédito em 16/09 somente receberiam a PLR após a divulgação do resultado anual do Banco em 2027. Solicita-se, especificamente, a cláusula, regulamento, decisão administrativa, norma interna, parecer, orientação ou outro instrumento em que essa consequência esteja prevista.
+
+18. Caso, após 16/09/2026, o Banco tenha realizado pagamento posterior da antecipação da PLR a empregados de alguma das bases inicialmente não contempladas, solicita-se, conforme registros existentes:
+a) data de cada processamento posterior;
+b) bases abrangidas;
+c) quantidade agregada de empregados;
+d) valor total processado;
+e) documento ou orientação que autorizou ou fundamentou o processamento posterior.
+
+19. Caso ainda haja empregados sem o crédito da antecipação na data da resposta a este pedido, solicita-se informar, com base em documento ou cronograma existente, a data prevista para pagamento e se há previsão documental de atualização, correção, remuneração ou outra compensação pelo pagamento posterior.
+
+FORMA DE FORNECIMENTO DAS INFORMAÇÕES
+
+Solicita-se que documentos sejam disponibilizados preferencialmente em formato eletrônico original ou PDF pesquisável.
+
+Quando se tratar de tabelas, relatórios ou dados estruturados, solicita-se, caso já existentes nesses formatos, o fornecimento em formato aberto e legível por máquina, preferencialmente CSV, XLSX, ODS ou equivalente, preservando-se a estrutura original dos dados.
+
+Ressalta-se que não se solicita ao Banco a produção de parecer, interpretação jurídica nova, consolidação inexistente ou elaboração de estudo específico para responder ao presente requerimento. Solicita-se acesso a documentos, registros, bases, relatórios, comunicações e informações já existentes e mantidos pelo Banco.
+
+Caso alguma informação solicitada não exista em formato consolidado, requer-se que o Banco informe expressamente essa circunstância e indique, se possível, quais documentos, bases de dados, relatórios ou registros existentes contêm os elementos correspondentes, facultando o respectivo acesso.
+
+Caso algum documento contenha simultaneamente informações públicas e informações legalmente protegidas, requer-se acesso à parte não sigilosa, mediante tarjamento ou ocultação apenas dos trechos especificamente protegidos, sem negativa integral do documento.
+
+Na hipótese de negativa total ou parcial de qualquer item, solicita-se a indicação específica do fundamento legal da restrição, da autoridade responsável pela decisão, do prazo da restrição, quando aplicável, e da possibilidade e prazo para apresentação de recurso administrativo.
+
+Por fim, caso alguma das informações solicitadas esteja sob responsabilidade de outra unidade administrativa do próprio Banco do Brasil, solicita-se o encaminhamento interno à unidade competente, sem encerramento do pedido por essa razão.
+```

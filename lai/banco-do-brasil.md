@@ -1,0 +1,76 @@
+---
+title: "BANCO DO BRASIL S.A."
+status: "PUBLICADO"
+language: "pt-BR"
+published_html: "lai/banco-do-brasil.html"
+backfilled_from_published_html: "2026-09-18"
+audit_strategy_id: "STRAT-CEM-20260918-002"
+---
+
+MODELO 01 • LEI DE ACESSO À INFORMAÇÃO
+
+# BANCO DO BRASIL S.A.
+
+Pedido de documentos preexistentes sobre o chamado defeso eleitoral e a negociação coletiva de 2026.
+
+Adapte apenas dados de identificação ou referências necessárias ao protocolo. O núcleo do requerimento foi redigido para pedir documentos e registros existentes, e não uma nova consulta jurídica.
+
+```text
+Assunto: documentos que fundamentam a interpretação do Banco do Brasil sobre defeso eleitoral, reajustes e aumento real na negociação coletiva de 2026
+
+Ao Banco do Brasil S.A. — Serviço de Informação ao Cidadão
+
+Com fundamento na Lei nº 12.527/2011, solicito acesso aos documentos e registros abaixo especificados.
+
+Durante a negociação coletiva de 2026, foram atribuídas à Direção do Banco do Brasil afirmações no sentido de que a legislação eleitoral impunha restrições à concessão de reajustes aos empregados das estatais e de que o Banco teria alcançado o limite de sua proposta, inclusive em razão de restrições eleitorais. Publicações sindicais de 14 de agosto de 2026 registraram, por outro lado, que seriam permitidas alterações previstas em lei ou em instrumentos coletivos.
+
+O art. 73, VIII, da Lei nº 9.504/1997 utiliza a expressão “revisão geral da remuneração dos servidores públicos”. A Consulta TSE nº 782, Resolução nº 21.296/2002, assentou que o ato de revisão geral ali referido tem natureza legislativa. O Parecer PA nº 88/2014 da Procuradoria-Geral do Estado de São Paulo, aprovado superiormente, concluiu que a vedação do art. 73, VIII, não alcança a remuneração dos empregados de entidades estatais de direito privado, em caso que envolvia reajustes decorrentes de convenção coletiva de trabalho.
+
+Essas referências são indicadas apenas para delimitar com precisão os documentos procurados.
+
+Solicito:
+
+1. Identificação e cópia integral de todo parecer jurídico, nota jurídica, nota técnica, orientação, despacho, memorando, ofício, mensagem institucional, ata, apresentação, estudo ou outro documento preexistente, produzido ou recebido pelo Banco, que tenha servido de fundamento, total ou parcial, entre 1º de janeiro de 2026 e a data da resposta, para sustentar que a legislação eleitoral restringiria ou impediria reajuste salarial, aumento real, criação ou majoração de benefícios ou outras cláusulas econômicas na negociação coletiva dos empregados do Banco do Brasil.
+
+2. Para cada documento localizado, informar número ou código de identificação, data, unidade autora, autoridade ou órgão emissor, destinatário, assunto/ementa e, quando existente, número do processo administrativo ou sistema eletrônico em que tramita.
+
+3. Identificação e cópia do documento que fundamente especificamente a aplicação do art. 73, VIII, da Lei nº 9.504/1997 aos empregados celetistas do Banco do Brasil S.A., sociedade de economia mista e pessoa jurídica de direito privado.
+
+4. Identificação e cópia do documento que sustente, caso essa seja a interpretação institucional adotada, que empregado de sociedade de economia mista se enquadra na expressão “servidores públicos” utilizada pelo art. 73, VIII, distinguindo esse conceito do conceito mais amplo de “agente público” do § 1º do mesmo artigo.
+
+5. Identificação e cópia do documento que sustente, caso essa seja a interpretação institucional adotada, que reajuste ou aumento real estabelecido mediante Acordo Coletivo de Trabalho constitui “revisão geral da remuneração dos servidores públicos” para os fins do art. 73, VIII.
+
+6. Identificação e cópia de documento que analise, mencione ou enfrente a Consulta TSE nº 782/DF, Resolução nº 21.296/2002, especialmente a afirmação de que a revisão geral prevista no art. 73, VIII, tem natureza legislativa.
+
+7. Identificação e cópia de documento que analise, mencione ou enfrente o Parecer PA nº 88/2014 da Procuradoria-Geral do Estado de São Paulo, ou orientação jurídica equivalente, segundo a qual a vedação do art. 73, VIII não alcançaria empregados de entidades estatais de direito privado.
+
+8. Identificação e cópia de documento que tenha examinado, para a negociação de 2026, a relação entre o art. 73, VIII, da Lei nº 9.504/1997, o art. 7º, XXVI, da Constituição Federal, o art. 173, § 1º, II, da Constituição Federal e a disciplina da negociação coletiva trabalhista.
+
+9. Identificação e cópia de toda orientação recebida em 2026 da SEST/MGI, CGPAR, Ministério da Fazenda, AGU, PGFN, TSE, TCU ou outro órgão federal acerca de reajustes, aumento real, benefícios ou ACTs do Banco do Brasil durante o período eleitoral.
+
+10. Identificação e cópia de consultas, ofícios ou expedientes encaminhados pelo Banco do Brasil a esses órgãos sobre o mesmo assunto, acompanhados das respectivas respostas.
+
+11. Identificação e cópia dos documentos que fundamentaram as informações transmitidas pela representação do Banco nas mesas de negociação coletiva de agosto e setembro de 2026 sobre o chamado “defeso eleitoral”.
+
+12. Informar se a expressão “defeso eleitoral” utilizada pelo Banco nas negociações de 2026 fazia referência ao art. 73, VIII, da Lei nº 9.504/1997, às vedações que começam três meses antes do pleito, a outra norma específica ou a uma combinação de normas. Solicita-se, para cada hipótese, a identificação dos documentos preexistentes que contenham essa orientação.
+
+13. Identificação e cópia dos documentos que definiram quais parcelas econômicas estariam alcançadas pela restrição invocada — salário, pisos, gratificações, vales alimentação/refeição, PLR, benefícios, planos de cargos e salários ou outras — e quais permaneceriam negociáveis.
+
+14. Caso não exista parecer, nota ou documento formal específico que sustente a interpretação apresentada pelo Banco, solicita-se que a inexistência seja expressamente informada e que sejam identificados os registros preexistentes que revelem qual unidade estabeleceu ou transmitiu a orientação e em que data.
+
+Delimitação do pedido
+
+O presente requerimento não solicita a elaboração de parecer jurídico novo, a solução de consulta abstrata, juízo opinativo ou a produção de informação inexistente. Busca exclusivamente a identificação e o acesso a documentos, registros e processos preexistentes, nos termos da Lei nº 12.527/2011.
+
+Caso algum documento contenha informação sujeita a restrição legal de acesso, requer-se o fornecimento da parcela não sigilosa, com ocultação apenas dos trechos cuja restrição seja especificamente fundamentada, nos termos do art. 7º, § 2º, da Lei nº 12.527/2011.
+
+Caso algum documento solicitado tenha sido utilizado como fundamento de decisão, orientação ou ato administrativo, requer-se a observância do art. 7º, § 3º, da Lei nº 12.527/2011.
+
+Caso não exista documento correspondente a determinado item, solicita-se que a inexistência seja informada expressamente.
+
+Se a informação estiver disponível publicamente, solicita-se a indicação do endereço eletrônico específico do documento, processo ou manifestação, e não apenas remissão genérica a portal ou mecanismo de pesquisa.
+
+Na hipótese de negativa total ou parcial, solicita-se a indicação específica do fundamento legal, da autoridade responsável e das informações necessárias ao exercício do direito de recurso.
+
+Solicita-se o fornecimento dos documentos em meio eletrônico, preferencialmente no formato original em que se encontrem armazenados.
+```
