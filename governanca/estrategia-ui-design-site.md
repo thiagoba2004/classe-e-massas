@@ -91,8 +91,12 @@ Contrastes verificados na paleta principal:
 
 As páginas de Notícias e o Roadmap voltaram a carregar o `main.js` com versão de cache específica. Os documentos canônicos autônomos do Observatório receberam skip link próprio.
 
-### Fase 8 — Limpeza técnica
-Retirar CSS duplicado/embutido sempre que possível e reduzir estilos injetados pelo JavaScript.
+### Fase 8 — Limpeza técnica — CONCLUÍDA
+A consolidação técnica removeu CSS injetado pelo JavaScript e eliminou CSS embutido redundante das famílias Fale Conosco, LAI, MPT e da notícia sobre a LAI/e-mail ao BB.
+
+Os estilos específicos do MPT foram migrados para `css/style.css`, preservando os componentes próprios da seção. Regras antigas de `.news-tools` foram removidas e a sobreposição de largura da Central LAI foi corrigida.
+
+Exceção intencional: os documentos HTML autônomos do Observatório continuam com CSS embutido próprio porque foram concebidos para funcionar de forma isolada e não dependem da folha global.
 
 ### Fase 9 — Auditoria visual final
 Revisar as principais páginas em desktop e celular e corrigir regressões antes de encerrar a estratégia.
