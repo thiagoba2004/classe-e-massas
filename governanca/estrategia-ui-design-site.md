@@ -64,8 +64,12 @@ O sistema foi aplicado a Home, Notícias, Artigos, Observatório, Biblioteca, MP
 - MPT e LAI: integrados ao sistema de serviço/documentação.
 - Fale Conosco: integração visual por CSS global, sem regravar o HTML que contém a lógica operacional do formulário.
 
-### Fase 6 — Páginas de leitura
-Aplicar o sistema aos artigos, notícias, documentos, modelos de LAI e páginas do MPT, priorizando legibilidade.
+### Fase 6 — Páginas de leitura — CONCLUÍDA
+A camada global de leitura foi aplicada aos artigos, notícias, páginas LAI e páginas do MPT, normalizando largura, hero, blocos documentais, tabelas, avisos, ações e comportamento móvel.
+
+As quatro páginas individuais do MPT passaram a usar navegação global completa e `main.js`.
+
+Os documentos canônicos do Observatório que utilizam HTML autônomo tiveram seu template visual alinhado ao sistema do site, preservando integralmente o conteúdo documental.
 
 ### Fase 7 — Mobile e acessibilidade
 Validar:
