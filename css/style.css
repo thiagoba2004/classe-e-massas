@@ -472,6 +472,79 @@ input[type="file"]{
 }
 
 
+
+
+/* === Confirmação do Fale Conosco === */
+.receipt-main{
+  width:min(100%,var(--content-reading));
+  text-align:center;
+}
+.receipt-box{
+  margin:1.7rem 0;
+  padding:1.4rem 1.2rem;
+  border:3px solid var(--ink-strong);
+  background:var(--paper-raised);
+}
+.receipt-label{
+  font:800 .76rem/1.3 var(--font-sans);
+  text-transform:uppercase;
+  letter-spacing:.1em;
+}
+.receipt-code{
+  display:block;
+  margin:.6rem 0 .75rem;
+  font:900 clamp(1.2rem,4vw,2rem)/1.25 var(--font-sans);
+  letter-spacing:.04em;
+  overflow-wrap:anywhere;
+}
+.receipt-proof{max-width:35rem;margin:0 auto 1rem}
+.receipt-email{
+  margin:1rem 0 0;
+  padding:.8rem .9rem;
+  border:1px solid var(--line-soft);
+  background:rgba(127,127,127,.06);
+  font:.9rem/1.45 var(--font-sans);
+  text-align:left;
+}
+.receipt-actions{
+  display:flex;
+  gap:.65rem;
+  justify-content:center;
+  flex-wrap:wrap;
+  margin-top:1.15rem;
+}
+.receipt-note{
+  text-align:left;
+  border-left:4px solid var(--accent);
+  padding:1rem 1.1rem;
+  background:rgba(255,255,255,.26);
+  margin-top:1.8rem;
+}
+.receipt-details{
+  margin:1.2rem 0 0;
+  padding-top:1rem;
+  border-top:1px solid var(--line-soft);
+  text-align:left;
+  font:.86rem/1.45 var(--font-sans);
+}
+.receipt-details summary{font-weight:800;text-align:center}
+.receipt-details-content{
+  margin-top:.75rem;
+  padding:.75rem .85rem;
+  background:rgba(127,127,127,.05);
+  overflow-wrap:anywhere;
+}
+.receipt-diagnostic{
+  margin-top:.65rem;
+  padding-top:.65rem;
+  border-top:1px solid var(--line-soft);
+}
+@media(max-width:600px){
+  .receipt-box{padding:1.2rem .9rem}
+  .receipt-actions{display:grid;grid-template-columns:1fr}
+  .receipt-actions .button{width:100%}
+}
+
 /* === Páginas de índice === */
 .index-main{width:min(100%,var(--content-medium))}
 .index-main.wide{width:min(100%,var(--content-wide))}
