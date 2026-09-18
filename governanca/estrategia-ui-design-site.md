@@ -2,7 +2,7 @@
 
 **ID:** STRAT-CEM-20260917-010  
 **Data:** 17/09/2026  
-**Status:** EM EXECUÇÃO
+**Status:** CONCLUÍDA
 
 ## Objetivo
 
@@ -98,8 +98,15 @@ Os estilos específicos do MPT foram migrados para `css/style.css`, preservando 
 
 Exceção intencional: os documentos HTML autônomos do Observatório continuam com CSS embutido próprio porque foram concebidos para funcionar de forma isolada e não dependem da folha global.
 
-### Fase 9 — Auditoria visual final
-Revisar as principais páginas em desktop e celular e corrigir regressões antes de encerrar a estratégia.
+### Fase 9 — Auditoria visual final — CONCLUÍDA
+Amostra representativa revisada em Home, índices, páginas de leitura, LAI, MPT, Observatório, Biblioteca, Fale Conosco e 404.
+
+Regressões corrigidas:
+- página 404 fora do sistema visual;
+- página de confirmação do Fale Conosco ainda com CSS local;
+- inversão da hierarquia visual entre título principal e seções internas nos documentos canônicos do Observatório.
+
+A estratégia foi encerrada após a validação final.
 
 ## Regra de implementação
 
