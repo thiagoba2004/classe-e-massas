@@ -43,15 +43,17 @@ Cabeçalho global normalizado. No desktop, os destinos permanecem visíveis; no 
 ### Fase 3 — Tipografia e ritmo editorial — CONCLUÍDA
 Hierarquia global de h1, h2, h3 e h4, kicker, dek, meta, subtítulos, corpo, listas, citações, legendas e links padronizada em `css/style.css`. O ritmo vertical foi compactado em documentos extensos e ajustado especificamente para telas móveis.
 
-### Fase 4 — Componentes
-Criar componentes canônicos para:
-- botões;
-- cards de notícia/artigo;
+### Fase 4 — Componentes — CONCLUÍDA
+Componentes canônicos criados em `css/style.css` para:
+- botões primário, secundário e terciário/link de ação;
+- cards editoriais;
 - notas e alertas;
 - caixas documentais;
-- grids;
+- grids responsivos;
 - formulários;
 - navegação interna de seção.
+
+Foi preservada compatibilidade visual com classes existentes como `.home-card`, `.note`, `.contact-note`, `.method-note`, `.library-note`, `.form-row`, `.field`, `.protocol-info` e `.form-status`.
 
 ### Fase 5 — Páginas de índice
 Aplicar o sistema a Home, Notícias, Artigos, Observatório, Biblioteca, MPT, LAI e Fale Conosco.
