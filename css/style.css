@@ -527,7 +527,7 @@ body main > article{
 body main > article > .kicker:first-child{margin-top:0}
 body main > article .meta{margin-bottom:2.2rem}
 
-body main.p,
+body main.p:not(.index-main),
 body main.model-page,
 body main.note-page,
 body main.guide-page,
@@ -732,7 +732,7 @@ body .petition-title{text-transform:none !important;font-family:var(--font-serif
 body .petition-address{font-family:var(--font-sans)}
 
 @media(max-width:700px){
-  body main.p,
+  body main.p:not(.index-main),
   body main.model-page,
   body main.note-page,
   body main.guide-page,
@@ -747,6 +747,84 @@ body .petition-address{font-family:var(--font-sans)}
   body .guide-button,
   body main.p button,
   body main.p .button{width:100% !important;text-align:center}
+}
+
+
+/* === Estilos antes injetados/embutidos, agora canônicos === */
+#modelos-lai-no-artigo{
+  margin:2rem 0 3rem;
+  padding:1.4rem 0;
+  border-top:2px solid var(--ink-strong);
+  border-bottom:2px solid var(--ink-strong);
+}
+#modelos-lai-no-artigo h3{margin:0 0 .7rem}
+#modelos-lai-no-artigo .lai-intro{line-height:1.7;margin-bottom:1.25rem}
+#modelos-lai-no-artigo details{
+  margin:.75rem 0;
+  border:1px solid var(--line-soft);
+  background:var(--paper-raised);
+}
+#modelos-lai-no-artigo summary{
+  padding:.9rem 1rem;
+  font:800 .88rem/1.35 var(--font-sans);
+  background:rgba(127,127,127,.08);
+}
+#modelos-lai-no-artigo .lai-model-body{padding:1rem}
+#modelos-lai-no-artigo pre{
+  white-space:pre-wrap;
+  overflow-wrap:anywhere;
+  margin:1rem 0 0;
+  padding:1rem;
+  border:1px solid var(--line-soft);
+  background:var(--paper);
+  font:inherit;
+  font-size:.94rem;
+  line-height:1.58;
+}
+#modelos-lai-no-artigo .lai-actions{
+  display:flex;
+  gap:.65rem;
+  flex-wrap:wrap;
+  align-items:center;
+}
+#modelos-lai-no-artigo button,
+#modelos-lai-no-artigo a.lai-link{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:var(--touch-min);
+  padding:.65rem .85rem;
+  border:1px solid var(--ink-strong);
+  background:transparent;
+  color:var(--ink-strong);
+  font:800 .74rem/1.1 var(--font-sans);
+  text-decoration:none;
+  text-transform:uppercase;
+  cursor:pointer;
+}
+#modelos-lai-no-artigo .lai-status{
+  color:var(--ink-muted);
+  font:700 .8rem/1.4 var(--font-sans);
+}
+.contact-main .contact-email{
+  font:800 1rem/1.4 var(--font-sans);
+  overflow-wrap:anywhere;
+}
+.contact-main .contact-email a{color:var(--ink-strong)}
+.contact-main .small{font-size:.9rem}
+.contact-main .honey{
+  position:absolute;
+  left:-9999px;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+@media(max-width:700px){
+  #modelos-lai-no-artigo .lai-model-body{padding:.85rem}
+  #modelos-lai-no-artigo pre{padding:.85rem;font-size:.9rem}
+  #modelos-lai-no-artigo .lai-actions{display:grid;grid-template-columns:1fr}
+  #modelos-lai-no-artigo button,
+  #modelos-lai-no-artigo a.lai-link{width:100%}
 }
 
 .news-tools{display:flex;gap:14px;flex-wrap:wrap;margin:0 0 42px}
