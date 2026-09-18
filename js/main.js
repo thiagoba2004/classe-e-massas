@@ -5,8 +5,30 @@ document.documentElement.classList.add("js");
   const projectMarker = "/classe-e-massas/";
   const base = pathname.includes(projectMarker) ? projectMarker : "/";
 
+  const main = document.querySelector("main");
+  if (main) {
+    if (!main.id) main.id = "conteudo-principal";
+    main.setAttribute("tabindex", "-1");
+
+    if (!document.querySelector(".skip-link")) {
+      const skip = document.createElement("a");
+      skip.className = "skip-link";
+      skip.href = `#${main.id}`;
+      skip.textContent = "Pular para o conteúdo principal";
+      skip.addEventListener("click", event => {
+        event.preventDefault();
+        main.focus({ preventScroll: true });
+        main.scrollIntoView({ block: "start" });
+      });
+      document.body.prepend(skip);
+    }
+  }
+
   const nav = document.querySelector("header .nav");
   if (nav) {
+    if (!nav.hasAttribute("aria-label")) {
+      nav.setAttribute("aria-label", "Navegação principal");
+    }
     const items = [
       { label: "Início", href: base, section: "home" },
       { label: "Notícias", href: `${base}noticias/`, section: "noticias" },
@@ -131,7 +153,7 @@ document.documentElement.classList.add("js");
       intro.innerHTML = `Os modelos abaixo integram esta investigação. Eles foram redigidos para pedir <strong>documentos e registros preexistentes</strong>, evitando transformar a LAI em consulta jurídica abstrata. Abra o destinatário desejado, revise seus dados de identificação e copie o pedido. A <a href="${base}lai/">Central LAI</a> permanece disponível como versão independente.`;
       section.appendChild(intro);
 
-      models.forEach(([label, url]) => {
+      models.forEach(([label, url], modelIndex) => {
         const details = document.createElement("details");
         const summary = document.createElement("summary");
         summary.textContent = label;
@@ -154,7 +176,11 @@ document.documentElement.classList.add("js");
 
         const status = document.createElement("span");
         status.className = "lai-status";
+        status.id = `lai-model-status-${modelIndex}`;
+        status.setAttribute("role", "status");
+        status.setAttribute("aria-live", "polite");
         status.textContent = "Carregando modelo…";
+        copy.setAttribute("aria-describedby", status.id);
 
         const pre = document.createElement("pre");
         pre.textContent = "Carregando modelo…";
