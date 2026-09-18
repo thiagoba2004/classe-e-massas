@@ -1,12 +1,3 @@
----
-title: "História da Crise Mundial"
-status: "PUBLICADO"
-language: "pt-BR"
-published_html: "biblioteca/traducoes/projeto-001.html"
-backfilled_from_published_html: "2026-09-18"
-audit_strategy_id: "STRAT-CEM-20260918-002"
----
-
 TRADUÇÕES CLASSE E MASSAS • TCM-001 • RASCUNHO INTEGRAL v0.1
 
 # História da Crise Mundial

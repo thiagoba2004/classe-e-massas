@@ -1,12 +1,3 @@
----
-title: "PROCURADORIA-GERAL DO ESTADO DE SÃO PAULO — PEDIDO COMPLEMENTAR"
-status: "PUBLICADO"
-language: "pt-BR"
-published_html: "lai/pge-sp.html"
-backfilled_from_published_html: "2026-09-18"
-audit_strategy_id: "STRAT-CEM-20260918-002"
----
-
 MODELO 07 • LEI DE ACESSO À INFORMAÇÃO
 
 # PROCURADORIA-GERAL DO ESTADO DE SÃO PAULO — PEDIDO COMPLEMENTAR
