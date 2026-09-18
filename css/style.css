@@ -458,6 +458,237 @@ body .contact-form{margin-top:2rem;padding:1.25rem;border:1px solid var(--line-s
   body .contact-form{padding:1rem}
 }
 
+
+/* === Páginas de leitura === */
+body main > article{
+  width:min(100%,var(--content-reading));
+  margin-inline:auto;
+}
+body main > article > .kicker:first-child{margin-top:0}
+body main > article .meta{margin-bottom:2.2rem}
+
+body main.p,
+body main.model-page,
+body main.note-page,
+body main.guide-page,
+body main.roadmap-main{
+  width:min(100%,var(--content-medium)) !important;
+  max-width:var(--content-medium) !important;
+  margin-inline:auto !important;
+  padding:clamp(2.4rem,6vw,3.2rem) 1.35rem clamp(4rem,8vw,5rem) !important;
+}
+
+body .model-hero,
+body .note-hero,
+body .guide-hero,
+body .roadmap-hero{
+  padding:0 0 1.35rem !important;
+  margin:0 0 2rem !important;
+  border-bottom:4px solid var(--ink-strong) !important;
+}
+
+body .model-kicker,
+body .note-kicker,
+body .guide-kicker{
+  margin-bottom:.45rem !important;
+  font:900 .72rem/1.35 var(--font-sans) !important;
+  letter-spacing:.12em !important;
+  text-transform:uppercase !important;
+}
+
+body .model-hero h1,
+body .note-hero h1,
+body .guide-hero h1,
+body .roadmap-hero h1{
+  max-width:18ch !important;
+  margin:.28em 0 .24em !important;
+  font-family:var(--font-serif) !important;
+  font-size:clamp(2rem,5.3vw,3.45rem) !important;
+  line-height:1.02 !important;
+  letter-spacing:-.025em !important;
+  text-transform:none !important;
+}
+
+body .model-dek,
+body .note-dek,
+body .guide-dek{
+  max-width:38ch !important;
+  margin:0 0 1.2em !important;
+  font-family:var(--font-serif) !important;
+  font-size:clamp(1.1rem,2vw,1.3rem) !important;
+  font-weight:400 !important;
+  line-height:1.42 !important;
+}
+
+body .model-content,
+body .note-content,
+body .guide-content{
+  font-size:1rem !important;
+  line-height:1.72 !important;
+}
+body .model-content h2,
+body .note-content h2,
+body .guide-content h2{
+  margin:2.15em 0 .72em !important;
+  font:900 clamp(1.12rem,2vw,1.28rem)/1.18 var(--font-sans) !important;
+  letter-spacing:.015em !important;
+  text-transform:uppercase !important;
+}
+body .model-content h3,
+body .note-content h3,
+body .guide-content h3{
+  margin:1.75em 0 .55em !important;
+  font:700 clamp(1.18rem,2.2vw,1.42rem)/1.2 var(--font-serif) !important;
+  letter-spacing:-.012em !important;
+}
+
+body .model-box,
+body .note-box,
+body .guide-box,
+body main.p .box,
+body main.p .changes{
+  margin:1.5rem 0 !important;
+  padding:1rem 1.1rem !important;
+  border:1px solid var(--line-soft) !important;
+  border-radius:0 !important;
+  background:var(--paper-raised) !important;
+}
+
+body .model-warning,
+body .note-warning,
+body .guide-warning,
+body .classification,
+body .diagnostic,
+body .alternative,
+body .delimitation,
+body main.p .note{
+  margin:1.5rem 0 !important;
+  padding:1rem 1.1rem !important;
+  border:0 !important;
+  border-left:4px solid var(--accent) !important;
+  border-radius:0 !important;
+  background:rgba(255,255,255,.26) !important;
+}
+
+body .central-thesis,
+body .note-final{
+  margin:2rem 0 !important;
+  padding:1.1rem 1.2rem !important;
+  border:2px solid var(--ink-strong) !important;
+  border-radius:0 !important;
+  background:transparent !important;
+}
+
+body .model-table-wrap,
+body .note-table-wrap,
+body .guide-table-wrap{
+  overflow-x:auto;
+  margin:1.5rem 0 !important;
+}
+body .model-table,
+body .note-table,
+body .guide-table,
+body .roadmap-table{
+  width:100% !important;
+  border-collapse:collapse !important;
+  font-size:.9rem !important;
+}
+body .model-table th,
+body .model-table td,
+body .note-table th,
+body .note-table td,
+body .guide-table th,
+body .guide-table td,
+body .roadmap-table th,
+body .roadmap-table td{
+  padding:.65rem .7rem !important;
+  border:1px solid var(--line-soft) !important;
+  vertical-align:top !important;
+}
+body .model-table th,
+body .note-table th,
+body .guide-table th,
+body .roadmap-table th{
+  background:var(--ink-strong) !important;
+  color:var(--paper) !important;
+  font-family:var(--font-sans) !important;
+  text-align:left !important;
+}
+
+body .model-nav,
+body .note-nav,
+body .guide-nav,
+body main.p .actions,
+body article .actions{
+  display:flex !important;
+  flex-wrap:wrap !important;
+  gap:.65rem !important;
+  margin:1.5rem 0 2rem !important;
+  padding:0 !important;
+  border:0 !important;
+}
+body .model-button,
+body .note-button,
+body .guide-button,
+body main.p button,
+body main.p .button{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  min-height:var(--touch-min) !important;
+  padding:.7rem 1rem !important;
+  border:1px solid var(--ink-strong) !important;
+  border-radius:0 !important;
+  background:var(--ink-strong) !important;
+  color:#fff !important;
+  font:800 .74rem/1.1 var(--font-sans) !important;
+  letter-spacing:.035em !important;
+  text-transform:uppercase !important;
+  text-decoration:none !important;
+  cursor:pointer;
+}
+
+body article .document-box{
+  border-radius:0 !important;
+  background:var(--paper-raised) !important;
+}
+body article .email-full,
+body main.p pre{
+  white-space:pre-wrap;
+  overflow-wrap:anywhere;
+  max-width:100%;
+  padding:1rem !important;
+  background:var(--paper-raised) !important;
+  color:var(--ink) !important;
+  border:1px solid var(--line-soft);
+  border-radius:0 !important;
+  font:inherit !important;
+  line-height:1.65 !important;
+}
+
+body .petition,
+body .signature{max-width:var(--content-reading)}
+body .petition-title{text-transform:none !important;font-family:var(--font-serif) !important}
+body .petition-address{font-family:var(--font-sans)}
+
+@media(max-width:700px){
+  body main.p,
+  body main.model-page,
+  body main.note-page,
+  body main.guide-page,
+  body main.roadmap-main{padding:2.15rem 1rem 4rem !important}
+  body .model-nav,
+  body .note-nav,
+  body .guide-nav,
+  body main.p .actions,
+  body article .actions{display:grid !important;grid-template-columns:1fr}
+  body .model-button,
+  body .note-button,
+  body .guide-button,
+  body main.p button,
+  body main.p .button{width:100% !important;text-align:center}
+}
+
 .news-tools{display:flex;gap:14px;flex-wrap:wrap;margin:0 0 42px}
 .news-tool-button{text-align:center}
 
