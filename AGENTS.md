@@ -2,8 +2,8 @@
 
 **Projeto:** Classe e Massas  
 **Status:** CANÔNICO  
-**Versão:** 1.9  
-**Data:** 17/09/2026  
+**Versão:** 2.0  
+**Data:** 18/09/2026  
 **generated_from_kernel:** `1.2`  
 **Kernel de referência:** `thiagoba2004/gerador-de-agents/AGENTS_KERNEL.md`  
 **Escopo:** todo modelo de IA, agente, assistente ou automação que trabalhe neste repositório ou em seus documentos derivados.
@@ -60,7 +60,7 @@ Nenhuma tarefa relativa ao projeto pode ser executada como ato isolado: deve est
 
 Quando houver dúvida sobre qual regra ou estado prevalece, usar a seguinte ordem:
 
-1. este `AGENTS.md` v1.9 para regras vigentes do projeto;
+1. este `AGENTS.md` v2.0 para regras vigentes do projeto;
 2. arquivos canônicos específicos do objeto de trabalho;
 3. `PROJECT_STATE.json` e manifestos/status específicos para estado corrente;
 4. `STRATEGY_LOG.jsonl` para história das Estratégias Autônomas;
@@ -73,7 +73,7 @@ Quando houver dúvida sobre qual regra ou estado prevalece, usar a seguinte orde
 
 Memória, resumo de conversa ou inferência **nunca prevalecem** sobre evidência documental mais recente.
 
-Se houver conflito entre a v1.8 e a v1.9, **a v1.9 prevalece**.
+Se houver conflito entre versões anteriores e a v2.0, **a v2.0 prevalece**.
 
 Se houver conflito entre o kernel 1.2 e uma regra local mais rigorosa que não contrarie a finalidade universal do kernel, **a regra local mais rigorosa é preservada**.
 
@@ -272,16 +272,80 @@ A tradução deve ser persistida progressivamente. Unidade concluída deve ser s
 
 A conclusão integral exige texto persistido, status atualizado, commit, remoto confirmado quando disponível e segunda cópia quando tecnicamente aplicável a marco crítico.
 
-### 8.2. Formatos canônicos
+### 8.2. Formatos canônicos e trio obrigatório para textos editoriais
 
 Salvo decisão específica documentada:
 
-- Markdown (`.md`) — textos humanos, documentação, metodologia e traduções;
-- JSON/JSONL — dados estruturados, metadados e interoperabilidade;
-- HTML — publicação;
+- Markdown (`.md`) — fonte textual canônica para textos humanos, documentação, metodologia, traduções e conteúdo editorial;
+- JSON/JSONL — dados estruturados, metadados, representação legível por máquina e interoperabilidade;
+- HTML — artefato de publicação;
 - PDF/DOCX — formatos derivados de distribuição, apresentação ou protocolo.
 
 Transformação de formato não substitui silenciosamente a fonte da verdade.
+
+#### 8.2.1. Regra dos três artefatos
+
+Todo **texto editorial ou publicável** mantido pelo projeto — incluindo artigos, notícias, editoriais, notas, dossiês, documentos canônicos destinados à publicação e outros conteúdos textuais equivalentes — deve possuir, como regra obrigatória, três artefatos coordenados:
+
+```text
+NOME-ESTAVEL.md
+NOME-ESTAVEL.html
+NOME-ESTAVEL.json
+```
+
+As responsabilidades são distintas e complementares:
+
+1. **Markdown (`.md`) — fonte textual canônica.** É o arquivo prioritário para redação, revisão humana, comparação textual e preservação do conteúdo.
+2. **HTML (`.html`) — publicação.** É a representação pública ou publicável do texto e deve ser derivável ou verificável contra o Markdown.
+3. **JSON (`.json`) — representação estruturada.** Deve conter metadados suficientes para identificar, auditar, comparar e processar o texto por modelos de IA, automações e ferramentas. Deve apontar para os arquivos Markdown e HTML correspondentes e, quando aplicável, representar de forma estruturada seções, referências ou conteúdo necessário à análise automatizada.
+
+O uso do mesmo basename/slug nos três artefatos é obrigatório sempre que tecnicamente possível. Quando a arquitetura exigir nomes diferentes, o vínculo entre eles deve ser explícito no JSON.
+
+#### 8.2.2. Sincronização obrigatória
+
+Alteração material em título, linha fina/subtítulo, autoria, data, corpo, referências, status editorial, slug ou outro dado relevante deve ser refletida nos três artefatos antes de o trabalho ser declarado concluído ou atualizado.
+
+O JSON correspondente deve registrar, no mínimo quando aplicável:
+
+```text
+id ou slug
+tipo de conteúdo
+título
+status
+data de publicação
+data de atualização
+caminho da fonte Markdown
+caminho do HTML publicado/publicável
+referência de versão, commit ou hash quando disponível
+```
+
+Não é permitido manter silenciosamente um HTML publicado sem sua fonte Markdown correspondente, nem um texto editorial sem seu JSON correspondente.
+
+#### 8.2.3. Gate de conclusão editorial
+
+Um texto editorial/publicável somente pode atingir estado equivalente a `PRONTO PARA PUBLICAÇÃO`, `PUBLICADO`, `ATUALIZADO` ou `CONCLUÍDO` quando:
+
+- os três artefatos existirem;
+- a relação entre eles estiver identificável;
+- Markdown e HTML estiverem materialmente coerentes;
+- o JSON corresponder à versão vigente;
+- a persistência e o versionamento tiverem sido verificados.
+
+Publicar o HTML não sana a ausência do Markdown ou do JSON.
+
+#### 8.2.4. Exceções
+
+Exceção à regra dos três artefatos somente é válida quando houver **decisão específica, expressa, persistente e versionada** que indique:
+
+- o objeto excepcional;
+- a razão técnica, jurídica ou arquitetural;
+- o formato dispensado;
+- a fonte da verdade substitutiva;
+- o prazo ou condição de revisão, quando temporária.
+
+Páginas puramente operacionais, índices gerados, CSS, JavaScript, logs, arquivos de dados sem natureza textual editorial e outros artefatos técnicos não são transformados em “texto editorial” apenas por existirem no site.
+
+A ausência histórica de um dos três artefatos é uma **lacuna documental a corrigir**, e não precedente para novas publicações incompletas.
 
 ### 8.3. Siglas e abreviações
 
@@ -533,6 +597,7 @@ governanca/estrategia-migracao-agents-kernel-1.2.md
 | 1.7 | 17/09/2026 | Alterou temporariamente a ordem operacional para informar o usuário antes do registro, com a finalidade de reduzir silêncio inicial. Essa ordem é histórica e foi substituída pela v1.9. |
 | 1.8 | 17/09/2026 | Institui o `STRATEGY_LOG.jsonl` append-only e torna obrigatório atribuir `strategy_id` e registrar toda Estratégia Autônoma e seus eventos, com `project_id` padronizado para permitir rastreabilidade e futura agregação entre projetos. |
 | 1.9 | 17/09/2026 | Migração controlada para `AGENTS_KERNEL.md` 1.2: restaura como regra vigente a ordem registrar → verificar → informar “Pedido registrado” → informar leitura/análise/providências → executar; preserva por incorporação todas as regras locais válidas da v1.8 e registra `generated_from_kernel: 1.2`. |
+| 2.0 | 18/09/2026 | Elimina a lacuna normativa de formatos editoriais: torna obrigatório, para cada texto editorial/publicável, o trio coordenado Markdown + HTML + JSON, define Markdown como fonte textual canônica, impõe sincronização e gate de conclusão e admite exceções somente por decisão expressa, persistente e versionada. |
 
 ---
 
