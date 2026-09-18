@@ -71,15 +71,25 @@ As quatro páginas individuais do MPT passaram a usar navegação global complet
 
 Os documentos canônicos do Observatório que utilizam HTML autônomo tiveram seu template visual alinhado ao sistema do site, preservando integralmente o conteúdo documental.
 
-### Fase 7 — Mobile e acessibilidade
-Validar:
-- largura mínima de toque;
-- foco visível;
-- contraste;
-- navegação por teclado;
-- tamanho de fonte;
-- ausência de overflow horizontal involuntário;
-- comportamento em 360–430 px.
+### Fase 7 — Mobile e acessibilidade — CONCLUÍDA
+A auditoria técnica contemplou:
+- área mínima de toque e controles de formulário;
+- foco visível e navegação por teclado;
+- skip link para bypass de navegação;
+- contraste da paleta;
+- mídia responsiva;
+- tabelas e blocos `pre` em telas estreitas;
+- preferências de redução de movimento e aumento de contraste;
+- comportamento do menu horizontal entre 360 e 430 px;
+- estados dinâmicos com ARIA.
+
+Contrastes verificados na paleta principal:
+- tinta sobre papel: 15,6:1;
+- texto atenuado sobre papel: 6,78:1;
+- acento sobre papel: 6,38:1;
+- branco sobre acento: 7,19:1.
+
+As páginas de Notícias e o Roadmap voltaram a carregar o `main.js` com versão de cache específica. Os documentos canônicos autônomos do Observatório receberam skip link próprio.
 
 ### Fase 8 — Limpeza técnica
 Retirar CSS duplicado/embutido sempre que possível e reduzir estilos injetados pelo JavaScript.
