@@ -2,7 +2,7 @@
 
 **ID:** STRAT-CEM-20260917-010  
 **Data:** 17/09/2026  
-**Status:** AGUARDANDO APROVAÇÃO DO PLANO
+**Status:** EM EXECUÇÃO
 
 ## Objetivo
 
@@ -34,11 +34,11 @@ Transformar a identidade visual já existente do Classe e Massas em um sistema d
 
 ## Plano de fases
 
-### Fase 1 — Design tokens e fundação
-Criar variáveis globais de cor, tipografia, largura, espaçamento, borda, foco e tamanho mínimo de toque.
+### Fase 1 — Design tokens e fundação — CONCLUÍDA
+Variáveis globais de cor, tipografia, largura, espaçamento, borda, foco e tamanho mínimo de toque implementadas em `css/style.css`.
 
-### Fase 2 — Cabeçalho e navegação
-Uniformizar o cabeçalho em todo o site. No desktop, manter todos os destinos visíveis. No celular, usar navegação horizontal rolável em uma única linha, sem submenu oculto e sem empilhamento vertical de oito links.
+### Fase 2 — Cabeçalho e navegação — CONCLUÍDA
+Cabeçalho global normalizado. No desktop, os destinos permanecem visíveis; no celular, a navegação ocupa uma faixa horizontal rolável em uma única linha, sem submenu e sem empilhamento vertical. Quando o menu é reconstruído pelo `main.js`, a seção ativa é centralizada automaticamente na faixa.
 
 ### Fase 3 — Tipografia e ritmo editorial
 Padronizar h1, h2, h3, kicker, dek, meta, corpo, legendas, listas, citações e links. Definir medidas de leitura e espaçamento vertical.

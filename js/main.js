@@ -39,6 +39,16 @@ document.documentElement.classList.add("js");
       const current = item.section === currentSection ? ' aria-current="page"' : "";
       return `<a href="${item.href}"${current}>${item.label}</a>`;
     }).join("");
+
+    const currentLink = nav.querySelector('[aria-current="page"]');
+    const centerCurrentLink = () => {
+      if (!currentLink || window.innerWidth > 700) return;
+      const target = currentLink.offsetLeft - (nav.clientWidth - currentLink.offsetWidth) / 2;
+      nav.scrollLeft = Math.max(0, target);
+    };
+
+    requestAnimationFrame(centerCurrentLink);
+    window.addEventListener("resize", centerCurrentLink, { passive: true });
   }
 
   const portugueseVersions = new Map([

@@ -127,10 +127,10 @@
     {
       "strategy_id": "STRAT-CEM-20260917-010",
       "name": "Sistema de UI Design do Classe e Massas",
-      "status": "PAUSADO_PARA_APROVACAO",
-      "last_event_id": "STEV-CEM-20260917-035",
-      "event_type": "CREATED",
-      "current_phase": "AUDITORIA INICIAL CONCLUÍDA — PLANO AGUARDANDO APROVAÇÃO",
+      "status": "EM_EXECUCAO",
+      "last_event_id": "STEV-CEM-20260917-037",
+      "event_type": "UPDATED",
+      "current_phase": "FASES 1 E 2 CONCLUÍDAS — PRÓXIMA: FASE 3, TIPOGRAFIA E RITMO EDITORIAL",
       "canonical_refs": [
         "css/style.css",
         "js/main.js",
