@@ -16,21 +16,21 @@
 
   <style>
     .mpt-page { max-width: 980px; margin: 0 auto; padding: 42px 20px 70px; }
-    .mpt-hero { text-align: center; padding: 32px 0 42px; }
+    .mpt-hero { text-align: left; padding: 0 0 24px; }
     .mpt-kicker { margin-bottom: 12px; font-size: .82rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
-    .mpt-hero h1 { margin: 0 auto 14px; max-width: 850px; font-size: clamp(2rem, 6vw, 4rem); line-height: 1.02; }
-    .mpt-hero h2 { margin: 0 auto 24px; max-width: 760px; font-size: clamp(1.25rem, 3vw, 1.8rem); line-height: 1.25; font-weight: 600; }
-    .mpt-intro { max-width: 760px; margin: 0 auto; font-size: 1.08rem; line-height: 1.75; text-align: left; }
+    .mpt-hero h1 { margin: .2em 0 .25em; max-width: 16ch; }
+    
+    .mpt-intro { max-width: 760px; margin: 0; font-size: 1.04rem; line-height: 1.7; text-align: left; }
     .mpt-intro strong { font-weight: 800; }
     .mpt-section { margin-top: 54px; }
     .mpt-section > h2 { margin-bottom: 10px; font-size: clamp(1.6rem, 4vw, 2.35rem); }
     .mpt-section-lead { max-width: 760px; margin-top: 0; line-height: 1.7; }
     .mpt-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-top: 28px; }
-    .mpt-card { border: 1px solid rgba(127,127,127,.28); border-radius: 14px; padding: 24px; display: flex; flex-direction: column; }
+    .mpt-card { display:flex; flex-direction:column; }
     .mpt-card-number { font-size: .78rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
     .mpt-card h3 { margin: 10px 0 12px; font-size: 1.35rem; line-height: 1.2; }
     .mpt-card p { margin: 0 0 22px; line-height: 1.65; flex-grow: 1; }
-    .mpt-button { display: inline-block; padding: 12px 16px; border: 2px solid currentColor; border-radius: 8px; font-weight: 800; text-decoration: none; text-align: center; }
+    .mpt-button { text-align:center; }
     .mpt-card-actions { display: grid; gap: 8px; }
     .mpt-download-button { font-size: .92rem; }
     .mpt-warning { margin-top: 48px; padding: 24px; border-left: 5px solid currentColor; background: rgba(127,127,127,.08); }
@@ -57,20 +57,24 @@
 <header>
   <div class="bar">
     <div class="brand"><a href="../index.html">Classe e Massas</a></div>
-    <nav class="nav" aria-label="Navegação principal">
+    <nav class="nav global-nav" aria-label="Navegação principal">
       <a href="../index.html">Início</a>
+      <a href="../noticias/index.html">Notícias</a>
+      <a href="../artigos/index.html">Artigos</a>
       <a href="../observatorio/index.html">Observatório</a>
       <a href="../biblioteca/index.html">Biblioteca</a>
-      <a href="index.html" aria-current="page">MPT</a>
+      <a href="../mpt/index.html" aria-current="page">MPT</a>
+      <a href="../lai/index.html">LAI</a>
+      <a href="../fale-conosco/index.html">Fale Conosco</a>
     </nav>
   </div>
 </header>
 
-<main class="mpt-page">
-  <section class="mpt-hero">
+<main class="index-main wide mpt-page">
+  <section class="index-hero mpt-hero">
     <div class="mpt-kicker">Campanha Salarial dos Bancários • 2026</div>
     <h1>Modelo Nacional de Denúncia ao MPT</h1>
-    <h2>Você sabia exatamente o que estava aprovando?</h2>
+    <p class="dek">Você sabia exatamente o que estava aprovando?</p>
     <div class="mpt-intro">
       <p>A negociação coletiva pode alterar salários, benefícios, jornada, PLR e outras condições de trabalho de milhares de bancários.</p>
       <p>Se a categoria é chamada a votar, uma questão é fundamental: <strong>os trabalhadores tiveram condições reais de conhecer, discutir e deliberar sobre aquilo que estavam aprovando ou rejeitando?</strong></p>
@@ -82,42 +86,42 @@
     <h2>Escolha por onde começar</h2>
     <p class="mpt-section-lead">Você não precisa conhecer Direito do Trabalho para começar. Primeiro entenda os fatos. Depois organize as provas. Somente então avalie se há elementos para uma representação.</p>
 
-    <div class="mpt-grid">
-      <article class="mpt-card">
+    <div class="ui-grid mpt-grid">
+      <article class="info-card mpt-card">
         <div class="mpt-card-number">1 • Quero entender</div>
         <h3>Guia Nacional do Bancário</h3>
         <p>Aprenda a identificar a proposta, preservar documentos, construir a cronologia e comparar o que foi informado com aquilo que posteriormente foi assinado.</p>
-        <a class="mpt-button" href="guia-nacional.html">Ler o Guia</a>
+        <a class="button mpt-button" href="guia-nacional.html">Ler o Guia</a>
       </article>
 
-      <article class="mpt-card">
+      <article class="info-card mpt-card">
         <div class="mpt-card-number">2 • Quero denunciar</div>
         <h3>Modelo Nacional de Representação</h3>
         <p>Um modelo para apresentar fatos e documentos ao Ministério Público do Trabalho sem transformar suspeitas em acusações que as provas não sustentem.</p>
-        <a class="mpt-button" href="modelo-representacao.html">Abrir o Modelo</a>
+        <a class="button mpt-button" href="modelo-representacao.html">Abrir o Modelo</a>
       </article>
 
-      <article class="mpt-card">
+      <article class="info-card mpt-card">
         <div class="mpt-card-number">3 • Quero conferir</div>
         <h3>Nota Técnico-Jurídica nº 01/2026</h3>
         <p>Consulte a fundamentação legal, jurisprudencial, institucional e doutrinária e veja onde termina a norma expressa e onde começa a tese interpretativa.</p>
-        <a class="mpt-button" href="nota-tecnico-juridica.html">Ler a Nota Técnica</a>
+        <a class="button mpt-button" href="nota-tecnico-juridica.html">Ler a Nota Técnica</a>
       </article>
 
-      <article class="mpt-card">
+      <article class="info-card mpt-card">
         <div class="mpt-card-number">4 • Caso concreto • BB Bahia</div>
         <h3>Greve e possível retaliação econômica</h3>
         <p>Modelo específico de Notícia de Fato sobre possível tratamento econômico diferenciado das bases que permaneceram em greve, liberdade sindical e formação informada da vontade coletiva.</p>
         <div class="mpt-card-actions">
-          <a class="mpt-button" href="modelo-bb-bahia-greve-2026.html">Abrir o Modelo Específico</a>
-          <a class="mpt-button mpt-download-button" href="downloads/Modelo_Denuncia_MPT_BB_Bahia_Greve_2026.docx" download>Baixar DOCX editável</a>
-          <a class="mpt-button mpt-download-button" href="downloads/Modelo_Denuncia_MPT_BB_Bahia_Greve_2026.pdf" download>Baixar PDF</a>
+          <a class="button mpt-button" href="modelo-bb-bahia-greve-2026.html">Abrir o Modelo Específico</a>
+          <a class="button secondary mpt-button mpt-download-button" href="downloads/Modelo_Denuncia_MPT_BB_Bahia_Greve_2026.docx" download>Baixar DOCX editável</a>
+          <a class="button secondary mpt-button mpt-download-button" href="downloads/Modelo_Denuncia_MPT_BB_Bahia_Greve_2026.pdf" download>Baixar PDF</a>
         </div>
       </article>
     </div>
   </section>
 
-  <aside class="mpt-warning">
+  <aside class="notice accent mpt-warning">
     <h2>Importante: este projeto não declara sua assembleia automaticamente ilegal</h2>
     <p>Não afirmamos existir regra legal geral que obrigue a disponibilização da íntegra de toda proposta ou minuta com antecedência fixa de 24, 48 horas ou qualquer outro período.</p>
     <p>Também não afirmamos que assembleias virtuais sejam ilegais, que todo resumo seja insuficiente ou que a ausência de determinado documento produza automaticamente a nulidade da deliberação.</p>
