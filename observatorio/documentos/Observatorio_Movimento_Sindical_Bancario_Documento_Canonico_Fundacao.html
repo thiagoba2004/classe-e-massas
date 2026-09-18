@@ -29,6 +29,8 @@ body{max-width:920px!important;margin:0 auto!important;padding:38px 34px 90px!im
 .site-nav a{display:inline-flex;align-items:center;min-height:2.5rem;padding:.55rem .65rem;color:var(--ink)!important;text-decoration:none;border-bottom:2px solid transparent;white-space:nowrap}
 .site-nav a:hover{border-bottom-color:var(--ink)}
 .site-nav a[aria-current="page"]{background:var(--ink);color:var(--paper)!important}
+.doc-skip{position:fixed;z-index:9999;top:.6rem;left:.6rem;transform:translateY(-180%);min-height:2.75rem;display:inline-flex;align-items:center;padding:.65rem .9rem;background:var(--ink);color:var(--paper)!important;border:2px solid var(--paper);font:800 .78rem/1.1 Arial,Helvetica,sans-serif;text-decoration:none;transition:transform 160ms ease}
+.doc-skip:focus{transform:translateY(0);outline:3px solid var(--accent);outline-offset:2px}
 header{text-align:left;margin:2.2rem 0 2.8rem;padding-bottom:1.25rem;border-bottom:4px solid var(--ink)}
 header h1{margin:0!important;font:700 1.05rem/1.35 Arial,Helvetica,sans-serif!important;letter-spacing:.035em;color:var(--muted)!important}
 h1{font:700 2.3rem/1.04 Georgia,"Times New Roman",serif!important;letter-spacing:-.02em;margin:1.6rem 0 1rem}
@@ -55,8 +57,9 @@ tr:nth-child(even) td{background:rgba(255,255,255,.26)!important}
 </style>
 </head>
 <body>
+<a class="doc-skip" href="#title-block-header">Pular para o conteúdo principal</a>
 <nav class="site-nav" aria-label="Navegação do documento"><a href="../../index.html">Início</a><a href="../../noticias/index.html">Notícias</a><a href="../../artigos/index.html">Artigos</a><a href="../index.html" aria-current="page">Observatório</a><a href="../../biblioteca/index.html">Biblioteca</a><a href="../../mpt/index.html">MPT</a><a href="../../lai/index.html">LAI</a><a href="../../fale-conosco/index.html">Fale Conosco</a><a href="index.html">Catálogo</a></nav>
-<header id="title-block-header">
+<header id="title-block-header" tabindex="-1">
 <h1 class="title">Documento Canônico de Fundação, Objeto, Método e
 Programa de Pesquisa — Observatório do Movimento Sindical Bancário</h1>
 </header>
