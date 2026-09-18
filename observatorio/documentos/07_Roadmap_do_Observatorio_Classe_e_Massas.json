@@ -1,0 +1,204 @@
+{
+  "documento_id": "ocm-07-roadmap-observatorio-classe-e-massas",
+  "titulo": "Roadmap do Observatório Classe e Massas",
+  "projeto": "Classe e Massas / Observatório Classe e Massas",
+  "escopo": "Fases, dependências, entregas, gates e estado de execução",
+  "colecao": "Documentos Canônicos do Observatório Classe e Massas",
+  "ordem_colecao": 7,
+  "versao": "1.0",
+  "data": "2026-09-13",
+  "status": "aprovado",
+  "fonte_canonica": "07_Roadmap_do_Observatorio_Classe_e_Massas.md",
+  "publicacao_derivada": "07_Roadmap_do_Observatorio_Classe_e_Massas.html",
+  "metadados": "07_Roadmap_do_Observatorio_Classe_e_Massas.metadata.json",
+  "diretriz_de_formatos": "ocm-diretriz-arquitetura-documental",
+  "estado_atual": {
+    "fase_central": 1,
+    "nome": "Piloto bancário",
+    "situacao": "em execução",
+    "fase_2": "em preparação",
+    "proximo_gate_estrategico": "Primeiro Mapa Nacional do Poder Sindical Bancário"
+  },
+  "fases": [
+    {
+      "numero": 0,
+      "nome": "Preservação e fundação documental",
+      "situacao": "concluída"
+    },
+    {
+      "numero": 1,
+      "nome": "Piloto bancário",
+      "situacao": "em execução"
+    },
+    {
+      "numero": 2,
+      "nome": "Núcleo comum de dados e método",
+      "situacao": "em preparação"
+    },
+    {
+      "numero": 3,
+      "nome": "Cinco portais públicos",
+      "situacao": "não concluída"
+    },
+    {
+      "numero": 4,
+      "nome": "Mapas integrados e relações de força",
+      "situacao": "não iniciada"
+    },
+    {
+      "numero": 5,
+      "nome": "Segundo setor experimental",
+      "situacao": "não iniciada"
+    },
+    {
+      "numero": 6,
+      "nome": "Rede nacional de observatórios setoriais",
+      "situacao": "não iniciada"
+    },
+    {
+      "numero": 7,
+      "nome": "Comparação internacional",
+      "situacao": "não iniciada"
+    }
+  ],
+  "formula_estrategica": [
+    "preservar",
+    "validar",
+    "normalizar",
+    "publicar",
+    "integrar",
+    "replicar",
+    "escalar",
+    "comparar"
+  ],
+  "secoes": [
+    {
+      "nivel": 1,
+      "titulo": "CLASSE E MASSAS"
+    },
+    {
+      "nivel": 2,
+      "titulo": "ROADMAP DO OBSERVATÓRIO CLASSE E MASSAS"
+    },
+    {
+      "nivel": 3,
+      "titulo": "Guia Canônico de Fases, Dependências, Entregas e Critérios de Conclusão"
+    },
+    {
+      "nivel": 1,
+      "titulo": "1. Função deste documento"
+    },
+    {
+      "nivel": 1,
+      "titulo": "2. Princípio geral de desenvolvimento"
+    },
+    {
+      "nivel": 1,
+      "titulo": "3. Estados possíveis das fases"
+    },
+    {
+      "nivel": 1,
+      "titulo": "4. Estado geral do projeto em 13 de setembro de 2026"
+    },
+    {
+      "nivel": 1,
+      "titulo": "5. FASE 0 — Preservação e fundação documental"
+    },
+    {
+      "nivel": 1,
+      "titulo": "6. FASE 1 — Piloto bancário"
+    },
+    {
+      "nivel": 1,
+      "titulo": "7. FASE 2 — Núcleo comum de dados e método"
+    },
+    {
+      "nivel": 1,
+      "titulo": "8. FASE 3 — Cinco portais públicos"
+    },
+    {
+      "nivel": 1,
+      "titulo": "9. FASE 4 — Mapas integrados e relações de força"
+    },
+    {
+      "nivel": 1,
+      "titulo": "10. FASE 5 — Segundo setor experimental"
+    },
+    {
+      "nivel": 1,
+      "titulo": "11. FASE 6 — Rede Nacional de Observatórios Setoriais"
+    },
+    {
+      "nivel": 1,
+      "titulo": "12. FASE 7 — Comparação internacional"
+    },
+    {
+      "nivel": 1,
+      "titulo": "13. Dependências entre as fases"
+    },
+    {
+      "nivel": 1,
+      "titulo": "14. Regra do Gate"
+    },
+    {
+      "nivel": 1,
+      "titulo": "15. Roadmap e planejamento cotidiano"
+    },
+    {
+      "nivel": 1,
+      "titulo": "16. Critério permanente de prioridade"
+    },
+    {
+      "nivel": 1,
+      "titulo": "17. Revisão do Roadmap"
+    },
+    {
+      "nivel": 1,
+      "titulo": "18. Próximo objetivo operacional"
+    },
+    {
+      "nivel": 1,
+      "titulo": "19. Fórmula estratégica do Roadmap"
+    },
+    {
+      "nivel": 1,
+      "titulo": "20. Histórico de versões"
+    }
+  ],
+  "origem": {
+    "documentos_consolidados": [
+      "06_Arquitetura_Publica_Metodo_e_Governanca.md",
+      "Observatorio_Movimento_Sindical_Bancario_Documento_Canonico_Fundacao.md"
+    ],
+    "tipo": "consolidação operacional"
+  },
+  "repositorio": "https://github.com/thiagoba2004/classe-e-massas",
+  "aprovacao_humana": true,
+  "artifact_manifest": {
+    "schema_version": "1.0",
+    "project": "Classe e Massas",
+    "audit_strategy_id": "STRAT-CEM-20260918-002",
+    "audited_at": "2026-09-18",
+    "slug": "07_Roadmap_do_Observatorio_Classe_e_Massas",
+    "content_type": "documento_canonico_observatorio",
+    "title": "Roadmap do Observatório Classe e Massas",
+    "status": "PUBLICADO",
+    "language": "pt-BR",
+    "canonical_source": {
+      "format": "markdown",
+      "path": "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md"
+    },
+    "publication": {
+      "format": "html",
+      "path": "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.html",
+      "html_blob_sha": "399613362d6ce0b76604b04b717deb89ec1e0aa9"
+    },
+    "structured_representation": {
+      "format": "json",
+      "path": "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.json"
+    },
+    "legacy_metadata_path": "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.metadata.json",
+    "markdown_state": "existing",
+    "migration_note": "Arquivo .json criado para cumprir AGENTS v2.0; o .metadata.json legado foi preservado."
+  }
+}

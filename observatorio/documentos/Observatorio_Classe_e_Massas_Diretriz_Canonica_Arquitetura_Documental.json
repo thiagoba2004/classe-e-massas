@@ -1,0 +1,70 @@
+{
+  "documento_id": "ocm-diretriz-arquitetura-documental",
+  "titulo": "Diretriz Canônica de Arquitetura Documental, Formatos e Fonte de Verdade",
+  "projeto": "Classe e Massas / Observatório Classe e Massas",
+  "versao": "1.1",
+  "data": "2026-09-12",
+  "status": "aprovado",
+  "natureza": [
+    "metodologica",
+    "editorial",
+    "computacional"
+  ],
+  "fonte_canonica": "Observatorio_Classe_e_Massas_Diretriz_Canonica_Arquitetura_Documental.md",
+  "publicacao_derivada": "Observatorio_Classe_e_Massas_Diretriz_Canonica_Arquitetura_Documental.html",
+  "formatos_principais": {
+    "texto_canonico": "md",
+    "publicacao": "html",
+    "objetos_estruturados": "json",
+    "series_estruturadas": "jsonl"
+  },
+  "formatos_nao_canonicos": [
+    "docx",
+    "pdf"
+  ],
+  "regra_resumo": "Escrever em Markdown. Estruturar em JSON e JSONL. Publicar em HTML. Preservar as fontes. Versionar no Git.",
+  "precedencia": {
+    "escopo": "formatos, fonte de verdade, fluxo documental e publicação",
+    "regra": "prevalece sobre disposições incompatíveis dos documentos anteriores"
+  },
+  "repositorio": "https://github.com/thiagoba2004/classe-e-massas",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-09-12",
+      "decisao": "Instituição da nova arquitetura documental baseada em Markdown, HTML e família JSON."
+    },
+    {
+      "versao": "1.1",
+      "data": "2026-09-12",
+      "decisao": "Separação entre publicação pública em HTML e arquivos Markdown/JSON mantidos no repositório, sem links na navegação do site."
+    }
+  ],
+  "artifact_manifest": {
+    "schema_version": "1.0",
+    "project": "Classe e Massas",
+    "audit_strategy_id": "STRAT-CEM-20260918-002",
+    "audited_at": "2026-09-18",
+    "slug": "Observatorio_Classe_e_Massas_Diretriz_Canonica_Arquitetura_Documental",
+    "content_type": "documento_canonico_observatorio",
+    "title": "Diretriz Canônica de Arquitetura Documental, Formatos e Fonte de Verdade",
+    "status": "PUBLICADO",
+    "language": "pt-BR",
+    "canonical_source": {
+      "format": "markdown",
+      "path": "observatorio/documentos/Observatorio_Classe_e_Massas_Diretriz_Canonica_Arquitetura_Documental.md"
+    },
+    "publication": {
+      "format": "html",
+      "path": "observatorio/documentos/Observatorio_Classe_e_Massas_Diretriz_Canonica_Arquitetura_Documental.html",
+      "html_blob_sha": "0fe59c9e52f91e6e9e8ec02f8e29eee23c281e29"
+    },
+    "structured_representation": {
+      "format": "json",
+      "path": "observatorio/documentos/Observatorio_Classe_e_Massas_Diretriz_Canonica_Arquitetura_Documental.json"
+    },
+    "legacy_metadata_path": "observatorio/documentos/Observatorio_Classe_e_Massas_Diretriz_Canonica_Arquitetura_Documental.metadata.json",
+    "markdown_state": "existing",
+    "migration_note": "Arquivo .json criado para cumprir AGENTS v2.0; o .metadata.json legado foi preservado."
+  }
+}

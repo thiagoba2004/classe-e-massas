@@ -1,0 +1,127 @@
+{
+  "documento_id": "ocm-00-refundacao-identidade",
+  "titulo": "Documento Canônico de Refundação, Identidade e Horizonte Estratégico",
+  "projeto": "Classe e Massas / Observatório Classe e Massas",
+  "escopo": "Observatório Classe e Massas",
+  "colecao": "Documentos Canônicos do Observatório Classe e Massas",
+  "ordem_colecao": 0,
+  "versao": "3.1",
+  "data": "2026-09-12",
+  "status": "aprovado",
+  "fonte_canonica": "00_Observatorio_Classe_e_Massas_Refundacao_Identidade.md",
+  "publicacao_derivada": "00_Observatorio_Classe_e_Massas_Refundacao_Identidade.html",
+  "metadados": "00_Observatorio_Classe_e_Massas_Refundacao_Identidade.metadata.json",
+  "fonte_legada": {
+    "arquivo": "00_Observatorio_Classe_e_Massas_Refundacao_Identidade.docx",
+    "formato": "docx",
+    "situacao": "preservado como legado; não utilizar como fonte de atualização"
+  },
+  "diretriz_de_formatos": "ocm-diretriz-arquitetura-documental",
+  "secoes": [
+    {
+      "nivel": 1,
+      "titulo": "CLASSE E MASSAS"
+    },
+    {
+      "nivel": 2,
+      "titulo": "OBSERVATÓRIO CLASSE E MASSAS"
+    },
+    {
+      "nivel": 3,
+      "titulo": "Documento Canônico de Refundação, Identidade e Horizonte Estratégico"
+    },
+    {
+      "nivel": 1,
+      "titulo": "1. Função canônica"
+    },
+    {
+      "nivel": 1,
+      "titulo": "2. Decisão de refundação"
+    },
+    {
+      "nivel": 1,
+      "titulo": "3. Tese fundadora"
+    },
+    {
+      "nivel": 1,
+      "titulo": "4. Princípio editorial permanente"
+    },
+    {
+      "nivel": 1,
+      "titulo": "5. Distinções fundamentais"
+    },
+    {
+      "nivel": 1,
+      "titulo": "6. Unidade e autonomia"
+    },
+    {
+      "nivel": 1,
+      "titulo": "7. Compromissos"
+    },
+    {
+      "nivel": 1,
+      "titulo": "8. Pergunta estratégica geral"
+    },
+    {
+      "nivel": 1,
+      "titulo": "9. Estado como dimensão própria"
+    },
+    {
+      "nivel": 1,
+      "titulo": "10. Regra de preservação"
+    },
+    {
+      "nivel": 1,
+      "titulo": "11. Histórico de versões"
+    }
+  ],
+  "migracao": {
+    "data": "2026-09-12",
+    "origem": "docx",
+    "destinos": [
+      "md",
+      "html",
+      "json"
+    ],
+    "equivalencia_substantiva_verificada": true,
+    "alteracao_de_conteudo": false,
+    "observacao": "A migração inicial preservou integralmente o conteúdo do DOCX. A versão atual contém revisão canônica posterior registrada separadamente.",
+    "versao_resultante_inicial": "3.0"
+  },
+  "repositorio": "https://github.com/thiagoba2004/classe-e-massas",
+  "revisao_canonica": {
+    "versao_anterior": "3.0",
+    "versao_atual": "3.1",
+    "data": "2026-09-12",
+    "tipo": "complementar",
+    "decisao": "Reconhecimento do Estado como dimensão analítica própria e adoção de cinco portais públicos.",
+    "aprovacao_humana": true
+  },
+  "artifact_manifest": {
+    "schema_version": "1.0",
+    "project": "Classe e Massas",
+    "audit_strategy_id": "STRAT-CEM-20260918-002",
+    "audited_at": "2026-09-18",
+    "slug": "00_Observatorio_Classe_e_Massas_Refundacao_Identidade",
+    "content_type": "documento_canonico_observatorio",
+    "title": "Documento Canônico de Refundação, Identidade e Horizonte Estratégico",
+    "status": "PUBLICADO",
+    "language": "pt-BR",
+    "canonical_source": {
+      "format": "markdown",
+      "path": "observatorio/documentos/00_Observatorio_Classe_e_Massas_Refundacao_Identidade.md"
+    },
+    "publication": {
+      "format": "html",
+      "path": "observatorio/documentos/00_Observatorio_Classe_e_Massas_Refundacao_Identidade.html",
+      "html_blob_sha": "394eb8914eafd92b6127b0d4ab1ee5aadc2d5407"
+    },
+    "structured_representation": {
+      "format": "json",
+      "path": "observatorio/documentos/00_Observatorio_Classe_e_Massas_Refundacao_Identidade.json"
+    },
+    "legacy_metadata_path": "observatorio/documentos/00_Observatorio_Classe_e_Massas_Refundacao_Identidade.metadata.json",
+    "markdown_state": "existing",
+    "migration_note": "Arquivo .json criado para cumprir AGENTS v2.0; o .metadata.json legado foi preservado."
+  }
+}
