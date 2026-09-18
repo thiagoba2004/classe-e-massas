@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "project": "Classe e Massas",
+  "audit_strategy_id": "STRAT-CEM-20260918-002",
+  "audited_at": "2026-09-18",
+  "slug": "vanguarda-nao-e-autoproclamacao",
+  "content_type": "artigo",
+  "title": "Vanguarda não é autoproclamação",
+  "description": "Algumas reflexões sobre a greve dos bancários, a soberania das assembleias, o conceito de vanguarda e a necessidade de conquistar politicamente a maioria da categoria.",
+  "status": "PUBLICADO",
+  "language": "pt-BR",
+  "canonical_source": {
+    "format": "markdown",
+    "path": "artigos/2026/vanguarda-nao-e-autoproclamacao.md"
+  },
+  "publication": {
+    "format": "html",
+    "path": "artigos/2026/vanguarda-nao-e-autoproclamacao.html",
+    "html_blob_sha": "9e10d7500fb10f353a05981c594fa69a2ad4f650"
+  },
+  "structured_representation": {
+    "format": "json",
+    "path": "artigos/2026/vanguarda-nao-e-autoproclamacao.json"
+  },
+  "markdown_state": "created_from_published_html",
+  "outline": [
+    {
+      "level": 1,
+      "title": "Vanguarda não é autoproclamação"
+    },
+    {
+      "level": 2,
+      "title": "Maioria de Sindicatos Não Significa Necessariamente Maioria de Bancários"
+    },
+    {
+      "level": 2,
+      "title": "A Assembleia É Soberana — Inclusive Quando Discordamos Dela"
+    },
+    {
+      "level": 2,
+      "title": "O Que Significa Ser Vanguarda?"
+    },
+    {
+      "level": 2,
+      "title": "A Vanguarda Não Substitui a Classe"
+    },
+    {
+      "level": 2,
+      "title": "Uma Categoria Nacional Exige Uma Estratégia Nacional"
+    },
+    {
+      "level": 2,
+      "title": "Precisamos Conhecer Onde Estão os Bancários"
+    },
+    {
+      "level": 2,
+      "title": "Da Proclamação à Estratégia"
+    },
+    {
+      "level": 2,
+      "title": "A Greve Pode Começar Com Uma Minoria. A Política Não Pode Terminar Nela."
+    },
+    {
+      "level": 2,
+      "title": "Vanguarda Não É Autoproclamação"
+    }
+  ],
+  "links": []
+}

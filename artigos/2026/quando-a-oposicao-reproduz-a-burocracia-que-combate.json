@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "project": "Classe e Massas",
+  "audit_strategy_id": "STRAT-CEM-20260918-002",
+  "audited_at": "2026-09-18",
+  "slug": "quando-a-oposicao-reproduz-a-burocracia-que-combate",
+  "content_type": "artigo",
+  "title": "Quando a oposição reproduz a burocracia que combate",
+  "description": "A remoção de um bancário de um grupo de oposição com 841 membros coloca em debate democracia operária, solidariedade de classe e poder da base.",
+  "status": "PUBLICADO",
+  "language": "pt-BR",
+  "canonical_source": {
+    "format": "markdown",
+    "path": "artigos/2026/quando-a-oposicao-reproduz-a-burocracia-que-combate.md"
+  },
+  "publication": {
+    "format": "html",
+    "path": "artigos/2026/quando-a-oposicao-reproduz-a-burocracia-que-combate.html",
+    "html_blob_sha": "225ac2ab74dd5e36bf0081c8fa2aa9ea16b485a7"
+  },
+  "structured_representation": {
+    "format": "json",
+    "path": "artigos/2026/quando-a-oposicao-reproduz-a-burocracia-que-combate.json"
+  },
+  "markdown_state": "created_from_published_html",
+  "outline": [
+    {
+      "level": 1,
+      "title": "Quando a oposição reproduz a burocracia que combate"
+    },
+    {
+      "level": 2,
+      "title": "O que aconteceu antes da remoção"
+    },
+    {
+      "level": 2,
+      "title": "Se pedidos de membros justificam a remoção, os pedidos de reinclusão também contam"
+    },
+    {
+      "level": 2,
+      "title": "O problema não é apenas quem apertou o botão"
+    },
+    {
+      "level": 2,
+      "title": "Metade das posições administrativas está ocupada por uma militante do PCBR"
+    },
+    {
+      "level": 2,
+      "title": "Solidariedade operária ou “resolva você mesmo com quem o expulsou”?"
+    },
+    {
+      "level": 2,
+      "title": "Solidariedade de classe não significa concordar com tudo"
+    },
+    {
+      "level": 2,
+      "title": "Marx: a emancipação dos trabalhadores será obra dos próprios trabalhadores"
+    },
+    {
+      "level": 2,
+      "title": "Engels: autoridade não significa arbítrio"
+    },
+    {
+      "level": 2,
+      "title": "Lenin: liberdade de crítica e unidade de ação"
+    },
+    {
+      "level": 2,
+      "title": "Rosa Luxemburgo: liberdade para quem pensa diferente"
+    },
+    {
+      "level": 2,
+      "title": "Gramsci: dirigir significa construir consentimento"
+    },
+    {
+      "level": 2,
+      "title": "Trotsky: a burocracia é uma relação social antes de ser um grande aparelho"
+    },
+    {
+      "level": 2,
+      "title": "Mao: o comandismo produz afastamento das massas"
+    },
+    {
+      "level": 2,
+      "title": "“É apenas WhatsApp” não resolve o problema"
+    },
+    {
+      "level": 2,
+      "title": "O conteúdo político não pode ser considerado um “desserviço” numa oposição política"
+    },
+    {
+      "level": 2,
+      "title": "O desafio que fica para os militantes do PCBR — e para o próprio partido"
+    },
+    {
+      "level": 2,
+      "title": "Quem controla os controladores?"
+    },
+    {
+      "level": 2,
+      "title": "Não queremos apenas trocar os dirigentes"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://www.marxists.org/history/international/iwma/documents/1864/rules.htm",
+      "label": "Estatutos da Primeira Internacional"
+    },
+    {
+      "href": "https://www.marxists.org/portugues/marx/1873/03/autoridade-pt.htm",
+      "label": "Sobre a Autoridade"
+    },
+    {
+      "href": "https://www.marxists.org/portugues/lenin/1906/05/20.htm",
+      "label": "Liberdade para Criticar e Unidade de Ação"
+    },
+    {
+      "href": "https://www.marxists.org/archive/luxemburg/1918/russian-revolution/ch06.htm",
+      "label": "A Revolução Russa"
+    },
+    {
+      "href": "https://www.marxists.org/archive/gramsci/1919/06/workers-democracy.htm",
+      "label": "Democracia Operária"
+    },
+    {
+      "href": "https://www.marxists.org/archive/trotsky/1936/revbet/ch05.htm",
+      "label": "A Revolução Traída"
+    },
+    {
+      "href": "https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_7.htm",
+      "label": "Prestar atenção ao trabalho econômico"
+    }
+  ]
+}

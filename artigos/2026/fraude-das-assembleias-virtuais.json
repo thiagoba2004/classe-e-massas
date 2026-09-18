@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "project": "Classe e Massas",
+  "audit_strategy_id": "STRAT-CEM-20260918-002",
+  "audited_at": "2026-09-18",
+  "slug": "fraude-das-assembleias-virtuais",
+  "content_type": "artigo",
+  "title": "A fraude das assembleias virtuais",
+  "description": "O golpe contra os bancários na Campanha Salarial 2026: democracia sindical, transparência e acesso ao texto integral da CCT.",
+  "status": "PUBLICADO",
+  "language": "pt-BR",
+  "canonical_source": {
+    "format": "markdown",
+    "path": "artigos/2026/fraude-das-assembleias-virtuais.md"
+  },
+  "publication": {
+    "format": "html",
+    "path": "artigos/2026/fraude-das-assembleias-virtuais.html",
+    "html_blob_sha": "dfb931533ea6b2d192048917ac214777b7993d3d"
+  },
+  "structured_representation": {
+    "format": "json",
+    "path": "artigos/2026/fraude-das-assembleias-virtuais.json"
+  },
+  "markdown_state": "created_from_published_html",
+  "outline": [
+    {
+      "level": 1,
+      "title": "A fraude das assembleias virtuais"
+    },
+    {
+      "level": 2,
+      "title": "O Voto Precisa Ser Informado"
+    },
+    {
+      "level": 2,
+      "title": "Não Existe Democracia Sindical Sem Acesso À Informação"
+    },
+    {
+      "level": 2,
+      "title": "Sem Texto, Não Há Voto Consciente"
+    },
+    {
+      "level": 2,
+      "title": "Sem Leitura, Não Há Acordo!"
+    }
+  ],
+  "links": []
+}

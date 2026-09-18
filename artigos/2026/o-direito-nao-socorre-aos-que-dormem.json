@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "project": "Classe e Massas",
+  "audit_strategy_id": "STRAT-CEM-20260918-002",
+  "audited_at": "2026-09-18",
+  "slug": "o-direito-nao-socorre-aos-que-dormem",
+  "content_type": "artigo",
+  "title": "O Direito não socorre aos que dormem",
+  "description": "Que democracia é essa em que o trabalhador vota primeiro e somente depois conhece integralmente aquilo que aprovou? Bancários, é hora de acordar.",
+  "status": "PUBLICADO",
+  "language": "pt-BR",
+  "canonical_source": {
+    "format": "markdown",
+    "path": "artigos/2026/o-direito-nao-socorre-aos-que-dormem.md"
+  },
+  "publication": {
+    "format": "html",
+    "path": "artigos/2026/o-direito-nao-socorre-aos-que-dormem.html",
+    "html_blob_sha": "17a02981f5734fdc7b7aa17b2b35b4ad939fb394"
+  },
+  "structured_representation": {
+    "format": "json",
+    "path": "artigos/2026/o-direito-nao-socorre-aos-que-dormem.json"
+  },
+  "markdown_state": "created_from_published_html",
+  "outline": [
+    {
+      "level": 1,
+      "title": "O Direito não socorre aos que dormem"
+    },
+    {
+      "level": 2,
+      "title": "Votar Não É Apenas Apertar Um Botão"
+    },
+    {
+      "level": 2,
+      "title": "A Assembleia Não É Uma Formalidade"
+    },
+    {
+      "level": 2,
+      "title": "O Sindicato Representa a Categoria — Não a Substitui Politicamente"
+    },
+    {
+      "level": 2,
+      "title": "Negociação Coletiva Exige Boa-Fé"
+    },
+    {
+      "level": 2,
+      "title": "Como Votar Aquilo Que Não Se Conhece?"
+    },
+    {
+      "level": 2,
+      "title": "E Onde Entra o “Direito Não Socorre Aos Que Dormem”?"
+    },
+    {
+      "level": 2,
+      "title": "Bancários, o Direito Só Pode Socorrer Quem Decide Acordar"
+    },
+    {
+      "level": 2,
+      "title": "Não Queremos Um “Documento Em Branco”"
+    },
+    {
+      "level": 2,
+      "title": "O Ministério Público do Trabalho Existe Também Para Defender Direitos Coletivos"
+    },
+    {
+      "level": 2,
+      "title": "A Denúncia Precisa Ser Documentada"
+    },
+    {
+      "level": 2,
+      "title": "Não Basta Reclamar Depois"
+    },
+    {
+      "level": 2,
+      "title": "Bancários, Acordem!"
+    },
+    {
+      "level": 2,
+      "title": "Primeiro, o Texto. Depois, o Debate. E Só Então, o Voto."
+    },
+    {
+      "level": 2,
+      "title": "Bancários, Está Na Hora de Acordar!"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,204 @@
+---
+title: "Democracia para a base: quem controla o poder dentro das organizações dos trabalhadores?"
+status: "PUBLICADO"
+language: "pt-BR"
+published_html: "artigos/2026/democracia-para-a-base-quem-controla-o-poder.html"
+backfilled_from_published_html: "2026-09-18"
+audit_strategy_id: "STRAT-CEM-20260918-002"
+---
+
+Democracia Operária • Movimento Sindical • Campanha Salarial 2026
+
+# Democracia para a base: quem controla o poder dentro das organizações dos trabalhadores?
+
+*Um conflito num grupo de oposição bancária revela um problema maior: não existe disciplina democrática sem decisão democrática, e todo poder delegado precisa permanecer submetido ao controle daqueles que o delegaram.*
+
+Artigo de intervenção e debate • 15 de setembro de 2026 • terceira edição integral
+
+Um episódio aparentemente pequeno pode revelar um problema político muito maior.
+
+Durante a Campanha Salarial dos Bancários de 2026, um trabalhador foi removido de um grupo de WhatsApp com centenas de participantes que se apresentava como espaço da Oposição Bancária na Bahia. A retirada foi realizada por um dos administradores. Depois da contestação pública, o trabalhador foi reincluído. Em seguida, recebeu advertências sobre sua forma de intervenção e, pouco tempo depois, foi novamente removido.
+
+O que interessa aqui não é transformar uma disputa particular em centro da política sindical. É fazer a pergunta que o episódio tornou inevitável:
+
+> **quem controla o poder dentro das organizações criadas para representar, organizar ou mobilizar os próprios trabalhadores?**
+
+Essa pergunta vale para direções sindicais, oposições, administradores de grupos, correntes políticas, federações, confederações e qualquer estrutura que exerça poder em nome da base.
+
+## 1. O caso que revela o problema
+
+Segundo as mensagens apresentadas ao **Classe e Massas**, o trabalhador foi inicialmente retirado do grupo por Maurício Santiago, um dos administradores. Depois de críticas à medida e de tentativas de mediação, acabou reincluído.
+
+A reinclusão, porém, não encerrou a controvérsia. Em 15 de setembro, uma das administradoras pediu que se preservasse a “unidade de ação” e que fossem evitadas discussões capazes de “desmobilizar” o grupo. Mais tarde, Maurício escreveu que o espaço buscava pessoas que “agregam” e constroem coletivamente, criticou comportamentos que interpretava como busca de projeção individual e acrescentou:
+
+> **“A quem foi dada uma segunda chance, por favor, segure a onda.”**
+
+A frase é politicamente significativa. Ela apresenta a reinclusão como uma “segunda chance” concedida por quem exerce o poder administrativo, e não como resultado de um procedimento coletivo previamente conhecido.
+
+Depois disso, o trabalhador publicou no grupo o link para este artigo. Houve manifestação de incômodo com a exposição pública do debate e, segundo o relato do próprio trabalhador, ele foi novamente removido pelo mesmo administrador.
+
+A cronologia permite registrar com segurança uma sequência objetiva — **remoção, contestação, reinclusão, advertência e nova remoção** —, mas não autoriza afirmar, sem elemento adicional, qual foi a motivação específica da segunda retirada.
+
+O problema democrático existe independentemente dessa motivação. Quando permanecer num espaço político depende de receber uma “segunda chance” e de “segurar a onda”, surge uma pergunta simples: **quais regras limitam também o poder de quem pode remover?**
+
+## 2. Uma oposição ampla não é um partido
+
+Essa distinção é decisiva.
+
+Um partido pode possuir programa, estatuto, instâncias, critérios de militância e regras internas de disciplina. Um grupo amplo de oposição sindical é outra coisa. Nele podem coexistir militantes partidários, independentes, trabalhadores sem filiação, sindicalistas de diferentes tradições e bancários que estão começando a participar politicamente.
+
+Por isso, método, disciplina e coesão não podem ser simplesmente presumidos. Precisam ser construídos e reconhecidos pelo próprio coletivo.
+
+Uma das administradoras do grupo, militante do PCBR, formulou uma objeção que merece ser considerada em sua melhor forma: construção coletiva não significa ausência de método, direção ou responsabilidade; democracia também exige acordos, capacidade de ouvir críticas e unidade de ação.
+
+Em abstrato, isso está correto.
+
+Nem toda cobrança por coesão é burocrática. Uma decisão tomada democraticamente pode gerar responsabilidades comuns. Uma organização incapaz de transformar decisões em ação coletiva dificilmente se torna força política.
+
+Mas a questão começa exatamente onde a palavra “acordo” costuma encerrar a conversa:
+
+> **quais acordos, decididos por quem, em que instância, segundo quais regras e com qual participação da base?**
+
+Se existe uma decisão coletiva conhecida, pode existir responsabilidade diante dela. Se não existe, corre-se o risco de transformar a concepção de método de um núcleo mais organizado em regra tácita para todos os demais.
+
+**Coesão construída pela base é força coletiva. Coesão definida de cima e cobrada da base pode transformar-se em conformidade.**
+
+Por isso, a divergência não é entre organização e desorganização. É entre duas formas de organização: uma em que a direção formula o método e cobra adesão; outra em que a própria base participa da construção do método, da estratégia e da disciplina coletiva.
+
+## 3. A greve como problema de organização coletiva
+
+A controvérsia também revelou uma concepção estreita do que significa “construir a greve”. Foi criticado o fato de o trabalhador removido não ter permanecido em piquetes.
+
+Segundo seu relato, porém, na noite de 9 de setembro ele foi buscar material no Ginásio dos Bancários e colocou cartazes na Agência Cabula, sua unidade de trabalho. Na agência houve adesão à paralisação. Durante a greve, produziu textos, vídeos e análises sobre a Campanha Salarial e atravessou a madrugada elaborando uma denúncia ao Ministério Público do Trabalho sobre o caso de Itabuna e possíveis violações ao direito de greve.
+
+Nada disso diminui a importância dos piquetes. Onde há tentativa de funcionamento, pressão patronal, fura-greves ou necessidade de convencimento, o piquete pode ser decisivo.
+
+Mas uma greve não se reduz ao piquete.
+
+Uma paralisação de alcance nacional exige divisão de trabalho: presença nas unidades, convencimento, comunicação direta com a população, produção e distribuição de panfletos, vídeos e textos, atuação nas redes sociais, **intervenções em emissoras de rádio e televisão, relacionamento com a imprensa e disputa pública da narrativa sobre a greve**, acompanhamento das negociações, documentação de violações, articulação entre bases, organização de assembleias e defesa jurídica.
+
+Segundo o mesmo relato, trabalhadores que estavam em piquetes sequer dispunham de panfletos destinados à população. Se esse quadro se confirmou de forma mais ampla, o problema não era simplesmente falta de gente nas portas das agências, mas ausência de integração entre mobilização física, comunicação e disputa política.
+
+Uma greve de massas também precisa disputar como será compreendida fora da categoria. Se os bancos, a grande imprensa ou outros atores sociais ocupam sozinhos o espaço público, a população pode conhecer a paralisação apenas pela perspectiva de quem se opõe a ela. Por isso, entrevistas, participação em programas de rádio e televisão, notas à imprensa e preparação de porta-vozes fazem parte da própria estratégia de mobilização.
+
+A pergunta correta, portanto, não é quem ficou mais horas no piquete. É:
+
+> **quem definiu democraticamente a divisão de tarefas, a política de comunicação e a estratégia comum da greve?**
+
+Uma greve não precisa de todos fazendo a mesma coisa. Precisa de todos contribuindo para uma estratégia coletivamente construída.
+
+## 4. Quem decide a estratégia?
+
+As fontes públicas do Sindicato dos Bancários da Bahia mostram que houve plenárias presenciais seguidas de assembleias virtuais para deliberar sobre propostas, deflagração e continuidade do movimento. Isso precisa ser reconhecido com precisão.
+
+[O edital de 31 de agosto de 2026](https://www.bancariosbahia.org.br/noticia/43704%2Cedital-de-convocacao-assembleia-geral-extraordinaria) convocou assembleia virtual e apresentou a plenária presencial como momento anterior de esclarecimento. Em 3 de setembro, a própria entidade afirmou que a plenária serviria para atualizar a categoria e “passar a orientação da entidade”. [A publicação está disponível aqui](https://www.bancariosbahia.org.br/noticia/43725%2Cplenaria-nesta-quinta-embasa-decisao-da-categoria). Em 10 de setembro, nova plenária foi seguida de assembleia virtual para avaliar os rumos da greve. [A convocação também foi publicada pelo Sindicato](https://www.bancariosbahia.org.br/noticia/43782%2Cgreve-no-bb-e-na-caixa-sera-avaliada-em-plenaria-nesta-quinta-feira).
+
+O problema apontado neste artigo é outro: nas convocações públicas examinadas, não foi localizada uma assembleia deliberativa voltada a permitir que a base organizasse, de maneira integrada, todos os aspectos políticos e práticos da campanha — piquetes, combate aos fura-greves, comunicação direta com a população, produção e distribuição de panfletos e outros materiais, atuação nas redes sociais, **intervenção pública em emissoras de rádio e televisão, relacionamento com a imprensa e disputa da narrativa social sobre a greve**, divisão de tarefas, acesso à minuta integral das propostas, funcionamento da mesa e direito da base de apresentar resoluções.
+
+Isso inclui uma questão estratégica frequentemente tratada como secundária: **quem decide como a greve será apresentada à sociedade?** Quem prepara os porta-vozes, os argumentos, os dados e as intervenções públicas capazes de explicar por que os bancários paralisaram e quais interesses estão em disputa?
+
+Sem essa construção, “unidade de ação” pode acabar significando unidade em torno de uma estratégia que os trabalhadores não ajudaram efetivamente a formular.
+
+> **Não existe disciplina democrática sem decisão democrática anterior.**
+
+O formato da assembleia é um meio, mas não é um detalhe politicamente neutro. Nenhuma tecnologia garante democracia por si só; ao mesmo tempo, numa base territorial extensa, a escolha do formato pode ampliar ou restringir materialmente quem possui condições de participar da formação da decisão.
+
+A própria [Convenção Coletiva de Trabalho Aditiva Bahia 2024/2026](https://www.bancariosbahia.org.br/convencoes) descreve a abrangência do Sindicato dos Bancários da Bahia como todo o Estado, ressalvados os municípios pertencentes às bases territoriais dos sindicatos de Camaçari, Extremo Sul da Bahia, Feira de Santana, Ilhéus, Irecê, Itabuna, Jacobina, Jequié, Juazeiro, Vitória da Conquista e Oeste da Bahia. Trata-se, portanto, de uma base que se espalha por uma parcela enorme do território baiano. Numa estrutura dessa dimensão, centralizar a discussão presencial em Salvador e tratar a participação remota deliberativa como acessória cria um problema objetivo de acesso.
+
+Em 11 de setembro, o próprio Sindicato publicou a matéria [“Plenárias também no youtube”](https://www.bancariosbahia.org.br/noticias/1-geral/43800%2Cplenarias-tambem-no-youtube.html). O texto apresentou a transmissão como alternativa para quem “está em outro município” ou não consegue comparecer presencialmente e afirmou que seria uma forma de a categoria acompanhar os debates e “participar, mesmo à distância”. O reconhecimento da barreira territorial é importante. Mas transmissão e participação não são sinônimos.
+
+**Assistir a uma plenária pelo YouTube não equivale a participar dela.** Quem está diante da transmissão não dispõe, por esse simples fato, das mesmas condições de quem está no salão para pedir a palavra, suscitar questão de ordem, apresentar e defender proposta ou emenda, responder no contraditório ou disputar a condução dos trabalhos. Segundo os registros e o acompanhamento apresentados ao **Classe e Massas**, nas transmissões examinadas o espaço de comentários permaneceu desativado, eliminando inclusive essa forma limitada de manifestação textual.
+
+Não se trata, portanto, de uma plenária híbrida em sentido deliberativo, mas de uma plenária presencial transmitida pela internet. A diferença é substantiva. **Hibridismo deliberativo pressupõe que quem participa remotamente possa intervir na reunião, e não apenas assistir ao que outros discutem.**
+
+O contraste é ainda mais relevante porque o próprio Sindicato utilizou uma ferramenta interativa durante a mesma Campanha Salarial. Em 8 de setembro, a [plenária dos funcionários do Banco do Brasil foi realizada pelo Zoom](https://www.bancariosbahia.org.br/noticias/6-campanha-salarial/43757%2Cplenaria-do-bb-comeca-agora.html). No mesmo dia, a entidade convocou os trabalhadores do BNB pelo Zoom com a chamada [“Contribua agora com o debate”](https://www.bancariosbahia.org.br/noticias/campanha-salarial-6/43758%2Cclique-para-acessar-plenaria-bnb.html). Isso demonstra que havia, ao menos tecnicamente, uma plataforma utilizada pela própria entidade para reuniões remotas interativas.
+
+A questão, portanto, não é fetichizar uma plataforma específica. Zoom, outra ferramenta de videoconferência ou solução equivalente só será democrática se houver regras que assegurem o direito de intervenção. O ponto decisivo é outro: **numa base distribuída por grande parte da Bahia, o trabalhador que está longe de Salvador precisa ter condições materiais de participar da deliberação, e não apenas de assistir à direção e aos presentes deliberarem.**
+
+> **YouTube pode ampliar a audiência. Audiência, porém, não é deliberação. Assistir não é falar. Acompanhar não é propor. Receber a palavra da direção não é possuir direito à palavra.**
+
+Segundo o trabalhador, numa assembleia presencial da Campanha Salarial de 2024 ele levantou a mão, sinalizou uma questão de ordem e não recebeu a palavra. O episódio é apresentado aqui como relato do próprio participante, mas ilustra um princípio importante: presença física não significa poder de intervenção.
+
+Uma assembleia presencial pode ser vertical; uma virtual pode reduzir a base a clicar em alternativas previamente fechadas; uma híbrida pode combinar os vícios de ambas. Por isso, participação remota deliberativa e direitos efetivos de intervenção são exigências cumulativas, não alternativas.
+
+**O problema democrático não é apenas onde o trabalhador está — no ginásio ou diante de uma tela. É se consegue chegar politicamente à assembleia e se possui poder real para intervir na formação da decisão coletiva.**
+
+A mesa não é proprietária da assembleia. Sua função é organizar a manifestação soberana dos trabalhadores, garantindo critérios públicos de inscrição, questões de ordem, contraditório, propostas, emendas, resoluções e tempos de fala.
+
+## 5. Democracia operária é controle sobre o poder
+
+A tradição revolucionária oferece instrumentos úteis para compreender esse problema, desde que seus autores não sejam usados como simples lista de autoridades.
+
+**Marx** colocou a autoemancipação da classe trabalhadora no fundamento de sua política. A formulação de que a emancipação dos trabalhadores deve ser obra dos próprios trabalhadores não é apenas moral; possui consequência organizativa. A base não pode ser reduzida a público que escolhe dirigentes e depois apenas acompanha suas decisões.
+
+**Rosa Luxemburgo**, ao analisar partido, sindicatos e greve de massas, chamou atenção para o perigo de a especialização dos dirigentes concentrar iniciativa, conhecimento e decisão, enquanto a massa passa a ocupar posição predominantemente passiva. Esse problema reaparece hoje onde poucos controlam senhas, listas, plataformas, convocações e canais de comunicação.
+
+**Gramsci** examinou o risco de organizações criadas pelos trabalhadores desenvolverem uma dinâmica própria e se afastarem da iniciativa viva das massas. O problema surge quando a pergunta deixa de ser “o que a base decidiu?” e passa a ser “como fazer a base acompanhar a orientação já definida?”.
+
+A experiência da Comuna, destacada por Marx e Engels, acrescenta um princípio decisivo: quem recebe poder coletivo deve permanecer submetido ao controle coletivo.
+
+Administrador não é proprietário. Diretor sindical não é proprietário. Coordenador não é proprietário. Representante não é proprietário.
+
+**Todo poder delegado exige limites, transparência e possibilidade de contestação.**
+
+## 6. O princípio precisa valer para todos
+
+Essa discussão não pode mudar de conteúdo conforme a corrente política que ocupa o poder.
+
+Durante a Campanha Salarial de 2026, o Sindicato dos Bancários do Rio Grande do Norte divulgou denúncia pública afirmando que a Contraf-CUT estaria bloqueando bancários em suas redes sociais após críticas ao acordo com a Fenaban. Há também relatos individuais semelhantes. Tais alegações exigem verificação caso a caso e não demonstram, sozinhas, a motivação de cada bloqueio.
+
+Mas o princípio é simples: se excluir trabalhador por divergência política é criticável quando praticado por uma direção ligada à CUT ou à CTB, precisa ser igualmente criticável quando ocorre num espaço de oposição.
+
+**Uma política consequente de democracia operária não muda de princípio conforme quem controla o aparelho.**
+
+## 7. Seis garantias para que a oposição não reproduza a burocracia
+
+O problema não se resolve apenas reincluindo uma pessoa ou substituindo um administrador. Se a questão é estrutural, a resposta também precisa ser estrutural.
+
+- **Regras públicas, fundamentação e direito de defesa.** Ninguém deve descobrir depois da punição qual regra teria violado. Medidas administrativas relevantes precisam ter motivo identificável e possibilidade de contestação.
+
+- **Decisões relevantes devem ser colegiadas e revisáveis.** Exclusões permanentes, suspensões e outras medidas graves não devem depender, como regra, da vontade isolada de quem possui a senha de administração.
+
+- **Liberdade de crítica e proteção das minorias.** Divergência política deve ser respondida politicamente. A maioria decide os rumos comuns, mas não elimina o direito da minoria de continuar defendendo sua posição.
+
+- **Administradores e dirigentes devem ser controláveis.** Função delegada não cria propriedade sobre o espaço. Quem administra precisa responder perante o coletivo e poder ser substituído quando perde sua confiança.
+
+- **Assembleias precisam combinar intervenção real e acesso territorial efetivo.** Direito de fala, questão de ordem, contraditório, apresentação e defesa de propostas, emendas e resoluções, acesso prévio aos documentos integrais e igualdade de condições de participação são garantias inseparáveis. Em uma entidade cuja base se distribui por grande parte do Estado, o formato não é questão meramente técnica. Sempre que a discussão presencial for centralizada, deve existir mecanismo remoto que permita não apenas assistir ou votar, mas intervir efetivamente na deliberação. Uma assembleia virtual também deve assegurar essas mesmas garantias.
+
+- **A estratégia da greve deve ser construída pela base.** Piquetes, comunicação direta com a população, panfletagem, redes sociais, **rádio, televisão, imprensa e disputa pública da narrativa**, documentação, defesa jurídica, articulação e divisão de tarefas precisam fazer parte de uma estratégia discutida coletivamente, e não de atividades concorrentes.
+
+Essas garantias não eliminam direção, disciplina ou responsabilidade. Fazem justamente o contrário: procuram transformá-las em produto consciente da ação coletiva.
+
+## Conclusão: organização sem tutela
+
+O episódio que iniciou este debate pode parecer pequeno diante dos grandes conflitos de uma Campanha Salarial. Mas sua importância está justamente em revelar, em escala reduzida, uma questão que atravessa todo o movimento sindical.
+
+Quem decide?
+
+Quem controla?
+
+Quem pode falar?
+
+Quem define o método?
+
+Quem limita aqueles que receberam poder para administrar, representar ou dirigir?
+
+**A democracia de uma organização não pode depender da boa vontade de quem controla o botão de remover.**
+
+**A base não precisa escolher entre democracia e organização. Precisa de uma organização cuja disciplina seja produto da democracia.**
+
+Presença não é participação. Transmissão não é deliberação. Votar não é necessariamente deliberar. Ser ouvido não é favor da mesa.
+
+A tarefa é construir organizações em que os trabalhadores possam formular, discutir, decidir, executar, controlar e corrigir coletivamente a própria ação.
+
+## Fontes e notas de rigor
+
+As informações relativas às duas remoções, à reinclusão, às atividades individuais do trabalhador durante a greve, à ausência de panfletos nos piquetes, ao episódio da assembleia presencial de 2024 e à desativação dos comentários nas transmissões examinadas são apresentadas como **relatos, mensagens e registros fornecidos pelo próprio trabalhador**, salvo quando existe fonte pública indicada no texto.
+
+As mensagens de administradores e participantes são utilizadas apenas nos trechos necessários à análise. A cronologia é registrada sem atribuir motivações que não estejam documentalmente demonstradas.
+
+As informações sobre plenárias, assembleias, transmissões pelo YouTube e plenárias realizadas pelo Zoom são apoiadas nas publicações da própria entidade mencionadas e vinculadas ao longo do artigo. A extensão territorial é descrita com base na Convenção Coletiva de Trabalho Aditiva Bahia 2024/2026 disponibilizada na área de convenções do Sindicato; o texto evita fixar um número fechado de municípios porque alterações de bases territoriais de sindicatos regionais podem exigir conferência registral atualizada.
+
+A referência à Contraf-CUT é apresentada como denúncia pública sujeita a esclarecimento e verificação caso a caso. O **Classe e Massas** assegura espaço para correções factuais e direito de resposta das pessoas e entidades mencionadas.
+
+Referências teóricas principais: Karl Marx, Estatutos da Associação Internacional dos Trabalhadores e *A Guerra Civil na França*; Friedrich Engels, introdução de 1891 a *A Guerra Civil na França*; Rosa Luxemburgo, *Greve de Massas, Partido e Sindicatos*; Antonio Gramsci, escritos sobre sindicatos, conselhos e organização dos trabalhadores.

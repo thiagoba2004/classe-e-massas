@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "project": "Classe e Massas",
+  "audit_strategy_id": "STRAT-CEM-20260918-002",
+  "audited_at": "2026-09-18",
+  "slug": "assembleia-nao-e-cheque-em-branco-bahia",
+  "content_type": "artigo",
+  "title": "Assembleia não é cheque em branco",
+  "description": "Denúncia e análise jurídico-política sobre a nova votação do Banco do Brasil na Bahia, as ameaças de perdas econômicas às bases grevistas e o direito dos trabalhadores de conhecer integralmente o que estão aprovando.",
+  "status": "PUBLICADO",
+  "language": "pt-BR",
+  "canonical_source": {
+    "format": "markdown",
+    "path": "artigos/2026/assembleia-nao-e-cheque-em-branco-bahia.md"
+  },
+  "publication": {
+    "format": "html",
+    "path": "artigos/2026/assembleia-nao-e-cheque-em-branco-bahia.html",
+    "html_blob_sha": "65c056756c67d4d9920650d8b7bf66e002eb9561"
+  },
+  "structured_representation": {
+    "format": "json",
+    "path": "artigos/2026/assembleia-nao-e-cheque-em-branco-bahia.json"
+  },
+  "markdown_state": "created_from_published_html",
+  "outline": [
+    {
+      "level": 1,
+      "title": "Assembleia não é cheque em branco"
+    },
+    {
+      "level": 2,
+      "title": "62,1% disseram não"
+    },
+    {
+      "level": 2,
+      "title": "O que foi relatado"
+    },
+    {
+      "level": 2,
+      "title": "A ameaça de perdas econômicas não nasceu dessa conversa"
+    },
+    {
+      "level": 2,
+      "title": "A questão jurídica central"
+    },
+    {
+      "level": 2,
+      "title": "A Constituição entrega a greve aos trabalhadores, não aos dirigentes"
+    },
+    {
+      "level": 2,
+      "title": "Assembleia não é cerimônia de homologação"
+    },
+    {
+      "level": 2,
+      "title": "O Direito não chama de “documento em branco”. Mas o problema jurídico existe."
+    },
+    {
+      "level": 2,
+      "title": "Desconto dos dias de greve não é automaticamente ilegal"
+    },
+    {
+      "level": 2,
+      "title": "Possível retaliação e conduta antissindical"
+    },
+    {
+      "level": 2,
+      "title": "Uma punição exemplar produziria um efeito nacional"
+    },
+    {
+      "level": 2,
+      "title": "E qual é a responsabilidade da direção sindical?"
+    },
+    {
+      "level": 2,
+      "title": "A assembleia de domingo precisa ser precedida de transparência absoluta"
+    },
+    {
+      "level": 2,
+      "title": "Há fundamento para provocação imediata do MPT"
+    },
+    {
+      "level": 2,
+      "title": "Não queremos que o MPT decida a greve pelos bancários"
+    },
+    {
+      "level": 2,
+      "title": "A questão de ordem permanece"
+    },
+    {
+      "level": 2,
+      "title": "Antes da assembleia, exigimos"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://www.bancariosbahia.org.br/noticia/43801,assembleia-decide-pela-continuidade-da-greve-no-bb-e-caixa",
+      "label": "Leia a publicação do Sindicato sobre o resultado da assembleia."
+    },
+    {
+      "href": "https://www.bancariosbahia.org.br/noticia/43768,bb-retoma-negociacao-mas-mantem-proposta-e-greve-esta-mantida",
+      "label": "Leia a publicação do Sindicato de 8 de setembro."
+    },
+    {
+      "href": "https://www.planalto.gov.br/ccivil_03/leis/l7783.htm",
+      "label": "Lei nº 7.783/1989 — Lei de Greve."
+    },
+    {
+      "href": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452compilado.htm",
+      "label": "Consulte a Consolidação das Leis do Trabalho."
+    },
+    {
+      "href": "https://ww2.trt2.jus.br/noticias/noticias/noticia/justica-declara-ineficaz-clausula-sobre-saude-mental-em-cct-por-vicio-formal",
+      "label": "Leia a notícia do TRT-2 sobre o processo 1000619-86.2025.5.02.0443."
+    },
+    {
+      "href": "https://prt2.mpt.mp.br/762-negociacao-coletiva-trabalhadores-devem-ser-consultados",
+      "label": "Negociação coletiva: trabalhadores devem ser consultados — MPT."
+    },
+    {
+      "href": "https://www.prt18.mpt.mp.br/informe-se/noticias-do-mpt-go/1120-mpt-go-promove-audiencia-coletiva-para-discutir-liberdade-sindical",
+      "label": "Leia a publicação do MPT sobre atos antissindicais e greve."
+    },
+    {
+      "href": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp75.htm",
+      "label": "Lei Complementar nº 75/1993."
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0",
+  "project": "Classe e Massas",
+  "audit_strategy_id": "STRAT-CEM-20260918-002",
+  "audited_at": "2026-09-18",
+  "slug": "ano-eleitoral-aumento-real-banco-do-brasil",
+  "content_type": "artigo",
+  "title": "Ano eleitoral proíbe aumento real no Banco do Brasil?",
+  "description": "Análise jurídico-documental sobre o art. 73, VIII, da Lei das Eleições, o Banco do Brasil, negociação coletiva, doutrina, jurisprudência do TSE e o Parecer PA nº 88/2014 da PGE-SP.",
+  "status": "PUBLICADO",
+  "language": "pt-BR",
+  "canonical_source": {
+    "format": "markdown",
+    "path": "artigos/2026/ano-eleitoral-aumento-real-banco-do-brasil.md"
+  },
+  "publication": {
+    "format": "html",
+    "path": "artigos/2026/ano-eleitoral-aumento-real-banco-do-brasil.html",
+    "html_blob_sha": "f880eced6fa85621f00cbd17f91ceba986477e87"
+  },
+  "structured_representation": {
+    "format": "json",
+    "path": "artigos/2026/ano-eleitoral-aumento-real-banco-do-brasil.json"
+  },
+  "markdown_state": "created_from_published_html",
+  "outline": [
+    {
+      "level": 1,
+      "title": "Ano eleitoral proíbe aumento real no Banco do Brasil?"
+    },
+    {
+      "level": 2,
+      "title": "1. O PONTO DE PARTIDA É O TEXTO DA LEI"
+    },
+    {
+      "level": 2,
+      "title": "2. PARA 2026, O ART. 73, VIII, COMEÇOU A INCIDIR EM 7 DE ABRIL"
+    },
+    {
+      "level": 2,
+      "title": "3. O BANCO DO BRASIL NÃO É “EMPRESA PÚBLICA”: É SOCIEDADE DE ECONOMIA MISTA"
+    },
+    {
+      "level": 2,
+      "title": "4. “AGENTE PÚBLICO” E “SERVIDOR PÚBLICO” NÃO SÃO EXPRESSÕES AUTOMATICAMENTE IDÊNTICAS"
+    },
+    {
+      "level": 2,
+      "title": "5. A DOUTRINA ADMINISTRATIVISTA ENCONTRADA TORNA ESSA DISTINÇÃO MUITO MAIS CONCRETA"
+    },
+    {
+      "level": 2,
+      "title": "6. O PARECER PA Nº 88/2014 DA PGE-SP ENFRENTOU UMA QUESTÃO EXTRAORDINARIAMENTE PARECIDA"
+    },
+    {
+      "level": 3,
+      "title": "Primeiro eixo: quem são os “servidores públicos” do inciso VIII?"
+    },
+    {
+      "level": 3,
+      "title": "Segundo eixo: que espécie de ato é a “revisão geral”?"
+    },
+    {
+      "level": 2,
+      "title": "7. A CONSULTA TSE Nº 782: A “REVISÃO GERAL” TEM NATUREZA LEGISLATIVA"
+    },
+    {
+      "level": 2,
+      "title": "8. JOEL J. CÂNDIDO E RICARDO PENTEADO: A DIMENSÃO LEGISLATIVA DA VEDAÇÃO"
+    },
+    {
+      "level": 2,
+      "title": "9. A JURISPRUDÊNCIA DO TSE TAMBÉM ADVERTE CONTRA UMA LEITURA EXCESSIVAMENTE ESTREITA"
+    },
+    {
+      "level": 2,
+      "title": "10. A CARTILHA ELEITORAL 2026 DA AGU NÃO RESOLVE, SOZINHA, O CASO DO BB"
+    },
+    {
+      "level": 2,
+      "title": "11. A SEST ACOMPANHA A NEGOCIAÇÃO DOS ACTs DAS ESTATAIS — E ISSO CRIA UMA TRILHA DOCUMENTAL"
+    },
+    {
+      "level": 2,
+      "title": "12. A CONSTITUIÇÃO RECONHECE A NEGOCIAÇÃO COLETIVA"
+    },
+    {
+      "level": 2,
+      "title": "13. O PRECEDENTE DO TST NÃO RESOLVE A QUESTÃO ELEITORAL — MAS CONFIRMA A CENTRALIDADE DA NEGOCIAÇÃO"
+    },
+    {
+      "level": 2,
+      "title": "14. AS COMUNICAÇÕES DE 14 DE AGOSTO E 8 DE SETEMBRO NÃO DIZEM A MESMA COISA"
+    },
+    {
+      "level": 3,
+      "title": "14 de agosto de 2026"
+    },
+    {
+      "level": 3,
+      "title": "8 de setembro de 2026"
+    },
+    {
+      "level": 2,
+      "title": "15. ENTÃO A FRASE ATRIBUÍDA À DIREÇÃO DO BB É “FATO” OU “FAKE”?"
+    },
+    {
+      "level": 2,
+      "title": "16. AGORA EXISTEM TRÊS PONTES JURÍDICAS QUE PRECISAM SER DEMONSTRADAS"
+    },
+    {
+      "level": 3,
+      "title": "1. Agente público → servidor público"
+    },
+    {
+      "level": 3,
+      "title": "2. ACT → revisão geral de remuneração"
+    },
+    {
+      "level": 3,
+      "title": "3. Regime privado trabalhista → restrição remuneratória específica"
+    },
+    {
+      "level": 2,
+      "title": "17. A PERGUNTA MAIS IMPORTANTE PASSOU A SER: ONDE ESTÁ O PARECER?"
+    },
+    {
+      "level": 2,
+      "title": "18. PEDIDOS PELA LEI DE ACESSO À INFORMAÇÃO"
+    },
+    {
+      "level": 2,
+      "title": "19. DOZE PERGUNTAS QUE PRECISAM SER RESPONDIDAS DOCUMENTALMENTE"
+    },
+    {
+      "level": 2,
+      "title": "20. O ANO DE 2022 TAMBÉM PRECISA SER COMPARADO"
+    },
+    {
+      "level": 2,
+      "title": "21. A RESPONSABILIDADE DAS ENTIDADES SINDICAIS É DISTINGUIR A POSIÇÃO DO EMPREGADOR DA REGRA JURÍDICA"
+    },
+    {
+      "level": 2,
+      "title": "22. CONCLUSÃO: O QUE JÁ SABEMOS E O QUE AINDA NÃO SABEMOS"
+    },
+    {
+      "level": 2,
+      "title": "Referências para consulta"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://www.tse.jus.br/legislacao/codigo-eleitoral/lei-das-eleicoes/lei-das-eleicoes-lei-nb0-9.504-de-30-de-setembro-de-1997",
+      "label": "Lei nº 9.504/1997 — Lei das Eleições — Tribunal Superior Eleitoral"
+    },
+    {
+      "href": "https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-760-de-2-de-marco-de-2026",
+      "label": "TSE — Resolução nº 23.760/2026 — Calendário Eleitoral 2026"
+    },
+    {
+      "href": "https://temasselecionados.tse.jus.br/temas-selecionados/condutas-vedadas-a-agentes-publicos/servidor-publico/revisao-geral-de-remuneracao",
+      "label": "TSE — Temas Selecionados — Revisão geral de remuneração"
+    },
+    {
+      "href": "https://revistas.pge.sp.gov.br/boletins/article/view/1252",
+      "label": "PGE-SP — Parecer PA nº 88/2014 — Boletim CEPGE"
+    },
+    {
+      "href": "https://www.gov.br/agu/pt-br/assuntos-1/condutas-vedadas-aos-agentes-publicos-federais-em-eleicoes-1",
+      "label": "Advocacia-Geral da União — Condutas Vedadas aos Agentes Públicos Federais em Eleições"
+    },
+    {
+      "href": "https://www.gov.br/gestao/pt-br/assuntos/estatais/arquivo/orientacoes-as-empresas/acordo-coletivo-de-trabalho-act",
+      "label": "SEST/MGI — Orientações às empresas estatais sobre Acordo Coletivo de Trabalho"
+    },
+    {
+      "href": "https://www.bb.com.br/site/portal-da-transparencia/",
+      "label": "Banco do Brasil — Portal da Transparência"
+    },
+    {
+      "href": "https://ri.bb.com.br/faq/propriedade/",
+      "label": "Banco do Brasil — natureza jurídica e regime empresarial"
+    },
+    {
+      "href": "https://www.bb.com.br/site/sobre-nos/negociacao-coletiva/",
+      "label": "Banco do Brasil — Negociação Coletiva"
+    },
+    {
+      "href": "https://spbancarios.com.br/08/2026/banco-do-brasil-nao-apresenta-proposta-economica-nem-devolutivas-e-frustra-funcionarios",
+      "label": "Publicação de 14 de agosto de 2026 sobre a negociação do BB"
+    },
+    {
+      "href": "https://www.bancariosdf.com.br/banco-do-brasil-reabre-negociacao-e-mantem-proposta-apresentada-anteriormente/",
+      "label": "Publicação de 8 de setembro de 2026 sobre a retomada da negociação do BB"
+    }
+  ]
+}
