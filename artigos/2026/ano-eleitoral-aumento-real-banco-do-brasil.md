@@ -1,12 +1,3 @@
----
-title: "Ano eleitoral proíbe aumento real no Banco do Brasil?"
-status: "PUBLICADO"
-language: "pt-BR"
-published_html: "artigos/2026/ano-eleitoral-aumento-real-banco-do-brasil.html"
-backfilled_from_published_html: "2026-09-18"
-audit_strategy_id: "STRAT-CEM-20260918-002"
----
-
 Campanha Salarial dos Bancários • Banco do Brasil • 2026
 
 # Ano eleitoral proíbe aumento real no Banco do Brasil?

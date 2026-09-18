@@ -1,12 +1,3 @@
----
-title: "Assembleia não é cheque em branco"
-status: "PUBLICADO"
-language: "pt-BR"
-published_html: "artigos/2026/assembleia-nao-e-cheque-em-branco-bahia.html"
-backfilled_from_published_html: "2026-09-18"
-audit_strategy_id: "STRAT-CEM-20260918-002"
----
-
 Banco do Brasil • Campanha Salarial 2026 • Denúncia
 
 # Assembleia não é cheque em branco

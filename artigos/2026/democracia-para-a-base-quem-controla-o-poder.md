@@ -1,12 +1,3 @@
----
-title: "Democracia para a base: quem controla o poder dentro das organizações dos trabalhadores?"
-status: "PUBLICADO"
-language: "pt-BR"
-published_html: "artigos/2026/democracia-para-a-base-quem-controla-o-poder.html"
-backfilled_from_published_html: "2026-09-18"
-audit_strategy_id: "STRAT-CEM-20260918-002"
----
-
 Democracia Operária • Movimento Sindical • Campanha Salarial 2026
 
 # Democracia para a base: quem controla o poder dentro das organizações dos trabalhadores?

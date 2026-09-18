@@ -1,12 +1,3 @@
----
-title: "O Direito não socorre aos que dormem"
-status: "PUBLICADO"
-language: "pt-BR"
-published_html: "artigos/2026/o-direito-nao-socorre-aos-que-dormem.html"
-backfilled_from_published_html: "2026-09-18"
-audit_strategy_id: "STRAT-CEM-20260918-002"
----
-
 Campanha Salarial dos Bancários • 2026
 
 # O Direito não socorre aos que dormem
