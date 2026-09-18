@@ -6,27 +6,6 @@
   <title>Notícias | Classe e Massas</title>
   <meta name="description" content="Jornalismo operário do Classe e Massas: acontecimentos, lutas, organizações e vozes da classe trabalhadora e das massas trabalhadoras.">
   <link rel="stylesheet" href="../css/style.css">
-  <style>
-    .news-tools{
-      display:grid;
-      grid-template-columns:repeat(3,minmax(0,1fr));
-      gap:18px;
-      margin:0 0 42px;
-    }
-    .news-tools .news-tool-button{
-      display:block;
-      width:100%;
-      margin:0;
-      text-align:center;
-    }
-    @media(max-width:700px){
-      .news-tools{
-        grid-template-columns:1fr;
-        gap:18px;
-        margin-bottom:34px;
-      }
-    }
-  </style>
 </head>
 <body>
 <header>
@@ -34,7 +13,7 @@
     <div class="brand"><a href="../index.html">Classe e Massas</a></div>
     <nav class="nav global-nav" aria-label="Navegação principal">
       <a href="../index.html">Início</a>
-      <a href="index.html" aria-current="page">Notícias</a>
+      <a href="../noticias/index.html" aria-current="page">Notícias</a>
       <a href="../artigos/index.html">Artigos</a>
       <a href="../observatorio/index.html">Observatório</a>
       <a href="../biblioteca/index.html">Biblioteca</a>
@@ -45,31 +24,35 @@
   </div>
 </header>
 
-<main>
+<main class="index-main">
+  <section class="index-hero">
   <div class="kicker">JORNALISMO OPERÁRIO • CLASSE TRABALHADORA • LUTAS SOCIAIS</div>
   <h1>Notícias</h1>
   <p class="dek">Um espaço para acompanhar acontecimentos da classe trabalhadora sem entregar às direções sindicais, aos patrões ou à grande mídia o monopólio sobre aquilo que merece ser notícia.</p>
   <div class="meta">CLASSE E MASSAS • NÚCLEO DE NOTÍCIAS</div>
+  </section>
 
-  <nav class="news-tools" aria-label="Acessos da seção Notícias">
-    <a class="button news-tool-button" href="../fale-conosco/index.html">PARTICIPE DA PAUTA</a>
-    <a class="button news-tool-button" href="../editorial/documentos/01_Diretriz_Canonica_Linha_Editorial_Noticias.html">LINHA EDITORIAL</a>
-    <a class="button news-tool-button" href="principio-sintese.html">PRINCÍPIO SÍNTESE</a>
+  <nav class="section-nav" aria-label="Acessos da seção Notícias">
+    <a href="../fale-conosco/index.html">PARTICIPE DA PAUTA</a>
+    <a href="../editorial/documentos/01_Diretriz_Canonica_Linha_Editorial_Noticias.html">LINHA EDITORIAL</a>
+    <a href="principio-sintese.html">PRINCÍPIO SÍNTESE</a>
   </nav>
 
-  <section class="home-card">
+  <div class="index-list">
+  <section class="editorial-card">
     <div class="kicker">BANCO DO BRASIL • PLR 2026 • 17 DE SETEMBRO DE 2026</div>
     <h2>Classe e Massas protocola LAI e cobra manifestação do BB sobre a PLR 2026</h2>
     <p>Pedido foi registrado sob o protocolo 18882.001991/2026-72. Na mesma matéria, publicamos o inteiro teor do e-mail enviado à Assessoria de Imprensa do Banco do Brasil.</p>
     <a class="button" href="2026/classe-e-massas-protocola-lai-e-cobra-manifestacao-do-bb-sobre-plr-2026.html">Ler notícia</a>
   </section>
 
-  <section class="home-card">
+  <section class="editorial-card">
     <div class="kicker">BANCO DO BRASIL • ACT 2026/2028 • 17 DE SETEMBRO DE 2026</div>
     <h2>Bases sindicais que não assinaram o ACT do BB 2026/2028 até 14:00 de 11/09</h2>
     <p>Relação das 20 bases sindicais que não haviam assinado o ACT do BB 2026/2028 até 14:00 de 11/09 e a data da última assembleia convocada para deliberar sobre a proposta.</p>
     <a class="button" href="2026/bases-sindicais-que-nao-assinaram-o-act-do-bb-2026-2028-ate-14h-de-11-09.html">Ler notícia</a>
   </section>
+  </div>
 
 </main>
 
