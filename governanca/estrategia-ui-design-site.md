@@ -55,8 +55,14 @@ Componentes canônicos criados em `css/style.css` para:
 
 Foi preservada compatibilidade visual com classes existentes como `.home-card`, `.note`, `.contact-note`, `.method-note`, `.library-note`, `.form-row`, `.field`, `.protocol-info` e `.form-status`.
 
-### Fase 5 — Páginas de índice
-Aplicar o sistema a Home, Notícias, Artigos, Observatório, Biblioteca, MPT, LAI e Fale Conosco.
+### Fase 5 — Páginas de índice — CONCLUÍDA
+O sistema foi aplicado a Home, Notícias, Artigos, Observatório, Biblioteca, MPT, LAI e Fale Conosco.
+
+- Home: tratada como capa editorial enxuta, sem reintrodução de cards de menu.
+- Notícias e Artigos: índices convertidos para cards editoriais e hero canônico.
+- Observatório e Biblioteca: preservada maior densidade de pesquisa, com largura ampla e ações canônicas.
+- MPT e LAI: integrados ao sistema de serviço/documentação.
+- Fale Conosco: integração visual por CSS global, sem regravar o HTML que contém a lógica operacional do formulário.
 
 ### Fase 6 — Páginas de leitura
 Aplicar o sistema aos artigos, notícias, documentos, modelos de LAI e páginas do MPT, priorizando legibilidade.
