@@ -40,8 +40,8 @@ Variáveis globais de cor, tipografia, largura, espaçamento, borda, foco e tama
 ### Fase 2 — Cabeçalho e navegação — CONCLUÍDA
 Cabeçalho global normalizado. No desktop, os destinos permanecem visíveis; no celular, a navegação ocupa uma faixa horizontal rolável em uma única linha, sem submenu e sem empilhamento vertical. Quando o menu é reconstruído pelo `main.js`, a seção ativa é centralizada automaticamente na faixa.
 
-### Fase 3 — Tipografia e ritmo editorial
-Padronizar h1, h2, h3, kicker, dek, meta, corpo, legendas, listas, citações e links. Definir medidas de leitura e espaçamento vertical.
+### Fase 3 — Tipografia e ritmo editorial — CONCLUÍDA
+Hierarquia global de h1, h2, h3 e h4, kicker, dek, meta, subtítulos, corpo, listas, citações, legendas e links padronizada em `css/style.css`. O ritmo vertical foi compactado em documentos extensos e ajustado especificamente para telas móveis.
 
 ### Fase 4 — Componentes
 Criar componentes canônicos para:

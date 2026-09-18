@@ -110,31 +110,100 @@ main{
 }
 h1{
   max-width:16ch;
-  font-size:clamp(2.2rem,5.3vw,3.45rem);
-  line-height:1.01;
+  font-size:clamp(2rem,5.3vw,3.45rem);
+  line-height:1.02;
   letter-spacing:-.025em;
-  margin:.28em 0 .22em;
+  margin:.28em 0 .24em;
 }
 .dek{
-  max-width:34ch;
-  font-size:clamp(1.12rem,2vw,1.32rem);
-  line-height:1.38;
-  margin:0 0 1.25em;
+  max-width:38ch;
+  font-size:clamp(1.1rem,2vw,1.3rem);
+  line-height:1.42;
+  margin:0 0 1.2em;
 }
 .meta{
   font:700 .76rem/1.45 var(--font-sans);
   letter-spacing:.02em;
   border-top:var(--rule);
   border-bottom:var(--rule);
-  padding:.7rem 0;
-  margin:1.6rem 0 2.35rem;
+  padding:.68rem 0;
+  margin:1.5rem 0 2.15rem;
 }
 h2{
-  font:900 1.3rem/1.16 var(--font-sans);
+  font:900 clamp(1.12rem,2vw,1.28rem)/1.18 var(--font-sans);
   text-transform:uppercase;
-  margin:2.4em 0 .8em;
+  letter-spacing:.015em;
+  margin:2.15em 0 .72em;
 }
-p{margin:0 0 1.15em}
+h3{
+  font:700 clamp(1.18rem,2.2vw,1.42rem)/1.2 var(--font-serif);
+  letter-spacing:-.012em;
+  margin:1.75em 0 .55em;
+}
+h4{
+  font:900 .92rem/1.3 var(--font-sans);
+  text-transform:uppercase;
+  letter-spacing:.04em;
+  margin:1.55em 0 .5em;
+}
+p{margin:0 0 1.08em}
+.subtitle{
+  max-width:42ch;
+  margin:.1rem 0 1.05rem;
+  color:var(--ink-muted);
+  font-size:1.05rem;
+  line-height:1.48;
+}
+article{
+  overflow-wrap:break-word;
+}
+article p,
+article li{
+  line-height:1.72;
+}
+article h2{
+  padding-top:.08rem;
+}
+article h2 + p,
+article h3 + p{
+  margin-top:0;
+}
+article a:not(.button){
+  text-decoration-color:var(--line-soft);
+  transition:text-decoration-color var(--transition),color var(--transition);
+}
+article a:not(.button):hover{
+  color:var(--accent);
+  text-decoration-color:var(--accent);
+}
+ul,ol{
+  margin:0 0 1.25em;
+  padding-left:1.35em;
+}
+li{padding-left:.08em}
+li + li{margin-top:.38em}
+blockquote{
+  margin:1.9em 0;
+  padding:.15em 0 .15em 1.15em;
+  border-left:4px solid var(--accent);
+  font-size:1.08rem;
+  line-height:1.62;
+}
+blockquote p:last-child{margin-bottom:0}
+hr{
+  border:0;
+  border-top:var(--rule);
+  margin:var(--space-7) 0;
+}
+figure{margin:2rem 0}
+figcaption{
+  margin-top:.65rem;
+  color:var(--ink-muted);
+  font:700 .74rem/1.45 var(--font-sans);
+}
+small{font-size:.82em}
+pre,code{overflow-wrap:anywhere}
+pre{max-width:100%;overflow-x:auto}
 .manifesto{
   font-family:var(--font-sans);
   font-weight:900;
@@ -252,7 +321,13 @@ footer{
     scroll-snap-align:start;
   }
   main{padding-top:2.25rem}
-  h1{max-width:18ch}
+  h1{max-width:18ch;line-height:1.04}
+  h2{margin-top:1.95em}
+  h3{margin-top:1.55em}
+  .dek{line-height:1.4}
+  .meta{margin:1.35rem 0 1.9rem}
+  article p,article li{line-height:1.68}
+  blockquote{margin:1.55em 0;padding-left:.9em;font-size:1.02rem}
   .news-tools{display:grid;grid-template-columns:1fr;gap:14px;margin-bottom:34px}
   .news-tool-button{display:block;width:100%;padding:14px 16px}
   .theorist-heading{gap:10px}
