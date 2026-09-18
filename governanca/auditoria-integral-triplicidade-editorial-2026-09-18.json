@@ -24,7 +24,11 @@
     "cd551d1e1ca8f3ad1e16922d9e1994c0e7c067ba",
     "d6adef341b4719d9a25feab331bfaa30f6862a5c",
     "e628043cbfc18bcf8a845595e43ba302b081dc40",
-    "8dd6e0d1e806212ccd404b4e25a88796a0f489f6"
+    "8dd6e0d1e806212ccd404b4e25a88796a0f489f6",
+    "e35e1dbe8f41191502bea886d31c8cf186624489",
+    "df1e9da4a2fa0244e556eaa6dde285663117eec5",
+    "ca54f70983d18c3fb9df208185ff74327a305438",
+    "92fc04f61d168f43bc9f6c1b331994af426dc143"
   ],
   "rows": [
     {
@@ -567,5 +571,16 @@
       "json_exists": null,
       "conformant": true
     }
-  ]
+  ],
+  "github_pages_safety": {
+    "nojekyll_present": false,
+    "action": "front matter YAML removido dos 27 Markdown reconstruídos a partir de HTML",
+    "reason": "evitar processamento Jekyll que pudesse gerar HTML concorrente com os arquivos publicados",
+    "commits": [
+      "e35e1dbe8f41191502bea886d31c8cf186624489",
+      "df1e9da4a2fa0244e556eaa6dde285663117eec5",
+      "ca54f70983d18c3fb9df208185ff74327a305438",
+      "92fc04f61d168f43bc9f6c1b331994af426dc143"
+    ]
+  }
 }
