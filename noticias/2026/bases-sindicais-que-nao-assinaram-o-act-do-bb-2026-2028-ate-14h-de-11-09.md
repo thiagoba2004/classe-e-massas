@@ -1,12 +1,3 @@
----
-title: "Bases sindicais que não assinaram o ACT do BB 2026/2028 até 14:00 de 11/09"
-status: "PUBLICADO"
-language: "pt-BR"
-published_html: "noticias/2026/bases-sindicais-que-nao-assinaram-o-act-do-bb-2026-2028-ate-14h-de-11-09.html"
-backfilled_from_published_html: "2026-09-18"
-audit_strategy_id: "STRAT-CEM-20260918-002"
----
-
 BANCO DO BRASIL • ACT 2026/2028 • CAMPANHA NACIONAL 2026
 
 # Bases sindicais que não assinaram o ACT do BB 2026/2028 até 14:00 de 11/09

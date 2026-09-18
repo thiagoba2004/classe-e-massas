@@ -1,12 +1,3 @@
----
-title: "Modelo Nacional de Representação ao MPT"
-status: "PUBLICADO"
-language: "pt-BR"
-published_html: "mpt/modelo-representacao.html"
-backfilled_from_published_html: "2026-09-18"
-audit_strategy_id: "STRAT-CEM-20260918-002"
----
-
 Modelo Nacional de Denúncia ao MPT
 
 # Modelo Nacional de Representação ao MPT

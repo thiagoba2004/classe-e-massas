@@ -1,12 +1,3 @@
----
-title: "Vanguarda não é autoproclamação"
-status: "PUBLICADO"
-language: "pt-BR"
-published_html: "artigos/2026/vanguarda-nao-e-autoproclamacao.html"
-backfilled_from_published_html: "2026-09-18"
-audit_strategy_id: "STRAT-CEM-20260918-002"
----
-
 Campanha Salarial dos Bancários • 2026
 
 # Vanguarda não é autoproclamação

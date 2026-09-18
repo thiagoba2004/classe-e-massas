@@ -1,12 +1,3 @@
----
-title: "Do ponto de vista da classe, com rigor diante dos fatos"
-status: "PUBLICADO"
-language: "pt-BR"
-published_html: "noticias/principio-sintese.html"
-backfilled_from_published_html: "2026-09-18"
-audit_strategy_id: "STRAT-CEM-20260918-002"
----
-
 NOTÍCIAS • PRINCÍPIO SÍNTESE
 
 # Do ponto de vista da classe, com rigor diante dos fatos

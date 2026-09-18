@@ -1,12 +1,3 @@
----
-title: "Guia Nacional do Bancário"
-status: "PUBLICADO"
-language: "pt-BR"
-published_html: "mpt/guia-nacional.html"
-backfilled_from_published_html: "2026-09-18"
-audit_strategy_id: "STRAT-CEM-20260918-002"
----
-
 Modelo Nacional de Denúncia ao MPT
 
 # Guia Nacional do Bancário

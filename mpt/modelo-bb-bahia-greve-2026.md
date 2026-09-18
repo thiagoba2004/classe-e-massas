@@ -1,12 +1,3 @@
----
-title: "Modelo de Denúncia ao MPT"
-status: "PUBLICADO"
-language: "pt-BR"
-published_html: "mpt/modelo-bb-bahia-greve-2026.html"
-backfilled_from_published_html: "2026-09-18"
-audit_strategy_id: "STRAT-CEM-20260918-002"
----
-
 Banco do Brasil • Bahia • Campanha Salarial 2026
 
 # Modelo de Denúncia ao MPT

@@ -1,12 +1,3 @@
----
-title: "Classe e Massas protocola LAI e cobra manifestação do BB sobre a PLR 2026"
-status: "PUBLICADO"
-language: "pt-BR"
-published_html: "noticias/2026/classe-e-massas-protocola-lai-e-cobra-manifestacao-do-bb-sobre-plr-2026.html"
-backfilled_from_published_html: "2026-09-18"
-audit_strategy_id: "STRAT-CEM-20260918-002"
----
-
 BANCO DO BRASIL • PLR 2026 • TRANSPARÊNCIA
 
 # Classe e Massas protocola LAI e cobra manifestação do BB sobre a PLR 2026
