@@ -54,9 +54,9 @@
       "legacy_object_id": "DOS-PLR-BB-2026",
       "name": "DOS-PLR-BB-2026 — PLR do Banco do Brasil",
       "status": "EM_EXECUCAO",
-      "last_event_id": "STEV-CEM-20260917-032",
+      "last_event_id": "STEV-CEM-20260917-033",
       "event_type": "UPDATED",
-      "current_phase": "LAI 2ª EDIÇÃO PUBLICADA — AGUARDANDO PROTOCOLO PELO USUÁRIO",
+      "current_phase": "LAI E MANIFESTAÇÃO ENVIADAS — NOTÍCIA PUBLICADA",
       "canonical_refs": [
         "editorial/documentos/dossie-plr-bb-2026.md",
         "editorial/documentos/dossie-plr-bb-2026-auditoria-18-bases.md",
@@ -64,7 +64,8 @@
         "editorial/documentos/auditoria-rascunho-artigo-plr-bb-18-bases-2026.md",
         "editorial/documentos/solicitacao-manifestacao-bb-plr-2026.md",
         "lai/banco-do-brasil-plr-2026.html",
-        "PROJECT_STATE.json:DOS-PLR-BB-2026"
+        "PROJECT_STATE.json:DOS-PLR-BB-2026",
+        "noticias/2026/classe-e-massas-protocola-lai-e-cobra-manifestacao-do-bb-sobre-plr-2026.html"
       ]
     },
     {

@@ -50,11 +50,11 @@
       "id": "DOS-PLR-BB-2026",
       "area": "Editorial / Pesquisa documental / Banco do Brasil",
       "title": "PLR do Banco do Brasil em 16/09/2026 — assembleias, instrumentos coletivos e tratamento entre bases sindicais",
-      "status": "LAI 2ª EDIÇÃO PUBLICADA — AGUARDANDO PROTOCOLO; DEPOIS ENVIAR MANIFESTAÇÃO À IMPRENSA",
+      "status": "LAI PROTOCOLADA E MANIFESTAÇÃO À IMPRENSA ENVIADA — NOTÍCIA PUBLICADA",
       "strategy_status": "REGISTRADA",
       "strategy": "Publicar um artigo no Classe e Massas sobre a antecipação da PLR do Banco do Brasil em 16/09/2026, distinguindo o universo de 20 bases sem aprovação/formalização concluída no marco das 14h de 11/09 do conjunto de pelo menos 18 bases com não pagamento/adiamento da PLR já documentado.",
-      "planning_phase": "PROTOCOLO DA LAI → MANIFESTAÇÃO À IMPRENSA → PUBLICAÇÃO DA NOTÍCIA SOBRE O E-MAIL",
-      "phase_objective": "Protocolar a LAI revisada, em seguida enviar a solicitação de manifestação à Assessoria de Imprensa do BB e, após confirmação dos dois envios, publicar como Notícia o e-mail encaminhado ao Banco.",
+      "planning_phase": "AGUARDANDO MANIFESTAÇÃO DO BB / FECHAMENTO EDITORIAL DO ARTIGO",
+      "phase_objective": "Aguardar até o fechamento editorial a manifestação da Assessoria de Imprensa, sem condicionar a publicação à resposta da LAI; depois concluir auditoria final e publicar o artigo.",
       "gate_before_drafting": [
         "reconciliar documentalmente o universo de 20 bases no marco das 14h de 11/09 — SATISFEITO COMO RECONSTRUÇÃO DOCUMENTAL; CONFIRMAÇÃO NOMINAL OFICIAL DO BB PENDENTE",
         "preservar separadamente o conjunto de pelo menos 18 bases com não pagamento/adiamento da PLR já documentado — SATISFEITO COM RESSALVA PROBATÓRIA INDIVIDUAL",
@@ -63,7 +63,7 @@
       ],
       "publication_gate": "A RESPOSTA À LAI NÃO É CONDIÇÃO PARA PUBLICAÇÃO DO ARTIGO. A LAI TRAMITA EM PARALELO. Antes do fechamento do artigo, deve haver oportunidade razoável de manifestação do BB; ausência de resposta até o fechamento não impede a publicação.",
       "bb_press_contact": "imprensa@bb.com.br",
-      "bb_press_request_status": "TEXTO PREPARADO; ENVIAR SOMENTE APÓS O USUÁRIO CONFIRMAR O PROTOCOLO DA LAI REVISADA.",
+      "bb_press_request_status": "ENVIADA EM 17/09/2026 ÀS 21:28 PARA imprensa@bb.com.br; manifestação solicitada até 14h de 18/09/2026.",
       "article_draft_status": "RASCUNHO CANÔNICO v0.5 — RECONCILIAÇÃO 20 BASES INCORPORADA; NÃO PUBLICAR ANTES DA MANIFESTAÇÃO DO BB",
       "article_draft_file": "editorial/documentos/rascunho-artigo-plr-bb-18-bases-2026.md",
       "article_audit_file": "editorial/documentos/auditoria-rascunho-artigo-plr-bb-18-bases-2026.md",
@@ -114,7 +114,7 @@
       ],
       "last_verified_milestone_commit": "9b6b3b46e033bec5f6e6856738d6be95637b5afd",
       "last_verified_milestone_message": "WhatsApp ACT BB: conclui fases e libera estratégia",
-      "next_step": "USUÁRIO PROTOCOLAR A 2ª EDIÇÃO DA LAI NO INFORMA.BR. APÓS CONFIRMAÇÃO DO PROTOCOLO, ENVIAR O E-MAIL À ASSESSORIA DE IMPRENSA DO BB. APÓS CONFIRMAÇÃO DOS DOIS ENVIOS, PUBLICAR COMO NOTÍCIA O E-MAIL ENVIADO AO BB.",
+      "next_step": "AGUARDAR ATÉ O HORÁRIO DE FECHAMENTO A MANIFESTAÇÃO DA ASSESSORIA DE IMPRENSA DO BB; COM OU SEM RESPOSTA, FAZER A AUDITORIA FINAL DO ARTIGO E PREPARAR A PUBLICAÇÃO. A RESPOSTA DA LAI TRAMITA EM PARALELO E NÃO É GATE.",
       "do_not_do": [
         "não concluir que houve retaliação ou ilicitude como fato antes de fechar a cadeia documental",
         "não confundir participação individual em greve com critério coletivo por base sindical",
@@ -132,9 +132,10 @@
         "não aguardar a resposta da LAI para publicar o artigo"
       ],
       "audit_bases_status": "UNIVERSO TEMPORAL: 20 bases reconstruídas no marco das 14h de 11/09. IMPACTO DE PLR: pelo menos 18 bases com não pagamento/adiamento já documentado; Ponte Nova e Governador Valadares pendem de confirmação individual/oficial sobre o crédito de 16/09.",
-      "lai_status": "2ª EDIÇÃO REVISADA E PUBLICADA EM 17/09/2026; AINDA NÃO PROTOCOLADA PELO USUÁRIO.",
+      "lai_status": "PROTOCOLADA NO INFORMA.BR EM 17/09/2026 ÀS 21:23 — protocolo 18882.001991/2026-72; prazo informado para resposta até 13/10/2026.",
       "lai_file": "lai/banco-do-brasil-plr-2026.html",
-      "lai_previous_edition": "lai/arquivo/banco-do-brasil-plr-2026-edicao-1-2026-09-16.html"
+      "lai_previous_edition": "lai/arquivo/banco-do-brasil-plr-2026-edicao-1-2026-09-16.html",
+      "news_status": "PUBLICAÇÃO ÚNICA REALIZADA EM noticias/2026/classe-e-massas-protocola-lai-e-cobra-manifestacao-do-bb-sobre-plr-2026.html, reunindo protocolo da LAI, link para o pedido e inteiro teor do e-mail à Assessoria de Imprensa."
     },
     {
       "id": "WHATSAPP-ACT-BB-18-BASES-2026",
