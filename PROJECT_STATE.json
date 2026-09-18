@@ -217,6 +217,38 @@
         "não dispensar Markdown ou JSON por prática histórica",
         "não transformar páginas técnicas e arquivos operacionais em conteúdo editorial apenas para satisfazer a regra"
       ]
+    },
+    {
+      "id": "GOV-AUDITORIA-TRIPLICIDADE-EDITORIAL",
+      "area": "Governança / Arquitetura documental editorial",
+      "title": "Auditoria integral dos textos publicados — triplicidade Markdown + HTML + JSON",
+      "strategy_id": "STRAT-CEM-20260918-002",
+      "status": "CONCLUÍDA — 41/41 TEXTOS APLICÁVEIS CONFORMES",
+      "planning_file": "governanca/estrategia-auditoria-integral-triplicidade-editorial.md",
+      "audit_report": "governanca/auditoria-integral-triplicidade-editorial-2026-09-18.md",
+      "audit_data": "governanca/auditoria-integral-triplicidade-editorial-2026-09-18.json",
+      "scope_result": {
+        "html_total": 54,
+        "textos_aplicaveis": 41,
+        "excluidos_justificados": 13,
+        "triplets_completos": 41,
+        "inconsistencias_abertas": 0
+      },
+      "remediation": {
+        "markdown_criados": 29,
+        "json_criados": 41,
+        "artefatos_criados": 70
+      },
+      "github_pages_safety": "27 Markdown reconstruídos mantidos sem front matter YAML porque o repositório não possui .nojekyll; metadados ficam nos JSON.",
+      "phase": "FASE FINAL — CONCLUÍDA E VERIFICADA",
+      "phase_gate": "SATISFEITO — todos os HTML classificados e todos os textos aplicáveis possuem .md + .html + .json.",
+      "persistence_status": "RELATÓRIO, MATRIZ, ARTEFATOS E COMMITS VERIFICADOS NO GITHUB",
+      "next_step": "Aplicar o fluxo Markdown → JSON → HTML → verificação dos três a toda nova publicação; qualquer novo passivo deve ser tratado como regressão.",
+      "do_not_do": [
+        "não voltar a publicar HTML editorial isolado",
+        "não usar front matter YAML nos Markdown espelho sem decisão arquitetural sobre Jekyll",
+        "não tratar índices e páginas operacionais como textos editoriais apenas para satisfazer a regra"
+      ]
     }
   ],
   "continuity": {
