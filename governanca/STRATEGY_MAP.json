@@ -123,6 +123,19 @@
         "index.html",
         "governanca/estrategia-home-enxuta.md"
       ]
+    },
+    {
+      "strategy_id": "STRAT-CEM-20260917-010",
+      "name": "Sistema de UI Design do Classe e Massas",
+      "status": "PAUSADO_PARA_APROVACAO",
+      "last_event_id": "STEV-CEM-20260917-035",
+      "event_type": "CREATED",
+      "current_phase": "AUDITORIA INICIAL CONCLUÍDA — PLANO AGUARDANDO APROVAÇÃO",
+      "canonical_refs": [
+        "css/style.css",
+        "js/main.js",
+        "governanca/estrategia-ui-design-site.md"
+      ]
     }
   ],
   "pending_evidence_groups": [
