@@ -128,9 +128,9 @@
       "strategy_id": "STRAT-CEM-20260917-010",
       "name": "Sistema de UI Design do Classe e Massas",
       "status": "EM_EXECUCAO",
-      "last_event_id": "STEV-CEM-20260917-047",
+      "last_event_id": "STEV-CEM-20260918-002",
       "event_type": "UPDATED",
-      "current_phase": "FASE 7 CONCLUIDA — PROXIMA: FASE 8, LIMPEZA TECNICA",
+      "current_phase": "FASE 8 CONCLUIDA — PROXIMA: FASE 9, AUDITORIA VISUAL FINAL",
       "canonical_refs": [
         "css/style.css",
         "js/main.js",
