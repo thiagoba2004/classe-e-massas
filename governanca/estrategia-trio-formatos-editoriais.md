@@ -3,7 +3,7 @@
 **strategy_id:** `STRAT-CEM-20260918-001`  
 **Projeto:** Classe e Massas  
 **Data:** 18/09/2026  
-**Estado:** EM EXECUÇÃO
+**Estado:** CONCLUÍDA
 
 ## Objetivo
 
@@ -46,4 +46,11 @@ Exceções somente podem existir quando forem tecnicamente justificadas, registr
 - confirmar commits;
 - registrar conclusão e referências.
 
-**Gate:** regra comprovadamente persistida nos dois repositórios.
+**Gate:** SATISFEITO — regra comprovadamente persistida nos dois repositórios.
+
+## Resultado
+
+- `AGENTS.md` do Classe e Massas atualizado para v2.0;
+- regra dos três artefatos explicitada em `8.2.1` a `8.2.4`;
+- sincronização e gate de conclusão editorial definidos;
+- Gerador de Agents alinhado por regra modular reutilizável.
