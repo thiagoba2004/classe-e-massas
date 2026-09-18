@@ -1,12 +1,3 @@
----
-title: "MINISTÉRIO DA FAZENDA / PGFN"
-status: "PUBLICADO"
-language: "pt-BR"
-published_html: "lai/ministerio-fazenda.html"
-backfilled_from_published_html: "2026-09-18"
-audit_strategy_id: "STRAT-CEM-20260918-002"
----
-
 MODELO 04 • LEI DE ACESSO À INFORMAÇÃO
 
 # MINISTÉRIO DA FAZENDA / PGFN

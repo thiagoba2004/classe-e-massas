@@ -1,12 +1,3 @@
----
-title: "BANCO DO BRASIL S.A."
-status: "PUBLICADO"
-language: "pt-BR"
-published_html: "lai/banco-do-brasil.html"
-backfilled_from_published_html: "2026-09-18"
-audit_strategy_id: "STRAT-CEM-20260918-002"
----
-
 MODELO 01 • LEI DE ACESSO À INFORMAÇÃO
 
 # BANCO DO BRASIL S.A.

@@ -1,12 +1,3 @@
----
-title: "Banco do Brasil — adiantamento da PLR de 16/09/2026"
-status: "PUBLICADO"
-language: "pt-BR"
-published_html: "lai/arquivo/banco-do-brasil-plr-2026-edicao-1-2026-09-16.html"
-backfilled_from_published_html: "2026-09-18"
-audit_strategy_id: "STRAT-CEM-20260918-002"
----
-
 MODELO • LEI DE ACESSO À INFORMAÇÃO • PLR 2026
 
 # Banco do Brasil — adiantamento da PLR de 16/09/2026
