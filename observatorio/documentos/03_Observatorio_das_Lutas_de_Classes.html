@@ -21,27 +21,49 @@ vertical-align: middle;
 }
 .display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
-  <style type="text/css">:root{--ink:#17243a;--red:#a52b2a;--muted:#5c6673;--line:#dce3eb;--paper:#fff;--pale:#eef2f6}
+  <style type="text/css">:root{--paper:#f5f1e8;--raised:#fffdf8;--ink:#191919;--muted:#57534d;--line:#b9b3a8;--accent:#9f2f2f;--pale:#eee8dd}
 *{box-sizing:border-box}
-html{background:#f5f6f8;color:#20242a}
-body{max-width:980px;margin:0 auto;padding:38px 34px 90px;background:var(--paper);font-family:Georgia,"Times New Roman",serif;line-height:1.65;font-size:18px;overflow-wrap:break-word}
-.site-nav{display:flex;flex-wrap:wrap;gap:.8rem 1.2rem;align-items:center;padding:0 0 1rem;border-bottom:1px solid var(--line);font:700 .88rem Arial,Helvetica,sans-serif}
-.site-nav a{color:var(--ink);text-decoration:none}.site-nav a:hover{text-decoration:underline}
-header{text-align:left;margin:2.2rem 0 2.8rem;padding-bottom:1.25rem;border-bottom:3px solid var(--red)}
-header h1{margin:0;font-size:1.05rem;letter-spacing:.04em;color:var(--muted)}
-h1,h2,h3,h4{font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.2}
-h1{font-size:2.35rem;margin:1.7rem 0 1rem}h2{font-size:1.55rem;margin-top:2.2rem}h3{font-size:1.16rem;margin-top:1.6rem;color:var(--red)}h4{font-size:1.02rem;margin-top:1.45rem}
-p,li{max-width:78ch}blockquote{margin:1.6rem 0;padding:1rem 1.3rem;border-left:5px solid var(--red);background:var(--pale);font-weight:700;color:var(--ink)}
-a{color:#0b5dab}code{font-family:"Courier New",monospace;background:var(--pale);padding:.08rem .3rem;border-radius:3px}pre{overflow:auto;background:#111827;color:#eef2f7;padding:1rem 1.2rem;border-radius:6px;line-height:1.45}
-table{width:100%;border-collapse:collapse;margin:1.4rem 0;font-size:.93rem;display:table}th{background:var(--ink);color:#fff;text-align:left}th,td{border:1px solid #aeb8c4;padding:.7rem;vertical-align:top}tr:nth-child(even) td{background:var(--pale)}
-#TOC{margin:2rem 0;padding:1.1rem 1.4rem;background:var(--pale);border:1px solid var(--line)}#TOC::before{content:"Sumário";font:700 1rem Arial,Helvetica,sans-serif;color:var(--ink)}#TOC ul{margin:.6rem 0 0;padding-left:1.25rem}#TOC a{text-decoration:none}
-.canonical-footer{margin-top:3.5rem;padding-top:1.2rem;border-top:1px solid var(--line);color:var(--muted);font:400 .86rem Arial,Helvetica,sans-serif}
-@media(max-width:640px){body{font-size:16px;padding:24px 18px 64px}h1{font-size:1.85rem}h2{font-size:1.38rem}table{display:block;overflow-x:auto;font-size:.82rem}}
+html{background:var(--paper);color:var(--ink)}
+body{max-width:920px;margin:0 auto;padding:38px 34px 90px;background:var(--paper);font-family:Georgia,"Times New Roman",serif;line-height:1.72;font-size:18px;overflow-wrap:break-word}
+.site-nav{display:flex;flex-wrap:wrap;gap:.2rem;align-items:center;padding:0 0 .9rem;border-bottom:1px solid var(--ink);font:800 .72rem/1.15 Arial,Helvetica,sans-serif;text-transform:uppercase;letter-spacing:.045em}
+.site-nav a{display:inline-flex;align-items:center;min-height:2.5rem;padding:.55rem .65rem;color:var(--ink);text-decoration:none;border-bottom:2px solid transparent;white-space:nowrap}
+.site-nav a:hover{border-bottom-color:var(--ink)}
+.site-nav a[aria-current="page"]{background:var(--ink);color:var(--paper)}
+header{text-align:left;margin:2.2rem 0 2.8rem;padding-bottom:1.25rem;border-bottom:4px solid var(--ink)}
+header h1{margin:0;font:700 1.05rem/1.35 Arial,Helvetica,sans-serif;letter-spacing:.035em;color:var(--muted)}
+h1{font:700 2.3rem/1.04 Georgia,"Times New Roman",serif;letter-spacing:-.02em;margin:1.6rem 0 1rem}
+h2{font:900 1.25rem/1.18 Arial,Helvetica,sans-serif;text-transform:uppercase;letter-spacing:.015em;margin-top:2.15em}
+h3{font:700 1.28rem/1.2 Georgia,"Times New Roman",serif;margin-top:1.7em;color:var(--accent)}
+h4{font:900 .95rem/1.3 Arial,Helvetica,sans-serif;text-transform:uppercase;letter-spacing:.04em;margin-top:1.5em}
+p,li{max-width:74ch}
+blockquote{margin:1.8rem 0;padding:.2rem 0 .2rem 1.1rem;border-left:4px solid var(--accent);font-weight:700;color:var(--ink)}
+a{color:var(--ink);text-underline-offset:.18em;text-decoration-thickness:.075em}
+a:hover{color:var(--accent)}
+code{font-family:"Courier New",monospace;background:var(--pale);padding:.08rem .3rem}
+pre{overflow:auto;background:#111;color:#f8f5ee;padding:1rem 1.2rem;line-height:1.45}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.9rem;display:table}
+th{background:var(--ink);color:var(--paper);text-align:left;font-family:Arial,Helvetica,sans-serif}
+th,td{border:1px solid var(--line);padding:.65rem .7rem;vertical-align:top}
+tr:nth-child(even) td{background:rgba(255,255,255,.26)}
+#TOC{margin:2rem 0;padding:1rem 1.1rem;background:var(--raised);border:1px solid var(--line);border-top:4px solid var(--ink)}
+#TOC::before{content:"Sumário";font:900 .78rem/1.3 Arial,Helvetica,sans-serif;text-transform:uppercase;letter-spacing:.06em;color:var(--ink)}
+#TOC ul{margin:.6rem 0 0;padding-left:1.25rem}
+#TOC a{text-decoration:none}
+.canonical-footer{margin-top:3.5rem;padding-top:1.2rem;border-top:1px solid var(--ink);color:var(--muted);font:400 .82rem/1.45 Arial,Helvetica,sans-serif}
+@media(max-width:700px){
+  body{font-size:17px;padding:24px 18px 64px}
+  .site-nav{flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;scrollbar-width:none}
+  .site-nav::-webkit-scrollbar{display:none}
+  .site-nav a{flex:0 0 auto}
+  h1{font-size:1.95rem}
+  h2{font-size:1.15rem}
+  table{display:block;overflow-x:auto;font-size:.82rem}
+}
 @media print{html{background:#fff}body{max-width:none;padding:0;font-size:12pt}.site-nav,#TOC{display:none}h1,h2,h3{break-after:avoid}p,li{orphans:3;widows:3}}
 </style>
 </head>
 <body>
-<nav class="site-nav" aria-label="Navegação do documento"><a href="../../index.html">Classe e Massas</a><a href="../index.html">Observatório</a><a href="index.html">Catálogo</a></nav>
+<nav class="site-nav" aria-label="Navegação do documento"><a href="../../index.html">Início</a><a href="../../noticias/index.html">Notícias</a><a href="../../artigos/index.html">Artigos</a><a href="../index.html" aria-current="page">Observatório</a><a href="../../biblioteca/index.html">Biblioteca</a><a href="../../mpt/index.html">MPT</a><a href="../../lai/index.html">LAI</a><a href="../../fale-conosco/index.html">Fale Conosco</a><a href="index.html">Catálogo</a></nav>
 <header id="title-block-header">
 <h1 class="title">Documento Canônico de Conflitos, Mobilização e
 Resultados — Observatório das Lutas de Classes</h1>
