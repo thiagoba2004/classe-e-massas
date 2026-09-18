@@ -3,7 +3,7 @@
 **strategy_id:** `STRAT-CEM-20260918-002`  
 **Projeto:** Classe e Massas  
 **Data:** 18/09/2026  
-**Estado:** EM EXECUÇÃO
+**Estado:** CONCLUÍDA
 
 ## Objetivo
 
@@ -67,3 +67,17 @@ Para cada texto aplicável:
 - registrar resultados nos logs.
 
 **Gate:** auditoria persistida, versionada e verificável no remoto.
+
+## Resultado final
+
+- 54 HTML inventariados e classificados;
+- 41 textos aplicáveis à regra;
+- 13 exclusões técnicas justificadas;
+- 29 Markdown criados;
+- 41 JSON criados;
+- 41/41 triplets `.md + .html + .json` completos;
+- 0 inconsistências abertas;
+- salvaguarda GitHub Pages/Jekyll aplicada aos Markdown reconstruídos;
+- relatório: `governanca/auditoria-integral-triplicidade-editorial-2026-09-18.md`.
+
+**Gate final:** SATISFEITO.
