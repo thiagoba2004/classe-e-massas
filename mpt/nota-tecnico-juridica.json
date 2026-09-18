@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "project": "Classe e Massas",
+  "audit_strategy_id": "STRAT-CEM-20260918-002",
+  "audited_at": "2026-09-18",
+  "slug": "nota-tecnico-juridica",
+  "content_type": "documento_mpt",
+  "title": "Democracia sindical, informação e formação da vontade coletiva",
+  "description": "Nota técnico-jurídica sobre democracia sindical, condições informacionais e formação da vontade coletiva nas assembleias de aprovação de CCT e ACT.",
+  "status": "PUBLICADO",
+  "language": "pt-BR",
+  "canonical_source": {
+    "format": "markdown",
+    "path": "mpt/nota-tecnico-juridica.md"
+  },
+  "publication": {
+    "format": "html",
+    "path": "mpt/nota-tecnico-juridica.html",
+    "html_blob_sha": "0b9cf167b78bbc7e16ee3e2f3ed83bafb58c68fd"
+  },
+  "structured_representation": {
+    "format": "json",
+    "path": "mpt/nota-tecnico-juridica.json"
+  },
+  "markdown_state": "created_from_published_html",
+  "outline": [
+    {
+      "level": 1,
+      "title": "Democracia sindical, informação e formação da vontade coletiva"
+    },
+    {
+      "level": 2,
+      "title": "1. Objeto"
+    },
+    {
+      "level": 2,
+      "title": "2. Método"
+    },
+    {
+      "level": 2,
+      "title": "3. O que a legislação não estabelece"
+    },
+    {
+      "level": 2,
+      "title": "4. O que a legislação exige: deliberação assemblear"
+    },
+    {
+      "level": 2,
+      "title": "5. Autonomia coletiva e intervenção mínima"
+    },
+    {
+      "level": 2,
+      "title": "6. Autonomia sindical não se confunde com autonomia da direção sindical"
+    },
+    {
+      "level": 2,
+      "title": "7. O TST e a vontade real dos trabalhadores representados"
+    },
+    {
+      "level": 2,
+      "title": "8. A aprovação assemblear não é juridicamente irrelevante"
+    },
+    {
+      "level": 2,
+      "title": "9. Votar e deliberar são necessariamente a mesma coisa?"
+    },
+    {
+      "level": 2,
+      "title": "10. O MPT e as irregularidades em assembleias sindicais"
+    },
+    {
+      "level": 2,
+      "title": "11. Discutir e deliberar sobre as propostas"
+    },
+    {
+      "level": 2,
+      "title": "12. A insuficiência informacional pode constituir obstáculo à deliberação?"
+    },
+    {
+      "level": 2,
+      "title": "13. Proposta, minuta e instrumento definitivo não são sinônimos"
+    },
+    {
+      "level": 2,
+      "title": "14. Um resumo não é necessariamente insuficiente"
+    },
+    {
+      "level": 2,
+      "title": "15. Divergência material"
+    },
+    {
+      "level": 2,
+      "title": "16. Prejuízo informacional"
+    },
+    {
+      "level": 2,
+      "title": "17. Assembleias telemáticas"
+    },
+    {
+      "level": 2,
+      "title": "18. Democracia sindical na produção institucional do MPT"
+    },
+    {
+      "level": 2,
+      "title": "19. Doutrina"
+    },
+    {
+      "level": 2,
+      "title": "20. STF — Tema 1046"
+    },
+    {
+      "level": 2,
+      "title": "21. Tema 1046: objeção ou reforço à tese?"
+    },
+    {
+      "level": 2,
+      "title": "22. Convenção nº 98 da OIT"
+    },
+    {
+      "level": 2,
+      "title": "23. Convenção nº 154 da OIT"
+    },
+    {
+      "level": 2,
+      "title": "24. Convenção nº 87 da OIT: cautela necessária"
+    },
+    {
+      "level": 2,
+      "title": "25. Competência do Ministério Público do Trabalho"
+    },
+    {
+      "level": 2,
+      "title": "26. Limites da atuação estatal"
+    },
+    {
+      "level": 2,
+      "title": "27. Escala analítica de robustez"
+    },
+    {
+      "level": 2,
+      "title": "28. Não existe automatismo"
+    },
+    {
+      "level": 2,
+      "title": "29. A cronologia como elemento probatório"
+    },
+    {
+      "level": 2,
+      "title": "30. A cadeia documental"
+    },
+    {
+      "level": 2,
+      "title": "31. Tese jurídica central"
+    },
+    {
+      "level": 2,
+      "title": "32. O que esta Nota não sustenta"
+    },
+    {
+      "level": 2,
+      "title": "33. O que esta Nota sustenta"
+    },
+    {
+      "level": 2,
+      "title": "34. Conclusão"
+    },
+    {
+      "level": 2,
+      "title": "35. Referências essenciais"
+    }
+  ]
+}

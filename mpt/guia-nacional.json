@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "project": "Classe e Massas",
+  "audit_strategy_id": "STRAT-CEM-20260918-002",
+  "audited_at": "2026-09-18",
+  "slug": "guia-nacional",
+  "content_type": "documento_mpt",
+  "title": "Guia Nacional do Bancário",
+  "description": "Guia prático para bancários documentarem possíveis irregularidades no processo de informação, discussão e deliberação de CCT e ACT.",
+  "status": "PUBLICADO",
+  "language": "pt-BR",
+  "canonical_source": {
+    "format": "markdown",
+    "path": "mpt/guia-nacional.md"
+  },
+  "publication": {
+    "format": "html",
+    "path": "mpt/guia-nacional.html",
+    "html_blob_sha": "c19fe4f141b2f9040cb8095451a0227bc8820c4f"
+  },
+  "structured_representation": {
+    "format": "json",
+    "path": "mpt/guia-nacional.json"
+  },
+  "markdown_state": "created_from_published_html",
+  "outline": [
+    {
+      "level": 1,
+      "title": "Guia Nacional do Bancário"
+    },
+    {
+      "level": 3,
+      "title": "Antes de começar"
+    },
+    {
+      "level": 2,
+      "title": "1. Primeiro descubra: o que exatamente estava sendo votado?"
+    },
+    {
+      "level": 3,
+      "title": "Proposta negocial"
+    },
+    {
+      "level": 3,
+      "title": "Minuta"
+    },
+    {
+      "level": 3,
+      "title": "CCT ou ACT definitivo"
+    },
+    {
+      "level": 2,
+      "title": "2. Guarde a convocação da assembleia"
+    },
+    {
+      "level": 2,
+      "title": "3. Descubra o que foi informado antes do voto"
+    },
+    {
+      "level": 2,
+      "title": "4. Houve espaço real para discussão?"
+    },
+    {
+      "level": 2,
+      "title": "5. Peça formalmente acesso ao conteúdo"
+    },
+    {
+      "level": 3,
+      "title": "Exemplo"
+    },
+    {
+      "level": 2,
+      "title": "6. Construa a cronologia"
+    },
+    {
+      "level": 2,
+      "title": "7. Compare o antes e o depois"
+    },
+    {
+      "level": 2,
+      "title": "8. Faça o Teste de Robustez"
+    },
+    {
+      "level": 2,
+      "title": "9. Como interpretar o resultado"
+    },
+    {
+      "level": 2,
+      "title": "10. Preserve as provas"
+    },
+    {
+      "level": 2,
+      "title": "11. Cuidado com as palavras"
+    },
+    {
+      "level": 2,
+      "title": "12. O que diz a lei?"
+    },
+    {
+      "level": 2,
+      "title": "13. Assembleia virtual não é o problema"
+    },
+    {
+      "level": 2,
+      "title": "14. Um resumo também não é automaticamente insuficiente"
+    },
+    {
+      "level": 2,
+      "title": "15. Por que procurar o Ministério Público do Trabalho?"
+    },
+    {
+      "level": 2,
+      "title": "16. O que pedir ao MPT?"
+    },
+    {
+      "level": 2,
+      "title": "17. A medida deve ser proporcional"
+    },
+    {
+      "level": 2,
+      "title": "18. Checklist final antes da representação"
+    },
+    {
+      "level": 2,
+      "title": "19. A regra metodológica mais importante"
+    }
+  ]
+}
