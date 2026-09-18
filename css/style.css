@@ -374,6 +374,12 @@ footer{
 }
 .document-box > :last-child,
 .protocol-info > :last-child{margin-bottom:0}
+.document-box p{max-width:none}
+.protocol{
+  font:900 1.15rem/1.35 var(--font-sans);
+  letter-spacing:.02em;
+  overflow-wrap:anywhere;
+}
 
 .ui-grid{
   display:grid;
@@ -828,8 +834,6 @@ body .petition-address{font-family:var(--font-sans)}
   #modelos-lai-no-artigo a.lai-link{width:100%}
 }
 
-.news-tools{display:flex;gap:14px;flex-wrap:wrap;margin:0 0 42px}
-.news-tool-button{text-align:center}
 
 .library-main{max-width:1060px}
 .library-hero{padding-bottom:34px;border-bottom:8px solid #111;margin-bottom:42px}
@@ -917,8 +921,6 @@ body .petition-address{font-family:var(--font-sans)}
   .ui-actions{display:grid;grid-template-columns:1fr;gap:.55rem}
   .ui-actions .button,.ui-actions .action-link{width:100%;justify-content:center;text-align:center}
   .editorial-card,.home-card{padding-top:1rem;margin-bottom:1.05rem}
-  .news-tools{display:grid;grid-template-columns:1fr;gap:14px;margin-bottom:34px}
-  .news-tool-button{display:block;width:100%;padding:14px 16px}
   .theorist-heading{gap:10px}
   .theorist-name{font-size:2.45rem}
   .theorist-rank{margin-top:4px}
