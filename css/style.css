@@ -432,6 +432,32 @@ input[type="file"]{
   .service-grid{grid-template-columns:1fr}
 }
 
+
+/* Integração visual do Fale Conosco sem alterar o código operacional do formulário */
+body .contact-main{width:min(100%,var(--content-wide));max-width:var(--content-wide)}
+body .contact-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:1.4rem 0 2rem}
+body .contact-card{
+  min-width:0;
+  padding:1.05rem 1.05rem 1.15rem;
+  border:1px solid var(--line-soft);
+  border-top:4px solid var(--ink-strong);
+  background:rgba(255,255,255,.22);
+}
+body .contact-card h2{
+  margin:.15rem 0 .5rem;
+  font-family:var(--font-serif);
+  font-size:1.18rem;
+  line-height:1.18;
+  text-transform:none;
+}
+body .contact-card p{color:var(--ink-muted);font-size:.94rem;line-height:1.5}
+body .contact-note{padding:1rem 1.1rem;border:0;border-left:4px solid var(--accent);background:rgba(255,255,255,.26);margin:1.5rem 0}
+body .contact-form{margin-top:2rem;padding:1.25rem;border:1px solid var(--line-soft);border-top:4px solid var(--ink-strong);background:var(--paper-raised)}
+@media(max-width:700px){
+  body .contact-grid{grid-template-columns:1fr}
+  body .contact-form{padding:1rem}
+}
+
 .news-tools{display:flex;gap:14px;flex-wrap:wrap;margin:0 0 42px}
 .news-tool-button{text-align:center}
 
