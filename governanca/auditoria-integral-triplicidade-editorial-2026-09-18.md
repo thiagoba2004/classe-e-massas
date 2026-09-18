@@ -115,13 +115,26 @@ Nenhum artigo, notícia, pedido de LAI, documento do MPT, documento autônomo da
 - `e628043cbfc18bcf8a845595e43ba302b081dc40` — Biblioteca e diretriz editorial;
 - `8dd6e0d1e806212ccd404b4e25a88796a0f489f6` — documentos canônicos do Observatório.
 
-## 6. Gate final
+## 6. Compatibilidade com GitHub Pages
+
+A auditoria pós-saneamento verificou que o repositório não possui `.nojekyll`. Por isso, os 27 Markdown reconstruídos a partir dos HTML publicados foram mantidos **sem front matter YAML**. Essa medida impede que o processamento padrão do GitHub Pages/Jekyll tente gerar arquivos `.html` concorrentes com as páginas já existentes.
+
+Os metadados estruturados permanecem exclusivamente nos JSON correspondentes.
+
+Commits de segurança de publicação:
+
+- `e35e1dbe8f41191502bea886d31c8cf186624489`;
+- `df1e9da4a2fa0244e556eaa6dde285663117eec5`;
+- `ca54f70983d18c3fb9df208185ff74327a305438`;
+- `92fc04f61d168f43bc9f6c1b331994af426dc143`.
+
+## 7. Gate final
 
 **SATISFEITO.**
 
 Todos os HTML do repositório foram classificados. Todos os 41 textos aos quais a regra se aplica possuem agora os três formatos exigidos. Não há exceção documental pendente nem HTML editorial aplicável sem Markdown e JSON correspondentes.
 
-## 7. Regra para continuidade
+## 8. Regra para continuidade
 
 A auditoria corrige o passivo histórico. A partir deste marco, novos textos devem nascer já no fluxo:
 
