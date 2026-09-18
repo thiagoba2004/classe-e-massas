@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "project": "Classe e Massas",
-  "updated_at": "2026-09-17",
+  "updated_at": "2026-09-18",
   "purpose": "Fonte estruturada de continuidade entre conversas, modelos de IA e sessões de trabalho. Não substitui os documentos específicos de cada frente; aponta o estado mais avançado comprovado e a próxima etapa.",
   "rules": {
     "authoritative_order": [
@@ -179,22 +179,43 @@
       "title": "Migração do AGENTS.md do Classe e Massas para o kernel 1.2",
       "strategy_id": "STRAT-CEM-20260917-002",
       "parent_strategy_id": "STRAT-CEM-20260917-001",
-      "status": "CONCLUÍDA — AGENTS v1.9 MIGRADO E VERIFICADO",
-      "agents_version": "1.9",
+      "status": "CONCLUÍDA — MIGRAÇÃO KERNEL 1.2 PRESERVADA; AGENTS EVOLUÍDO PARA v2.0",
+      "agents_version": "2.0",
       "generated_from_kernel": "1.2",
       "planning_file": "governanca/estrategia-migracao-agents-kernel-1.2.md",
       "previous_agents_blob": "0c0fc7bd17de1084728ed1f1f2c4aa61405d1a86",
       "migration_commit": "3fb8a9ed721b5e614301d4528c0bad54eded62f9",
-      "current_agents_blob": "c7fd2693377c881b9f045ed02743a9711ae9b412",
+      "current_agents_blob": "9001760d0e7f987da4ac1aaa84b816dd7c47de2d",
       "phase": "FASE FINAL — CONCLUÍDA",
       "phase_gate": "SATISFEITO — AGENTS.md v1.9, estado, pedido e estratégia persistidos e verificados no remoto.",
       "persistence_status": "CONCLUÍDO E VERSIONADO NO GITHUB; EVENTO CONCLUDED REGISTRADO NO STRATEGY_LOG.jsonl E PEDIDO REQ-20260917-015 FECHADO NO REQUEST_LOG.jsonl",
-      "next_step": "NENHUM PASSO PENDENTE NESTA ESTRATÉGIA. O BACKFILL PROGRESSIVO DAS DEMAIS ESTRATÉGIAS AUTÔNOMAS DO CLASSE E MASSAS DEVE SER ABERTO, SE APROVADO, COMO ESTRATÉGIA SEPARADA.",
+      "next_step": "NENHUM PASSO PENDENTE NA MIGRAÇÃO. A EVOLUÇÃO NORMATIVA POSTERIOR PARA v2.0 ESTÁ REGISTRADA SEPARADAMENTE EM STRAT-CEM-20260918-001.",
       "do_not_do": [
         "não reabrir a estratégia de bootstrap do Gerador de Agents",
         "não executar backfill geral de estratégias dentro desta migração",
         "não revogar regras locais mais rigorosas preservadas por incorporação da v1.8",
         "não tratar a ordem histórica da v1.7/v1.8 como regra vigente"
+      ]
+    },
+    {
+      "id": "GOV-TRIO-FORMATOS-EDITORIAIS",
+      "area": "Governança / Arquitetura documental editorial",
+      "title": "Trio obrigatório Markdown + HTML + JSON para textos editoriais/publicáveis",
+      "strategy_id": "STRAT-CEM-20260918-001",
+      "status": "CONCLUÍDA — REGRA INCORPORADA AO AGENTS v2.0",
+      "agents_version": "2.0",
+      "planning_file": "governanca/estrategia-trio-formatos-editoriais.md",
+      "agents_blob": "9001760d0e7f987da4ac1aaa84b816dd7c47de2d",
+      "implementation_commit": "f4af2405f73e3ac1351c8f5f8e23416ab2b8455e",
+      "phase": "FASE FINAL — VERIFICADA",
+      "phase_gate": "SATISFEITO — regra explícita, persistida e verificada no remoto; Gerador alinhado em estratégia correspondente.",
+      "persistence_status": "REGRA LOCAL VERSIONADA NO GITHUB",
+      "rule_summary": "Cada texto editorial/publicável deve possuir Markdown como fonte textual canônica, HTML como publicação e JSON como representação estruturada, com sincronização obrigatória e exceções apenas por decisão expressa, persistente e versionada.",
+      "next_step": "Aplicar a regra a novas publicações e corrigir progressivamente lacunas históricas quando os respectivos textos forem revisados ou quando houver estratégia específica de saneamento.",
+      "do_not_do": [
+        "não considerar HTML isolado como documentação editorial completa",
+        "não dispensar Markdown ou JSON por prática histórica",
+        "não transformar páginas técnicas e arquivos operacionais em conteúdo editorial apenas para satisfazer a regra"
       ]
     }
   ],
