@@ -282,16 +282,16 @@
     "agents_blob_sha": "8a1ae68e4f60d46cc682ed8a03f55e7dfc408e9e"
   },
   "current_governance_strategy": {
-    "strategy_code": "EA-000001-000020",
-    "strategy_name": "Modelo LAI para posicionamento dos bancos públicos",
-    "phase_number": 5,
-    "phase_total": 5,
-    "phase_code": "F-000001-000020-005",
-    "phase_name": "Verificação e fechamento",
-    "status": "CONCLUIDO",
-    "plan_ref": "governanca/estrategia-modelo-lai-bancos-publicos.md",
-    "last_event_id": "STEV-CEM-20260919-062",
-    "next_step": "NENHUM PASSO PENDENTE DENTRO DA EA-000001-000020."
+    "strategy_code": "EA-000001-000021",
+    "strategy_name": "Menu Vídeos e primeiro filme cinematográfico",
+    "phase_number": 1,
+    "phase_total": 6,
+    "phase_code": "F-000001-000021-001",
+    "phase_name": "Registro e pesquisa de ferramenta",
+    "status": "EM_EXECUCAO",
+    "plan_ref": "governanca/estrategia-menu-videos-primeiro-filme.md",
+    "last_event_id": "STEV-CEM-20260919-063",
+    "next_step": "Concluir pesquisa de ferramenta gratuita, criar arquitetura do Menu Vídeos e preparar o roteiro/pacote de geração do vídeo 001."
   },
   "project_sequence": 1,
   "project_alias": "CEM",
