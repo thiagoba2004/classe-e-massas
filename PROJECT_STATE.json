@@ -309,13 +309,15 @@
   "current_editorial_strategy": {
     "strategy_code": "EA-000001-000017",
     "strategy_name": "Contatos das Assessorias de Imprensa dos principais bancos",
-    "phase_number": 1,
+    "phase_number": 3,
     "phase_total": 3,
-    "phase_code": "F-000001-000017-001",
-    "phase_name": "Pesquisa de contatos oficiais",
-    "status": "EM_EXECUCAO",
+    "phase_code": "F-000001-000017-003",
+    "phase_name": "Atualização e verificação",
+    "status": "CONCLUIDO",
     "plan_ref": "governanca/estrategia-contatos-assessorias-imprensa-bancos.md",
-    "publication_status": "ATUALIZACAO_EM_CURSO",
-    "next_step": "PESQUISAR E VALIDAR CONTATOS OFICIAIS DE IMPRENSA."
+    "publication_status": "ATUALIZADO",
+    "updated_news_html": "noticias/2026/modelo-pedido-posicionamento-assessorias-imprensa-bancos-fiscalizacao-produtividade.html",
+    "concluded_at": "2026-09-19T14:14:00-03:00",
+    "next_step": "ESTRATÉGIA CONCLUÍDA."
   }
 }
