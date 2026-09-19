@@ -34,7 +34,7 @@ Há um erro metodológico na frase aparentemente simples: “ele só atendeu um 
 
 O cliente enxerga a duração do atendimento. Não enxerga necessariamente o conteúdo integral do trabalho executado.
 
-Uma operação bancária pode exigir conferência documental, validação de identidade, prevenção a fraude, análise de inconsistências cadastrais, cumprimento de regras regulatórias, correção de erros sistêmicos, contato com áreas de suporte, atendimento de pessoa idosa ou vulnerável, esclarecimento detalhado de obrigações contratuais ou várias tarefas que não aparecem para quem observa de fora.
+Uma operação bancária pode exigir conferência documental, validação de identidade, prevenção a fraudes, análise de inconsistências cadastrais, cumprimento de regras regulatórias, correção de erros sistêmicos, contato com áreas de suporte, atendimento de pessoa idosa ou vulnerável, esclarecimento detalhado de obrigações contratuais ou várias tarefas que não aparecem para quem observa de fora.
 
 O número bruto de clientes atendidos por hora pode ser um dado. Não é, sozinho, prova de produtividade baixa.
 
@@ -96,7 +96,7 @@ Uma resposta proporcional pode seguir uma sequência simples:
 2. **redirecionar a reclamação à instituição**, oferecendo acesso à gerência ou ao canal adequado;
 3. **preservar o sigilo**, sem revelar informações de outros clientes para justificar a duração do atendimento;
 4. **acionar a chefia**, para que a instituição assuma a interlocução;
-5. **interromper a exposição prolongada**, caso a reclamação evolua para humilhação, hostilidade ou intimidação;
+5. **solicitar intervenção da gestão para fazer cessar a exposição**, caso a reclamação evolua para humilhação, hostilidade ou intimidação;
 6. **acionar segurança**, quando houver escalada, ameaça ou risco;
 7. **registrar o ocorrido**, anotando horário, local, conteúdo essencial, testemunhas e providências tomadas;
 8. **utilizar os canais previstos na CCT**, inclusive o canal interno e, quando disponível, o canal sindical, se a situação tiver características de assédio ou outra forma de violência.
