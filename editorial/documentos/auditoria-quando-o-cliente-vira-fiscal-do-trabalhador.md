@@ -457,3 +457,101 @@ A arquitetura regulatória e as políticas institucionais tornam a reclamação 
 - Publicação: NÃO REALIZADA.
 - Gate: revisão humana antes da Fase 05/05.
 
+---
+
+## 13. Quinta auditoria — concordância, ilicitude e concisão
+
+**Data:** 19/09/2026  
+**Objeto:** três apontamentos da revisão humana: concordância nominal do título; qualificação jurídica expressa da fiscalização pública; excesso de informações.
+
+### 13.1. Concordância nominal
+
+Forma correta:
+
+> **trabalhadores bancários**
+
+Título revisado:
+
+> **Quando o cliente vira fiscal dos trabalhadores bancários: reestruturação digital, intensificação e fiscalização ilícita da produtividade**
+
+A forma “trabalhadores bancário” foi eliminada dos artefatos editoriais.
+
+### 13.2. Qualificação jurídica da conduta
+
+A auditoria rejeita duas formulações extremas:
+
+1. **insuficiente:** “fiscalizar publicamente é apenas outra coisa”;
+2. **excessiva:** “qualquer crítica ou observação do cliente é automaticamente ilícita”.
+
+A formulação juridicamente sustentada ficou:
+
+> **O cliente tem direito de reclamar do serviço, mas não possui poder jurídico para fiscalizar a produtividade individual do trabalhador. Quando a reclamação se transforma em cobrança pública, individualizada e constrangedora de desempenho, ultrapassa o exercício regular do direito de reclamar e ingressa no campo da ilicitude.**
+
+Fundamentos:
+- art. 2º da CLT — direção da prestação pertence ao empregador;
+- art. 5º, X, da Constituição — honra e imagem;
+- arts. 186 e 187 do Código Civil — ato ilícito e abuso de direito;
+- art. 927 do Código Civil — reparação;
+- arts. 223-B e 223-C da CLT — esfera moral/existencial, honra, imagem, intimidade, autoestima e saúde.
+
+**Regra editorial:** não afirmar que mera reclamação, crítica ao serviço ou observação do atendimento seja ilícita. A ilicitude defendida no artigo exige ultrapassagem do direito de reclamar, com exposição/cobrança individualizada e constrangedora ou violação de direitos da personalidade.
+
+### 13.3. Jurisprudência mais aderente incorporada
+
+Além do RR-697-96.2019.5.10.0019, foi incorporado o **AIRR-462-61.2018.5.12.0035**, Sexta Turma do TST.
+
+O precedente envolve:
+- agência da CAIXA;
+- cliente que aguardava atendimento;
+- agressão verbal/injúria racial;
+- quadro reduzido de atendentes;
+- perfil de clientes que exigia maior dedicação, tempo, auxílio, suporte e assistência;
+- reconhecimento de que as condições de trabalho favoreceram o ocorrido.
+
+**Utilidade para o artigo:** não equiparar a injúria racial ao episódio narrado, mas demonstrar que insuficiência de pessoal, complexidade do atendimento, insatisfação do público e agressões de clientes podem estar conectadas e que a organização do trabalho integra a análise jurídica do dever patronal de proteção.
+
+### 13.4. Auditoria de extensão
+
+Rascunho v4: aproximadamente **5.529 palavras**.  
+Rascunho v5: aproximadamente **2.629 palavras**.  
+Redução aproximada: **2.900 palavras (52,5%)**.
+
+Foram eliminadas ou condensadas:
+- descrições repetitivas dos cinco códigos de ética;
+- repetição banco por banco das mesmas obrigações regulatórias;
+- duplicação entre CCT, política institucional e dever gerencial;
+- explicações excessivas sobre transformação digital que não alteravam a tese;
+- detalhes probatórios de Bradesco e outros documentos que permanecem preservados no dossiê de pesquisa;
+- repetição das cautelas jurídicas em vários capítulos.
+
+Foram preservados no corpo:
+1. distinção entre reclamação e fiscalização ilícita;
+2. limites metodológicos da métrica de transações;
+3. reestruturação/emprego/intensificação com cautela causal;
+4. CCT;
+5. CMN e políticas institucionais;
+6. códigos de ética em síntese;
+7. reação do trabalhador e papel da gestão;
+8. jurisprudência do TST;
+9. tese do cliente como fiscal informal.
+
+### 13.5. Critério de concisão adotado
+
+> **Se uma informação não modifica a tese, não acrescenta fundamento jurídico distinto nem constitui prova indispensável, ela não permanece no corpo principal.**
+
+Detalhes documentais continuam preservados em:
+- `editorial/documentos/pesquisa-cct-fenaban-2026-2028-cliente-produtividade.md`;
+- esta auditoria editorial;
+- metadados estruturados do rascunho.
+
+### 13.6. Estado editorial
+
+- Markdown: v5.
+- HTML: v5 sincronizado.
+- JSON: schema 1.4 / V5.
+- Título: corrigido.
+- Tese de ilicitude: explicitada com delimitação jurídica.
+- Extensão: reduzida em aproximadamente 52,5%.
+- Publicação: NÃO REALIZADA.
+- Gate: revisão humana antes da Fase 05/05.
+
