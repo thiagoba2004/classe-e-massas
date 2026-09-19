@@ -90,3 +90,38 @@ Leia também:
 **Quando o cliente vira fiscal dos trabalhadores bancários: reestruturação digital, intensificação e fiscalização ilícita da produtividade**
 
 https://thiagoba2004.github.io/classe-e-massas/artigos/2026/quando-o-cliente-vira-fiscal-do-trabalhador.html
+
+## Contatos das Assessorias de Imprensa dos principais bancos
+
+**Contatos verificados em 19 de setembro de 2026, em páginas institucionais oficiais.**
+
+### Banco do Brasil
+
+- **E-mail:** imprensa@bb.com.br
+- **Telefone:** +55 (61) 3493-2932
+- **Sala de Imprensa:** https://imprensa.bb.com.br/
+
+### CAIXA Econômica Federal
+
+- **Assessoria de Imprensa Nacional:** imprensa@caixa.gov.br
+- **Telefones:** (61) 3206-4651 e (61) 3206-9645
+- **Assessoria Regional Nordeste:** imprensa.nordeste@caixa.gov.br
+- **Sala de Imprensa:** https://caixanoticias.caixa.gov.br/Paginas/sala-de-imprensa.aspx
+
+### Itaú Unibanco
+
+- **E-mail exclusivo para imprensa:** imprensa@itau-unibanco.com.br
+- **Sala de Imprensa:** https://www.itau.com.br/imprensa
+
+### Bradesco
+
+- **E-mail da Assessoria de Imprensa:** imprensa@bradesco.com.br
+- **Portal de Imprensa:** https://imprensa.bradesco/imprensa/home
+
+### Santander Brasil
+
+- **E-mail exclusivo para jornalistas:** imprensa@santander.com.br
+- **Sala de Imprensa / cadastro de jornalistas:** https://www.santander.com.br/portal/wps/script/templates/GCMRequest.do?entryID=7844&page=7774
+
+> **Observação:** os bancos podem alterar canais, telefones ou estruturas de atendimento. Antes de cada envio, é recomendável conferir novamente a página institucional indicada.
+
