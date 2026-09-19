@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "project_code": "PRJ-000001",
+  "project_name": "Classe e Massas",
+  "strategy_code": "EA-000001-000015",
+  "strategy_name": "Cliente, produtividade e controle social do trabalho bancário",
+  "phase_code": "F-000001-000015-004",
+  "phase_name": "Redação e auditoria editorial",
+  "slug": "quando-o-cliente-vira-fiscal-do-trabalhador",
+  "content_type": "artigo",
+  "title": "Quando o cliente vira fiscal do trabalhador: quem responde pela fila e quem controla a produtividade?",
+  "description": "O consumidor tem direito de reclamar da demora e da qualidade do serviço. Isso não o transforma em gestor da força de trabalho.",
+  "status": "RASCUNHO_AGUARDANDO_REVISAO_HUMANA",
+  "language": "pt-BR",
+  "date": "2026-09-19",
+  "publication_status": "NAO_PUBLICADO",
+  "canonical_source": {
+    "format": "markdown",
+    "path": "editorial/rascunhos/2026/quando-o-cliente-vira-fiscal-do-trabalhador.md"
+  },
+  "draft_html": {
+    "format": "html",
+    "path": "editorial/rascunhos/2026/quando-o-cliente-vira-fiscal-do-trabalhador.html",
+    "robots": "noindex,nofollow"
+  },
+  "structured_representation": {
+    "format": "json",
+    "path": "editorial/rascunhos/2026/quando-o-cliente-vira-fiscal-do-trabalhador.json"
+  },
+  "outline": [
+    "Reclamar do banco é um direito. Fiscalizar publicamente o empregado é outra coisa",
+    "Um cliente em uma hora não é uma medida suficiente de produtividade",
+    "A CCT 2026/2028 já contém salvaguardas importantes",
+    "A CCT trata expressamente de atos praticados por clientes",
+    "O trabalhador deve ficar calado?",
+    "O que fazer no momento da ocorrência",
+    "A gestão pode assistir passivamente?",
+    "O TST já reconheceu o dever de proteção diante de agressão de cliente",
+    "NR-1: quando o problema deixa de ser individual",
+    "O cliente como fiscal informal da força de trabalho",
+    "A OIT chama atenção para os terceiros",
+    "Quem responde pela fila?",
+    "Conclusão: o consumidor não é inimigo do trabalhador"
+  ],
+  "key_legal_references": [
+    "CCT Fenaban 2026/2028: cláusulas 39, 39-A, 46-A, 87-95",
+    "Constituição Federal art. 7º, XXII",
+    "CLT arts. 2º e 157",
+    "CDC arts. 3º e 14",
+    "NR-1 — GRO e fatores de riscos psicossociais",
+    "TST RR-697-96.2019.5.10.0019",
+    "OIT Recomendação 206"
+  ],
+  "source_urls": [
+    "https://www.feebpr.org.br/images/files/documents/2026/09/10826789046aabd98331cc2.pdf",
+    "https://spbancarios.com.br/09/2026/cct-20262028-assinada-aumento-real-em-todas-verbas-direitos-mantidos-e-novas-conquistas",
+    "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-1",
+    "https://www.gov.br/fundacentro/pt-br/comunicacao/noticias/noticias/2026/maio/fundacentro-lanca-diretrizes-para-aplicar-nr-1-com-inclusao-dos-riscos-psicossociais",
+    "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452compilado.htm",
+    "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+    "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+    "https://www.tst.jus.br/-/agente-de-aeroporto-agredido-por-cliente-de-companhia-a%C3%A9rea-receber%C3%A1-indeniza%C3%A7%C3%A3o",
+    "https://www.ilo.org/resource/other/r206-violence-and-harassment-recommendation-2019-no-206"
+  ],
+  "rigor_notes": [
+    "A numeração das cláusulas foi conferida na versão integral Fenaban-Contec disponível publicamente.",
+    "A divulgação do Sindicato dos Bancários de São Paulo confirma, na CCT assinada pelo Comando Nacional/Fenaban, avanços sobre atos de clientes, riscos psicossociais e monitoramento digital.",
+    "O artigo não equipara automaticamente crítica pública, assédio moral, violência ou agressão física.",
+    "O precedente do TST envolve agressão física e é usado apenas para demonstrar que atos de clientes não eliminam, por si sós, o dever patronal de proteção.",
+    "O rascunho não identifica o cliente, o trabalhador nem a instituição do episódio narrado."
+  ]
+}
