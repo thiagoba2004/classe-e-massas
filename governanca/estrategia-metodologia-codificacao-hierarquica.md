@@ -5,7 +5,7 @@
 **Estratégia Autônoma:** `EA-000001-000014 — Metodologia universal de codificação hierárquica`  
 **Identificador legado da estratégia:** `STRAT-CEM-20260919-002`  
 **Denominação:** Metodologia universal de codificação hierárquica  
-**Status:** EM EXECUÇÃO
+**Status:** CONCLUÍDA
 
 ## Plano de Fases
 
@@ -23,3 +23,7 @@ Atribuir código numérico canônico ao Projeto Classe e Massas e códigos hier�
 
 ### FASE 05/05 [F-000001-000014-005] — Verificação e fechamento
 Verificar unicidade, ausência de colisões, persistência remota e padrão de resposta de continuidade.
+
+## Fechamento
+
+Metodologia concluída em 19/09/2026. O Projeto passa a usar `PRJ-000001`; `CEM` permanece somente como alias. A Estratégia desta migração é `EA-000001-000014`. A verificação confirmou unicidade e coerência hierárquica dos registros.
