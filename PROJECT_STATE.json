@@ -285,12 +285,13 @@
     "strategy_code": "EA-000001-000014",
     "strategy_name": "Metodologia universal de codificação hierárquica",
     "legacy_strategy_id": "STRAT-CEM-20260919-002",
-    "phase_number": 4,
+    "phase_number": 5,
     "phase_total": 5,
-    "phase_code": "F-000001-000014-004",
-    "phase_name": "Migração controlada do Classe e Massas",
-    "status": "EM_EXECUCAO",
-    "plan_ref": "governanca/estrategia-metodologia-codificacao-hierarquica.md"
+    "phase_code": "F-000001-000014-005",
+    "phase_name": "Verificação e fechamento",
+    "status": "CONCLUIDO",
+    "plan_ref": "governanca/estrategia-metodologia-codificacao-hierarquica.md",
+    "last_event_id": "STEV-CEM-20260919-005"
   },
   "project_sequence": 1,
   "project_alias": "CEM",
@@ -302,6 +303,7 @@
     "agents_version": "2.2",
     "project_code_format": "PRJ-NNNNNN",
     "strategy_code_format": "EA-PPPPPP-EEEEEE",
-    "phase_code_format": "F-PPPPPP-EEEEEE-FFF"
+    "phase_code_format": "F-PPPPPP-EEEEEE-FFF",
+    "status": "IMPLANTADO_E_VERIFICADO"
   }
 }
