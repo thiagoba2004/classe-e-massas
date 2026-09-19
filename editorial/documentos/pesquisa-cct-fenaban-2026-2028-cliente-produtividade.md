@@ -674,3 +674,137 @@ A pergunta deixa de ser apenas “o que o CMN exige?” e passa a ser também:
 
 Esse eixo deve substituir a inferência frágil baseada em volume de transações.
 
+## Terceiro aprofundamento — papel institucional da gestão, reclamações, metas e mecanismos de controle
+
+### Resolução CMN nº 4.949/2021 — o conflito é institucional
+
+A leitura combinada dos arts. 7º, 8º e 9º permite uma conclusão mais forte e mais precisa do que a formulação anterior.
+
+A instituição financeira deve estruturar:
+- gestão do atendimento;
+- registro e tratamento de demandas;
+- mediação de conflitos;
+- equilíbrio entre metas/incentivos de desempenho e valores organizacionais;
+- monitoramento por métricas e indicadores;
+- identificação e correção de deficiências;
+- testes periódicos pela auditoria interna.
+
+**Consequência analítica:** a reclamação de um cliente não é tratada pela regulação como um evento que deva ser resolvido informalmente entre cliente e empregado individual. Ela integra uma arquitetura institucional de atendimento, gestão, conflito, controle e correção.
+
+Fonte oficial:
+- Resolução CMN nº 4.949/2021, arts. 7º a 9º.
+
+### Banco do Brasil — política integral localizada
+
+Foi localizada a **Política Específica de Relacionamento com Clientes e Usuários de Produtos e Serviços** do Banco do Brasil, em documento público oficial de RI, com última revisão indicada em **10/10/2024**.
+
+Achados diretamente relevantes:
+- área responsável: Diretoria Controles Internos e Compliance (Dicoi);
+- todas as unidades do Banco devem estabelecer **mecanismos de gestão para garantir a integral implementação** da Política;
+- a implementação deve prever **programa de treinamento e disseminação interna** para funcionários;
+- a Política reconhece atendimento presencial mesmo com disponibilidade de outros canais;
+- a Ouvidoria Externa atua na **mediação de conflitos** entre instituição e clientes;
+- o monitoramento da política inclui pesquisas de satisfação, reclamações e indicadores de desempenho de produtos e serviços;
+- o BB afirma promover **ambiente inclusivo e seguro junto a clientes, usuários, funcionários e terceirizados**;
+- estimula a comunicação de clientes e usuários com a Empresa;
+- prioriza o diálogo e a solução rápida e precisa das demandas.
+
+O documento permite corrigir uma lacuna anterior: não é mais necessário dizer apenas que a existência da política do BB está confirmada sem acesso ao texto integral. O texto integral público foi localizado.
+
+**Limite:** não foi localizada, nessa política pública, cláusula específica dizendo que o gestor da agência deve intervir imediatamente quando um cliente critica publicamente a produtividade de empregado. A conclusão de intervenção decorre da combinação entre:
+1. dever institucional de gestão e implementação;
+2. diálogo e solução das demandas;
+3. ambiente seguro e inclusivo;
+4. CCT e dever geral de proteção ao trabalhador.
+
+Fonte:
+- Política Específica de Relacionamento com Clientes e Usuários de Produtos e Serviços — Banco do Brasil, última revisão 10/10/2024.
+
+### Santander — política integral: atendimento presencial, mediação e metas
+
+A política pública integral do Santander traz uma arquitetura especialmente detalhada.
+
+#### Gestão do atendimento presencial — item 5.7
+- demandas, reclamações e sugestões devem ser registradas sob número de protocolo;
+- devem passar por identificação, análise e tratamento formal e adequado;
+- colaboradores devem responder de forma clara e precisa sobre dúvidas, reclamações e providências;
+- a política abrange canal digital, telefônico e presencial;
+- descumprimentos relacionados ao atendimento presencial podem gerar **gestão de consequência** e penalização dos responsáveis.
+
+#### Mediação de conflitos — item 5.8
+- o Santander declara preferência por negociação de boa-fé e conciliação;
+- conflitos entre clientes/usuários e o Banco devem ser apropriadamente mediados pela Ouvidoria.
+
+#### Sistemas de metas e incentivos — item 5.11
+- modelos de incentivos devem alinhar interesses de acionistas, funcionários e clientes;
+- devem promover equilíbrio, boas práticas de conduta e controle de riscos;
+- a remuneração variável deve combinar critérios quantitativos e qualitativos;
+- qualidade operacional, qualidade dos serviços, gestão de riscos, atendimento e satisfação dos clientes integram o desenho;
+- a instituição prevê tratamento de desvios relacionados à gestão de metas e incentivos.
+
+#### Governança
+- áreas administrativas, de negócios e canais de atendimento compõem a **1ª linha de defesa** e possuem responsabilidade primária pela gestão de riscos;
+- a política prevê Comitê de Experiência do Cliente, planos de ação e correção/prevenção de desvios;
+- treinamento e certificação integram a governança.
+
+**Consequência analítica:** no Santander, a política pública desautoriza qualquer leitura em que reclamação, conflito e pressão por resultados sejam deixados como assunto privado entre cliente e trabalhador. O desenho é institucional e governado.
+
+Fonte:
+- Política Institucional de Relacionamento com Clientes e Usuários de Produtos e Serviços Financeiros — Santander.
+
+### Itaú — reclamação como insumo institucional e não como comando direto ao empregado
+
+O Relatório de Ouvidoria do Itaú, 1º semestre de 2025, detalha a operacionalização pública da Política de Relacionamento.
+
+Achados:
+- a Política cobre todas as interações, da concepção ao pós-venda;
+- inclui integridade no atendimento e mediação de conflitos;
+- prevê capacitação, monitoramento e atualização;
+- utiliza programas de **incentivos e contra incentivos** para promover equilíbrio e qualidade da venda;
+- a Ouvidoria e as áreas de governança monitoram demandas e causas-raízes;
+- reclamações alimentam planos de ação construídos com Atendimento, Negócios, Operações e Tecnologia;
+- a Ouvidoria participa de comitês e reuniões com CEO, Comitê Executivo e diretores de negócios.
+
+**Consequência analítica:** o próprio Itaú apresenta reclamações como dado institucional a ser analisado, tratado e convertido em melhoria de processos. Não há base para transformar reclamação de cliente em ordem direta de produtividade ao trabalhador.
+
+Fonte:
+- Relatório de Ouvidoria Itaú Unibanco — 1º semestre de 2025.
+
+### CAIXA — responsabilidades institucionais e equilíbrio de metas
+
+A política pública da CAIXA, versão dezembro de 2024, confirma:
+- atendimento apropriado e equilibrado;
+- responsabilidade distribuída por diretorias de rede, clientes/canais, pessoas e outras áreas;
+- item 5.7.7: equilíbrio entre metas de resultados/incentivos de desempenho e diretrizes da política;
+- item 5.7.8: tratamento adequado de desvios.
+
+A estrutura de governança da CAIXA também afirma que políticas e códigos guiam a atuação de dirigentes, conselheiros e empregados e que os agentes de governança devem assegurar implementação, disseminação e tratamento de conflitos.
+
+**Consequência analítica:** a política não é apenas uma cartilha comportamental para o empregado de ponta. Ela distribui responsabilidades organizacionais entre áreas gestoras.
+
+### Bradesco — evidência ainda parcial
+
+A pesquisa continuou sem localizar, de forma pública e recuperável, o texto integral autônomo da Política Institucional de Relacionamento do Bradesco.
+
+Material oficial confirma:
+- tratamento justo e equitativo;
+- respeito à individualidade e vulnerabilidades;
+- informações claras;
+- referência explícita à Política Institucional.
+
+A página institucional do Bradesco também afirma valores de ética, dignidade, desenvolvimento das pessoas e reconhecimento das contribuições para resultados.
+
+**Estado probatório:** suficiente para confirmar existência e princípios gerais; insuficiente para atribuir ao Bradesco cláusula específica sobre papel do gestor, metas ou mediação sem o texto integral.
+
+---
+
+## Síntese institucional revisada
+
+A comparação entre CMN, BB, CAIXA, Santander e Itaú permite uma formulação mais rigorosa:
+
+> **A reclamação do cliente pertence à governança institucional do banco. As políticas exigem treinamento, canais, registro, tratamento, mediação, monitoramento, planos de ação e equilíbrio entre desempenho e valores. O trabalhador de atendimento não deve ser convertido no destinatário final e isolado de uma cobrança pública sobre produtividade.**
+
+Isso não cria automaticamente uma obrigação legal de retirar o cliente da agência ou interromper qualquer crítica.
+
+Mas fornece base robusta para defender que, quando a reclamação se transforma em exposição individualizada, hostilidade ou fiscalização pública de produtividade, **a gestão deve assumir a interlocução**, retirar a discussão do plano pessoal e conduzi-la pelos mecanismos institucionais de atendimento e conflito.
+
