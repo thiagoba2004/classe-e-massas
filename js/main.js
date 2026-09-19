@@ -33,6 +33,7 @@ document.documentElement.classList.add("js");
       { label: "Início", href: base, section: "home" },
       { label: "Notícias", href: `${base}noticias/`, section: "noticias" },
       { label: "Artigos", href: `${base}artigos/`, section: "artigos" },
+      { label: "Vídeos", href: `${base}videos/`, section: "videos" },
       { label: "Observatório", href: `${base}observatorio/`, section: "observatorio" },
       { label: "Biblioteca", href: `${base}biblioteca/`, section: "biblioteca" },
       { label: "MPT", href: `${base}mpt/`, section: "mpt" },
@@ -44,7 +45,9 @@ document.documentElement.classList.add("js");
       ? "noticias"
       : pathname.includes("/artigos/")
         ? "artigos"
-        : pathname.includes("/observatorio/")
+        : pathname.includes("/videos/")
+          ? "videos"
+          : pathname.includes("/observatorio/")
           ? "observatorio"
           : pathname.includes("/biblioteca/")
             ? "biblioteca"
@@ -149,7 +152,7 @@ document.documentElement.classList.add("js");
 
         const copy = document.createElement("button");
         copy.type = "button";
-        copy.textContent = "Copiar pedido";
+        copy.textContent = "COPIAR MODELO";
         copy.disabled = true;
 
         const open = document.createElement("a");
@@ -168,8 +171,11 @@ document.documentElement.classList.add("js");
         const pre = document.createElement("pre");
         pre.textContent = "Carregando modelo…";
 
-        actions.append(copy, open, status);
-        body.append(actions, pre);
+        actions.append(open, status);
+        const copyActions = document.createElement("div");
+        copyActions.className = "actions model-copy-actions";
+        copyActions.append(copy);
+        body.append(actions, copyActions, pre);
         details.appendChild(body);
         section.appendChild(details);
 
