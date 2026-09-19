@@ -1,17 +1,17 @@
 {
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "project_code": "PRJ-000001",
   "project_name": "Classe e Massas",
   "strategy_code": "EA-000001-000015",
   "strategy_name": "Cliente, produtividade e controle social do trabalho bancário",
   "phase_code": "F-000001-000015-004",
-  "phase_name": "Redação e auditoria editorial — sexta versão",
+  "phase_name": "Redação e auditoria editorial — sétima versão",
   "slug": "quando-o-cliente-vira-fiscal-do-trabalhador",
   "content_type": "artigo",
   "title": "Quando o cliente vira fiscal dos trabalhadores bancários: reestruturação digital, intensificação e fiscalização ilícita da produtividade",
   "requested_title_phrase": "trabalhadores bancário",
-  "description": "Versão com posição inequívoca: após constrangimento público prévio, o atendimento deve ser remanejado pela gestão antes de começar.",
-  "status": "RASCUNHO_V6_AGUARDANDO_REVISAO_HUMANA",
+  "description": "Versão que incorpora Compliance como eixo institucional e reproduz integralmente o art. 187 do Código Civil.",
+  "status": "RASCUNHO_V7_AGUARDANDO_REVISAO_HUMANA",
   "language": "pt-BR",
   "date": "2026-09-19",
   "publication_status": "NAO_PUBLICADO",
@@ -42,14 +42,20 @@
     "Política Específica de Relacionamento do Banco do Brasil localizada integralmente",
     "Política integral Santander: atendimento presencial, mediação, metas/incentivos e linhas de defesa",
     "Itaú: gestão institucional de reclamações por causa-raiz e planos de ação",
-    "Papel institucional da gestão explicitado sem inventar obrigação textual inexistente"
+    "Papel institucional da gestão explicitado sem inventar obrigação textual inexistente",
+    "Resolução CMN 4.595/2017 — política obrigatória de Compliance",
+    "Programas/políticas públicas de Compliance de BB, CAIXA, Santander e Itaú",
+    "Art. 187 do Código Civil transcrito integralmente com redação oficial"
   ],
   "key_findings": [
     "A Resolução CMN 4.949/2021 trata reclamações como objeto de gestão institucional do atendimento e mediação de conflitos.",
     "Banco do Brasil exige mecanismos de gestão em todas as unidades envolvidas, treinamento, monitoramento de reclamações, ambiente seguro e inclusivo e priorização do diálogo.",
     "Santander exige registro formal das reclamações presenciais, mediação institucional e critérios quantitativos e qualitativos em metas e incentivos.",
     "Itaú trata reclamações como insumo para análise de causa-raiz e planos de ação entre Ouvidoria, Atendimento, Negócios, Operações e Tecnologia.",
-    "A gestão deve assumir a interlocução como conclusão institucional derivada da arquitetura normativa e das políticas, não de cláusula literal universal."
+    "A gestão deve assumir a interlocução como conclusão institucional derivada da arquitetura normativa e das políticas, não de cláusula literal universal.",
+    "Compliance é função regulatória obrigatória nas instituições financeiras, com dever de testar aderência a leis, normas infralegais, recomendações supervisoras e códigos de ética/conduta.",
+    "O Conselho de Administração deve assegurar medidas corretivas diante de falhas de conformidade.",
+    "O art. 187 do Código Civil fundamenta a tese de abuso de direito quando a reclamação legítima excede seus limites econômicos/sociais, de boa-fé ou bons costumes."
   ],
   "rigor_notes": [
     "Não afirmar que toda crítica, observação ou reclamação de cliente é ilícita.",
@@ -58,7 +64,9 @@
     "Detalhes dos códigos de ética e políticas de cinco bancos permanecem no dossiê de pesquisa, reduzidos no corpo do artigo para evitar excesso.",
     "AIRR-462-61.2018.5.12.0035 é precedente especialmente relevante por envolver agência bancária, quadro reduzido, maior necessidade de dedicação/tempo e agressão de cliente; não é equiparado ao episódio narrado.",
     "Avaliações anônimas não devem ser tratadas como passíveis de neutralização posterior caso não seja possível vinculá-las ao atendimento específico.",
-    "A proteção defendida é preventiva: remanejamento antes do atendimento após conflito prévio documentado."
+    "A proteção defendida é preventiva: remanejamento antes do atendimento após conflito prévio documentado.",
+    "A redação oficial do art. 187 usa 'excede manifestamente', e não 'exceder manifestadamente'.",
+    "Compliance é tratado como função institucional de conformidade e segunda linha de defesa, sem substituir gestão local, Ouvidoria, RH, Segurança ou canais previstos na CCT."
   ],
   "word_count": 2629,
   "editorial_audit": {
