@@ -354,3 +354,106 @@ O eixo regulatório e institucional fica mais forte e menos dependente da volume
 - Publicação: NÃO REALIZADA.
 - Próximo gate: revisão humana da v3 antes da Fase 05/05.
 
+---
+
+## 12. Quarta auditoria — papel institucional da gestão nas políticas dos bancos
+
+**Data:** 19/09/2026  
+**Objeto:** aprofundamento autorizado após a terceira versão.
+
+### 12.1. Achado regulatório consolidado
+
+A Resolução CMN nº 4.949/2021 não transforma o empregado de atendimento em destinatário final das reclamações.
+
+Os arts. 7º a 9º exigem, no plano institucional:
+- gestão do atendimento;
+- registro e tratamento de demandas;
+- mediação de conflitos;
+- equilíbrio entre metas/incentivos e valores;
+- monitoramento e métricas;
+- correção de deficiências;
+- auditoria periódica dos mecanismos.
+
+**Conclusão editorial autorizada:** reclamações e conflitos pertencem à governança do banco.
+
+### 12.2. Banco do Brasil — política integral localizada
+
+A política pública integral foi localizada em documento institucional, com última revisão indicada em 10/10/2024.
+
+Achados:
+- Dicoi como área responsável;
+- treinamento dos funcionários;
+- mecanismos de gestão obrigatórios em todas as unidades envolvidas;
+- atendimento presencial reconhecido;
+- Ouvidoria Externa com função de mediação;
+- monitoramento por satisfação, reclamações e indicadores;
+- ambiente inclusivo e seguro envolvendo clientes e funcionários;
+- estímulo à comunicação do cliente;
+- prioridade ao diálogo e à solução rápida das demandas.
+
+**Correção da auditoria anterior:** deixa de valer a afirmação de que a versão integral atual não havia sido localizada. O documento integral público foi encontrado.
+
+### 12.3. Santander — relação entre reclamações, conflitos e metas
+
+A política integral pública diferencia expressamente:
+- 5.7 Gestão do Atendimento Presencial;
+- 5.8 Mediação de Conflitos;
+- 5.11 Sistemas de Metas e Incentivos ao Desempenho.
+
+Achados:
+- reclamações presenciais devem ser protocoladas e tratadas formalmente;
+- conflitos devem ser mediados institucionalmente;
+- incentivos devem alinhar acionistas, funcionários e clientes;
+- remuneração variável deve combinar critérios quantitativos e qualitativos;
+- qualidade operacional, riscos, atendimento e satisfação compõem o desenho;
+- áreas administrativas, de negócios e atendimento integram a primeira linha de defesa.
+
+**Conclusão editorial autorizada:** a política contradiz uma leitura de produtividade fundada exclusivamente em quantidade e reforça que conflito com cliente possui governança institucional.
+
+### 12.4. Itaú — reclamações como diagnóstico organizacional
+
+O Relatório de Ouvidoria 1S2025 descreve:
+- mediação de conflitos;
+- capacitação e monitoramento;
+- incentivos e contra incentivos;
+- monitoramento de reclamações;
+- análise de causa-raiz;
+- planos de ação;
+- avaliação de efetividade;
+- atuação conjunta de Ouvidoria, Atendimento, Negócios, Operações e Tecnologia;
+- participação da Ouvidoria em fóruns de alta gestão.
+
+**Conclusão editorial autorizada:** reclamação é insumo para diagnóstico e melhoria de processo, não ordem direta ao empregado.
+
+### 12.5. CAIXA
+
+Mantidos os achados da política pública de dezembro de 2024:
+- equilíbrio entre metas/incentivos e diretrizes da política;
+- tratamento de desvios;
+- distribuição de responsabilidades por áreas de rede, clientes/canais, pessoas e outras diretorias.
+
+### 12.6. Bradesco
+
+Permanece a limitação probatória:
+- política confirmada;
+- princípios gerais documentados;
+- texto integral autônomo não recuperado;
+- não atribuir cláusulas específicas de metas, mediação ou papel de gestor sem fonte adicional.
+
+### 12.7. Papel da gestão — formulação final auditada
+
+**Não afirmar:**
+“Existe regra expressa universal que obriga o gerente a intervir imediatamente sempre que cliente criticar produtividade.”
+
+**Pode-se afirmar:**
+A arquitetura regulatória e as políticas institucionais tornam a reclamação e o conflito matéria de gestão do banco. Quando a crítica se transforma em exposição individualizada, hostilidade ou fiscalização pública de produtividade, é institucionalmente coerente que a gestão assuma a interlocução, preserve o trabalhador da discussão pública de desempenho e conduza a demanda pelos canais e procedimentos da instituição.
+
+### 12.8. Estado editorial
+
+- Pesquisa v4: concluída.
+- Markdown v4: atualizado.
+- HTML v4: sincronizado.
+- JSON: schema 1.3 / status V4.
+- Publicação: NÃO REALIZADA.
+- Gate: revisão humana antes da Fase 05/05.
+
