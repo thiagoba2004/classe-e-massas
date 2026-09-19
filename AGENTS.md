@@ -243,6 +243,8 @@ Cada fase deve indicar também estado, objetivo e gate quando aplicável.
 
 A conclusão técnica de uma tarefa não altera automaticamente o estado da fase; o avanço depende do gate correspondente.
 
+Estratégias anteriores à v2.1 não terão o histórico reescrito. Porém, ao serem retomadas, o Plano de Fases vigente deve ser normalizado para `phase_number` + `phase_total` + `phase_code` + `phase_name` antes de nova execução substantiva. A normalização deve apoiar-se em evidência persistente e nunca em numeração inventada retroativamente.
+
 ---
 
 ## 7. Persistência, write-through e proteção contra perda
