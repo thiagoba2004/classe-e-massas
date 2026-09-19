@@ -1,221 +1,413 @@
-Trabalho Bancário • Produtividade • Saúde e Segurança • Direitos do Consumidor
+Trabalho Bancário • Transformação Digital • Produtividade • Saúde e Segurança • Direitos do Consumidor
 
-# Quando o cliente vira fiscal do trabalhador: quem responde pela fila e quem controla a produtividade?
+# Quando o cliente vira fiscal dos trabalhadores bancário: transformação digital, reestruturação e controle informal da produtividade
 
-*O consumidor tem direito de reclamar da demora e da qualidade do serviço. Isso não o transforma em gestor da força de trabalho. A CCT Fenaban 2026/2028, a NR-1, a CLT e a jurisprudência ajudam a delimitar o problema — e mostram por que o banco não deve deixar o empregado sozinho diante da exposição pública.*
+*O consumidor tem direito de reclamar da demora e da qualidade do serviço. Isso não o transforma em gestor da força de trabalho. Num setor em acelerada digitalização, com redução de postos e da rede física, a pressão do público pode ser deslocada da organização do serviço para o trabalhador individual — justamente quando o atendimento presencial se torna relativamente mais complexo.*
 
-Artigo de análise e intervenção • 19 de setembro de 2026 • rascunho para revisão humana
+Artigo de análise e intervenção • 19 de setembro de 2026 • segunda versão para revisão humana
 
 Em setembro de 2026, um trabalhador relatou ao **Classe e Massas** uma cena ocorrida em uma instituição bancária. Um cliente, em voz alta, reclamou que determinado empregado havia atendido apenas uma pessoa durante cerca de uma hora. Em seguida, afirmou que aquele funcionário deveria atender mais clientes.
 
-À primeira vista, a situação pode parecer apenas mais um conflito provocado por fila e demora. Mas ela contém uma questão muito maior:
+À primeira vista, a situação parece apenas mais um conflito provocado por fila e demora. Mas ela contém uma questão muito maior:
 
-> **quem tem o direito de avaliar publicamente a produtividade de um trabalhador?**
+> **quem tem o direito de avaliar publicamente a produtividade de um trabalhador — e por que a insatisfação com a organização do serviço acaba recaindo sobre quem está no atendimento?**
 
-O cliente tem direito de reclamar do serviço. Pode questionar a demora, exigir informações, procurar a gerência e utilizar os canais de atendimento e defesa do consumidor. O que precisa ser distinguido é outra coisa: transformar a insatisfação com o serviço em julgamento público sobre a produtividade individual de um empregado específico.
+A pergunta se torna ainda mais importante diante da transformação digital do sistema financeiro. Os bancos deslocam volumes crescentes de operações para canais digitais, reduzem e reconfiguram a rede física, alteram perfis ocupacionais e mantêm forte pressão por eficiência e resultados. Nesse ambiente, o cliente que espera pode acabar funcionando, ainda que involuntariamente, como **fiscal informal da produtividade individual**.
 
-Essa diferença é decisiva.
+Este artigo não pretende opor consumidores a trabalhadores. Pretende justamente fazer o contrário: recolocar a responsabilidade onde ela pertence.
 
 ## 1. Reclamar do banco é um direito. Fiscalizar publicamente o empregado é outra coisa
 
-O Código de Defesa do Consumidor inclui expressamente as atividades bancárias, financeiras e de crédito no conceito de serviço e atribui ao fornecedor responsabilidade pela prestação do serviço. A relação de consumo se estabelece entre o cliente e a instituição financeira.
+O Código de Defesa do Consumidor inclui atividades bancárias, financeiras e de crédito no conceito de serviço e atribui ao fornecedor responsabilidade pela prestação adequada do serviço.
 
-Isso significa que a reclamação sobre fila, demora, qualidade do atendimento ou organização do serviço deve ser dirigida **à instituição que fornece o serviço**.
+Portanto, o cliente tem direito de reclamar da fila, do tempo de espera, da qualidade do atendimento e da organização do serviço. Pode procurar a gerência, a ouvidoria e os canais de defesa do consumidor.
 
-Já a relação de trabalho é outra. A Consolidação das Leis do Trabalho atribui ao empregador a direção da prestação pessoal de serviços. O cliente não integra essa estrutura hierárquica e não adquire, por utilizar o serviço, poder para dirigir o trabalho, impor ritmo de produção ou definir quantos clientes um empregado deveria atender por hora.
+Mas existe outra relação jurídica no mesmo espaço: a relação de trabalho entre o empregado e o banco.
 
-Isso não torna ilícita, automaticamente, toda opinião crítica de um cliente. Mas impede que essa opinião seja confundida com uma avaliação legítima e competente de desempenho.
+A Consolidação das Leis do Trabalho (CLT) atribui ao empregador a direção da prestação pessoal dos serviços. O cliente não integra essa estrutura hierárquica. Utilizar o serviço não lhe transfere poder para dirigir o trabalho, fixar ritmo produtivo ou determinar quantas pessoas determinado empregado deveria atender em uma hora.
+
+Isso não significa que o cliente esteja proibido de emitir uma opinião crítica. Significa que **opinião não se confunde com poder de gestão nem com avaliação tecnicamente suficiente de desempenho**.
 
 > **Direito de reclamar do serviço não é poder de gestão sobre o trabalhador.**
 
-## 2. “Um cliente em uma hora” não é uma medida suficiente de produtividade
+## 2. “Um cliente em uma hora” não mede, sozinho, produtividade
 
-Há um erro metodológico na frase aparentemente simples: “ele só atendeu um cliente em uma hora”.
+A frase parece objetiva: “atendeu apenas um cliente em uma hora”.
 
-O cliente enxerga a duração do atendimento. Não enxerga necessariamente o conteúdo integral do trabalho executado.
+Mas ela mede apenas uma variável visível: o tempo.
 
-Uma operação bancária pode exigir conferência documental, validação de identidade, prevenção a fraudes, análise de inconsistências cadastrais, cumprimento de regras regulatórias, correção de erros sistêmicos, contato com áreas de suporte, atendimento de pessoa idosa ou vulnerável, esclarecimento detalhado de obrigações contratuais ou várias tarefas que não aparecem para quem observa de fora.
+Quem observa de fora pode não saber se o atendimento exigiu conferência documental, validação de identidade, prevenção a fraudes, atualização cadastral, correção de inconsistências, cumprimento de exigências regulatórias, contato com áreas de suporte, análise de crédito, renegociação, atendimento de pessoa vulnerável, solução de falha sistêmica ou qualquer outra tarefa que não aparece na simples contagem de senhas.
 
-O número bruto de clientes atendidos por hora pode ser um dado. Não é, sozinho, prova de produtividade baixa.
+Além disso, o bancário pode estar impedido de explicar publicamente por que o atendimento anterior demorou. Não deve revelar dados, operações, dívidas, problemas ou circunstâncias de outro cliente apenas para defender sua própria imagem.
 
-Há ainda um limite importante: o bancário não pode se defender de uma acusação pública expondo o atendimento anterior. Ele não deve revelar dados, operações ou circunstâncias de outro cliente apenas para explicar por que aquele atendimento demorou.
+Surge uma assimetria: o trabalhador é julgado publicamente a partir de informação parcial e, por dever de sigilo, pode não poder apresentar justamente os elementos que revelariam a complexidade do trabalho.
 
-Cria-se, portanto, uma situação desigual: o trabalhador é julgado em público por uma informação parcial e, ao mesmo tempo, pode estar impedido de revelar justamente os elementos que demonstrariam a complexidade do trabalho realizado.
+O número bruto de clientes atendidos por hora pode ser um dado operacional. **Não é, isoladamente, prova de baixa produtividade.**
 
-## 3. A CCT 2026/2028 já contém salvaguardas importantes
+## 3. A própria transformação digital torna essa contagem ainda mais frágil
 
-A Convenção Coletiva de Trabalho (CCT) Fenaban 2026/2028 oferece elementos diretamente relevantes para esse debate.
+A Federação Brasileira de Bancos (Febraban) informa, na Pesquisa de Tecnologia Bancária 2026, que **83% das transações bancárias são realizadas em canais digitais** e **78% pelo celular**. O orçamento tecnológico dos bancos deve alcançar R$ 50,4 bilhões em 2026, crescimento de 58% em cinco anos.
 
-Na versão integral assinada entre a Federação Nacional dos Bancos (Fenaban) e a Confederação Nacional dos Trabalhadores nas Empresas de Crédito (Contec), a **Cláusula 39 — Monitoramento de Resultados** estabelece que os bancos não devem expor publicamente o ranking individual de seus empregados.
+A pesquisa de 2025 já apontava que os canais físicos — agências, caixas eletrônicos, correspondentes e contact centers — representavam apenas 5% das transações. Nas agências, o volume caiu 14% em relação ao ano anterior.
 
-Essa cláusula não proíbe diretamente a fala espontânea de um cliente. Seu destinatário é o banco. Mas ela estabelece um parâmetro coletivo importante: **a exposição pública individualizada de desempenho é incompatível com a forma de monitoramento de resultados negociada para a categoria**.
+Mas há um detalhe decisivo: a própria Febraban afirma que as agências continuam relevantes para operações **mais complexas e consultivas**, como contratação de crédito, renegociação e planejamento financeiro.
 
-A **Cláusula 39-A — Gestão Ética da Tecnologia na Relação de Trabalho** reforça a proteção à privacidade, à intimidade e à dignidade do trabalhador e determina que avaliações, advertências ou medidas disciplinares não sejam aplicadas de forma exclusivamente automatizada, exigindo avaliação humana competente.
+Isso muda completamente a leitura da cena que originou este artigo.
 
-Novamente, não se trata de equiparar um cliente a um algoritmo ou a um gestor. O ponto é outro: se até os mecanismos formais de fiscalização do banco estão submetidos a limites de proporcionalidade, transparência e dignidade, seria contraditório naturalizar um julgamento público informal baseado apenas em “quantos clientes por hora” um empregado aparenta atender.
+Se as operações simples migram em massa para aplicativos e internet banking, é razoável esperar que uma parcela maior dos clientes que permanece no atendimento presencial procure exatamente aquilo que não conseguiu resolver sozinho: casos excepcionais, complexos, documentais, consultivos ou sensíveis.
 
-## 4. A CCT trata expressamente de atos praticados por clientes
+> **Quanto mais o simples migra para o digital, menos sentido faz usar apenas “clientes atendidos por hora” para medir a produtividade do atendimento presencial.**
 
-O dado mais forte aparece nas cláusulas sobre **assédio moral, sexual e outras formas de violência no trabalho**.
+Fontes:
+- https://portal.febraban.org.br/noticia/4485/pt-br/
+- https://portal.febraban.org.br/noticia/4310/pt-br
+- https://portal.febraban.org.br/paginas/1117/pt-br/pesquisa
 
-A **Cláusula 87** registra o repúdio das partes a essas formas de violência.
+## 4. A digitalização ocorre junto com redução e reconfiguração do emprego
 
-A **Cláusula 88** determina que o banco forneça aos empregados informações sobre esses fenômenos e orientações sobre atitudes que podem ser adotadas diante dessas circunstâncias.
+A transformação não aparece apenas no canal utilizado pelo cliente.
 
-A **Cláusula 89** vai além: o banco deve disponibilizar canal de denúncias inclusive quando o caso envolver **ato praticado por cliente**.
+A **Pesquisa do Emprego Bancário nº 38**, produzida pelo Departamento Intersindical de Estatística e Estudos Socioeconômicos (Dieese) com dados do Novo Caged, registrou a eliminação de **8.910 postos no setor bancário em 2025**.
 
-A **Cláusula 90** prevê canal de apoio. A **Cláusula 91** permite que o empregado informe ao banco suas expectativas quanto ao encaminhamento da situação. As cláusulas seguintes tratam de prazo, confidencialidade e acompanhamento. A **Cláusula 95** prevê ainda a possibilidade de canal específico do sindicato profissional, com encaminhamento da denúncia ao banco.
+A decomposição por área ocupacional é reveladora:
 
-Isso não autoriza classificar automaticamente qualquer reclamação áspera como assédio moral ou violência no trabalho. A qualificação depende da forma, intensidade, conteúdo, contexto, eventual repetição, humilhação, ameaça e outras circunstâncias.
+- Bancária/Financeira: **-9.277**;
+- Administrativa e afins: **-589**;
+- Atendimento ao público: **-44**;
+- Caixa de Banco/Escriturário: **-132**;
+- Tecnologia da Informação: **+845**.
 
-Mas elimina uma ideia equivocada: **a de que tudo o que um cliente faz contra um empregado seria problema privado entre os dois, sem responsabilidade institucional do banco**.
+Não se trata, portanto, apenas de dizer que “a tecnologia elimina trabalho”. Os dados mostram uma **reconfiguração do trabalho**: ocupações bancárias tradicionais perdem postos enquanto Tecnologia da Informação cresce.
 
-A própria CCT reconhece que atos de clientes podem ingressar no sistema de prevenção, acolhimento e apuração relacionado ao ambiente de trabalho.
+Na Campanha Nacional de 2026, o movimento sindical apresentou à Fenaban estudo do Dieese segundo o qual, entre janeiro de 2015 e maio de 2026, o setor teria reduzido aproximadamente **93,3 mil postos** e encerrado **9,5 mil agências**, cerca de 42% da rede física. Esses números devem ser corretamente atribuídos ao estudo apresentado pela representação dos trabalhadores, e não ao Banco Central sem a reconstrução integral de sua série estatística.
 
-## 5. O trabalhador deve ficar calado?
+O Banco Central, por sua vez, mantém série oficial específica sobre a quantidade de agências do segmento bancário, identificada como SGS 24936.
 
-Não existe razão para transformar silêncio e submissão em regra de conduta.
+Fontes:
+- https://contrafcut.com.br/data/files/39/62/90/E0/A043C9108D3E10C9820808A8/PEB%2038_Resultados%202025%20VF%20_1_.pdf
+- https://dadosabertos.bcb.gov.br/dataset/24936-quantidade-de-agencias-do-segmento-bancario-no-brasil
+- https://spbancarios.com.br/07/2026/comando-nacional-exige-suspensao-das-demissoes-e-do-fechamento-de-agencias
 
-O empregado pode estabelecer um limite profissional sem entrar em confronto pessoal. Uma resposta possível seria:
+## 5. Reduzir estrutura e manter resultados pode produzir intensificação — mas a causalidade precisa ser demonstrada
+
+É tentador resumir o processo numa fórmula automática:
+
+> digitalização + menos empregados = intensificação do trabalho.
+
+A realidade exige mais rigor.
+
+Os dados comprovam forte digitalização, redução de empregos bancários tradicionais, reconfiguração ocupacional e retração da rede física. Eles não provam, sozinhos, que todo banco, toda agência ou todo trabalhador esteja submetido ao mesmo grau de intensificação.
+
+A intensificação aparece, porém, como questão concreta nas pesquisas da categoria.
+
+A Consulta Nacional dos Bancários de 2026 recebeu **54.952 respostas**. Segundo a apresentação feita por técnica do Dieese, **72,6%** afirmaram que o ambiente de trabalho nos bancos traz impactos negativos à saúde mental. Na Campanha Nacional, metas abusivas, emprego, saúde e impacto das inovações tecnológicas foram colocados entre os temas prioritários. A representação sindical relacionou o quadro a gestão, metas, pressão e intensificação do trabalho.
+
+Isso permite uma formulação mais precisa:
+
+> **a combinação de redução estrutural, maior complexidade relativa do presencial e pressão por resultados cria condições objetivas para intensificação; a extensão e os mecanismos concretos dessa intensificação devem ser verificados em cada organização e processo de trabalho.**
+
+Fontes:
+- https://spbancarios.com.br/06/2026/bancarios-entregam-bancos-pauta-de-reivindicacoes
+- https://www.bancariosce.org.br/consulta-nacional-dos-bancarios-2026-mostra-forca-da-categoria-e-aponta-prioridades-para-a-campanha-nacional/
+
+## 6. A CCT Fenaban 2026/2028 limita a exposição individualizada
+
+A Convenção Coletiva de Trabalho (CCT) Fenaban 2026/2028 fornece elementos diretamente relacionados ao episódio.
+
+A **Cláusula 39 — Monitoramento de Resultados** estabelece que os bancos não devem expor publicamente o ranking individual de seus empregados.
+
+A regra é dirigida ao banco, não ao cliente. Seria incorreto afirmar que essa cláusula, sozinha, torna ilícita uma fala espontânea do consumidor.
+
+Mas o parâmetro coletivo é significativo: **o próprio empregador, que possui poder diretivo, está submetido a limite contra a exposição pública individualizada de resultados**.
+
+A **Cláusula 39-A — Gestão Ética da Tecnologia na Relação de Trabalho** acrescenta que fiscalização e tratamento de dados devem observar finalidade, proporcionalidade, transparência, privacidade, intimidade e dignidade. Avaliações, advertências e medidas disciplinares não podem ser aplicadas exclusivamente por processamento automatizado, exigindo avaliação humana competente.
+
+Se até os mecanismos formais de controle empresarial são submetidos a limites de dignidade e proporcionalidade, não faz sentido tratar como normal um “placar” informal construído no salão de atendimento por clientes contando quantas pessoas cada bancário atende.
+
+## 7. A CCT reconhece expressamente atos praticados por clientes
+
+As cláusulas sobre **assédio moral, sexual e outras formas de violência no trabalho** avançam ainda mais.
+
+A **Cláusula 87** registra o repúdio a essas formas de violência.
+
+A **Cláusula 88** determina que o banco forneça aos empregados informações e orientações sobre atitudes que podem ser adotadas diante dessas circunstâncias.
+
+A **Cláusula 89** determina a existência de canal de denúncias que alcance também **ato praticado por cliente**.
+
+As cláusulas seguintes tratam de apoio, expectativas do empregado quanto ao encaminhamento, prazos, confidencialidade e possibilidade de canal sindical específico.
+
+Isso não significa que uma reclamação ríspida seja automaticamente assédio moral ou violência. A qualificação depende de conteúdo, intensidade, contexto, repetição, humilhação, ameaça e outros elementos.
+
+Mas a CCT elimina uma premissa equivocada: **o que um cliente faz contra um trabalhador não é necessariamente assunto privado entre os dois**.
+
+O banco possui deveres institucionais de prevenção, orientação, acolhimento e tratamento.
+
+Fonte:
+- https://www.feebpr.org.br/images/files/documents/2026/09/10826789046aabd98331cc2.pdf
+
+## 8. Os próprios códigos de ética dos bancos contradizem a lógica do “resultado a qualquer custo”
+
+A pesquisa examinou documentos de cinco bancos de grande presença nacional: Banco do Brasil, CAIXA, Itaú Unibanco, Bradesco e Santander.
+
+As redações variam, mas há uma convergência: **resultado, eficiência e foco no cliente aparecem acompanhados de dignidade, respeito, segurança, integridade e ambiente de trabalho saudável.**
+
+### Banco do Brasil
+
+O Código de Ética disponibilizado pelo BB é particularmente expressivo.
+
+O documento estabelece ambiente digno e saudável, cultura de respeito e, no item 1.8, compromete-se com ambiente seguro e inclusivo em que a **segurança psicológica** seja prioritária e essencial inclusive na interação com **clientes e usuários**.
+
+Também determina a prevenção de constrangimentos e prejuízos à imagem dos funcionários.
+
+No capítulo destinado às lideranças, o item 2.21 exige comunicação alinhada à estratégia do banco buscando **equilíbrio entre pessoas, processos e resultados**, com cuidado para clientes, funcionários, sociedade e acionistas. O mesmo bloco recomenda diálogo respeitoso, empatia e Comunicação Não Violenta e, ao mesmo tempo, estimula processos eficientes e soluções digitais para resultados consistentes.
+
+É difícil encontrar síntese mais direta para o problema deste artigo: **digitalização e resultados não substituem pessoas; precisam ser equilibrados com elas.**
+
+Fontes:
+- https://ri.bb.com.br/o-banco-do-brasil/etica/
+- https://www.bb.com.br/docs/pub/siteEsp/ri/pt/dce/dwn/Codigoetica.pdf
+
+### CAIXA
+
+A CAIXA organiza seu Código em valores como respeito, honestidade, compromisso, transparência e responsabilidade. Materiais institucionais associados afirmam tratamento com ética, justiça, respeito, cortesia, igualdade e dignidade.
+
+Sua política de prevenção ao assédio acrescenta que saúde e segurança são pressupostos da organização laboral e dos métodos de gestão, reconhece o valor social do trabalho, protege intimidade, honra e imagem e estabelece cultura de respeito mútuo, acolhimento e soluções dialogadas para conflitos.
+
+Fontes:
+- https://www.caixa.gov.br/sobre-a-caixa/etica/Paginas/default.aspx
+- https://www.caixa.gov.br/Downloads/caixa-governanca/Politica-de-Combate-ao-Assedio-Moral-Sexual-Discriminacao.pdf
+
+### Itaú Unibanco
+
+O próprio Itaú descreve o desafio de atender clientes em cenário de transformações tecnológicas e de hábitos de consumo, mas afirma que resultados devem ser obtidos de forma ética e alinhada aos valores e que organizações perenes não admitem **ganho a qualquer custo**.
+
+Seu Código declara promover relações de trabalho baseadas em respeito e confiança e prevenir discriminação, assédio, preconceito e condições degradantes de trabalho.
+
+Fontes:
+- https://www.itau.com.br/relacoes-com-investidores/integridade/relacoes-com-orgaos-publicos/
+- Código de Ética e Conduta Itaú Unibanco disponibilizado no site institucional.
+
+### Bradesco
+
+O Bradesco apresenta seu Código de Conduta Ética como principal direcionador das interações e decisões de administradores, funcionários e demais públicos ligados à organização.
+
+O conjunto examinado enfatiza valorização das pessoas, dignidade, prevenção de desrespeito e intimidação, preservação da confiança e harmonia nas relações internas e externas e manutenção de ambiente de trabalho seguro.
+
+Fonte:
+- https://www.bradescori.com.br/o-bradesco/governanca-corporativa/compliance-e-etica/codigos-de-etica/
+
+### Santander
+
+O Código do Santander afirma pretender garantir um lugar seguro para trabalhar e proíbe abuso, intimidação, assédio, desrespeito ou atitude que afete a dignidade profissional. Quem presencia ou vivencia situação dessa natureza é orientado a acionar Canal Aberto, gestão, Compliance ou Pessoas.
+
+Fontes:
+- https://www.santander.com.br/sustentabilidade/posicionamento/politicas
+- https://cms.santander.com.br/sites/WPS/documentos/arq-sustentabilidade-politicas-etica-listadownload-1/25-04-22_193005_codigo-de-conduta-etica-santander-03-2025.pdf
+
+### O ponto comum
+
+Nenhum desses códigos transforma o cliente em supervisor da força de trabalho.
+
+Ao contrário, os próprios bancos afirmam que desempenho e relacionamento com clientes devem coexistir com respeito, dignidade, segurança e integridade.
+
+A pergunta que se impõe é incômoda:
+
+> **se o código corporativo rejeita intimidação, constrangimento e resultado a qualquer custo, por que um trabalhador deveria permanecer passivo quando a pressão por produtividade é exercida publicamente por um cliente?**
+
+## 9. O CMN impõe equilíbrio entre metas, desempenho e valores organizacionais
+
+Há um achado regulatório ainda mais forte.
+
+A **Resolução CMN nº 4.949/2021**, que disciplina o relacionamento das instituições financeiras com clientes e usuários, determina que os bancos mantenham política institucional de relacionamento, com diretrizes, objetivos estratégicos, valores, treinamento e responsabilidades.
+
+O art. 7º inclui expressamente na política:
+- gestão do atendimento;
+- registro e tratamento de demandas;
+- mediação de conflitos.
+
+E o **art. 8º** estabelece que as instituições devem:
+
+> **promover o equilíbrio entre metas de resultados e incentivos associados ao desempenho de funcionários e correspondentes e as diretrizes e valores organizacionais da política de relacionamento**, tratando adequadamente eventuais desvios.
+
+É importante compreender o alcance correto dessa norma. Ela é uma regra de relacionamento com clientes, não uma norma trabalhista de saúde ocupacional.
+
+Mas justamente por isso o achado é poderoso.
+
+O Conselho Monetário Nacional não concebe a meta como valor absoluto. A própria regulação exige equilíbrio entre resultado, incentivos, valores organizacionais e política de relacionamento.
+
+A lógica “atenda mais pessoas, não importa como” não corresponde ao desenho regulatório.
+
+Fonte:
+- https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=4949&tipo=Resolu%C3%A7%C3%A3o+CMN
+
+## 10. O regulador cria canais para a reclamação — não uma chefia exercida pelo cliente
+
+A mesma Resolução CMN nº 4.949/2021 exige que os bancos possuam rotinas para registrar e tratar demandas e mediar conflitos.
+
+Além disso, a **Resolução CMN nº 4.860/2020** disciplina a ouvidoria. O Banco Central informa que esse é o canal indicado para reclamações e sugestões sobre o relacionamento com bancos e outras instituições supervisionadas.
+
+Isso ajuda a responder à pergunta prática: para onde deve ir a insatisfação do cliente?
+
+**Para a instituição.**
+
+O sistema regulatório constrói canais de reclamação. Não constrói uma relação de subordinação entre cliente e empregado.
+
+Fonte:
+- https://www.bcb.gov.br/meubc/lista_ouvidorias
+
+## 11. Para o CMN, pessoas, clientes, tecnologia e trabalho também são riscos institucionais
+
+A **Resolução CMN nº 4.557/2017**, em sua versão vigente, define risco operacional como a possibilidade de perdas decorrentes de eventos externos ou falhas, deficiências ou inadequações de processos internos, pessoas ou sistemas.
+
+Entre os eventos listados estão:
+- demandas trabalhistas e segurança deficiente do local de trabalho;
+- práticas inadequadas relativas a clientes, produtos e serviços;
+- falhas em sistemas, processos ou infraestrutura de Tecnologia da Informação;
+- falhas na execução ou gerenciamento das atividades.
+
+No gerenciamento de risco social, introduzido pela Resolução CMN nº 4.943/2021, aparecem entre os exemplos atos de assédio e a não observância da legislação trabalhista, inclusive saúde e segurança.
+
+O regulador não está dizendo que uma reclamação de cliente seja um “risco operacional” automaticamente.
+
+O que a norma demonstra é algo mais estrutural: **pessoas, processos, clientes, tecnologia, segurança do trabalho e direitos sociais fazem parte da governança institucional de riscos**.
+
+Não é coerente tratar o conflito produzido no atendimento como se fosse problema exclusivamente pessoal do trabalhador que está diante do público.
+
+## 12. O trabalhador deve ficar calado?
+
+Não.
+
+O empregado pode estabelecer um limite profissional sem transformar a situação em confronto.
+
+Uma formulação possível é:
 
 > **“Sua reclamação sobre o tempo de espera pode ser encaminhada à gerência e aos canais do banco. Eu não posso expor o conteúdo de atendimentos de outros clientes. Peço que a avaliação do serviço seja dirigida à instituição e que não sejam feitas avaliações públicas sobre a minha produtividade individual.”**
 
-O objetivo não é “vencer” uma discussão.
+O objetivo não é vencer uma discussão.
 
-É mudar o lugar da discussão.
+É **mudar o lugar institucional da discussão**.
 
-Sai o julgamento público do empregado e entra a responsabilidade institucional do banco pelo serviço prestado.
+O trabalhador não precisa divulgar suas metas, explicar indicadores, revelar atendimentos anteriores ou aceitar um interrogatório público sobre seu ritmo de trabalho.
 
-O trabalhador não precisa explicar suas metas, defender seus indicadores, revelar atendimentos anteriores ou aceitar ser interrogado em público sobre seu ritmo de trabalho.
+## 13. O que fazer no momento da ocorrência
 
-## 6. O que fazer no momento da ocorrência
-
-Uma resposta proporcional pode seguir uma sequência simples:
+Uma reação proporcional pode seguir esta sequência:
 
 1. **estabelecer o limite**, de forma calma e objetiva;
-2. **redirecionar a reclamação à instituição**, oferecendo acesso à gerência ou ao canal adequado;
-3. **preservar o sigilo**, sem revelar informações de outros clientes para justificar a duração do atendimento;
-4. **acionar a chefia**, para que a instituição assuma a interlocução;
-5. **solicitar intervenção da gestão para fazer cessar a exposição**, caso a reclamação evolua para humilhação, hostilidade ou intimidação;
-6. **acionar segurança**, quando houver escalada, ameaça ou risco;
-7. **registrar o ocorrido**, anotando horário, local, conteúdo essencial, testemunhas e providências tomadas;
-8. **utilizar os canais previstos na CCT**, inclusive o canal interno e, quando disponível, o canal sindical, se a situação tiver características de assédio ou outra forma de violência.
+2. **redirecionar a reclamação à instituição**;
+3. **preservar o sigilo** de outros clientes;
+4. **acionar a chefia**, para que o banco assuma a interlocução;
+5. **solicitar intervenção da gestão para fazer cessar a exposição**, se houver humilhação, hostilidade ou intimidação;
+6. **acionar segurança**, diante de ameaça ou escalada relevante;
+7. **registrar o episódio**, com horário, local, conteúdo essencial, testemunhas e providências;
+8. **utilizar os canais previstos na CCT**, inclusive o canal sindical, quando a situação tiver características de assédio ou outra violência;
+9. **tratar recorrência como elemento para avaliação de riscos psicossociais**.
 
-Em situações de risco grave e iminente à vida ou à saúde, a Norma Regulamentadora nº 1 (NR-1) prevê o direito de interrupção da atividade, com comunicação imediata ao superior. Esse direito não deve ser banalizado para qualquer discussão verbal; pressupõe situação efetivamente grave.
+Em situação de risco grave e iminente à vida ou à saúde, a NR-1 prevê o direito de interrupção da atividade, com comunicação imediata ao superior. Isso não deve ser banalizado para qualquer discussão verbal.
 
-## 7. A gestão pode assistir passivamente?
+## 14. A gestão pode assistir passivamente?
 
-Quanto mais a situação ultrapassa a reclamação sobre o serviço e passa a atingir diretamente a dignidade do empregado, menos defensável se torna a passividade gerencial.
+Quanto mais a situação deixa de ser reclamação sobre o serviço e passa a atingir diretamente a dignidade do empregado, menos defensável se torna a passividade institucional.
 
-Não foi localizada na CCT uma frase literal determinando: “o gestor deve intervir imediatamente sempre que um cliente criticar a produtividade de um empregado”. Seria incorreto inventar essa regra.
+Não foi localizada uma cláusula da CCT com a frase literal “o gestor deve intervir imediatamente sempre que cliente criticar a produtividade”. O artigo não deve inventar essa regra.
 
-Mas o sistema jurídico aponta para uma responsabilidade de proteção.
+Mas o conjunto normativo aponta para dever de proteção.
 
-A Constituição assegura aos trabalhadores a redução dos riscos inerentes ao trabalho. O art. 157 da CLT atribui às empresas o dever de cumprir e fazer cumprir as normas de segurança e saúde no trabalho. A NR-1 determina o gerenciamento dos riscos ocupacionais e, desde 26 de maio de 2026, inclui expressamente os fatores de risco psicossociais relacionados ao trabalho.
+A Constituição assegura redução dos riscos inerentes ao trabalho. O art. 157 da CLT atribui às empresas deveres de saúde e segurança. A NR-1 exige gerenciamento dos riscos ocupacionais, incluindo fatores psicossociais. A CCT cria canais específicos para atos praticados por clientes. Os códigos de ética dos próprios bancos exigem respeito e dignidade.
 
-A própria CCT cria deveres de informação, canal de denúncia, acolhimento e acompanhamento para situações de assédio e outras violências — inclusive atos de clientes.
+A consequência prática é que a gestão deve **assumir a reclamação institucional** e não deixar o empregado sozinho, no salão, defendendo a própria produtividade.
 
-A consequência prática é clara: **o gestor deve assumir a reclamação institucional e impedir que o empregado fique sozinho tentando defender sua produtividade diante do público**.
+Isso não significa expulsar automaticamente o cliente.
 
-Isso não significa expulsar automaticamente o consumidor. Significa organizar a situação.
+Significa impedir que uma reclamação legítima se transforme num tribunal improvisado sobre o trabalhador.
 
-A gestão pode dizer que a reclamação sobre espera será recebida, verificar o problema do serviço, encaminhar o cliente e, simultaneamente, estabelecer que a avaliação individual do empregado não será realizada no salão de atendimento.
+## 15. O TST já reconheceu dever patronal diante de agressão de cliente
 
-## 8. O TST já reconheceu o dever de proteção diante de agressão de cliente
+No processo **RR-697-96.2019.5.10.0019**, a Terceira Turma do Tribunal Superior do Trabalho analisou situação muito mais grave: um agente de aeroporto agredido fisicamente por cliente.
 
-Um precedente do Tribunal Superior do Trabalho (TST) ajuda a delimitar a responsabilidade empresarial em situação mais grave.
+O TST reconheceu o dever patronal de proteger a dignidade do trabalhador e de adotar meios de segurança para prevenir agressões verbais e físicas.
 
-No processo **RR-697-96.2019.5.10.0019**, julgado pela Terceira Turma, um agente de aeroporto foi agredido fisicamente por um cliente durante o trabalho. O TST condenou a empresa e ressaltou o dever patronal de proteger a dignidade dos trabalhadores e adotar meios de segurança para prevenir agressões verbais e físicas.
+O precedente não pode ser equiparado à crítica pública sobre produtividade. A agressão física é fato de gravidade distinta.
 
-O caso não deve ser equiparado ao episódio de uma crítica pública sobre produtividade. A agressão física é situação muito mais grave.
+Sua utilidade é outra: demonstrar que **o fato de a conduta vir de cliente ou terceiro não elimina, por si só, o dever empresarial de proteção**.
 
-O precedente, porém, demonstra um princípio relevante: **o fato de a conduta lesiva ser praticada por cliente ou terceiro não elimina automaticamente o dever de proteção do empregador**.
+Fonte:
+- https://www.tst.jus.br/-/agente-de-aeroporto-agredido-por-cliente-de-companhia-a%C3%A9rea-receber%C3%A1-indeniza%C3%A7%C3%A3o
 
-Quanto maior a hostilidade, a humilhação, a ameaça, a repetição ou o risco previsível, maior a necessidade de intervenção, prevenção e registro.
+## 16. Quando o cliente vira fiscal informal
 
-## 9. NR-1: quando o problema deixa de ser individual
+Agora podemos reconstruir a cadeia inteira.
 
-Um episódio isolado pode ser apenas um conflito circunstancial. Uma sequência de episódios semelhantes pode revelar um problema de organização do trabalho.
+O banco digitaliza.
 
-A nova redação da NR-1 tornou explícita a inclusão dos fatores de risco psicossociais no Gerenciamento de Riscos Ocupacionais (GRO), vigente desde 26 de maio de 2026.
+Operações simples migram para aplicativos.
 
-O manual do Ministério do Trabalho e Emprego cita, entre os exemplos, excesso de demandas, assédio e falta de suporte ou apoio no trabalho. A Fundacentro, ao apresentar suas diretrizes de aplicação da nova NR-1, enfatiza a necessidade de analisar a organização e a gestão do trabalho para construir medidas de proteção.
+A rede física diminui ou é reconfigurada.
 
-Se empregados que atendem o público são reiteradamente expostos a hostilidade, cobranças públicas e conflitos sem apoio da gestão, o problema já não pode ser tratado apenas como “cliente difícil”.
+O emprego bancário tradicional encolhe e muda de composição.
 
-É necessário perguntar se a organização do trabalho está produzindo ou agravando o risco.
+As agências concentram relativamente mais demandas complexas.
 
-## 10. O cliente como fiscal informal da força de trabalho
+A instituição continua buscando eficiência e resultados.
 
-É aqui que o episódio ganha dimensão social.
+O cliente que depende do presencial enfrenta espera.
 
-Na agência bancária coexistem duas relações diferentes:
+Se a organização não assume a responsabilidade pela fila, a frustração encontra o elo mais visível: o trabalhador.
 
-- **cliente ↔ banco:** relação de consumo;
-- **empregado ↔ banco:** relação de trabalho.
+O cliente começa a contar atendimentos, comparar funcionários, exigir aceleração e julgar publicamente desempenho.
 
-O problema começa quando a primeira invade a segunda.
+Ele **não se torna juridicamente chefe**.
 
-O cliente está insatisfeito com a espera. Em vez de a instituição assumir a crítica sobre dimensionamento de pessoal, processos, sistemas e organização do atendimento, a pressão pode ser deslocada diretamente para o trabalhador.
+Mas pode passar a funcionar socialmente como **fiscal informal da força de trabalho**.
 
-O cliente passa a medir tempo, comparar funcionários, exigir aceleração e julgar publicamente desempenho.
+Esse mecanismo é particularmente perverso porque transforma uma consequência potencial da própria reestruturação — espera, sobrecarga, complexidade — em pressão adicional sobre quem permanece trabalhando.
 
-Ele não se torna juridicamente chefe do empregado. Mas pode funcionar, na prática, como **fiscal informal da força de trabalho**, sobretudo quando a gestão se omite.
+> **A organização reduz estruturas; a fila cresce ou se torna mais complexa; e o trabalhador é chamado a responder individualmente por uma decisão que não tomou.**
 
-A pressão do consumidor passa, então, a cumprir uma função disciplinar: acelerar o ritmo do trabalho sem que a ordem tenha sido formalmente emitida pela empresa.
+## Conclusão: consumidor e trabalhador não são adversários
 
-## 11. A OIT chama atenção para os terceiros
+O cliente que espera possui um problema real.
 
-A Organização Internacional do Trabalho (OIT), na Recomendação nº 206 sobre violência e assédio, orienta que avaliações de risco considerem situações envolvendo terceiros como clientes, usuários, prestadores e membros do público.
+Seu tempo importa.
 
-Essa referência internacional é importante porque rompe com a ideia de que a proteção no trabalho deve observar apenas relações entre chefes e subordinados ou entre colegas.
+Seu direito a atendimento adequado importa.
 
-O ambiente de trabalho é também atravessado por terceiros. Em atividades de atendimento ao público, esse contato faz parte do próprio trabalho e precisa ser considerado na prevenção de riscos.
+Mas o trabalhador que atende também possui direitos.
 
-## 12. Quem responde pela fila?
+A solução não é pedir ao consumidor que aceite qualquer demora, nem pedir ao empregado que aceite qualquer constrangimento.
 
-A pergunta central talvez não seja quantos clientes um bancário atende por hora.
+A solução é recolocar cada responsabilidade em seu lugar:
 
-A pergunta é: **quem organizou o serviço para que aquela fila existisse?**
+- o **cliente** reclama do serviço;
+- o **banco** responde pela organização do serviço;
+- a **gestão** recebe a reclamação e protege o ambiente de trabalho;
+- o **trabalhador** presta o serviço sem perder sua dignidade;
+- os **reguladores** exigem políticas de relacionamento, tratamento de demandas, equilíbrio entre metas e valores e gestão de riscos;
+- a **negociação coletiva** cria limites e canais de proteção.
 
-Quantos empregados estavam disponíveis? Que tarefas precisavam executar? Quantos postos estavam funcionando? Houve falhas de sistema? Existem metas comerciais concorrendo com o atendimento? Qual a complexidade das demandas? Houve fechamento ou redução de unidades? O banco disponibilizou canais alternativos adequados? A quantidade de trabalhadores é compatível com a demanda?
+> **Direitos do consumidor e direitos do trabalhador não são incompatíveis. O que precisa ser recusado é que a transformação digital e a reestruturação convertam a frustração do consumidor em mecanismo informal de fiscalização e intensificação individual do trabalho.**
 
-Essas perguntas atingem a organização do serviço.
+Quando um cliente começa a contar quantas pessoas determinado bancário atende por hora, a pergunta mais importante talvez não seja “por que ele não trabalha mais rápido?”.
 
-É mais fácil observar um trabalhador durante uma hora e concluir que ele é lento.
+A pergunta é:
 
-É mais difícil enxergar a estrutura que determina quantos trabalhadores existem, quais tarefas acumulam, quais sistemas utilizam e quais metas precisam cumprir.
-
-## Conclusão: o consumidor não é inimigo do trabalhador
-
-Este artigo não pretende opor trabalhadores a consumidores.
-
-O cliente que espera tem um problema real. Seu tempo importa. Seu direito a serviço adequado também.
-
-Mas responsabilizar individualmente o empregado pode deslocar a insatisfação justamente de quem possui poder para reorganizar o serviço: a instituição.
-
-O consumidor pode reclamar.
-
-O trabalhador pode estabelecer limites.
-
-A gestão deve assumir a reclamação e proteger o ambiente de trabalho.
-
-E a instituição deve responder pelas condições concretas em que o serviço é prestado.
-
-> **Direitos do consumidor e direitos do trabalhador não são incompatíveis. O que precisa ser recusado é a transformação da insatisfação do consumidor em mecanismo de fiscalização pública e intensificação individual do trabalho.**
-
-Quando o cliente começa a funcionar como fiscal do empregado, talvez seja hora de perguntar não por que o trabalhador “não atende mais rápido”, mas **por que o banco deixou que a organização do atendimento se transformasse em conflito entre quem espera e quem trabalha**.
+> **que organização do trabalho produziu aquela espera — e por que o trabalhador individual está sendo obrigado a responder por ela?**
 
 ## Fontes e notas de rigor
 
-- **CCT Fenaban 2026/2028 — versão integral Fenaban-Contec:** https://www.feebpr.org.br/images/files/documents/2026/09/10826789046aabd98331cc2.pdf
-- **Sindicato dos Bancários de São Paulo — CCT 2026/2028 assinada:** https://spbancarios.com.br/09/2026/cct-20262028-assinada-aumento-real-em-todas-verbas-direitos-mantidos-e-novas-conquistas
+- **CCT Fenaban 2026/2028:** https://www.feebpr.org.br/images/files/documents/2026/09/10826789046aabd98331cc2.pdf
+- **Resolução CMN nº 4.949/2021:** https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=4949&tipo=Resolu%C3%A7%C3%A3o+CMN
+- **Ouvidorias supervisionadas pelo Banco Central:** https://www.bcb.gov.br/meubc/lista_ouvidorias
+- **Resolução CMN nº 4.557/2017:** https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=4557&tipo=Resolu%C3%A7%C3%A3o
+- **Pesquisa Febraban de Tecnologia Bancária 2026:** https://portal.febraban.org.br/paginas/1117/pt-br/pesquisa
+- **Pesquisa do Emprego Bancário nº 38:** https://contrafcut.com.br/data/files/39/62/90/E0/A043C9108D3E10C9820808A8/PEB%2038_Resultados%202025%20VF%20_1_.pdf
+- **Banco Central — série 24936, quantidade de agências:** https://dadosabertos.bcb.gov.br/dataset/24936-quantidade-de-agencias-do-segmento-bancario-no-brasil
+- **Código de Ética do Banco do Brasil:** https://www.bb.com.br/docs/pub/siteEsp/ri/pt/dce/dwn/Codigoetica.pdf
+- **Ética CAIXA:** https://www.caixa.gov.br/sobre-a-caixa/etica/Paginas/default.aspx
+- **Integridade e Ética Itaú:** https://www.itau.com.br/relacoes-com-investidores/integridade/relacoes-com-orgaos-publicos/
+- **Código de Ética Bradesco:** https://www.bradescori.com.br/o-bradesco/governanca-corporativa/compliance-e-etica/codigos-de-etica/
+- **Código de Conduta Ética Santander:** https://www.santander.com.br/sustentabilidade/posicionamento/politicas
 - **NR-1 — Ministério do Trabalho e Emprego:** https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-1
-- **Fundacentro — diretrizes para aplicação da NR-1 com riscos psicossociais:** https://www.gov.br/fundacentro/pt-br/comunicacao/noticias/noticias/2026/maio/fundacentro-lanca-diretrizes-para-aplicar-nr-1-com-inclusao-dos-riscos-psicossociais
-- **Consolidação das Leis do Trabalho — arts. 2º e 157:** https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452compilado.htm
-- **Código de Defesa do Consumidor:** https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm
-- **Constituição Federal — art. 7º, XXII:** https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm
-- **TST — agente de aeroporto agredido por cliente:** https://www.tst.jus.br/-/agente-de-aeroporto-agredido-por-cliente-de-companhia-a%C3%A9rea-receber%C3%A1-indeniza%C3%A7%C3%A3o
-- **OIT — Recomendação nº 206:** https://www.ilo.org/resource/other/r206-violence-and-harassment-recommendation-2019-no-206
+- **TST — agressão praticada por cliente:** https://www.tst.jus.br/-/agente-de-aeroporto-agredido-por-cliente-de-companhia-a%C3%A9rea-receber%C3%A1-indeniza%C3%A7%C3%A3o
 
-**Nota de rigor documental:** a numeração das cláusulas citadas foi conferida na versão integral Fenaban-Contec disponibilizada publicamente pela Federação dos Empregados em Estabelecimentos Bancários do Estado do Paraná. Como controle cruzado, a publicação do Sindicato dos Bancários de São Paulo sobre a CCT assinada entre o Comando Nacional dos Bancários e a Fenaban confirma, entre as novas conquistas, o tratamento de atos praticados por clientes, a gestão de riscos psicossociais e limites ao monitoramento digital. Este rascunho não equipara automaticamente crítica pública, assédio moral, violência e agressão; cada categoria exige análise das circunstâncias concretas.
+**Nota de rigor:** o artigo distingue normas diretamente aplicáveis de analogias e interpretações. A CCT não proíbe diretamente a fala espontânea do cliente; o art. 8º da Resolução CMN nº 4.949/2021 é norma de relacionamento com clientes, não norma trabalhista; o precedente do TST envolve agressão física e é usado apenas quanto ao princípio de proteção diante de terceiros; e a tese sobre intensificação é construída a partir da convergência de dados estruturais e da pesquisa da categoria, não apresentada como conclusão automática de Febraban, Banco Central ou CMN.
