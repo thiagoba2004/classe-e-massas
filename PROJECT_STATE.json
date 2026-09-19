@@ -284,16 +284,16 @@
   "current_governance_strategy": {
     "strategy_code": "EA-000001-000019",
     "strategy_name": "Normalização do Menu Global do Site",
-    "phase_number": 1,
+    "phase_number": 5,
     "phase_total": 5,
-    "phase_code": "F-000001-000019-001",
-    "phase_name": "Registro e baseline",
-    "status": "EM_EXECUCAO",
+    "phase_code": "F-000001-000019-005",
+    "phase_name": "Verificação pública e fechamento",
+    "status": "CONCLUIDO",
     "plan_ref": "governanca/estrategia-normalizacao-menu-global-site.md",
-    "source_finding": "A-06 — menu global inconsistente em 26 páginas públicas",
     "scope_pages": 26,
-    "last_event_id": "STEV-CEM-20260919-050",
-    "next_step": "Confirmar o baseline das 26 páginas e o menu global canônico antes da remediação em lote."
+    "audit_result": "26/26 CONFORMES",
+    "last_event_id": "STEV-CEM-20260919-055",
+    "next_step": "NENHUM PASSO PENDENTE DENTRO DA EA-000001-000019. Abrir nova estratégia somente diante de novo objetivo ou irregularidade comprovada."
   },
   "project_sequence": 1,
   "project_alias": "CEM",
@@ -323,16 +323,17 @@
     "next_step": "ESTRATÉGIA CONCLUÍDA."
   },
   "last_completed_governance_strategy": {
-    "strategy_code": "EA-000001-000018",
-    "strategy_name": "Padrão de Modelos Públicos e Auditoria do Site",
+    "strategy_code": "EA-000001-000019",
+    "strategy_name": "Normalização do Menu Global do Site",
     "phase_number": 5,
     "phase_total": 5,
-    "phase_code": "F-000001-000018-005",
-    "phase_name": "Auditoria integral e fechamento",
+    "phase_code": "F-000001-000019-005",
+    "phase_name": "Verificação pública e fechamento",
     "status": "CONCLUIDO",
-    "plan_ref": "governanca/estrategia-padrao-modelos-publicos-e-auditoria-site.md",
-    "audit_report": "governanca/auditoria-site-modelos-publicos-2026-09-19.md",
-    "last_event_id": "STEV-CEM-20260919-049",
-    "next_strategy_code": "EA-000001-000019"
+    "plan_ref": "governanca/estrategia-normalizacao-menu-global-site.md",
+    "audit_report": "governanca/auditoria-normalizacao-menu-global-2026-09-19.md",
+    "last_event_id": "STEV-CEM-20260919-055",
+    "result": "26/26 páginas normalizadas e aprovadas na auditoria regressiva; 22 JSON com html_blob_sha sincronizados.",
+    "public_verification_note": "Tentativa de acesso direto ao GitHub Pages pela ferramenta web indisponível nesta sessão; estado do repositório verificado diretamente."
   }
 }
