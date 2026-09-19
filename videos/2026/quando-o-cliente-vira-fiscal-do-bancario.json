@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "project_code": "PRJ-000001",
+  "project_name": "Classe e Massas",
+  "strategy_code": "EA-000001-000021",
+  "video_code": "VID-000001",
+  "slug": "quando-o-cliente-vira-fiscal-do-bancario",
+  "content_type": "video_project",
+  "title": "Quando o cliente vira fiscal do bancário",
+  "status": "EM_PRODUCAO",
+  "date": "2026-09-19",
+  "language": "pt-BR",
+  "duration_target_seconds": [
+    65,
+    75
+  ],
+  "master_aspect_ratio": "16:9",
+  "tool_recommendation": "CapCut",
+  "source_article": "artigos/2026/quando-o-cliente-vira-fiscal-do-trabalhador.html",
+  "production_script": "editorial/videos/2026/video-001-fiscalizacao-bancario-cliente.md",
+  "generation_prompts": "editorial/videos/2026/video-001-prompts-capcut.md",
+  "publication": {
+    "format": "html",
+    "path": "videos/2026/quando-o-cliente-vira-fiscal-do-bancario.html"
+  },
+  "canonical_source": {
+    "format": "markdown",
+    "path": "videos/2026/quando-o-cliente-vira-fiscal-do-bancario.md"
+  },
+  "structured_representation": {
+    "format": "json",
+    "path": "videos/2026/quando-o-cliente-vira-fiscal-do-bancario.json"
+  },
+  "audiovisual_final": null,
+  "fictional_dramatization": true,
+  "real_people_depicted": false,
+  "real_bank_brand_depicted": false
+}
