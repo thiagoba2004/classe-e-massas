@@ -28,7 +28,13 @@ A Consolidação das Leis do Trabalho (CLT), no art. 2º, atribui ao empregador 
 
 No quadro narrado — cobrança em alto e bom som, individualização do trabalhador e afirmação de que ele deveria atender mais clientes — a manifestação ultrapassa a crítica ao serviço e passa a exercer uma **cobrança pública de produtividade sem poder jurídico para tanto**.
 
-O Código Civil qualifica como ilícito o exercício de um direito que exceda manifestamente os limites impostos por sua finalidade social, pela boa-fé ou pelos bons costumes (art. 187). Também considera ilícita a conduta que viole direito e cause dano, ainda que exclusivamente moral (art. 186).
+O art. 187 do Código Civil merece ser reproduzido integralmente porque atinge diretamente o núcleo do problema:
+
+> **“Também comete ato ilícito o titular de um direito que, ao exercê-lo, excede manifestamente os limites impostos pelo seu fim econômico ou social, pela boa-fé ou pelos bons costumes.”**
+
+A regra é clara: até quem exerce um direito legítimo pode cometer ato ilícito quando ultrapassa os seus limites. O cliente possui o direito de reclamar do serviço; esse direito não autoriza transformar a reclamação em fiscalização pública, individualizada e constrangedora da produtividade de determinado trabalhador.
+
+O art. 186 do Código Civil também considera ilícita a conduta que viole direito e cause dano, ainda que exclusivamente moral.
 
 A Constituição protege honra e imagem (art. 5º, X). Na relação de trabalho, os arts. 223-B e 223-C da CLT tutelam, entre outros bens, honra, imagem, intimidade, autoestima e saúde.
 
@@ -111,7 +117,7 @@ Significa que a categoria negociou uma regra decisiva: **condutas de clientes co
 Fonte:
 - CCT Fenaban 2026/2028.
 
-## 6. CMN e políticas dos próprios bancos: reclamação é matéria de gestão institucional
+## 6. CMN, Compliance e políticas dos bancos: a reclamação é matéria de gestão institucional
 
 A **Resolução CMN nº 4.949/2021** obriga as instituições a manter Política Institucional de Relacionamento com Clientes e Usuários.
 
@@ -123,19 +129,25 @@ Os arts. 7º a 9º exigem, entre outros elementos:
 - equilíbrio entre metas de resultados e incentivos associados ao desempenho e os valores da política;
 - monitoramento, métricas e correção de deficiências.
 
+Mas há outra norma que precisa aparecer expressamente: a **Resolução CMN nº 4.595/2017**, que obriga as instituições financeiras a implementar e manter uma **Política de Conformidade (Compliance)**.
+
+A função de Compliance deve testar e avaliar a aderência do banco ao arcabouço legal, à regulamentação infralegal, às recomendações dos órgãos de supervisão e, quando aplicáveis, aos códigos de ética e de conduta. Também deve apoiar a administração, capacitar empregados, acompanhar a solução de descumprimentos e reportar resultados à alta governança.
+
+Por isso, um episódio que pode envolver violação de lei, norma regulatória, CCT, política institucional ou princípio ético **não é apenas questão de atendimento ou de gestão local**. Pode também ser matéria de **Compliance**.
+
 Essa arquitetura regulatória tem consequência direta para o problema analisado:
 
-> **a reclamação do cliente pertence à governança do banco.**
+> **a reclamação do cliente pertence à governança do banco; eventual desvio de conduta, violação normativa ou falha institucional também pode exigir atuação de Compliance.**
 
 As políticas institucionais pesquisadas confirmam isso.
 
-No **Banco do Brasil**, a Política Específica de Relacionamento com Clientes e Usuários, com última revisão pública localizada em 10/10/2024, exige mecanismos de gestão em todas as unidades envolvidas, treinamento, monitoramento por reclamações e indicadores, ambiente inclusivo e seguro junto a clientes e funcionários, diálogo e solução das demandas.
+No **Banco do Brasil**, a Política Específica de Relacionamento com Clientes e Usuários, com última revisão pública localizada em 10/10/2024, exige mecanismos de gestão em todas as unidades envolvidas, treinamento, monitoramento por reclamações e indicadores, ambiente inclusivo e seguro junto a clientes e funcionários, diálogo e solução das demandas. O próprio BB mantém Programa de Compliance e Integridade voltado a **prevenir, detectar e corrigir práticas inadequadas** em atividades operacionais e de negócios.
 
-Na **CAIXA**, a política pública determina expressamente equilíbrio entre metas de resultados, incentivos associados ao desempenho dos empregados e as diretrizes da própria política.
+Na **CAIXA**, a política pública determina expressamente equilíbrio entre metas de resultados, incentivos associados ao desempenho dos empregados e as diretrizes da própria política. A CAIXA também define Compliance como atuação em aderência a regulamentos, códigos, legislações e princípios éticos e mantém política específica de Controle Interno, Compliance e Integridade.
 
-No **Santander**, a política integral separa gestão do atendimento presencial, mediação de conflitos e sistemas de metas e incentivos. Reclamações devem ser registradas e tratadas formalmente; incentivos devem combinar critérios quantitativos e qualitativos, qualidade operacional, riscos, atendimento e satisfação dos clientes.
+No **Santander**, a política integral separa gestão do atendimento presencial, mediação de conflitos e sistemas de metas e incentivos. Reclamações devem ser registradas e tratadas formalmente; incentivos devem combinar critérios quantitativos e qualitativos, qualidade operacional, riscos, atendimento e satisfação dos clientes. A Política de Compliance do banco atribui à Diretoria de Compliance a gestão de riscos de conduta e de conformidade, inclusive proteção do consumidor.
 
-No **Itaú**, o Relatório de Ouvidoria mostra reclamações submetidas a monitoramento, análise de causa-raiz e planos de ação envolvendo Ouvidoria, Atendimento, Negócios, Operações e Tecnologia.
+No **Itaú**, o Relatório de Ouvidoria mostra reclamações submetidas a monitoramento, análise de causa-raiz e planos de ação envolvendo Ouvidoria, Atendimento, Negócios, Operações e Tecnologia. A Política de Compliance pública do Itaú define a função de conformidade como responsável por prevenir e mitigar não conformidades com leis, regulamentos, compromissos, códigos de autorregulação e códigos de conduta.
 
 Os detalhes documentais dos demais bancos permanecem no dossiê de pesquisa. Para a tese do artigo, a conclusão necessária é simples:
 
