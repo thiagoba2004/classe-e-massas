@@ -929,3 +929,86 @@ Pode-se sustentar:
 - que a gestão deve assumir a decisão;
 - que uma avaliação posterior potencialmente contaminada pelo conflito não deve produzir consequências individuais automáticas sem contextualização e revisão humana.
 
+## Compliance — eixo institucional de conformidade
+
+A revisão humana apontou corretamente que o artigo tratava de leis, normas regulatórias, CCT, políticas institucionais e códigos de ética sem nomear expressamente a função de **Compliance**.
+
+### Regulação obrigatória
+
+A Resolução CMN nº 4.595/2017 regulamenta a política de conformidade (Compliance) das instituições financeiras autorizadas a funcionar pelo Banco Central.
+
+A norma exige que as instituições:
+- implementem e mantenham política de conformidade;
+- assegurem independência, autoridade, pessoal e recursos suficientes à função;
+- permitam livre acesso às informações necessárias;
+- estabeleçam canais de comunicação com diretoria, Conselho de Administração e Comitê de Auditoria;
+- coordenem Compliance com gerenciamento de riscos e auditoria interna.
+
+O art. 7º atribui à função de Compliance, entre outras tarefas:
+- testar e avaliar aderência ao arcabouço legal;
+- avaliar aderência à regulamentação infralegal;
+- avaliar aderência às recomendações dos órgãos de supervisão;
+- avaliar, quando aplicáveis, códigos de ética e de conduta;
+- apoiar a administração;
+- capacitar empregados;
+- acompanhar soluções de descumprimentos;
+- reportar resultados e recomendações.
+
+O art. 9º exige que o Conselho de Administração assegure a adequada gestão e continuidade da política, disseminação de padrões de integridade e conduta ética e adoção de medidas corretivas quando falhas de conformidade forem identificadas.
+
+**Conclusão:** um episódio que possa envolver abuso de direito, violação de norma regulatória, CCT, política de relacionamento ou código de ética não deve ser tratado apenas como questão de atendimento ou de gestão local. Pode também configurar matéria de Compliance.
+
+### Banco do Brasil
+
+O Programa de Compliance e Integridade do BB, aprovado pelo Conselho de Administração, declara como objetivo prevenir, detectar e corrigir práticas inadequadas em atividades operacionais e de negócios. A cultura de controles internos, Compliance, ética e governança é apresentada como base do programa.
+
+Fonte:
+- https://ri.bb.com.br/governanca-e-sustentabilidade/governanca-codigos-indicadores-e-compliance/
+
+### CAIXA
+
+A CAIXA define Compliance como atuação em total aderência a regulamentos, códigos, legislações e princípios éticos e de conduta. O programa coordena e monitora continuamente ações de gestão de Compliance e fornece subsídios à Alta Administração.
+
+A Política de Controle Interno, Compliance e Integridade estabelece prevenção, detecção, correção e mitigação do risco de Compliance e Integridade.
+
+Fontes:
+- https://www.caixa.gov.br/sobre-a-caixa/governanca-corporativa/compliance/Paginas/default.aspx
+- https://www.caixa.gov.br/Downloads/caixa-governanca/politica-controle-interno-compliance-integridade.pdf
+
+### Santander
+
+A Política de Compliance do Santander implementa a Resolução CMN nº 4.595/2017 e define a Diretoria de Compliance como responsável pela gestão dos riscos de conduta e reputacional.
+
+A função deve promover aderência às regras, exigências de supervisão, princípios de boa conduta e valores corporativos, atuar preventivamente como segunda linha de defesa e abranger, entre outros temas, governança de produtos e proteção do consumidor.
+
+Fonte:
+- https://cms.santander.com.br/sites/WPS/documentos/arq-politica-de-compliance/20-09-23_201302_politicadecompliance.pdf
+
+### Itaú Unibanco
+
+A Política de Compliance pública do Itaú define risco de conformidade como risco de sanções, perdas financeiras ou danos reputacionais decorrentes do descumprimento de leis, regulamentos, normas de mercado, compromissos com reguladores, autorregulação e códigos de conduta.
+
+A função é exercida pela Diretoria de Compliance & OpRisk e atua sobre governança, certificação de aderência, conduta e transparência.
+
+Fonte:
+- https://www.itau.com.br/relacoes-com-investidores/integridade/
+- Relatório de Acesso Público — Política de Compliance.
+
+---
+
+## Art. 187 do Código Civil — redação oficial e relevância
+
+Redação oficial:
+
+> **“Também comete ato ilícito o titular de um direito que, ao exercê-lo, excede manifestamente os limites impostos pelo seu fim econômico ou social, pela boa-fé ou pelos bons costumes.”**
+
+O dispositivo é especialmente relevante porque permite responder à objeção de que o cliente estaria apenas “exercendo seu direito de reclamar”.
+
+O direito de reclamar existe. O abuso desse direito também pode existir.
+
+A tese do artigo passa a usar o art. 187 como fundamento direto:
+- reclamação legítima: crítica dirigida ao serviço, fila, demora ou instituição;
+- abuso de direito: transformação da reclamação em fiscalização pública, individualizada e constrangedora da produtividade de trabalhador determinado, ultrapassando os limites do exercício regular.
+
+Correção textual registrada: a redação oficial usa **“excede manifestamente”**.
+
