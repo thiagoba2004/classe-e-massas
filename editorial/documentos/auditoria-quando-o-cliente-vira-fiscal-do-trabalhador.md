@@ -555,3 +555,47 @@ Detalhes documentais continuam preservados em:
 - Publicação: NÃO REALIZADA.
 - Gate: revisão humana antes da Fase 05/05.
 
+---
+
+## 14. Sexta auditoria — posição definitiva sobre remanejamento
+
+**Data:** 19/09/2026  
+**Objeto:** eliminar a contradição entre remanejamento preventivo e suposta neutralização posterior de avaliação anônima.
+
+### 14.1. Correção
+
+A análise anterior admitia, como hipótese, contextualizar ou neutralizar posteriormente eventual avaliação retaliatória.
+
+Esse raciocínio foi abandonado para o caso em que as avaliações são anônimas e não podem ser vinculadas de forma confiável ao cliente ou ao atendimento específico.
+
+### 14.2. Posição definitiva
+
+> **Após constrangimento público prévio praticado por um cliente contra determinado trabalhador bancário, o atendimento deve ser remanejado pela gestão antes de começar.**
+
+Não se trata de direito geral de escolher clientes. O cliente continua sendo atendido pela instituição, mas por outro empregado.
+
+### 14.3. Fundamentação
+
+A posição decorre da combinação entre:
+- poder do empregador de organizar a prestação do trabalho;
+- dever institucional de gestão do atendimento e mediação de conflitos da Resolução CMN nº 4.949/2021;
+- dever de prevenção e gerenciamento de fatores psicossociais da NR-1;
+- CCT 2026/2028, que reconhece atos de clientes como matéria institucional de proteção;
+- impossibilidade prática de corrigir posteriormente avaliação anônima potencialmente contaminada pelo conflito.
+
+### 14.4. Consequência editorial
+
+Foi eliminada do artigo qualquer recomendação de “deixar atender e depois revisar/desconsiderar a nota”.
+
+A proteção passa a ser exclusivamente preventiva:
+
+1. reconhecer o cliente;
+2. comunicar a gestão;
+3. remanejar o atendimento;
+4. manter a continuidade do serviço com outro empregado;
+5. registrar o episódio quando necessário.
+
+### 14.5. Limite de rigor
+
+Não afirmar que existe cláusula literal universal dizendo “o gestor é obrigado a remanejar”. A redação do artigo assume o remanejamento como **posição jurídica e institucional decorrente da arquitetura normativa e preventiva**, e não como transcrição de comando textual específico.
+
