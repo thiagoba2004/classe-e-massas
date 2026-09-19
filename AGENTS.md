@@ -1,10 +1,12 @@
 # AGENTS.md — Protocolo Canônico de Trabalho dos Modelos de IA
 
-**Projeto:** Classe e Massas  
+**Projeto:** `CEM — Classe e Massas`  
+**Código do Projeto:** `CEM`  
+**Denominação do Projeto:** `Classe e Massas`  
 **Status:** CANÔNICO  
-**Versão:** 2.0  
-**Data:** 18/09/2026  
-**generated_from_kernel:** `1.2`  
+**Versão:** 2.1  
+**Data:** 19/09/2026  
+**generated_from_kernel:** `1.3`  
 **Kernel de referência:** `thiagoba2004/gerador-de-agents/AGENTS_KERNEL.md`  
 **Escopo:** todo modelo de IA, agente, assistente ou automação que trabalhe neste repositório ou em seus documentos derivados.
 
@@ -67,7 +69,7 @@ Quando houver dúvida sobre qual regra ou estado prevalece, usar a seguinte orde
 5. `REQUEST_LOG.jsonl` para sequência de pedidos;
 6. Roadmaps, Planos de Fases e documentos de governança específicos;
 7. `AGENTS.md` v1.8 incorporado por referência, para regras locais não substituídas;
-8. `AGENTS_KERNEL.md` 1.2, como origem universal da migração;
+8. `AGENTS_KERNEL.md` 1.3, como núcleo universal vigente;
 9. histórico Git e commits comprovados;
 10. somente depois, contexto de conversa ou memória do Modelo de IA.
 
@@ -75,7 +77,7 @@ Memória, resumo de conversa ou inferência **nunca prevalecem** sobre evidênci
 
 Se houver conflito entre versões anteriores e a v2.0, **a v2.0 prevalece**.
 
-Se houver conflito entre o kernel 1.2 e uma regra local mais rigorosa que não contrarie a finalidade universal do kernel, **a regra local mais rigorosa é preservada**.
+Se houver conflito entre o kernel 1.3 e uma regra local mais rigorosa que não contrarie a finalidade universal do kernel, **a regra local mais rigorosa é preservada**.
 
 ---
 
@@ -152,7 +154,22 @@ Interrupções do usuário durante tarefa em andamento são novos pedidos e deve
 
 ## 5. Estratégias Autônomas e vinculação estratégica
 
-Toda Estratégia Autônoma deve possuir `strategy_id` estável e registro persistente, sequencial e auditável no `STRATEGY_LOG.jsonl` antes da execução substantiva.
+Toda Estratégia Autônoma deve possuir identificação canônica composta por:
+
+```text
+strategy_id
+strategy_name
+```
+
+O `strategy_id` é o código estável da estratégia. O `strategy_name` é sua denominação humana inequívoca.
+
+No Classe e Massas, novas estratégias devem seguir:
+
+```text
+STRAT-CEM-AAAAMMDD-NNN
+```
+
+Toda Estratégia Autônoma deve possuir registro persistente, sequencial e auditável no `STRATEGY_LOG.jsonl` antes da execução substantiva.
 
 > **ESTRATÉGIA AUTÔNOMA NOVA = `strategy_id` NOVO + EVENTO `CREATED` PERSISTIDO ANTES DA EXECUÇÃO SUBSTANTIVA.**
 
@@ -174,11 +191,16 @@ BACKFILLED
 Antes da execução, o agente deve conseguir identificar:
 
 ```text
+PROJECT_CODE
+PROJECT_NAME
 STRATEGY_ID
-ESTRATÉGIA
+STRATEGY_NAME
 REGISTRO DA ESTRATÉGIA
 PLANO / ROADMAP
-FASE ATUAL
+PHASE_NUMBER
+PHASE_TOTAL
+PHASE_CODE
+PHASE_NAME
 OBJETIVO / ENTREGA / GATE
 TAREFA ATUAL
 DEPENDÊNCIAS
@@ -194,18 +216,30 @@ Backfill histórico somente pode ser realizado com evidência persistente sufici
 
 ## 6. Plano de Fases obrigatório
 
-Toda Estratégia Autônoma, ainda que curta, emergencial, editorial, jurídica, documental ou técnica, deve possuir Plano de Fases explícito e persistente antes da execução substantiva.
+Toda Estratégia Autônoma, ainda que curta, emergencial, editorial, jurídica, documental ou técnica, deve possuir Plano de Fases explícito, persistente e integralmente numerado antes da execução substantiva.
 
-Estrutura mínima:
+Cada fase deve possuir:
 
 ```text
-FASE 1 — registro e delimitação
-FASES INTERMEDIÁRIAS — pesquisa, análise, produção ou execução
-FASE DE CONSOLIDAÇÃO — síntese, teste e verificação
-FASE FINAL — entrega, publicação, implantação, circulação ou fechamento
+phase_number
+phase_total
+phase_code
+phase_name
 ```
 
-Cada fase deve indicar estado, objetivo e gate quando aplicável.
+No texto humano, usar obrigatoriamente:
+
+```text
+FASE 01/05 (F01) — Registro e delimitação
+FASE 02/05 (F02) — ...
+FASE 05/05 (F05) — Verificação e fechamento
+```
+
+`phase_number` deve ser inteiro sequencial iniciado em 1; `phase_code` deve usar dois algarismos (`F01`, `F02`, ...); `phase_total` deve indicar o total vigente do plano; e `phase_name` deve ser uma denominação humana inequívoca.
+
+É proibido manter rótulos não numerados como “FASE FINAL” ou “FASE DE CONSOLIDAÇÃO” isoladamente. A função pode constar da denominação, mas a posição numérica é obrigatória.
+
+Cada fase deve indicar também estado, objetivo e gate quando aplicável.
 
 A conclusão técnica de uma tarefa não altera automaticamente o estado da fase; o avanço depende do gate correspondente.
 
@@ -502,6 +536,23 @@ próximo passo
 
 É proibido fazer o usuário retroceder para etapa já concluída sem evidência de perda real.
 
+### 12.1. Padrão obrigatório de resposta de continuidade
+
+Quando o usuário perguntar **“Onde paramos? Qual a Estratégia Autônoma em curso? Qual a Fase dessa Estratégia Autônoma? E qual o Projeto?”** ou formulação equivalente, responder obrigatoriamente nesta ordem:
+
+```text
+PROJETO: CEM — Classe e Massas
+ESTRATÉGIA AUTÔNOMA: <STRATEGY_ID> — <STRATEGY_NAME>
+FASE: <PHASE_NUMBER>/<PHASE_TOTAL> (<PHASE_CODE>) — <PHASE_NAME>
+ESTADO: <estado comprovado>
+ONDE PARAMOS: <ponto exato comprovado>
+PRÓXIMO PASSO LÓGICO: <próximo passo comprovado pelo plano>
+```
+
+Código e denominação são obrigatórios para Projeto e Estratégia Autônoma. Número, total, código e denominação são obrigatórios para a Fase.
+
+A resposta deve ser reconstruída a partir das fontes canônicas, jamais apenas da memória conversacional.
+
 ---
 
 ## 13. Autonomia com verificabilidade
@@ -598,6 +649,7 @@ governanca/estrategia-migracao-agents-kernel-1.2.md
 | 1.8 | 17/09/2026 | Institui o `STRATEGY_LOG.jsonl` append-only e torna obrigatório atribuir `strategy_id` e registrar toda Estratégia Autônoma e seus eventos, com `project_id` padronizado para permitir rastreabilidade e futura agregação entre projetos. |
 | 1.9 | 17/09/2026 | Migração controlada para `AGENTS_KERNEL.md` 1.2: restaura como regra vigente a ordem registrar → verificar → informar “Pedido registrado” → informar leitura/análise/providências → executar; preserva por incorporação todas as regras locais válidas da v1.8 e registra `generated_from_kernel: 1.2`. |
 | 2.0 | 18/09/2026 | Elimina a lacuna normativa de formatos editoriais: torna obrigatório, para cada texto editorial/publicável, o trio coordenado Markdown + HTML + JSON, define Markdown como fonte textual canônica, impõe sincronização e gate de conclusão e admite exceções somente por decisão expressa, persistente e versionada. |
+| 2.1 | 19/09/2026 | Institui governança numérica: `CEM — Classe e Massas` como código + denominação do Projeto; código + denominação obrigatórios para toda Estratégia Autônoma; Planos de Fases integralmente numerados com `phase_number`, `phase_total`, `phase_code` e `phase_name`; e padrão determinístico para respostas de continuidade. |
 
 ---
 
