@@ -1,24 +1,12 @@
-2ª EDIÇÃO • LEI DE ACESSO À INFORMAÇÃO • PLR 2026
+MODELO • LEI DE ACESSO À INFORMAÇÃO • PLR 2026
 
 # Banco do Brasil — adiantamento da PLR de 16/09/2026
 
 Pedido revisado de documentos, registros e dados sobre o universo de 20 bases no marco das 14h de 11/09, as bases efetivamente sem crédito em 16/09, os instrumentos coletivos, o processamento da PLR e a fundamentação administrativa e jurídica dos critérios aplicados.
 
-2ª edição publicada em 17 de setembro de 2026 • 1ª edição: 16 de setembro de 2026
+Modelo atualizado em 17 de setembro de 2026
 
 **Canal atual de envio:** desde 30/06/2026, os pedidos de acesso à informação do Poder Executivo federal são registrados pela plataforma Informa.BR. O próprio Portal da Transparência do Banco do Brasil direciona os pedidos de LAI para essa plataforma.
-
-**O que mudou nesta edição:**
-
-- separa o universo de **20 bases no marco das 14h de 11/09** das bases que efetivamente ficaram sem o crédito da PLR em 16/09;
-
-- inclui expressamente **Ponte Nova e Região** e **Governador Valadares e Região** no pedido de esclarecimento;
-
-- substitui a referência anterior a 12h pelo marco de **14h de 11/09** que está sob investigação;
-
-- distingue ACT geral, ACT específico de PLR, termos de adesão e outros instrumentos possíveis;
-
-- inclui a alegada impossibilidade jurídica ou operacional de um segundo processamento da PLR e eventual pagamento posterior a 16/09.
 
 **Nota metodológica:** o pedido não presume que as 20 bases do marco temporal sejam exatamente as mesmas bases que ficaram sem o crédito. Também não pede ao Banco a elaboração de parecer novo. O foco está em documentos, registros, relatórios, bases, comunicações e dados preexistentes. Quando houver dados sobre empregados, são solicitadas apenas informações agregadas e anonimizadas.
 
