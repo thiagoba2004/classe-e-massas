@@ -1,17 +1,17 @@
 {
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "project_code": "PRJ-000001",
   "project_name": "Classe e Massas",
   "strategy_code": "EA-000001-000015",
   "strategy_name": "Cliente, produtividade e controle social do trabalho bancário",
   "phase_code": "F-000001-000015-004",
-  "phase_name": "Redação e auditoria editorial — quarta versão",
+  "phase_name": "Redação e auditoria editorial — quinta versão",
   "slug": "quando-o-cliente-vira-fiscal-do-trabalhador",
   "content_type": "artigo",
-  "title": "Quando o cliente vira fiscal dos trabalhadores bancário: transformação digital, reestruturação e controle informal da produtividade",
+  "title": "Quando o cliente vira fiscal dos trabalhadores bancários: reestruturação digital, intensificação e fiscalização ilícita da produtividade",
   "requested_title_phrase": "trabalhadores bancário",
-  "description": "Artigo ampliado com políticas integrais de relacionamento e papel institucional da gestão diante da fiscalização pública da produtividade.",
-  "status": "RASCUNHO_V4_AGUARDANDO_REVISAO_HUMANA",
+  "description": "Versão condensada, com concordância corrigida e tese jurídica explícita sobre a ilicitude da fiscalização pública, individualizada e constrangedora da produtividade.",
+  "status": "RASCUNHO_V5_AGUARDANDO_REVISAO_HUMANA",
   "language": "pt-BR",
   "date": "2026-09-19",
   "publication_status": "NAO_PUBLICADO",
@@ -52,17 +52,32 @@
     "A gestão deve assumir a interlocução como conclusão institucional derivada da arquitetura normativa e das políticas, não de cláusula literal universal."
   ],
   "rigor_notes": [
-    "A expressão 'trabalhadores bancário' foi mantida literalmente no título por solicitação do usuário.",
-    "A CCT não proíbe diretamente a fala espontânea do cliente.",
-    "A Resolução CMN 4.949/2021 regula relacionamento com clientes, não saúde ocupacional.",
-    "Dados de 93,3 mil postos e 9,5 mil agências são atribuídos ao estudo Dieese apresentado pelo movimento sindical à Fenaban.",
-    "O precedente do TST envolve agressão física e não é equiparado à crítica pública.",
-    "O artigo não identifica cliente, empregado ou instituição envolvidos no episódio inicial.",
-    "Não inferir fluxo de clientes em agências a partir de participação de transações digitais.",
-    "Não equiparar transação de agência a atendimento de cliente nem exclusivamente a guichê de caixa.",
-    "A ausência de política integral publicada no site não implica inexistência ou descumprimento; a Resolução CMN 4.949/2021 exige que o documento fique à disposição do Banco Central.",
-    "Distinguir política integral pública, resumo público, relatório que descreve a política e norma interna referenciada publicamente.",
-    "Não afirmar que existe norma literal universal obrigando o gerente a intervir imediatamente em toda crítica de cliente.",
-    "Distinguir dever de proteção e governança institucional de eventual responsabilidade civil, que depende das circunstâncias concretas."
-  ]
+    "Não afirmar que toda crítica, observação ou reclamação de cliente é ilícita.",
+    "A ilicitude sustentada refere-se à conduta pública, individualizada e constrangedora que ultrapassa a reclamação sobre o serviço e invade a esfera da direção do trabalho e/ou direitos da personalidade.",
+    "Não inferir fluxo de atendimento presencial a partir do volume de transações digitais.",
+    "Detalhes dos códigos de ética e políticas de cinco bancos permanecem no dossiê de pesquisa, reduzidos no corpo do artigo para evitar excesso.",
+    "AIRR-462-61.2018.5.12.0035 é precedente especialmente relevante por envolver agência bancária, quadro reduzido, maior necessidade de dedicação/tempo e agressão de cliente; não é equiparado ao episódio narrado."
+  ],
+  "word_count": 2629,
+  "editorial_audit": {
+    "previous_word_count": 5529,
+    "current_word_count": 2629,
+    "reduction_words": 2900,
+    "reduction_percent": 52.5,
+    "sections_reduced_from": 19,
+    "sections_current": 12,
+    "principle": "Manter no corpo apenas fundamentos que alteram ou comprovam a tese; detalhes comparativos permanecem no dossiê de pesquisa."
+  },
+  "legal_thesis": {
+    "customer_has_right_to_complain": true,
+    "customer_has_managerial_power": false,
+    "unlawful_conduct_scope": "fiscalização pública, individualizada e constrangedora da produtividade, quando ultrapassa o exercício regular do direito de reclamar",
+    "bases": [
+      "CF art. 5º, X",
+      "CC arts. 186, 187 e 927",
+      "CLT arts. 2º, 223-B e 223-C",
+      "CCT Fenaban 2026/2028",
+      "Resolução CMN 4.949/2021"
+    ]
+  }
 }
