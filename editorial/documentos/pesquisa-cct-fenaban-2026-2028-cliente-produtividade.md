@@ -1012,3 +1012,81 @@ A tese do artigo passa a usar o art. 187 como fundamento direto:
 
 Correção textual registrada: a redação oficial usa **“excede manifestamente”**.
 
+## Oitava revisão — auditoria dos fundamentos adicionais sugeridos
+
+### 1. Constituição Federal, art. 5º, X — INCORPORAR COMO FUNDAMENTO CENTRAL
+
+O inciso X é diretamente aderente ao caso:
+
+> “são invioláveis a intimidade, a vida privada, a honra e a imagem das pessoas, assegurado o direito a indenização pelo dano material ou moral decorrente de sua violação”.
+
+Para o episódio analisado, os bens mais diretamente envolvidos são **honra e imagem**. O dispositivo reforça a tese de que a exposição pública e individualizada da suposta baixa produtividade não pode ser reduzida a simples exercício do direito de reclamar.
+
+### 2. Constituição Federal, art. 5º, V — INCORPORAR COMO FUNDAMENTO COMPLEMENTAR
+
+O inciso V assegura direito de resposta proporcional ao agravo e indenização por dano material, moral ou à imagem.
+
+É pertinente, mas sua função é mais **reparatória** do que definidora da ilicitude. Deve aparecer de modo breve, sem competir com o inciso X.
+
+### 3. Código Civil, art. 186 — MANTER
+
+É fundamento direto do ato ilícito por violação de direito com dano, inclusive exclusivamente moral.
+
+### 4. Código Civil, art. 187 — MANTER COMO EIXO CENTRAL
+
+É o fundamento mais adequado para distinguir:
+- direito legítimo de reclamar;
+- exercício abusivo desse direito.
+
+A transcrição integral já foi incorporada ao artigo.
+
+### 5. Código Civil, art. 927 — EXPLICITAR A CONSEQUÊNCIA
+
+O art. 927 conecta os atos ilícitos dos arts. 186 e 187 à obrigação de reparar o dano.
+
+Deve ser citado como consequência jurídica eventual, **sem afirmar automaticamente a existência de dano indenizável em qualquer episódio**.
+
+### 6. Código Civil, art. 21 — NÃO INCORPORAR AO NÚCLEO
+
+O art. 21 protege a vida privada da pessoa natural.
+
+Embora pertença ao sistema dos direitos da personalidade, sua aderência ao episódio é menor. A conduta narrada ocorreu publicamente no ambiente de trabalho e atinge de forma mais direta:
+- honra;
+- imagem;
+- dignidade;
+- autoestima;
+- esfera moral do trabalhador.
+
+Usar o art. 21 como fundamento central poderia sugerir indevidamente que a produtividade funcional observada em ambiente de trabalho integra, por si só, “vida privada”.
+
+**Decisão editorial:** não incorporar ao corpo principal. Pode permanecer apenas como referência subsidiária no dossiê de direitos da personalidade.
+
+### 7. Precedente sobre “exposição da produtividade individual” — NÃO USAR COMO PROVA DIRETA DE ILICITUDE
+
+Foi localizado material da Justiça do Trabalho em que a expressão “exposição da produtividade individual” aparece como elemento fático de acompanhamento de metas.
+
+Contudo, o precedente indicado pela pesquisa mais próxima dessa formulação discutia principalmente **subordinação e reconhecimento de vínculo de emprego**, não a ilicitude civil da exposição por cliente.
+
+Também há jurisprudência trabalhista sobre rankings, cobranças humilhantes e exposição de desempenho, mas esses casos tratam do poder diretivo do empregador.
+
+**Decisão editorial:** não utilizar esse precedente para afirmar que a conduta do cliente é ilícita. O artigo já possui fundamento mais direto:
+- CCT, que veda exposição pública de ranking individual pelo empregador;
+- CF e Código Civil;
+- precedentes do TST sobre agressões de clientes e dever patronal de proteção.
+
+### 8. Estrutura jurídica final recomendada
+
+A fundamentação mais limpa é:
+
+**a)** direito de reclamar: CDC;  
+**b)** ausência de poder diretivo do cliente: CLT, art. 2º;  
+**c)** abuso do direito de reclamar: CC, art. 187;  
+**d)** violação de direito e dano: CC, art. 186;  
+**e)** proteção da honra e imagem: CF, art. 5º, X;  
+**f)** direito de resposta/indenização: CF, art. 5º, V;  
+**g)** eventual dever de reparar: CC, art. 927;  
+**h)** tutela trabalhista da honra, imagem, intimidade, autoestima e saúde: CLT, arts. 223-B e 223-C;  
+**i)** CCT e regulação bancária: limites à exposição, atos de clientes, gestão institucional e Compliance.
+
+Essa estrutura é mais forte do que acrescentar indistintamente todos os dispositivos possíveis.
+
