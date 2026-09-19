@@ -153,29 +153,43 @@ No Itaú, o discurso institucional rejeita “ganho a qualquer custo”.
 
 Esses documentos não substituem lei, CCT ou normas regulatórias. Mas tornam difícil sustentar que uma instituição possa considerar normal a transformação de pressão por resultados em constrangimento público individualizado de empregado.
 
-## 8. O trabalhador não precisa ficar calado — e a gestão deve assumir a interlocução
+## 8. Depois do constrangimento, o atendimento deve ser remanejado
 
-O empregado não precisa aceitar passivamente a fiscalização pública de sua produtividade.
+O trabalhador bancário não deve ser obrigado a atender, sozinho, o mesmo cliente que acabou de constrangê-lo publicamente.
 
-Uma resposta profissional possível é:
+A medida correta é **remanejar o atendimento antes que ele comece**.
 
-> **“Sua reclamação sobre o tempo de espera pode ser encaminhada à gerência e aos canais do banco. Não posso expor o conteúdo de outros atendimentos. Peço que a avaliação do serviço seja dirigida à instituição e que não sejam feitas avaliações públicas sobre minha produtividade individual.”**
+O trabalhador deve comunicar imediatamente o ocorrido à gestão e informar que aquele cliente já o expôs e questionou publicamente sua produtividade. A partir daí, a gestão deve encaminhar o cliente para outro empregado e assegurar a continuidade normal do serviço.
 
-A reação deve ser proporcional:
+Isso não é recusa de atendimento ao consumidor. O banco continua atendendo o cliente. O que muda é apenas o trabalhador designado para aquele atendimento.
 
-1. estabelecer o limite de forma calma;
-2. redirecionar a reclamação ao banco;
-3. preservar o sigilo de outros clientes;
-4. acionar a gestão;
-5. registrar o episódio se houver hostilidade, humilhação, ameaça ou reiteração;
-6. utilizar canais internos e convencionais quando cabível;
-7. acionar segurança diante de risco ou escalada relevante.
+O remanejamento é necessário por três razões.
 
-Não foi localizada uma regra com a frase literal “o gerente deve intervir imediatamente sempre que um cliente criticar produtividade”.
+Primeiro, evita a repetição imediata do conflito e protege o trabalhador de novo constrangimento.
 
-Mas a consequência institucional das normas é clara: **a gestão deve assumir a reclamação que pertence à instituição e não deixar o trabalhador obrigado a defender publicamente seu próprio desempenho**.
+Segundo, impede que o empregado seja colocado na situação contraditória de prestar atendimento a quem, minutos antes, o expôs publicamente e tentou fiscalizar sua produtividade.
 
-Em situação de risco grave e iminente à vida ou à saúde, aplica-se ainda o direito de interrupção previsto na NR-1, com comunicação imediata ao superior.
+Terceiro, existe o risco de o conflito contaminar a avaliação posterior do atendimento. Se a pesquisa de satisfação é anônima e a nota não pode ser vinculada ao cliente ou à ocorrência concreta, **não existe mecanismo posterior seguro para separar uma avaliação legítima de uma possível retaliação**. Por isso, a proteção precisa ocorrer antes do atendimento, e não depois da nota.
+
+A posição deste artigo é, portanto, inequívoca:
+
+> **houve constrangimento público prévio pelo cliente contra determinado trabalhador bancário, o atendimento deve ser remanejado pela gestão.**
+
+O fundamento não é um suposto direito do empregado de escolher livremente quem atender. O fundamento é a obrigação institucional do banco de organizar o atendimento, tratar demandas, mediar conflitos e prevenir a exposição do trabalhador.
+
+A Resolução CMN nº 4.949/2021 atribui às instituições a gestão do atendimento, o registro e tratamento de demandas e a mediação de conflitos. A NR-1 exige que a organização gerencie riscos ocupacionais, inclusive fatores de risco psicossociais relacionados ao trabalho.
+
+Assim, o procedimento adequado é simples:
+
+1. o trabalhador identifica que a senha pertence ao cliente que o constrangeu;
+2. antes de iniciar o atendimento, comunica o fato à gestão;
+3. a gestão remaneja o cliente para outro empregado;
+4. o trabalhador segue para a próxima senha ou atividade;
+5. o episódio é registrado quando necessário.
+
+Se houver ameaça, agressividade ou risco à integridade do trabalhador, entram também os canais de segurança e de proteção previstos na CCT e nas normas de saúde e segurança.
+
+O que não deve acontecer é obrigar o trabalhador a enfrentar novamente o cliente e depois esperar que uma eventual avaliação negativa — ainda por cima anônima — seja corrigida posteriormente.
 
 ## 9. O TST já enfrentou situações em que falta de pessoal, insatisfação de clientes e agressão se conectaram
 
