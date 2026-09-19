@@ -7,7 +7,7 @@
 **Denominação do Projeto:** `Classe e Massas`  
 **project_id legado:** `classe-e-massas`  
 **Status:** CANÔNICO  
-**Versão:** 2.2  
+**Versão:** 2.3  
 **Data:** 19/09/2026  
 **generated_from_kernel:** `1.4`  
 **Kernel de referência:** `thiagoba2004/gerador-de-agents/AGENTS_KERNEL.md`  
@@ -399,6 +399,41 @@ Páginas puramente operacionais, índices gerados, CSS, JavaScript, logs, arquiv
 
 A ausência histórica de um dos três artefatos é uma **lacuna documental a corrigir**, e não precedente para novas publicações incompletas.
 
+
+### 8.6. Padrão obrigatório para Modelos publicados no Site
+
+Sempre que o Site Classe e Massas disponibilizar um **Modelo** reutilizável — em qualquer Menu ou seção, incluindo LAI, MPT, Notícias, Artigos, Fale Conosco ou futuras áreas — a interface pública deve obedecer cumulativamente às regras abaixo.
+
+#### 8.6.1. Botão COPIAR MODELO
+
+1. Todo Modelo público deve possuir botão com o rótulo canônico **`COPIAR MODELO`**.
+2. O botão deve ficar **imediatamente acima do texto exato do Modelo que será copiado**.
+3. Entre o botão e o bloco copiável não pode existir texto explicativo, nota, outro botão, chamada, link, caixa editorial ou qualquer elemento que rompa a relação visual direta.
+4. O botão deve copiar somente o conteúdo do Modelo, sem título editorial, introdução, notas metodológicas, histórico de revisão ou conteúdo posterior.
+5. É vedado posicionar o botão apenas em uma barra geral de ações distante do Modelo.
+6. A publicação de um Modelo sem o botão, com o botão distante do texto, com alvo incorreto ou com rótulo divergente constitui **irregularidade de publicação** e deve ser corrigida antes de o artefato ser considerado verificado publicamente.
+
+#### 8.6.2. Somente a edição vigente pode permanecer no Site Público
+
+1. O Site Público deve disponibilizar **somente a edição vigente** de cada Modelo.
+2. É proibido publicar ou manter no Site Público botões, links, cards, menus, rotas de navegação ou outros **portões de acesso** para edições anteriores de Modelos, inclusive rótulos como `VER 1ª EDIÇÃO`, `VERSÃO ANTERIOR`, `ARQUIVO`, `HISTÓRICO` ou equivalentes.
+3. A página pública vigente não deve promover ou destacar numeração de edição anterior nem seção comparativa que funcione como acesso editorial à versão superada.
+4. Versões históricas devem ser preservadas pela memória do Git, commits, tags, arquivos de governança ou outro mecanismo **não publicado no Site Público**.
+5. Quando uma nova edição substituir outra, a versão HTML pública superada deve ser retirada do conjunto publicado; o histórico não deve depender de manter uma URL pública da edição anterior.
+6. Esta regra não proíbe histórico técnico no repositório ou Git. Proíbe sua **exposição como conteúdo navegável do Site Público**.
+
+#### 8.6.3. Gate de verificação de Modelos
+
+Antes de declarar um Modelo `PUBLICADO` ou `ATUALIZADO`, verificar:
+
+- existência de **COPIAR MODELO**;
+- posição imediatamente acima do texto copiável;
+- alvo correto da função de cópia;
+- inexistência de acesso público a edição superada;
+- inexistência de links internos apontando para versão histórica do Modelo;
+- coerência entre Markdown, HTML e JSON vigentes.
+
+
 ### 8.3. Siglas e abreviações
 
 Toda sigla relevante deve ter o significado informado pelo menos uma vez, preferencialmente na primeira ocorrência.
@@ -670,6 +705,7 @@ governanca/estrategia-migracao-agents-kernel-1.2.md
 | 2.0 | 18/09/2026 | Elimina a lacuna normativa de formatos editoriais: torna obrigatório, para cada texto editorial/publicável, o trio coordenado Markdown + HTML + JSON, define Markdown como fonte textual canônica, impõe sincronização e gate de conclusão e admite exceções somente por decisão expressa, persistente e versionada. |
 | 2.1 | 19/09/2026 | Institui governança numérica: código + denominação obrigatórios para Projeto e Estratégia Autônoma; Planos de Fases integralmente numerados; padrão determinístico para respostas de continuidade. |
 | 2.2 | 19/09/2026 | Substitui códigos derivados de iniciais pela metodologia universal hierárquica: `PRJ-NNNNNN` para Projetos, `EA-PPPPPP-EEEEEE` para Estratégias Autônomas e `F-PPPPPP-EEEEEE-FFF` para Fases; rebaixa `CEM` a alias mnemônico e preserva identificadores legados por mapeamento. |
+| 2.3 | 19/09/2026 | Institui o padrão obrigatório para Modelos públicos: botão `COPIAR MODELO` imediatamente acima do bloco copiável, somente a edição vigente no Site Público e proibição de portões de acesso a edições anteriores. |
 
 ---
 
