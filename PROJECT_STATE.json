@@ -268,16 +268,18 @@
     "strategy_identification": "strategy_id + strategy_name",
     "phase_identification": "phase_number + phase_total + phase_code + phase_name",
     "continuity_response_standard": true,
-    "legacy_phase_normalization": "normalizar ao retomar; não reescrever histórico nem inventar numeração"
+    "legacy_phase_normalization": "normalizar ao retomar; não reescrever histórico nem inventar numeração",
+    "agents_blob_sha": "1ae5a2b574116f86a4985b9b7bfb574abfe4b1e9"
   },
   "current_governance_strategy": {
     "strategy_id": "STRAT-CEM-20260919-001",
     "strategy_name": "Governança numérica de Projetos, Estratégias Autônomas e Fases",
-    "phase_number": 4,
+    "phase_number": 5,
     "phase_total": 5,
-    "phase_code": "F04",
-    "phase_name": "Implementação no Classe e Massas",
-    "status": "EM_EXECUCAO",
-    "plan_ref": "governanca/estrategia-governanca-numerica.md"
+    "phase_code": "F05",
+    "phase_name": "Verificação e fechamento",
+    "status": "CONCLUIDO",
+    "plan_ref": "governanca/estrategia-governanca-numerica.md",
+    "last_event_id": "STEV-CEM-20260919-002"
   }
 }
