@@ -290,12 +290,16 @@
     "phase_name": "Auditoria e fechamento",
     "status": "EM_EXECUCAO",
     "plan_ref": "governanca/estrategia-menu-videos-primeiro-filme.md",
-    "last_event_id": "STEV-CEM-20260919-069",
+    "last_event_id": "STEV-CEM-20260919-070",
     "site_status": "MENU VIDEOS IMPLANTADO E AUDITADO",
     "video_001_status": "EM_PRODUCAO — roteiro, prompts e guia concluídos; audiovisual final ainda não existe",
     "video_001_page": "videos/2026/quando-o-cliente-vira-fiscal-do-bancario.html",
     "recommended_tool": "CapCut",
-    "next_step": "Gerar externamente no CapCut os oito planos do Vídeo 001, montar/exportar o audiovisual real e submetê-lo à revisão antes de alterar o estado para PUBLICADO."
+    "next_step": "Abrir conta Free no Runway, verificar os modelos realmente disponíveis e testar somente a Cena 01 antes de consumir créditos adicionais.",
+    "recommended_generator_test": "Runway Free",
+    "secondary_generator_test": "Higgsfield Free",
+    "editor": "CapCut",
+    "tool_research_ref": "editorial/videos/2026/pesquisa-ferramenta-video-001.md"
   },
   "project_sequence": 1,
   "project_alias": "CEM",
