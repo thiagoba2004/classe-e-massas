@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "project_code": "PRJ-000001",
   "project_name": "Classe e Massas",
   "strategy_code": "EA-000001-000016",
@@ -42,5 +42,41 @@
     "DATA E HORÁRIO",
     "CONTATO",
     "ENDEREÇO DO SITE"
-  ]
+  ],
+  "updated_at": "2026-09-19",
+  "press_contacts_verified_at": "2026-09-19",
+  "press_contacts": [
+    {
+      "bank": "Banco do Brasil",
+      "email": "imprensa@bb.com.br",
+      "phone": "+55 (61) 3493-2932",
+      "source": "https://imprensa.bb.com.br/"
+    },
+    {
+      "bank": "CAIXA Econômica Federal",
+      "email": "imprensa@caixa.gov.br",
+      "phones": [
+        "(61) 3206-4651",
+        "(61) 3206-9645"
+      ],
+      "regional_northeast_email": "imprensa.nordeste@caixa.gov.br",
+      "source": "https://caixanoticias.caixa.gov.br/Paginas/sala-de-imprensa.aspx"
+    },
+    {
+      "bank": "Itaú Unibanco",
+      "email": "imprensa@itau-unibanco.com.br",
+      "source": "https://www.itau.com.br/imprensa"
+    },
+    {
+      "bank": "Bradesco",
+      "email": "imprensa@bradesco.com.br",
+      "source": "https://imprensa.bradesco/imprensa/home"
+    },
+    {
+      "bank": "Santander Brasil",
+      "email": "imprensa@santander.com.br",
+      "source": "https://www.santander.com.br/portal/wps/script/templates/GCMRequest.do?entryID=7844&page=7774"
+    }
+  ],
+  "update_note": "Contatos oficiais de imprensa dos principais bancos inseridos ao final da notícia-modelo."
 }
