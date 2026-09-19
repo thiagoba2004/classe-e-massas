@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "project": "Classe e Massas",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "purpose": "Fonte estruturada de continuidade entre conversas, modelos de IA e sessões de trabalho. Não substitui os documentos específicos de cada frente; aponta o estado mais avançado comprovado e a próxima etapa.",
   "rules": {
     "authoritative_order": [
@@ -257,5 +257,27 @@
     "generated_from_kernel": "1.2",
     "checkpoint_tool": "tools/salvar-checkpoint.sh",
     "checkpoint_policy": "salvar unidade lógica antes de avançar; marcos críticos devem chegar ao remoto e ser verificados"
+  },
+  "project_id": "classe-e-massas",
+  "project_code": "CEM",
+  "project_name": "Classe e Massas",
+  "governance_standard": {
+    "agents_version": "2.1",
+    "kernel_version": "1.3",
+    "project_identification": "CEM — Classe e Massas",
+    "strategy_identification": "strategy_id + strategy_name",
+    "phase_identification": "phase_number + phase_total + phase_code + phase_name",
+    "continuity_response_standard": true,
+    "legacy_phase_normalization": "normalizar ao retomar; não reescrever histórico nem inventar numeração"
+  },
+  "current_governance_strategy": {
+    "strategy_id": "STRAT-CEM-20260919-001",
+    "strategy_name": "Governança numérica de Projetos, Estratégias Autônomas e Fases",
+    "phase_number": 4,
+    "phase_total": 5,
+    "phase_code": "F04",
+    "phase_name": "Implementação no Classe e Massas",
+    "status": "EM_EXECUCAO",
+    "plan_ref": "governanca/estrategia-governanca-numerica.md"
   }
 }
