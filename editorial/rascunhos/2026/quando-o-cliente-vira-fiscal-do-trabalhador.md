@@ -253,94 +253,113 @@ Fonte:
 
 ## 10. O que dizem as Políticas Institucionais de Relacionamento dos próprios bancos
 
-A Resolução CMN nº 4.949/2021 não se limita a enunciar princípios gerais. Ela obriga cada instituição a manter uma **Política Institucional de Relacionamento com Clientes e Usuários**, formalizada em documento específico, com responsabilidades, treinamento, acompanhamento e mecanismos de controle.
+A Resolução CMN nº 4.949/2021 obriga cada instituição financeira a manter uma **Política Institucional de Relacionamento com Clientes e Usuários**. Não se trata de documento meramente decorativo.
 
-Há uma nuance importante: o art. 6º, §4º, exige que o documento permaneça **à disposição do Banco Central**, mas não determina que todos os bancos publiquem necessariamente a íntegra em seus sites. Por isso, a pesquisa encontrou graus diferentes de publicidade.
+A norma exige:
+- papéis e responsabilidades;
+- treinamento;
+- gestão do atendimento;
+- registro e tratamento de demandas;
+- mediação de conflitos;
+- equilíbrio entre metas e incentivos de desempenho e os valores da política;
+- monitoramento, métricas, controle e correção de deficiências.
 
-### CAIXA: regra expressa sobre metas e desempenho
+O art. 6º, §4º, determina que o documento fique à disposição do Banco Central. Isso não significa que todos os bancos sejam obrigados a publicar a íntegra na internet. Por isso, a pesquisa precisa distinguir políticas integralmente públicas, relatórios que descrevem a política e documentos internos apenas referenciados publicamente.
 
-A CAIXA disponibiliza publicamente a sua **Política de Relacionamento com Clientes e Usuários de Produtos e Serviços**, versão de dezembro de 2024.
+### Banco do Brasil: a política integral foi localizada
 
-O item **5.7.7** é especialmente importante:
+A pesquisa localizou a **Política Específica de Relacionamento com Clientes e Usuários de Produtos e Serviços** do Banco do Brasil em documento público institucional, com última revisão indicada em **10 de outubro de 2024**.
 
-> **a CAIXA promove o equilíbrio das metas de resultados e dos incentivos associados ao desempenho dos empregados e parceiros com as diretrizes previstas na Política.**
+O documento informa que sua área responsável é a Diretoria Controles Internos e Compliance e determina que todas as unidades que atuam no relacionamento com clientes estabeleçam **mecanismos de gestão para garantir a integral implementação da política**.
+
+Também exige programa de treinamento e disseminação interna para os funcionários.
+
+Entre os enunciados, o BB afirma:
+
+- promover ambiente inclusivo e seguro junto a clientes, usuários, funcionários e terceirizados;
+- assegurar atendimento presencial mesmo com outros canais disponíveis;
+- estimular a comunicação dos clientes com a Empresa;
+- considerar as manifestações dos clientes na melhoria de produtos, serviços e relacionamento;
+- priorizar o diálogo e buscar solução rápida e precisa das demandas;
+- monitorar a política por pesquisas de satisfação, reclamações e indicadores;
+- utilizar a Ouvidoria Externa para mediação de conflitos entre a instituição e os clientes.
+
+Isso modifica a nossa análise.
+
+O conflito não pode ser reduzido a “cliente versus empregado”. A própria política do BB distribui responsabilidades institucionalmente e exige mecanismos de gestão em todas as unidades envolvidas no relacionamento.
+
+Fonte:
+- Política Específica de Relacionamento com Clientes e Usuários de Produtos e Serviços — Banco do Brasil, última revisão 10/10/2024.
+
+### CAIXA: metas, desempenho e diretrizes da política
+
+A CAIXA disponibiliza publicamente a **Política de Relacionamento com Clientes e Usuários de Produtos e Serviços**, versão de dezembro de 2024.
+
+O item **5.7.7** estabelece que a CAIXA promove o equilíbrio das metas de resultados e dos incentivos associados ao desempenho dos empregados e parceiros com as diretrizes previstas na própria política.
 
 O item 5.7.8 determina tratamento adequado dos desvios identificados.
 
-Aqui não estamos apenas diante da norma abstrata do CMN. É o próprio banco incorporando à sua política institucional a obrigação de equilibrar metas, desempenho e relacionamento.
+A política também distribui responsabilidades por áreas de Rede de Varejo, Clientes e Canais, Pessoas e outras diretorias. Portanto, não é apenas uma regra de comportamento do empregado que está no balcão; é um instrumento de governança institucional.
 
 Fonte:
 - https://www.caixa.gov.br/Downloads/caixa-governanca/politica-de-relacionamento-com-clientes-e-usuarios-de-produtos-e-servicos-caixa.pdf
 
-### Santander: incentivos, reclamações e responsabilização fazem parte da política
+### Santander: atendimento presencial, mediação de conflitos e metas aparecem separados
 
-O Santander mantém material público sobre sua Política Institucional de Relacionamento com Clientes.
+A política integral do Santander é ainda mais detalhada.
 
-O Relatório de Ouvidoria do 2º semestre de 2025 informa que a política:
-- define comportamentos esperados dos colaboradores;
-- alinha equipes e iniciativas ao modelo de atendimento;
-- utiliza mecanismos de **incentivo e responsabilização**;
-- organiza a governança em oito pilares, entre eles **Incentivos**, **Reclamações**, **Tratamento justo**, **Treinamento** e governança.
+No item **5.7 — Gestão do Atendimento Presencial**, determina que demandas, reclamações e sugestões sejam registradas sob número de protocolo, identificadas, analisadas e submetidas a tratamento formal e adequado. Os colaboradores devem orientar os clientes sobre dúvidas, reclamações e providências independentemente de o canal ser digital, telefônico ou presencial.
 
-O Relatório Anual Integrado de 2025 afirma que a política atravessa todas as áreas da organização e orienta desenvolvimento de produtos, serviços e atendimento.
+No item **5.8 — Mediação de Conflitos**, o banco declara preferência pela negociação de boa-fé e conciliação e prevê mediação institucional pela Ouvidoria.
 
-Fontes:
-- https://cms.santander.com.br/sites/WPS/documentos/arq-atendimento-ouvidoria-download-2sem25/26-02-25_142203_relatorio_ouvidoria_2s25_santander-brasil-sa-versao-web.pdf
-- https://cms.santander.com.br/sites/WRI/documentos/url-PRCC/24-12-09_211533_pol%C3%ADtica%2Binstitucional%2Bde%2Brelacionamento%2Bcom%2Bclientes.pdf
+No item **5.11 — Sistemas de Metas e Incentivos ao Desempenho**, os modelos de incentivo devem alinhar interesses de acionistas, funcionários e clientes, promover equilíbrio e boas práticas e combinar critérios quantitativos e qualitativos. O desenho deve considerar qualidade operacional, qualidade do serviço, gestão de riscos, atendimento e satisfação dos clientes.
 
-### Itaú: incentivos e contra incentivos para a qualidade da venda
+A política adota ainda modelo de três linhas de defesa. Áreas administrativas, de negócios e canais de atendimento integram a primeira linha e possuem responsabilidade primária de identificar, avaliar, monitorar, mitigar e comunicar riscos.
 
-O Relatório de Ouvidoria do Itaú referente ao 1º semestre de 2025 descreve sua Política de Relacionamento com Clientes como orientadora de todas as interações, da concepção ao pós-venda.
+O ponto é decisivo:
 
-Entre seus elementos estão ética, transparência, diligência, responsabilidade, empatia, integridade no atendimento e mediação de conflitos.
+> **no próprio desenho institucional do Santander, reclamação, conflito, risco e metas são objetos de governança — não uma negociação privada entre cliente e trabalhador.**
 
-Há um ponto diretamente conectado à nossa investigação: no eixo **Qualidade da venda**, o Itaú afirma possuir programas de **incentivos e contra incentivos** destinados a promover equilíbrio, qualidade das vendas e relações sustentáveis com clientes e usuários.
+Fonte:
+- https://cms.santander.com.br/sites/WRI/documentos/url-PRC/23-12-19_201902_pol%25C3%25ADtica%2Binstitucional%2Bde%2Brelacionamento%2Bcom%2Bclientes.pdf
 
-O Código de Ética e Conduta do Itaú remete à Política Institucional de Relacionamento, mas indica que a norma integral é interna. Portanto, o conteúdo público utilizado aqui vem do relatório institucional de ouvidoria, e não de uma suposta versão integral que não foi localizada.
+### Itaú: reclamação vira análise de causa e plano de ação
+
+O Relatório de Ouvidoria do Itaú referente ao primeiro semestre de 2025 descreve a Política de Relacionamento com Clientes como orientadora de todas as interações, da concepção ao pós-venda.
+
+A política inclui integridade no atendimento, mediação de conflitos, capacitação e monitoramento.
+
+No eixo **Qualidade da venda**, o Itaú informa manter programas de **incentivos e contra incentivos** para promover equilíbrio e qualidade das vendas.
+
+O relatório mostra algo ainda mais importante para este artigo: as reclamações são submetidas a processo institucional de gestão, com monitoramento, seleção de temas, análise de causa-raiz, planos de ação e avaliação de efetividade. Ouvidoria, Atendimento, Negócios, Operações e Tecnologia participam do processo; a Ouvidoria também leva questões a comitês, CEO e diretores.
+
+Ou seja, a reclamação do cliente é tratada como informação organizacional capaz de revelar problemas de processo — não como ordem direta para que determinado empregado “produza mais”.
 
 Fonte:
 - https://www.itau.com.br/media/dam/m/474283bbf19ec4dc/original/Relatorio-de-Ouvidoria-Febraban-01-2025.pdf
 
-### Banco do Brasil: política confirmada e incorporada às regras de relacionamento
+### Bradesco: evidência pública ainda parcial
 
-O Banco do Brasil confirma publicamente a existência de sua **Política Específica de Relacionamento com Clientes e Usuários de Produtos e Serviços**. A página atual da BB Consórcios informa que a subsidiária aderiu à política do Banco do Brasil.
+Material oficial do Bradesco confirma a existência da Política Institucional de Relacionamento com Clientes e Usuários e destaca tratamento justo e equitativo, respeito às vulnerabilidades e informações claras.
 
-O Código de Ética do BB determina que os contatos e negócios com clientes observem, entre outras normas, a política de relacionamento com clientes e usuários.
+A política integral não foi recuperada de forma pública e confiável nesta etapa da pesquisa. Por isso, não serão atribuídas ao Bradesco regras específicas sobre metas, mediação ou papel gerencial sem documentação adicional.
 
-Documentos públicos do Banco descrevem a política como instrumento destinado a induzir cultura organizacional voltada a negócios sustentáveis e a princípios de ética, responsabilidade, transparência e diligência, com capacitação, indicadores e avaliação de maturidade.
+### O que essa comparação demonstra
 
-A versão integral mais recente não foi recuperada, nesta pesquisa, em formato público facilmente indexável. Isso não permite concluir ausência de política: a Resolução CMN exige sua manutenção perante o Banco Central, e o próprio BB confirma sua existência e aplicação.
+CMN e bancos convergem numa mesma arquitetura:
 
-Fontes:
-- https://www.bb.com.br/site/sobre-nos/entidades-ligadas-ao-banco-do-brasil/bb-consorcios/
-- https://www.bb.com.br/docs/pub/siteEsp/ri/pt/dce/dwn/Codigoetica.pdf
+- a reclamação deve ser **recebida**;
+- a demanda deve ser **registrada e tratada**;
+- o conflito deve ser **mediado**;
+- causas e desvios devem ser **monitorados e corrigidos**;
+- metas e incentivos não podem existir desconectados de valores, qualidade e riscos;
+- responsabilidades são distribuídas institucionalmente.
 
-### Bradesco: política publicamente referenciada e tratamento justo
+Isso fornece uma base mais robusta para a tese deste artigo:
 
-Material oficial do Bradesco sobre relacionamento com públicos vulneráveis identifica expressamente a **Política Institucional de Relacionamento com Clientes e Usuários**.
+> **o trabalhador não é o destino institucional da reclamação do cliente. O banco é.**
 
-O documento destaca tratamento justo e equitativo, respeito à individualidade, vulnerabilidades e necessidades, informações claras e precisas e ausência de barreiras desarrazoadas no relacionamento.
-
-A página de **Políticas e Normas** do Bradesco RI está publicamente disponível, mas sua listagem depende de execução de JavaScript; o texto integral da política não foi recuperado de forma confiável pelo mecanismo de pesquisa utilizado. Por isso, o artigo se limita ao que está efetivamente documentado em material oficial.
-
-Fontes:
-- https://imprensa.bradesco.com.br/assets/common/pdf/atendimento/fale-conosco/ouvidoria/Guia-Boas-Praticas-Relacionamento-Vulneraveis.pdf
-- https://www.bradescori.com.br/o-bradesco/governanca-corporativa/estatuto-politicas-normas-e-contrato-de-indenidade/politicas-e-normas/
-
-### O que essa comparação acrescenta
-
-A regulação não diz apenas que o cliente deve ser bem atendido.
-
-Ela obriga o banco a criar uma estrutura institucional em que:
-- atendimento e reclamações sejam geridos;
-- conflitos sejam mediados;
-- empregados sejam treinados;
-- metas e incentivos sejam equilibrados com os valores da política;
-- desvios sejam identificados e corrigidos.
-
-E os próprios bancos, em graus diferentes de publicidade, reproduzem essa arquitetura.
-
-Isso reforça a tese deste artigo: **a reclamação do cliente deve entrar nos mecanismos institucionais de relacionamento; não deve ser convertida em comando direto nem em julgamento público da produtividade individual do trabalhador.**
+Quando a crítica sai do serviço e se transforma em julgamento público da produtividade individual, a gestão precisa recolocar a situação dentro da estrutura institucional prevista pela própria regulação e pelas políticas do banco.
 
 ## 11. O regulador cria canais para a reclamação — não uma chefia exercida pelo cliente
 
@@ -411,17 +430,43 @@ Em situação de risco grave e iminente à vida ou à saúde, a NR-1 prevê o di
 
 Quanto mais a situação deixa de ser reclamação sobre o serviço e passa a atingir diretamente a dignidade do empregado, menos defensável se torna a passividade institucional.
 
-Não foi localizada uma cláusula da CCT com a frase literal “o gestor deve intervir imediatamente sempre que cliente criticar a produtividade”. O artigo não deve inventar essa regra.
+Não foi localizada norma com a frase literal:
 
-Mas o conjunto normativo aponta para dever de proteção.
+> “o gerente deve intervir imediatamente sempre que um cliente criticar a produtividade de um empregado”.
 
-A Constituição assegura redução dos riscos inerentes ao trabalho. O art. 157 da CLT atribui às empresas deveres de saúde e segurança. A NR-1 exige gerenciamento dos riscos ocupacionais, incluindo fatores psicossociais. A CCT cria canais específicos para atos praticados por clientes. Os códigos de ética dos próprios bancos exigem respeito e dignidade.
+O artigo não deve inventar essa obrigação textual.
 
-A consequência prática é que a gestão deve **assumir a reclamação institucional** e não deixar o empregado sozinho, no salão, defendendo a própria produtividade.
+Mas o aprofundamento das políticas dos próprios bancos tornou o fundamento institucional muito mais concreto.
+
+A Resolução CMN nº 4.949/2021 exige que o banco organize **gestão do atendimento, tratamento de demandas, mediação de conflitos, mecanismos de controle e correção de deficiências**.
+
+A política do Banco do Brasil determina que todas as unidades envolvidas no relacionamento estabeleçam mecanismos de gestão para sua integral implementação, prioriza o diálogo e afirma promover ambiente seguro e inclusivo junto a clientes e funcionários.
+
+A política do Santander exige registro e tratamento formal das reclamações presenciais, prevê mediação de conflitos e distribui responsabilidades de risco entre áreas de negócio e canais de atendimento.
+
+A CAIXA distribui responsabilidades entre rede, clientes/canais, pessoas e outras diretorias e exige equilíbrio entre metas e diretrizes da política.
+
+O Itaú descreve um processo em que reclamações são analisadas por causa-raiz e transformadas em planos de ação envolvendo várias áreas da instituição.
+
+Nenhuma dessas regras diz que o cliente deve ser silenciado porque criticou o empregado.
+
+O que elas demonstram é outra coisa:
+
+> **a instituição possui estrutura, pessoas, processos e deveres próprios para receber a crítica.**
+
+Por isso, quando um cliente começa a transformar a reclamação sobre espera em fiscalização pública da produtividade individual, uma reação institucional coerente é a gestão assumir a interlocução:
+
+- receber a reclamação sobre demora;
+- registrá-la quando cabível;
+- explicar os canais adequados;
+- impedir que o trabalhador seja obrigado a discutir publicamente suas metas ou desempenho;
+- preservar o sigilo dos atendimentos anteriores;
+- fazer cessar humilhação, ameaça ou hostilidade quando houver;
+- registrar e encaminhar situações relevantes pelos canais internos e convencionais.
 
 Isso não significa expulsar automaticamente o cliente.
 
-Significa impedir que uma reclamação legítima se transforme num tribunal improvisado sobre o trabalhador.
+Significa retirar a discussão do plano pessoal e recolocá-la onde a própria regulação diz que ela pertence: **na gestão institucional do atendimento e do conflito**.
 
 ## 16. O TST já reconheceu dever patronal diante de agressão de cliente
 
