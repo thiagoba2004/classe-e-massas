@@ -48,8 +48,10 @@
 
   <h2>Modelo de solicitação de posicionamento</h2>
 
+  <div class="actions model-copy-actions"><button id="copy-model">COPIAR MODELO</button></div>
+
   <div class="document-box">
-    <pre class="email-full">Assunto: Solicitação de posicionamento institucional — fiscalização pública da produtividade de trabalhador por cliente
+    <pre id="model-text" class="email-full">Assunto: Solicitação de posicionamento institucional — fiscalização pública da produtividade de trabalhador por cliente
 
 À Assessoria de Imprensa do [NOME DO BANCO],
 
@@ -158,6 +160,13 @@ Classe e Massas
     <p><strong>Observação:</strong> os bancos podem alterar canais, telefones ou estruturas de atendimento. Antes de cada envio, é recomendável conferir novamente a página institucional indicada.</p>
   </div>
 
+  <script>
+  document.getElementById("copy-model").onclick=async function(){
+    const b=this,t=document.getElementById("model-text").innerText,o=b.textContent;
+    try{await navigator.clipboard.writeText(t);b.textContent="COPIADO ✓"}catch{b.textContent="SELECIONE O MODELO ABAIXO"}
+    setTimeout(()=>b.textContent=o,1800);
+  };
+  </script>
 </article>
 </main>
 
