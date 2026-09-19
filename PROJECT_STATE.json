@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "project": "Classe e Massas",
   "updated_at": "2026-09-19",
   "purpose": "Fonte estruturada de continuidade entre conversas, modelos de IA e sessões de trabalho. Não substitui os documentos específicos de cada frente; aponta o estado mais avançado comprovado e a próxima etapa.",
@@ -171,7 +171,10 @@
         "não misturar data de assembleia com informação sobre aprovação, rejeição, percentual ou localização do resultado",
         "não usar metodologias cronológicas diferentes entre os 18 sindicatos",
         "não reabrir ou alterar a versão aprovada sem novo pedido explícito do usuário"
-      ]
+      ],
+      "legacy_strategy_id": "STRAT-CEM-20260917-006",
+      "strategy_code": "EA-000001-000006",
+      "parent_strategy_code": "EA-000001-000005"
     },
     {
       "id": "GOV-AGENTS-KERNEL-1.2",
@@ -195,7 +198,10 @@
         "não executar backfill geral de estratégias dentro desta migração",
         "não revogar regras locais mais rigorosas preservadas por incorporação da v1.8",
         "não tratar a ordem histórica da v1.7/v1.8 como regra vigente"
-      ]
+      ],
+      "legacy_strategy_id": "STRAT-CEM-20260917-002",
+      "strategy_code": "EA-000001-000002",
+      "parent_strategy_code": "EA-000001-000001"
     },
     {
       "id": "GOV-TRIO-FORMATOS-EDITORIAIS",
@@ -216,7 +222,9 @@
         "não considerar HTML isolado como documentação editorial completa",
         "não dispensar Markdown ou JSON por prática histórica",
         "não transformar páginas técnicas e arquivos operacionais em conteúdo editorial apenas para satisfazer a regra"
-      ]
+      ],
+      "legacy_strategy_id": "STRAT-CEM-20260918-001",
+      "strategy_code": "EA-000001-000011"
     },
     {
       "id": "GOV-AUDITORIA-TRIPLICIDADE-EDITORIAL",
@@ -248,7 +256,9 @@
         "não voltar a publicar HTML editorial isolado",
         "não usar front matter YAML nos Markdown espelho sem decisão arquitetural sobre Jekyll",
         "não tratar índices e páginas operacionais como textos editoriais apenas para satisfazer a regra"
-      ]
+      ],
+      "legacy_strategy_id": "STRAT-CEM-20260918-002",
+      "strategy_code": "EA-000001-000012"
     }
   ],
   "continuity": {
@@ -259,7 +269,7 @@
     "checkpoint_policy": "salvar unidade lógica antes de avançar; marcos críticos devem chegar ao remoto e ser verificados"
   },
   "project_id": "classe-e-massas",
-  "project_code": "CEM",
+  "project_code": "PRJ-000001",
   "project_name": "Classe e Massas",
   "governance_standard": {
     "agents_version": "2.1",
@@ -272,14 +282,26 @@
     "agents_blob_sha": "1ae5a2b574116f86a4985b9b7bfb574abfe4b1e9"
   },
   "current_governance_strategy": {
-    "strategy_id": "STRAT-CEM-20260919-001",
-    "strategy_name": "Governança numérica de Projetos, Estratégias Autônomas e Fases",
-    "phase_number": 5,
+    "strategy_code": "EA-000001-000014",
+    "strategy_name": "Metodologia universal de codificação hierárquica",
+    "legacy_strategy_id": "STRAT-CEM-20260919-002",
+    "phase_number": 4,
     "phase_total": 5,
-    "phase_code": "F05",
-    "phase_name": "Verificação e fechamento",
-    "status": "CONCLUIDO",
-    "plan_ref": "governanca/estrategia-governanca-numerica.md",
-    "last_event_id": "STEV-CEM-20260919-002"
+    "phase_code": "F-000001-000014-004",
+    "phase_name": "Migração controlada do Classe e Massas",
+    "status": "EM_EXECUCAO",
+    "plan_ref": "governanca/estrategia-metodologia-codificacao-hierarquica.md"
+  },
+  "project_sequence": 1,
+  "project_alias": "CEM",
+  "project_id_legacy": "classe-e-massas",
+  "identification_standard": {
+    "source": "thiagoba2004/gerador-de-agents/IDENTIFICATION_STANDARD.md",
+    "version": "1.0",
+    "kernel_version": "1.4",
+    "agents_version": "2.2",
+    "project_code_format": "PRJ-NNNNNN",
+    "strategy_code_format": "EA-PPPPPP-EEEEEE",
+    "phase_code_format": "F-PPPPPP-EEEEEE-FFF"
   }
 }
