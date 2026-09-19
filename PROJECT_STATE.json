@@ -309,12 +309,18 @@
   "current_editorial_strategy": {
     "strategy_code": "EA-000001-000015",
     "strategy_name": "Cliente, produtividade e controle social do trabalho bancário",
-    "phase_number": 1,
+    "phase_number": 4,
     "phase_total": 5,
-    "phase_code": "F-000001-000015-001",
-    "phase_name": "Delimitação do problema e resposta preliminar",
-    "status": "EM_EXECUCAO",
+    "phase_code": "F-000001-000015-004",
+    "phase_name": "Redação e auditoria editorial",
+    "status": "EM_REVISAO_HUMANA",
+    "gate_status": "SATISFEITO_PARA_REVISAO_HUMANA",
     "plan_ref": "governanca/estrategia-cliente-produtividade-trabalho-bancario.md",
-    "current_thesis": "O cliente tem direito de reclamar sobre demora e qualidade do serviço, mas não detém poder diretivo sobre o empregado nem pode presumir baixa produtividade apenas pelo número bruto de atendimentos por hora."
+    "draft_markdown": "editorial/rascunhos/2026/quando-o-cliente-vira-fiscal-do-trabalhador.md",
+    "draft_html": "editorial/rascunhos/2026/quando-o-cliente-vira-fiscal-do-trabalhador.html",
+    "draft_json": "editorial/rascunhos/2026/quando-o-cliente-vira-fiscal-do-trabalhador.json",
+    "audit_ref": "editorial/documentos/auditoria-quando-o-cliente-vira-fiscal-do-trabalhador.md",
+    "publication_status": "NAO_PUBLICADO",
+    "next_step": "REVISÃO HUMANA; APÓS APROVAÇÃO EXPRESSA, AVANÇAR À FASE 05/05 PARA PUBLICAÇÃO."
   }
 }
