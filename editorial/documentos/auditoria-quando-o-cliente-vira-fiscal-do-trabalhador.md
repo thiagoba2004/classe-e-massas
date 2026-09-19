@@ -599,3 +599,53 @@ A proteção passa a ser exclusivamente preventiva:
 
 Não afirmar que existe cláusula literal universal dizendo “o gestor é obrigado a remanejar”. A redação do artigo assume o remanejamento como **posição jurídica e institucional decorrente da arquitetura normativa e preventiva**, e não como transcrição de comando textual específico.
 
+---
+
+## 15. Sétima auditoria — Compliance e art. 187 do Código Civil
+
+**Data:** 19/09/2026  
+**Objeto:** incorporar a função de Compliance e reproduzir integralmente o art. 187 do Código Civil.
+
+### 15.1. Compliance
+
+A ausência do termo no artigo era uma lacuna relevante.
+
+A Resolução CMN nº 4.595/2017 torna obrigatória a política de conformidade (Compliance) para as instituições financeiras abrangidas e atribui à função de Compliance tarefas diretamente relacionadas ao objeto do artigo: testar aderência a leis, normas infralegais, recomendações dos supervisores e códigos de ética/conduta; capacitar empregados; acompanhar correções; reportar irregularidades e recomendações à governança.
+
+O Conselho de Administração deve garantir medidas corretivas quando falhas de conformidade forem identificadas.
+
+**Conclusão editorial:** quando o episódio envolve possível violação de lei, norma regulatória, CCT, política institucional ou código de ética, ele pode ser matéria de Compliance, além de gestão local, Ouvidoria, RH, Segurança e canais convencionais.
+
+Foram verificados programas/políticas públicas de Compliance de BB, CAIXA, Santander e Itaú.
+
+### 15.2. Art. 187
+
+O artigo passa a reproduzir integralmente o art. 187 do Código Civil, por ser fundamento central da tese de abuso de direito.
+
+Redação oficial conferida:
+
+> “Também comete ato ilícito o titular de um direito que, ao exercê-lo, excede manifestamente os limites impostos pelo seu fim econômico ou social, pela boa-fé ou pelos bons costumes.”
+
+Correção da formulação apresentada na revisão humana:
+- correto: **excede manifestamente**;
+- não: “exceder manifestadamente”.
+
+### 15.3. Efeito sobre a tese
+
+A estrutura jurídica fica mais clara:
+
+1. cliente possui direito de reclamar;
+2. direito de reclamar não inclui poder diretivo sobre o trabalhador;
+3. o exercício de um direito pode se tornar ilícito por abuso — art. 187;
+4. se houver exposição pública, individualizada e constrangedora, entram também direitos da personalidade;
+5. se a instituição tolera ou não trata adequadamente possível desvio, entra a dimensão de governança e Compliance.
+
+### 15.4. Estado
+
+- Markdown: v7.
+- HTML: v7 sincronizado.
+- JSON: schema 1.6.
+- Dossiê: atualizado.
+- Publicação: NÃO REALIZADA.
+- Gate: revisão humana antes da Fase 05/05.
+
