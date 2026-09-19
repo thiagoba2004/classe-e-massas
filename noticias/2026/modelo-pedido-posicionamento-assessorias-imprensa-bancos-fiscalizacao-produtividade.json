@@ -19,7 +19,8 @@
   },
   "publication": {
     "format": "html",
-    "path": "noticias/2026/modelo-pedido-posicionamento-assessorias-imprensa-bancos-fiscalizacao-produtividade.html"
+    "path": "noticias/2026/modelo-pedido-posicionamento-assessorias-imprensa-bancos-fiscalizacao-produtividade.html",
+    "html_blob_sha": "8ea36b8a8c161a72ef1a1a8534a670258a83ec27"
   },
   "structured_representation": {
     "format": "json",
