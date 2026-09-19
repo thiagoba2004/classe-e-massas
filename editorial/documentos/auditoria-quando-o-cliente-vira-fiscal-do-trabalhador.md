@@ -258,3 +258,99 @@ A última ligação é **interpretação social do artigo**, não conclusão atr
 **Status editorial:** RASCUNHO V2 — AGUARDANDO NOVA REVISÃO HUMANA.  
 **Publicação:** NÃO REALIZADA.
 
+---
+
+## 11. Terceira auditoria — correção de transações e políticas institucionais de relacionamento
+
+**Data:** 19/09/2026  
+**Objeto:** apontamentos de revisão humana sobre métrica de transações e pesquisa das políticas exigidas pela Resolução CMN nº 4.949/2021.
+
+### 11.1. Correção metodológica obrigatória
+
+A versão anterior aproximava participação das transações digitais de fluxo de atendimento presencial.
+
+**Correção:** essa inferência foi retirada.
+
+A Pesquisa Febraban mede **transações**, com e sem movimentação financeira. Em 2024, na categoria “agências bancárias”, 47% das transações tinham movimentação financeira e 53% não tinham.
+
+Logo:
+- transação ≠ cliente;
+- transação ≠ senha;
+- transação ≠ atendimento humano;
+- transação em agência ≠ exclusivamente guichê de caixa;
+- volume transacional não mede diretamente atendimento negocial e operacional.
+
+A própria pesquisa separa “Transações” de “Contas, clientes e interações”.
+
+**Nova regra editorial:** usar volume de transações apenas para caracterizar digitalização de processos, nunca como proxy automática de fluxo presencial ou intensidade do trabalho.
+
+### 11.2. O que pode permanecer da Febraban
+
+Pode permanecer, com atribuição:
+- forte digitalização das operações/processos;
+- crescimento do mobile;
+- afirmação da Febraban de reconfiguração do papel das agências e possível preferência pelo presencial em interações complexas, como crédito.
+
+Não pode permanecer:
+- dedução de que o número de clientes presenciais caiu na mesma proporção das transações;
+- dedução de carga de trabalho a partir de volume transacional;
+- dedução de intensificação apenas a partir da migração de transações.
+
+### 11.3. Regra do CMN sobre a política
+
+A Resolução CMN nº 4.949/2021:
+- exige política específica;
+- exige aprovação, avaliação periódica, papéis e responsabilidades;
+- exige treinamento e disseminação interna;
+- exige gestão do atendimento, registro/tratamento de demandas e mediação de conflitos;
+- exige equilíbrio entre metas/incentivos de desempenho e valores organizacionais;
+- exige monitoramento, controle, métricas e correção de deficiências;
+- exige que o documento fique à disposição do Banco Central.
+
+**Não exige, no art. 6º, §4º, publicação integral obrigatória no site.**
+
+Portanto, a pesquisa deve distinguir disponibilidade pública de existência normativa.
+
+### 11.4. Matriz de publicidade e conteúdo
+
+#### CAIXA
+**Status:** política integral pública.  
+**Documento:** Política de Relacionamento com Clientes e Usuários de Produtos e Serviços CAIXA — 2024/DEZ.  
+**Achado central:** item 5.7.7 reproduz expressamente o equilíbrio entre metas de resultados/incentivos de desempenho e diretrizes da política.  
+**Força probatória:** alta e direta.
+
+#### Santander
+**Status:** política/resumo públicos + relatório de ouvidoria 2025.  
+**Achados:** comportamentos esperados, incentivos, responsabilização, reclamações, tratamento justo, treinamento e governança.  
+**Força probatória:** alta para a arquitetura pública da PRC.
+
+#### Itaú Unibanco
+**Status:** descrição pública atual robusta em Relatório de Ouvidoria; norma integral indicada como interna no Código de Ética.  
+**Achado central:** programas de incentivos e contra incentivos voltados ao equilíbrio, qualidade da venda e relações sustentáveis.  
+**Força probatória:** alta quanto à descrição institucional; não afirmar acesso à íntegra da política.
+
+#### Banco do Brasil
+**Status:** existência atual confirmada em página oficial e Código de Ética; conteúdo detalhado descrito em documentos públicos institucionais/mercado.  
+**Achados:** cultura de negócios sustentáveis; ética, responsabilidade, transparência, diligência; capacitação, indicadores e avaliação.  
+**Limite:** versão integral mais recente não recuperada em formato público indexável nesta pesquisa.
+
+#### Bradesco
+**Status:** política confirmada e parcialmente descrita em material oficial; página de Políticas e Normas pública, mas conteúdo dinâmico não recuperado integralmente.  
+**Achados:** tratamento justo/equitativo, individualidade, vulnerabilidade, informações claras.  
+**Limite:** texto integral autônomo não localizado.
+
+### 11.5. Consequência para a tese
+
+O eixo regulatório e institucional fica mais forte e menos dependente da volumetria de transações:
+
+> **O CMN exige que o banco institucionalize o relacionamento com clientes, trate demandas, medie conflitos, treine empregados e equilibre metas/incentivos com seus valores. As políticas públicas dos bancos demonstram como essa obrigação é incorporada. Logo, quando a reclamação do cliente se desloca para um julgamento público da produtividade individual, a pergunta relevante é como a própria política institucional manda a gestão tratar o conflito — e não quantas transações o setor migrou para o digital.**
+
+### 11.6. Estado editorial
+
+- Pesquisa complementar: concluída.
+- Markdown: versão v3 atualizada.
+- HTML: sincronizado.
+- JSON: schema 1.2 / versão v3.
+- Publicação: NÃO REALIZADA.
+- Próximo gate: revisão humana da v3 antes da Fase 05/05.
+
