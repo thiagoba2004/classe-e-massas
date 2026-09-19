@@ -7,7 +7,7 @@
 **Denominação do Projeto:** `Classe e Massas`  
 **project_id legado:** `classe-e-massas`  
 **Status:** CANÔNICO  
-**Versão:** 2.3  
+**Versão:** 2.4  
 **Data:** 19/09/2026  
 **generated_from_kernel:** `1.4`  
 **Kernel de referência:** `thiagoba2004/gerador-de-agents/AGENTS_KERNEL.md`  
@@ -464,6 +464,49 @@ Antes de declarar um Modelo `PUBLICADO` ou `ATUALIZADO`, verificar:
 - inexistência de acesso público a edição superada;
 - inexistência de links internos apontando para versão histórica do Modelo;
 - coerência entre Markdown, HTML e JSON vigentes.
+
+### 8.8. Padrão obrigatório para conteúdo audiovisual
+
+A área pública **Vídeos** constitui núcleo editorial permanente do Projeto Classe e Massas. Todo conteúdo audiovisual deve obedecer às regras abaixo.
+
+#### 8.8.1. Estados de produção
+
+1. Todo vídeo deve possuir estado explícito: `EM_PRODUCAO`, `EM_REVISAO` ou `PUBLICADO`.
+2. É proibido marcar um vídeo como `PUBLICADO` antes de existir arquivo ou URL audiovisual real, revisado e acessível.
+3. Páginas de vídeos ainda não concluídos devem informar claramente **EM PRODUÇÃO** e não podem conter player, thumbnail ou URL fictícios.
+
+#### 8.8.2. Dramatização e realidade documental
+
+1. Dramatizações devem ser identificadas de forma inequívoca como ficcionais.
+2. É proibido representar pessoa real, banco real, logotipo, uniforme ou identidade visual reconhecível como se a dramatização fosse registro factual sem base documental e autorização adequada.
+3. Quando um vídeo for inspirado em relato, documento ou artigo, a fonte editorial deve ser registrada.
+4. O roteiro deve distinguir: fato documentado, interpretação editorial e dramatização.
+
+#### 8.8.3. Pacote canônico de produção
+
+Todo vídeo relevante deve manter, conforme aplicável:
+
+- roteiro;
+- plano de cenas;
+- prompts de geração;
+- ficha de continuidade de personagens e cenários;
+- narração;
+- legendas;
+- ficha técnica;
+- fontes;
+- metadados estruturados;
+- referência ao arquivo ou URL final quando publicado.
+
+#### 8.8.4. Qualidade e direitos
+
+1. Priorizar áudio, imagens e materiais próprios, licenciados ou expressamente autorizados para o uso pretendido.
+2. Revisar termos de uso da ferramenta de IA e licenças dos materiais incorporados antes da publicação.
+3. Conteúdo gerado por IA deve passar por revisão humana integral antes de atingir estado `PUBLICADO`.
+4. Nenhuma alegação de resolução, qualidade, licença ou ausência de marca d'água pode ser registrada sem verificação do arquivo final ou da condição vigente da ferramenta.
+
+#### 8.8.5. Menu Vídeos
+
+O item **Vídeos** integra o menu global entre **Artigos** e **Observatório**. O mecanismo central de navegação e os templates públicos devem preservar essa ordem.
 
 ---
 
