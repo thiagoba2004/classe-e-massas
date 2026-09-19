@@ -234,3 +234,270 @@ O episódio deve ser apresentado não como conflito moral entre “cliente ruim�
 - como a pressão do público pode reforçar metas, intensificação e riscos psicossociais;
 - quais limites institucionais deveriam existir para impedir a exposição pública individualizada do empregado.
 
+## Pesquisa complementar — códigos de ética dos principais bancos
+
+A revisão humana apontou a necessidade de confrontar a tese do artigo com os próprios compromissos éticos dos maiores bancos brasileiros. Foram examinados Banco do Brasil, CAIXA, Itaú Unibanco, Bradesco e Santander.
+
+### Banco do Brasil
+
+Na versão do Código de Ética disponibilizada na página oficial consultada, o BB estabelece, entre outros compromissos:
+
+- criação de ambiente transparente, respeitoso e seguro;
+- rejeição ao desrespeito à dignidade, igualdade, diversidade e privacidade;
+- ambiente de trabalho digno e saudável;
+- prioridade à segurança psicológica nas interações com clientes, usuários, funcionários, colaboradores e demais públicos;
+- prevenção de constrangimentos e prejuízos à imagem dos funcionários;
+- para líderes, equilíbrio entre **pessoas, processos e resultados**, com cuidado simultâneo com clientes, funcionários, sociedade e acionistas;
+- diálogo respeitoso, assertivo e orientado por Comunicação Não Violenta;
+- busca de soluções digitais e processos eficientes para resultados consistentes.
+
+Essa combinação é diretamente relevante para a tese do artigo: o próprio Código articula transformação, eficiência, digitalização e resultados com proteção das pessoas e segurança psicológica. Ele não oferece fundamento para que a pressão por resultados seja externalizada ao cliente como fiscalização pública da produtividade individual.
+
+Fontes:
+- https://ri.bb.com.br/o-banco-do-brasil/etica/
+- https://www.bb.com.br/docs/pub/siteEsp/ri/pt/dce/dwn/Codigoetica.pdf
+
+### CAIXA
+
+A página oficial da CAIXA informa que seu Código de Ética, Conduta e Integridade se estrutura em valores como respeito, honestidade, compromisso, transparência e responsabilidade.
+
+Na cartilha institucional e na Política de Prevenção e Combate ao Assédio Moral, Sexual e Discriminação, aparecem princípios diretamente úteis:
+- tratamento com ética, justiça, respeito, cortesia, igualdade e dignidade;
+- preservação da dignidade dos empregados em qualquer circunstância;
+- eliminação de situações de assédio, provocação e constrangimento;
+- saúde, segurança e sustentabilidade como pressupostos da organização laboral e dos métodos de gestão;
+- reconhecimento do valor social do trabalho;
+- proteção à intimidade, honra e imagem;
+- cultura de respeito mútuo e soluções dialogadas para conflitos;
+- empatia institucional, acolhimento e assistência.
+
+Fontes:
+- https://www.caixa.gov.br/sobre-a-caixa/etica/Paginas/default.aspx
+- https://www.caixa.gov.br/Downloads/caixa-integridade/codigo-de-etica-conduta-e-integridade-da-caixa-aprendizes.pdf
+- https://www.caixa.gov.br/Downloads/caixa-governanca/Politica-de-Combate-ao-Assedio-Moral-Sexual-Discriminacao.pdf
+
+### Itaú Unibanco
+
+O Itaú reconhece expressamente que atende clientes num contexto de rápidas e intensas transformações tecnológicas e de hábitos de consumo, mas afirma que resultados diferenciados devem ser buscados de forma ética e alinhada aos valores e que organizações perenes não admitem “ganho a qualquer custo”.
+
+No Código de Ética e Conduta, o banco declara promover ambiente aberto a diferentes pontos de vista, respeito, confiança e aprendizado contínuo e adotar políticas de prevenção e combate a discriminação, assédio, preconceito e condições degradantes de trabalho.
+
+Fontes:
+- https://www.itau.com.br/relacoes-com-investidores/integridade/relacoes-com-orgaos-publicos/
+- Código de Ética e Conduta Itaú Unibanco disponibilizado no site institucional.
+
+### Bradesco
+
+A página institucional do Bradesco informa que o Código de Conduta Ética orienta as interações e decisões de administradores, funcionários, estagiários, aprendizes, terceiros, fornecedores, parceiros e correspondentes.
+
+A versão do Código examinada na pesquisa estabelece como diretrizes a valorização das pessoas, o respeito à dignidade, a rejeição a abuso e assédio, a preservação de relações internas e externas sem desrespeito ou intimidação, ambiente de trabalho seguro e confortável e acolhimento de críticas e sugestões voltadas à melhoria dos processos e das relações.
+
+A síntese é importante: atendimento ao cliente, desempenho e melhoria de processos aparecem institucionalmente ao lado — e não acima — da dignidade e da segurança das pessoas.
+
+Fonte:
+- https://www.bradescori.com.br/o-bradesco/governanca-corporativa/compliance-e-etica/codigos-de-etica/
+
+### Santander
+
+O Código de Conduta Ética do Santander afirma pretender garantir um lugar seguro para trabalhar e ambiente inclusivo e respeitoso. Proíbe abuso, intimidação, assédio, desrespeito ou atitude que afete a dignidade profissional e orienta que situações desse tipo sejam comunicadas ao Canal Aberto, à gestão ou às áreas de Compliance/Pessoas.
+
+A página institucional resume seus princípios em integridade, transparência, responsabilidade, diversidade e respeito.
+
+Fontes:
+- https://www.santander.com.br/sustentabilidade/posicionamento/politicas
+- https://cms.santander.com.br/sites/WPS/documentos/arq-sustentabilidade-politicas-etica-listadownload-1/25-04-22_193005_codigo-de-conduta-etica-santander-03-2025.pdf
+
+### Síntese dos códigos de ética
+
+Há convergência relevante entre os cinco bancos examinados:
+
+1. cliente e resultado são centrais para a atividade bancária;
+2. eficiência e transformação tecnológica são objetivos declarados;
+3. esses objetivos são acompanhados por compromissos de dignidade, respeito, segurança, integridade e ambiente de trabalho saudável;
+4. nenhum dos códigos examinados confere ao cliente papel de avaliador público da produtividade individual;
+5. os códigos reforçam que conflitos, críticas, desempenho e relacionamento com clientes devem ser administrados institucionalmente.
+
+O achado mais forte para o artigo é o Banco do Brasil, que coloca no mesmo enunciado de liderança o **equilíbrio entre pessoas, processos e resultados** e, em outra diretriz, considera a segurança psicológica essencial inclusive na interação com clientes e usuários.
+
+---
+
+## Pesquisa complementar — Banco Central, CMN e regulação do Sistema Financeiro Nacional
+
+### Resolução CMN nº 4.949/2021 — relacionamento com clientes e usuários
+
+A norma dispõe sobre os princípios e procedimentos de relacionamento com clientes e usuários.
+
+O art. 6º obriga as instituições a manter política institucional de relacionamento com clientes e usuários, com diretrizes, objetivos estratégicos e valores organizacionais, além de treinamento dos empregados que atuam nesse relacionamento.
+
+O art. 7º exige consistência de rotinas e procedimentos, incluindo:
+- gestão do atendimento;
+- registro e tratamento de demandas;
+- mediação de conflitos.
+
+O achado central está no **art. 8º**:
+
+> as instituições devem promover o equilíbrio das metas de resultados e dos incentivos associados ao desempenho de funcionários e correspondentes com as diretrizes e os valores organizacionais previstos na política institucional, além de tratar adequadamente os desvios.
+
+Esse dispositivo não é uma norma trabalhista de saúde ocupacional. Seu objeto é o relacionamento com clientes. Ainda assim, ele é decisivo para este artigo porque mostra que, no próprio sistema regulatório financeiro, **metas e desempenho não são valores absolutos**: devem ser compatíveis com valores organizacionais e políticas de relacionamento.
+
+Fonte oficial:
+- https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=4949&tipo=Resolu%C3%A7%C3%A3o+CMN
+
+### Ouvidoria — Resolução CMN nº 4.860/2020
+
+O Banco Central orienta que a ouvidoria é o canal indicado para registrar reclamações e sugestões sobre o relacionamento com bancos e outras instituições financeiras. A Resolução CMN nº 4.860/2020 torna obrigatória a estrutura de ouvidoria para as instituições abrangidas e lhe atribui o recebimento, análise e resposta às demandas dos clientes.
+
+Isso reforça a separação defendida pelo artigo: a reclamação do consumidor deve ser **institucionalizada**. O sistema regulatório cria canais formais para a insatisfação do cliente; não cria uma relação de chefia entre consumidor e bancário.
+
+Fonte:
+- https://www.bcb.gov.br/meubc/lista_ouvidorias
+
+### Resolução CMN nº 4.557/2017 — risco operacional e risco social
+
+Na versão vigente examinada, o art. 32 define risco operacional como possibilidade de perdas decorrentes de eventos externos ou falhas, deficiências ou inadequações de processos internos, pessoas ou sistemas.
+
+Entre os eventos expressamente enumerados estão:
+- demandas trabalhistas e segurança deficiente do local de trabalho;
+- práticas inadequadas relativas a usuários finais, clientes, produtos e serviços;
+- falhas em sistemas, processos ou infraestrutura de tecnologia da informação;
+- falhas na execução ou gerenciamento das atividades.
+
+O art. 38-A, introduzido pela Resolução CMN nº 4.943/2021, disciplina risco social. Entre os exemplos estão:
+- atos de assédio, discriminação ou preconceito;
+- não observância da legislação trabalhista, inclusive saúde e segurança do trabalho.
+
+Essa estrutura é relevante porque o regulador prudencial não trata pessoas, trabalho, clientes e tecnologia como universos isolados. Falhas de processos, pessoas, sistemas, condições de trabalho e práticas relativas a clientes integram a matriz institucional de risco.
+
+Fontes:
+- https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=4557&tipo=Resolu%C3%A7%C3%A3o
+- https://normativos.bcb.gov.br/Lists/Normativos/Attachments/50344/Res_4557_v11_L.pdf
+
+### Resolução BCB nº 155/2021
+
+Para administradoras de consórcio e instituições de pagamento, a Resolução BCB nº 155/2021 reproduz lógica semelhante de política institucional de relacionamento, incluindo o equilíbrio entre metas/resultados e valores organizacionais.
+
+Fonte:
+- https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=155&tipo=Resolu%C3%A7%C3%A3o+BCB
+
+### CVM e outros reguladores
+
+Na pesquisa realizada, não foi localizada norma específica da Comissão de Valores Mobiliários (CVM) que discipline a fiscalização pública, por clientes, da produtividade individual de trabalhadores bancários.
+
+A CVM regula o mercado de valores mobiliários e possui políticas próprias de ética e prevenção ao assédio para seu quadro interno, mas isso não deve ser confundido com uma regra aplicável ao cotidiano geral de empregados de bancos comerciais.
+
+Assim, para o objeto deste artigo, os eixos regulatórios mais diretamente relevantes são:
+- CMN — relacionamento com clientes, metas e gerenciamento de riscos;
+- Banco Central — supervisão, ouvidoria e execução da regulação;
+- Ministério do Trabalho e Emprego / NR-1 — saúde, segurança e riscos psicossociais;
+- negociação coletiva — CCT Fenaban 2026/2028.
+
+A Febraban é entidade representativa e de autorregulação setorial, não órgão estatal regulador; suas pesquisas são usadas abaixo como fonte sobre transformação tecnológica, sem confundi-la com CMN ou Banco Central.
+
+---
+
+## Transformação digital, redução da rede física e emprego bancário
+
+### Digitalização acelerada
+
+A Pesquisa Febraban de Tecnologia Bancária 2026 informa:
+- orçamento tecnológico projetado de R$ 50,4 bilhões em 2026;
+- crescimento de 58% em cinco anos;
+- 83% das transações bancárias realizadas por canais digitais;
+- 78% das transações realizadas pelo celular;
+- crescimento de 169% do volume via mobile banking em cinco anos.
+
+A Pesquisa de Tecnologia Bancária 2025 já mostrava que canais físicos representavam apenas 5% das transações e que as agências vinham assumindo papel relativamente maior em operações **mais complexas e consultivas**, como crédito, renegociação e planejamento financeiro.
+
+Esse achado muda a leitura do episódio que originou o artigo:
+
+> à medida que operações simples migram para o digital, a quantidade de clientes atendidos por hora numa agência física tende a ser um indicador ainda menos suficiente para medir produtividade, porque parte maior da demanda presencial remanescente é justamente a que exige atendimento complexo, consultivo ou excepcional.
+
+Fontes:
+- https://portal.febraban.org.br/paginas/1117/pt-br/pesquisa
+- https://portal.febraban.org.br/noticia/4485/pt-br/
+- https://portal.febraban.org.br/noticia/4310/pt-br
+
+### Redução do emprego bancário
+
+A Pesquisa do Emprego Bancário nº 38, produzida pelo Dieese a partir do Novo Caged, registrou **eliminação de 8.910 postos no setor bancário em 2025**.
+
+Por área ocupacional:
+- Bancária/Financeira: saldo de -9.277;
+- Administrativa e afins: -589;
+- Atendimento ao público: -44;
+- Caixa de Banco/Escriturário: -132;
+- Tecnologia da Informação: +845.
+
+A composição evidencia simultaneamente redução do emprego bancário tradicional e expansão de ocupações de TI.
+
+Fonte:
+- https://contrafcut.com.br/data/files/39/62/90/E0/A043C9108D3E10C9820808A8/PEB%2038_Resultados%202025%20VF%20_1_.pdf
+
+### Redução da rede de agências
+
+O Banco Central mantém série oficial anual de quantidade de agências do segmento bancário (SGS 24936), confirmando que a rede física é variável institucionalmente acompanhada.
+
+Na Campanha Nacional dos Bancários de 2026, o movimento sindical, com base em estudo do Dieese apresentado à Fenaban, informou que entre janeiro de 2015 e maio de 2026:
+- cerca de 93,3 mil postos de trabalho bancário foram reduzidos;
+- cerca de 9,5 mil agências foram fechadas;
+- a rede física teria encolhido cerca de 42%.
+
+Esses números devem ser atribuídos ao estudo sindical/Dieese apresentado na negociação, e não diretamente ao Banco Central, salvo quando forem recalculados integralmente com a série oficial.
+
+Fontes:
+- BCB — série 24936: https://dadosabertos.bcb.gov.br/dataset/24936-quantidade-de-agencias-do-segmento-bancario-no-brasil
+- https://spbancarios.com.br/07/2026/comando-nacional-exige-suspensao-das-demissoes-e-do-fechamento-de-agencias
+- https://www.sindicatocp.org.br/2026/07/07/emprego-bancario-e-fechamento-de-agencias-dominam-segunda-rodada-de-negociacao-da-campanha-nacional
+
+### Intensificação do trabalho: o que é fato e o que é interpretação
+
+Há evidências objetivas de:
+- forte expansão dos canais digitais;
+- queda da participação dos canais físicos;
+- maior concentração das agências em operações complexas/consultivas;
+- redução do emprego bancário;
+- redução da rede física;
+- pressão por metas e impactos negativos sobre saúde mental relatados pela categoria.
+
+A Consulta Nacional dos Bancários de 2026, com 54.952 respostas, informou que 72,6% dos respondentes percebem impacto negativo do ambiente bancário sobre a saúde mental. A técnica do Dieese que apresentou os dados relacionou o quadro a gestão, metas, pressão e intensificação do trabalho. A pauta entregue à Fenaban incluiu emprego, metas abusivas, saúde mental e impactos da tecnologia.
+
+A relação causal “digitalização + menos pessoal = intensificação” não deve ser tratada como uma lei automática nem atribuída ao Banco Central ou à Febraban. No artigo, deve ser apresentada como **tese analítica sustentada pela convergência desses dados e pela percepção organizada dos trabalhadores**.
+
+Fontes:
+- https://spbancarios.com.br/06/2026/bancarios-entregam-bancos-pauta-de-reivindicacoes
+- https://www.bancariosce.org.br/consulta-nacional-dos-bancarios-2026-mostra-forca-da-categoria-e-aponta-prioridades-para-a-campanha-nacional/
+- https://www.gov.br/fundacentro/pt-br/comunicacao/noticias/noticias/2026/marco/digitalizacao-acelera-o-ritmo-e-amplia-a-pressao-sobre-trabalhadores-do-teleatendimento
+
+---
+
+## Nova síntese estrutural para o artigo
+
+O episódio inicial deixa de ser apenas uma discussão sobre comportamento de um cliente.
+
+A cadeia analítica passa a ser:
+
+```text
+TRANSFORMAÇÃO DIGITAL
+        ↓
+MIGRAÇÃO DE TRANSAÇÕES SIMPLES PARA CANAIS DIGITAIS
+        ↓
+REDUÇÃO / RECONFIGURAÇÃO DA REDE FÍSICA E DO EMPREGO
+        ↓
+MAIOR PESO RELATIVO DE DEMANDAS COMPLEXAS NO PRESENCIAL
+        ↓
+PRESSÃO POR RESULTADOS E EFICIÊNCIA
+        ↓
+FILAS / FRUSTRAÇÃO / CONFLITO COM O PÚBLICO
+        ↓
+RISCO DE DESLOCAMENTO DA RESPONSABILIDADE ORGANIZACIONAL
+PARA O TRABALHADOR INDIVIDUAL
+        ↓
+CLIENTE COMO FISCAL INFORMAL DA PRODUTIVIDADE
+```
+
+A última seta é uma interpretação social, não uma regra universal. Ela descreve o mecanismo que o episódio permite investigar: quando a instituição não assume a reclamação e não protege a fronteira entre relação de consumo e relação de trabalho, a insatisfação do cliente pode se converter em pressão por aceleração do trabalho.
+
+A nova formulação central é:
+
+> **A transformação digital pode reduzir a necessidade de transações simples no espaço físico sem eliminar — e até concentrar — os atendimentos de maior complexidade. Se, ao mesmo tempo, a rede e o quadro de pessoal são reduzidos, medir o trabalhador restante por “clientes atendidos por hora” não apenas ignora a complexidade do trabalho: pode transformar a própria frustração produzida pela reestruturação em mecanismo informal de intensificação do trabalho.**
+
