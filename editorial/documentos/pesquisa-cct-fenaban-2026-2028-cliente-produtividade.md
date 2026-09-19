@@ -501,3 +501,176 @@ A nova formulação central é:
 
 > **A transformação digital pode reduzir a necessidade de transações simples no espaço físico sem eliminar — e até concentrar — os atendimentos de maior complexidade. Se, ao mesmo tempo, a rede e o quadro de pessoal são reduzidos, medir o trabalhador restante por “clientes atendidos por hora” não apenas ignora a complexidade do trabalho: pode transformar a própria frustração produzida pela reestruturação em mecanismo informal de intensificação do trabalho.**
 
+## Segunda correção metodológica — transações não são fluxo de atendimentos
+
+A revisão humana apontou corretamente que o artigo aproximou indevidamente o **volume de transações** da Febraban do **fluxo de atendimentos presenciais** em agências.
+
+A correção necessária é mais precisa do que simplesmente dizer que “transações = guichê de caixa”.
+
+A Pesquisa Febraban de Tecnologia Bancária mede **transações com e sem movimentação financeira**, por canal. No ano-base 2024, por exemplo, a categoria “agências bancárias” registrou 3,590 bilhões de transações, das quais:
+- 47% com movimentação financeira;
+- 53% sem movimentação financeira.
+
+Portanto:
+
+1. **transação não equivale a cliente atendido**;
+2. **transação não equivale a senha/visita presencial**;
+3. **transação também não equivale exclusivamente a operação de guichê de caixa**;
+4. a série não separa de modo suficiente, para o objeto deste artigo, o fluxo de:
+   - guichê de caixa;
+   - atendimento negocial;
+   - atendimento operacional;
+   - atendimento consultivo;
+   - tratamento de demandas complexas;
+   - tarefas internas executadas durante o atendimento.
+
+A própria pesquisa possui seção distinta denominada “Contas, clientes e interações”, o que reforça que “transações” e “interações/atendimentos” são categorias analíticas diferentes.
+
+**Consequência editorial:** retirar qualquer inferência do tipo “83% das transações são digitais, portanto o fluxo de clientes nas agências caiu na mesma proporção” ou equivalente.
+
+A Pesquisa Febraban continua útil para demonstrar a **digitalização dos processos bancários**, mas não deve ser usada como proxy do número de clientes atendidos presencialmente nem do volume de atendimentos negociais/operacionais.
+
+A informação de que as agências vêm sendo reconfiguradas para operações mais complexas e consultivas pode ser mantida como declaração da própria Febraban, mas não deve ser convertida em uma mensuração do fluxo presencial sem dados específicos.
+
+Fonte:
+- Pesquisa Febraban de Tecnologia Bancária 2025, Vol. 2 — composição das transações por canal.
+- https://cmsarquivos.febraban.org.br/Arquivos/documentos/PDF/Pesquisa%20Febraban%20de%20Tecnologia%20Banca%CC%81ria%202025%20-%20Vol_2%20-%20VF.pdf
+
+---
+
+## Pesquisa específica — Políticas Institucionais de Relacionamento com Clientes e Usuários dos principais bancos
+
+### Regra regulatória de publicidade
+
+A Resolução CMN nº 4.949/2021 exige que a Política Institucional de Relacionamento:
+- seja formalizada em documento específico;
+- seja aprovada pelo Conselho de Administração ou Diretoria;
+- seja periodicamente avaliada;
+- defina papéis e responsabilidades;
+- preveja treinamento e disseminação interna;
+- permaneça à disposição do Banco Central.
+
+O art. 6º, §4º, não estabelece obrigação geral de publicação integral do documento no site da instituição.
+
+**Consequência metodológica:** a ausência de um PDF público integral não permite concluir que o banco não possua a política. É preciso distinguir:
+1. política integral publicamente disponível;
+2. resumo ou extrato público;
+3. relatório público que descreve a política;
+4. referência oficial à política interna não publicada integralmente.
+
+### CAIXA — política integral pública
+
+A CAIXA disponibiliza publicamente a **Política de Relacionamento com Clientes e Usuários de Produtos e Serviços CAIXA — 2024/DEZ**.
+
+Achados relevantes:
+- a política abrange estratégias de atendimento e negócios desde a pré-contratação até a pós-contratação;
+- é expressamente motivada pela Resolução CMN nº 4.949/2021;
+- item 5.7.5: o atendimento dos empregados busca garantir a satisfação dos clientes independentemente do nicho;
+- item 5.7.7: a CAIXA **promove o equilíbrio das metas de resultados e dos incentivos associados ao desempenho dos empregados e parceiros com as diretrizes previstas na Política**;
+- item 5.7.8: desvios relacionados a essa política devem receber tratamento adequado quando identificados.
+
+Esse é um dos achados mais diretamente relacionados ao artigo: a própria política pública da CAIXA replica, no nível institucional, a exigência de equilíbrio entre metas/desempenho e diretrizes de relacionamento.
+
+Fonte:
+- https://www.caixa.gov.br/Downloads/caixa-governanca/politica-de-relacionamento-com-clientes-e-usuarios-de-produtos-e-servicos-caixa.pdf
+
+### Santander — política e resumo públicos + relatório de 2025
+
+O Santander mantém versão pública da **Política Institucional de Relacionamento com Clientes e Usuários de Produtos e Serviços Financeiros** e resumo público.
+
+A política se declara alinhada à Resolução CMN nº 4.949/2021 e orientada por ética, responsabilidade, transparência e diligência.
+
+O Relatório de Ouvidoria do 2º semestre de 2025 descreve a PRC como documento que:
+- define comportamentos esperados no relacionamento com clientes;
+- alinha equipes e iniciativas ao modelo de atendimento;
+- utiliza mecanismos de incentivo e responsabilização;
+- possui oito pilares, entre eles **Incentivos**, **Reclamações**, **Tratamento justo**, **Treinamento** e **Governança**.
+
+O Relatório Anual Integrado 2025 acrescenta que a política orienta todas as áreas do Banco e cada fase do relacionamento, com diretrizes sobre incentivos e reclamações.
+
+Fontes:
+- https://cms.santander.com.br/sites/WRI/documentos/url-PRCC/24-12-09_211533_pol%C3%ADtica%2Binstitucional%2Bde%2Brelacionamento%2Bcom%2Bclientes.pdf
+- https://cms.santander.com.br/sites/WPS/documentos/arq-atendimento-ouvidoria-download-2sem25/26-02-25_142203_relatorio_ouvidoria_2s25_santander-brasil-sa-versao-web.pdf
+
+### Itaú Unibanco — política descrita publicamente; norma integral indicada como interna
+
+O Relatório de Ouvidoria do Itaú, 1º semestre de 2025, dedica seção específica à **Política de Relacionamento com Clientes**.
+
+O relatório informa que a política:
+- orienta todas as interações desde a concepção até a pós-venda;
+- é baseada em ética, transparência, diligência, responsabilidade e empatia;
+- abrange integridade no atendimento, adequação de produtos, proteção de dados, uso responsável de IA e mediação de conflitos;
+- prevê capacitação, monitoramento e atualização;
+- no pilar **Qualidade da venda**, utiliza programas de **incentivos e contra incentivos** para promover equilíbrio, qualidade das vendas e relações sustentáveis com clientes e usuários.
+
+O Código de Ética e Conduta do Itaú remete à “Política Institucional de Relacionamento com Clientes e Usuários de Produtos e Serviços Financeiros” e a qualifica como **interna**.
+
+**Conclusão de disponibilidade:** há descrição pública substancial e atual da política, mas o texto normativo integral não foi localizado como documento público autônomo.
+
+Fonte:
+- https://www.itau.com.br/media/dam/m/474283bbf19ec4dc/original/Relatorio-de-Ouvidoria-Febraban-01-2025.pdf
+
+### Banco do Brasil — existência atual confirmada; conteúdo detalhado disponível em documentos públicos institucionais
+
+A página atual da BB Consórcios informa que a subsidiária aderiu à **Política Específica de Relacionamento com Clientes e Usuários de Produtos e Serviços do Banco do Brasil S.A.**
+
+O Código de Ética vigente do BB determina que contatos e negócios com clientes observem, entre outras, a política de relacionamento com clientes e usuários.
+
+Em documentos públicos institucionais do BB:
+- o Formulário de Referência registra que o BB foi a primeira instituição financeira do país a aprovar e publicar sua Política de Relacionamento;
+- a política busca induzir cultura organizacional voltada a negócios sustentáveis e refletir valores corporativos;
+- relatório de gerenciamento de riscos descreve princípios de ética, responsabilidade, transparência e diligência, convergência de interesses, credibilidade, segurança e competência;
+- a implementação incluiu capacitação, disseminação dos princípios, indicadores e avaliação de maturidade.
+
+**Conclusão de disponibilidade:** a existência e aplicação atual da política estão confirmadas no site oficial, mas o texto integral mais recente não foi localizado em formato público facilmente indexável nesta pesquisa. Há, contudo, descrição material em documentos públicos do próprio Banco.
+
+Fontes:
+- https://www.bb.com.br/site/sobre-nos/entidades-ligadas-ao-banco-do-brasil/bb-consorcios/
+- Código de Ética BB 2024–2025.
+- Formulários de Referência e relatórios públicos do Banco do Brasil.
+
+### Bradesco — política confirmada por material oficial; texto integral não recuperado na interface pública pesquisada
+
+Material oficial do Bradesco sobre boas práticas e públicos vulneráveis identifica expressamente a **Política Institucional de Relacionamento com Clientes e Usuários**.
+
+O documento informa que a política tem como premissa:
+- tratamento justo e equitativo;
+- respeito à individualidade, vulnerabilidade e necessidades do cliente;
+- informações claras e precisas;
+- inexistência de barreiras desarrazoadas à extinção ou transferência do relacionamento.
+
+O próprio guia remete, como evidência da prática, à seção **Políticas e Normas — Bradesco RI**.
+
+A página de Políticas e Normas existe no site de Relações com Investidores, mas sua listagem depende de JavaScript e o conteúdo integral da política não foi recuperado de forma confiável pelo mecanismo de pesquisa utilizado.
+
+**Conclusão de disponibilidade:** a política está publicamente referenciada e seu conteúdo parcial é descrito em material oficial; o texto integral autônomo não foi localizado nesta pesquisa.
+
+Fontes:
+- https://imprensa.bradesco.com.br/assets/common/pdf/atendimento/fale-conosco/ouvidoria/Guia-Boas-Praticas-Relacionamento-Vulneraveis.pdf
+- https://www.bradescori.com.br/o-bradesco/governanca-corporativa/estatuto-politicas-normas-e-contrato-de-indenidade/politicas-e-normas/
+
+### Síntese comparativa
+
+A pesquisa agora permite separar dois níveis:
+
+**Nível regulatório**
+- CMN exige política específica;
+- exige treinamento, gestão do atendimento, tratamento de demandas, mediação de conflitos;
+- exige equilíbrio entre metas/incentivos de desempenho e valores da política;
+- exige monitoramento e correção de deficiências.
+
+**Nível institucional**
+- CAIXA: política integral pública, com regra expressa de equilíbrio entre metas e desempenho;
+- Santander: política e resumo públicos, com pilar explícito de incentivos e reclamações;
+- Itaú: descrição pública atual robusta, com incentivos e contra incentivos para qualidade da venda; política integral tratada como interna;
+- BB: política atual confirmada e materialmente descrita em documentos públicos, mas versão integral mais recente não localizada;
+- Bradesco: política confirmada e parcialmente descrita em material oficial, mas texto integral não recuperado.
+
+### Consequência para a tese do artigo
+
+A pergunta deixa de ser apenas “o que o CMN exige?” e passa a ser também:
+
+> **como cada banco traduz a exigência regulatória de equilibrar metas, incentivos e valores de relacionamento — e o que essa própria política institucional exige da gestão quando a reclamação do cliente é desviada para a fiscalização pública de um trabalhador?**
+
+Esse eixo deve substituir a inferência frágil baseada em volume de transações.
+
