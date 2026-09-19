@@ -649,3 +649,46 @@ A estrutura jurídica fica mais clara:
 - Publicação: NÃO REALIZADA.
 - Gate: revisão humana antes da Fase 05/05.
 
+---
+
+## 16. Oitava auditoria — fundamentos constitucionais e civis adicionais
+
+**Data:** 19/09/2026  
+**Objeto:** avaliar CF art. 5º, V e X; CC arts. 21, 186, 187 e 927; e precedente trabalhista sobre exposição da produtividade individual.
+
+### 16.1. Incorporados ao núcleo
+- CF art. 5º, X — proteção de honra e imagem;
+- CF art. 5º, V — direito de resposta e indenização, como fundamento complementar;
+- CC art. 186 — ato ilícito por violação de direito e dano;
+- CC art. 187 — abuso de direito, eixo central;
+- CC art. 927 — consequência reparatória eventual.
+
+### 16.2. Não incorporado ao núcleo
+**CC art. 21 — vida privada.**
+
+Razão: o episódio ocorre publicamente no ambiente de trabalho e atinge mais diretamente honra, imagem, dignidade e autoestima. Sua inclusão como fundamento central poderia sugerir que a produtividade funcional observável integra, por si só, a esfera da vida privada.
+
+### 16.3. Precedente sobre exposição de produtividade
+Não será usado como prova direta de ilicitude da conduta do cliente.
+
+O precedente localizado com a expressão “exposição da produtividade individual” discutia primordialmente subordinação/vínculo de emprego. Casos sobre rankings e metas tratam do poder diretivo do empregador.
+
+Para o artigo, são mais aderentes:
+- CF e Código Civil;
+- CCT que limita exposição individual;
+- precedentes do TST sobre agressões de clientes e organização do trabalho;
+- normas de relacionamento e Compliance.
+
+### 16.4. Estrutura jurídica final
+1. CDC — direito de reclamar;
+2. CLT art. 2º — ausência de poder diretivo do cliente;
+3. CC art. 187 — abuso do direito de reclamar;
+4. CC art. 186 — violação de direito e dano;
+5. CF art. 5º, X — honra e imagem;
+6. CF art. 5º, V — resposta e indenização;
+7. CC art. 927 — reparação eventual;
+8. CLT arts. 223-B e 223-C — tutela extrapatrimonial;
+9. CCT/CMN/Compliance — governança institucional.
+
+**Conclusão:** os elementos sugeridos foram parcialmente incorporados após filtragem de aderência e redundância.
+
