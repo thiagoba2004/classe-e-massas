@@ -1,12 +1,15 @@
 # AGENTS.md — Protocolo Canônico de Trabalho dos Modelos de IA
 
-**Projeto:** `CEM — Classe e Massas`  
-**Código do Projeto:** `CEM`  
+**Projeto:** `PRJ-000001 — Classe e Massas`  
+**Código canônico do Projeto:** `PRJ-000001`  
+**Sequência do Projeto:** `000001`  
+**Alias mnemônico:** `CEM`  
 **Denominação do Projeto:** `Classe e Massas`  
+**project_id legado:** `classe-e-massas`  
 **Status:** CANÔNICO  
-**Versão:** 2.1  
+**Versão:** 2.2  
 **Data:** 19/09/2026  
-**generated_from_kernel:** `1.3`  
+**generated_from_kernel:** `1.4`  
 **Kernel de referência:** `thiagoba2004/gerador-de-agents/AGENTS_KERNEL.md`  
 **Escopo:** todo modelo de IA, agente, assistente ou automação que trabalhe neste repositório ou em seus documentos derivados.
 
@@ -62,22 +65,22 @@ Nenhuma tarefa relativa ao projeto pode ser executada como ato isolado: deve est
 
 Quando houver dúvida sobre qual regra ou estado prevalece, usar a seguinte ordem:
 
-1. este `AGENTS.md` v2.0 para regras vigentes do projeto;
+1. este `AGENTS.md` v2.2 para regras vigentes do projeto;
 2. arquivos canônicos específicos do objeto de trabalho;
 3. `PROJECT_STATE.json` e manifestos/status específicos para estado corrente;
 4. `STRATEGY_LOG.jsonl` para história das Estratégias Autônomas;
 5. `REQUEST_LOG.jsonl` para sequência de pedidos;
 6. Roadmaps, Planos de Fases e documentos de governança específicos;
 7. `AGENTS.md` v1.8 incorporado por referência, para regras locais não substituídas;
-8. `AGENTS_KERNEL.md` 1.3, como núcleo universal vigente;
+8. `AGENTS_KERNEL.md` 1.4, como núcleo universal vigente;
 9. histórico Git e commits comprovados;
 10. somente depois, contexto de conversa ou memória do Modelo de IA.
 
 Memória, resumo de conversa ou inferência **nunca prevalecem** sobre evidência documental mais recente.
 
-Se houver conflito entre versões anteriores e a v2.0, **a v2.0 prevalece**.
+Se houver conflito entre versões anteriores e a v2.2, **a v2.2 prevalece**.
 
-Se houver conflito entre o kernel 1.3 e uma regra local mais rigorosa que não contrarie a finalidade universal do kernel, **a regra local mais rigorosa é preservada**.
+Se houver conflito entre o kernel 1.4 e uma regra local mais rigorosa que não contrarie a finalidade universal do kernel, **a regra local mais rigorosa é preservada**.
 
 ---
 
@@ -157,21 +160,27 @@ Interrupções do usuário durante tarefa em andamento são novos pedidos e deve
 Toda Estratégia Autônoma deve possuir identificação canônica composta por:
 
 ```text
-strategy_id
+strategy_code
 strategy_name
 ```
 
-O `strategy_id` é o código estável da estratégia. O `strategy_name` é sua denominação humana inequívoca.
+O `strategy_code` é numérico, hierárquico, imutável e independente da denominação.
 
-No Classe e Massas, novas estratégias devem seguir:
+No Projeto `PRJ-000001`, novas estratégias seguem:
 
 ```text
-STRAT-CEM-AAAAMMDD-NNN
+EA-000001-EEEEEE
 ```
+
+onde `EEEEEE` é a sequência monotônica de seis algarismos da Estratégia dentro do Projeto.
+
+Para Estratégias novas, `strategy_id = strategy_code`. Os identificadores históricos `STRAT-CEM-...` permanecem preservados como `legacy_strategy_id` ou mapeamento equivalente e não são reescritos.
+
+A sigla `CEM` é apenas alias mnemônico e não participa da formação do código.
 
 Toda Estratégia Autônoma deve possuir registro persistente, sequencial e auditável no `STRATEGY_LOG.jsonl` antes da execução substantiva.
 
-> **ESTRATÉGIA AUTÔNOMA NOVA = `strategy_id` NOVO + EVENTO `CREATED` PERSISTIDO ANTES DA EXECUÇÃO SUBSTANTIVA.**
+> **ESTRATÉGIA AUTÔNOMA NOVA = `strategy_code` NOVO + `strategy_name` + EVENTO `CREATED` PERSISTIDO ANTES DA EXECUÇÃO SUBSTANTIVA.**
 
 O `PROJECT_STATE.json` representa a fotografia corrente; o `STRATEGY_LOG.jsonl` representa a história cronológica e append-only. Um não substitui o outro.
 
@@ -192,8 +201,9 @@ Antes da execução, o agente deve conseguir identificar:
 
 ```text
 PROJECT_CODE
+PROJECT_ALIAS
 PROJECT_NAME
-STRATEGY_ID
+STRATEGY_CODE
 STRATEGY_NAME
 REGISTRO DA ESTRATÉGIA
 PLANO / ROADMAP
@@ -227,15 +237,21 @@ phase_code
 phase_name
 ```
 
+O `phase_code` deve herdar numericamente o Projeto e a Estratégia:
+
+```text
+F-PPPPPP-EEEEEE-FFF
+```
+
 No texto humano, usar obrigatoriamente:
 
 ```text
-FASE 01/05 (F01) — Registro e delimitação
-FASE 02/05 (F02) — ...
-FASE 05/05 (F05) — Verificação e fechamento
+FASE 01/05 [F-000001-000014-001] — Registro e delimitação
+FASE 02/05 [F-000001-000014-002] — ...
+FASE 05/05 [F-000001-000014-005] — Verificação e fechamento
 ```
 
-`phase_number` deve ser inteiro sequencial iniciado em 1; `phase_code` deve usar dois algarismos (`F01`, `F02`, ...); `phase_total` deve indicar o total vigente do plano; e `phase_name` deve ser uma denominação humana inequívoca.
+`phase_number` deve ser inteiro sequencial iniciado em 1; `phase_code` é o código hierárquico da fase; `phase_total` deve indicar o total vigente do plano; e `phase_name` deve ser uma denominação humana inequívoca.
 
 É proibido manter rótulos não numerados como “FASE FINAL” ou “FASE DE CONSOLIDAÇÃO” isoladamente. A função pode constar da denominação, mas a posição numérica é obrigatória.
 
@@ -543,15 +559,16 @@ próximo passo
 Quando o usuário perguntar **“Onde paramos? Qual a Estratégia Autônoma em curso? Qual a Fase dessa Estratégia Autônoma? E qual o Projeto?”** ou formulação equivalente, responder obrigatoriamente nesta ordem:
 
 ```text
-PROJETO: CEM — Classe e Massas
-ESTRATÉGIA AUTÔNOMA: <STRATEGY_ID> — <STRATEGY_NAME>
-FASE: <PHASE_NUMBER>/<PHASE_TOTAL> (<PHASE_CODE>) — <PHASE_NAME>
+PROJETO: PRJ-000001 — Classe e Massas
+ALIAS: CEM
+ESTRATÉGIA AUTÔNOMA: <STRATEGY_CODE> — <STRATEGY_NAME>
+FASE: <PHASE_NUMBER>/<PHASE_TOTAL> [<PHASE_CODE>] — <PHASE_NAME>
 ESTADO: <estado comprovado>
 ONDE PARAMOS: <ponto exato comprovado>
 PRÓXIMO PASSO LÓGICO: <próximo passo comprovado pelo plano>
 ```
 
-Código e denominação são obrigatórios para Projeto e Estratégia Autônoma. Número, total, código e denominação são obrigatórios para a Fase.
+Identificador canônico e denominação são obrigatórios para Projeto e Estratégia Autônoma. O alias é apenas mnemônico. Número, total, código hierárquico e denominação são obrigatórios para a Fase.
 
 A resposta deve ser reconstruída a partir das fontes canônicas, jamais apenas da memória conversacional.
 
@@ -651,7 +668,8 @@ governanca/estrategia-migracao-agents-kernel-1.2.md
 | 1.8 | 17/09/2026 | Institui o `STRATEGY_LOG.jsonl` append-only e torna obrigatório atribuir `strategy_id` e registrar toda Estratégia Autônoma e seus eventos, com `project_id` padronizado para permitir rastreabilidade e futura agregação entre projetos. |
 | 1.9 | 17/09/2026 | Migração controlada para `AGENTS_KERNEL.md` 1.2: restaura como regra vigente a ordem registrar → verificar → informar “Pedido registrado” → informar leitura/análise/providências → executar; preserva por incorporação todas as regras locais válidas da v1.8 e registra `generated_from_kernel: 1.2`. |
 | 2.0 | 18/09/2026 | Elimina a lacuna normativa de formatos editoriais: torna obrigatório, para cada texto editorial/publicável, o trio coordenado Markdown + HTML + JSON, define Markdown como fonte textual canônica, impõe sincronização e gate de conclusão e admite exceções somente por decisão expressa, persistente e versionada. |
-| 2.1 | 19/09/2026 | Institui governança numérica: `CEM — Classe e Massas` como código + denominação do Projeto; código + denominação obrigatórios para toda Estratégia Autônoma; Planos de Fases integralmente numerados com `phase_number`, `phase_total`, `phase_code` e `phase_name`; e padrão determinístico para respostas de continuidade. |
+| 2.1 | 19/09/2026 | Institui governança numérica: código + denominação obrigatórios para Projeto e Estratégia Autônoma; Planos de Fases integralmente numerados; padrão determinístico para respostas de continuidade. |
+| 2.2 | 19/09/2026 | Substitui códigos derivados de iniciais pela metodologia universal hierárquica: `PRJ-NNNNNN` para Projetos, `EA-PPPPPP-EEEEEE` para Estratégias Autônomas e `F-PPPPPP-EEEEEE-FFF` para Fases; rebaixa `CEM` a alias mnemônico e preserva identificadores legados por mapeamento. |
 
 ---
 
