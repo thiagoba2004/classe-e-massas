@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "project_code": "PRJ-000001",
+  "project_name": "Classe e Massas",
+  "strategy_code": "EA-000001-000016",
+  "strategy_name": "Modelo de posicionamento às Assessorias de Imprensa dos bancos",
+  "phase_code": "F-000001-000016-003",
+  "phase_name": "Publicação e verificação",
+  "slug": "modelo-pedido-posicionamento-assessorias-imprensa-bancos-fiscalizacao-produtividade",
+  "content_type": "noticia",
+  "title": "Modelo: pedido de posicionamento aos bancos sobre fiscalização pública da produtividade de trabalhadores",
+  "description": "Modelo reutilizável para solicitar às Assessorias de Imprensa dos bancos posicionamento formal sobre constrangimento de trabalhadores por clientes, remanejamento de atendimento, avaliações anônimas, Compliance e protocolos institucionais.",
+  "status": "PUBLICADO",
+  "language": "pt-BR",
+  "date": "2026-09-19",
+  "canonical_source": {
+    "format": "markdown",
+    "path": "noticias/2026/modelo-pedido-posicionamento-assessorias-imprensa-bancos-fiscalizacao-produtividade.md"
+  },
+  "publication": {
+    "format": "html",
+    "path": "noticias/2026/modelo-pedido-posicionamento-assessorias-imprensa-bancos-fiscalizacao-produtividade.html"
+  },
+  "structured_representation": {
+    "format": "json",
+    "path": "noticias/2026/modelo-pedido-posicionamento-assessorias-imprensa-bancos-fiscalizacao-produtividade.json"
+  },
+  "related_article": "artigos/2026/quando-o-cliente-vira-fiscal-do-trabalhador.html",
+  "template_scope": [
+    "conduta do cliente",
+    "atuação da gestão",
+    "remanejamento preventivo",
+    "avaliações de satisfação",
+    "Compliance",
+    "Política Institucional de Relacionamento",
+    "CCT Fenaban 2026/2028",
+    "riscos psicossociais",
+    "normativos internos"
+  ],
+  "reusable_fields": [
+    "NOME DO BANCO",
+    "DATA E HORÁRIO",
+    "CONTATO",
+    "ENDEREÇO DO SITE"
+  ]
+}
