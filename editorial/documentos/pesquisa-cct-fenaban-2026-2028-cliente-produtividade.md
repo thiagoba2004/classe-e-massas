@@ -151,3 +151,86 @@ Porém, quanto mais a situação evolui para humilhação, hostilidade, ameaça,
 
 A passividade institucional reiterada ou a naturalização da exposição pode constituir elemento relevante para apuração de falha do dever de proteção e de gestão dos riscos psicossociais.
 
+## Análise social e econômica — o cliente como fiscal informal da força de trabalho
+
+### 1. O cliente vê a duração, não o conteúdo integral do trabalho
+
+A afirmação “atendeu apenas um cliente em uma hora” transforma tempo cronológico em medida automática de produtividade. Essa inferência é metodologicamente frágil porque ignora:
+- complexidade concreta do atendimento;
+- obrigações regulatórias e de segurança;
+- prevenção a fraude;
+- conferências e validações;
+- falhas ou lentidão de sistemas;
+- atendimento de pessoas vulneráveis ou operações que exigem maior cuidado;
+- tarefas invisíveis executadas entre ou dentro dos atendimentos.
+
+O número bruto de clientes atendidos por hora não é, por si só, indicador suficiente para avaliar produtividade individual.
+
+### 2. Duas relações jurídicas e sociais coexistem
+
+O mesmo espaço reúne:
+- relação de consumo: cliente ↔ banco;
+- relação de trabalho: empregado ↔ banco.
+
+O cliente possui direitos perante o banco. Esses direitos não o inserem na estrutura hierárquica do contrato de trabalho nem lhe transferem poder diretivo sobre o empregado.
+
+Quando a reclamação sobre o serviço é convertida em cobrança direta de produtividade individual, ocorre uma confusão entre essas duas relações.
+
+### 3. Externalização da disciplina do trabalho
+
+Se a empresa não assume a reclamação e deixa o empregado responder sozinho à cobrança pública, a insatisfação do consumidor pode funcionar como mecanismo externo de disciplina laboral.
+
+Nesse cenário, o cliente passa, de fato, a exercer pressão semelhante à de um supervisor informal:
+- mede o tempo;
+- compara trabalhadores;
+- exige aceleração;
+- julga desempenho;
+- constrange publicamente;
+- pressiona por maior ritmo.
+
+Isso não significa que o cliente tenha adquirido juridicamente poder de gestão. Significa que, sociologicamente, sua insatisfação pode ser incorporada ao mecanismo de controle do trabalho quando a empresa não estabelece limites institucionais.
+
+### 4. Trabalho emocional e atendimento ao público
+
+O trabalho de atendimento exige não apenas execução técnica, mas controle de emoções e manutenção de postura profissional mesmo diante de hostilidade. A literatura internacional sobre trabalho emocional e violência/assédio no mundo do trabalho reconhece que clientes e usuários podem atuar como terceiros causadores de agressões e constrangimentos.
+
+A OIT, ao estudar violência e assédio no mundo do trabalho, chama atenção para terceiros como clientes, usuários e público e para a necessidade de medidas preventivas que não deixem trabalhadores desprotegidos diante desses agentes.
+
+### 5. Individualização de um problema organizacional
+
+Filas e espera podem decorrer de:
+- dimensionamento insuficiente de pessoal;
+- fechamento de postos/agências;
+- desenho de processos;
+- metas comerciais concorrentes com tarefas de atendimento;
+- sistemas;
+- exigências normativas;
+- distribuição de funções;
+- ausência de suporte.
+
+Culpar individualmente o trabalhador pode deslocar a crítica do nível organizacional para quem possui menor poder de alterar essas condições.
+
+### 6. Direitos do consumidor e direitos do trabalhador não são antagônicos
+
+A tese do artigo não deve ser “o cliente deve aceitar qualquer demora”.
+
+A formulação correta é:
+- o cliente pode exigir serviço adequado;
+- a instituição deve responder pelo serviço;
+- o trabalhador não deve ser submetido a julgamento público individual de produtividade;
+- o banco deve organizar pessoal, processos e canais de reclamação de modo a proteger simultaneamente consumidor e empregado.
+
+### 7. Tese social provisória
+
+> Quando o banco deixa o empregado sozinho para responder à insatisfação sobre filas e tempo de espera, o cliente pode ser convertido, ainda que involuntariamente, em fiscal informal da força de trabalho. A reclamação legítima do consumidor deixa de atingir a organização do serviço e passa a funcionar como pressão direta por intensificação do trabalho.
+
+### 8. Consequência para o artigo
+
+O episódio deve ser apresentado não como conflito moral entre “cliente ruim” e “bancário certo”, mas como janela para discutir:
+- quem controla o ritmo do trabalho;
+- quem responde pela qualidade do serviço;
+- quem define produtividade;
+- como a empresa administra conflitos entre consumidores e trabalhadores;
+- como a pressão do público pode reforçar metas, intensificação e riscos psicossociais;
+- quais limites institucionais deveriam existir para impedir a exposição pública individualizada do empregado.
+
