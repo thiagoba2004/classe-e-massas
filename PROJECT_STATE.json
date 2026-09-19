@@ -312,7 +312,7 @@
     "phase_number": 4,
     "phase_total": 5,
     "phase_code": "F-000001-000015-004",
-    "phase_name": "Redação e auditoria editorial",
+    "phase_name": "Redação e auditoria editorial — segunda versão",
     "status": "EM_REVISAO_HUMANA",
     "gate_status": "SATISFEITO_PARA_REVISAO_HUMANA",
     "plan_ref": "governanca/estrategia-cliente-produtividade-trabalho-bancario.md",
@@ -320,7 +320,9 @@
     "draft_html": "editorial/rascunhos/2026/quando-o-cliente-vira-fiscal-do-trabalhador.html",
     "draft_json": "editorial/rascunhos/2026/quando-o-cliente-vira-fiscal-do-trabalhador.json",
     "audit_ref": "editorial/documentos/auditoria-quando-o-cliente-vira-fiscal-do-trabalhador.md",
+    "title": "Quando o cliente vira fiscal dos trabalhadores bancário: transformação digital, reestruturação e controle informal da produtividade",
     "publication_status": "NAO_PUBLICADO",
-    "next_step": "REVISÃO HUMANA; APÓS APROVAÇÃO EXPRESSA, AVANÇAR À FASE 05/05 PARA PUBLICAÇÃO."
+    "research_status": "CÓDIGOS DE ÉTICA + CMN/BCB + TRANSFORMAÇÃO DIGITAL + EMPREGO/REDE INCORPORADOS",
+    "next_step": "NOVA REVISÃO HUMANA DA SEGUNDA VERSÃO; APÓS APROVAÇÃO EXPRESSA, AVANÇAR À FASE 05/05."
   }
 }
