@@ -57,7 +57,9 @@
       </div>
     </div>
 
-    <div class="petition">
+    <div class="download-actions model-copy-actions"><button id="copy-model" class="model-button" type="button">COPIAR MODELO</button></div>
+
+    <div id="model-text" class="petition">
       <p class="petition-address">AO MINISTÉRIO PÚBLICO DO TRABALHO<br>PROCURADORIA REGIONAL DO TRABALHO DA 5ª REGIÃO — BAHIA<br>À COORDENADORIA REGIONAL DE PROMOÇÃO DA LIBERDADE SINDICAL E DO DIÁLOGO SOCIAL — CONALIS, SE CABÍVEL</p>
 
       <h2 class="petition-title">Notícia de Fato / Representação</h2>
@@ -195,6 +197,13 @@
       <a class="model-button" href="../artigos/2026/assembleia-nao-e-cheque-em-branco-bahia.html">Ler o artigo-denúncia</a>
     </div>
 
+      <script>
+    document.getElementById("copy-model").onclick=async function(){
+      const b=this,t=document.getElementById("model-text").innerText,o=b.textContent;
+      try{await navigator.clipboard.writeText(t);b.textContent="COPIADO ✓"}catch{b.textContent="SELECIONE O MODELO ABAIXO"}
+      setTimeout(()=>b.textContent=o,1800);
+    };
+    </script>
   </article>
 </main>
 
