@@ -34,9 +34,11 @@ O art. 187 do Código Civil merece ser reproduzido integralmente porque atinge d
 
 A regra é clara: até quem exerce um direito legítimo pode cometer ato ilícito quando ultrapassa os seus limites. O cliente possui o direito de reclamar do serviço; esse direito não autoriza transformar a reclamação em fiscalização pública, individualizada e constrangedora da produtividade de determinado trabalhador.
 
-O art. 186 do Código Civil também considera ilícita a conduta que viole direito e cause dano, ainda que exclusivamente moral.
+O art. 186 do Código Civil também considera ilícita a conduta que viole direito e cause dano, ainda que exclusivamente moral. E o art. 927 estabelece que quem causar dano por ato ilícito previsto nos arts. 186 e 187 fica obrigado a repará-lo.
 
-A Constituição protege honra e imagem (art. 5º, X). Na relação de trabalho, os arts. 223-B e 223-C da CLT tutelam, entre outros bens, honra, imagem, intimidade, autoestima e saúde.
+A Constituição reforça essa proteção em dois pontos. O art. 5º, X, declara invioláveis a intimidade, a vida privada, a honra e a imagem e assegura indenização pelo dano decorrente de sua violação. O art. 5º, V, assegura direito de resposta proporcional ao agravo, além de indenização por dano material, moral ou à imagem.
+
+Na relação de trabalho, os arts. 223-B e 223-C da CLT tutelam, entre outros bens, honra, imagem, intimidade, autoestima e saúde.
 
 Por isso, a formulação jurídica precisa ser firme e, ao mesmo tempo, precisa:
 
@@ -45,7 +47,7 @@ Por isso, a formulação jurídica precisa ser firme e, ao mesmo tempo, precisa:
 A ilicitude não está em o cliente perceber a fila, observar o atendimento ou dizer que o serviço está lento. Está em transformar essa insatisfação em poder de comando que ele não possui e em julgamento público individualizado do trabalhador.
 
 Fontes legais:
-- Constituição Federal, art. 5º, X;
+- Constituição Federal, art. 5º, V e X;
 - Código Civil, arts. 186, 187 e 927;
 - CLT, arts. 2º e 223-B a 223-C;
 - Código de Defesa do Consumidor.
