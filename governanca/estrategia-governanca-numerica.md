@@ -6,23 +6,23 @@
 
 ## Plano de Fases
 
-### FASE 01 — Registro e delimitação
+### FASE 01/05 (F01) — Registro e delimitação
 **Objetivo:** registrar o pedido, criar a Estratégia Autônoma e fixar o escopo normativo.  
 **Gate:** pedido e estratégia persistidos com código, denominação e fase numerada.
 
-### FASE 02 — Modelagem normativa universal
+### FASE 02/05 (F02) — Modelagem normativa universal
 **Objetivo:** definir os campos, formatos, invariantes e padrão determinístico de resposta.  
 **Gate:** convenção completa definida sem ambiguidade.
 
-### FASE 03 — Implementação no Gerador de Agents
+### FASE 03/05 (F03) — Implementação no Gerador de Agents
 **Objetivo:** incorporar a regra no kernel universal, AGENTS do Gerador e template de novos AGENTS.  
 **Gate:** novos projetos passam a herdar obrigatoriamente o padrão.
 
-### FASE 04 — Implementação no Classe e Massas
+### FASE 04/05 (F04) — Implementação no Classe e Massas
 **Objetivo:** atualizar o AGENTS.md e o estado corrente do Classe e Massas, preservando compatibilidade histórica.  
 **Gate:** CEM passa a expor código do projeto, código e denominação da estratégia e fase numerada.
 
-### FASE 05 — Verificação e fechamento
+### FASE 05/05 (F05) — Verificação e fechamento
 **Objetivo:** verificar persistência, consistência entre os dois repositórios e registrar o estado final.  
 **Gate:** regra comprovadamente presente nas fontes canônicas e padrão de resposta apto para uso imediato.
 
