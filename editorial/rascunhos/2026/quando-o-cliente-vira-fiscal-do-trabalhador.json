@@ -1,17 +1,17 @@
 {
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "project_code": "PRJ-000001",
   "project_name": "Classe e Massas",
   "strategy_code": "EA-000001-000015",
   "strategy_name": "Cliente, produtividade e controle social do trabalho bancário",
   "phase_code": "F-000001-000015-004",
-  "phase_name": "Redação e auditoria editorial — quinta versão",
+  "phase_name": "Redação e auditoria editorial — sexta versão",
   "slug": "quando-o-cliente-vira-fiscal-do-trabalhador",
   "content_type": "artigo",
   "title": "Quando o cliente vira fiscal dos trabalhadores bancários: reestruturação digital, intensificação e fiscalização ilícita da produtividade",
   "requested_title_phrase": "trabalhadores bancário",
-  "description": "Versão condensada, com concordância corrigida e tese jurídica explícita sobre a ilicitude da fiscalização pública, individualizada e constrangedora da produtividade.",
-  "status": "RASCUNHO_V5_AGUARDANDO_REVISAO_HUMANA",
+  "description": "Versão com posição inequívoca: após constrangimento público prévio, o atendimento deve ser remanejado pela gestão antes de começar.",
+  "status": "RASCUNHO_V6_AGUARDANDO_REVISAO_HUMANA",
   "language": "pt-BR",
   "date": "2026-09-19",
   "publication_status": "NAO_PUBLICADO",
@@ -56,7 +56,9 @@
     "A ilicitude sustentada refere-se à conduta pública, individualizada e constrangedora que ultrapassa a reclamação sobre o serviço e invade a esfera da direção do trabalho e/ou direitos da personalidade.",
     "Não inferir fluxo de atendimento presencial a partir do volume de transações digitais.",
     "Detalhes dos códigos de ética e políticas de cinco bancos permanecem no dossiê de pesquisa, reduzidos no corpo do artigo para evitar excesso.",
-    "AIRR-462-61.2018.5.12.0035 é precedente especialmente relevante por envolver agência bancária, quadro reduzido, maior necessidade de dedicação/tempo e agressão de cliente; não é equiparado ao episódio narrado."
+    "AIRR-462-61.2018.5.12.0035 é precedente especialmente relevante por envolver agência bancária, quadro reduzido, maior necessidade de dedicação/tempo e agressão de cliente; não é equiparado ao episódio narrado.",
+    "Avaliações anônimas não devem ser tratadas como passíveis de neutralização posterior caso não seja possível vinculá-las ao atendimento específico.",
+    "A proteção defendida é preventiva: remanejamento antes do atendimento após conflito prévio documentado."
   ],
   "word_count": 2629,
   "editorial_audit": {
@@ -79,5 +81,14 @@
       "CCT Fenaban 2026/2028",
       "Resolução CMN 4.949/2021"
     ]
+  },
+  "remanejamento_position": {
+    "rule": "Após constrangimento público prévio praticado pelo cliente contra determinado trabalhador bancário, o atendimento deve ser remanejado pela gestão antes de começar.",
+    "rationale": [
+      "prevenir reiteração imediata do conflito e novo constrangimento",
+      "evitar colocar o trabalhador diante de quem o expôs publicamente",
+      "prevenir dano por avaliação anônima potencialmente contaminada pelo conflito, que não pode ser corrigida de modo confiável posteriormente"
+    ],
+    "limits": "Não se trata de direito geral de escolher clientes nem de recusa institucional de atendimento; o cliente continua sendo atendido por outro empregado."
   }
 }
