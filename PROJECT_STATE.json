@@ -309,13 +309,17 @@
   "current_editorial_strategy": {
     "strategy_code": "EA-000001-000016",
     "strategy_name": "Modelo de posicionamento às Assessorias de Imprensa dos bancos",
-    "phase_number": 1,
+    "phase_number": 3,
     "phase_total": 3,
-    "phase_code": "F-000001-000016-001",
-    "phase_name": "Delimitação e estrutura",
-    "status": "EM_EXECUCAO",
+    "phase_code": "F-000001-000016-003",
+    "phase_name": "Publicação e verificação",
+    "status": "CONCLUIDO",
     "plan_ref": "governanca/estrategia-modelo-posicionamento-assessorias-imprensa-bancos.md",
-    "publication_status": "NAO_PUBLICADO",
-    "next_step": "REDIGIR, AUDITAR E PUBLICAR O MODELO NO MENU NOTÍCIAS."
+    "published_markdown": "noticias/2026/modelo-pedido-posicionamento-assessorias-imprensa-bancos-fiscalizacao-produtividade.md",
+    "published_html": "noticias/2026/modelo-pedido-posicionamento-assessorias-imprensa-bancos-fiscalizacao-produtividade.html",
+    "published_json": "noticias/2026/modelo-pedido-posicionamento-assessorias-imprensa-bancos-fiscalizacao-produtividade.json",
+    "publication_status": "PUBLICADO",
+    "concluded_at": "2026-09-19T13:56:00-03:00",
+    "next_step": "ESTRATÉGIA CONCLUÍDA."
   }
 }
