@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "project_code": "PRJ-000001",
   "project_name": "Classe e Massas",
   "strategy_code": "EA-000001-000016",
@@ -78,5 +78,11 @@
       "source": "https://www.santander.com.br/portal/wps/script/templates/GCMRequest.do?entryID=7844&page=7774"
     }
   ],
-  "update_note": "Contatos oficiais de imprensa dos principais bancos inseridos ao final da notícia-modelo."
+  "update_note": "Contatos oficiais de imprensa dos principais bancos inseridos ao final da notícia-modelo.",
+  "model_ui": {
+    "copy_button_label": "COPIAR MODELO",
+    "copy_button_position": "IMEDIATAMENTE_ACIMA_DO_MODELO",
+    "copy_target": "texto integral do modelo de solicitação",
+    "previous_editions_publicly_linked": false
+  }
 }
