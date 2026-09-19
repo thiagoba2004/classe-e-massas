@@ -44,23 +44,34 @@ Surge uma assimetria: o trabalhador é julgado publicamente a partir de informa�
 
 O número bruto de clientes atendidos por hora pode ser um dado operacional. **Não é, isoladamente, prova de baixa produtividade.**
 
-## 3. A própria transformação digital torna essa contagem ainda mais frágil
+## 3. Transformação digital não é uma medida do fluxo de atendimentos presenciais
 
-A Federação Brasileira de Bancos (Febraban) informa, na Pesquisa de Tecnologia Bancária 2026, que **83% das transações bancárias são realizadas em canais digitais** e **78% pelo celular**. O orçamento tecnológico dos bancos deve alcançar R$ 50,4 bilhões em 2026, crescimento de 58% em cinco anos.
+A transformação digital do setor bancário é um fato relevante para compreender a reestruturação do trabalho. Mas ela precisa ser medida corretamente.
 
-A pesquisa de 2025 já apontava que os canais físicos — agências, caixas eletrônicos, correspondentes e contact centers — representavam apenas 5% das transações. Nas agências, o volume caiu 14% em relação ao ano anterior.
+A Pesquisa Febraban de Tecnologia Bancária informa que a maior parte das **transações** já ocorre em canais digitais. Esse dado demonstra a digitalização de processos e operações bancárias. **Não demonstra, por si só, quantos clientes entram numa agência, quantas senhas são atendidas nem quantos atendimentos negociais ou operacionais são realizados por trabalhadores.**
 
-Mas há um detalhe decisivo: a própria Febraban afirma que as agências continuam relevantes para operações **mais complexas e consultivas**, como contratação de crédito, renegociação e planejamento financeiro.
+A própria metodologia da pesquisa deixa isso claro. O indicador reúne **transações com e sem movimentação financeira**. No ano-base 2024, a categoria “agências bancárias” contabilizou 3,590 bilhões de transações: 47% com movimentação financeira e 53% sem movimentação financeira.
 
-Isso muda completamente a leitura da cena que originou este artigo.
+Portanto, “transação em agência” também não pode ser reduzida simplesmente a “operação em guichê de caixa”. A categoria é mais ampla. Mas continua sendo uma contagem de operações, não de pessoas atendidas.
 
-Se as operações simples migram em massa para aplicativos e internet banking, é razoável esperar que uma parcela maior dos clientes que permanece no atendimento presencial procure exatamente aquilo que não conseguiu resolver sozinho: casos excepcionais, complexos, documentais, consultivos ou sensíveis.
+Há pelo menos três objetos diferentes que não devem ser misturados:
 
-> **Quanto mais o simples migra para o digital, menos sentido faz usar apenas “clientes atendidos por hora” para medir a produtividade do atendimento presencial.**
+- **transações bancárias**, financeiras ou não financeiras;
+- **fluxo de clientes e senhas** nas dependências;
+- **atendimentos humanos**, que podem ser de caixa, negociais, operacionais, consultivos ou destinados à solução de situações complexas.
+
+Um mesmo cliente pode gerar várias transações num único atendimento. Outro pode permanecer longo período com um trabalhador e gerar poucas transações. Há ainda tarefas de análise, conferência, regularização, orientação e solução de problemas que não podem ser reconstruídas pela simples contagem de operações.
+
+A própria Pesquisa Febraban separa “Transações” de “Contas, clientes e interações”. E, ao analisar contratação de crédito, registra crescimento de operações em agências como sinal de **possível preferência por atendimentos presenciais em interações mais complexas**. Isso é uma indicação sobre a mudança qualitativa do papel da agência — não uma estatística sobre a quantidade de clientes atendidos.
+
+> **A digitalização pode ser demonstrada pelo volume de transações digitais. O fluxo e a carga do atendimento presencial exigem outros indicadores.**
+
+Por isso, este artigo deixa de utilizar participação de transações digitais como proxy do fluxo de atendimento em agência.
+
+Para demonstrar intensificação do trabalho, os indicadores mais apropriados são outros: evolução do quadro de pessoal, fechamento e reconfiguração de unidades, metas, volume e complexidade das tarefas, jornada, afastamentos e adoecimentos, pesquisas com trabalhadores, dimensionamento de equipes e dados específicos de atendimento quando disponíveis.
 
 Fontes:
-- https://portal.febraban.org.br/noticia/4485/pt-br/
-- https://portal.febraban.org.br/noticia/4310/pt-br
+- https://cmsarquivos.febraban.org.br/Arquivos/documentos/PDF/Pesquisa%20Febraban%20de%20Tecnologia%20Banca%CC%81ria%202025%20-%20Vol_2%20-%20VF.pdf
 - https://portal.febraban.org.br/paginas/1117/pt-br/pesquisa
 
 ## 4. A digitalização ocorre junto com redução e reconfiguração do emprego
@@ -240,7 +251,98 @@ A lógica “atenda mais pessoas, não importa como” não corresponde ao desen
 Fonte:
 - https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=4949&tipo=Resolu%C3%A7%C3%A3o+CMN
 
-## 10. O regulador cria canais para a reclamação — não uma chefia exercida pelo cliente
+## 10. O que dizem as Políticas Institucionais de Relacionamento dos próprios bancos
+
+A Resolução CMN nº 4.949/2021 não se limita a enunciar princípios gerais. Ela obriga cada instituição a manter uma **Política Institucional de Relacionamento com Clientes e Usuários**, formalizada em documento específico, com responsabilidades, treinamento, acompanhamento e mecanismos de controle.
+
+Há uma nuance importante: o art. 6º, §4º, exige que o documento permaneça **à disposição do Banco Central**, mas não determina que todos os bancos publiquem necessariamente a íntegra em seus sites. Por isso, a pesquisa encontrou graus diferentes de publicidade.
+
+### CAIXA: regra expressa sobre metas e desempenho
+
+A CAIXA disponibiliza publicamente a sua **Política de Relacionamento com Clientes e Usuários de Produtos e Serviços**, versão de dezembro de 2024.
+
+O item **5.7.7** é especialmente importante:
+
+> **a CAIXA promove o equilíbrio das metas de resultados e dos incentivos associados ao desempenho dos empregados e parceiros com as diretrizes previstas na Política.**
+
+O item 5.7.8 determina tratamento adequado dos desvios identificados.
+
+Aqui não estamos apenas diante da norma abstrata do CMN. É o próprio banco incorporando à sua política institucional a obrigação de equilibrar metas, desempenho e relacionamento.
+
+Fonte:
+- https://www.caixa.gov.br/Downloads/caixa-governanca/politica-de-relacionamento-com-clientes-e-usuarios-de-produtos-e-servicos-caixa.pdf
+
+### Santander: incentivos, reclamações e responsabilização fazem parte da política
+
+O Santander mantém material público sobre sua Política Institucional de Relacionamento com Clientes.
+
+O Relatório de Ouvidoria do 2º semestre de 2025 informa que a política:
+- define comportamentos esperados dos colaboradores;
+- alinha equipes e iniciativas ao modelo de atendimento;
+- utiliza mecanismos de **incentivo e responsabilização**;
+- organiza a governança em oito pilares, entre eles **Incentivos**, **Reclamações**, **Tratamento justo**, **Treinamento** e governança.
+
+O Relatório Anual Integrado de 2025 afirma que a política atravessa todas as áreas da organização e orienta desenvolvimento de produtos, serviços e atendimento.
+
+Fontes:
+- https://cms.santander.com.br/sites/WPS/documentos/arq-atendimento-ouvidoria-download-2sem25/26-02-25_142203_relatorio_ouvidoria_2s25_santander-brasil-sa-versao-web.pdf
+- https://cms.santander.com.br/sites/WRI/documentos/url-PRCC/24-12-09_211533_pol%C3%ADtica%2Binstitucional%2Bde%2Brelacionamento%2Bcom%2Bclientes.pdf
+
+### Itaú: incentivos e contra incentivos para a qualidade da venda
+
+O Relatório de Ouvidoria do Itaú referente ao 1º semestre de 2025 descreve sua Política de Relacionamento com Clientes como orientadora de todas as interações, da concepção ao pós-venda.
+
+Entre seus elementos estão ética, transparência, diligência, responsabilidade, empatia, integridade no atendimento e mediação de conflitos.
+
+Há um ponto diretamente conectado à nossa investigação: no eixo **Qualidade da venda**, o Itaú afirma possuir programas de **incentivos e contra incentivos** destinados a promover equilíbrio, qualidade das vendas e relações sustentáveis com clientes e usuários.
+
+O Código de Ética e Conduta do Itaú remete à Política Institucional de Relacionamento, mas indica que a norma integral é interna. Portanto, o conteúdo público utilizado aqui vem do relatório institucional de ouvidoria, e não de uma suposta versão integral que não foi localizada.
+
+Fonte:
+- https://www.itau.com.br/media/dam/m/474283bbf19ec4dc/original/Relatorio-de-Ouvidoria-Febraban-01-2025.pdf
+
+### Banco do Brasil: política confirmada e incorporada às regras de relacionamento
+
+O Banco do Brasil confirma publicamente a existência de sua **Política Específica de Relacionamento com Clientes e Usuários de Produtos e Serviços**. A página atual da BB Consórcios informa que a subsidiária aderiu à política do Banco do Brasil.
+
+O Código de Ética do BB determina que os contatos e negócios com clientes observem, entre outras normas, a política de relacionamento com clientes e usuários.
+
+Documentos públicos do Banco descrevem a política como instrumento destinado a induzir cultura organizacional voltada a negócios sustentáveis e a princípios de ética, responsabilidade, transparência e diligência, com capacitação, indicadores e avaliação de maturidade.
+
+A versão integral mais recente não foi recuperada, nesta pesquisa, em formato público facilmente indexável. Isso não permite concluir ausência de política: a Resolução CMN exige sua manutenção perante o Banco Central, e o próprio BB confirma sua existência e aplicação.
+
+Fontes:
+- https://www.bb.com.br/site/sobre-nos/entidades-ligadas-ao-banco-do-brasil/bb-consorcios/
+- https://www.bb.com.br/docs/pub/siteEsp/ri/pt/dce/dwn/Codigoetica.pdf
+
+### Bradesco: política publicamente referenciada e tratamento justo
+
+Material oficial do Bradesco sobre relacionamento com públicos vulneráveis identifica expressamente a **Política Institucional de Relacionamento com Clientes e Usuários**.
+
+O documento destaca tratamento justo e equitativo, respeito à individualidade, vulnerabilidades e necessidades, informações claras e precisas e ausência de barreiras desarrazoadas no relacionamento.
+
+A página de **Políticas e Normas** do Bradesco RI está publicamente disponível, mas sua listagem depende de execução de JavaScript; o texto integral da política não foi recuperado de forma confiável pelo mecanismo de pesquisa utilizado. Por isso, o artigo se limita ao que está efetivamente documentado em material oficial.
+
+Fontes:
+- https://imprensa.bradesco.com.br/assets/common/pdf/atendimento/fale-conosco/ouvidoria/Guia-Boas-Praticas-Relacionamento-Vulneraveis.pdf
+- https://www.bradescori.com.br/o-bradesco/governanca-corporativa/estatuto-politicas-normas-e-contrato-de-indenidade/politicas-e-normas/
+
+### O que essa comparação acrescenta
+
+A regulação não diz apenas que o cliente deve ser bem atendido.
+
+Ela obriga o banco a criar uma estrutura institucional em que:
+- atendimento e reclamações sejam geridos;
+- conflitos sejam mediados;
+- empregados sejam treinados;
+- metas e incentivos sejam equilibrados com os valores da política;
+- desvios sejam identificados e corrigidos.
+
+E os próprios bancos, em graus diferentes de publicidade, reproduzem essa arquitetura.
+
+Isso reforça a tese deste artigo: **a reclamação do cliente deve entrar nos mecanismos institucionais de relacionamento; não deve ser convertida em comando direto nem em julgamento público da produtividade individual do trabalhador.**
+
+## 11. O regulador cria canais para a reclamação — não uma chefia exercida pelo cliente
 
 A mesma Resolução CMN nº 4.949/2021 exige que os bancos possuam rotinas para registrar e tratar demandas e mediar conflitos.
 
@@ -255,7 +357,7 @@ O sistema regulatório constrói canais de reclamação. Não constrói uma rela
 Fonte:
 - https://www.bcb.gov.br/meubc/lista_ouvidorias
 
-## 11. Para o CMN, pessoas, clientes, tecnologia e trabalho também são riscos institucionais
+## 12. Para o CMN, pessoas, clientes, tecnologia e trabalho também são riscos institucionais
 
 A **Resolução CMN nº 4.557/2017**, em sua versão vigente, define risco operacional como a possibilidade de perdas decorrentes de eventos externos ou falhas, deficiências ou inadequações de processos internos, pessoas ou sistemas.
 
@@ -273,7 +375,7 @@ O que a norma demonstra é algo mais estrutural: **pessoas, processos, clientes,
 
 Não é coerente tratar o conflito produzido no atendimento como se fosse problema exclusivamente pessoal do trabalhador que está diante do público.
 
-## 12. O trabalhador deve ficar calado?
+## 13. O trabalhador deve ficar calado?
 
 Não.
 
@@ -289,7 +391,7 @@ O objetivo não é vencer uma discussão.
 
 O trabalhador não precisa divulgar suas metas, explicar indicadores, revelar atendimentos anteriores ou aceitar um interrogatório público sobre seu ritmo de trabalho.
 
-## 13. O que fazer no momento da ocorrência
+## 14. O que fazer no momento da ocorrência
 
 Uma reação proporcional pode seguir esta sequência:
 
@@ -305,7 +407,7 @@ Uma reação proporcional pode seguir esta sequência:
 
 Em situação de risco grave e iminente à vida ou à saúde, a NR-1 prevê o direito de interrupção da atividade, com comunicação imediata ao superior. Isso não deve ser banalizado para qualquer discussão verbal.
 
-## 14. A gestão pode assistir passivamente?
+## 15. A gestão pode assistir passivamente?
 
 Quanto mais a situação deixa de ser reclamação sobre o serviço e passa a atingir diretamente a dignidade do empregado, menos defensável se torna a passividade institucional.
 
@@ -321,7 +423,7 @@ Isso não significa expulsar automaticamente o cliente.
 
 Significa impedir que uma reclamação legítima se transforme num tribunal improvisado sobre o trabalhador.
 
-## 15. O TST já reconheceu dever patronal diante de agressão de cliente
+## 16. O TST já reconheceu dever patronal diante de agressão de cliente
 
 No processo **RR-697-96.2019.5.10.0019**, a Terceira Turma do Tribunal Superior do Trabalho analisou situação muito mais grave: um agente de aeroporto agredido fisicamente por cliente.
 
@@ -334,35 +436,37 @@ Sua utilidade é outra: demonstrar que **o fato de a conduta vir de cliente ou t
 Fonte:
 - https://www.tst.jus.br/-/agente-de-aeroporto-agredido-por-cliente-de-companhia-a%C3%A9rea-receber%C3%A1-indeniza%C3%A7%C3%A3o
 
-## 16. Quando o cliente vira fiscal informal
+## 17. Quando o cliente vira fiscal informal
 
-Agora podemos reconstruir a cadeia inteira.
+A tese deste artigo não depende de confundir transações com atendimentos.
 
-O banco digitaliza.
+Há três processos que precisam ser demonstrados por fontes distintas:
 
-Operações simples migram para aplicativos.
+1. **transformação digital**, comprovada pela migração e expansão de processos e operações em canais digitais;
+2. **reestruturação do setor**, examinada por dados de emprego, fechamento/reconfiguração de unidades e mudança de perfis ocupacionais;
+3. **intensificação do trabalho**, que deve ser investigada por metas, dimensionamento de equipes, complexidade das tarefas, saúde, jornada, afastamentos, pesquisas com trabalhadores e outros indicadores próprios — e não inferida mecanicamente do número de transações.
 
-A rede física diminui ou é reconfigurada.
+O episódio que originou este artigo mostra um quarto fenômeno: **o deslocamento da responsabilidade pela espera para o trabalhador individual**.
 
-O emprego bancário tradicional encolhe e muda de composição.
+O cliente não precisa conhecer a composição do quadro, o sistema de metas, a divisão entre caixa, atendimento negocial e atendimento operacional, as tarefas internas, as exigências de segurança ou o conjunto de reestruturações da instituição.
 
-As agências concentram relativamente mais demandas complexas.
+Ele enxerga algo concreto: está esperando.
 
-A instituição continua buscando eficiência e resultados.
+Se o banco não assume institucionalmente a reclamação, essa frustração pode encontrar como alvo o trabalhador visível no salão.
 
-O cliente que depende do presencial enfrenta espera.
+É nesse momento que surge o fiscal informal.
 
-Se a organização não assume a responsabilidade pela fila, a frustração encontra o elo mais visível: o trabalhador.
-
-O cliente começa a contar atendimentos, comparar funcionários, exigir aceleração e julgar publicamente desempenho.
+O cliente conta quantos trabalhadores estão atendendo, mede quanto tempo cada atendimento dura, compara empregados e conclui que determinado bancário deveria “atender mais”.
 
 Ele **não se torna juridicamente chefe**.
 
-Mas pode passar a funcionar socialmente como **fiscal informal da força de trabalho**.
+Mas sua reclamação pode funcionar socialmente como pressão pela aceleração do trabalho.
 
-Esse mecanismo é particularmente perverso porque transforma uma consequência potencial da própria reestruturação — espera, sobrecarga, complexidade — em pressão adicional sobre quem permanece trabalhando.
+Esse mecanismo pode existir independentemente de sabermos se, no conjunto do sistema bancário, o número de clientes presenciais aumentou ou diminuiu. O que importa é a forma como a instituição organiza o trabalho e administra a tensão concreta entre demanda, capacidade de atendimento e expectativas do público.
 
-> **A organização reduz estruturas; a fila cresce ou se torna mais complexa; e o trabalhador é chamado a responder individualmente por uma decisão que não tomou.**
+> **O problema não é o cliente perceber a fila. O problema é a organização permitir que a fila seja convertida em julgamento público da produtividade de quem não decidiu o tamanho da equipe, a estrutura da agência, as metas, os sistemas nem os processos de trabalho.**
+
+Por isso, a investigação sobre transformação digital e reestruturação deve prosseguir com indicadores adequados. O volume de transações ajuda a compreender digitalização. Não mede, sozinho, o fluxo de pessoas nem a carga do atendimento negocial e operacional.
 
 ## Conclusão: consumidor e trabalhador não são adversários
 
