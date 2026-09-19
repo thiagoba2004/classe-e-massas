@@ -305,5 +305,16 @@
     "strategy_code_format": "EA-PPPPPP-EEEEEE",
     "phase_code_format": "F-PPPPPP-EEEEEE-FFF",
     "status": "IMPLANTADO_E_VERIFICADO"
+  },
+  "current_editorial_strategy": {
+    "strategy_code": "EA-000001-000015",
+    "strategy_name": "Cliente, produtividade e controle social do trabalho bancário",
+    "phase_number": 1,
+    "phase_total": 5,
+    "phase_code": "F-000001-000015-001",
+    "phase_name": "Delimitação do problema e resposta preliminar",
+    "status": "EM_EXECUCAO",
+    "plan_ref": "governanca/estrategia-cliente-produtividade-trabalho-bancario.md",
+    "current_thesis": "O cliente tem direito de reclamar sobre demora e qualidade do serviço, mas não detém poder diretivo sobre o empregado nem pode presumir baixa produtividade apenas pelo número bruto de atendimentos por hora."
   }
 }
