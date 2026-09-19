@@ -21,7 +21,8 @@
   "generation_prompts": "editorial/videos/2026/video-001-prompts-capcut.md",
   "publication": {
     "format": "html",
-    "path": "videos/2026/quando-o-cliente-vira-fiscal-do-bancario.html"
+    "path": "videos/2026/quando-o-cliente-vira-fiscal-do-bancario.html",
+    "html_blob_sha": "7f73b5d8b507de1954c905c95443795dfb492152"
   },
   "canonical_source": {
     "format": "markdown",
@@ -34,5 +35,6 @@
   "audiovisual_final": null,
   "fictional_dramatization": true,
   "real_people_depicted": false,
-  "real_bank_brand_depicted": false
+  "real_bank_brand_depicted": false,
+  "updated_at": "2026-09-19"
 }
