@@ -309,20 +309,18 @@
   "current_editorial_strategy": {
     "strategy_code": "EA-000001-000015",
     "strategy_name": "Cliente, produtividade e controle social do trabalho bancário",
-    "phase_number": 4,
+    "phase_number": 5,
     "phase_total": 5,
-    "phase_code": "F-000001-000015-004",
-    "phase_name": "Redação e auditoria editorial — nona revisão",
-    "status": "EM_REVISAO_HUMANA",
-    "gate_status": "SATISFEITO_PARA_REVISAO_HUMANA",
+    "phase_code": "F-000001-000015-005",
+    "phase_name": "Aprovação e publicação",
+    "status": "CONCLUIDO",
     "plan_ref": "governanca/estrategia-cliente-produtividade-trabalho-bancario.md",
-    "draft_markdown": "editorial/rascunhos/2026/quando-o-cliente-vira-fiscal-do-trabalhador.md",
-    "draft_html": "editorial/rascunhos/2026/quando-o-cliente-vira-fiscal-do-trabalhador.html",
-    "draft_json": "editorial/rascunhos/2026/quando-o-cliente-vira-fiscal-do-trabalhador.json",
-    "audit_ref": "editorial/documentos/auditoria-quando-o-cliente-vira-fiscal-do-trabalhador.md",
+    "published_markdown": "artigos/2026/quando-o-cliente-vira-fiscal-do-trabalhador.md",
+    "published_html": "artigos/2026/quando-o-cliente-vira-fiscal-do-trabalhador.html",
+    "published_json": "artigos/2026/quando-o-cliente-vira-fiscal-do-trabalhador.json",
     "title": "Quando o cliente vira fiscal dos trabalhadores bancários: reestruturação digital, intensificação e fiscalização ilícita da produtividade",
-    "publication_status": "NAO_PUBLICADO",
-    "editorial_status": "V9: ART. 21 DO CC REMOVIDO DOS ARTEFATOS EDITORIAIS",
-    "next_step": "REVISÃO HUMANA DA V9; APÓS APROVAÇÃO EXPRESSA, AVANÇAR À FASE 05/05."
+    "publication_status": "PUBLICADO",
+    "concluded_at": "2026-09-19T13:42:00-03:00",
+    "next_step": "ESTRATÉGIA CONCLUÍDA."
   }
 }
