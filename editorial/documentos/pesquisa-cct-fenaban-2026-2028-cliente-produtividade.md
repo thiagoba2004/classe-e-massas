@@ -808,3 +808,124 @@ Isso não cria automaticamente uma obrigação legal de retirar o cliente da ag�
 
 Mas fornece base robusta para defender que, quando a reclamação se transforma em exposição individualizada, hostilidade ou fiscalização pública de produtividade, **a gestão deve assumir a interlocução**, retirar a discussão do plano pessoal e conduzi-la pelos mecanismos institucionais de atendimento e conflito.
 
+## Quarta reabertura — remanejamento preventivo do atendimento e avaliação potencialmente retaliatória
+
+### 1. Pergunta
+
+Se, após constranger publicamente determinado trabalhador bancário, o mesmo cliente tiver sua senha chamada por esse trabalhador, o atendimento pode ser remanejado para outro empregado?
+
+### 2. Conclusão jurídica e institucional
+
+Não foi localizada regra legal ou cláusula coletiva geral que estabeleça um **direito unilateral e automático** do empregado de escolher não atender determinado cliente apenas por desconforto, receio de avaliação negativa ou conflito anterior.
+
+Por outro lado, também não há fundamento para exigir que o trabalhador seja colocado novamente, sem mediação, diante de cliente que já o constrangeu.
+
+A medida juridicamente mais segura é:
+
+1. o trabalhador comunica imediatamente o gestor antes de iniciar o atendimento;
+2. informa, de forma objetiva, que houve constrangimento prévio e conflito;
+3. solicita remanejamento do atendimento para outro empregado;
+4. a instituição assume a decisão e garante continuidade do serviço ao cliente;
+5. o trabalhador atende a senha subsequente ou recebe outra tarefa, evitando que a medida se converta em negativa de atendimento ao consumidor.
+
+O remanejamento não equivale a expulsão ou recusa de serviço ao cliente. É uma medida de organização do trabalho e prevenção de conflito.
+
+### 3. Fundamentos para o remanejamento
+
+#### Poder diretivo e organização do trabalho
+
+A direção e organização da prestação de serviços pertencem ao empregador. Portanto, a instituição tem competência para redistribuir o atendimento entre empregados.
+
+#### NR-1 e riscos psicossociais
+
+A NR-1 vigente desde 26/05/2026 determina gerenciamento dos fatores de risco psicossociais relacionados ao trabalho. O Manual GRO/PGR do MTE reforça que a gestão desses fatores é obrigatória e deve ser articulada com a NR-17.
+
+Um conflito anterior com cliente, acompanhado de constrangimento público, pode integrar a avaliação contextual de risco psicossocial e justificar medida preventiva de organização do trabalho.
+
+Isso não significa que qualquer desconforto autorize interrupção unilateral da atividade. O direito de recusa/interrupção da NR-1 exige situação de risco grave e iminente à vida ou saúde, por motivos razoáveis.
+
+### 4. CCT 2026/2028 — atos praticados por clientes
+
+A CCT 2026/2028 ampliou o canal de combate ao assédio para receber denúncias relacionadas a **atos praticados por clientes contra funcionários**.
+
+Esse dado reforça que o conflito cliente-trabalhador não é necessariamente questão privada: pode exigir atuação institucional, registro, apoio e encaminhamento.
+
+### 5. Avaliação do cliente como possível instrumento de retaliação
+
+O risco de uma nota deliberadamente baixa após conflito prévio é juridicamente relevante quando a avaliação é:
+- vinculada a trabalhador identificável;
+- utilizada em metas, incentivos, ranking, avaliação de desempenho, remuneração, carreira ou medidas disciplinares;
+- processada sem contextualização do episódio anterior.
+
+Não existe regra geral localizada determinando a exclusão automática de qualquer nota negativa dada por cliente que teve conflito com empregado.
+
+Mas, uma vez documentado o conflito **antes** da avaliação, a utilização cega da nota contra o empregado torna-se problemática.
+
+### 6. Resolução CMN nº 4.949/2021
+
+O art. 8º exige que o banco promova equilíbrio entre metas de resultados/incentivos ligados ao desempenho dos funcionários e os valores de sua política institucional de relacionamento.
+
+O art. 9º exige mecanismos de monitoramento, métricas adequadas, avaliação de efetividade e correção de deficiências.
+
+Consequência analítica:
+
+> uma métrica de satisfação ou nota de cliente não deve ser tratada como dado infalível quando a instituição já possui informação de que a relação entre cliente e empregado estava previamente contaminada por conflito.
+
+### 7. CCT — monitoramento e feedback humanizado
+
+A CCT mantém vedação à exposição pública de ranking individual e, na renovação 2026/2028, incorporou avanços sobre transparência, limites ao monitoramento digital e feedback humanizado.
+
+Isso reforça que métricas relacionadas ao trabalhador exigem contexto e gestão humana, especialmente quando podem afetar desempenho individual.
+
+### 8. LGPD — decisão automatizada
+
+Se uma nota de cliente for utilizada por sistema automatizado para produzir decisão que afete interesses do trabalhador ou seu perfil profissional, o art. 20 da LGPD assegura ao titular o direito de solicitar revisão de decisões tomadas **unicamente** com base em tratamento automatizado de dados pessoais que afetem seus interesses.
+
+A regra não invalida a nota nem obriga automaticamente a sua exclusão. Mas impede tratar decisões profissionais integralmente automatizadas como imunes à contestação.
+
+### 9. Protocolo recomendado
+
+#### Antes do atendimento
+Ao reconhecer que a senha pertence ao cliente do conflito:
+- não iniciar discussão;
+- chamar discretamente o gestor;
+- informar o episódio anterior;
+- pedir remanejamento;
+- solicitar registro do motivo.
+
+#### Se o remanejamento for aceito
+- outro empregado assume o cliente;
+- o serviço continua normalmente;
+- o trabalhador segue com a próxima senha/tarefa;
+- não há negativa institucional de atendimento.
+
+#### Se o remanejamento não for aceito
+- pedir que o gestor acompanhe ou assuma a interlocução;
+- evitar debate sobre produtividade;
+- documentar posteriormente a decisão e o episódio;
+- se houver nova hostilidade, acionar os canais internos/CCT;
+- diante de risco grave e iminente, aplicar a proteção específica da NR-1.
+
+#### Quanto à avaliação posterior
+Se houver nota negativa vinculável ao trabalhador:
+- vincular formalmente a avaliação ao registro prévio do conflito;
+- pedir revisão humana;
+- requerer que a nota não produza consequência individual automática antes da análise;
+- se houver impacto em perfil profissional decorrente exclusivamente de processamento automatizado, avaliar exercício do direito do art. 20 da LGPD.
+
+### 10. Formulação para o artigo
+
+> **Uma vez ocorrido o constrangimento, obrigar o mesmo trabalhador a atender sozinho o cliente que o expôs pode recriar o conflito e ainda abrir espaço para uma avaliação retaliatória. O remanejamento, com ciência da gestão e continuidade do serviço, não é privilégio do empregado nem punição ao consumidor: é medida preventiva de organização do trabalho.**
+
+### 11. Limites da conclusão
+
+Não afirmar:
+- que todo trabalhador tem direito absoluto de escolher quais clientes atender;
+- que qualquer nota baixa posterior é necessariamente retaliatória;
+- que o banco é obrigado, em toda hipótese, a apagar ou excluir a avaliação.
+
+Pode-se sustentar:
+- que há base relevante para solicitar e implementar remanejamento preventivo após conflito documentado;
+- que a gestão deve assumir a decisão;
+- que uma avaliação posterior potencialmente contaminada pelo conflito não deve produzir consequências individuais automáticas sem contextualização e revisão humana.
+
