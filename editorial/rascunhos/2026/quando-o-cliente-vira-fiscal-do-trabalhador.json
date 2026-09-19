@@ -1,17 +1,17 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "project_code": "PRJ-000001",
   "project_name": "Classe e Massas",
   "strategy_code": "EA-000001-000015",
   "strategy_name": "Cliente, produtividade e controle social do trabalho bancário",
   "phase_code": "F-000001-000015-004",
-  "phase_name": "Redação e auditoria editorial — segunda versão",
+  "phase_name": "Redação e auditoria editorial — terceira versão",
   "slug": "quando-o-cliente-vira-fiscal-do-trabalhador",
   "content_type": "artigo",
   "title": "Quando o cliente vira fiscal dos trabalhadores bancário: transformação digital, reestruturação e controle informal da produtividade",
   "requested_title_phrase": "trabalhadores bancário",
-  "description": "Transformação digital, reestruturação, códigos de ética e regulação ajudam a explicar como a insatisfação do cliente pode ser convertida em fiscalização informal da produtividade individual.",
-  "status": "RASCUNHO_V2_AGUARDANDO_REVISAO_HUMANA",
+  "description": "Transformação digital, reestruturação, políticas de relacionamento e limites à fiscalização informal da produtividade individual dos trabalhadores bancários.",
+  "status": "RASCUNHO_V3_AGUARDANDO_REVISAO_HUMANA",
   "language": "pt-BR",
   "date": "2026-09-19",
   "publication_status": "NAO_PUBLICADO",
@@ -35,15 +35,18 @@
     "Pesquisa Febraban de Tecnologia Bancária 2026",
     "Pesquisa do Emprego Bancário nº 38 / Dieese / Novo Caged",
     "Série BCB 24936 sobre quantidade de agências",
-    "Consulta Nacional dos Bancários 2026 e intensificação do trabalho"
+    "Consulta Nacional dos Bancários 2026 e intensificação do trabalho",
+    "Correção metodológica: transações não são proxy de fluxo de atendimentos presenciais",
+    "Políticas Institucionais de Relacionamento: CAIXA, Santander, Itaú, Banco do Brasil e Bradesco",
+    "Resolução CMN 4.949/2021 — publicidade, treinamento, gestão do atendimento, mediação de conflitos e equilíbrio entre metas/incentivos e valores"
   ],
   "key_findings": [
-    "83% das transações bancárias são digitais e 78% ocorrem via celular, segundo Febraban 2026.",
-    "Canais físicos representavam 5% das transações em 2024 e agências se reconfiguram para operações mais complexas e consultivas.",
-    "Setor bancário eliminou 8.910 postos em 2025; área Bancária/Financeira teve -9.277 e TI +845, segundo PEB nº 38.",
-    "Art. 8º da Resolução CMN 4.949/2021 exige equilíbrio entre metas/resultados e valores organizacionais na política de relacionamento.",
-    "Códigos de ética convergem em dignidade, respeito e segurança; BB explicita equilíbrio entre pessoas, processos e resultados.",
-    "Tese de intensificação é analítica e não atribuída automaticamente a BCB, CMN ou Febraban."
+    "A série de transações da Febraban mede operações com e sem movimentação financeira; não mede número de clientes atendidos nem separa adequadamente atendimento de caixa, negocial e operacional.",
+    "Em 2024, transações atribuídas a agências foram 47% com movimentação financeira e 53% sem movimentação financeira, mostrando que a categoria é mais ampla que guichê de caixa, mas continua não equivalendo a atendimentos.",
+    "A Resolução CMN 4.949/2021 exige política específica e equilíbrio entre metas/incentivos de desempenho e valores organizacionais, mas exige disponibilidade ao BCB, não publicação integral obrigatória no site.",
+    "CAIXA publica política integral e, no item 5.7.7, exige equilíbrio entre metas de resultados/incentivos e as diretrizes da própria política.",
+    "Santander e Itaú divulgam publicamente pilares de incentivos, reclamações, qualidade da venda e mecanismos de responsabilização; BB e Bradesco confirmam suas políticas em materiais oficiais, embora a íntegra mais recente não tenha sido recuperada nesta pesquisa.",
+    "Transformação digital permanece como contexto estrutural, mas não será usada como medida automática do fluxo presencial ou da intensificação."
   ],
   "rigor_notes": [
     "A expressão 'trabalhadores bancário' foi mantida literalmente no título por solicitação do usuário.",
@@ -51,6 +54,10 @@
     "A Resolução CMN 4.949/2021 regula relacionamento com clientes, não saúde ocupacional.",
     "Dados de 93,3 mil postos e 9,5 mil agências são atribuídos ao estudo Dieese apresentado pelo movimento sindical à Fenaban.",
     "O precedente do TST envolve agressão física e não é equiparado à crítica pública.",
-    "O artigo não identifica cliente, empregado ou instituição envolvidos no episódio inicial."
+    "O artigo não identifica cliente, empregado ou instituição envolvidos no episódio inicial.",
+    "Não inferir fluxo de clientes em agências a partir de participação de transações digitais.",
+    "Não equiparar transação de agência a atendimento de cliente nem exclusivamente a guichê de caixa.",
+    "A ausência de política integral publicada no site não implica inexistência ou descumprimento; a Resolução CMN 4.949/2021 exige que o documento fique à disposição do Banco Central.",
+    "Distinguir política integral pública, resumo público, relatório que descreve a política e norma interna referenciada publicamente."
   ]
 }
