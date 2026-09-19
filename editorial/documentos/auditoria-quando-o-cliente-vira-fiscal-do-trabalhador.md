@@ -1,4 +1,4 @@
-# Auditoria editorial — Quando o cliente vira fiscal do trabalhador
+# Auditoria editorial — Quando o cliente vira fiscal dos trabalhadores bancário: transformação digital, reestruturação e controle informal da produtividade
 
 **Projeto:** `PRJ-000001 — Classe e Massas`  
 **Estratégia:** `EA-000001-000015 — Cliente, produtividade e controle social do trabalho bancário`  
