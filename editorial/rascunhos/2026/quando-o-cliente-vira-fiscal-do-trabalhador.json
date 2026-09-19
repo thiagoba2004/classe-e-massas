@@ -1,17 +1,17 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "project_code": "PRJ-000001",
   "project_name": "Classe e Massas",
   "strategy_code": "EA-000001-000015",
   "strategy_name": "Cliente, produtividade e controle social do trabalho bancário",
   "phase_code": "F-000001-000015-004",
-  "phase_name": "Redação e auditoria editorial — terceira versão",
+  "phase_name": "Redação e auditoria editorial — quarta versão",
   "slug": "quando-o-cliente-vira-fiscal-do-trabalhador",
   "content_type": "artigo",
   "title": "Quando o cliente vira fiscal dos trabalhadores bancário: transformação digital, reestruturação e controle informal da produtividade",
   "requested_title_phrase": "trabalhadores bancário",
-  "description": "Transformação digital, reestruturação, políticas de relacionamento e limites à fiscalização informal da produtividade individual dos trabalhadores bancários.",
-  "status": "RASCUNHO_V3_AGUARDANDO_REVISAO_HUMANA",
+  "description": "Artigo ampliado com políticas integrais de relacionamento e papel institucional da gestão diante da fiscalização pública da produtividade.",
+  "status": "RASCUNHO_V4_AGUARDANDO_REVISAO_HUMANA",
   "language": "pt-BR",
   "date": "2026-09-19",
   "publication_status": "NAO_PUBLICADO",
@@ -38,15 +38,18 @@
     "Consulta Nacional dos Bancários 2026 e intensificação do trabalho",
     "Correção metodológica: transações não são proxy de fluxo de atendimentos presenciais",
     "Políticas Institucionais de Relacionamento: CAIXA, Santander, Itaú, Banco do Brasil e Bradesco",
-    "Resolução CMN 4.949/2021 — publicidade, treinamento, gestão do atendimento, mediação de conflitos e equilíbrio entre metas/incentivos e valores"
+    "Resolução CMN 4.949/2021 — publicidade, treinamento, gestão do atendimento, mediação de conflitos e equilíbrio entre metas/incentivos e valores",
+    "Política Específica de Relacionamento do Banco do Brasil localizada integralmente",
+    "Política integral Santander: atendimento presencial, mediação, metas/incentivos e linhas de defesa",
+    "Itaú: gestão institucional de reclamações por causa-raiz e planos de ação",
+    "Papel institucional da gestão explicitado sem inventar obrigação textual inexistente"
   ],
   "key_findings": [
-    "A série de transações da Febraban mede operações com e sem movimentação financeira; não mede número de clientes atendidos nem separa adequadamente atendimento de caixa, negocial e operacional.",
-    "Em 2024, transações atribuídas a agências foram 47% com movimentação financeira e 53% sem movimentação financeira, mostrando que a categoria é mais ampla que guichê de caixa, mas continua não equivalendo a atendimentos.",
-    "A Resolução CMN 4.949/2021 exige política específica e equilíbrio entre metas/incentivos de desempenho e valores organizacionais, mas exige disponibilidade ao BCB, não publicação integral obrigatória no site.",
-    "CAIXA publica política integral e, no item 5.7.7, exige equilíbrio entre metas de resultados/incentivos e as diretrizes da própria política.",
-    "Santander e Itaú divulgam publicamente pilares de incentivos, reclamações, qualidade da venda e mecanismos de responsabilização; BB e Bradesco confirmam suas políticas em materiais oficiais, embora a íntegra mais recente não tenha sido recuperada nesta pesquisa.",
-    "Transformação digital permanece como contexto estrutural, mas não será usada como medida automática do fluxo presencial ou da intensificação."
+    "A Resolução CMN 4.949/2021 trata reclamações como objeto de gestão institucional do atendimento e mediação de conflitos.",
+    "Banco do Brasil exige mecanismos de gestão em todas as unidades envolvidas, treinamento, monitoramento de reclamações, ambiente seguro e inclusivo e priorização do diálogo.",
+    "Santander exige registro formal das reclamações presenciais, mediação institucional e critérios quantitativos e qualitativos em metas e incentivos.",
+    "Itaú trata reclamações como insumo para análise de causa-raiz e planos de ação entre Ouvidoria, Atendimento, Negócios, Operações e Tecnologia.",
+    "A gestão deve assumir a interlocução como conclusão institucional derivada da arquitetura normativa e das políticas, não de cláusula literal universal."
   ],
   "rigor_notes": [
     "A expressão 'trabalhadores bancário' foi mantida literalmente no título por solicitação do usuário.",
@@ -58,6 +61,8 @@
     "Não inferir fluxo de clientes em agências a partir de participação de transações digitais.",
     "Não equiparar transação de agência a atendimento de cliente nem exclusivamente a guichê de caixa.",
     "A ausência de política integral publicada no site não implica inexistência ou descumprimento; a Resolução CMN 4.949/2021 exige que o documento fique à disposição do Banco Central.",
-    "Distinguir política integral pública, resumo público, relatório que descreve a política e norma interna referenciada publicamente."
+    "Distinguir política integral pública, resumo público, relatório que descreve a política e norma interna referenciada publicamente.",
+    "Não afirmar que existe norma literal universal obrigando o gerente a intervir imediatamente em toda crítica de cliente.",
+    "Distinguir dever de proteção e governança institucional de eventual responsabilidade civil, que depende das circunstâncias concretas."
   ]
 }
