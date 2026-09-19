@@ -1,12 +1,11 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "project": "Classe e Massas",
-  "audit_strategy_id": "STRAT-CEM-20260918-002",
   "audited_at": "2026-09-18",
   "slug": "banco-do-brasil-plr-2026",
   "content_type": "documento_lai",
   "title": "Banco do Brasil — adiantamento da PLR de 16/09/2026",
-  "description": "2ª edição revisada do pedido de acesso à informação sobre o adiantamento da PLR do Banco do Brasil, o universo de 20 bases no marco de 11/09, as bases sem crédito e os documentos que fundamentaram os critérios aplicados.",
+  "description": "Modelo atualizado de pedido de acesso à informação sobre o adiantamento da PLR do Banco do Brasil, o universo de 20 bases no marco de 11/09, as bases sem crédito e os documentos que fundamentaram os critérios aplicados.",
   "status": "PUBLICADO",
   "language": "pt-BR",
   "canonical_source": {
@@ -28,5 +27,12 @@
       "level": 1,
       "title": "Banco do Brasil — adiantamento da PLR de 16/09/2026"
     }
-  ]
+  ],
+  "updated_at": "2026-09-19",
+  "public_version_policy": "SOMENTE_EDICAO_VIGENTE",
+  "model_ui": {
+    "copy_button_label": "COPIAR MODELO",
+    "copy_button_position": "IMEDIATAMENTE_ACIMA_DO_MODELO",
+    "previous_editions_publicly_linked": false
+  }
 }
