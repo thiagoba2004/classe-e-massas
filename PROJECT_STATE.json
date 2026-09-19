@@ -282,18 +282,16 @@
     "agents_blob_sha": "8a1ae68e4f60d46cc682ed8a03f55e7dfc408e9e"
   },
   "current_governance_strategy": {
-    "strategy_code": "EA-000001-000019",
-    "strategy_name": "Normalização do Menu Global do Site",
-    "phase_number": 5,
+    "strategy_code": "EA-000001-000020",
+    "strategy_name": "Modelo LAI para posicionamento dos bancos públicos",
+    "phase_number": 1,
     "phase_total": 5,
-    "phase_code": "F-000001-000019-005",
-    "phase_name": "Verificação pública e fechamento",
-    "status": "CONCLUIDO",
-    "plan_ref": "governanca/estrategia-normalizacao-menu-global-site.md",
-    "scope_pages": 26,
-    "audit_result": "26/26 CONFORMES",
-    "last_event_id": "STEV-CEM-20260919-055",
-    "next_step": "NENHUM PASSO PENDENTE DENTRO DA EA-000001-000019. Abrir nova estratégia somente diante de novo objetivo ou irregularidade comprovada."
+    "phase_code": "F-000001-000020-001",
+    "phase_name": "Registro e delimitação",
+    "status": "EM_EXECUCAO",
+    "plan_ref": "governanca/estrategia-modelo-lai-bancos-publicos.md",
+    "last_event_id": "STEV-CEM-20260919-056",
+    "next_step": "Pesquisar em fontes oficiais os bancos públicos abrangidos e seus canais oficiais de e-SIC/SIC eletrônico."
   },
   "project_sequence": 1,
   "project_alias": "CEM",
