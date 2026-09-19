@@ -1,6 +1,6 @@
 {
   "project_id": "classe-e-massas",
-  "generated_at": "2026-09-17",
+  "generated_at": "2026-09-19",
   "source_of_truth": "STRATEGY_LOG.jsonl",
   "purpose": "Mapa corrente reconstruível das Estratégias Autônomas já comprovadas. Não substitui o histórico append-only do STRATEGY_LOG.jsonl nem os arquivos canônicos de cada frente.",
   "strategies": [
@@ -13,7 +13,9 @@
         "AGENTS.md",
         "REQUEST_LOG.jsonl",
         "STRATEGY_LOG.jsonl"
-      ]
+      ],
+      "strategy_code": "STRAT-CEM-20260917-001",
+      "strategy_name": "Governança e continuidade documental do Classe e Massas"
     },
     {
       "strategy_id": "STRAT-CEM-20260917-002",
@@ -23,7 +25,9 @@
       "canonical_refs": [
         "AGENTS.md",
         "governanca/estrategia-migracao-agents-kernel-1.2.md"
-      ]
+      ],
+      "strategy_code": "STRAT-CEM-20260917-002",
+      "strategy_name": "Migração de governança do Classe e Massas para o kernel 1.2"
     },
     {
       "strategy_id": "STRAT-CEM-20260917-003",
@@ -33,7 +37,9 @@
       "canonical_refs": [
         "governanca/estrategia-backfill-estrategias-autonomas.md",
         "governanca/inventario-backfill-estrategias-autonomas-2026-09-17.md"
-      ]
+      ],
+      "strategy_code": "STRAT-CEM-20260917-003",
+      "strategy_name": "Inventário e backfill progressivo das Estratégias Autônomas históricas do Classe e Massas"
     },
     {
       "strategy_id": "STRAT-CEM-20260917-004",
@@ -47,7 +53,9 @@
         "biblioteca/traducoes/projetos/001-traducao.md",
         "biblioteca/traducoes/projetos/001-revisao-humana.md",
         "PROJECT_STATE.json:TCM-001"
-      ]
+      ],
+      "strategy_code": "STRAT-CEM-20260917-004",
+      "strategy_name": "TCM-001 — História da Crise Mundial"
     },
     {
       "strategy_id": "STRAT-CEM-20260917-005",
@@ -66,7 +74,9 @@
         "lai/banco-do-brasil-plr-2026.html",
         "PROJECT_STATE.json:DOS-PLR-BB-2026",
         "noticias/2026/classe-e-massas-protocola-lai-e-cobra-manifestacao-do-bb-sobre-plr-2026.html"
-      ]
+      ],
+      "strategy_code": "STRAT-CEM-20260917-005",
+      "strategy_name": "DOS-PLR-BB-2026 — PLR do Banco do Brasil"
     },
     {
       "strategy_id": "STRAT-CEM-20260917-006",
@@ -83,7 +93,9 @@
         "editorial/documentos/evidencia-angra-assembleia-bb-14-09-2026.md",
         "noticias/2026/bases-sindicais-que-nao-assinaram-o-act-do-bb-2026-2028-ate-14h-de-11-09.html",
         "noticias/index.html"
-      ]
+      ],
+      "strategy_code": "STRAT-CEM-20260917-006",
+      "strategy_name": "WHATSAPP-ACT-BB-18-BASES-2026"
     },
     {
       "strategy_id": "STRAT-CEM-20260917-007",
@@ -95,7 +107,9 @@
       "canonical_refs": [
         "observatorio/documentos/00_Observatorio_Classe_e_Massas_Refundacao_Identidade.md",
         "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md"
-      ]
+      ],
+      "strategy_code": "STRAT-CEM-20260917-007",
+      "strategy_name": "Refundação e implantação do Observatório Classe e Massas"
     },
     {
       "strategy_id": "STRAT-CEM-20260917-008",
@@ -110,7 +124,9 @@
         "noticias/principio-sintese.html",
         "noticias/2026/bases-sindicais-que-nao-assinaram-o-act-do-bb-2026-2028-ate-14h-de-11-09.html",
         "css/style.css"
-      ]
+      ],
+      "strategy_code": "STRAT-CEM-20260917-008",
+      "strategy_name": "Acessos institucionais do Menu Notícias"
     },
     {
       "strategy_id": "STRAT-CEM-20260917-009",
@@ -122,7 +138,9 @@
       "canonical_refs": [
         "index.html",
         "governanca/estrategia-home-enxuta.md"
-      ]
+      ],
+      "strategy_code": "STRAT-CEM-20260917-009",
+      "strategy_name": "Home enxuta"
     },
     {
       "strategy_id": "STRAT-CEM-20260917-010",
@@ -136,6 +154,26 @@
         "js/main.js",
         "governanca/estrategia-ui-design-site.md",
         "governanca/auditoria-final-ui-design-site.md"
+      ],
+      "strategy_code": "STRAT-CEM-20260917-010",
+      "strategy_name": "Sistema de UI Design do Classe e Massas"
+    },
+    {
+      "strategy_id": "STRAT-CEM-20260919-001",
+      "strategy_code": "STRAT-CEM-20260919-001",
+      "strategy_name": "Governança numérica de Projetos, Estratégias Autônomas e Fases",
+      "name": "Governança numérica de Projetos, Estratégias Autônomas e Fases",
+      "status": "EM_EXECUCAO",
+      "last_event_id": "STEV-CEM-20260919-001",
+      "event_type": "CREATED",
+      "phase_number": 4,
+      "phase_total": 5,
+      "phase_code": "F04",
+      "current_phase": "FASE 04/05 (F04) — Implementação no Classe e Massas",
+      "canonical_refs": [
+        "AGENTS.md",
+        "governanca/estrategia-governanca-numerica.md",
+        "PROJECT_STATE.json"
       ]
     }
   ],
@@ -150,6 +188,12 @@
   "rules": {
     "backfill_requires_persistent_evidence": true,
     "current_object_state_is_not_changed_by_backfill": true,
-    "concluded_strategies_are_not_reopened_by_backfill": true
-  }
+    "concluded_strategies_are_not_reopened_by_backfill": true,
+    "project_code_and_name_required": true,
+    "strategy_code_and_name_required": true,
+    "numbered_phase_plan_required": true,
+    "legacy_plans_normalize_on_resume": true
+  },
+  "project_code": "CEM",
+  "project_name": "Classe e Massas"
 }
