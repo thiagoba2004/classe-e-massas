@@ -263,7 +263,7 @@
   ],
   "continuity": {
     "agents_protocol": "AGENTS.md",
-    "agents_version": "2.3",
+    "agents_version": "2.4",
     "generated_from_kernel": "1.4",
     "checkpoint_tool": "tools/salvar-checkpoint.sh",
     "checkpoint_policy": "salvar unidade lógica antes de avançar; marcos críticos devem chegar ao remoto e ser verificados"
@@ -272,7 +272,7 @@
   "project_code": "PRJ-000001",
   "project_name": "Classe e Massas",
   "governance_standard": {
-    "agents_version": "2.3",
+    "agents_version": "2.4",
     "kernel_version": "1.4",
     "project_identification": "PRJ-000001 — Classe e Massas",
     "strategy_identification": "strategy_id + strategy_name",
@@ -284,14 +284,18 @@
   "current_governance_strategy": {
     "strategy_code": "EA-000001-000021",
     "strategy_name": "Menu Vídeos e primeiro filme cinematográfico",
-    "phase_number": 1,
+    "phase_number": 6,
     "phase_total": 6,
-    "phase_code": "F-000001-000021-001",
-    "phase_name": "Registro e pesquisa de ferramenta",
+    "phase_code": "F-000001-000021-006",
+    "phase_name": "Auditoria e fechamento",
     "status": "EM_EXECUCAO",
     "plan_ref": "governanca/estrategia-menu-videos-primeiro-filme.md",
-    "last_event_id": "STEV-CEM-20260919-063",
-    "next_step": "Concluir pesquisa de ferramenta gratuita, criar arquitetura do Menu Vídeos e preparar o roteiro/pacote de geração do vídeo 001."
+    "last_event_id": "STEV-CEM-20260919-069",
+    "site_status": "MENU VIDEOS IMPLANTADO E AUDITADO",
+    "video_001_status": "EM_PRODUCAO — roteiro, prompts e guia concluídos; audiovisual final ainda não existe",
+    "video_001_page": "videos/2026/quando-o-cliente-vira-fiscal-do-bancario.html",
+    "recommended_tool": "CapCut",
+    "next_step": "Gerar externamente no CapCut os oito planos do Vídeo 001, montar/exportar o audiovisual real e submetê-lo à revisão antes de alterar o estado para PUBLICADO."
   },
   "project_sequence": 1,
   "project_alias": "CEM",
