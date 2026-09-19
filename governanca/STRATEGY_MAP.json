@@ -14,8 +14,9 @@
         "REQUEST_LOG.jsonl",
         "STRATEGY_LOG.jsonl"
       ],
-      "strategy_code": "STRAT-CEM-20260917-001",
-      "strategy_name": "Governança e continuidade documental do Classe e Massas"
+      "strategy_code": "EA-000001-000001",
+      "strategy_name": "Governança e continuidade documental do Classe e Massas",
+      "legacy_strategy_id": "STRAT-CEM-20260917-001"
     },
     {
       "strategy_id": "STRAT-CEM-20260917-002",
@@ -26,8 +27,9 @@
         "AGENTS.md",
         "governanca/estrategia-migracao-agents-kernel-1.2.md"
       ],
-      "strategy_code": "STRAT-CEM-20260917-002",
-      "strategy_name": "Migração de governança do Classe e Massas para o kernel 1.2"
+      "strategy_code": "EA-000001-000002",
+      "strategy_name": "Migração de governança do Classe e Massas para o kernel 1.2",
+      "legacy_strategy_id": "STRAT-CEM-20260917-002"
     },
     {
       "strategy_id": "STRAT-CEM-20260917-003",
@@ -38,8 +40,9 @@
         "governanca/estrategia-backfill-estrategias-autonomas.md",
         "governanca/inventario-backfill-estrategias-autonomas-2026-09-17.md"
       ],
-      "strategy_code": "STRAT-CEM-20260917-003",
-      "strategy_name": "Inventário e backfill progressivo das Estratégias Autônomas históricas do Classe e Massas"
+      "strategy_code": "EA-000001-000003",
+      "strategy_name": "Inventário e backfill progressivo das Estratégias Autônomas históricas do Classe e Massas",
+      "legacy_strategy_id": "STRAT-CEM-20260917-003"
     },
     {
       "strategy_id": "STRAT-CEM-20260917-004",
@@ -54,8 +57,9 @@
         "biblioteca/traducoes/projetos/001-revisao-humana.md",
         "PROJECT_STATE.json:TCM-001"
       ],
-      "strategy_code": "STRAT-CEM-20260917-004",
-      "strategy_name": "TCM-001 — História da Crise Mundial"
+      "strategy_code": "EA-000001-000004",
+      "strategy_name": "TCM-001 — História da Crise Mundial",
+      "legacy_strategy_id": "STRAT-CEM-20260917-004"
     },
     {
       "strategy_id": "STRAT-CEM-20260917-005",
@@ -75,8 +79,9 @@
         "PROJECT_STATE.json:DOS-PLR-BB-2026",
         "noticias/2026/classe-e-massas-protocola-lai-e-cobra-manifestacao-do-bb-sobre-plr-2026.html"
       ],
-      "strategy_code": "STRAT-CEM-20260917-005",
-      "strategy_name": "DOS-PLR-BB-2026 — PLR do Banco do Brasil"
+      "strategy_code": "EA-000001-000005",
+      "strategy_name": "DOS-PLR-BB-2026 — PLR do Banco do Brasil",
+      "legacy_strategy_id": "STRAT-CEM-20260917-005"
     },
     {
       "strategy_id": "STRAT-CEM-20260917-006",
@@ -94,8 +99,10 @@
         "noticias/2026/bases-sindicais-que-nao-assinaram-o-act-do-bb-2026-2028-ate-14h-de-11-09.html",
         "noticias/index.html"
       ],
-      "strategy_code": "STRAT-CEM-20260917-006",
-      "strategy_name": "WHATSAPP-ACT-BB-18-BASES-2026"
+      "strategy_code": "EA-000001-000006",
+      "strategy_name": "WHATSAPP-ACT-BB-18-BASES-2026",
+      "legacy_strategy_id": "STRAT-CEM-20260917-006",
+      "parent_strategy_code": "EA-000001-000005"
     },
     {
       "strategy_id": "STRAT-CEM-20260917-007",
@@ -108,8 +115,9 @@
         "observatorio/documentos/00_Observatorio_Classe_e_Massas_Refundacao_Identidade.md",
         "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md"
       ],
-      "strategy_code": "STRAT-CEM-20260917-007",
-      "strategy_name": "Refundação e implantação do Observatório Classe e Massas"
+      "strategy_code": "EA-000001-000007",
+      "strategy_name": "Refundação e implantação do Observatório Classe e Massas",
+      "legacy_strategy_id": "STRAT-CEM-20260917-007"
     },
     {
       "strategy_id": "STRAT-CEM-20260917-008",
@@ -125,8 +133,9 @@
         "noticias/2026/bases-sindicais-que-nao-assinaram-o-act-do-bb-2026-2028-ate-14h-de-11-09.html",
         "css/style.css"
       ],
-      "strategy_code": "STRAT-CEM-20260917-008",
-      "strategy_name": "Acessos institucionais do Menu Notícias"
+      "strategy_code": "EA-000001-000008",
+      "strategy_name": "Acessos institucionais do Menu Notícias",
+      "legacy_strategy_id": "STRAT-CEM-20260917-008"
     },
     {
       "strategy_id": "STRAT-CEM-20260917-009",
@@ -139,8 +148,9 @@
         "index.html",
         "governanca/estrategia-home-enxuta.md"
       ],
-      "strategy_code": "STRAT-CEM-20260917-009",
-      "strategy_name": "Home enxuta"
+      "strategy_code": "EA-000001-000009",
+      "strategy_name": "Home enxuta",
+      "legacy_strategy_id": "STRAT-CEM-20260917-009"
     },
     {
       "strategy_id": "STRAT-CEM-20260917-010",
@@ -155,12 +165,13 @@
         "governanca/estrategia-ui-design-site.md",
         "governanca/auditoria-final-ui-design-site.md"
       ],
-      "strategy_code": "STRAT-CEM-20260917-010",
-      "strategy_name": "Sistema de UI Design do Classe e Massas"
+      "strategy_code": "EA-000001-000010",
+      "strategy_name": "Sistema de UI Design do Classe e Massas",
+      "legacy_strategy_id": "STRAT-CEM-20260917-010"
     },
     {
       "strategy_id": "STRAT-CEM-20260919-001",
-      "strategy_code": "STRAT-CEM-20260919-001",
+      "strategy_code": "EA-000001-000013",
       "strategy_name": "Governança numérica de Projetos, Estratégias Autônomas e Fases",
       "name": "Governança numérica de Projetos, Estratégias Autônomas e Fases",
       "status": "CONCLUIDO",
@@ -174,6 +185,26 @@
         "AGENTS.md",
         "governanca/estrategia-governanca-numerica.md",
         "PROJECT_STATE.json"
+      ],
+      "legacy_strategy_id": "STRAT-CEM-20260919-001"
+    },
+    {
+      "strategy_id": "STRAT-CEM-20260919-002",
+      "legacy_strategy_id": "STRAT-CEM-20260919-002",
+      "strategy_code": "EA-000001-000014",
+      "strategy_name": "Metodologia universal de codificação hierárquica",
+      "name": "Metodologia universal de codificação hierárquica",
+      "status": "EM_EXECUCAO",
+      "last_event_id": "STEV-CEM-20260919-004",
+      "event_type": "UPDATED",
+      "phase_number": 4,
+      "phase_total": 5,
+      "phase_code": "F-000001-000014-004",
+      "current_phase": "FASE 04/05 [F-000001-000014-004] — Migração controlada do Classe e Massas",
+      "canonical_refs": [
+        "AGENTS.md",
+        "PROJECT_STATE.json",
+        "governanca/estrategia-metodologia-codificacao-hierarquica.md"
       ]
     }
   ],
@@ -192,8 +223,17 @@
     "project_code_and_name_required": true,
     "strategy_code_and_name_required": true,
     "numbered_phase_plan_required": true,
-    "legacy_plans_normalize_on_resume": true
+    "legacy_plans_normalize_on_resume": true,
+    "canonical_project_code_format": "PRJ-NNNNNN",
+    "canonical_strategy_code_format": "EA-PPPPPP-EEEEEE",
+    "canonical_phase_code_format": "F-PPPPPP-EEEEEE-FFF",
+    "aliases_are_non_identifying": true,
+    "codes_never_reused": true,
+    "codes_never_renumbered": true
   },
-  "project_code": "CEM",
-  "project_name": "Classe e Massas"
+  "project_code": "PRJ-000001",
+  "project_name": "Classe e Massas",
+  "project_sequence": 1,
+  "project_alias": "CEM",
+  "project_id_legacy": "classe-e-massas"
 }
