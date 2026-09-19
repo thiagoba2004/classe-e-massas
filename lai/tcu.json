@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "project": "Classe e Massas",
   "audit_strategy_id": "STRAT-CEM-20260918-002",
   "audited_at": "2026-09-18",
@@ -28,5 +28,11 @@
       "level": 1,
       "title": "TRIBUNAL DE CONTAS DA UNIÃO"
     }
-  ]
+  ],
+  "updated_at": "2026-09-19",
+  "model_ui": {
+    "copy_button_label": "COPIAR MODELO",
+    "copy_button_position": "IMEDIATAMENTE_ACIMA_DO_MODELO",
+    "previous_editions_publicly_linked": false
+  }
 }
