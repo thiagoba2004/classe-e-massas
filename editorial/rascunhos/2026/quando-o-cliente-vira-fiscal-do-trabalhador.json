@@ -1,17 +1,17 @@
 {
-  "schema_version": "1.7",
+  "schema_version": "1.8",
   "project_code": "PRJ-000001",
   "project_name": "Classe e Massas",
   "strategy_code": "EA-000001-000015",
   "strategy_name": "Cliente, produtividade e controle social do trabalho bancário",
   "phase_code": "F-000001-000015-004",
-  "phase_name": "Redação e auditoria editorial — oitava revisão",
+  "phase_name": "Redação e auditoria editorial — nona revisão",
   "slug": "quando-o-cliente-vira-fiscal-do-trabalhador",
   "content_type": "artigo",
   "title": "Quando o cliente vira fiscal dos trabalhadores bancários: reestruturação digital, intensificação e fiscalização ilícita da produtividade",
   "requested_title_phrase": "trabalhadores bancário",
-  "description": "Versão que incorpora CF art. 5º, V e X, explicita CC art. 927 e rejeita o art. 21 como fundamento central por menor aderência ao caso.",
-  "status": "RASCUNHO_V8_AGUARDANDO_REVISAO_HUMANA",
+  "description": "Versão consolidada com CF art. 5º, V e X, CC arts. 186, 187 e 927, Compliance e remanejamento preventivo, sem referência ao art. 21 do Código Civil.",
+  "status": "RASCUNHO_V9_AGUARDANDO_REVISAO_HUMANA",
   "language": "pt-BR",
   "date": "2026-09-19",
   "publication_status": "NAO_PUBLICADO",
@@ -67,7 +67,6 @@
     "A proteção defendida é preventiva: remanejamento antes do atendimento após conflito prévio documentado.",
     "A redação oficial do art. 187 usa 'excede manifestamente', e não 'exceder manifestadamente'.",
     "Compliance é tratado como função institucional de conformidade e segunda linha de defesa, sem substituir gestão local, Ouvidoria, RH, Segurança ou canais previstos na CCT.",
-    "CC art. 21 não foi incorporado ao núcleo porque o episódio público no ambiente de trabalho atinge mais diretamente honra, imagem e dignidade do que vida privada.",
     "O precedente trabalhista em que aparece a expressão 'exposição da produtividade individual' não será usado como prova direta de ilicitude da conduta do cliente, pois o caso localizado tratava principalmente de subordinação/vínculo."
   ],
   "word_count": 2629,
@@ -100,10 +99,7 @@
       "CC art. 187",
       "CC art. 927"
     ],
-    "subsidiary_not_core": [
-      "CC art. 21"
-    ],
-    "rationale": "Honra e imagem, abuso de direito e eventual reparação são mais aderentes ao episódio do que a tutela da vida privada."
+    "rationale": "Honra e imagem, abuso de direito e eventual reparação são os fundamentos civis e constitucionais diretamente adotados para o episódio."
   },
   "remanejamento_position": {
     "rule": "Após constrangimento público prévio praticado pelo cliente contra determinado trabalhador bancário, o atendimento deve ser remanejado pela gestão antes de começar.",
