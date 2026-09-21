@@ -92,7 +92,7 @@ Toda mudança de conteúdo deve começar no Markdown. É proibido corrigir apena
 
 ### 5.4 Estrutura mínima
 
-Todo documento canônico em Markdown deverá registrar, no próprio texto ou em metadados JSON relacionados:
+Todo documento canônico em Markdown deverá registrar, no próprio texto, os elementos humanos necessários à sua identificação. Metadados JSON relacionados só serão mantidos quando houver uso estruturado real:
 
 - identificador estável;
 - título;
@@ -210,16 +210,16 @@ A cadeia geral do Observatório passa a ser:
 ```text
 FONTE ORIGINAL PRESERVADA
         ↓
-REGISTRO E METADADOS — JSON/JSONL
+DADOS E REGISTROS ESTRUTURADOS — JSON/JSONL, QUANDO NECESSÁRIOS
         ↓
 DOCUMENTO CANÔNICO — MARKDOWN
         ↓
-PUBLICAÇÃO — HTML
+PUBLICAÇÃO — HTML, QUANDO HOUVER
         ↓
 ANÁLISE, MAPA, PAINEL, DOSSIÊ OU ARTIGO
 ```
 
-Nem toda fonte produzirá imediatamente todas as camadas. Entretanto, qualquer afirmação pública relevante deverá possuir uma trilha que permita reconstruir sua origem, seu tratamento e sua condição documental.
+Nem toda fonte ou documento deve produzir uma camada JSON. JSON/JSONL só entra na cadeia quando houver dado, relação, estado, catálogo, schema ou outro objeto efetivamente estruturado. Entretanto, qualquer afirmação pública relevante deverá possuir uma trilha que permita reconstruir sua origem, seu tratamento e sua condição documental.
 
 ## 11. Estados epistemológicos
 
@@ -355,7 +355,7 @@ Nenhuma conveniência momentânea de edição poderá criar múltiplas fontes co
 
 **Regra final:**
 
-> **Escrever em Markdown. Estruturar em JSON e JSONL. Publicar em HTML. Preservar as fontes. Versionar no Git.**
+> **Escrever o texto em Markdown. Estruturar em JSON/JSONL somente o que realmente for dado estruturado. Publicar em HTML quando houver publicação. Preservar as fontes. Versionar no Git.**
 
 ## 19. Histórico de versões
 
@@ -363,4 +363,5 @@ Nenhuma conveniência momentânea de edição poderá criar múltiplas fontes co
 |---|---|---|
 | 1.0 | 12/09/2026 | Institui Markdown como fonte canônica textual, HTML como publicação derivada, JSON/JSONL como memória estruturada e DOCX/PDF como legado ou exportação excepcional. |
 | 1.1 | 12/09/2026 | Separa a publicação pública em HTML dos arquivos Markdown e JSON mantidos no repositório, retirando estes últimos da navegação do site. |
+| 1.2 | 20/09/2026 | Revoga a geração automática de JSON por texto. Markdown permanece fonte textual; HTML permanece publicação; JSON/JSONL passa a existir somente quando houver função estruturada concreta. |
 
