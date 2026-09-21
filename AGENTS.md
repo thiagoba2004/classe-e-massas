@@ -7,8 +7,8 @@
 **Denominação do Projeto:** `Classe e Massas`  
 **project_id legado:** `classe-e-massas`  
 **Status:** CANÔNICO  
-**Versão:** 2.4  
-**Data:** 19/09/2026  
+**Versão:** 2.5  
+**Data:** 20/09/2026  
 **generated_from_kernel:** `1.4`  
 **Kernel de referência:** `thiagoba2004/gerador-de-agents/AGENTS_KERNEL.md`  
 **Escopo:** todo modelo de IA, agente, assistente ou automação que trabalhe neste repositório ou em seus documentos derivados.
@@ -324,81 +324,71 @@ A tradução deve ser persistida progressivamente. Unidade concluída deve ser s
 
 A conclusão integral exige texto persistido, status atualizado, commit, remoto confirmado quando disponível e segunda cópia quando tecnicamente aplicável a marco crítico.
 
-### 8.2. Formatos canônicos e trio obrigatório para textos editoriais
+### 8.2. Formatos canônicos e política condicional de JSON
 
-Salvo decisão específica documentada:
+Padrão vigente:
 
-- Markdown (`.md`) — fonte textual canônica para textos humanos, documentação, metodologia, traduções e conteúdo editorial;
-- JSON/JSONL — dados estruturados, metadados, representação legível por máquina e interoperabilidade;
-- HTML — artefato de publicação;
-- PDF/DOCX — formatos derivados de distribuição, apresentação ou protocolo.
+- Markdown (`.md`) — fonte textual canônica para conteúdo editorial, documentação, metodologia, traduções e textos humanos;
+- HTML (`.html`) — artefato público quando houver publicação no Site;
+- JSON/JSONL — somente para **dados estruturados com função objetiva de máquina**;
+- PDF/DOCX — derivados de distribuição, apresentação ou protocolo quando necessários.
 
-Transformação de formato não substitui silenciosamente a fonte da verdade.
+#### 8.2.1. Regra padrão para textos editoriais/publicáveis
 
-#### 8.2.1. Regra dos três artefatos
-
-Todo **texto editorial ou publicável** mantido pelo projeto — incluindo artigos, notícias, editoriais, notas, dossiês, documentos canônicos destinados à publicação e outros conteúdos textuais equivalentes — deve possuir, como regra obrigatória, três artefatos coordenados:
+Para texto editorial ou publicável, a regra normal é:
 
 ```text
-NOME-ESTAVEL.md
-NOME-ESTAVEL.html
-NOME-ESTAVEL.json
+Markdown canônico
++
+HTML quando publicado
 ```
 
-As responsabilidades são distintas e complementares:
+**Não existe mais obrigação de criar um JSON correspondente ao texto.**
 
-1. **Markdown (`.md`) — fonte textual canônica.** É o arquivo prioritário para redação, revisão humana, comparação textual e preservação do conteúdo.
-2. **HTML (`.html`) — publicação.** É a representação pública ou publicável do texto e deve ser derivável ou verificável contra o Markdown.
-3. **JSON (`.json`) — representação estruturada.** Deve conter metadados suficientes para identificar, auditar, comparar e processar o texto por modelos de IA, automações e ferramentas. Deve apontar para os arquivos Markdown e HTML correspondentes e, quando aplicável, representar de forma estruturada seções, referências ou conteúdo necessário à análise automatizada.
+É proibido criar `NOME-ESTAVEL.json` apenas para repetir:
+- título, subtítulo ou descrição;
+- outline/seções;
+- status editorial já recuperável;
+- caminhos do Markdown e do HTML;
+- links que já constam do texto;
+- conteúdo narrativo já preservado nos formatos humano e público.
 
-O uso do mesmo basename/slug nos três artefatos é obrigatório sempre que tecnicamente possível. Quando a arquitetura exigir nomes diferentes, o vínculo entre eles deve ser explícito no JSON.
+#### 8.2.2. Quando JSON/JSONL é justificável
 
-#### 8.2.2. Sincronização obrigatória
+JSON/JSONL deve existir quando houver finalidade estruturada concreta, por exemplo:
 
-Alteração material em título, linha fina/subtítulo, autoria, data, corpo, referências, status editorial, slug ou outro dado relevante deve ser refletida nos três artefatos antes de o trabalho ser declarado concluído ou atualizado.
+- `PROJECT_STATE.json`, mapas e estados correntes;
+- `REQUEST_LOG.jsonl`, `STRATEGY_LOG.jsonl` e registros append-only;
+- configuração de ferramentas e automações;
+- datasets, catálogos, taxonomias, rankings e séries;
+- glossários estruturados;
+- metadados documentais realmente consumidos como dados;
+- schemas e fixtures;
+- corpus ou manifests de tradução com estado e relações;
+- dados destinados a script, API, busca estruturada, filtro, cálculo, validação ou interoperabilidade comprovada.
 
-O JSON correspondente deve registrar, no mínimo quando aplicável:
+Antes de criar um JSON novo, registrar mental ou documentalmente:
 
 ```text
-id ou slug
-tipo de conteúdo
-título
-status
-data de publicação
-data de atualização
-caminho da fonte Markdown
-caminho do HTML publicado/publicável
-referência de versão, commit ou hash quando disponível
+QUAL PROCESSO CONSOME ESTE JSON?
+QUAL INFORMAÇÃO ESTRUTURADA ELE PRESERVA QUE O MARKDOWN NÃO ATENDE?
 ```
 
-Não é permitido manter silenciosamente um HTML publicado sem sua fonte Markdown correspondente, nem um texto editorial sem seu JSON correspondente.
+Se não houver resposta concreta, **não criar**.
 
-#### 8.2.3. Gate de conclusão editorial
+#### 8.2.3. Sincronização
 
-Um texto editorial/publicável somente pode atingir estado equivalente a `PRONTO PARA PUBLICAÇÃO`, `PUBLICADO`, `ATUALIZADO` ou `CONCLUÍDO` quando:
+- conteúdo textual: sincronizar Markdown e HTML publicado;
+- dado estruturado: atualizar o JSON/JSONL apenas quando sua função de dados exigir;
+- nenhuma alteração editorial deve criar automaticamente um terceiro artefato JSON.
 
-- os três artefatos existirem;
-- a relação entre eles estiver identificável;
-- Markdown e HTML estiverem materialmente coerentes;
-- o JSON corresponder à versão vigente;
-- a persistência e o versionamento tiverem sido verificados.
+#### 8.2.4. Preservação histórica
 
-Publicar o HTML não sana a ausência do Markdown ou do JSON.
+A antiga regra de triplicidade `.md + .html + .json` foi revogada em 20/09/2026 por decisão expressa do usuário.
 
-#### 8.2.4. Exceções
+Os JSON redundantes criados exclusivamente para cumprir aquela regra devem ser removidos do estado corrente do repositório. O histórico Git preserva integralmente as versões anteriores e a auditoria histórica de 18/09/2026.
 
-Exceção à regra dos três artefatos somente é válida quando houver **decisão específica, expressa, persistente e versionada** que indique:
-
-- o objeto excepcional;
-- a razão técnica, jurídica ou arquitetural;
-- o formato dispensado;
-- a fonte da verdade substitutiva;
-- o prazo ou condição de revisão, quando temporária.
-
-Páginas puramente operacionais, índices gerados, CSS, JavaScript, logs, arquivos de dados sem natureza textual editorial e outros artefatos técnicos não são transformados em “texto editorial” apenas por existirem no site.
-
-A ausência histórica de um dos três artefatos é uma **lacuna documental a corrigir**, e não precedente para novas publicações incompletas.
-
+A revogação **não autoriza apagar** JSON estruturais úteis, arquivos de configuração, estado, registros, catálogos, metadados funcionais, taxonomias, glossários ou bases de dados.
 
 ### 8.3. Siglas e abreviações
 
