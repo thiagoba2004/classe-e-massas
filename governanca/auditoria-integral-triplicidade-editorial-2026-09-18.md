@@ -1,3 +1,5 @@
+> **REGRA SUPERADA EM 20/09/2026.** Esta auditoria permanece como registro histórico da política então vigente. A obrigação de triplicidade `.md + .html + .json` foi revogada por decisão expressa do usuário. O padrão atual é Markdown canônico + HTML quando publicado; JSON/JSONL somente quando houver função estruturada real. Os JSON criados exclusivamente para satisfazer esta auditoria podem ser removidos do estado corrente, permanecendo recuperáveis pelo Git.
+
 # Auditoria integral da triplicidade editorial — 18/09/2026
 
 **Projeto:** Classe e Massas  
