@@ -34,11 +34,13 @@ Observatórios setoriais atravessam as cinco portas; não formam silos paralelos
 
 1.  Fontes originais preservadas, identificadas e versionadas.
 
-2.  Dados estruturados em JSONL, com identificadores estáveis, datas, proveniência e estado documental.
+2.  Dados estruturados em JSON/JSONL **quando houver objeto de dados real**, com identificadores estáveis, datas, proveniência e estado documental.
 
 3.  Documentos canônicos em Markdown, publicações derivadas em HTML e produtos analíticos rastreáveis.
 
-Cadeia obrigatória: FONTE ORIGINAL → REGISTRO JSON/JSONL → DOCUMENTO CANÔNICO MARKDOWN → PUBLICAÇÃO HTML → ANÁLISE, MAPA, PAINEL OU ARTIGO.
+Cadeia geral: FONTE ORIGINAL → [DADO ESTRUTURADO JSON/JSONL, QUANDO NECESSÁRIO] → DOCUMENTO CANÔNICO MARKDOWN → PUBLICAÇÃO HTML → ANÁLISE, MAPA, PAINEL OU ARTIGO.
+
+A camada JSON não é obrigatória para todo documento textual. É vedado criar JSON apenas para espelhar conteúdo já preservado em Markdown e HTML.
 
 # 4. Entidades comuns de dados
 
@@ -83,7 +85,7 @@ Cadeia obrigatória: FONTE ORIGINAL → REGISTRO JSON/JSONL → DOCUMENTO CANÔN
 
 - Git preserva a trilha técnica; documentos canônicos preservam a decisão política e metodológica.
 
-- Markdown fixa a fonte textual oficial; HTML publica seu conteúdo; JSON e JSONL estruturam metadados, entidades, relações e séries.
+- Markdown fixa a fonte textual oficial; HTML publica seu conteúdo; JSON e JSONL são reservados a metadados, entidades, relações, séries e outros dados que realmente exijam representação estruturada.
 
 - O site publica apenas produtos aprovados, sem confundir infraestrutura de pesquisa com produto editorial.
 
