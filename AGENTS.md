@@ -738,6 +738,7 @@ governanca/estrategia-migracao-agents-kernel-1.2.md
 | 2.1 | 19/09/2026 | Institui governança numérica: código + denominação obrigatórios para Projeto e Estratégia Autônoma; Planos de Fases integralmente numerados; padrão determinístico para respostas de continuidade. |
 | 2.2 | 19/09/2026 | Substitui códigos derivados de iniciais pela metodologia universal hierárquica: `PRJ-NNNNNN` para Projetos, `EA-PPPPPP-EEEEEE` para Estratégias Autônomas e `F-PPPPPP-EEEEEE-FFF` para Fases; rebaixa `CEM` a alias mnemônico e preserva identificadores legados por mapeamento. |
 | 2.3 | 19/09/2026 | Institui o padrão obrigatório para Modelos públicos: botão `COPIAR MODELO` imediatamente acima do bloco copiável, somente a edição vigente no Site Público e proibição de portões de acesso a edições anteriores. |
+| 2.5 | 20/09/2026 | Revoga a triplicidade editorial obrigatória. Markdown permanece fonte textual canônica, HTML permanece publicação e JSON/JSONL passa a ser criado somente quando houver função estruturada real. |
 
 ---
 
