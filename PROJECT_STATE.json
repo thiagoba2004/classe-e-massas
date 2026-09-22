@@ -350,7 +350,17 @@
     "rule": "Create JSON/JSONL only for structured data with a concrete machine-processing need; do not create JSON as an automatic mirror of Markdown/HTML.",
     "updated_at": "2026-09-20"
   },
-  "current_site_strategy": null,
+  "current_site_strategy": {
+    "strategy_code": "EA-000001-000027",
+    "strategy_name": "Saneamento residual de links, botões e separação público/interno",
+    "phase_number": 2,
+    "phase_total": 5,
+    "phase_code": "F-000001-000027-002",
+    "phase_name": "Semântica de links e botões",
+    "status": "EM_EXECUCAO",
+    "plan_ref": "governanca/estrategia-saneamento-residual-semantica-publicacao-2026-09-22.md",
+    "next_step": "Converter hiperlinks de navegação simples estilizados como botões em links contextuais, preservando botões para downloads e ações reais."
+  },
   "last_completed_site_strategy": {
     "strategy_code": "EA-000001-000026",
     "strategy_name": "Correção transversal de interface e arquitetura pública do Site Classe e Massas",
@@ -365,5 +375,5 @@
     "deployment_status": "SUCCESS",
     "result": "Sistema visual e arquitetura pública consolidados; 47/47 HTML públicos passaram nos gates estruturais; paleta, tipografia, cards, navegação, Observatório e separação público/interno corrigidos."
   },
-  "next_site_step": "Nenhuma correção sistêmica de UI pendente. Tratar apenas regressões visuais específicas que venham a ser comprovadas por nova captura ou auditoria."
+  "next_site_step": "Executar FASE 02/05 da EA-000001-000027."
 }
