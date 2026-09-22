@@ -7,7 +7,7 @@
 **Denominação do Projeto:** `Classe e Massas`  
 **project_id legado:** `classe-e-massas`  
 **Status:** CANÔNICO  
-**Versão:** 2.6  
+**Versão:** 2.7  
 **Data:** 20/09/2026  
 **generated_from_kernel:** `1.4`  
 **Kernel de referência:** `thiagoba2004/gerador-de-agents/AGENTS_KERNEL.md`  
@@ -743,6 +743,18 @@ Regras:
 - Notícias, Artigos, Vídeos e Observatório mantêm funções editoriais distintas e não devem ser convertidos em textos duplicados;
 - a promoção futura de Vídeos novamente ao primeiro nível exige crescimento funcional que justifique nova decisão arquitetural rastreável.
 
+### 16.2. Navegação dinâmica responsiva
+
+A navegação pública deve ser progressivamente aprimorada:
+
+- com JavaScript disponível, telas de até 700 px exibem cabeçalho compacto com botão **MENU** e navegação recolhida por padrão;
+- o botão deve usar `aria-controls` e `aria-expanded`;
+- **Publicações** funciona como disclosure e revela **Visão geral, Notícias, Artigos, Vídeos e Observatório**;
+- o submenu deve funcionar por clique e teclado; a tecla Escape fecha disclosure/menu;
+- no desktop, o menu principal permanece visível e Publicações abre submenu sem ocupar quatro posições de primeiro nível;
+- sem JavaScript, a navegação HTML permanece visível como fallback funcional;
+- é vedado considerar “dinâmico” um menu que apenas empilha permanentemente todos os itens em múltiplas linhas no mobile.
+
 ## 17. Histórico de versões
 
 | Versão | Data | Alteração |
@@ -762,6 +774,7 @@ Regras:
 | 2.3 | 19/09/2026 | Institui o padrão obrigatório para Modelos públicos: botão `COPIAR MODELO` imediatamente acima do bloco copiável, somente a edição vigente no Site Público e proibição de portões de acesso a edições anteriores. |
 | 2.5 | 20/09/2026 | Revoga a triplicidade editorial obrigatória. Markdown permanece fonte textual canônica, HTML permanece publicação e JSON/JSONL passa a ser criado somente quando houver função estruturada real. |
 | 2.6 | 22/09/2026 | Agrupa Notícias, Artigos, Vídeos e Observatório no hub Publicações; reduz a densidade do menu global, elimina dependência de rolagem horizontal no mobile e disciplina a escala tipográfica da Home. |
+| 2.7 | 22/09/2026 | Torna a navegação efetivamente dinâmica: botão MENU no mobile, menu recolhível, Publicações como disclosure com submenu acessível, Escape para fechamento e fallback sem JavaScript. |
 
 ---
 

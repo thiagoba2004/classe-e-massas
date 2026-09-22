@@ -263,7 +263,7 @@
   ],
   "continuity": {
     "agents_protocol": "AGENTS.md",
-    "agents_version": "2.6",
+    "agents_version": "2.7",
     "generated_from_kernel": "1.4",
     "checkpoint_tool": "tools/salvar-checkpoint.sh",
     "checkpoint_policy": "salvar unidade lógica antes de avançar; marcos críticos devem chegar ao remoto e ser verificados"
@@ -272,7 +272,7 @@
   "project_code": "PRJ-000001",
   "project_name": "Classe e Massas",
   "governance_standard": {
-    "agents_version": "2.6",
+    "agents_version": "2.7",
     "kernel_version": "1.4",
     "project_identification": "PRJ-000001 — Classe e Massas",
     "strategy_identification": "strategy_id + strategy_name",
@@ -350,7 +350,17 @@
     "rule": "Create JSON/JSONL only for structured data with a concrete machine-processing need; do not create JSON as an automatic mirror of Markdown/HTML.",
     "updated_at": "2026-09-20"
   },
-  "current_site_strategy": null,
+  "current_site_strategy": {
+    "strategy_code": "EA-000001-000023",
+    "strategy_name": "Navegação dinâmica responsiva do Site Classe e Massas",
+    "phase_number": 4,
+    "phase_total": 4,
+    "phase_code": "F-000001-000023-004",
+    "phase_name": "Auditoria de acessibilidade, responsividade e deploy",
+    "status": "EM_EXECUCAO",
+    "plan_ref": "governanca/estrategia-navegacao-dinamica-responsiva.md",
+    "next_step": "Auditar menu recolhível, disclosure Publicações, atributos ARIA, fallback sem JavaScript e GitHub Pages; fechar se o gate passar."
+  },
   "last_completed_site_strategy": {
     "strategy_code": "EA-000001-000022",
     "strategy_name": "Revisão da tipografia e arquitetura de navegação do Site Classe e Massas",

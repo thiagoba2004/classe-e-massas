@@ -29,23 +29,16 @@ document.documentElement.classList.add("js");
     if (!nav.hasAttribute("aria-label")) {
       nav.setAttribute("aria-label", "Navegação principal");
     }
-    const items = [
-      { label: "Início", href: base, section: "home" },
-      { label: "Publicações", href: `${base}publicacoes/`, section: "publicacoes" },
-      { label: "Biblioteca", href: `${base}biblioteca/`, section: "biblioteca" },
-      { label: "MPT", href: `${base}mpt/`, section: "mpt" },
-      { label: "LAI", href: `${base}lai/`, section: "lai" },
-      { label: "Fale Conosco", href: `${base}fale-conosco/`, section: "fale-conosco" }
+
+    const publicationItems = [
+      { label: "Visão geral", href: `${base}publicacoes/`, match: "/publicacoes/" },
+      { label: "Notícias", href: `${base}noticias/`, match: "/noticias/" },
+      { label: "Artigos", href: `${base}artigos/`, match: "/artigos/" },
+      { label: "Vídeos", href: `${base}videos/`, match: "/videos/" },
+      { label: "Observatório", href: `${base}observatorio/`, match: "/observatorio/" }
     ];
 
-    const isPublication = [
-      "/publicacoes/",
-      "/noticias/",
-      "/artigos/",
-      "/videos/",
-      "/observatorio/"
-    ].some(sectionPath => pathname.includes(sectionPath));
-
+    const isPublication = publicationItems.some(item => pathname.includes(item.match));
     const currentSection = isPublication
       ? "publicacoes"
       : pathname.includes("/biblioteca/")
@@ -58,14 +51,95 @@ document.documentElement.classList.add("js");
               ? "fale-conosco"
               : "home";
 
+    nav.id = nav.id || "global-nav";
     nav.classList.add("global-nav");
-    nav.innerHTML = items.map(item => {
-      const current = item.section === currentSection ? ' aria-current="page"' : "";
+
+    const publicationLinks = publicationItems.map(item => {
+      const current = pathname.includes(item.match) ? ' aria-current="page"' : "";
       return `<a href="${item.href}"${current}>${item.label}</a>`;
     }).join("");
 
-    // O menu móvel quebra em múltiplas linhas; não depende de rolagem horizontal
-    // nem de centralização programática do item atual.
+    nav.innerHTML = `
+      <a href="${base}"${currentSection === "home" ? ' aria-current="page"' : ""}>Início</a>
+      <div class="nav-group nav-publicacoes${isPublication ? " is-current" : ""}">
+        <button class="nav-disclosure" type="button" aria-expanded="false" aria-controls="publicacoes-submenu">
+          <span>Publicações</span>
+          <span class="nav-caret" aria-hidden="true">▾</span>
+        </button>
+        <div class="nav-submenu" id="publicacoes-submenu">
+          ${publicationLinks}
+        </div>
+      </div>
+      <a href="${base}biblioteca/"${currentSection === "biblioteca" ? ' aria-current="page"' : ""}>Biblioteca</a>
+      <a href="${base}mpt/"${currentSection === "mpt" ? ' aria-current="page"' : ""}>MPT</a>
+      <a href="${base}lai/"${currentSection === "lai" ? ' aria-current="page"' : ""}>LAI</a>
+      <a href="${base}fale-conosco/"${currentSection === "fale-conosco" ? ' aria-current="page"' : ""}>Fale Conosco</a>
+    `;
+
+    const bar = nav.closest(".bar");
+    let menuToggle = bar ? bar.querySelector(".menu-toggle") : null;
+    if (bar && !menuToggle) {
+      menuToggle = document.createElement("button");
+      menuToggle.type = "button";
+      menuToggle.className = "menu-toggle";
+      menuToggle.setAttribute("aria-controls", nav.id);
+      menuToggle.setAttribute("aria-expanded", "false");
+      menuToggle.innerHTML = '<span class="menu-toggle-icon" aria-hidden="true">☰</span><span>Menu</span>';
+      bar.insertBefore(menuToggle, nav);
+    }
+
+    const publications = nav.querySelector(".nav-publicacoes");
+    const disclosure = publications ? publications.querySelector(".nav-disclosure") : null;
+
+    const setPublicationsOpen = open => {
+      if (!publications || !disclosure) return;
+      publications.classList.toggle("is-open", open);
+      disclosure.setAttribute("aria-expanded", String(open));
+    };
+
+    const setMenuOpen = open => {
+      nav.classList.toggle("is-open", open);
+      if (menuToggle) menuToggle.setAttribute("aria-expanded", String(open));
+      if (!open) setPublicationsOpen(false);
+    };
+
+    if (menuToggle) {
+      menuToggle.addEventListener("click", () => {
+        setMenuOpen(!nav.classList.contains("is-open"));
+      });
+    }
+
+    if (disclosure) {
+      disclosure.addEventListener("click", () => {
+        setPublicationsOpen(!publications.classList.contains("is-open"));
+      });
+    }
+
+    nav.addEventListener("click", event => {
+      if (event.target.closest("a") && window.innerWidth <= 700) {
+        setMenuOpen(false);
+      }
+    });
+
+    document.addEventListener("keydown", event => {
+      if (event.key !== "Escape") return;
+      setPublicationsOpen(false);
+      if (window.innerWidth <= 700) setMenuOpen(false);
+      if (menuToggle && window.innerWidth <= 700) menuToggle.focus();
+    });
+
+    document.addEventListener("click", event => {
+      if (!bar || bar.contains(event.target)) return;
+      setPublicationsOpen(false);
+      if (window.innerWidth <= 700) setMenuOpen(false);
+    });
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 700) {
+        nav.classList.remove("is-open");
+        if (menuToggle) menuToggle.setAttribute("aria-expanded", "false");
+      }
+    }, { passive: true });
   }
 
   const portugueseVersions = new Map([
