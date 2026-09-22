@@ -350,7 +350,17 @@
     "rule": "Create JSON/JSONL only for structured data with a concrete machine-processing need; do not create JSON as an automatic mirror of Markdown/HTML.",
     "updated_at": "2026-09-20"
   },
-  "current_site_strategy": null,
+  "current_site_strategy": {
+    "strategy_code": "EA-000001-000024",
+    "strategy_name": "Convergência visual e navegacional do Classe e Massas ao padrão AJ/PF",
+    "phase_number": 3,
+    "phase_total": 4,
+    "phase_code": "F-000001-000024-003",
+    "phase_name": "Implementação de cards-link e menu deslizante",
+    "status": "EM_EXECUCAO",
+    "plan_ref": "governanca/estrategia-convergencia-visual-navegacao-aj-pf.md",
+    "next_step": "Implementar menu horizontal deslizante, cards-link MPT e norma local/transversal; depois auditar e verificar GitHub Pages."
+  },
   "last_completed_site_strategy": {
     "strategy_code": "EA-000001-000023",
     "strategy_name": "Navegação dinâmica responsiva do Site Classe e Massas",
@@ -363,5 +373,5 @@
     "audit_ref": "governanca/auditoria-navegacao-dinamica-2026-09-22.md",
     "result": "Menu recolhível no mobile e Publicações como disclosure/dropdown acessível."
   },
-  "next_site_step": "Modo operacional. Preservar navegação dinâmica com MENU no mobile e disclosure Publicações; qualquer regressão deve reabrir manutenção rastreável."
+  "next_site_step": "EA-000001-000024 em execução: concluir Fase 03/04 e executar auditoria Fase 04/04."
 }
