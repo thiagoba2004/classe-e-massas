@@ -263,7 +263,7 @@
   ],
   "continuity": {
     "agents_protocol": "AGENTS.md",
-    "agents_version": "2.4",
+    "agents_version": "2.6",
     "generated_from_kernel": "1.4",
     "checkpoint_tool": "tools/salvar-checkpoint.sh",
     "checkpoint_policy": "salvar unidade lógica antes de avançar; marcos críticos devem chegar ao remoto e ser verificados"
@@ -353,12 +353,12 @@
   "current_site_strategy": {
     "strategy_code": "EA-000001-000022",
     "strategy_name": "Revisão da tipografia e arquitetura de navegação do Site Classe e Massas",
-    "phase_number": 2,
+    "phase_number": 4,
     "phase_total": 4,
-    "phase_code": "F-000001-000022-002",
-    "phase_name": "Decisão arquitetural e especificação",
+    "phase_code": "F-000001-000022-004",
+    "phase_name": "Auditoria responsiva, navegação e deploy",
     "status": "EM_EXECUCAO",
     "plan_ref": "governanca/estrategia-revisao-tipografia-navegacao-publicacoes.md",
-    "next_step": "Decidir escala tipográfica alvo e reorganização do menu em hub Publicações antes de editar a camada pública."
+    "next_step": "Auditar Home e hub Publicações, verificar menu móvel sem rolagem horizontal, links e GitHub Pages; fechar se o gate passar."
   }
 }
