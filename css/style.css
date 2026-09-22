@@ -1908,3 +1908,33 @@ a.editorial-card-link p{
   line-height:1.55;
 }
 a.editorial-card-link .subtitle{margin:.05rem 0 .45rem}
+
+
+/* Rodapé público e navegação auxiliar */
+.footer-inner{
+  width:min(100%,var(--content-wide));
+  margin:auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:1rem;
+  flex-wrap:wrap;
+}
+.footer-nav{
+  display:flex;
+  align-items:center;
+  gap:.8rem;
+  flex-wrap:wrap;
+}
+.footer-nav a{
+  color:inherit;
+  text-decoration:underline;
+  text-decoration-color:var(--line-soft);
+  text-underline-offset:.25em;
+}
+.footer-nav a:hover,
+.footer-nav a:focus-visible{color:var(--accent);text-decoration-color:var(--accent)}
+@media(max-width:700px){
+  .footer-inner{display:block;text-align:center}
+  .footer-nav{justify-content:center;margin-top:.55rem}
+}
