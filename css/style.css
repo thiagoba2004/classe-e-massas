@@ -1028,7 +1028,7 @@ body .petition-address{font-family:var(--font-sans)}
 }
 
 @media(prefers-contrast:more){
-  :root{--line-soft:var(--line-soft)168;--ink-muted:#403d38}
+  :root{--line-soft:#777168;--ink-muted:#403d38}
   :focus-visible{outline-width:4px}
   .editorial-card,.home-card,.info-card,.resource-card{border-top-width:5px}
 }
