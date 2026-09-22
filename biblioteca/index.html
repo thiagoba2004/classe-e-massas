@@ -49,7 +49,7 @@
         <strong>Traduções Classe e Massas.</strong> A Biblioteca passa a ter uma frente editorial própria para produzir, quando juridicamente e documentalmente possível, traduções gratuitas em português do Brasil diretamente do texto original, com revisão humana, glossário, controle de versão e transparência sobre eventual uso de inteligência artificial.
       </div>
 
-      <div class="ui-actions"><a class="button" href="traducoes/index.html">Traduções Classe e Massas</a><a class="button secondary" href="auditoria.html">Ver auditoria completa de idioma</a></div>
+      <div class="ui-actions"><a class="library-nav-link" href="traducoes/index.html">Traduções Classe e Massas</a><a class="library-nav-link" href="auditoria.html">Ver auditoria completa de idioma</a></div>
     </section>
 
     <section aria-labelledby="ranking-teoricos">
@@ -79,7 +79,7 @@
       if (!Array.isArray(links) || !links.length) return;
       const actions = el('div', 'ranked-work-actions');
       links.forEach((link, index) => {
-        const anchor = el('a', index === 0 ? 'button ranked-link' : 'button secondary ranked-link', link.rotulo);
+        const anchor = el('a', 'ranked-link', link.rotulo);
         anchor.href = link.url;
         anchor.target = '_blank';
         anchor.rel = 'noopener noreferrer';
