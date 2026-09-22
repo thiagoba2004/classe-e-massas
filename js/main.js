@@ -68,7 +68,7 @@ document.documentElement.classList.add("js");
     }).join("");
 
     const currentLink = nav.querySelector('[aria-current="page"]');
-    if (currentLink && window.matchMedia("(max-width: 700px)").matches) {
+    if (currentLink && window.matchMedia("(max-width: 880px)").matches) {
       requestAnimationFrame(() => {
         currentLink.scrollIntoView({ block: "nearest", inline: "center" });
       });
