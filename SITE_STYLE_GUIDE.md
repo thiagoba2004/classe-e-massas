@@ -136,3 +136,13 @@ Regras:
 ## Regra de consistência
 
 Qualquer nova família de componente deve derivar destes tokens. Cores hardcoded fora desta paleta devem ser tratadas como exceção documentada ou irregularidade.
+
+
+### Botão ENVIAR MENSAGEM — padrão transversal
+
+Nos Sites do ecossistema, o botão real **ENVIAR MENSAGEM** usa a classe adicional `submit-button` e deve ser sempre **oval/pílula**, nunca retangular:
+
+- `border-radius: 999px`;
+- a forma é comum entre os Sites;
+- a cor continua sendo a cor primária de ação de cada Projeto;
+- o componente continua sendo `<button type="submit">`, nunca link.
