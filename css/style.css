@@ -206,8 +206,7 @@ header{
   background:var(--paper);
   box-shadow:0 .45rem 1rem rgba(0,0,0,.12);
 }
-.nav-group.is-open .nav-submenu,
-.nav-group:focus-within .nav-submenu{display:grid}
+.nav-group.is-open .nav-submenu{display:grid}
 .nav-submenu a{
   width:100%;
   min-height:2.3rem;
@@ -1060,7 +1059,6 @@ body .petition-address{font-family:var(--font-sans)}
     border-left:2px solid var(--ink-strong);
     box-shadow:none;
   }
-  .nav-group:focus-within:not(.is-open) .nav-submenu{display:none}
   .nav-group.is-open .nav-submenu{display:grid}
   .nav-submenu a{padding:.62rem .75rem}
 

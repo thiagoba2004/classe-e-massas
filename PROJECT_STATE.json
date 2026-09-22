@@ -350,30 +350,18 @@
     "rule": "Create JSON/JSONL only for structured data with a concrete machine-processing need; do not create JSON as an automatic mirror of Markdown/HTML.",
     "updated_at": "2026-09-20"
   },
-  "current_site_strategy": {
+  "current_site_strategy": null,
+  "last_completed_site_strategy": {
     "strategy_code": "EA-000001-000023",
     "strategy_name": "Navegação dinâmica responsiva do Site Classe e Massas",
     "phase_number": 4,
     "phase_total": 4,
     "phase_code": "F-000001-000023-004",
     "phase_name": "Auditoria de acessibilidade, responsividade e deploy",
-    "status": "EM_EXECUCAO",
-    "plan_ref": "governanca/estrategia-navegacao-dinamica-responsiva.md",
-    "next_step": "Auditar menu recolhível, disclosure Publicações, atributos ARIA, fallback sem JavaScript e GitHub Pages; fechar se o gate passar."
-  },
-  "last_completed_site_strategy": {
-    "strategy_code": "EA-000001-000022",
-    "strategy_name": "Revisão da tipografia e arquitetura de navegação do Site Classe e Massas",
-    "phase_number": 4,
-    "phase_total": 4,
-    "phase_code": "F-000001-000022-004",
-    "phase_name": "Auditoria responsiva, navegação e deploy",
     "status": "CONCLUIDO",
-    "plan_ref": "governanca/estrategia-revisao-tipografia-navegacao-publicacoes.md",
-    "audit_ref": "governanca/auditoria-tipografia-navegacao-publicacoes-2026-09-22.md",
-    "deployment_run_id": 35771021125,
-    "deployment_status": "SUCCESS",
-    "result": "Home com escala tipográfica contida e hub Publicações agrupando Notícias, Artigos, Vídeos e Observatório."
+    "plan_ref": "governanca/estrategia-navegacao-dinamica-responsiva.md",
+    "audit_ref": "governanca/auditoria-navegacao-dinamica-2026-09-22.md",
+    "result": "Menu recolhível no mobile e Publicações como disclosure/dropdown acessível."
   },
-  "next_site_step": "Modo operacional para o Site. Preservar o hub Publicações e a escala tipográfica atual; novas alterações materiais exigem manutenção rastreável ou nova Estratégia Autônoma."
+  "next_site_step": "Modo operacional. Preservar navegação dinâmica com MENU no mobile e disclosure Publicações; qualquer regressão deve reabrir manutenção rastreável."
 }
