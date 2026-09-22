@@ -353,13 +353,13 @@
   "current_site_strategy": {
     "strategy_code": "EA-000001-000029",
     "strategy_name": "Semântica cromática da ação primária",
-    "phase_number": 2,
+    "phase_number": 4,
     "phase_total": 4,
-    "phase_code": "F-000001-000029-002",
-    "phase_name": "Implementação e norma visual",
+    "phase_code": "F-000001-000029-004",
+    "phase_name": "Deploy e fechamento",
     "status": "EM_EXECUCAO",
     "plan_ref": "governanca/estrategia-acao-primaria-cromatica-2026-09-22.md",
-    "next_step": "Aplicar vermelho editorial ao botão de envio e atualizar o SITE_STYLE_GUIDE.md."
+    "next_step": "Confirmar GitHub Pages no commit que contém a ação primária vermelha e encerrar a estratégia."
   },
   "last_completed_site_strategy": {
     "strategy_code": "EA-000001-000028",
@@ -374,5 +374,5 @@
     "deployment_status": "SUCCESS",
     "result": "Acessos editoriais da Biblioteca desacoplados da classe genérica de botão e restaurados como superfícies navegáveis mais escuras da paleta canônica, com hover ainda mais escuro e acento vermelho."
   },
-  "next_site_step": "Executar FASE 02/04 da EA-000001-000029."
+  "next_site_step": "Confirmar deploy da FASE 04/04 da EA-000001-000029."
 }
