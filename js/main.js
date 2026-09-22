@@ -31,33 +31,32 @@ document.documentElement.classList.add("js");
     }
     const items = [
       { label: "Início", href: base, section: "home" },
-      { label: "Notícias", href: `${base}noticias/`, section: "noticias" },
-      { label: "Artigos", href: `${base}artigos/`, section: "artigos" },
-      { label: "Vídeos", href: `${base}videos/`, section: "videos" },
-      { label: "Observatório", href: `${base}observatorio/`, section: "observatorio" },
+      { label: "Publicações", href: `${base}publicacoes/`, section: "publicacoes" },
       { label: "Biblioteca", href: `${base}biblioteca/`, section: "biblioteca" },
       { label: "MPT", href: `${base}mpt/`, section: "mpt" },
       { label: "LAI", href: `${base}lai/`, section: "lai" },
       { label: "Fale Conosco", href: `${base}fale-conosco/`, section: "fale-conosco" }
     ];
 
-    const currentSection = pathname.includes("/noticias/")
-      ? "noticias"
-      : pathname.includes("/artigos/")
-        ? "artigos"
-        : pathname.includes("/videos/")
-          ? "videos"
-          : pathname.includes("/observatorio/")
-          ? "observatorio"
-          : pathname.includes("/biblioteca/")
-            ? "biblioteca"
-            : pathname.includes("/mpt/")
-              ? "mpt"
-              : pathname.includes("/lai/")
-                ? "lai"
-                : pathname.includes("/fale-conosco/")
-                  ? "fale-conosco"
-                  : "home";
+    const isPublication = [
+      "/publicacoes/",
+      "/noticias/",
+      "/artigos/",
+      "/videos/",
+      "/observatorio/"
+    ].some(sectionPath => pathname.includes(sectionPath));
+
+    const currentSection = isPublication
+      ? "publicacoes"
+      : pathname.includes("/biblioteca/")
+        ? "biblioteca"
+        : pathname.includes("/mpt/")
+          ? "mpt"
+          : pathname.includes("/lai/")
+            ? "lai"
+            : pathname.includes("/fale-conosco/")
+              ? "fale-conosco"
+              : "home";
 
     nav.classList.add("global-nav");
     nav.innerHTML = items.map(item => {
@@ -65,15 +64,8 @@ document.documentElement.classList.add("js");
       return `<a href="${item.href}"${current}>${item.label}</a>`;
     }).join("");
 
-    const currentLink = nav.querySelector('[aria-current="page"]');
-    const centerCurrentLink = () => {
-      if (!currentLink || window.innerWidth > 700) return;
-      const target = currentLink.offsetLeft - (nav.clientWidth - currentLink.offsetWidth) / 2;
-      nav.scrollLeft = Math.max(0, target);
-    };
-
-    requestAnimationFrame(centerCurrentLink);
-    window.addEventListener("resize", centerCurrentLink, { passive: true });
+    // O menu móvel quebra em múltiplas linhas; não depende de rolagem horizontal
+    // nem de centralização programática do item atual.
   }
 
   const portugueseVersions = new Map([
