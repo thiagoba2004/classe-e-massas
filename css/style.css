@@ -2049,3 +2049,52 @@ a.mpt-card-link:focus-visible{
   .audit-author h2{font-size:1.25rem}
   .editorial-main table{display:block;overflow-x:auto;font-size:.86rem}
 }
+
+
+/* EA-000001-000027 — semântica visual: links de navegação não são botões */
+a.button:not([download]),
+a.model-button:not([download]),
+a.guide-button,
+a.note-button{
+  display:inline-flex !important;
+  width:auto !important;
+  min-height:2.1rem !important;
+  align-items:center !important;
+  justify-content:flex-start !important;
+  padding:.2rem 0 !important;
+  border:0 !important;
+  border-bottom:2px solid var(--accent) !important;
+  border-radius:0 !important;
+  background:transparent !important;
+  color:var(--ink-strong) !important;
+  font:800 .78rem/1.25 var(--font-sans) !important;
+  letter-spacing:.02em !important;
+  text-transform:none !important;
+  text-decoration:none !important;
+  box-shadow:none !important;
+}
+
+a.button:not([download]):hover,
+a.button:not([download]):focus-visible,
+a.model-button:not([download]):hover,
+a.model-button:not([download]):focus-visible,
+a.guide-button:hover,
+a.guide-button:focus-visible,
+a.note-button:hover,
+a.note-button:focus-visible{
+  background:transparent !important;
+  color:var(--accent) !important;
+  border-bottom-color:var(--accent-deep) !important;
+  text-decoration:none !important;
+  transform:none !important;
+}
+
+@media (max-width:700px){
+  a.button:not([download]),
+  a.model-button:not([download]),
+  a.guide-button,
+  a.note-button{
+    width:auto !important;
+    text-align:left !important;
+  }
+}
