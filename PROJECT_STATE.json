@@ -350,30 +350,20 @@
     "rule": "Create JSON/JSONL only for structured data with a concrete machine-processing need; do not create JSON as an automatic mirror of Markdown/HTML.",
     "updated_at": "2026-09-20"
   },
-  "current_site_strategy": {
+  "current_site_strategy": null,
+  "last_completed_site_strategy": {
     "strategy_code": "EA-000001-000027",
     "strategy_name": "Saneamento residual de links, botões e separação público/interno",
-    "phase_number": 2,
+    "phase_number": 5,
     "phase_total": 5,
-    "phase_code": "F-000001-000027-002",
-    "phase_name": "Semântica de links e botões",
-    "status": "EM_EXECUCAO",
-    "plan_ref": "governanca/estrategia-saneamento-residual-semantica-publicacao-2026-09-22.md",
-    "next_step": "Converter hiperlinks de navegação simples estilizados como botões em links contextuais, preservando botões para downloads e ações reais."
-  },
-  "last_completed_site_strategy": {
-    "strategy_code": "EA-000001-000026",
-    "strategy_name": "Correção transversal de interface e arquitetura pública do Site Classe e Massas",
-    "phase_number": 8,
-    "phase_total": 8,
-    "phase_code": "F-000001-000026-008",
+    "phase_code": "F-000001-000027-005",
     "phase_name": "Deploy, verificação e fechamento",
     "status": "CONCLUIDO",
-    "plan_ref": "governanca/estrategia-correcao-transversal-ui-site-2026-09-22.md",
-    "audit_ref": "governanca/auditoria-corretiva-ui-site-2026-09-22.md",
-    "deployment_run_id": 35788703548,
+    "plan_ref": "governanca/estrategia-saneamento-residual-semantica-publicacao-2026-09-22.md",
+    "audit_ref": "governanca/auditoria-residual-ui-site-2026-09-22.md",
+    "deployment_run_id": 35790217963,
     "deployment_status": "SUCCESS",
-    "result": "Sistema visual e arquitetura pública consolidados; 47/47 HTML públicos passaram nos gates estruturais; paleta, tipografia, cards, navegação, Observatório e separação público/interno corrigidos."
+    "result": "Links de navegação simples deixaram de parecer botões de ação; Linha Editorial pública foi separada do documento canônico interno; 47/47 páginas publicáveis passaram nos gates ampliados."
   },
-  "next_site_step": "Executar FASE 02/05 da EA-000001-000027."
+  "next_site_step": "Nenhuma correção sistêmica de UI pendente após a EA-000001-000027. Tratar apenas regressões visuais específicas comprovadas por captura ou nova auditoria."
 }
