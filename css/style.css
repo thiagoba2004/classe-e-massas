@@ -2098,3 +2098,52 @@ a.note-button:focus-visible{
     text-align:left !important;
   }
 }
+
+
+/* EA-000001-000028 — acessos editoriais da Biblioteca */
+.ranked-link,
+.library-nav-link{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:2.35rem;
+  padding:.58rem .78rem;
+  background:var(--paper-link);
+  color:var(--ink-strong);
+  border:1px solid #a99f91;
+  border-top:3px solid var(--accent);
+  border-radius:0;
+  box-shadow:0 2px 0 rgba(17,17,17,.04);
+  font:800 .78rem/1.25 var(--font-sans);
+  letter-spacing:.01em;
+  text-transform:none;
+  text-decoration:none;
+  white-space:nowrap;
+  transition:background var(--transition),border-color var(--transition),color var(--transition),transform var(--transition),box-shadow var(--transition);
+}
+
+.ranked-link:hover,
+.ranked-link:focus-visible,
+.library-nav-link:hover,
+.library-nav-link:focus-visible{
+  background:var(--paper-link-hover);
+  color:var(--ink-strong);
+  border-color:#8f8477;
+  border-top-color:var(--accent-deep);
+  box-shadow:0 5px 14px rgba(17,17,17,.08);
+  transform:translateY(-1px);
+  text-decoration:none;
+}
+
+@media(max-width:700px){
+  .ranked-link{
+    white-space:normal;
+    text-align:left;
+    justify-content:flex-start;
+  }
+  .ui-actions .library-nav-link{
+    width:100%;
+    justify-content:center;
+    text-align:center;
+  }
+}
