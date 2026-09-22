@@ -30,3 +30,19 @@ Verificar contraste estrutural, estados hover/foco/disabled, seletor restrito ao
 
 ### FASE 04/04 [F-000001-000029-004] — Deploy e fechamento
 Confirmar GitHub Pages, atualizar logs/estado e concluir a estratégia.
+
+## Estado final
+
+**CONCLUÍDA — 4/4 fases.**
+
+- `Enviar mensagem` mantém semântica de `button type="submit"`;
+- a ação primária usa `#9f2f2f` com texto branco;
+- hover/foco usa `#7f2424` com texto branco;
+- estado desabilitado preserva a identidade da ação com menor ênfase;
+- navegação editorial não foi afetada;
+- `SITE_STYLE_GUIDE.md` formaliza a hierarquia cromática;
+- GitHub Pages: run **35794302734 — success**.
+
+## Próximo passo
+
+Aguardar validação visual do usuário no Fale Conosco. Qualquer divergência remanescente será tratada como regressão localizada.
