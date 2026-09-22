@@ -353,9 +353,9 @@
   "current_site_strategy": {
     "strategy_code": "EA-000001-000030",
     "strategy_name": "Padrão único do botão ENVIAR MENSAGEM",
-    "phase_number": 1,
+    "phase_number": 3,
     "phase_total": 3,
-    "phase_name": "Registro e componente comum",
+    "phase_name": "Auditoria, deploy e fechamento",
     "status": "EM_EXECUCAO",
     "plan_ref": "governanca/estrategia-padrao-unico-botao-enviar-2026-09-22.md"
   },
@@ -372,5 +372,5 @@
     "deployment_status": "SUCCESS",
     "result": "O botão real Enviar mensagem passou de preto para vermelho editorial #9f2f2f, com hover/foco #7f2424, texto branco e estado disabled coerente; SITE_STYLE_GUIDE formaliza a hierarquia cromática de ações."
   },
-  "next_site_step": "Executar EA-000001-000030."
+  "next_site_step": "Confirmar deploy do botão ENVIAR MENSAGEM oval."
 }
