@@ -350,7 +350,15 @@
     "rule": "Create JSON/JSONL only for structured data with a concrete machine-processing need; do not create JSON as an automatic mirror of Markdown/HTML.",
     "updated_at": "2026-09-20"
   },
-  "current_site_strategy": null,
+  "current_site_strategy": {
+    "strategy_code": "EA-000001-000030",
+    "strategy_name": "Padrão único do botão ENVIAR MENSAGEM",
+    "phase_number": 1,
+    "phase_total": 3,
+    "phase_name": "Registro e componente comum",
+    "status": "EM_EXECUCAO",
+    "plan_ref": "governanca/estrategia-padrao-unico-botao-enviar-2026-09-22.md"
+  },
   "last_completed_site_strategy": {
     "strategy_code": "EA-000001-000029",
     "strategy_name": "Semântica cromática da ação primária",
@@ -364,5 +372,5 @@
     "deployment_status": "SUCCESS",
     "result": "O botão real Enviar mensagem passou de preto para vermelho editorial #9f2f2f, com hover/foco #7f2424, texto branco e estado disabled coerente; SITE_STYLE_GUIDE formaliza a hierarquia cromática de ações."
   },
-  "next_site_step": "Aguardar validação visual do usuário no Fale Conosco; novas divergências devem ser tratadas como regressões específicas."
+  "next_site_step": "Executar EA-000001-000030."
 }
