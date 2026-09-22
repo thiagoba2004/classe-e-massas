@@ -813,3 +813,11 @@ Esses arquivos integram a fonte normativa do Projeto para qualquer alteração e
 
 Em caso de regra visual ou arquitetural legada incompatível com esses guias e com os itens 16.1 e 16.2 deste AGENTS.md, prevalece o padrão mais recente, específico e expressamente versionado pela EA-000001-000026.
 
+
+
+### Padrão transversal do botão ENVIAR MENSAGEM
+
+- todo botão público **ENVIAR MENSAGEM** deve incluir a classe `submit-button`;
+- `submit-button` é sempre oval/pílula (`border-radius:999px`), nunca retangular;
+- a cor da ação permanece específica do Projeto;
+- não aplicar essa regra automaticamente a todos os demais botões.
