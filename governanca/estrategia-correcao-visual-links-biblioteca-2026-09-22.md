@@ -22,3 +22,18 @@ Verificar Biblioteca em desktop/mobile por estrutura e CSS, inclusive hover, foc
 
 ### FASE 04/04 [F-000001-000028-004] — Deploy e fechamento
 Confirmar GitHub Pages, atualizar estado e encerrar a estratégia.
+
+## Estado final
+
+**CONCLUÍDA — 4/4 fases.**
+
+- links dos rankings deixaram de usar classes `button` e `button secondary`;
+- acessos superiores da Biblioteca deixaram de usar a classe genérica `button`;
+- `.ranked-link` e `.library-nav-link` usam superfície navegável `#ebe4d8`, hover `#dfd3c3`, borda neutra e acento vermelho;
+- mobile permite quebra de linha sem overflow;
+- CSS validado com chaves balanceadas;
+- GitHub Pages: run **35791589787 — success**.
+
+## Próximo passo
+
+Aguardar validação visual em dispositivo real. Qualquer divergência remanescente deve ser tratada como regressão localizada.
