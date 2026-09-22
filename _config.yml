@@ -1,0 +1,14 @@
+# GitHub Pages — superfície pública do Classe e Massas
+exclude:
+  - AGENTS.md
+  - PROJECT_STATE.json
+  - REQUEST_LOG.jsonl
+  - STRATEGY_LOG.jsonl
+  - SITE_ARCHITECTURE.md
+  - SITE_STYLE_GUIDE.md
+  - README.md
+  - governanca
+  - tools
+  - templates
+  - editorial/rascunhos
+  - observatorio/documentos
