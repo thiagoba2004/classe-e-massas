@@ -8,9 +8,9 @@ Reavaliar a escala tipográfica da Home e a navegação global do Site Classe e 
 
 ## Plano de Fases
 1. **FASE 01/04 [F-000001-000022-001] — Diagnóstico do estado atual** — CONCLUÍDA.
-2. **FASE 02/04 [F-000001-000022-002] — Decisão arquitetural e especificação** — EM EXECUÇÃO.
-3. **FASE 03/04 [F-000001-000022-003] — Implementação pública e sincronização normativa** — AGUARDA decisão.
-4. **FASE 04/04 [F-000001-000022-004] — Auditoria responsiva, navegação e deploy** — AGUARDA implementação.
+2. **FASE 02/04 [F-000001-000022-002] — Decisão arquitetural e especificação** — CONCLUÍDA.
+3. **FASE 03/04 [F-000001-000022-003] — Implementação pública e sincronização normativa** — CONCLUÍDA.
+4. **FASE 04/04 [F-000001-000022-004] — Auditoria responsiva, navegação e deploy** — EM EXECUÇÃO.
 
 ## Diagnóstico comprovado
 - A Home usa `.home-main h1{font-size:clamp(3.4rem,10vw,6.8rem)}`.
@@ -25,3 +25,11 @@ Definir:
 2. itens de primeiro nível;
 3. escopo de Publicações;
 4. comportamento móvel sem depender de descoberta por rolagem horizontal.
+
+## Especificação implementada
+- Home: título reduzido para escala responsiva contida, preservando identidade jornalística.
+- Mobile: menu global quebra em linhas e não depende de rolagem horizontal.
+- Primeiro nível: Início · Publicações · Biblioteca · MPT · LAI · Fale Conosco.
+- Publicações: Notícias · Artigos · Vídeos · Observatório.
+- URLs editoriais históricas preservadas.
+- AGENTS atualizado para v2.6.
