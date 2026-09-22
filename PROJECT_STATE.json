@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2",
   "project": "Classe e Massas",
-  "updated_at": "2026-09-20",
+  "updated_at": "2026-09-22",
   "purpose": "Fonte estruturada de continuidade entre conversas, modelos de IA e sessões de trabalho. Não substitui os documentos específicos de cada frente; aponta o estado mais avançado comprovado e a próxima etapa.",
   "rules": {
     "authoritative_order": [
@@ -349,5 +349,16 @@
     "json": "CONDITIONAL_ONLY",
     "rule": "Create JSON/JSONL only for structured data with a concrete machine-processing need; do not create JSON as an automatic mirror of Markdown/HTML.",
     "updated_at": "2026-09-20"
+  },
+  "current_site_strategy": {
+    "strategy_code": "EA-000001-000022",
+    "strategy_name": "Revisão da tipografia e arquitetura de navegação do Site Classe e Massas",
+    "phase_number": 2,
+    "phase_total": 4,
+    "phase_code": "F-000001-000022-002",
+    "phase_name": "Decisão arquitetural e especificação",
+    "status": "EM_EXECUCAO",
+    "plan_ref": "governanca/estrategia-revisao-tipografia-navegacao-publicacoes.md",
+    "next_step": "Decidir escala tipográfica alvo e reorganização do menu em hub Publicações antes de editar a camada pública."
   }
 }
