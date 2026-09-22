@@ -7,7 +7,7 @@
 **Denominação do Projeto:** `Classe e Massas`  
 **project_id legado:** `classe-e-massas`  
 **Status:** CANÔNICO  
-**Versão:** 2.5  
+**Versão:** 2.6  
 **Data:** 20/09/2026  
 **generated_from_kernel:** `1.4`  
 **Kernel de referência:** `thiagoba2004/gerador-de-agents/AGENTS_KERNEL.md`  
@@ -721,6 +721,28 @@ governanca/estrategia-migracao-agents-kernel-1.2.md
 
 ---
 
+### 16.1. Padrão público de navegação editorial
+
+Para o Site Classe e Massas, a navegação global de primeiro nível é:
+
+```text
+Início · Publicações · Biblioteca · MPT · LAI · Fale Conosco
+```
+
+O hub **Publicações** reúne:
+
+```text
+Notícias · Artigos · Vídeos · Observatório
+```
+
+Regras:
+- preservar as URLs históricas `/noticias/`, `/artigos/`, `/videos/` e `/observatorio/`; o agrupamento é de arquitetura de acesso, não migração destrutiva;
+- a página `/publicacoes/` deve funcionar como hub autônomo e compreensível sem depender de menu suspenso;
+- no mobile, o menu global deve permanecer integralmente descobrível sem depender de rolagem horizontal oculta;
+- a Home pode manter identidade tipográfica jornalística própria, mas o título não deve dominar desproporcionalmente a primeira dobra em telas pequenas;
+- Notícias, Artigos, Vídeos e Observatório mantêm funções editoriais distintas e não devem ser convertidos em textos duplicados;
+- a promoção futura de Vídeos novamente ao primeiro nível exige crescimento funcional que justifique nova decisão arquitetural rastreável.
+
 ## 17. Histórico de versões
 
 | Versão | Data | Alteração |
@@ -739,6 +761,7 @@ governanca/estrategia-migracao-agents-kernel-1.2.md
 | 2.2 | 19/09/2026 | Substitui códigos derivados de iniciais pela metodologia universal hierárquica: `PRJ-NNNNNN` para Projetos, `EA-PPPPPP-EEEEEE` para Estratégias Autônomas e `F-PPPPPP-EEEEEE-FFF` para Fases; rebaixa `CEM` a alias mnemônico e preserva identificadores legados por mapeamento. |
 | 2.3 | 19/09/2026 | Institui o padrão obrigatório para Modelos públicos: botão `COPIAR MODELO` imediatamente acima do bloco copiável, somente a edição vigente no Site Público e proibição de portões de acesso a edições anteriores. |
 | 2.5 | 20/09/2026 | Revoga a triplicidade editorial obrigatória. Markdown permanece fonte textual canônica, HTML permanece publicação e JSON/JSONL passa a ser criado somente quando houver função estruturada real. |
+| 2.6 | 22/09/2026 | Agrupa Notícias, Artigos, Vídeos e Observatório no hub Publicações; reduz a densidade do menu global, elimina dependência de rolagem horizontal no mobile e disciplina a escala tipográfica da Home. |
 
 ---
 
