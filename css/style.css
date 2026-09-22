@@ -2180,3 +2180,10 @@ a.note-button:focus-visible{
   cursor:progress;
   box-shadow:none;
 }
+
+
+/* Padrão transversal — botão ENVIAR MENSAGEM */
+.submit-button{
+  border-radius:999px !important;
+  padding-inline:1.45rem !important;
+}
