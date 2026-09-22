@@ -350,30 +350,19 @@
     "rule": "Create JSON/JSONL only for structured data with a concrete machine-processing need; do not create JSON as an automatic mirror of Markdown/HTML.",
     "updated_at": "2026-09-20"
   },
-  "current_site_strategy": {
+  "current_site_strategy": null,
+  "last_completed_site_strategy": {
     "strategy_code": "EA-000001-000028",
     "strategy_name": "Correção visual dos acessos da Biblioteca",
     "phase_number": 4,
     "phase_total": 4,
     "phase_code": "F-000001-000028-004",
     "phase_name": "Deploy e fechamento",
-    "status": "EM_EXECUCAO",
-    "plan_ref": "governanca/estrategia-correcao-visual-links-biblioteca-2026-09-22.md",
-    "next_step": "Confirmar GitHub Pages no commit que contém a correção e encerrar a estratégia."
-  },
-  "last_completed_site_strategy": {
-    "strategy_code": "EA-000001-000027",
-    "strategy_name": "Saneamento residual de links, botões e separação público/interno",
-    "phase_number": 5,
-    "phase_total": 5,
-    "phase_code": "F-000001-000027-005",
-    "phase_name": "Deploy, verificação e fechamento",
     "status": "CONCLUIDO",
-    "plan_ref": "governanca/estrategia-saneamento-residual-semantica-publicacao-2026-09-22.md",
-    "audit_ref": "governanca/auditoria-residual-ui-site-2026-09-22.md",
-    "deployment_run_id": 35790217963,
+    "plan_ref": "governanca/estrategia-correcao-visual-links-biblioteca-2026-09-22.md",
+    "deployment_run_id": 35791589787,
     "deployment_status": "SUCCESS",
-    "result": "Links de navegação simples deixaram de parecer botões de ação; Linha Editorial pública foi separada do documento canônico interno; 47/47 páginas publicáveis passaram nos gates ampliados."
+    "result": "Acessos editoriais da Biblioteca desacoplados da classe genérica de botão e restaurados como superfícies navegáveis mais escuras da paleta canônica, com hover ainda mais escuro e acento vermelho."
   },
-  "next_site_step": "Confirmar deploy da FASE 04/04 da EA-000001-000028."
+  "next_site_step": "Aguardar validação visual do usuário no celular; se houver divergência específica de renderização, tratar como regressão localizada."
 }
