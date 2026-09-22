@@ -1938,3 +1938,22 @@ a.editorial-card-link .subtitle{margin:.05rem 0 .45rem}
   .footer-inner{display:block;text-align:center}
   .footer-nav{justify-content:center;margin-top:.55rem}
 }
+
+
+/* Unificação cromática do MPT — EA-000001-000026 */
+.mpt-card--entender,
+.mpt-card--denunciar,
+.mpt-card--conferir,
+.mpt-card--caso{
+  background:var(--paper-link) !important;
+  border-color:#a99f91 !important;
+  border-top-color:var(--accent) !important;
+}
+a.mpt-card-link:hover,
+a.mpt-card-link:focus-visible{
+  background:var(--paper-link-hover) !important;
+  border-color:#8f8477 !important;
+  border-top-color:var(--accent-deep) !important;
+}
+.mpt-card h3,
+.mpt-card-number{color:var(--ink-strong)}
