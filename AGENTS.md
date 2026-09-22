@@ -7,8 +7,8 @@
 **Denominação do Projeto:** `Classe e Massas`  
 **project_id legado:** `classe-e-massas`  
 **Status:** CANÔNICO  
-**Versão:** 2.8  
-**Data:** 20/09/2026  
+**Versão:** 2.9  
+**Data:** 22/09/2026  
 **generated_from_kernel:** `1.4`  
 **Kernel de referência:** `thiagoba2004/gerador-de-agents/AGENTS_KERNEL.md`  
 **Escopo:** todo modelo de IA, agente, assistente ou automação que trabalhe neste repositório ou em seus documentos derivados.
@@ -494,9 +494,17 @@ Todo vídeo relevante deve manter, conforme aplicável:
 3. Conteúdo gerado por IA deve passar por revisão humana integral antes de atingir estado `PUBLICADO`.
 4. Nenhuma alegação de resolução, qualidade, licença ou ausência de marca d'água pode ser registrada sem verificação do arquivo final ou da condição vigente da ferramenta.
 
-#### 8.8.5. Menu Vídeos
+#### 8.8.5. Vídeos dentro do hub Publicações
 
-O item **Vídeos** integra o menu global entre **Artigos** e **Observatório**. O mecanismo central de navegação e os templates públicos devem preservar essa ordem.
+O item **Vídeos** integra o hub público **Publicações**, ao lado de **Notícias**, **Artigos** e **Observatório**. Ele **não** é item autônomo do menu global de primeiro nível.
+
+A navegação global canônica é:
+
+```text
+Início · Publicações · Biblioteca · MPT · LAI · Fale Conosco
+```
+
+A promoção futura de **Vídeos** novamente ao primeiro nível exige decisão arquitetural expressa, persistente e versionada.
 
 ---
 
@@ -790,3 +798,18 @@ A regra abaixo **substitui, para o Classe e Massas, o padrão recolhível introd
 ## 18. Princípio final
 
 > **O objetivo deste protocolo não é apenas orientar respostas. É garantir que qualquer Modelo de IA consiga entrar no projeto, reconstruir seu estado, recuperar seu histórico, executar a fase correta, preservar o trabalho e continuar sem obrigar o usuário a reconstruir o passado.**
+
+
+### 16.3. Guias canônicos de interface e arquitetura
+
+As regras públicas de interface e arquitetura do Site são detalhadas em:
+
+```text
+SITE_STYLE_GUIDE.md
+SITE_ARCHITECTURE.md
+```
+
+Esses arquivos integram a fonte normativa do Projeto para qualquer alteração em paleta, tipografia, cards, botões, navegação, rodapés, Mapa do Site, Observatório público e separação entre conteúdo público e artefatos internos.
+
+Em caso de regra visual ou arquitetural legada incompatível com esses guias e com os itens 16.1 e 16.2 deste AGENTS.md, prevalece o padrão mais recente, específico e expressamente versionado pela EA-000001-000026.
+
