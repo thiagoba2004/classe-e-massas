@@ -350,7 +350,18 @@
     "rule": "Create JSON/JSONL only for structured data with a concrete machine-processing need; do not create JSON as an automatic mirror of Markdown/HTML.",
     "updated_at": "2026-09-20"
   },
-  "current_site_strategy": null,
+  "current_site_strategy": {
+    "strategy_code": "EA-000001-000026",
+    "strategy_name": "Correção transversal de interface e arquitetura pública do Site Classe e Massas",
+    "phase_number": 1,
+    "phase_total": 8,
+    "phase_code": "F-000001-000026-001",
+    "phase_name": "Registro, arquitetura e guias canônicos",
+    "status": "EM_EXECUCAO",
+    "plan_ref": "governanca/estrategia-correcao-transversal-ui-site-2026-09-22.md",
+    "audit_ref": "governanca/auditoria-integral-ui-site-2026-09-22.md",
+    "next_step": "Criar SITE_STYLE_GUIDE.md e SITE_ARCHITECTURE.md e iniciar a fundação visual global."
+  },
   "last_completed_site_strategy": {
     "strategy_code": "EA-000001-000025",
     "strategy_name": "Auditoria integral de interface e coerência visual do Site Classe e Massas",
@@ -363,5 +374,5 @@
     "audit_ref": "governanca/auditoria-integral-ui-site-2026-09-22.md",
     "result": "Auditoria integral concluída com não conformidades sistêmicas; correção pública em massa ainda não executada."
   },
-  "next_site_step": "Abrir estratégia corretiva transversal para padronizar paleta, tipografia, cards, coleções, section-nav, menu-fonte, Observatório, CSS legado, Mapa do Site e separação entre artefatos públicos e internos."
+  "next_site_step": "Executar a FASE 01/08 da EA-000001-000026: guias canônicos e arquitetura antes da refatoração global."
 }
