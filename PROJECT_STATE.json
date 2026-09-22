@@ -353,13 +353,13 @@
   "current_site_strategy": {
     "strategy_code": "EA-000001-000028",
     "strategy_name": "Correção visual dos acessos da Biblioteca",
-    "phase_number": 2,
+    "phase_number": 4,
     "phase_total": 4,
-    "phase_code": "F-000001-000028-002",
-    "phase_name": "Correção semântica e visual",
+    "phase_code": "F-000001-000028-004",
+    "phase_name": "Deploy e fechamento",
     "status": "EM_EXECUCAO",
     "plan_ref": "governanca/estrategia-correcao-visual-links-biblioteca-2026-09-22.md",
-    "next_step": "Remover classes genéricas de botão dos links editoriais da Biblioteca e aplicar superfície navegável canônica mais escura."
+    "next_step": "Confirmar GitHub Pages no commit que contém a correção e encerrar a estratégia."
   },
   "last_completed_site_strategy": {
     "strategy_code": "EA-000001-000027",
@@ -375,5 +375,5 @@
     "deployment_status": "SUCCESS",
     "result": "Links de navegação simples deixaram de parecer botões de ação; Linha Editorial pública foi separada do documento canônico interno; 47/47 páginas publicáveis passaram nos gates ampliados."
   },
-  "next_site_step": "Executar FASE 02/04 da EA-000001-000028."
+  "next_site_step": "Confirmar deploy da FASE 04/04 da EA-000001-000028."
 }
