@@ -44,3 +44,18 @@ Eliminar regras legadas sem uso relacionadas a botões de navegação e repetir 
 Versionar, verificar GitHub Pages, registrar relatório residual e sincronizar PROJECT_STATE/REQUEST_LOG/STRATEGY_LOG.
 
 **Gate:** build/deploy success e estado documental coerente.
+
+## Estado final
+
+**CONCLUÍDA — 5/5 fases.**
+
+- semântica de links e botões corrigida;
+- Linha Editorial pública separada do documento canônico interno;
+- `editorial/documentos/` excluído do GitHub Pages;
+- linguagem interna removida das páginas públicas de Traduções;
+- auditoria ampliada: **47/47 páginas publicáveis sem anomalias nos gates definidos**;
+- GitHub Pages: run **35790217963 — success**.
+
+## Próximo passo
+
+Nenhuma correção sistêmica de UI permanece pendente. Novas intervenções devem responder apenas a regressões visuais específicas comprovadas por captura, navegador ou nova auditoria.
