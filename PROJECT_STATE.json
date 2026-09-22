@@ -353,14 +353,14 @@
   "current_site_strategy": {
     "strategy_code": "EA-000001-000026",
     "strategy_name": "Correção transversal de interface e arquitetura pública do Site Classe e Massas",
-    "phase_number": 4,
+    "phase_number": 5,
     "phase_total": 8,
-    "phase_code": "F-000001-000026-004",
-    "phase_name": "Menu-fonte, rodapés e Mapa do Site",
+    "phase_code": "F-000001-000026-005",
+    "phase_name": "Observatório público",
     "status": "EM_EXECUCAO",
     "plan_ref": "governanca/estrategia-correcao-transversal-ui-site-2026-09-22.md",
     "audit_ref": "governanca/auditoria-integral-ui-site-2026-09-22.md",
-    "next_step": "Sincronizar o menu no HTML-fonte, criar Mapa do Site e normalizar rodapés."
+    "next_step": "Reconstruir observatorio/index.html sem governança interna e retirar a identidade azul específica da superfície pública."
   },
   "last_completed_site_strategy": {
     "strategy_code": "EA-000001-000025",
@@ -374,5 +374,5 @@
     "audit_ref": "governanca/auditoria-integral-ui-site-2026-09-22.md",
     "result": "Auditoria integral concluída com não conformidades sistêmicas; correção pública em massa ainda não executada."
   },
-  "next_site_step": "Executar FASE 04/08 da EA-000001-000026."
+  "next_site_step": "Executar FASE 05/08 da EA-000001-000026."
 }
