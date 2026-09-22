@@ -7,6 +7,9 @@
   --line:#242321;
   --line-soft:#b9b3a8;
   --accent:#9f2f2f;
+  --action-primary:var(--accent);
+  --action-primary-hover:#7f2424;
+  --action-primary-text:#fff;
 
   --font-serif:Georgia,'Times New Roman',serif;
   --font-sans:Arial,Helvetica,sans-serif;
@@ -2146,4 +2149,34 @@ a.note-button:focus-visible{
     justify-content:center;
     text-align:center;
   }
+}
+
+
+/* EA-000001-000029 — ação primária semântica */
+.button.primary-action,
+.contact-form button[type="submit"].primary-action{
+  background:var(--action-primary);
+  color:var(--action-primary-text);
+  border-color:var(--action-primary);
+  box-shadow:0 2px 0 rgba(17,17,17,.08);
+}
+
+.button.primary-action:hover,
+.button.primary-action:focus-visible,
+.contact-form button[type="submit"].primary-action:hover,
+.contact-form button[type="submit"].primary-action:focus-visible{
+  background:var(--action-primary-hover);
+  color:var(--action-primary-text);
+  border-color:var(--action-primary-hover);
+  box-shadow:0 4px 12px rgba(17,17,17,.12);
+}
+
+.button.primary-action:disabled,
+.contact-form button[type="submit"].primary-action:disabled{
+  background:var(--action-primary);
+  color:var(--action-primary-text);
+  border-color:var(--action-primary);
+  opacity:.62;
+  cursor:progress;
+  box-shadow:none;
 }
