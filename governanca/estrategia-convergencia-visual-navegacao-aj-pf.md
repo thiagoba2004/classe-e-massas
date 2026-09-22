@@ -1,6 +1,6 @@
 # EA-000001-000024 — Convergência visual e navegacional do Classe e Massas ao padrão AJ/PF
 
-**Status:** EM EXECUÇÃO  
+**Status:** CONCLUÍDA  
 **Origem:** REQ-20260922-004 e REQ-20260922-005.
 
 ## Objetivo
@@ -20,8 +20,8 @@ Corrigir dois desvios comprovados na interface pública do Site Classe e Massas:
 
 1. **FASE 01/04 [F-000001-000024-001] — Diagnóstico comparativo AJ/PF/CEM** — CONCLUÍDA.
 2. **FASE 02/04 [F-000001-000024-002] — Especificação do padrão convergente** — CONCLUÍDA.
-3. **FASE 03/04 [F-000001-000024-003] — Implementação de cards-link e menu deslizante** — EM EXECUÇÃO.
-4. **FASE 04/04 [F-000001-000024-004] — Auditoria responsiva, semântica e deploy** — AGUARDA implementação.
+3. **FASE 03/04 [F-000001-000024-003] — Implementação de cards-link e menu deslizante** — CONCLUÍDA.
+4. **FASE 04/04 [F-000001-000024-004] — Auditoria responsiva, semântica e deploy** — CONCLUÍDA.
 
 ## Especificação aprovada
 
@@ -50,3 +50,7 @@ A estratégia só fecha após:
 - botões pretos de navegação removidos desses cards;
 - atualização normativa local e transversal;
 - GitHub Pages concluído com sucesso.
+
+## Fechamento
+
+Implementação concluída e auditada. O menu móvel do Classe e Massas passou ao padrão horizontal deslizante já utilizado em Ações Judiciais e Planejamento Financeiro; **Publicações** permanece como hub de primeiro nível; os três cards MPT de destino único tornaram-se hiperlinks integrais com diferenciação cromática e os botões pretos redundantes foram removidos. GitHub Pages run **35784291957** concluído com **success** para o commit `a8964898f0c3365a08f0771c934a685112f4420f`.
