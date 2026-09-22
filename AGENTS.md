@@ -7,7 +7,7 @@
 **Denominação do Projeto:** `Classe e Massas`  
 **project_id legado:** `classe-e-massas`  
 **Status:** CANÔNICO  
-**Versão:** 2.7  
+**Versão:** 2.8  
 **Data:** 20/09/2026  
 **generated_from_kernel:** `1.4`  
 **Kernel de referência:** `thiagoba2004/gerador-de-agents/AGENTS_KERNEL.md`  
@@ -738,22 +738,30 @@ Notícias · Artigos · Vídeos · Observatório
 Regras:
 - preservar as URLs históricas `/noticias/`, `/artigos/`, `/videos/` e `/observatorio/`; o agrupamento é de arquitetura de acesso, não migração destrutiva;
 - a página `/publicacoes/` deve funcionar como hub autônomo e compreensível sem depender de menu suspenso;
-- no mobile, o menu global deve permanecer integralmente descobrível sem depender de rolagem horizontal oculta;
+- no mobile, o menu global usa faixa horizontal deliberadamente rolável/deslizante, com os itens sempre visíveis na estrutura e sem overflow horizontal geral da página;
 - a Home pode manter identidade tipográfica jornalística própria, mas o título não deve dominar desproporcionalmente a primeira dobra em telas pequenas;
 - Notícias, Artigos, Vídeos e Observatório mantêm funções editoriais distintas e não devem ser convertidos em textos duplicados;
 - a promoção futura de Vídeos novamente ao primeiro nível exige crescimento funcional que justifique nova decisão arquitetural rastreável.
 
-### 16.2. Navegação dinâmica responsiva
+### 16.2. Navegação horizontal deslizante e semântica visual de cards
 
-A navegação pública deve ser progressivamente aprimorada:
+A regra abaixo **substitui, para o Classe e Massas, o padrão recolhível introduzido na v2.7**.
 
-- com JavaScript disponível, telas de até 700 px exibem cabeçalho compacto com botão **MENU** e navegação recolhida por padrão;
-- o botão deve usar `aria-controls` e `aria-expanded`;
-- **Publicações** funciona como disclosure e revela **Visão geral, Notícias, Artigos, Vídeos e Observatório**;
-- o submenu deve funcionar por clique e teclado; a tecla Escape fecha disclosure/menu;
-- no desktop, o menu principal permanece visível e Publicações abre submenu sem ocupar quatro posições de primeiro nível;
-- sem JavaScript, a navegação HTML permanece visível como fallback funcional;
-- é vedado considerar “dinâmico” um menu que apenas empilha permanentemente todos os itens em múltiplas linhas no mobile.
+#### Menu global
+- no mobile, a navegação permanece visível em faixa horizontal rolável/deslizante, reproduzindo o paradigma comprovado em Ações Judiciais e Planejamento Financeiro;
+- a rolagem horizontal é confinada ao componente de navegação e não pode criar overflow horizontal geral da página;
+- itens não quebram em múltiplas linhas; cada item mantém alvo de toque adequado e o item atual permanece destacado;
+- **Publicações** é um item comum de primeiro nível que aponta para o hub `/publicacoes/`;
+- Notícias, Artigos, Vídeos e Observatório permanecem agrupados dentro do hub Publicações e não precisam de disclosure/dropdown no menu global;
+- é vedado exigir botão **MENU** para revelar a navegação principal deste Site.
+
+#### Cards e hiperlinks
+- quando um card representa um único destino, o próprio card deve ser o hiperlink de bloco inteiro;
+- cards clicáveis devem possuir superfície, borda ou outro contraste visual que os diferencie claramente de cards meramente informativos;
+- a interface não deve depender de botão preto interno do tipo “LER”, “ABRIR” ou equivalente como única pista de navegação;
+- hover e foco devem reforçar a condição clicável, sem substituir a semântica do elemento `<a>`;
+- cards com múltiplas ações reais não devem ser transformados em um único hiperlink; nesses casos, manter card informativo e links secundários claros;
+- botões continuam apropriados para **ações** reais, como `COPIAR MODELO`, envio de formulário ou comandos de interface; não devem ser usados apenas para disfarçar navegação simples.
 
 ## 17. Histórico de versões
 
@@ -774,7 +782,8 @@ A navegação pública deve ser progressivamente aprimorada:
 | 2.3 | 19/09/2026 | Institui o padrão obrigatório para Modelos públicos: botão `COPIAR MODELO` imediatamente acima do bloco copiável, somente a edição vigente no Site Público e proibição de portões de acesso a edições anteriores. |
 | 2.5 | 20/09/2026 | Revoga a triplicidade editorial obrigatória. Markdown permanece fonte textual canônica, HTML permanece publicação e JSON/JSONL passa a ser criado somente quando houver função estruturada real. |
 | 2.6 | 22/09/2026 | Agrupa Notícias, Artigos, Vídeos e Observatório no hub Publicações; reduz a densidade do menu global, elimina dependência de rolagem horizontal no mobile e disciplina a escala tipográfica da Home. |
-| 2.7 | 22/09/2026 | Torna a navegação efetivamente dinâmica: botão MENU no mobile, menu recolhível, Publicações como disclosure com submenu acessível, Escape para fechamento e fallback sem JavaScript. |
+| 2.7 | 22/09/2026 | Torna a navegação efetivamente dinâmica: botão MENU no mobile, menu recolhível, Publicações como disclosure com submenu acessível, Escape para fechamento e fallback sem JavaScript. Regra posteriormente substituída pela v2.8 para este Site. |
+| 2.8 | 22/09/2026 | Alinha o Classe e Massas ao padrão AJ/PF: menu horizontal deslizante no mobile, Publicações como hub de primeiro nível e cards de destino único como hiperlinks integrais com diferenciação visual, sem botões pretos de navegação. |
 
 ---
 
