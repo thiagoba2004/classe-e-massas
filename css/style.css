@@ -1877,3 +1877,34 @@ article.resource-card:hover{
   border-color:transparent;
   text-decoration-color:var(--accent);
 }
+
+
+/* Coleções editoriais: o item inteiro é o hiperlink */
+.index-list{
+  display:grid;
+  gap:1rem;
+  margin-top:.25rem;
+}
+a.editorial-card-link{
+  padding:1.05rem 1.1rem 1.15rem;
+  border-top-width:4px;
+}
+a.editorial-card-link .kicker{margin-bottom:.35rem}
+a.editorial-card-link h2{
+  max-width:38ch;
+  margin:.15rem 0 .5rem;
+  color:var(--ink-strong);
+  font-family:var(--font-serif);
+  font-size:clamp(1.18rem,2.1vw,1.42rem);
+  line-height:1.2;
+  letter-spacing:-.012em;
+  text-transform:none;
+}
+a.editorial-card-link p{
+  max-width:58ch;
+  margin:0;
+  color:var(--ink-muted);
+  font-size:.96rem;
+  line-height:1.55;
+}
+a.editorial-card-link .subtitle{margin:.05rem 0 .45rem}
