@@ -56,7 +56,7 @@ O card clicável nunca usa azul para indicar navegação.
 - sem elevação ou deslocamento de hover;
 - nenhum comportamento visual que sugira clique.
 
-### Botões
+### Botões e hierarquia de ações
 
 Botão preenchido é reservado a **ação real**:
 - copiar;
@@ -64,11 +64,20 @@ Botão preenchido é reservado a **ação real**:
 - confirmar;
 - executar comando.
 
-Navegação simples não deve usar botão preto “Ler…”, “Ver…” ou “Acessar…”. Para navegação usar:
+A hierarquia cromática é semântica:
+- **ação primária real**: fundo `#9f2f2f` (vermelho editorial), texto branco;
+- **hover/foco da ação primária**: `#7f2424`, texto branco;
+- **ação secundária**: tratamento tonal ou outlined derivado da paleta papel/tinta/vermelho;
+- **estado desabilitado**: mantém a identidade da ação, com redução de ênfase visual;
+- preto é tinta/estrutura e não deve ser o preenchimento automático de CTA apenas por tradição de componente.
+
+Navegação simples não deve usar botão preenchido “Ler…”, “Ver…” ou “Acessar…”. Para navegação usar:
 - card clicável;
 - título/link;
 - link textual;
 - navegação contextual compacta.
+
+A cor não substitui semântica: links continuam links e ações continuam botões. O contraste e o estado de foco devem permanecer perceptíveis independentemente da cor.
 
 ## Navegação
 
