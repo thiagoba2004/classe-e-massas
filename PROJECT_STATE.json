@@ -263,7 +263,7 @@
   ],
   "continuity": {
     "agents_protocol": "AGENTS.md",
-    "agents_version": "2.7",
+    "agents_version": "2.9",
     "generated_from_kernel": "1.4",
     "checkpoint_tool": "tools/salvar-checkpoint.sh",
     "checkpoint_policy": "salvar unidade lógica antes de avançar; marcos críticos devem chegar ao remoto e ser verificados"
@@ -272,14 +272,14 @@
   "project_code": "PRJ-000001",
   "project_name": "Classe e Massas",
   "governance_standard": {
-    "agents_version": "2.7",
+    "agents_version": "2.9",
     "kernel_version": "1.4",
     "project_identification": "PRJ-000001 — Classe e Massas",
     "strategy_identification": "strategy_id + strategy_name",
     "phase_identification": "phase_number + phase_total + phase_code + phase_name",
     "continuity_response_standard": true,
     "legacy_phase_normalization": "normalizar ao retomar; não reescrever histórico nem inventar numeração",
-    "agents_blob_sha": "8a1ae68e4f60d46cc682ed8a03f55e7dfc408e9e"
+    "agents_blob_sha": "b7369dd2bb4f07a10628b4a4ffebb9b7a58b895f"
   },
   "current_governance_strategy": {
     "strategy_code": "EA-000001-000021",
@@ -350,29 +350,20 @@
     "rule": "Create JSON/JSONL only for structured data with a concrete machine-processing need; do not create JSON as an automatic mirror of Markdown/HTML.",
     "updated_at": "2026-09-20"
   },
-  "current_site_strategy": {
+  "current_site_strategy": null,
+  "last_completed_site_strategy": {
     "strategy_code": "EA-000001-000026",
     "strategy_name": "Correção transversal de interface e arquitetura pública do Site Classe e Massas",
-    "phase_number": 7,
+    "phase_number": 8,
     "phase_total": 8,
-    "phase_code": "F-000001-000026-007",
-    "phase_name": "Auditoria integral responsiva e semântica",
-    "status": "EM_EXECUCAO",
-    "plan_ref": "governanca/estrategia-correcao-transversal-ui-site-2026-09-22.md",
-    "audit_ref": "governanca/auditoria-integral-ui-site-2026-09-22.md",
-    "next_step": "Auditar todas as páginas públicas resultantes, responsividade, semântica, overflow, menus, cards, links, botões e acessibilidade."
-  },
-  "last_completed_site_strategy": {
-    "strategy_code": "EA-000001-000025",
-    "strategy_name": "Auditoria integral de interface e coerência visual do Site Classe e Massas",
-    "phase_number": 5,
-    "phase_total": 5,
-    "phase_code": "F-000001-000025-005",
-    "phase_name": "Gate e definição do plano corretivo",
+    "phase_code": "F-000001-000026-008",
+    "phase_name": "Deploy, verificação e fechamento",
     "status": "CONCLUIDO",
-    "plan_ref": "governanca/estrategia-auditoria-integral-ui-site-2026-09-22.md",
-    "audit_ref": "governanca/auditoria-integral-ui-site-2026-09-22.md",
-    "result": "Auditoria integral concluída com não conformidades sistêmicas; correção pública em massa ainda não executada."
+    "plan_ref": "governanca/estrategia-correcao-transversal-ui-site-2026-09-22.md",
+    "audit_ref": "governanca/auditoria-corretiva-ui-site-2026-09-22.md",
+    "deployment_run_id": 35788703548,
+    "deployment_status": "SUCCESS",
+    "result": "Sistema visual e arquitetura pública consolidados; 47/47 HTML públicos passaram nos gates estruturais; paleta, tipografia, cards, navegação, Observatório e separação público/interno corrigidos."
   },
-  "next_site_step": "Executar FASE 07/08 da EA-000001-000026."
+  "next_site_step": "Nenhuma correção sistêmica de UI pendente. Tratar apenas regressões visuais específicas que venham a ser comprovadas por nova captura ou auditoria."
 }
