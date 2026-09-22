@@ -13,3 +13,4 @@ exclude:
   - editorial/rascunhos
   - observatorio/documentos
   - observatorio/observatorio.css
+  - editorial/documentos
