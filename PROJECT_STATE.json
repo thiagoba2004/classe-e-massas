@@ -350,7 +350,17 @@
     "rule": "Create JSON/JSONL only for structured data with a concrete machine-processing need; do not create JSON as an automatic mirror of Markdown/HTML.",
     "updated_at": "2026-09-20"
   },
-  "current_site_strategy": null,
+  "current_site_strategy": {
+    "strategy_code": "EA-000001-000025",
+    "strategy_name": "Auditoria integral de interface e coerência visual do Site Classe e Massas",
+    "phase_number": 1,
+    "phase_total": 5,
+    "phase_code": "F-000001-000025-001",
+    "phase_name": "Inventário completo do Site e padrões de referência",
+    "status": "EM_EXECUCAO",
+    "plan_ref": "governanca/estrategia-auditoria-integral-ui-site-2026-09-22.md",
+    "next_step": "Inventariar todas as páginas públicas, comparar padrões AJ/PF/CEM e executar auditoria automatizada integral antes de propor correções."
+  },
   "last_completed_site_strategy": {
     "strategy_code": "EA-000001-000024",
     "strategy_name": "Convergência visual e navegacional do Classe e Massas ao padrão AJ/PF",
@@ -365,5 +375,5 @@
     "deployment_status": "SUCCESS",
     "result": "Menu móvel horizontal deslizante alinhado a AJ/PF; Publicações preservado como hub; cards MPT de destino único tornados hiperlinks integrais visualmente diferenciados, sem botões pretos redundantes."
   },
-  "next_site_step": "Modo operacional. Preservar HORIZONTAL_SCROLL no menu móvel do Classe e Massas, Publicações como hub e cards de destino único como hiperlinks integrais; novas alterações materiais exigem manutenção rastreável."
+  "next_site_step": "EA-000001-000025 em execução: auditoria integral do Site sem refatoração pública em massa antes do relatório."
 }
