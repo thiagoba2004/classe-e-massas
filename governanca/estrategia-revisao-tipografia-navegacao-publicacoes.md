@@ -1,6 +1,6 @@
 # EA-000001-000022 — Revisão da tipografia e arquitetura de navegação do Site Classe e Massas
 
-**Status:** EM EXECUÇÃO  
+**Status:** CONCLUÍDA  
 **Origem:** REQ-20260922-001.
 
 ## Objetivo
@@ -10,7 +10,7 @@ Reavaliar a escala tipográfica da Home e a navegação global do Site Classe e 
 1. **FASE 01/04 [F-000001-000022-001] — Diagnóstico do estado atual** — CONCLUÍDA.
 2. **FASE 02/04 [F-000001-000022-002] — Decisão arquitetural e especificação** — CONCLUÍDA.
 3. **FASE 03/04 [F-000001-000022-003] — Implementação pública e sincronização normativa** — CONCLUÍDA.
-4. **FASE 04/04 [F-000001-000022-004] — Auditoria responsiva, navegação e deploy** — EM EXECUÇÃO.
+4. **FASE 04/04 [F-000001-000022-004] — Auditoria responsiva, navegação e deploy** — CONCLUÍDA.
 
 ## Diagnóstico comprovado
 - A Home usa `.home-main h1{font-size:clamp(3.4rem,10vw,6.8rem)}`.
@@ -33,3 +33,7 @@ Definir:
 - Publicações: Notícias · Artigos · Vídeos · Observatório.
 - URLs editoriais históricas preservadas.
 - AGENTS atualizado para v2.6.
+
+## Fechamento
+
+Auditoria aprovada. Home com escala tipográfica contida; Publicações implantado como hub de Notícias, Artigos, Vídeos e Observatório; menu móvel sem dependência de rolagem horizontal; URLs históricas preservadas; AGENTS v2.6; GitHub Pages run `35771021125` com build e deploy em success.

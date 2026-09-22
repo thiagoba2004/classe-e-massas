@@ -272,7 +272,7 @@
   "project_code": "PRJ-000001",
   "project_name": "Classe e Massas",
   "governance_standard": {
-    "agents_version": "2.4",
+    "agents_version": "2.6",
     "kernel_version": "1.4",
     "project_identification": "PRJ-000001 — Classe e Massas",
     "strategy_identification": "strategy_id + strategy_name",
@@ -350,15 +350,20 @@
     "rule": "Create JSON/JSONL only for structured data with a concrete machine-processing need; do not create JSON as an automatic mirror of Markdown/HTML.",
     "updated_at": "2026-09-20"
   },
-  "current_site_strategy": {
+  "current_site_strategy": null,
+  "last_completed_site_strategy": {
     "strategy_code": "EA-000001-000022",
     "strategy_name": "Revisão da tipografia e arquitetura de navegação do Site Classe e Massas",
     "phase_number": 4,
     "phase_total": 4,
     "phase_code": "F-000001-000022-004",
     "phase_name": "Auditoria responsiva, navegação e deploy",
-    "status": "EM_EXECUCAO",
+    "status": "CONCLUIDO",
     "plan_ref": "governanca/estrategia-revisao-tipografia-navegacao-publicacoes.md",
-    "next_step": "Auditar Home e hub Publicações, verificar menu móvel sem rolagem horizontal, links e GitHub Pages; fechar se o gate passar."
-  }
+    "audit_ref": "governanca/auditoria-tipografia-navegacao-publicacoes-2026-09-22.md",
+    "deployment_run_id": 35771021125,
+    "deployment_status": "SUCCESS",
+    "result": "Home com escala tipográfica contida e hub Publicações agrupando Notícias, Artigos, Vídeos e Observatório."
+  },
+  "next_site_step": "Modo operacional para o Site. Preservar o hub Publicações e a escala tipográfica atual; novas alterações materiais exigem manutenção rastreável ou nova Estratégia Autônoma."
 }
