@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2",
   "project": "Classe e Massas",
-  "updated_at": "2026-09-22",
+  "updated_at": "2026-09-24",
   "purpose": "Fonte estruturada de continuidade entre conversas, modelos de IA e sessões de trabalho. Não substitui os documentos específicos de cada frente; aponta o estado mais avançado comprovado e a próxima etapa.",
   "rules": {
     "authoritative_order": [
@@ -362,5 +362,17 @@
     "deployment_status": "SUCCESS",
     "result": "ENVIAR MENSAGEM usa submit-button oval/pílula; cor vermelha editorial preservada."
   },
-  "next_site_step": "Modo operacional; preservar submit-button oval em futuras alterações."
+  "next_site_step": "Modo operacional; preservar submit-button oval em futuras alterações.",
+  "current_strategy_code": "EA-000001-000031",
+  "current_strategy_name": "Pauta editorial interna e backlog de conteúdo",
+  "current_strategy": "EA-000001-000031",
+  "current_phase": {
+    "phase_number": 1,
+    "phase_total": 4,
+    "phase_code": "F-000001-000031-001",
+    "phase_name": "Arquitetura e critérios",
+    "status": "EM_EXECUCAO"
+  },
+  "strategy_status": "EM_EXECUCAO",
+  "next_logical_step": "Definir a estrutura canônica da pauta editorial, inventariar conteúdos existentes e registrar a pauta inicial sem exposição pública."
 }
