@@ -363,16 +363,19 @@
     "result": "ENVIAR MENSAGEM usa submit-button oval/pílula; cor vermelha editorial preservada."
   },
   "next_site_step": "Modo operacional; preservar submit-button oval em futuras alterações.",
-  "current_strategy_code": "EA-000001-000031",
-  "current_strategy_name": "Pauta editorial interna e backlog de conteúdo",
-  "current_strategy": "EA-000001-000031",
-  "current_phase": {
-    "phase_number": 1,
-    "phase_total": 4,
-    "phase_code": "F-000001-000031-001",
-    "phase_name": "Arquitetura e critérios",
-    "status": "EM_EXECUCAO"
-  },
-  "strategy_status": "EM_EXECUCAO",
-  "next_logical_step": "Definir a estrutura canônica da pauta editorial, inventariar conteúdos existentes e registrar a pauta inicial sem exposição pública."
+  "current_strategy_code": null,
+  "current_strategy_name": null,
+  "current_strategy": null,
+  "current_phase": null,
+  "strategy_status": "SEM_ESTRATEGIA_ATIVA",
+  "next_logical_step": "Usar governanca/PAUTA_EDITORIAL.md como fila interna de hipóteses; somente priorizar item após triagem de densidade e abertura/vinculação de Estratégia Autônoma.",
+  "last_concluded_strategy_code": "EA-000001-000031",
+  "last_completed_milestone": "EA-000001-000031 concluída: pauta editorial interna criada, normatizada e auditada.",
+  "editorial_backlog": {
+    "path": "governanca/PAUTA_EDITORIAL.md",
+    "public": false,
+    "items_initial": 12,
+    "status": "IMPLANTADO_E_AUDITADO",
+    "updated_at": "2026-09-24"
+  }
 }
