@@ -821,3 +821,23 @@ Em caso de regra visual ou arquitetural legada incompatível com esses guias e c
 - `submit-button` é sempre oval/pílula (`border-radius:999px`), nunca retangular;
 - a cor da ação permanece específica do Projeto;
 - não aplicar essa regra automaticamente a todos os demais botões.
+
+## Pauta editorial interna
+
+O arquivo `governanca/PAUTA_EDITORIAL.md` é o **backlog editorial interno** do projeto para possíveis Artigos futuros.
+
+Regras obrigatórias:
+
+- a pauta é governança interna e **não integra o Site Público**;
+- não incluir a pauta, seus estados, prioridades ou itens ainda não publicados em menus, cards, páginas de coleção, Mapa do Site, sitemap, feed ou metadados públicos;
+- uma entrada na pauta registra apenas uma hipótese editorial; **não constitui promessa de pesquisa, redação ou publicação**;
+- cada item deve registrar, quando possível, identificador, título provisório, pergunta/ângulo, eixo, relação com conteúdo existente, prioridade, estado, densidade e Estratégia Autônoma vinculada;
+- antes de pesquisa substantiva, avaliar ao menos relevância, novidade, densidade, disponibilidade de fontes e risco de redundância;
+- pauta e Roadmap não são equivalentes: a pauta organiza possibilidades editoriais; o Roadmap e os Planos de Fases governam trabalho efetivamente priorizado;
+- quando um item for aprovado para execução, abrir ou vincular Estratégia Autônoma e Plano de Fases antes da pesquisa substantiva;
+- quando o artigo for publicado, atualizar o item para `PUBLICADA` e registrar a referência final;
+- itens suspensos ou descartados permanecem rastreáveis com motivo suficiente para evitar retrabalho;
+- a auditoria de publicação deve verificar que `governanca/PAUTA_EDITORIAL.md` e seus estados internos não vazaram para a camada pública.
+
+Estados canônicos: `IDEIA`, `EM_TRIAGEM`, `APROVADA_PARA_PESQUISA`, `EM_PESQUISA`, `PRONTA_PARA_REDACAO`, `EM_REDACAO`, `PRONTA_PARA_PUBLICACAO`, `PUBLICADA`, `SUSPENSA` e `DESCARTADA`.
+
