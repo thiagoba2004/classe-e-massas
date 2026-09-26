@@ -7,9 +7,9 @@
 **Denominação do Projeto:** `Classe e Massas`  
 **project_id legado:** `classe-e-massas`  
 **Status:** CANÔNICO  
-**Versão:** 2.9  
-**Data:** 22/09/2026  
-**generated_from_kernel:** `1.4`  
+**Versão:** 3.0  
+**Data:** 26/09/2026  
+**generated_from_kernel:** `1.5`  
 **Kernel de referência:** `thiagoba2004/gerador-de-agents/AGENTS_KERNEL.md`  
 **Escopo:** todo modelo de IA, agente, assistente ou automação que trabalhe neste repositório ou em seus documentos derivados.
 
@@ -791,7 +791,7 @@ A regra abaixo **substitui, para o Classe e Massas, o padrão recolhível introd
 | 2.5 | 20/09/2026 | Revoga a triplicidade editorial obrigatória. Markdown permanece fonte textual canônica, HTML permanece publicação e JSON/JSONL passa a ser criado somente quando houver função estruturada real. |
 | 2.6 | 22/09/2026 | Agrupa Notícias, Artigos, Vídeos e Observatório no hub Publicações; reduz a densidade do menu global, elimina dependência de rolagem horizontal no mobile e disciplina a escala tipográfica da Home. |
 | 2.7 | 22/09/2026 | Torna a navegação efetivamente dinâmica: botão MENU no mobile, menu recolhível, Publicações como disclosure com submenu acessível, Escape para fechamento e fallback sem JavaScript. Regra posteriormente substituída pela v2.8 para este Site. |
-| 2.8 | 22/09/2026 | Alinha o Classe e Massas ao padrão AJ/PF: menu horizontal deslizante no mobile, Publicações como hub de primeiro nível e cards de destino único como hiperlinks integrais com diferenciação visual, sem botões pretos de navegação. |
+| 2.8 | 22/09/2026 | Alinha o Classe e Massas ao padrão AJ/PF: menu horizontal deslizante no mobile, Publicações como hub de primeiro nível e cards de destino único como hiperlinks integrais com diferenciação visual, sem botões pretos de navegação. |\n| 3.0 | 26/09/2026 | Institui índice semântico-factual do acervo, BDTD/IBICT como fonte sistemática de descoberta acadêmica e melhoria contínua proativa com IMPROVEMENT_LOG.jsonl e innovation check. |
 
 ---
 
@@ -841,3 +841,29 @@ Regras obrigatórias:
 
 Estados canônicos: `IDEIA`, `EM_TRIAGEM`, `APROVADA_PARA_PESQUISA`, `EM_PESQUISA`, `PRONTA_PARA_REDACAO`, `EM_REDACAO`, `PRONTA_PARA_PUBLICACAO`, `PUBLICADA`, `SUSPENSA` e `DESCARTADA`.
 
+
+
+## Índice semântico-factual do acervo
+
+O Projeto mantém `governanca/KNOWLEDGE_INDEX.jsonl`, gerado deterministicamente por `tools/build_knowledge_index.py`.
+
+- consultar o índice antes de varreduras manuais amplas sobre “onde aparece X?”;
+- confirmar achados materiais no documento original;
+- o índice não replica texto integral e não revoga a política condicional de JSON;
+- `governanca/KNOWLEDGE_INDEX_META.json` registra cobertura do índice;
+- índice e metadados são governança interna e não conteúdo público.
+
+## Pesquisa acadêmica brasileira — BDTD/IBICT
+
+Para temas compatíveis com produção brasileira de pós-graduação, pesquisar sistematicamente a **Biblioteca Digital Brasileira de Teses e Dissertações (BDTD/IBICT)**. Registrar descritores/data quando substantivo; validar a obra no repositório institucional de origem e por Handle/DOI quando disponível; não tratar presença na BDTD como endosso de qualidade.
+
+## Inovação e aperfeiçoamento proativos
+
+O usuário autorizou sugestões e inovações. A partir desta versão, a autorização é regra operacional permanente:
+
+- oportunidade material identificada deve ser comunicada ao usuário, não apenas percebida internamente;
+- registrar a oportunidade em `IMPROVEMENT_LOG.jsonl`;
+- distinguir proposta, aprovação, execução e conclusão;
+- não expandir silenciosamente o escopo;
+- quando aprovada e material, vincular a Estratégia Autônoma e Plano de Fases;
+- no fechamento de trabalho substancial, executar **innovation check**: indexar, automatizar, padronizar, reutilizar, simplificar ou aumentar verificabilidade é possível?
