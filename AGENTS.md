@@ -7,9 +7,9 @@
 **Denominação do Projeto:** `Classe e Massas`  
 **project_id legado:** `classe-e-massas`  
 **Status:** CANÔNICO  
-**Versão:** 3.0  
+**Versão:** 3.1  
 **Data:** 26/09/2026  
-**generated_from_kernel:** `1.5`  
+**generated_from_kernel:** `1.6`  
 **Kernel de referência:** `thiagoba2004/gerador-de-agents/AGENTS_KERNEL.md`  
 **Escopo:** todo modelo de IA, agente, assistente ou automação que trabalhe neste repositório ou em seus documentos derivados.
 
@@ -60,6 +60,20 @@ Nenhuma tarefa relativa ao projeto pode ser executada como ato isolado: deve est
 > **Sem registro persistente da estratégia, não executar tarefa substantiva.**
 
 ---
+
+### Ponte bidirecional com o Coordenador Geral
+
+Antes de tratar pedidos com **possível repercussão transversal**, **dúvida de pertencimento/roteamento**, possível vínculo com a **governança global** ou sinais de **candidato a novo Projeto**, consultar, quando a Biblioteca estiver acessível:
+
+`/Governanca-Geral-Modelos-IA/00_BOOTSTRAP_COORDENADOR_GERAL.md`
+
+Regras:
+
+- pedidos inequivocamente locais e já abrangidos por este Projeto seguem diretamente este `AGENTS.md`, sem consulta obrigatória ao Bootstrap;
+- a consulta ao Bootstrap é condicional e serve para classificar/rotear, não para substituir a governança local;
+- evitar loop de roteamento: Bootstrap → Projeto é entrada normal; Projeto → Bootstrap ocorre apenas diante de dúvida, repercussão transversal ou governança global;
+- se a Biblioteca/Bootstrap não estiver acessível na sessão, não inventar seu conteúdo; registrar a limitação quando material e prosseguir pela governança local comprovada;
+- conversas classificadas como casuais/efêmeras pelo Coordenador Geral não devem ser artificialmente absorvidas por este Projeto.
 
 ## 2. Hierarquia normativa e fonte da verdade
 
