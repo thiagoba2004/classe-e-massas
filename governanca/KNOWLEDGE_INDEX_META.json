@@ -25,5 +25,11 @@
     "pesquisa_academica": 114,
     "trabalho_sindical": 143
   },
-  "source_system_counts": {}
-}\n
+  "source_system_counts": {
+    "BDTD/IBICT": 1,
+    "Banco Central do Brasil": 2,
+    "GOV.BR": 16,
+    "IBICT": 1,
+    "Planalto": 7
+  }
+}
