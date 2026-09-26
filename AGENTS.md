@@ -75,7 +75,7 @@ Regras:
 - se a Biblioteca/Bootstrap não estiver acessível na sessão, não inventar seu conteúdo; registrar a limitação quando material e prosseguir pela governança local comprovada;
 - conversas classificadas como casuais/efêmeras pelo Coordenador Geral não devem ser artificialmente absorvidas por este Projeto.
 
-### Arquitetura universal de ambientes v2
+### Arquitetura universal de ambientes v2.2
 
 Este Projeto adota a arquitetura global de seis planos: **G** (identidade), **A** (superfície), **E** (executor), **C** (contexto/memória), **K** (fontes de conhecimento) e **P** (persistência/publicação).
 
@@ -84,9 +84,9 @@ Fonte global: `thiagoba2004/governanca-geral-modelos-ia/ARQUITETURA_UNIVERSAL_AM
 Regras locais:
 
 - Projeto ChatGPT não é sinônimo deste Projeto de Governança;
-- o modo de memória do Projeto ChatGPT é uma propriedade individual e não possui padrão global; o estado atual deste Projeto é **C2 — memória padrão**;
+- este Projeto de Governança não possui Projeto ChatGPT associado (`B0`); por isso C2/C3 é não aplicável no nível do Projeto;
 - memória exclusiva reduz contaminação contextual, mas não elimina alucinações nem prevalece sobre fontes persistentes;
-- no estado atual C2, Work pode ser usado dentro do Projeto conforme disponibilidade; se o Projeto for alterado para C3, Work ficará indisponível dentro dessa fronteira e exigirá handoff;
+- Work pode ser usado como executor sem depender de um Projeto ChatGPT; se futuramente houver vínculo B1 e esse contêiner usar C3, Work ficará indisponível dentro dele;
 - fontes anexadas ao Projeto ChatGPT formam **Core Context curado**, não o repositório integral;
 - Biblioteca e nuvens conectadas são fontes operacionais;
 - GitHub deste Projeto é a fonte versionada canônica de estado, regras e histórico;
