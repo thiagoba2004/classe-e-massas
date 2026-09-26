@@ -272,8 +272,8 @@
   "project_code": "PRJ-000001",
   "project_name": "Classe e Massas",
   "governance_standard": {
-    "agents_version": "3.2",
-    "kernel_version": "1.7",
+    "agents_version": "3.3",
+    "kernel_version": "1.8",
     "project_identification": "PRJ-000001 — Classe e Massas",
     "strategy_identification": "strategy_id + strategy_name",
     "phase_identification": "phase_number + phase_total + phase_code + phase_name",
@@ -368,9 +368,9 @@
   "current_strategy": null,
   "current_phase": null,
   "strategy_status": "SEM_ESTRATEGIA_ATIVA",
-  "next_logical_step": "Aplicar o gate de classificação a todo novo arquivo; antes de usar dados confidenciais reais, criar superfície P1 privada separada e cofre P0 para documentos brutos; auditar o histórico público em estratégia específica.",
-  "last_concluded_strategy_code": "EA-000001-000034",
-  "last_completed_milestone": "EA-000001-000034 concluída: classificação universal implantada com perfil estruturado e gate preventivo.",
+  "next_logical_step": "Escolher Chat/Work/Codex conforme o perfil da tarefa sem alterar PRJ/EA/F; persistir trabalho substancial no GitHub antes de encerrar a sessão.",
+  "last_concluded_strategy_code": "EA-000001-000035",
+  "last_completed_milestone": "EA-000001-000035 concluída: identidade de governança separada dos ambientes Chat/Work/Projeto ChatGPT/Biblioteca/Codex.",
   "editorial_backlog": {
     "path": "governanca/PAUTA_EDITORIAL.md",
     "public": false,
@@ -378,7 +378,7 @@
     "status": "IMPLANTADO_E_AUDITADO",
     "updated_at": "2026-09-24"
   },
-  "last_concluded_strategy_name": "Classificação Universal de Informação por Sensibilidade e Publicação",
+  "last_concluded_strategy_name": "Arquitetura Universal de Ambientes de Execução e Persistência",
   "knowledge_index": {
     "status": "IMPLANTADO_E_VERIFICADO",
     "schema_version": "1.0",
@@ -425,6 +425,23 @@
     "raw_s3_allowed": false,
     "s4_allowed": false,
     "retroactive_history_audit": "PENDENTE_DE_ESTRATEGIA_ESPECIFICA",
+    "updated_at": "2026-09-26"
+  },
+  "execution_environment_architecture": {
+    "status": "IMPLANTADA_E_VERIFICADA",
+    "global_source": "thiagoba2004/governanca-geral-modelos-ia/ARQUITETURA_UNIVERSAL_AMBIENTES_EXECUCAO_PERSISTENCIA.md",
+    "local_profile": "EXECUTION_ENVIRONMENT_PROFILE.json",
+    "project_identity_independent_of_platform": true,
+    "canonical_persistence": "thiagoba2004/classe-e-massas",
+    "preferred": {
+      "chat": "dialogue_bounded",
+      "work": "substantial_multistep",
+      "chatgpt_project": "optional_context",
+      "library": "operational_context",
+      "codex": "repo_engineering",
+      "apps": "external_access"
+    },
+    "fallback_preserves_identity": true,
     "updated_at": "2026-09-26"
   }
 }
