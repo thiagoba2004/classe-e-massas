@@ -16,20 +16,20 @@
   "record_count": 240,
   "schema_version": "1.0",
   "semantic_tag_counts": {
-    "bdtd_ibict": 6,
+    "bdtd_ibict": 7,
     "editorial": 177,
     "financeiro": 44,
     "fonte": 104,
     "governanca": 80,
     "juridico": 115,
-    "pesquisa_academica": 114,
+    "pesquisa_academica": 113,
     "trabalho_sindical": 143
   },
   "source_system_counts": {
-    "BDTD/IBICT": 1,
+    "BDTD/IBICT": 2,
     "Banco Central do Brasil": 2,
     "GOV.BR": 16,
-    "IBICT": 1,
+    "IBICT": 2,
     "Planalto": 7
   }
 }
