@@ -75,28 +75,26 @@ Regras:
 - se a Biblioteca/Bootstrap não estiver acessível na sessão, não inventar seu conteúdo; registrar a limitação quando material e prosseguir pela governança local comprovada;
 - conversas classificadas como casuais/efêmeras pelo Coordenador Geral não devem ser artificialmente absorvidas por este Projeto.
 
-### Arquitetura universal de ambientes de execução
+### Arquitetura universal de ambientes v2
 
-Este Projeto obedece à arquitetura global de três planos:
+Este Projeto adota a arquitetura global de seis planos: **G** (identidade), **A** (superfície), **E** (executor), **C** (contexto/memória), **K** (fontes de conhecimento) e **P** (persistência/publicação).
 
-1. **Identidade/Governança:** `PRJ`, `EA` e `F` permanecem estáveis independentemente da plataforma;
-2. **Ambiente de execução/contexto:** Chat, Work, Projeto ChatGPT, Biblioteca, Codex e Apps/Connectors são meios de trabalho;
-3. **Persistência/Publicação:** Cofre, Git privado, Git público e Site preservam/publicam o estado conforme a classificação de informação.
+Fonte global: `thiagoba2004/governanca-geral-modelos-ia/ARQUITETURA_UNIVERSAL_AMBIENTES_EXECUCAO_PERSISTENCIA.md`.
 
-Fonte global versionada: `thiagoba2004/governanca-geral-modelos-ia/ARQUITETURA_UNIVERSAL_AMBIENTES_EXECUCAO_PERSISTENCIA.md`.
+Regras locais:
 
-Regras mínimas:
+- Projeto ChatGPT não é sinônimo deste Projeto de Governança;
+- **memória exclusiva do Projeto ChatGPT é o padrão**, salvo decisão expressa;
+- memória exclusiva reduz contaminação contextual, mas não elimina alucinações nem prevalece sobre fontes persistentes;
+- Work não está disponível dentro do Projeto ChatGPT isolado; quando necessário, executar fora dessa fronteira mediante **handoff explícito**;
+- fontes anexadas ao Projeto ChatGPT formam **Core Context curado**, não o repositório integral;
+- Biblioteca e nuvens conectadas são fontes operacionais;
+- GitHub deste Projeto é a fonte versionada canônica de estado, regras e histórico;
+- filesystem local/Notebook é working copy/cache e nunca deve ser a única cópia necessária à continuidade;
+- Codex deve devolver alterações relevantes ao repositório;
+- o handoff para Work/Codex transfere somente o contexto necessário, com sensibilidade e destino canônico definidos.
 
-- **Projeto ChatGPT não é sinônimo deste Projeto de Governança**;
-- Chat é preferencial para diálogo, decisão, explicação e tarefa delimitada;
-- Work é preferencial para pesquisa ampla, auditoria, muitos arquivos/apps e entrega acabada;
-- Codex é preferencial para código, testes e alterações multiarquivo em repositório;
-- Biblioteca é contexto/espelho operacional, não substitui a fonte versionada;
-- GitHub deste Projeto permanece fonte canônica de estado, regras e histórico;
-- se o ambiente preferencial não estiver disponível, preservar `PRJ/EA/F`, usar o ambiente disponível mais próximo e persistir o estado no GitHub;
-- trabalho substancial não deve terminar apenas no contexto do Chat, Work, Projeto ChatGPT ou Codex.
-
-O arquivo `EXECUTION_ENVIRONMENT_PROFILE.json` registra as preferências locais de ambiente deste Projeto.
+O `EXECUTION_ENVIRONMENT_PROFILE.json` schema v2 registra a política local.
 
 ## 2. Hierarquia normativa e fonte da verdade
 
