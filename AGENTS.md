@@ -84,9 +84,9 @@ Fonte global: `thiagoba2004/governanca-geral-modelos-ia/ARQUITETURA_UNIVERSAL_AM
 Regras locais:
 
 - Projeto ChatGPT não é sinônimo deste Projeto de Governança;
-- **memória exclusiva do Projeto ChatGPT é o padrão**, salvo decisão expressa;
+- o modo de memória do Projeto ChatGPT é uma propriedade individual e não possui padrão global; o estado atual deste Projeto é **C2 — memória padrão**;
 - memória exclusiva reduz contaminação contextual, mas não elimina alucinações nem prevalece sobre fontes persistentes;
-- Work não está disponível dentro do Projeto ChatGPT isolado; quando necessário, executar fora dessa fronteira mediante **handoff explícito**;
+- no estado atual C2, Work pode ser usado dentro do Projeto conforme disponibilidade; se o Projeto for alterado para C3, Work ficará indisponível dentro dessa fronteira e exigirá handoff;
 - fontes anexadas ao Projeto ChatGPT formam **Core Context curado**, não o repositório integral;
 - Biblioteca e nuvens conectadas são fontes operacionais;
 - GitHub deste Projeto é a fonte versionada canônica de estado, regras e histórico;
