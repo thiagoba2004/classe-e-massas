@@ -7,9 +7,9 @@
 **Denominação do Projeto:** `Classe e Massas`  
 **project_id legado:** `classe-e-massas`  
 **Status:** CANÔNICO  
-**Versão:** 3.1  
+**Versão:** 3.2  
 **Data:** 26/09/2026  
-**generated_from_kernel:** `1.6`  
+**generated_from_kernel:** `1.7`  
 **Kernel de referência:** `thiagoba2004/gerador-de-agents/AGENTS_KERNEL.md`  
 **Escopo:** todo modelo de IA, agente, assistente ou automação que trabalhe neste repositório ou em seus documentos derivados.
 
@@ -856,6 +856,25 @@ Regras obrigatórias:
 Estados canônicos: `IDEIA`, `EM_TRIAGEM`, `APROVADA_PARA_PESQUISA`, `EM_PESQUISA`, `PRONTA_PARA_REDACAO`, `EM_REDACAO`, `PRONTA_PARA_PUBLICACAO`, `PUBLICADA`, `SUSPENSA` e `DESCARTADA`.
 
 
+
+## Classificação Universal de Informação
+
+Antes de criar, mover, enviar, fazer upload, commit, publicar ou anexar arquivo persistente, aplicar a política global:
+
+- `/Governanca-Geral-Modelos-IA/CLASSIFICACAO_UNIVERSAL_INFORMACAO.md`;
+- `/Governanca-Geral-Modelos-IA/INFORMATION_CLASSIFICATION_POLICY.json`.
+
+Se a Biblioteca não estiver acessível, aplicar obrigatoriamente as regras mínimas abaixo:
+
+1. classificar **sensibilidade**: `S0_PUBLICO`, `S1_INTERNO_NAO_SENSIVEL`, `S2_CONFIDENCIAL`, `S3_ALTAMENTE_SENSIVEL` ou `S4_SEGREDO_CRITICO`;
+2. classificar **superfície**: `P0_COFRE_EXTERNO`, `P1_GIT_PRIVADO`, `P2_GIT_PUBLICO_REPOSITORIO` ou `P3_PUBLICO_SITE`;
+3. `S2` ou superior nunca pode ser salvo em repositório público nem no Site;
+4. documento bruto `S3` permanece em cofre externo por padrão e não deve ser commitado ao Git;
+5. `S4` nunca deve ser enviado ao Modelo nem persistido em Git, Biblioteca, chat ou logs;
+6. conteúdo só pode descer de classe mediante criação de **derivado sanitizado**; o original mantém sua classificação;
+7. mudança de visibilidade do repositório, ativação de Pages ou mudança de destino exige nova classificação.
+
+O arquivo `INFORMATION_HANDLING_PROFILE.json` registra a superfície técnica e os limites deste repositório.
 
 ## Índice semântico-factual do acervo
 
