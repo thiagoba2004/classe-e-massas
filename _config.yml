@@ -4,6 +4,7 @@ exclude:
   - PROJECT_STATE.json
   - REQUEST_LOG.jsonl
   - STRATEGY_LOG.jsonl
+  - IMPROVEMENT_LOG.jsonl
   - SITE_ARCHITECTURE.md
   - SITE_STYLE_GUIDE.md
   - README.md
