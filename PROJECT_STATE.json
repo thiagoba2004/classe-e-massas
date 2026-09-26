@@ -428,20 +428,24 @@
     "updated_at": "2026-09-26"
   },
   "execution_environment_architecture": {
-    "status": "IMPLANTADA_E_VERIFICADA",
+    "status": "V2_IMPLANTADA_E_VERIFICACAO_PENDENTE",
+    "version": "2.0",
     "global_source": "thiagoba2004/governanca-geral-modelos-ia/ARQUITETURA_UNIVERSAL_AMBIENTES_EXECUCAO_PERSISTENCIA.md",
     "local_profile": "EXECUTION_ENVIRONMENT_PROFILE.json",
-    "project_identity_independent_of_platform": true,
+    "planes": [
+      "G",
+      "A",
+      "E",
+      "C",
+      "K",
+      "P"
+    ],
+    "default_project_memory": "C3_CHATGPT_PROJECT_ONLY_MEMORY",
+    "work_unavailable_inside_default_context": true,
+    "core_context": "CURATED_NOT_FULL_REPOSITORY",
+    "local_filesystem": "WORKING_COPY_ONLY",
+    "handoff_required_when_context_not_inherited": true,
     "canonical_persistence": "thiagoba2004/classe-e-massas",
-    "preferred": {
-      "chat": "dialogue_bounded",
-      "work": "substantial_multistep",
-      "chatgpt_project": "optional_context",
-      "library": "operational_context",
-      "codex": "repo_engineering",
-      "apps": "external_access"
-    },
-    "fallback_preserves_identity": true,
     "updated_at": "2026-09-26"
   }
 }
