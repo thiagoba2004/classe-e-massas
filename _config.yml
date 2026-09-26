@@ -2,6 +2,7 @@
 exclude:
   - AGENTS.md
   - PROJECT_STATE.json
+  - INFORMATION_HANDLING_PROFILE.json
   - REQUEST_LOG.jsonl
   - STRATEGY_LOG.jsonl
   - IMPROVEMENT_LOG.jsonl
