@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2",
   "project": "Classe e Massas",
-  "updated_at": "2026-09-24",
+  "updated_at": "2026-09-26",
   "purpose": "Fonte estruturada de continuidade entre conversas, modelos de IA e sessões de trabalho. Não substitui os documentos específicos de cada frente; aponta o estado mais avançado comprovado e a próxima etapa.",
   "rules": {
     "authoritative_order": [
@@ -272,8 +272,8 @@
   "project_code": "PRJ-000001",
   "project_name": "Classe e Massas",
   "governance_standard": {
-    "agents_version": "2.9",
-    "kernel_version": "1.4",
+    "agents_version": "3.0",
+    "kernel_version": "1.5",
     "project_identification": "PRJ-000001 — Classe e Massas",
     "strategy_identification": "strategy_id + strategy_name",
     "phase_identification": "phase_number + phase_total + phase_code + phase_name",
@@ -368,14 +368,39 @@
   "current_strategy": null,
   "current_phase": null,
   "strategy_status": "SEM_ESTRATEGIA_ATIVA",
-  "next_logical_step": "Usar governanca/PAUTA_EDITORIAL.md como fila interna de hipóteses; somente priorizar item após triagem de densidade e abertura/vinculação de Estratégia Autônoma.",
-  "last_concluded_strategy_code": "EA-000001-000031",
-  "last_completed_milestone": "EA-000001-000031 concluída: pauta editorial interna criada, normatizada e auditada.",
+  "next_logical_step": "Usar o knowledge index como primeira camada de descoberta em perguntas transversais; confirmar achados nos documentos originais; registrar e comunicar novas oportunidades materiais em IMPROVEMENT_LOG.jsonl.",
+  "last_concluded_strategy_code": "EA-000001-000032",
+  "last_completed_milestone": "EA-000001-000032 concluída: knowledge index gerado (239 documentos), BDTD/IBICT incorporada e melhoria contínua proativa normatizada.",
   "editorial_backlog": {
     "path": "governanca/PAUTA_EDITORIAL.md",
     "public": false,
     "items_initial": 12,
     "status": "IMPLANTADO_E_AUDITADO",
     "updated_at": "2026-09-24"
+  },
+  "last_concluded_strategy_name": "Indexação universal, BDTD e melhoria contínua proativa",
+  "knowledge_index": {
+    "status": "IMPLANTADO_E_VERIFICADO",
+    "schema_version": "1.0",
+    "index_path": "governanca/KNOWLEDGE_INDEX.jsonl",
+    "meta_path": "governanca/KNOWLEDGE_INDEX_META.json",
+    "generator": "tools/build_knowledge_index.py",
+    "query_tool": "tools/query_knowledge_index.py",
+    "workflow": ".github/workflows/knowledge-index.yml",
+    "record_count": 239,
+    "updated_at": "2026-09-26"
+  },
+  "academic_discovery": {
+    "bdtd_ibict": {
+      "status": "INCORPORADA",
+      "url": "https://bdtd.ibict.br/",
+      "rule": "Fonte sistemática de descoberta; validar obra no repositório institucional de origem e por Handle/DOI quando disponível; presença não equivale a endosso de qualidade."
+    }
+  },
+  "improvement_governance": {
+    "status": "IMPLANTADA_E_VERIFICADA",
+    "log": "IMPROVEMENT_LOG.jsonl",
+    "rule": "Comunicar e persistir oportunidades materiais; não ampliar silenciosamente o escopo; executar innovation check em trabalhos substanciais.",
+    "updated_at": "2026-09-26"
   }
 }
