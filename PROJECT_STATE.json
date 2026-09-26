@@ -272,8 +272,8 @@
   "project_code": "PRJ-000001",
   "project_name": "Classe e Massas",
   "governance_standard": {
-    "agents_version": "3.0",
-    "kernel_version": "1.5",
+    "agents_version": "3.1",
+    "kernel_version": "1.6",
     "project_identification": "PRJ-000001 — Classe e Massas",
     "strategy_identification": "strategy_id + strategy_name",
     "phase_identification": "phase_number + phase_total + phase_code + phase_name",
@@ -368,9 +368,9 @@
   "current_strategy": null,
   "current_phase": null,
   "strategy_status": "SEM_ESTRATEGIA_ATIVA",
-  "next_logical_step": "Usar o knowledge index como primeira camada de descoberta em perguntas transversais; confirmar achados nos documentos originais; registrar e comunicar novas oportunidades materiais em IMPROVEMENT_LOG.jsonl.",
-  "last_concluded_strategy_code": "EA-000001-000032",
-  "last_completed_milestone": "EA-000001-000032 concluída: knowledge index gerado (239 documentos), BDTD/IBICT incorporada e melhoria contínua proativa normatizada.",
+  "next_logical_step": "Aplicar o AGENTS local diretamente em pedidos inequivocamente locais e consultar o Bootstrap global somente quando houver gatilho transversal/global ou dúvida de roteamento.",
+  "last_concluded_strategy_code": "EA-000001-000033",
+  "last_completed_milestone": "EA-000001-000033 concluída: ponte bidirecional condicional com o Bootstrap global implantada e auditada.",
   "editorial_backlog": {
     "path": "governanca/PAUTA_EDITORIAL.md",
     "public": false,
@@ -378,7 +378,7 @@
     "status": "IMPLANTADO_E_AUDITADO",
     "updated_at": "2026-09-24"
   },
-  "last_concluded_strategy_name": "Indexação universal, BDTD e melhoria contínua proativa",
+  "last_concluded_strategy_name": "Roteamento bidirecional com o Bootstrap do Coordenador Geral",
   "knowledge_index": {
     "status": "IMPLANTADO_E_VERIFICADO",
     "schema_version": "1.0",
@@ -401,6 +401,19 @@
     "status": "IMPLANTADA_E_VERIFICADA",
     "log": "IMPROVEMENT_LOG.jsonl",
     "rule": "Comunicar e persistir oportunidades materiais; não ampliar silenciosamente o escopo; executar innovation check em trabalhos substanciais.",
+    "updated_at": "2026-09-26"
+  },
+  "global_coordinator_bridge": {
+    "status": "IMPLANTADA_E_VERIFICADA",
+    "bootstrap": "/Governanca-Geral-Modelos-IA/00_BOOTSTRAP_COORDENADOR_GERAL.md",
+    "mode": "CONDICIONAL",
+    "triggers": [
+      "repercussão transversal",
+      "dúvida de roteamento",
+      "governança global",
+      "candidato a novo Projeto"
+    ],
+    "anti_loop": true,
     "updated_at": "2026-09-26"
   }
 }
