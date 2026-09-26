@@ -1,0 +1,29 @@
+{
+  "deterministic": true,
+  "extensions": {
+    ".css": 2,
+    ".html": 62,
+    ".js": 1,
+    ".json": 23,
+    ".jsonl": 3,
+    ".md": 142,
+    ".py": 2,
+    ".txt": 1,
+    ".yml": 3
+  },
+  "generator": "tools/build_knowledge_index.py",
+  "index_file": "governanca/KNOWLEDGE_INDEX.jsonl",
+  "record_count": 239,
+  "schema_version": "1.0",
+  "semantic_tag_counts": {
+    "bdtd_ibict": 5,
+    "editorial": 177,
+    "financeiro": 44,
+    "fonte": 103,
+    "governanca": 79,
+    "juridico": 115,
+    "pesquisa_academica": 114,
+    "trabalho_sindical": 143
+  },
+  "source_system_counts": {}
+}\n
