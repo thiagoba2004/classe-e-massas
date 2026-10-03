@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "repository": "thiagoba2004/classe-e-massas",
+  "project_code": "PRJ-000001",
+  "adapter_mode": "CENTRAL_BROKER_DECLARATIVE",
+  "protocol_path": "APSP_AUTONOMOUS_PHASE_SUCCESSION_PROTOCOL.md",
+  "project_state_path": "PROJECT_STATE.json",
+  "strategy_log_path": "STRATEGY_LOG.jsonl",
+  "roadmap_path": null,
+  "runtime_engine_path": null,
+  "runtime_contract_path": "APSP_RUNTIME_CONTRACT.json",
+  "runtime_state_path": null,
+  "secret_policy": "NO_LOCAL_SECRETS",
+  "broker_repository": "thiagoba2004/governanca-geral-modelos-ia",
+  "allowed_initial_operations": [
+    "READ",
+    "VERIFY",
+    "PERSIST_EVIDENCE"
+  ]
+}
