@@ -1,18 +1,46 @@
 {
   "schema_version": "1.0",
   "protocol": "APSP_AUTONOMOUS_PHASE_SUCCESSION_PROTOCOL.md",
-  "implementation_layer": "STATE_AND_CONTRACT",
-  "runtime_status": "READY_FOR_EXECUTOR",
-  "required_loop": ["RECOVER_STATE","SELECT_PHASE","SELECT_ACTION","ACT","VERIFY","PERSIST","ADVANCE","SELECT_AGAIN"],
-  "required_states": ["IN_PROGRESS","COMPLETED","BLOCKED","WAITING_HUMAN_DECISION","RUNTIME_INTERRUPTED","FAILED"],
+  "implementation_layer": "STATE_AND_CONTRACT_WITH_EXTERNAL_BROKER",
+  "runtime_status": "EXTERNAL_BROKER_CONNECTED",
+  "required_loop": [
+    "RECOVER_STATE",
+    "SELECT_PHASE",
+    "SELECT_ACTION",
+    "ACT",
+    "VERIFY",
+    "PERSIST",
+    "ADVANCE",
+    "SELECT_AGAIN"
+  ],
+  "required_states": [
+    "IN_PROGRESS",
+    "COMPLETED",
+    "BLOCKED",
+    "WAITING_HUMAN_DECISION",
+    "RUNTIME_INTERRUPTED",
+    "FAILED"
+  ],
   "selection_rule": "first incomplete phase, then first explicitly authorized executable action",
   "no_prompt_between_authorized_steps": true,
   "persist_before_advance": true,
   "anti_loop": true,
-  "human_decision_only_for": ["new authorization","credential","ambiguous choice","scope change"],
+  "human_decision_only_for": [
+    "new authorization",
+    "credential",
+    "ambiguous choice",
+    "scope change"
+  ],
   "executor": {
     "required": true,
-    "installed": false,
-    "reason": "The available GitHub write environment blocked installation of a generic executable runtime adapter; no bypass was attempted."
+    "installed": true,
+    "mode": "CENTRAL_EXECUTION_BROKER",
+    "broker_repository": "thiagoba2004/governanca-geral-modelos-ia",
+    "local_runtime_required": false
+  },
+  "plan": {
+    "required_for_local_execution": false,
+    "present": false,
+    "reason": "Execution is delegated to the central broker; no synthetic local plan is created when no active local strategy is recorded."
   }
 }
