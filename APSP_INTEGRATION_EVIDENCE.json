@@ -1,0 +1,15 @@
+{
+  "adapter_mode": "CENTRAL_BROKER_DECLARATIVE",
+  "adapter_sha": "9c0a1e6b22f723f54289d3d4dffce4a3f8e50d3d",
+  "broker_repository": "thiagoba2004/governanca-geral-modelos-ia",
+  "project_code": "PRJ-000001",
+  "project_current_strategy": null,
+  "project_state_path": "PROJECT_STATE.json",
+  "project_state_sha": "c95c3f00b01ecf4b2abdff865bded755f35b0a60",
+  "protocol_path": "APSP_AUTONOMOUS_PHASE_SUCCESSION_PROTOCOL.md",
+  "protocol_sha": "47fed56b77fdabd0aaefbeb47983f4cd8dd11dff",
+  "repository": "thiagoba2004/classe-e-massas",
+  "schema_version": "1.0",
+  "secret_policy": "NO_LOCAL_SECRETS",
+  "status": "VERIFIED"
+}
