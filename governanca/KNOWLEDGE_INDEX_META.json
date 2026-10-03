@@ -4,7 +4,7 @@
     ".css": 2,
     ".html": 62,
     ".js": 1,
-    ".json": 25,
+    ".json": 26,
     ".jsonl": 3,
     ".md": 150,
     ".py": 2,
@@ -13,7 +13,7 @@
   },
   "generator": "tools/build_knowledge_index.py",
   "index_file": "governanca/KNOWLEDGE_INDEX.jsonl",
-  "record_count": 249,
+  "record_count": 250,
   "schema_version": "1.0",
   "semantic_tag_counts": {
     "bdtd_ibict": 7,
