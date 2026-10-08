@@ -1,0 +1,478 @@
+{
+  "corpus": {
+    "average_unit_length": 119.194244604317,
+    "documents": 40,
+    "manifest_sha256": "15baf0c2f8e10d7ce8d7ae31be3a64586e40f1689de321d619c7bddcfe275408",
+    "units": 556
+  },
+  "determinism": {
+    "artifacts": {
+      "LEXICAL_INDEX.json": {
+        "first_sha256": "a4901173343668152370a98e5cc9a6f90cf0dd33226883011acbbbb463466c3c",
+        "identical": true,
+        "second_sha256": "a4901173343668152370a98e5cc9a6f90cf0dd33226883011acbbbb463466c3c"
+      },
+      "RETRIEVAL_DOCUMENTS.jsonl": {
+        "first_sha256": "967a30ddf0eb17273554c58bd19b66c0d2990e7f354eb951ebac8f49b8e6e4d4",
+        "identical": true,
+        "second_sha256": "967a30ddf0eb17273554c58bd19b66c0d2990e7f354eb951ebac8f49b8e6e4d4"
+      },
+      "RETRIEVAL_UNITS.jsonl": {
+        "first_sha256": "738b7642f3208b1b13b3fd79c608c7bf1c1e52baa243b6e8df51bc7a8c7efa90",
+        "identical": true,
+        "second_sha256": "738b7642f3208b1b13b3fd79c608c7bf1c1e52baa243b6e8df51bc7a8c7efa90"
+      }
+    },
+    "passed": true
+  },
+  "evaluation": {
+    "cases": 20,
+    "metrics": {
+      "evidence_hit_rate": 1.0,
+      "exact_first_rate": 1.0,
+      "mrr": 0.9736842105263158,
+      "ndcg_at_5": 0.9805752501879714,
+      "negative_pass_rate": 1.0,
+      "recall_at_5": 1.0
+    },
+    "negative_cases": 1,
+    "per_case": [
+      {
+        "dimension": "EXACT_TITLE_AND_ACCENT_FOLDING",
+        "exact_first_passed": true,
+        "expected_paths": [
+          "artigos/2026/450-mil-bancarios.md"
+        ],
+        "first_relevant_rank": 1,
+        "id": "LEX-001",
+        "ndcg_at_k": 1.0,
+        "passed": true,
+        "query": "450 mil bancarios",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_paths": [
+          "artigos/2026/450-mil-bancarios.md",
+          "artigos/2026/450-mil-bancarios.md",
+          "artigos/2026/450-mil-bancarios.md",
+          "artigos/2026/450-mil-bancarios.md",
+          "artigos/2026/450-mil-bancarios.md"
+        ]
+      },
+      {
+        "dimension": "EXACT_TITLE",
+        "exact_first_passed": true,
+        "expected_paths": [
+          "artigos/2026/anatomia-do-peleguismo-sindical.md"
+        ],
+        "first_relevant_rank": 1,
+        "id": "LEX-002",
+        "ndcg_at_k": 1.0,
+        "passed": true,
+        "query": "anatomia do peleguismo sindical",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_paths": [
+          "artigos/2026/anatomia-do-peleguismo-sindical.md",
+          "artigos/2026/anatomia-do-peleguismo-sindical.md",
+          "artigos/2026/anatomia-do-peleguismo-sindical.md",
+          "artigos/2026/anatomia-do-peleguismo-sindical.md",
+          "artigos/2026/anatomia-do-peleguismo-sindical.md"
+        ]
+      },
+      {
+        "dimension": "EXACT_SLUG",
+        "exact_first_passed": true,
+        "expected_paths": [
+          "artigos/2026/assembleia-nao-e-cheque-em-branco-bahia.md"
+        ],
+        "first_relevant_rank": 1,
+        "id": "LEX-003",
+        "ndcg_at_k": 1.0,
+        "passed": true,
+        "query": "assembleia nao e cheque em branco bahia",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_paths": [
+          "artigos/2026/assembleia-nao-e-cheque-em-branco-bahia.md",
+          "artigos/2026/assembleia-nao-e-cheque-em-branco-bahia.md",
+          "artigos/2026/assembleia-nao-e-cheque-em-branco-bahia.md",
+          "artigos/2026/assembleia-nao-e-cheque-em-branco-bahia.md",
+          "artigos/2026/assembleia-nao-e-cheque-em-branco-bahia.md"
+        ]
+      },
+      {
+        "dimension": "EXACT_TITLE_AND_PUNCTUATION_FOLDING",
+        "exact_first_passed": true,
+        "expected_paths": [
+          "artigos/2026/democracia-para-a-base-quem-controla-o-poder.md"
+        ],
+        "first_relevant_rank": 1,
+        "id": "LEX-004",
+        "ndcg_at_k": 1.0,
+        "passed": true,
+        "query": "democracia para a base quem controla o poder dentro das organizacoes dos trabalhadores",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_paths": [
+          "artigos/2026/democracia-para-a-base-quem-controla-o-poder.md",
+          "artigos/2026/democracia-para-a-base-quem-controla-o-poder.md",
+          "artigos/2026/democracia-para-a-base-quem-controla-o-poder.md",
+          "artigos/2026/democracia-para-a-base-quem-controla-o-poder.md",
+          "artigos/2026/democracia-para-a-base-quem-controla-o-poder.md"
+        ]
+      },
+      {
+        "dimension": "EXACT_TITLE",
+        "exact_first_passed": true,
+        "expected_paths": [
+          "artigos/2026/fraude-das-assembleias-virtuais.md"
+        ],
+        "first_relevant_rank": 1,
+        "id": "LEX-005",
+        "ndcg_at_k": 1.0,
+        "passed": true,
+        "query": "a fraude das assembleias virtuais",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_paths": [
+          "artigos/2026/fraude-das-assembleias-virtuais.md",
+          "artigos/2026/fraude-das-assembleias-virtuais.md",
+          "artigos/2026/fraude-das-assembleias-virtuais.md",
+          "artigos/2026/fraude-das-assembleias-virtuais.md",
+          "artigos/2026/fraude-das-assembleias-virtuais.md"
+        ]
+      },
+      {
+        "dimension": "EXACT_TITLE_AND_ACCENT_FOLDING",
+        "exact_first_passed": true,
+        "expected_paths": [
+          "artigos/2026/vanguarda-nao-e-autoproclamacao.md"
+        ],
+        "first_relevant_rank": 1,
+        "id": "LEX-006",
+        "ndcg_at_k": 1.0,
+        "passed": true,
+        "query": "vanguarda nao e autoproclamacao",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_paths": [
+          "artigos/2026/vanguarda-nao-e-autoproclamacao.md",
+          "artigos/2026/vanguarda-nao-e-autoproclamacao.md",
+          "artigos/2026/vanguarda-nao-e-autoproclamacao.md",
+          "artigos/2026/vanguarda-nao-e-autoproclamacao.md",
+          "artigos/2026/vanguarda-nao-e-autoproclamacao.md"
+        ]
+      },
+      {
+        "dimension": "EXACT_TITLE",
+        "exact_first_passed": true,
+        "expected_paths": [
+          "mpt/guia-nacional.md"
+        ],
+        "first_relevant_rank": 1,
+        "id": "LEX-007",
+        "ndcg_at_k": 1.0,
+        "passed": true,
+        "query": "guia nacional do bancario",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_paths": [
+          "mpt/guia-nacional.md",
+          "mpt/guia-nacional.md",
+          "mpt/guia-nacional.md",
+          "mpt/guia-nacional.md",
+          "mpt/guia-nacional.md"
+        ]
+      },
+      {
+        "dimension": "EXACT_SLUG",
+        "exact_first_passed": true,
+        "expected_paths": [
+          "lai/banco-do-brasil-plr-2026.md"
+        ],
+        "first_relevant_rank": 1,
+        "id": "LEX-008",
+        "ndcg_at_k": 1.0,
+        "passed": true,
+        "query": "banco do brasil plr 2026",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_paths": [
+          "lai/banco-do-brasil-plr-2026.md",
+          "noticias/2026/classe-e-massas-protocola-lai-e-cobra-manifestacao-do-bb-sobre-plr-2026.md",
+          "noticias/2026/classe-e-massas-protocola-lai-e-cobra-manifestacao-do-bb-sobre-plr-2026.md",
+          "noticias/2026/classe-e-massas-protocola-lai-e-cobra-manifestacao-do-bb-sobre-plr-2026.md",
+          "lai/banco-do-brasil-plr-2026.md"
+        ]
+      },
+      {
+        "dimension": "EXACT_TITLE_AND_ACCENT_FOLDING",
+        "exact_first_passed": true,
+        "expected_paths": [
+          "mpt/modelo-representacao.md"
+        ],
+        "first_relevant_rank": 1,
+        "id": "LEX-009",
+        "ndcg_at_k": 1.0,
+        "passed": true,
+        "query": "modelo nacional de representacao ao mpt",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_paths": [
+          "mpt/modelo-representacao.md",
+          "mpt/modelo-representacao.md",
+          "mpt/modelo-representacao.md",
+          "mpt/modelo-representacao.md",
+          "mpt/modelo-representacao.md"
+        ]
+      },
+      {
+        "dimension": "EXACT_TITLE",
+        "exact_first_passed": true,
+        "expected_paths": [
+          "noticias/principio-sintese.md"
+        ],
+        "first_relevant_rank": 1,
+        "id": "LEX-010",
+        "ndcg_at_k": 1.0,
+        "passed": true,
+        "query": "do ponto de vista da classe com rigor diante dos fatos",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_paths": [
+          "noticias/principio-sintese.md",
+          "noticias/principio-sintese.md",
+          "observatorio/documentos/00_Observatorio_Classe_e_Massas_Refundacao_Identidade.md",
+          "artigos/2026/quando-a-oposicao-reproduz-a-burocracia-que-combate.md",
+          "artigos/2026/vanguarda-nao-e-autoproclamacao.md"
+        ]
+      },
+      {
+        "dimension": "EXACT_SLUG",
+        "exact_first_passed": true,
+        "expected_paths": [
+          "observatorio/documentos/04_Rede_de_Observatorios_Setoriais_e_Nucleo_Bancario.md"
+        ],
+        "first_relevant_rank": 1,
+        "id": "LEX-011",
+        "ndcg_at_k": 1.0,
+        "passed": true,
+        "query": "rede de observatorios setoriais e nucleo bancario",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_paths": [
+          "observatorio/documentos/04_Rede_de_Observatorios_Setoriais_e_Nucleo_Bancario.md",
+          "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md",
+          "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md",
+          "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md",
+          "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md"
+        ]
+      },
+      {
+        "dimension": "EXACT_SLUG",
+        "exact_first_passed": true,
+        "expected_paths": [
+          "observatorio/documentos/06_Arquitetura_Publica_Metodo_e_Governanca.md"
+        ],
+        "first_relevant_rank": 1,
+        "id": "LEX-012",
+        "ndcg_at_k": 1.0,
+        "passed": true,
+        "query": "arquitetura publica metodo e governanca",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_paths": [
+          "observatorio/documentos/06_Arquitetura_Publica_Metodo_e_Governanca.md",
+          "observatorio/documentos/00_Observatorio_Classe_e_Massas_Refundacao_Identidade.md",
+          "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md",
+          "observatorio/documentos/Observatorio_Movimento_Sindical_Bancario_Diretriz_Canonica_Arquitetura_Codex.md",
+          "observatorio/documentos/06_Arquitetura_Publica_Metodo_e_Governanca.md"
+        ]
+      },
+      {
+        "dimension": "EXACT_SLUG",
+        "exact_first_passed": true,
+        "expected_paths": [
+          "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md"
+        ],
+        "first_relevant_rank": 1,
+        "id": "LEX-013",
+        "ndcg_at_k": 1.0,
+        "passed": true,
+        "query": "roadmap do observatorio classe e massas",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_paths": [
+          "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md",
+          "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md",
+          "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md",
+          "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md",
+          "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md"
+        ]
+      },
+      {
+        "dimension": "EXACT_TITLE",
+        "exact_first_passed": true,
+        "expected_paths": [
+          "videos/2026/quando-o-cliente-vira-fiscal-do-bancario.md"
+        ],
+        "first_relevant_rank": 1,
+        "id": "LEX-014",
+        "ndcg_at_k": 1.0,
+        "passed": true,
+        "query": "quando o cliente vira fiscal do bancario",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_paths": [
+          "videos/2026/quando-o-cliente-vira-fiscal-do-bancario.md",
+          "videos/2026/quando-o-cliente-vira-fiscal-do-bancario.md",
+          "videos/2026/quando-o-cliente-vira-fiscal-do-bancario.md",
+          "videos/2026/quando-o-cliente-vira-fiscal-do-bancario.md",
+          "artigos/2026/quando-o-cliente-vira-fiscal-do-trabalhador.md"
+        ]
+      },
+      {
+        "dimension": "BM25_EVIDENCE",
+        "exact_first_passed": null,
+        "expected_paths": [
+          "lai/bancos-publicos-produtividade-clientes.md"
+        ],
+        "first_relevant_rank": 1,
+        "id": "LEX-015",
+        "ndcg_at_k": 1.0,
+        "passed": true,
+        "query": "reclamacoes de clientes produtividade protecao trabalhadores",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_paths": [
+          "lai/bancos-publicos-produtividade-clientes.md",
+          "lai/bancos-publicos-produtividade-clientes.md",
+          "lai/bancos-publicos-produtividade-clientes.md",
+          "lai/bancos-publicos-produtividade-clientes.md",
+          "lai/bancos-publicos-produtividade-clientes.md"
+        ]
+      },
+      {
+        "dimension": "BM25_EVIDENCE",
+        "exact_first_passed": null,
+        "expected_paths": [
+          "artigos/2026/fraude-das-assembleias-virtuais.md"
+        ],
+        "first_relevant_rank": 1,
+        "id": "LEX-016",
+        "ndcg_at_k": 1.0,
+        "passed": true,
+        "query": "fraude plebiscitaria deliberacao coletiva assembleia",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_paths": [
+          "artigos/2026/fraude-das-assembleias-virtuais.md",
+          "artigos/2026/fraude-das-assembleias-virtuais.md",
+          "mpt/modelo-representacao.md",
+          "artigos/2026/fraude-das-assembleias-virtuais.md",
+          "artigos/2026/fraude-das-assembleias-virtuais.md"
+        ]
+      },
+      {
+        "dimension": "BM25_EVIDENCE",
+        "exact_first_passed": null,
+        "expected_paths": [
+          "lai/banco-do-brasil-plr-2026.md"
+        ],
+        "first_relevant_rank": 1,
+        "id": "LEX-017",
+        "ndcg_at_k": 1.0,
+        "passed": true,
+        "query": "periodicidade plr carf pagamentos empregado",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_paths": [
+          "lai/banco-do-brasil-plr-2026.md",
+          "noticias/2026/classe-e-massas-protocola-lai-e-cobra-manifestacao-do-bb-sobre-plr-2026.md",
+          "noticias/2026/classe-e-massas-protocola-lai-e-cobra-manifestacao-do-bb-sobre-plr-2026.md",
+          "lai/banco-do-brasil-plr-2026.md",
+          "noticias/2026/classe-e-massas-protocola-lai-e-cobra-manifestacao-do-bb-sobre-plr-2026.md"
+        ]
+      },
+      {
+        "dimension": "BM25_EVIDENCE",
+        "exact_first_passed": null,
+        "expected_paths": [
+          "observatorio/documentos/05_Mapas_do_Trabalho_do_Capital_e_Relacoes_de_Forca.md"
+        ],
+        "first_relevant_rank": 2,
+        "id": "LEX-018",
+        "ndcg_at_k": 0.6309297535714575,
+        "passed": true,
+        "query": "mapas trabalho capital relacoes forca",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 0.5,
+        "returned_paths": [
+          "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md",
+          "observatorio/documentos/05_Mapas_do_Trabalho_do_Capital_e_Relacoes_de_Forca.md",
+          "observatorio/documentos/05_Mapas_do_Trabalho_do_Capital_e_Relacoes_de_Forca.md",
+          "observatorio/documentos/05_Mapas_do_Trabalho_do_Capital_e_Relacoes_de_Forca.md",
+          "observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md"
+        ]
+      },
+      {
+        "dimension": "BM25_EVIDENCE",
+        "exact_first_passed": null,
+        "expected_paths": [
+          "lai/tcu.md"
+        ],
+        "first_relevant_rank": 1,
+        "id": "LEX-019",
+        "ndcg_at_k": 1.0,
+        "passed": true,
+        "query": "lei acesso informacao tribunal contas uniao",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_paths": [
+          "lai/tcu.md",
+          "artigos/2026/ano-eleitoral-aumento-real-banco-do-brasil.md",
+          "lai/tcu.md",
+          "lai/tcu.md",
+          "lai/agu.md"
+        ]
+      },
+      {
+        "dimension": "NEGATIVE_NO_MATCH",
+        "expected_paths": [],
+        "id": "LEX-020",
+        "passed": true,
+        "query": "zzzxqv qqqzzz",
+        "returned_paths": []
+      }
+    ],
+    "positive_cases": 19
+  },
+  "gate_checks": {
+    "deterministic_rebuild": true,
+    "evidence_hit_rate": true,
+    "exact_first_rate": true,
+    "integrity": true,
+    "mrr": true,
+    "ndcg_at_5": true,
+    "negative_pass_rate": true,
+    "recall_at_5": true
+  },
+  "gate_status": "PASSED",
+  "generated_at": "2026-10-08T00:00:00Z",
+  "integrity": {
+    "errors": [],
+    "passed": true
+  },
+  "schema_version": "1.0",
+  "strategy_code": "EA-000001-000036",
+  "thresholds": {
+    "deterministic_rebuild_required": true,
+    "evidence_hit_rate_min": 1.0,
+    "exact_first_rate_min": 1.0,
+    "integrity_errors_max": 0,
+    "mrr_min": 0.95,
+    "ndcg_at_5_min": 0.95,
+    "negative_pass_rate_min": 1.0,
+    "recall_at_5_min": 1.0
+  }
+}
