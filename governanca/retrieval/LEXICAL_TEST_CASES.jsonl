@@ -1,0 +1,21 @@
+{"id":"LEX-001","query":"450 mil bancarios","expected_paths":["artigos/2026/450-mil-bancarios.md"],"k":5,"dimension":"EXACT_TITLE_AND_ACCENT_FOLDING","exact_first_required":true}
+{"id":"LEX-002","query":"anatomia do peleguismo sindical","expected_paths":["artigos/2026/anatomia-do-peleguismo-sindical.md"],"k":5,"dimension":"EXACT_TITLE","exact_first_required":true}
+{"id":"LEX-003","query":"assembleia nao e cheque em branco bahia","expected_paths":["artigos/2026/assembleia-nao-e-cheque-em-branco-bahia.md"],"k":5,"dimension":"EXACT_SLUG","exact_first_required":true}
+{"id":"LEX-004","query":"democracia para a base quem controla o poder dentro das organizacoes dos trabalhadores","expected_paths":["artigos/2026/democracia-para-a-base-quem-controla-o-poder.md"],"k":5,"dimension":"EXACT_TITLE_AND_PUNCTUATION_FOLDING","exact_first_required":true}
+{"id":"LEX-005","query":"a fraude das assembleias virtuais","expected_paths":["artigos/2026/fraude-das-assembleias-virtuais.md"],"k":5,"dimension":"EXACT_TITLE","exact_first_required":true}
+{"id":"LEX-006","query":"vanguarda nao e autoproclamacao","expected_paths":["artigos/2026/vanguarda-nao-e-autoproclamacao.md"],"k":5,"dimension":"EXACT_TITLE_AND_ACCENT_FOLDING","exact_first_required":true}
+{"id":"LEX-007","query":"guia nacional do bancario","expected_paths":["mpt/guia-nacional.md"],"k":5,"dimension":"EXACT_TITLE","exact_first_required":true}
+{"id":"LEX-008","query":"banco do brasil plr 2026","expected_paths":["lai/banco-do-brasil-plr-2026.md"],"k":5,"dimension":"EXACT_SLUG","exact_first_required":true}
+{"id":"LEX-009","query":"modelo nacional de representacao ao mpt","expected_paths":["mpt/modelo-representacao.md"],"k":5,"dimension":"EXACT_TITLE_AND_ACCENT_FOLDING","exact_first_required":true}
+{"id":"LEX-010","query":"do ponto de vista da classe com rigor diante dos fatos","expected_paths":["noticias/principio-sintese.md"],"k":5,"dimension":"EXACT_TITLE","exact_first_required":true}
+{"id":"LEX-011","query":"rede de observatorios setoriais e nucleo bancario","expected_paths":["observatorio/documentos/04_Rede_de_Observatorios_Setoriais_e_Nucleo_Bancario.md"],"k":5,"dimension":"EXACT_SLUG","exact_first_required":true}
+{"id":"LEX-012","query":"arquitetura publica metodo e governanca","expected_paths":["observatorio/documentos/06_Arquitetura_Publica_Metodo_e_Governanca.md"],"k":5,"dimension":"EXACT_SLUG","exact_first_required":true}
+{"id":"LEX-013","query":"roadmap do observatorio classe e massas","expected_paths":["observatorio/documentos/07_Roadmap_do_Observatorio_Classe_e_Massas.md"],"k":5,"dimension":"EXACT_SLUG","exact_first_required":true}
+{"id":"LEX-014","query":"quando o cliente vira fiscal do bancario","expected_paths":["videos/2026/quando-o-cliente-vira-fiscal-do-bancario.md"],"k":5,"dimension":"EXACT_TITLE","exact_first_required":true}
+{"id":"LEX-015","query":"reclamacoes de clientes produtividade protecao trabalhadores","expected_paths":["lai/bancos-publicos-produtividade-clientes.md"],"k":5,"dimension":"BM25_EVIDENCE"}
+{"id":"LEX-016","query":"fraude plebiscitaria deliberacao coletiva assembleia","expected_paths":["artigos/2026/fraude-das-assembleias-virtuais.md"],"k":5,"dimension":"BM25_EVIDENCE"}
+{"id":"LEX-017","query":"periodicidade plr carf pagamentos empregado","expected_paths":["lai/banco-do-brasil-plr-2026.md"],"k":5,"dimension":"BM25_EVIDENCE"}
+{"id":"LEX-018","query":"mapas trabalho capital relacoes forca","expected_paths":["observatorio/documentos/05_Mapas_do_Trabalho_do_Capital_e_Relacoes_de_Forca.md"],"k":5,"dimension":"BM25_EVIDENCE"}
+{"id":"LEX-019","query":"lei acesso informacao tribunal contas uniao","expected_paths":["lai/tcu.md"],"k":5,"dimension":"BM25_EVIDENCE"}
+{"id":"LEX-020","query":"zzzxqv qqqzzz","expected_paths":[],"k":5,"dimension":"NEGATIVE_NO_MATCH"}
+
