@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2",
   "project": "Classe e Massas",
-  "updated_at": "2026-10-07T22:24:00-03:00",
+  "updated_at": "2026-10-07T22:32:00-03:00",
   "purpose": "Fonte estruturada de continuidade entre conversas, modelos de IA e sessões de trabalho. Não substitui os documentos específicos de cada frente; aponta o estado mais avançado comprovado e a próxima etapa.",
   "rules": {
     "authoritative_order": [
@@ -372,16 +372,19 @@
     "phase_total": 6,
     "phase_code": "F-000001-000036-006",
     "phase_name": "Auditoria, readback e fechamento",
-    "status": "IN_PROGRESS",
+    "status": "COMPLETED",
     "plan_ref": "governanca/estrategia-piloto-retrieval-lexical-ea-000001-000036.md",
     "state_ref": "governanca/EA-000001-000036_STATE.json",
-    "next_step": "Persistir auditoria final, reler artefatos remotos e avaliar o gate terminal."
+    "next_step": "Manutenção: reconstruir e retestar após alteração das fontes públicas do manifesto.",
+    "terminal_gate": "PRJ000001_LEXICAL_RETRIEVAL_PILOT_VERIFIED",
+    "terminal_gate_status": "PASSED",
+    "decision": "ADOPT_LOCAL_COMPLEMENTARY_LEXICAL_RETRIEVAL"
   },
   "current_phase": "F-000001-000036-006",
-  "strategy_status": "EM_EXECUCAO",
-  "next_logical_step": "Persistir auditoria final, reler artefatos remotos e avaliar o gate terminal.",
-  "last_concluded_strategy_code": "EA-000001-000035",
-  "last_completed_milestone": "EA-000001-000035 concluída: identidade de governança separada dos ambientes Chat/Work/Projeto ChatGPT/Biblioteca/Codex.",
+  "strategy_status": "CONCLUIDA",
+  "next_logical_step": "Manutenção: reconstruir e retestar após alteração das fontes públicas do manifesto.",
+  "last_concluded_strategy_code": "EA-000001-000036",
+  "last_completed_milestone": "EA-000001-000036 concluída: piloto lexical BM25 exact-first aprovado para adoção local complementar, com 40 documentos, 556 unidades e benchmark verificado.",
   "editorial_backlog": {
     "path": "governanca/PAUTA_EDITORIAL.md",
     "public": false,
@@ -389,7 +392,7 @@
     "status": "IMPLANTADO_E_AUDITADO",
     "updated_at": "2026-09-24"
   },
-  "last_concluded_strategy_name": "Arquitetura Universal de Ambientes de Execução e Persistência",
+  "last_concluded_strategy_name": "Piloto local de recuperação lexical auditável",
   "knowledge_index": {
     "status": "IMPLANTADO_E_VERIFICADO",
     "schema_version": "1.0",
@@ -469,9 +472,12 @@
     "phase_total": 6,
     "phase_code": "F-000001-000036-006",
     "phase_name": "Auditoria, readback e fechamento",
-    "status": "IN_PROGRESS",
+    "status": "COMPLETED",
     "plan_ref": "governanca/estrategia-piloto-retrieval-lexical-ea-000001-000036.md",
     "state_ref": "governanca/EA-000001-000036_STATE.json",
-    "next_step": "Persistir auditoria final, reler artefatos remotos e avaliar o gate terminal."
+    "next_step": "Manutenção: reconstruir e retestar após alteração das fontes públicas do manifesto.",
+    "terminal_gate": "PRJ000001_LEXICAL_RETRIEVAL_PILOT_VERIFIED",
+    "terminal_gate_status": "PASSED",
+    "decision": "ADOPT_LOCAL_COMPLEMENTARY_LEXICAL_RETRIEVAL"
   }
 }
