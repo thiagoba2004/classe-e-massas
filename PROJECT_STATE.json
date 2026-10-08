@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2",
   "project": "Classe e Massas",
-  "updated_at": "2026-10-07T21:46:00-03:00",
+  "updated_at": "2026-10-07T22:00:00-03:00",
   "purpose": "Fonte estruturada de continuidade entre conversas, modelos de IA e sessões de trabalho. Não substitui os documentos específicos de cada frente; aponta o estado mais avançado comprovado e a próxima etapa.",
   "rules": {
     "authoritative_order": [
@@ -368,18 +368,18 @@
   "current_strategy": {
     "strategy_code": "EA-000001-000036",
     "strategy_name": "Piloto local de recuperação lexical auditável",
-    "phase_number": 2,
+    "phase_number": 3,
     "phase_total": 6,
-    "phase_code": "F-000001-000036-002",
-    "phase_name": "Contrato de documentos e unidades",
+    "phase_code": "F-000001-000036-003",
+    "phase_name": "Índice lexical determinístico",
     "status": "IN_PROGRESS",
     "plan_ref": "governanca/estrategia-piloto-retrieval-lexical-ea-000001-000036.md",
     "state_ref": "governanca/EA-000001-000036_STATE.json",
-    "next_step": "Materializar contrato determinístico de documentos e unidades para os 40 textos públicos elegíveis."
+    "next_step": "Persistir construtor, ferramenta de consulta e índice BM25 exact-first; verificar reconstrução determinística."
   },
-  "current_phase": "F-000001-000036-002",
+  "current_phase": "F-000001-000036-003",
   "strategy_status": "EM_EXECUCAO",
-  "next_logical_step": "Materializar contrato determinístico de documentos e unidades para os 40 textos públicos elegíveis.",
+  "next_logical_step": "Persistir construtor, ferramenta de consulta e índice BM25 exact-first; verificar reconstrução determinística.",
   "last_concluded_strategy_code": "EA-000001-000035",
   "last_completed_milestone": "EA-000001-000035 concluída: identidade de governança separada dos ambientes Chat/Work/Projeto ChatGPT/Biblioteca/Codex.",
   "editorial_backlog": {
@@ -465,13 +465,13 @@
   "current_retrieval_strategy": {
     "strategy_code": "EA-000001-000036",
     "strategy_name": "Piloto local de recuperação lexical auditável",
-    "phase_number": 2,
+    "phase_number": 3,
     "phase_total": 6,
-    "phase_code": "F-000001-000036-002",
-    "phase_name": "Contrato de documentos e unidades",
+    "phase_code": "F-000001-000036-003",
+    "phase_name": "Índice lexical determinístico",
     "status": "IN_PROGRESS",
     "plan_ref": "governanca/estrategia-piloto-retrieval-lexical-ea-000001-000036.md",
     "state_ref": "governanca/EA-000001-000036_STATE.json",
-    "next_step": "Materializar contrato determinístico de documentos e unidades para os 40 textos públicos elegíveis."
+    "next_step": "Persistir construtor, ferramenta de consulta e índice BM25 exact-first; verificar reconstrução determinística."
   }
 }
