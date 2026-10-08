@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2",
   "project": "Classe e Massas",
-  "updated_at": "2026-09-26",
+  "updated_at": "2026-10-07T21:38:31-03:00",
   "purpose": "Fonte estruturada de continuidade entre conversas, modelos de IA e sessões de trabalho. Não substitui os documentos específicos de cada frente; aponta o estado mais avançado comprovado e a próxima etapa.",
   "rules": {
     "authoritative_order": [
@@ -363,12 +363,23 @@
     "result": "ENVIAR MENSAGEM usa submit-button oval/pílula; cor vermelha editorial preservada."
   },
   "next_site_step": "Modo operacional; preservar submit-button oval em futuras alterações.",
-  "current_strategy_code": null,
-  "current_strategy_name": null,
-  "current_strategy": null,
-  "current_phase": null,
-  "strategy_status": "SEM_ESTRATEGIA_ATIVA",
-  "next_logical_step": "Escolher Chat/Work/Codex conforme o perfil da tarefa sem alterar PRJ/EA/F; persistir trabalho substancial no GitHub antes de encerrar a sessão.",
+  "current_strategy_code": "EA-000001-000036",
+  "current_strategy_name": "Piloto local de recuperação lexical auditável",
+  "current_strategy": {
+    "strategy_code": "EA-000001-000036",
+    "strategy_name": "Piloto local de recuperação lexical auditável",
+    "phase_number": 1,
+    "phase_total": 6,
+    "phase_code": "F-000001-000036-001",
+    "phase_name": "Registro, classificação e baseline",
+    "status": "IN_PROGRESS",
+    "plan_ref": "governanca/estrategia-piloto-retrieval-lexical-ea-000001-000036.md",
+    "state_ref": "governanca/EA-000001-000036_STATE.json",
+    "next_step": "Inventariar mecanismo existente e corpus editorial público elegível; persistir baseline F1."
+  },
+  "current_phase": "F-000001-000036-001",
+  "strategy_status": "EM_EXECUCAO",
+  "next_logical_step": "Inventariar mecanismo existente e corpus editorial público elegível; persistir baseline F1.",
   "last_concluded_strategy_code": "EA-000001-000035",
   "last_completed_milestone": "EA-000001-000035 concluída: identidade de governança separada dos ambientes Chat/Work/Projeto ChatGPT/Biblioteca/Codex.",
   "editorial_backlog": {
@@ -450,5 +461,17 @@
     "chatgpt_project_binding": "B0_NO_CHATGPT_PROJECT_BINDING",
     "project_level_memory_mode": "NOT_APPLICABLE",
     "runtime_context_rule": "CLASSIFY_PER_EXECUTION_SESSION"
+  },
+  "current_retrieval_strategy": {
+    "strategy_code": "EA-000001-000036",
+    "strategy_name": "Piloto local de recuperação lexical auditável",
+    "phase_number": 1,
+    "phase_total": 6,
+    "phase_code": "F-000001-000036-001",
+    "phase_name": "Registro, classificação e baseline",
+    "status": "IN_PROGRESS",
+    "plan_ref": "governanca/estrategia-piloto-retrieval-lexical-ea-000001-000036.md",
+    "state_ref": "governanca/EA-000001-000036_STATE.json",
+    "next_step": "Inventariar mecanismo existente e corpus editorial público elegível; persistir baseline F1."
   }
 }
