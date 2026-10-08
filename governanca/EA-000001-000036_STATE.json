@@ -6,13 +6,13 @@
   "project_name": "Classe e Massas",
   "status": "IN_PROGRESS",
   "created_at": "2026-10-07T21:38:31-03:00",
-  "updated_at": "2026-10-07T21:46:00-03:00",
+  "updated_at": "2026-10-07T22:00:00-03:00",
   "request_id": "REQ-20261007-001",
   "plan_ref": "governanca/estrategia-piloto-retrieval-lexical-ea-000001-000036.md",
-  "phase_number": 2,
+  "phase_number": 3,
   "phase_total": 6,
-  "phase_code": "F-000001-000036-002",
-  "phase_name": "Contrato de documentos e unidades",
+  "phase_code": "F-000001-000036-003",
+  "phase_name": "Índice lexical determinístico",
   "phase_status": "IN_PROGRESS",
   "classification": "S0_PUBLICO",
   "source_scope": "PUBLIC_EDITORIAL_CONTENT_ONLY",
@@ -28,7 +28,7 @@
   "terminal_gate": "PRJ000001_LEXICAL_RETRIEVAL_PILOT_VERIFIED",
   "terminal_gate_status": "NOT_EVALUATED",
   "blockers": [],
-  "next_executable_action": "Materializar contrato determinístico de documentos e unidades para os 40 textos públicos elegíveis.",
+  "next_executable_action": "Persistir construtor, ferramenta de consulta e índice BM25 exact-first; verificar reconstrução determinística.",
   "phases": [
     {
       "phase_number": 1,
@@ -38,12 +38,12 @@
     {
       "phase_number": 2,
       "phase_code": "F-000001-000036-002",
-      "status": "IN_PROGRESS"
+      "status": "COMPLETED"
     },
     {
       "phase_number": 3,
       "phase_code": "F-000001-000036-003",
-      "status": "NOT_STARTED"
+      "status": "IN_PROGRESS"
     },
     {
       "phase_number": 4,
@@ -70,6 +70,17 @@
         "governanca/retrieval/F1_BASELINE.json"
       ],
       "summary": "40 documentos Markdown públicos elegíveis; corpus S0 delimitado; mecanismo anterior classificado como descoberta factual/metadados."
+    },
+    {
+      "phase_code": "F-000001-000036-002",
+      "status": "PASSED",
+      "completed_at": "2026-10-07T22:00:00-03:00",
+      "evidence": [
+        "governanca/retrieval/RETRIEVAL_CONTRACT.md",
+        "governanca/retrieval/RETRIEVAL_DOCUMENTS.jsonl",
+        "governanca/retrieval/RETRIEVAL_UNITS.jsonl"
+      ],
+      "summary": "Contrato S0 materializado para 40 documentos e 556 unidades com hashes e IDs estáveis."
     }
   ]
 }
