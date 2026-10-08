@@ -5,30 +5,30 @@
     ".html": 62,
     ".js": 1,
     ".json": 30,
-    ".jsonl": 3,
-    ".md": 152,
+    ".jsonl": 5,
+    ".md": 153,
     ".py": 2,
     ".txt": 1,
     ".yml": 3
   },
   "generator": "tools/build_knowledge_index.py",
   "index_file": "governanca/KNOWLEDGE_INDEX.jsonl",
-  "record_count": 256,
+  "record_count": 259,
   "schema_version": "1.0",
   "semantic_tag_counts": {
     "bdtd_ibict": 7,
-    "editorial": 182,
-    "financeiro": 45,
-    "fonte": 105,
-    "governanca": 95,
-    "juridico": 116,
-    "pesquisa_academica": 114,
-    "trabalho_sindical": 144
+    "editorial": 185,
+    "financeiro": 46,
+    "fonte": 106,
+    "governanca": 98,
+    "juridico": 118,
+    "pesquisa_academica": 116,
+    "trabalho_sindical": 146
   },
   "source_system_counts": {
     "BDTD/IBICT": 2,
     "Banco Central do Brasil": 2,
-    "GOV.BR": 16,
+    "GOV.BR": 17,
     "IBICT": 2,
     "Planalto": 7
   }
