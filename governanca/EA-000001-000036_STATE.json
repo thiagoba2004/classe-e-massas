@@ -4,16 +4,16 @@
   "strategy_name": "Piloto local de recuperação lexical auditável",
   "project_code": "PRJ-000001",
   "project_name": "Classe e Massas",
-  "status": "IN_PROGRESS",
+  "status": "COMPLETED",
   "created_at": "2026-10-07T21:38:31-03:00",
-  "updated_at": "2026-10-07T22:24:00-03:00",
+  "updated_at": "2026-10-07T22:32:00-03:00",
   "request_id": "REQ-20261007-001",
   "plan_ref": "governanca/estrategia-piloto-retrieval-lexical-ea-000001-000036.md",
   "phase_number": 6,
   "phase_total": 6,
   "phase_code": "F-000001-000036-006",
   "phase_name": "Auditoria, readback e fechamento",
-  "phase_status": "IN_PROGRESS",
+  "phase_status": "COMPLETED",
   "classification": "S0_PUBLICO",
   "source_scope": "PUBLIC_EDITORIAL_CONTENT_ONLY",
   "excluded_scope": [
@@ -26,9 +26,9 @@
   ],
   "predecessor_global": "EA-000000-000022",
   "terminal_gate": "PRJ000001_LEXICAL_RETRIEVAL_PILOT_VERIFIED",
-  "terminal_gate_status": "NOT_EVALUATED",
+  "terminal_gate_status": "PASSED",
   "blockers": [],
-  "next_executable_action": "Persistir auditoria final, reler artefatos remotos e avaliar o gate terminal.",
+  "next_executable_action": "Manutenção: reconstruir e retestar após alteração das fontes públicas do manifesto.",
   "phases": [
     {
       "phase_number": 1,
@@ -58,7 +58,7 @@
     {
       "phase_number": 6,
       "phase_code": "F-000001-000036-006",
-      "status": "IN_PROGRESS"
+      "status": "COMPLETED"
     }
   ],
   "checkpoints": [
@@ -111,6 +111,18 @@
         "governanca/retrieval/LEXICAL_BENCHMARK_RESULT.json"
       ],
       "summary": "Gate de benchmark aprovado: Recall@5 1,0; MRR 0,9737; nDCG@5 0,9806; exact-first, evidência e negativo 1,0; reconstrução idêntica."
+    },
+    {
+      "phase_code": "F-000001-000036-006",
+      "status": "PASSED",
+      "completed_at": "2026-10-07T22:32:00-03:00",
+      "evidence": [
+        "governanca/auditoria-piloto-retrieval-lexical-ea-000001-000036.md",
+        "governanca/retrieval/LEXICAL_BENCHMARK_RESULT.json"
+      ],
+      "summary": "Readback remoto confirmou 10 artefatos, 40 documentos, 556 unidades, 20 casos e todos os checks do gate em PASSED."
     }
-  ]
+  ],
+  "decision": "ADOPT_LOCAL_COMPLEMENTARY_LEXICAL_RETRIEVAL",
+  "completed_at": "2026-10-07T22:32:00-03:00"
 }
