@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "strategy_code": "EA-000001-000036",
+  "strategy_name": "Piloto local de recuperação lexical auditável",
+  "project_code": "PRJ-000001",
+  "project_name": "Classe e Massas",
+  "status": "IN_PROGRESS",
+  "created_at": "2026-10-07T21:38:31-03:00",
+  "updated_at": "2026-10-07T21:38:31-03:00",
+  "request_id": "REQ-20261007-001",
+  "plan_ref": "governanca/estrategia-piloto-retrieval-lexical-ea-000001-000036.md",
+  "phase_number": 1,
+  "phase_total": 6,
+  "phase_code": "F-000001-000036-001",
+  "phase_name": "Registro, classificação e baseline",
+  "phase_status": "IN_PROGRESS",
+  "classification": "S0_PUBLICO",
+  "source_scope": "PUBLIC_EDITORIAL_CONTENT_ONLY",
+  "excluded_scope": [
+    "GOVERNANCE_INTERNAL",
+    "REQUEST_AND_STRATEGY_LOGS",
+    "EDITORIAL_BACKLOG",
+    "FORM_DATA",
+    "CREDENTIALS",
+    "S1_OR_HIGHER"
+  ],
+  "predecessor_global": "EA-000000-000022",
+  "terminal_gate": "PRJ000001_LEXICAL_RETRIEVAL_PILOT_VERIFIED",
+  "terminal_gate_status": "NOT_EVALUATED",
+  "blockers": [],
+  "next_executable_action": "Inventariar o mecanismo existente e o corpus editorial público elegível; persistir baseline F1.",
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_code": "F-000001-000036-001",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "phase_number": 2,
+      "phase_code": "F-000001-000036-002",
+      "status": "NOT_STARTED"
+    },
+    {
+      "phase_number": 3,
+      "phase_code": "F-000001-000036-003",
+      "status": "NOT_STARTED"
+    },
+    {
+      "phase_number": 4,
+      "phase_code": "F-000001-000036-004",
+      "status": "NOT_STARTED"
+    },
+    {
+      "phase_number": 5,
+      "phase_code": "F-000001-000036-005",
+      "status": "NOT_STARTED"
+    },
+    {
+      "phase_number": 6,
+      "phase_code": "F-000001-000036-006",
+      "status": "NOT_STARTED"
+    }
+  ],
+  "checkpoints": []
+}
