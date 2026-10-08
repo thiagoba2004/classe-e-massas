@@ -4,7 +4,7 @@
     ".css": 2,
     ".html": 62,
     ".js": 1,
-    ".json": 29,
+    ".json": 30,
     ".jsonl": 3,
     ".md": 152,
     ".py": 2,
@@ -13,17 +13,17 @@
   },
   "generator": "tools/build_knowledge_index.py",
   "index_file": "governanca/KNOWLEDGE_INDEX.jsonl",
-  "record_count": 255,
+  "record_count": 256,
   "schema_version": "1.0",
   "semantic_tag_counts": {
     "bdtd_ibict": 7,
-    "editorial": 181,
+    "editorial": 182,
     "financeiro": 45,
     "fonte": 105,
-    "governanca": 94,
-    "juridico": 115,
-    "pesquisa_academica": 113,
-    "trabalho_sindical": 143
+    "governanca": 95,
+    "juridico": 116,
+    "pesquisa_academica": 114,
+    "trabalho_sindical": 144
   },
   "source_system_counts": {
     "BDTD/IBICT": 2,
