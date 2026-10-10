@@ -922,3 +922,9 @@ O usuário autorizou sugestões e inovações. A partir desta versão, a autoriz
 - não expandir silenciosamente o escopo;
 - quando aprovada e material, vincular a Estratégia Autônoma e Plano de Fases;
 - no fechamento de trabalho substancial, executar **innovation check**: indexar, automatizar, padronizar, reutilizar, simplificar ou aumentar verificabilidade é possível?
+
+## Gate de atribuição de ações por executor — 10/10/2026
+
+**Decisão humana transversal:** manter banco local `governanca/EXECUTOR_ACTION_CATALOG.json`, herdando as ações globais do catálogo `GOV-EXEC-ACTIONS-000001` e a política `GOV-POL-ECO-000001`. Para trabalho persistente, decompor a tarefa em ações identificáveis; antes de cada ação material, conferir `action_id`, `required_executor`, autorização, capacidades, limites, segurança e gates locais. É proibido encaminhar uma ação não classificada ou a executor divergente. A exceção exige decisão humana **expressa e específica**, registrada no catálogo global de overrides, com evidência verificável; aprovação desta política não é autorização genérica de exceção.
+
+Preferir mecanismo determinístico seguro quando suficiente; usar o Chat em análise/documentação acessível e reservar Work/Codex para capacidades técnicas necessárias. A catalogação não substitui metodologia, checkpoints, políticas de sigilo ou autorizações existentes. O verificador `runtime/executor_action_gate.py` no repositório da Governança só bloqueia **despachos que efetivamente o invocarem**: não alegar interceptação automática das interfaces nativas Chat, Work ou Codex, nem mudança de executor sem comprovação.
