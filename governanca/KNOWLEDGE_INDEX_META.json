@@ -6,23 +6,23 @@
     ".js": 1,
     ".json": 33,
     ".jsonl": 6,
-    ".md": 154,
+    ".md": 155,
     ".py": 5,
     ".txt": 1,
     ".yml": 3
   },
   "generator": "tools/build_knowledge_index.py",
   "index_file": "governanca/KNOWLEDGE_INDEX.jsonl",
-  "record_count": 267,
+  "record_count": 268,
   "schema_version": "1.0",
   "semantic_tag_counts": {
     "bdtd_ibict": 7,
-    "editorial": 189,
+    "editorial": 190,
     "financeiro": 47,
     "fonte": 109,
-    "governanca": 106,
+    "governanca": 107,
     "juridico": 121,
-    "pesquisa_academica": 119,
+    "pesquisa_academica": 120,
     "trabalho_sindical": 149
   },
   "source_system_counts": {
