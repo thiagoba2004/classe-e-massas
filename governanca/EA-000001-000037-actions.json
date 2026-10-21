@@ -6,7 +6,7 @@
   "request_ref": "REQ-20261020-001",
   "created_date": "2026-10-20",
   "scope": "REGISTRATION_AND_PLANNING_ONLY_NO_DEPLOY",
-  "status": "PLANNED_PENDING_DUAL_READBACK",
+  "status": "REGISTERED_PLANNED_AUDIT_NOT_STARTED",
   "note": "Ação 001 é a constituição documental. Demais ações são planejamento, sem autorização material de testes de runtime ou alterações do site. Execução e gates exigem preflight próprio, inclusive bloqueador por executor.",
   "actions": [
     {
@@ -45,8 +45,16 @@
       "on_block": "Preservar estado PLANNED/BLOCKED com causa/owner/ref; avançar apenas ações independentes que tenham autorização",
       "cost_class": "NO_NEW_SPEND_APPROVED",
       "spend_limit": 0,
-      "status": "PLANNED",
-      "verified_scope": "NONE_AT_REGISTRATION"
+      "status": "VERIFIED_DOCUMENTARY_DUAL_REGISTRY_ONLY",
+      "verified_scope": "LOCAL_PLAN_ACTION_MATRIX_REQUEST_AND_CREATED_EVENT_REMOTE_READBACK; GLOBAL_PORTFOLIO_ENTRY_READBACK",
+      "evidence_refs": [
+        "thiagoba2004/classe-e-massas/commit/302c0b4fb4fe301cb27b1e5e962e338f1db0a054",
+        "thiagoba2004/classe-e-massas/commit/204cec0c35511a611620b14263fda60b51d18426",
+        "thiagoba2004/classe-e-massas/commit/25daf207b2f67d01d5a379c496165bd0e0eaad28",
+        "thiagoba2004/classe-e-massas/commit/4d6829f28d05d7ec8357039f7e521520da8d9c9c",
+        "thiagoba2004/classe-e-massas/commit/3e49f39cc5c47db8cba3cc4bab38c5619ce3a174",
+        "thiagoba2004/governanca-geral-modelos-ia/commit/3b7f1f1ab46d0485499b41633273c672a1b6de62"
+      ]
     },
     {
       "action_key": "ACT-000001-000037-002",
@@ -343,5 +351,6 @@
       "status": "PLANNED",
       "verified_scope": "NONE_AT_REGISTRATION"
     }
-  ]
+  ],
+  "notes_registry": "F001 DOCUMENTARY VERIFIED; future actions require explicit executor and mandate."
 }
