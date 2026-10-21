@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2",
   "project": "Classe e Massas",
-  "updated_at": "2026-10-07T22:32:00-03:00",
+  "updated_at": "2026-10-21T02:13:25.484Z",
   "purpose": "Fonte estruturada de continuidade entre conversas, modelos de IA e sessões de trabalho. Não substitui os documentos específicos de cada frente; aponta o estado mais avançado comprovado e a próxima etapa.",
   "rules": {
     "authoritative_order": [
@@ -363,26 +363,28 @@
     "result": "ENVIAR MENSAGEM usa submit-button oval/pílula; cor vermelha editorial preservada."
   },
   "next_site_step": "Modo operacional; preservar submit-button oval em futuras alterações.",
-  "current_strategy_code": "EA-000001-000036",
-  "current_strategy_name": "Piloto local de recuperação lexical auditável",
+  "current_strategy_code": "EA-000001-000037",
+  "current_strategy_name": "Auditoria da superfície efetivamente publicada e decisão de arquitetura GitHub Pages",
   "current_strategy": {
-    "strategy_code": "EA-000001-000036",
-    "strategy_name": "Piloto local de recuperação lexical auditável",
-    "phase_number": 6,
+    "strategy_code": "EA-000001-000037",
+    "strategy_name": "Auditoria da superfície efetivamente publicada e decisão de arquitetura GitHub Pages",
+    "phase_number": 1,
     "phase_total": 6,
-    "phase_code": "F-000001-000036-006",
-    "phase_name": "Auditoria, readback e fechamento",
-    "status": "COMPLETED",
-    "plan_ref": "governanca/estrategia-piloto-retrieval-lexical-ea-000001-000036.md",
-    "state_ref": "governanca/EA-000001-000036_STATE.json",
-    "next_step": "Manutenção: reconstruir e retestar após alteração das fontes públicas do manifesto.",
-    "terminal_gate": "PRJ000001_LEXICAL_RETRIEVAL_PILOT_VERIFIED",
-    "terminal_gate_status": "PASSED",
-    "decision": "ADOPT_LOCAL_COMPLEMENTARY_LEXICAL_RETRIEVAL"
+    "phase_code": "F-000001-000037-001",
+    "phase_name": "Registro, identidade, escopo e segurança",
+    "status": "PLANNED_PENDING_DUAL_REGISTRY",
+    "phase_status": "LOCAL_CREATED_GLOBAL_REGISTRY_PENDING",
+    "plan_ref": "governanca/estrategia-auditoria-superficie-publicada-ea-000001-000037.md",
+    "actions_ref": "governanca/EA-000001-000037-actions.json",
+    "request_ref": "REQ-20261020-001",
+    "event_ref": "EVT-CEM-20261020-PAGES-SURFACE-001",
+    "next_step": "Concluir readback dual F001; depois executar F002 inventário HTTP e da fonte apenas com preflight/executor autorizado.",
+    "terminal_gate": "EA037_PUBLICATION_AUDIT_RECORDED_WITH_EVIDENCE",
+    "terminal_gate_status": "NOT_VERIFIED"
   },
-  "current_phase": "F-000001-000036-006",
-  "strategy_status": "CONCLUIDA",
-  "next_logical_step": "Manutenção: reconstruir e retestar após alteração das fontes públicas do manifesto.",
+  "current_phase": "F-000001-000037-001",
+  "strategy_status": "PLANNED_PENDING_DUAL_REGISTRY",
+  "next_logical_step": "EA-000001-000037/F001: confirmar registro dual e matriz; F002 requer admissão técnica e executor correto.",
   "last_concluded_strategy_code": "EA-000001-000036",
   "last_completed_milestone": "EA-000001-000036 concluída: piloto lexical BM25 exact-first aprovado para adoção local complementar, com 40 documentos, 556 unidades e benchmark verificado.",
   "editorial_backlog": {
@@ -479,5 +481,16 @@
     "terminal_gate": "PRJ000001_LEXICAL_RETRIEVAL_PILOT_VERIFIED",
     "terminal_gate_status": "PASSED",
     "decision": "ADOPT_LOCAL_COMPLEMENTARY_LEXICAL_RETRIEVAL"
+  },
+  "publication_surface_audit_strategy": {
+    "strategy_code": "EA-000001-000037",
+    "status": "PLANNED_PENDING_DUAL_REGISTRY",
+    "site_source_policy": "PRESERVE_CURRENT_ROOT_UNTIL_EVIDENCE_AND_HUMAN_DECISION",
+    "audit_execution": "NOT_STARTED",
+    "migration_approved": false,
+    "stage": "F001_REGISTRATION",
+    "scope": "GITHUB_PAGES_EXPOSURE_AND_ARCHITECTURE_COMPARISON",
+    "plan_ref": "governanca/estrategia-auditoria-superficie-publicada-ea-000001-000037.md",
+    "actions_ref": "governanca/EA-000001-000037-actions.json"
   }
 }
