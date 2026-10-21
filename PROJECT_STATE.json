@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2",
   "project": "Classe e Massas",
-  "updated_at": "2026-10-21T02:15:02.213Z",
+  "updated_at": "2026-10-21T02:31:24.300Z",
   "purpose": "Fonte estruturada de continuidade entre conversas, modelos de IA e sessões de trabalho. Não substitui os documentos específicos de cada frente; aponta o estado mais avançado comprovado e a próxima etapa.",
   "rules": {
     "authoritative_order": [
@@ -363,28 +363,26 @@
     "result": "ENVIAR MENSAGEM usa submit-button oval/pílula; cor vermelha editorial preservada."
   },
   "next_site_step": "Modo operacional; preservar submit-button oval em futuras alterações.",
-  "current_strategy_code": "EA-000001-000037",
-  "current_strategy_name": "Auditoria da superfície efetivamente publicada e decisão de arquitetura GitHub Pages",
+  "current_strategy_code": "EA-000001-000036",
+  "current_strategy_name": "Piloto local de recuperação lexical auditável",
   "current_strategy": {
-    "strategy_code": "EA-000001-000037",
-    "strategy_name": "Auditoria da superfície efetivamente publicada e decisão de arquitetura GitHub Pages",
-    "phase_number": 1,
+    "strategy_code": "EA-000001-000036",
+    "strategy_name": "Piloto local de recuperação lexical auditável",
+    "phase_number": 6,
     "phase_total": 6,
-    "phase_code": "F-000001-000037-001",
-    "phase_name": "Registro, identidade, escopo e segurança",
-    "status": "PLANNED_REGISTERED_DUAL_VERIFIED_AUDIT_NOT_STARTED",
-    "phase_status": "F001_DOCUMENTARY_REGISTRATION_VERIFIED_F002_NOT_STARTED",
-    "plan_ref": "governanca/estrategia-auditoria-superficie-publicada-ea-000001-000037.md",
-    "actions_ref": "governanca/EA-000001-000037-actions.json",
-    "request_ref": "REQ-20261020-001",
-    "event_ref": "EVT-CEM-20261020-PAGES-SURFACE-001",
-    "next_step": "F002 somente após preflight de executor/mandato/ambiente: inventário público e posterior teste dos controles de publicação.",
-    "terminal_gate": "EA037_PUBLICATION_AUDIT_RECORDED_WITH_EVIDENCE",
-    "terminal_gate_status": "NOT_VERIFIED"
+    "phase_code": "F-000001-000036-006",
+    "phase_name": "Auditoria, readback e fechamento",
+    "status": "COMPLETED",
+    "plan_ref": "governanca/estrategia-piloto-retrieval-lexical-ea-000001-000036.md",
+    "state_ref": "governanca/EA-000001-000036_STATE.json",
+    "next_step": "Manutenção: reconstruir e retestar após alteração das fontes públicas do manifesto.",
+    "terminal_gate": "PRJ000001_LEXICAL_RETRIEVAL_PILOT_VERIFIED",
+    "terminal_gate_status": "PASSED",
+    "decision": "ADOPT_LOCAL_COMPLEMENTARY_LEXICAL_RETRIEVAL"
   },
-  "current_phase": "F-000001-000037-001",
-  "strategy_status": "PLANNED_REGISTERED_DUAL_VERIFIED_AUDIT_NOT_STARTED",
-  "next_logical_step": "EA-000001-000037/F002: aguardar admissão técnica/executor para inventariar a publicação real; não alterar Pages nem migrar sem decisão posterior.",
+  "current_phase": "F-000001-000036-006",
+  "strategy_status": "CONCLUIDA",
+  "next_logical_step": "Manutenção: reconstruir e retestar após alteração das fontes públicas do manifesto.",
   "last_concluded_strategy_code": "EA-000001-000036",
   "last_completed_milestone": "EA-000001-000036 concluída: piloto lexical BM25 exact-first aprovado para adoção local complementar, com 40 documentos, 556 unidades e benchmark verificado.",
   "editorial_backlog": {
@@ -492,6 +490,8 @@
     "scope": "GITHUB_PAGES_EXPOSURE_AND_ARCHITECTURE_COMPARISON",
     "plan_ref": "governanca/estrategia-auditoria-superficie-publicada-ea-000001-000037.md",
     "actions_ref": "governanca/EA-000001-000037-actions.json",
-    "global_registration_commit": "3b7f1f1ab46d0485499b41633273c672a1b6de62"
+    "global_registration_commit": "3b7f1f1ab46d0485499b41633273c672a1b6de62",
+    "execution_priority": "NOT_SELECTED_BY_HUMAN_OR_AUTHORIZED_SCHEDULER",
+    "next_internal_phase": "F-000001-000037-002_NOT_DISPATCHED"
   }
 }
